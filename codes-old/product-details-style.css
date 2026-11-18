@@ -1,0 +1,39 @@
+html.desktop.route-product-product .product-info + .product-blocks > .product-blocks-default > * {
+  margin-left: calc(50% - 50vw + 7.5px) !important;
+  margin-right: calc(50% - 50vw + 7.5px) !important;
+}
+
+html.route-product-product .product-info + .product-blocks > .product-blocks-default > * > * {
+  max-width: 1440px !important;
+}
+
+html.route-product-product .zm-viewer {
+  border-radius: 10px;
+}
+
+.route-product-product:has(.box-productbundles) .product-right > .product-details :where(.product-price-group, .button-group-page, .product-blocks-details),
+.route-product-product:has(.box-productbundles) .product-right > .title.module-title {
+  display: none !important;
+}
+
+.route-product-product:not(.popup) .product-info .button-group-page .btn-cart .btn-text {
+  padding: 0 0.4em;
+}
+
+.desktop.route-product-product:not(.popup) .product-info .product-left {
+  --fs-sticky-offset: 80px;
+}
+
+.route-product-product .scroll-top {
+  bottom: 10px !important;
+}
+
+@media (max-width: 760px) {
+  .route-product-product:not(:has(.box-productbundles)) .scroll-top {
+    bottom: 118px !important;
+  }
+
+  .route-product-product:not(:has(.box-productbundles)) #WAButton.floating-wpp {
+    bottom: 120px !important;
+  }
+}

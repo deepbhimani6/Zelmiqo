@@ -1,0 +1,150 @@
+{
+  "folder": "common-all-pages",
+  "total_files": 24,
+  "files": [
+    {
+      "filename": "icon-whatsapp.png",
+      "format": "png",
+      "relative_path": "png/icon-whatsapp.png",
+      "size_bytes": 30559
+    },
+    {
+      "filename": "logo-zelmiqo-header.png",
+      "format": "png",
+      "relative_path": "png/logo-zelmiqo-header.png",
+      "size_bytes": 16423
+    },
+    {
+      "filename": "logo-zelmiqo-header_200x200.png",
+      "format": "png",
+      "relative_path": "png/logo-zelmiqo-header_200x200.png",
+      "size_bytes": 20953
+    },
+    {
+      "filename": "logo-zelmiqo-header_600x315.png",
+      "format": "png",
+      "relative_path": "png/logo-zelmiqo-header_600x315.png",
+      "size_bytes": 46404
+    },
+    {
+      "filename": "payment-american-express_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-american-express_h16.png",
+      "size_bytes": 1356
+    },
+    {
+      "filename": "payment-american-express_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-american-express_h32.png",
+      "size_bytes": 3749
+    },
+    {
+      "filename": "payment-apple-pay_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-apple-pay_h16.png",
+      "size_bytes": 438
+    },
+    {
+      "filename": "payment-apple-pay_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-apple-pay_h32.png",
+      "size_bytes": 876
+    },
+    {
+      "filename": "payment-google-pay_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-google-pay_h16.png",
+      "size_bytes": 488
+    },
+    {
+      "filename": "payment-google-pay_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-google-pay_h32.png",
+      "size_bytes": 1139
+    },
+    {
+      "filename": "payment-mastercard_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-mastercard_h16.png",
+      "size_bytes": 819
+    },
+    {
+      "filename": "payment-mastercard_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-mastercard_h32.png",
+      "size_bytes": 2042
+    },
+    {
+      "filename": "payment-paypal_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-paypal_h16.png",
+      "size_bytes": 1283
+    },
+    {
+      "filename": "payment-paypal_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-paypal_h32.png",
+      "size_bytes": 3186
+    },
+    {
+      "filename": "payment-razorpay_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-razorpay_h16.png",
+      "size_bytes": 447
+    },
+    {
+      "filename": "payment-razorpay_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-razorpay_h32.png",
+      "size_bytes": 993
+    },
+    {
+      "filename": "payment-visa_h16.png",
+      "format": "png",
+      "relative_path": "png/payment-visa_h16.png",
+      "size_bytes": 1256
+    },
+    {
+      "filename": "payment-visa_h32.png",
+      "format": "png",
+      "relative_path": "png/payment-visa_h32.png",
+      "size_bytes": 3097
+    },
+    {
+      "filename": "spacer-transparent.png",
+      "format": "png",
+      "relative_path": "png/spacer-transparent.png",
+      "size_bytes": 151
+    },
+    {
+      "filename": "favicon-zelmiqo_100x100.svg",
+      "format": "svg",
+      "relative_path": "svg/favicon-zelmiqo_100x100.svg",
+      "size_bytes": 13080
+    },
+    {
+      "filename": "flag-arabic.webp",
+      "format": "webp",
+      "relative_path": "webp/flag-arabic.webp",
+      "size_bytes": 136
+    },
+    {
+      "filename": "flag-english.webp",
+      "format": "webp",
+      "relative_path": "webp/flag-english.webp",
+      "size_bytes": 408
+    },
+    {
+      "filename": "logo-zelmiqo-footer.webp",
+      "format": "webp",
+      "relative_path": "webp/logo-zelmiqo-footer.webp",
+      "size_bytes": 42724
+    },
+    {
+      "filename": "logo-zelmiqo-footer_w500.webp",
+      "format": "webp",
+      "relative_path": "webp/logo-zelmiqo-footer_w500.webp",
+      "size_bytes": 39948
+    }
+  ]
+}

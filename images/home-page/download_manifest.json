@@ -1,0 +1,576 @@
+{
+  "folder": "home-page",
+  "total_files": 95,
+  "files": [
+    {
+      "filename": "banner-hero-smart-gadgets.png",
+      "format": "png",
+      "relative_path": "png/banner-hero-smart-gadgets.png",
+      "size_bytes": 1656987
+    },
+    {
+      "filename": "banner-hero-smart-gadgets_1920x950.png",
+      "format": "png",
+      "relative_path": "png/banner-hero-smart-gadgets_1920x950.png",
+      "size_bytes": 2308871
+    },
+    {
+      "filename": "banner-hero-smart-gadgets_3840x1900.png",
+      "format": "png",
+      "relative_path": "png/banner-hero-smart-gadgets_3840x1900.png",
+      "size_bytes": 8500246
+    },
+    {
+      "filename": "banner-hero-summer-deals.png",
+      "format": "png",
+      "relative_path": "png/banner-hero-summer-deals.png",
+      "size_bytes": 1586401
+    },
+    {
+      "filename": "banner-hero-summer-deals_1920x950.png",
+      "format": "png",
+      "relative_path": "png/banner-hero-summer-deals_1920x950.png",
+      "size_bytes": 2226234
+    },
+    {
+      "filename": "banner-hero-summer-deals_3840x1900.png",
+      "format": "png",
+      "relative_path": "png/banner-hero-summer-deals_3840x1900.png",
+      "size_bytes": 8570806
+    },
+    {
+      "filename": "category-beauty-personal-care.png",
+      "format": "png",
+      "relative_path": "png/category-beauty-personal-care.png",
+      "size_bytes": 1964461
+    },
+    {
+      "filename": "category-beauty-personal-care_1200x1200.png",
+      "format": "png",
+      "relative_path": "png/category-beauty-personal-care_1200x1200.png",
+      "size_bytes": 1835810
+    },
+    {
+      "filename": "category-beauty-personal-care_600x600.png",
+      "format": "png",
+      "relative_path": "png/category-beauty-personal-care_600x600.png",
+      "size_bytes": 502270
+    },
+    {
+      "filename": "category-car-accessories.png",
+      "format": "png",
+      "relative_path": "png/category-car-accessories.png",
+      "size_bytes": 2545204
+    },
+    {
+      "filename": "category-electronics-gadgets.png",
+      "format": "png",
+      "relative_path": "png/category-electronics-gadgets.png",
+      "size_bytes": 2044164
+    },
+    {
+      "filename": "category-electronics-gadgets_1200x1200.png",
+      "format": "png",
+      "relative_path": "png/category-electronics-gadgets_1200x1200.png",
+      "size_bytes": 1882389
+    },
+    {
+      "filename": "category-electronics-gadgets_600x600.png",
+      "format": "png",
+      "relative_path": "png/category-electronics-gadgets_600x600.png",
+      "size_bytes": 472176
+    },
+    {
+      "filename": "category-health-fitness.png",
+      "format": "png",
+      "relative_path": "png/category-health-fitness.png",
+      "size_bytes": 2290031
+    },
+    {
+      "filename": "category-home-kitchen.png",
+      "format": "png",
+      "relative_path": "png/category-home-kitchen.png",
+      "size_bytes": 2191543
+    },
+    {
+      "filename": "category-islamic-gift-products.png",
+      "format": "png",
+      "relative_path": "png/category-islamic-gift-products.png",
+      "size_bytes": 2357094
+    },
+    {
+      "filename": "category-mobile-accessories.png",
+      "format": "png",
+      "relative_path": "png/category-mobile-accessories.png",
+      "size_bytes": 2507185
+    },
+    {
+      "filename": "category-summer-products.png",
+      "format": "png",
+      "relative_path": "png/category-summer-products.png",
+      "size_bytes": 2719212
+    },
+    {
+      "filename": "icon-best-price.png",
+      "format": "png",
+      "relative_path": "png/icon-best-price.png",
+      "size_bytes": 646
+    },
+    {
+      "filename": "icon-camera.png",
+      "format": "png",
+      "relative_path": "png/icon-camera.png",
+      "size_bytes": 756
+    },
+    {
+      "filename": "icon-car.png",
+      "format": "png",
+      "relative_path": "png/icon-car.png",
+      "size_bytes": 408
+    },
+    {
+      "filename": "icon-checkmark-circle.png",
+      "format": "png",
+      "relative_path": "png/icon-checkmark-circle.png",
+      "size_bytes": 625
+    },
+    {
+      "filename": "icon-checkmark.png",
+      "format": "png",
+      "relative_path": "png/icon-checkmark.png",
+      "size_bytes": 369
+    },
+    {
+      "filename": "icon-customer-reviews.png",
+      "format": "png",
+      "relative_path": "png/icon-customer-reviews.png",
+      "size_bytes": 620
+    },
+    {
+      "filename": "icon-documentation.png",
+      "format": "png",
+      "relative_path": "png/icon-documentation.png",
+      "size_bytes": 249
+    },
+    {
+      "filename": "icon-easy-returns.png",
+      "format": "png",
+      "relative_path": "png/icon-easy-returns.png",
+      "size_bytes": 824
+    },
+    {
+      "filename": "icon-fast-shipping.png",
+      "format": "png",
+      "relative_path": "png/icon-fast-shipping.png",
+      "size_bytes": 652
+    },
+    {
+      "filename": "icon-gift-box.png",
+      "format": "png",
+      "relative_path": "png/icon-gift-box.png",
+      "size_bytes": 367
+    },
+    {
+      "filename": "icon-home.png",
+      "format": "png",
+      "relative_path": "png/icon-home.png",
+      "size_bytes": 498
+    },
+    {
+      "filename": "icon-hot-deals.png",
+      "format": "png",
+      "relative_path": "png/icon-hot-deals.png",
+      "size_bytes": 726
+    },
+    {
+      "filename": "icon-lightning-fast.png",
+      "format": "png",
+      "relative_path": "png/icon-lightning-fast.png",
+      "size_bytes": 514
+    },
+    {
+      "filename": "icon-multiple-options.png",
+      "format": "png",
+      "relative_path": "png/icon-multiple-options.png",
+      "size_bytes": 643
+    },
+    {
+      "filename": "icon-package-box.png",
+      "format": "png",
+      "relative_path": "png/icon-package-box.png",
+      "size_bytes": 677
+    },
+    {
+      "filename": "icon-plus-expand.png",
+      "format": "png",
+      "relative_path": "png/icon-plus-expand.png",
+      "size_bytes": 628
+    },
+    {
+      "filename": "icon-secure-shield.png",
+      "format": "png",
+      "relative_path": "png/icon-secure-shield.png",
+      "size_bytes": 807
+    },
+    {
+      "filename": "icon-shopping-bag.png",
+      "format": "png",
+      "relative_path": "png/icon-shopping-bag.png",
+      "size_bytes": 619
+    },
+    {
+      "filename": "icon-sparkle-quality.png",
+      "format": "png",
+      "relative_path": "png/icon-sparkle-quality.png",
+      "size_bytes": 810
+    },
+    {
+      "filename": "icon-sparkle-star.png",
+      "format": "png",
+      "relative_path": "png/icon-sparkle-star.png",
+      "size_bytes": 681
+    },
+    {
+      "filename": "icon-star-rating.png",
+      "format": "png",
+      "relative_path": "png/icon-star-rating.png",
+      "size_bytes": 754
+    },
+    {
+      "filename": "icon-support-phone.png",
+      "format": "png",
+      "relative_path": "png/icon-support-phone.png",
+      "size_bytes": 251
+    },
+    {
+      "filename": "icon-wishlist-heart.png",
+      "format": "png",
+      "relative_path": "png/icon-wishlist-heart.png",
+      "size_bytes": 616
+    },
+    {
+      "filename": "spacer-transparent-03.png",
+      "format": "png",
+      "relative_path": "png/spacer-transparent-03.png",
+      "size_bytes": 354
+    },
+    {
+      "filename": "spacer-transparent-04.png",
+      "format": "png",
+      "relative_path": "png/spacer-transparent-04.png",
+      "size_bytes": 307
+    },
+    {
+      "filename": "spacer-transparent-05.png",
+      "format": "png",
+      "relative_path": "png/spacer-transparent-05.png",
+      "size_bytes": 121
+    },
+    {
+      "filename": "spacer-transparent.png",
+      "format": "png",
+      "relative_path": "png/spacer-transparent.png",
+      "size_bytes": 141
+    },
+    {
+      "filename": "category-beauty-personal-care_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-beauty-personal-care_280x280.svg",
+      "size_bytes": 2619580
+    },
+    {
+      "filename": "category-beauty-personal-care_560x560.svg",
+      "format": "svg",
+      "relative_path": "svg/category-beauty-personal-care_560x560.svg",
+      "size_bytes": 2619580
+    },
+    {
+      "filename": "category-car-accessories_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-car-accessories_280x280.svg",
+      "size_bytes": 3393904
+    },
+    {
+      "filename": "category-car-accessories_560x560.svg",
+      "format": "svg",
+      "relative_path": "svg/category-car-accessories_560x560.svg",
+      "size_bytes": 3393904
+    },
+    {
+      "filename": "category-electronics-gadgets_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-electronics-gadgets_280x280.svg",
+      "size_bytes": 2725848
+    },
+    {
+      "filename": "category-electronics-gadgets_560x560.svg",
+      "format": "svg",
+      "relative_path": "svg/category-electronics-gadgets_560x560.svg",
+      "size_bytes": 2725848
+    },
+    {
+      "filename": "category-health-fitness_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-health-fitness_280x280.svg",
+      "size_bytes": 3053672
+    },
+    {
+      "filename": "category-home-kitchen_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-home-kitchen_280x280.svg",
+      "size_bytes": 2922356
+    },
+    {
+      "filename": "category-home-kitchen_560x560.svg",
+      "format": "svg",
+      "relative_path": "svg/category-home-kitchen_560x560.svg",
+      "size_bytes": 2922356
+    },
+    {
+      "filename": "category-islamic-gift-products_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-islamic-gift-products_280x280.svg",
+      "size_bytes": 3143088
+    },
+    {
+      "filename": "category-mobile-accessories_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-mobile-accessories_280x280.svg",
+      "size_bytes": 3343212
+    },
+    {
+      "filename": "category-mobile-accessories_560x560.svg",
+      "format": "svg",
+      "relative_path": "svg/category-mobile-accessories_560x560.svg",
+      "size_bytes": 3343212
+    },
+    {
+      "filename": "category-summer-products_280x280.svg",
+      "format": "svg",
+      "relative_path": "svg/category-summer-products_280x280.svg",
+      "size_bytes": 3625912
+    },
+    {
+      "filename": "category-summer-products_560x560.svg",
+      "format": "svg",
+      "relative_path": "svg/category-summer-products_560x560.svg",
+      "size_bytes": 3625912
+    },
+    {
+      "filename": "icon-arrow-next.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-arrow-next.svg",
+      "size_bytes": 840
+    },
+    {
+      "filename": "icon-best-price_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-best-price_34x34.svg",
+      "size_bytes": 1156
+    },
+    {
+      "filename": "icon-best-price_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-best-price_68x68.svg",
+      "size_bytes": 1156
+    },
+    {
+      "filename": "icon-camera_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-camera_34x34.svg",
+      "size_bytes": 1300
+    },
+    {
+      "filename": "icon-car_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-car_34x34.svg",
+      "size_bytes": 836
+    },
+    {
+      "filename": "icon-car_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-car_68x68.svg",
+      "size_bytes": 836
+    },
+    {
+      "filename": "icon-checkmark-circle_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-checkmark-circle_34x34.svg",
+      "size_bytes": 1128
+    },
+    {
+      "filename": "icon-checkmark-circle_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-checkmark-circle_68x68.svg",
+      "size_bytes": 1128
+    },
+    {
+      "filename": "icon-checkmark_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-checkmark_34x34.svg",
+      "size_bytes": 784
+    },
+    {
+      "filename": "icon-customer-reviews_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-customer-reviews_34x34.svg",
+      "size_bytes": 1120
+    },
+    {
+      "filename": "icon-customer-reviews_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-customer-reviews_68x68.svg",
+      "size_bytes": 1120
+    },
+    {
+      "filename": "icon-documentation_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-documentation_34x34.svg",
+      "size_bytes": 624
+    },
+    {
+      "filename": "icon-easy-returns_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-easy-returns_34x34.svg",
+      "size_bytes": 1392
+    },
+    {
+      "filename": "icon-easy-returns_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-easy-returns_68x68.svg",
+      "size_bytes": 1392
+    },
+    {
+      "filename": "icon-fast-shipping_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-fast-shipping_34x34.svg",
+      "size_bytes": 1164
+    },
+    {
+      "filename": "icon-fast-shipping_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-fast-shipping_68x68.svg",
+      "size_bytes": 1164
+    },
+    {
+      "filename": "icon-gift-box_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-gift-box_34x34.svg",
+      "size_bytes": 784
+    },
+    {
+      "filename": "icon-home_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-home_34x34.svg",
+      "size_bytes": 956
+    },
+    {
+      "filename": "icon-home_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-home_68x68.svg",
+      "size_bytes": 956
+    },
+    {
+      "filename": "icon-hot-deals_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-hot-deals_34x34.svg",
+      "size_bytes": 1260
+    },
+    {
+      "filename": "icon-lightning-fast_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-lightning-fast_34x34.svg",
+      "size_bytes": 980
+    },
+    {
+      "filename": "icon-lightning-fast_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-lightning-fast_68x68.svg",
+      "size_bytes": 980
+    },
+    {
+      "filename": "icon-multiple-options_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-multiple-options_34x34.svg",
+      "size_bytes": 1152
+    },
+    {
+      "filename": "icon-package-box_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-package-box_34x34.svg",
+      "size_bytes": 1196
+    },
+    {
+      "filename": "icon-plus-expand_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-plus-expand_34x34.svg",
+      "size_bytes": 1132
+    },
+    {
+      "filename": "icon-plus-expand_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-plus-expand_68x68.svg",
+      "size_bytes": 1132
+    },
+    {
+      "filename": "icon-secure-shield_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-secure-shield_34x34.svg",
+      "size_bytes": 1368
+    },
+    {
+      "filename": "icon-secure-shield_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-secure-shield_68x68.svg",
+      "size_bytes": 1368
+    },
+    {
+      "filename": "icon-shopping-bag_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-shopping-bag_34x34.svg",
+      "size_bytes": 1120
+    },
+    {
+      "filename": "icon-sparkle-quality_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-sparkle-quality_34x34.svg",
+      "size_bytes": 1372
+    },
+    {
+      "filename": "icon-sparkle-star_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-sparkle-star_34x34.svg",
+      "size_bytes": 1200
+    },
+    {
+      "filename": "icon-star-rating_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-star-rating_34x34.svg",
+      "size_bytes": 1300
+    },
+    {
+      "filename": "icon-support-phone_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-support-phone_34x34.svg",
+      "size_bytes": 628
+    },
+    {
+      "filename": "icon-support-phone_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-support-phone_68x68.svg",
+      "size_bytes": 628
+    },
+    {
+      "filename": "icon-wishlist-heart_34x34.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-wishlist-heart_34x34.svg",
+      "size_bytes": 1116
+    },
+    {
+      "filename": "icon-wishlist-heart_68x68.svg",
+      "format": "svg",
+      "relative_path": "svg/icon-wishlist-heart_68x68.svg",
+      "size_bytes": 1116
+    }
+  ]
+}

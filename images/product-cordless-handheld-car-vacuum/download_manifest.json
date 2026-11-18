@@ -1,0 +1,348 @@
+{
+  "folder": "product-cordless-handheld-car-vacuum",
+  "total_files": 57,
+  "files": [
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-28035_450x450.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-28035_450x450.svg",
+      "size_bytes": 175165
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-28035_900x900.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-28035_900x900.svg",
+      "size_bytes": 175165
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-02_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-58233-02_1000x1000.svg",
+      "size_bytes": 25869
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-03_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-58233-03_1000x1000.svg",
+      "size_bytes": 46453
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-04_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-58233-04_1000x1000.svg",
+      "size_bytes": 69685
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-58233_1000x1000.svg",
+      "size_bytes": 29909
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-63568_450x450.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-63568_450x450.svg",
+      "size_bytes": 26085
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-63568_900x900.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-gallery-63568_900x900.svg",
+      "size_bytes": 26085
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-main_1000x1000.svg",
+      "size_bytes": 90653
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_120x120.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-main_120x120.svg",
+      "size_bytes": 90649
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_1000x1000.svg",
+      "size_bytes": 51237
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-variant-car-12v-wired_1000x1000.svg",
+      "size_bytes": 51233
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_1000x1000.svg",
+      "size_bytes": 46837
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_1000x1000.svg",
+      "size_bytes": 43613
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-us_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-variant-wireless-dual-use-us_1000x1000.svg",
+      "size_bytes": 46493
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/cordless-handheld-car-vacuum-variant-wireless-dual-use_1000x1000.svg",
+      "size_bytes": 43205
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-02_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-02_140x140.webp",
+      "size_bytes": 2274
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-02_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-02_70x70.webp",
+      "size_bytes": 972
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-02_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-02_850x850.webp",
+      "size_bytes": 52036
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-03_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-03_140x140.webp",
+      "size_bytes": 4724
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-03_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-03_70x70.webp",
+      "size_bytes": 1758
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-03_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-03_850x850.webp",
+      "size_bytes": 20198
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-04_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-04_140x140.webp",
+      "size_bytes": 4210
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-04_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-04_1700x1700.webp",
+      "size_bytes": 45858
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-04_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-04_70x70.webp",
+      "size_bytes": 1790
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233-04_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233-04_850x850.webp",
+      "size_bytes": 30138
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233_140x140.webp",
+      "size_bytes": 4800
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-gallery-58233_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-gallery-58233_70x70.webp",
+      "size_bytes": 1894
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-main_140x140.webp",
+      "size_bytes": 5416
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-main_1700x1700.webp",
+      "size_bytes": 67762
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_200x200.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-main_200x200.webp",
+      "size_bytes": 9288
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_600x315.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-main_600x315.webp",
+      "size_bytes": 29924
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-main_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-main_70x70.webp",
+      "size_bytes": 1924
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_140x140.webp",
+      "size_bytes": 4106
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_1700x1700.webp",
+      "size_bytes": 40016
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_70x70.webp",
+      "size_bytes": 1550
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired-transparent_80x80.webp",
+      "size_bytes": 1966
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired_140x140.webp",
+      "size_bytes": 4070
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired_70x70.webp",
+      "size_bytes": 1560
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired_80x80.webp",
+      "size_bytes": 1918
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-car-12v-wired_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-car-12v-wired_850x850.webp",
+      "size_bytes": 40016
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_140x140.webp",
+      "size_bytes": 3910
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_70x70.webp",
+      "size_bytes": 1556
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_80x80.webp",
+      "size_bytes": 1880
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-eu_850x850.webp",
+      "size_bytes": 36650
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_140x140.webp",
+      "size_bytes": 3724
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_1700x1700.webp",
+      "size_bytes": 34298
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_70x70.webp",
+      "size_bytes": 1508
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-transparent_80x80.webp",
+      "size_bytes": 1880
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-us_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-us_140x140.webp",
+      "size_bytes": 3848
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-us_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-us_1700x1700.webp",
+      "size_bytes": 36364
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-us_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-us_70x70.webp",
+      "size_bytes": 1616
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use-us_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use-us_80x80.webp",
+      "size_bytes": 1924
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use_140x140.webp",
+      "size_bytes": 3578
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use_1700x1700.webp",
+      "size_bytes": 33804
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use_70x70.webp",
+      "size_bytes": 1534
+    },
+    {
+      "filename": "cordless-handheld-car-vacuum-variant-wireless-dual-use_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/cordless-handheld-car-vacuum-variant-wireless-dual-use_80x80.webp",
+      "size_bytes": 1824
+    }
+  ]
+}

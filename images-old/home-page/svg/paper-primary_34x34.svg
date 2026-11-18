@@ -1,0 +1,11 @@
+<svg width="34" height="34" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ffffff00"/>
+  <image 
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAOdEVYdFNvZnR3YXJlAEZpZ21hnrGWYwAAAHRJREFUeAHt1rsNgDAMBFCDGASmYAh2YDh2YAimIJuAaS2h+NPE0b0mRSJFPl1hIgCAmEH78Dq2hxzW/VT9MVIjJjLSTmhNMG8iH5725mP+uS6c2kJGuRPxTFyDjkjoiNRdR0o0JXREypuIdy+paSYRAICoF+BsHirf7gNmAAAAAElFTkSuQmCC" 
+    x="0" 
+    y="0"
+    width="100%" 
+    height="100%" 
+    preserveAspectRatio="xMidYMid meet"
+  />
+</svg>

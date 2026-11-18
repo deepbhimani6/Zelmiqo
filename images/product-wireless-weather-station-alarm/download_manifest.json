@@ -1,0 +1,372 @@
+{
+  "folder": "product-wireless-weather-station-alarm",
+  "total_files": 61,
+  "files": [
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-02_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/portable-wireless-car-vacuum-gallery-371579-02_1000x1000.svg",
+      "size_bytes": 87561
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-03_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/portable-wireless-car-vacuum-gallery-371579-03_1000x1000.svg",
+      "size_bytes": 69293
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-04_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/portable-wireless-car-vacuum-gallery-371579-04_1000x1000.svg",
+      "size_bytes": 101909
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-05_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/portable-wireless-car-vacuum-gallery-371579-05_1000x1000.svg",
+      "size_bytes": 71917
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/portable-wireless-car-vacuum-gallery-371579_1000x1000.svg",
+      "size_bytes": 88137
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/wireless-weather-station-alarm-main_1000x1000.svg",
+      "size_bytes": 108781
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_120x120.svg",
+      "format": "svg",
+      "relative_path": "svg/wireless-weather-station-alarm-main_120x120.svg",
+      "size_bytes": 108777
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black-02_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/wireless-weather-station-alarm-variant-black-02_1000x1000.svg",
+      "size_bytes": 94381
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/wireless-weather-station-alarm-variant-black_1000x1000.svg",
+      "size_bytes": 20813
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-white_1000x1000.svg",
+      "format": "svg",
+      "relative_path": "svg/wireless-weather-station-alarm-variant-white_1000x1000.svg",
+      "size_bytes": 19325
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-02_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-02_140x140.webp",
+      "size_bytes": 6486
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-02_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-02_1700x1700.webp",
+      "size_bytes": 65804
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-02_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-02_70x70.webp",
+      "size_bytes": 4382
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-02_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-02_850x850.webp",
+      "size_bytes": 53686
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-03_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-03_140x140.webp",
+      "size_bytes": 7494
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-03_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-03_70x70.webp",
+      "size_bytes": 4402
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-03_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-03_850x850.webp",
+      "size_bytes": 42414
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-04_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-04_140x140.webp",
+      "size_bytes": 6804
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-04_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-04_1700x1700.webp",
+      "size_bytes": 53710
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-04_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-04_70x70.webp",
+      "size_bytes": 4758
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-04_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-04_850x850.webp",
+      "size_bytes": 42142
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-05_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-05_140x140.webp",
+      "size_bytes": 6820
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-05_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-05_1700x1700.webp",
+      "size_bytes": 51742
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-05_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-05_70x70.webp",
+      "size_bytes": 4612
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579-05_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579-05_850x850.webp",
+      "size_bytes": 54540
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579_140x140.webp",
+      "size_bytes": 6874
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579_1700x1700.webp",
+      "size_bytes": 65876
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579_70x70.webp",
+      "size_bytes": 4686
+    },
+    {
+      "filename": "portable-wireless-car-vacuum-gallery-371579_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/portable-wireless-car-vacuum-gallery-371579_850x850.webp",
+      "size_bytes": 63992
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-01.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-01.webp",
+      "size_bytes": 58746
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-10.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-10.webp",
+      "size_bytes": 81468
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-11.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-11.webp",
+      "size_bytes": 74430
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-2.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-2.webp",
+      "size_bytes": 77254
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-3.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-3.webp",
+      "size_bytes": 10584
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-4.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-4.webp",
+      "size_bytes": 67386
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-5.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-5.webp",
+      "size_bytes": 65444
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-6.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-6.webp",
+      "size_bytes": 73348
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-7.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-7.webp",
+      "size_bytes": 11598
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-8.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-8.webp",
+      "size_bytes": 61668
+    },
+    {
+      "filename": "wireless-weather-station-alarm-infographic-9.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-infographic-9.webp",
+      "size_bytes": 10980
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-main_140x140.webp",
+      "size_bytes": 9178
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-main_1700x1700.webp",
+      "size_bytes": 81360
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_200x200.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-main_200x200.webp",
+      "size_bytes": 13266
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_600x315.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-main_600x315.webp",
+      "size_bytes": 28676
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-main_70x70.webp",
+      "size_bytes": 5332
+    },
+    {
+      "filename": "wireless-weather-station-alarm-main_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-main_850x850.webp",
+      "size_bytes": 68658
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black-02_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black-02_140x140.webp",
+      "size_bytes": 6734
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black-02_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black-02_1700x1700.webp",
+      "size_bytes": 15382
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black-02_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black-02_70x70.webp",
+      "size_bytes": 4500
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black-02_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black-02_80x80.webp",
+      "size_bytes": 4810
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black-02_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black-02_850x850.webp",
+      "size_bytes": 55690
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black_140x140.webp",
+      "size_bytes": 3896
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black_1700x1700.webp",
+      "size_bytes": 70560
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black_70x70.webp",
+      "size_bytes": 3502
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black_80x80.webp",
+      "size_bytes": 3544
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-black_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-black_850x850.webp",
+      "size_bytes": 12396
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-white_140x140.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-white_140x140.webp",
+      "size_bytes": 1630
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-white_1700x1700.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-white_1700x1700.webp",
+      "size_bytes": 14538
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-white_70x70.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-white_70x70.webp",
+      "size_bytes": 906
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-white_80x80.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-white_80x80.webp",
+      "size_bytes": 936
+    },
+    {
+      "filename": "wireless-weather-station-alarm-variant-white_850x850.webp",
+      "format": "webp",
+      "relative_path": "webp/wireless-weather-station-alarm-variant-white_850x850.webp",
+      "size_bytes": 10944
+    }
+  ]
+}

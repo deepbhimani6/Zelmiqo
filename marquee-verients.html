@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marquee slider</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .zel-marquee-wrap {
+      width: 100%;
+      overflow: hidden;
+      background: #06131d;
+      font-family: Arial, sans-serif;
+    }
+
+    .zel-marquee {
+      overflow: hidden;
+      width: 100%;
+      padding: 11px 0;
+    }
+
+    .zel-marquee--gold {
+      background: #d99a22;
+    }
+
+    .zel-marquee__track {
+      display: flex;
+      width: max-content;
+      animation: zelMarqueeLeft 48s linear infinite;
+      will-change: transform;
+    }
+
+    .zel-marquee:hover .zel-marquee__track {
+      animation-play-state: paused;
+    }
+
+    .zel-marquee__group {
+      display: flex;
+      flex: 0 0 auto;
+    }
+
+    .zel-marquee__item {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      flex: 0 0 auto;
+      padding: 0 34px;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      white-space: nowrap;
+    }
+
+    .zel-marquee__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 23px;
+      height: 23px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.18);
+      color: #ffffff;
+    }
+
+    .zel-marquee__icon svg {
+      display: block;
+      width: 14px;
+      height: 14px;
+    }
+
+    @keyframes zelMarqueeLeft {
+      from {
+        transform: translateX(0);
+      }
+
+      to {
+        transform: translateX(-50%);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .zel-marquee {
+        padding: 10px 0;
+      }
+
+      .zel-marquee__track {
+        animation-duration: 34s;
+      }
+
+      .zel-marquee__item {
+        gap: 7px;
+        padding: 0 18px;
+        font-size: 12px;
+      }
+
+      .zel-marquee__icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      .zel-marquee__icon svg {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  </style>
+
+  <style>
+    .zel-marquee-wrap {
+      width: 100%;
+      overflow: hidden;
+      background: #06131d;
+      font-family: Arial, sans-serif;
+    }
+
+    .zel-marquee {
+      overflow: hidden;
+      width: 100%;
+      padding: 11px 0;
+    }
+
+    .zel-marquee--dark {
+      background: #06131d;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .zel-marquee__track {
+      display: flex;
+      width: max-content;
+      animation: zelMarqueeLeft 48s linear infinite;
+      will-change: transform;
+    }
+
+    .zel-marquee--reverse .zel-marquee__track {
+      animation-name: zelMarqueeRight;
+      animation-duration: 56s;
+    }
+
+    .zel-marquee:hover .zel-marquee__track {
+      animation-play-state: paused;
+    }
+
+    .zel-marquee__group {
+      display: flex;
+      flex: 0 0 auto;
+    }
+
+    .zel-marquee__item {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      flex: 0 0 auto;
+      padding: 0 34px;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 700;
+      letter-spacing: 0.1px;
+      white-space: nowrap;
+    }
+
+    .zel-marquee__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 23px;
+      height: 23px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.18);
+      color: #ffffff;
+    }
+
+    .zel-marquee__icon svg {
+      display: block;
+      width: 14px;
+      height: 14px;
+    }
+
+    @keyframes zelMarqueeRight {
+      from {
+        transform: translateX(-50%);
+      }
+
+      to {
+        transform: translateX(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .zel-marquee {
+        padding: 10px 0;
+      }
+
+      .zel-marquee__track {
+        animation-duration: 34s;
+      }
+
+      .zel-marquee--reverse .zel-marquee__track {
+        animation-duration: 40s;
+      }
+
+      .zel-marquee__item {
+        gap: 7px;
+        padding: 0 18px;
+        font-size: 12px;
+      }
+
+      .zel-marquee__icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      .zel-marquee__icon svg {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="zel-marquee-wrap">
+    <div class="zel-marquee zel-marquee--gold">
+      <div class="zel-marquee__track">
+        <div class="zel-marquee__group">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 7h11v9H3V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M14 10h4l3 3v3h-7v-6Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor"
+                  stroke-width="2"></path>
+              </svg>
+            </span>
+            Fast Shipping
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Quality Checked Before Dispatch
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 7H5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 11a8 8 0 1 0 2.4-5.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Easy Returns On Selected Items
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3 4 7v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V7l-8-4Z" stroke="currentColor" stroke-width="2">
+                </path>
+                <path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Secure Checkout Protection
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 4h7l9 9-7 7-9-9V4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 8h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Fresh Deals Every Week
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 5h16v11H8l-4 4V5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Customer Support On WhatsApp
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            New Products Added Daily
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Best Prices For Smart Finds
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8 12 4l8 4-8 4-8-4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M4 8v8l8 4 8-4V8M12 12v8" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            Carefully Packed Orders
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8h4l2-3h4l2 3h4v11H4V8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"></path>
+              </svg>
+            </span>
+            Real Product Photos
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 7h16v13H4V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M8 7a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Shop More Save More
+          </div>
+        </div>
+
+        <div class="zel-marquee__group" aria-hidden="true">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 7h11v9H3V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M14 10h4l3 3v3h-7v-6Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor"
+                  stroke-width="2"></path>
+              </svg>
+            </span>
+            Fast Shipping
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Quality Checked Before Dispatch
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 7H5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 11a8 8 0 1 0 2.4-5.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Easy Returns On Selected Items
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3 4 7v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V7l-8-4Z" stroke="currentColor" stroke-width="2">
+                </path>
+                <path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Secure Checkout Protection
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 4h7l9 9-7 7-9-9V4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 8h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Fresh Deals Every Week
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 5h16v11H8l-4 4V5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Customer Support On WhatsApp
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            New Products Added Daily
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Best Prices For Smart Finds
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8 12 4l8 4-8 4-8-4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M4 8v8l8 4 8-4V8M12 12v8" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            Carefully Packed Orders
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8h4l2-3h4l2 3h4v11H4V8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"></path>
+              </svg>
+            </span>
+            Real Product Photos
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 7h16v13H4V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M8 7a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Shop More Save More
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="zel-marquee-wrap">
+    <div class="zel-marquee zel-marquee--gold">
+      <div class="zel-marquee__track">
+        <div class="zel-marquee__group">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 7h11v9H3V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M14 10h4l3 3v3h-7v-6Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor"
+                  stroke-width="2"></path>
+              </svg>
+            </span>
+            شحن سريع
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            فحص الجودة قبل الشحن
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 7H5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 11a8 8 0 1 0 2.4-5.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            إرجاع سهل على المنتجات المحددة
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3 4 7v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V7l-8-4Z" stroke="currentColor" stroke-width="2">
+                </path>
+                <path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            حماية آمنة عند إتمام الشراء
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 4h7l9 9-7 7-9-9V4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 8h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            عروض جديدة كل أسبوع
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 5h16v11H8l-4 4V5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            خدمة العملاء عبر واتساب
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            منتجات جديدة تُضاف يوميًا
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أفضل الأسعار لاختياراتك الذكية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8 12 4l8 4-8 4-8-4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M4 8v8l8 4 8-4V8M12 12v8" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            تغليف الطلبات بعناية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8h4l2-3h4l2 3h4v11H4V8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"></path>
+              </svg>
+            </span>
+            صور حقيقية للمنتجات
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 7h16v13H4V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M8 7a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            تسوّق أكثر ووفر أكثر
+          </div>
+        </div>
+
+        <div class="zel-marquee__group" aria-hidden="true">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 7h11v9H3V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M14 10h4l3 3v3h-7v-6Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM18 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor"
+                  stroke-width="2"></path>
+              </svg>
+            </span>
+            شحن سريع
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            فحص الجودة قبل الشحن
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 7H5v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 11a8 8 0 1 0 2.4-5.7" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            إرجاع سهل على المنتجات المحددة
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 3 4 7v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V7l-8-4Z" stroke="currentColor" stroke-width="2">
+                </path>
+                <path d="m8.5 12 2.2 2.2 4.8-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Secure Checkout Protection
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 4h7l9 9-7 7-9-9V4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 8h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            حماية آمنة عند إتمام الشراء
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 5h16v11H8l-4 4V5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            عروض جديدة كل أسبوع
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            خدمة العملاء عبر واتساب
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            منتجات جديدة تُضاف يوميًا
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8 12 4l8 4-8 4-8-4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+                <path d="M4 8v8l8 4 8-4V8M12 12v8" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            تغليف الطلبات بعناية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 8h4l2-3h4l2 3h4v11H4V8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="2"></path>
+              </svg>
+            </span>
+            صور حقيقية للمنتجات
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 7h16v13H4V7Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M8 7a4 4 0 0 1 8 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            تسوّق أكثر ووفر أكثر
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="zel-marquee-wrap">
+    <div class="zel-marquee zel-marquee--dark zel-marquee--reverse">
+      <div class="zel-marquee__track">
+        <div class="zel-marquee__group">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" stroke="currentColor" stroke-width="2"></path>
+                <path
+                  d="M12 11c4-6 9-2 5 2-2 2-5 1-5-2ZM11 12c-7-.5-6-7-.5-5 3 1 3 4 .5 5ZM13 12c3 6-3 8-5 3-1-3 2-4 5-3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Cool Comfort Essentials
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M13 2 5 14h6l-1 8 9-13h-6V2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            Smart Gadgets For Daily Life
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 11 12 4l9 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 10v10h14V10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Home & Kitchen Must-Haves
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 11 7 6h10l2 5v7H5v-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M7 18v2M17 18v2M7 12h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Car Accessories Customers Love
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 3h8v18H8V3Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Mobile Accessories Ready To Ship
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Customer Favorite Picks
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 22c4 0 7-2.8 7-6.7 0-3-1.7-5.1-4.3-7.3.2 2.4-1 3.7-2.4 4.5.2-3.4-1.4-5.9-4.2-8.5.3 4.5-3.1 6.3-3.1 11.2C5 19.2 8 22 12 22Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Trending Products Selling Fast
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 10h16v10H4V10Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M12 10v10M4 14h16M8 10c-3-2-1-6 4 0M16 10c3-2 1-6-4 0" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Perfect Gift Ideas
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Top Rated Store Finds
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 4h12v16H6V4Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            New Arrivals Added Regularly
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Hand Picked Daily Deals
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Useful Products For Every Home
+          </div>
+        </div>
+
+        <div class="zel-marquee__group" aria-hidden="true">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" stroke="currentColor" stroke-width="2"></path>
+                <path
+                  d="M12 11c4-6 9-2 5 2-2 2-5 1-5-2ZM11 12c-7-.5-6-7-.5-5 3 1 3 4 .5 5ZM13 12c3 6-3 8-5 3-1-3 2-4 5-3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Cool Comfort Essentials
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M13 2 5 14h6l-1 8 9-13h-6V2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            Smart Gadgets For Daily Life
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 11 12 4l9 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 10v10h14V10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Home & Kitchen Must-Haves
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 11 7 6h10l2 5v7H5v-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M7 18v2M17 18v2M7 12h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Car Accessories Customers Love
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 3h8v18H8V3Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            Mobile Accessories Ready To Ship
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Customer Favorite Picks
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 22c4 0 7-2.8 7-6.7 0-3-1.7-5.1-4.3-7.3.2 2.4-1 3.7-2.4 4.5.2-3.4-1.4-5.9-4.2-8.5.3 4.5-3.1 6.3-3.1 11.2C5 19.2 8 22 12 22Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Trending Products Selling Fast
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 10h16v10H4V10Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M12 10v10M4 14h16M8 10c-3-2-1-6 4 0M16 10c3-2 1-6-4 0" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Perfect Gift Ideas
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Top Rated Store Finds
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 4h12v16H6V4Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            New Arrivals Added Regularly
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Hand Picked Daily Deals
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            Useful Products For Every Home
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="zel-marquee-wrap">
+    <div class="zel-marquee zel-marquee--dark zel-marquee--reverse">
+      <div class="zel-marquee__track">
+        <div class="zel-marquee__group">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" stroke="currentColor" stroke-width="2"></path>
+                <path
+                  d="M12 11c4-6 9-2 5 2-2 2-5 1-5-2ZM11 12c-7-.5-6-7-.5-5 3 1 3 4 .5 5ZM13 12c3 6-3 8-5 3-1-3 2-4 5-3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أساسيات الراحة والتبريد
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M13 2 5 14h6l-1 8 9-13h-6V2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            أجهزة ذكية للحياة اليومية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 11 12 4l9 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 10v10h14V10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أساسيات المنزل والمطبخ
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 11 7 6h10l2 5v7H5v-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M7 18v2M17 18v2M7 12h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            إكسسوارات سيارات يفضلها العملاء
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 3h8v18H8V3Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            إكسسوارات الجوال جاهزة للشحن
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            اختيارات العملاء المفضلة
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 22c4 0 7-2.8 7-6.7 0-3-1.7-5.1-4.3-7.3.2 2.4-1 3.7-2.4 4.5.2-3.4-1.4-5.9-4.2-8.5.3 4.5-3.1 6.3-3.1 11.2C5 19.2 8 22 12 22Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            منتجات رائجة تُباع بسرعة
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 10h16v10H4V10Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M12 10v10M4 14h16M8 10c-3-2-1-6 4 0M16 10c3-2 1-6-4 0" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أفكار هدايا مثالية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أفضل منتجات المتجر تقييمًا
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 4h12v16H6V4Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            وصل حديثًا وتُضاف باستمرار
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            عروض يومية مختارة بعناية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            منتجات مفيدة لكل منزل
+          </div>
+        </div>
+
+        <div class="zel-marquee__group" aria-hidden="true">
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" stroke="currentColor" stroke-width="2"></path>
+                <path
+                  d="M12 11c4-6 9-2 5 2-2 2-5 1-5-2ZM11 12c-7-.5-6-7-.5-5 3 1 3 4 .5 5ZM13 12c3 6-3 8-5 3-1-3 2-4 5-3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أساسيات الراحة والتبريد
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M13 2 5 14h6l-1 8 9-13h-6V2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+              </svg>
+            </span>
+            أجهزة ذكية للحياة اليومية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 11 12 4l9 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+                <path d="M5 10v10h14V10" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أساسيات المنزل والمطبخ
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 11 7 6h10l2 5v7H5v-7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+                </path>
+                <path d="M7 18v2M17 18v2M7 12h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            إكسسوارات سيارات يفضلها العملاء
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M8 3h8v18H8V3Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            إكسسوارات الجوال جاهزة للشحن
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            اختيارات العملاء المفضلة
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 22c4 0 7-2.8 7-6.7 0-3-1.7-5.1-4.3-7.3.2 2.4-1 3.7-2.4 4.5.2-3.4-1.4-5.9-4.2-8.5.3 4.5-3.1 6.3-3.1 11.2C5 19.2 8 22 12 22Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            منتجات رائجة تُباع بسرعة
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 10h16v10H4V10Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M12 10v10M4 14h16M8 10c-3-2-1-6 4 0M16 10c3-2 1-6-4 0" stroke="currentColor" stroke-width="2"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أفكار هدايا مثالية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"
+                  stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            أفضل منتجات المتجر تقييمًا
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M6 4h12v16H6V4Z" stroke="currentColor" stroke-width="2"></path>
+                <path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+            </span>
+            وصل حديثًا وتُضاف باستمرار
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 2l2.5 6.5L21 11l-6.5 2.5L12 20l-2.5-6.5L3 11l6.5-2.5L12 2Z" stroke="currentColor"
+                  stroke-width="2" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            عروض يومية مختارة بعناية
+          </div>
+          <div class="zel-marquee__item">
+            <span class="zel-marquee__icon">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M20 7 9 18l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </svg>
+            </span>
+            منتجات مفيدة لكل منزل
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

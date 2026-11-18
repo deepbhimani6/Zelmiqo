@@ -1,0 +1,244 @@
+.route-account-login .login-box > *:last-child > * {
+  background-color: #fff;
+}
+
+.route-account-login .login-box .form-group a {
+  font-size: 14px;
+}
+
+:is(.route-account-login .login-box .form-group, .route-account-register .register-page > p:first-child, .route-account-register #account-register form .buttons > .pull-right, .route-account-voucher #account-voucher form .buttons > .pull-right, .route-account-affiliate-add #account-affiliate form .buttons > .pull-right) a {
+  font-weight: 700;
+  color: #c9a14b;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: transparent;
+  transition: all 0.2s;
+}
+
+:is(.route-account-login .login-box .form-group, .route-account-register .register-page > p:first-child, .route-account-register #account-register form .buttons > .pull-right, .route-account-voucher #account-voucher form .buttons > .pull-right, .route-account-affiliate-add #account-affiliate form .buttons > .pull-right) a:hover {
+  text-decoration-color: inherit;
+}
+
+.route-account-register .register-page > p:first-child,
+.route-account-forgotten #content p:first-child,
+.route-account-return-add #content p:first-child,
+.route-account-voucher #content p:first-child {
+  background: #fdf8ef;
+  padding: 20px;
+  border: 1px solid #eedfc0;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+}
+
+.route-account-register .register-page form.register-form {
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 0;
+  border: 1px solid #eedfc0;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+}
+
+.route-account-register .register-page .register-form > *:not(:first-child) {
+  margin-top: 32px;
+}
+
+:is(.route-account-register #account-register, .route-account-voucher #account-voucher, .route-account-affiliate-add #account-affiliate) form .buttons > .pull-right {
+  flex-direction: row-reverse;
+  font-size: 14px;
+}
+
+:is(.route-account-register #account-register, .route-account-voucher #account-voucher, .route-account-affiliate-add #account-affiliate) form .buttons > .pull-right input[type="checkbox"] {
+  margin-inline: 0 6px;
+}
+
+:is(.route-account-register #account-register, .route-account-voucher #account-voucher, .route-account-affiliate-add #account-affiliate) form .buttons > .pull-right:has(a) input[type="checkbox"] {
+  margin-right: 1px;
+}
+
+:is(.route-account-register #account-register, .route-account-voucher #account-voucher, .route-account-affiliate-add #account-affiliate) form .buttons > .pull-right button[type="submit"] {
+  margin-top: 10px;
+}
+
+.route-account-account .account-page#content {
+  gap: 40px;
+}
+
+.route-account-account .account-page#content > * {
+  margin: 0;
+}
+
+.route-account-account .account-page#content .account-list a {
+  padding: 16px;
+  gap: 16px;
+}
+
+.route-account-account .account-page#content .account-list a::before {
+  width: 60px;
+  aspect-ratio: 1;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #fcf1de;
+  border: 1px solid rgba(201, 161, 75, 0.4);
+}
+
+:is(.route-account-edit #account-edit, .route-account-password #account-password, .route-account-forgotten #account-forgotten, .route-account-return-add #account-return, .route-account-voucher #account-voucher, .route-account-newsletter #account-newsletter, .route-account-affiliate-add #account-affiliate, .route-account-address-add #account-address, .route-account-address-edit #account-address) form {
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #eedfc0;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.route-account-voucher #account-voucher form:not(legend:first-child) .form-group:first-child label.control-label,
+.route-account-newsletter #account-newsletter form:not(legend:first-child) fieldset:first-child .form-group:first-child label.control-label,
+:is(.route-account-address-add, .route-account-address-edit) #account-address form:not(legend:first-child) .form-group:first-child label.control-label {
+  padding-top: 0;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content {
+  background: #fff;
+  border: 1px solid #c9a24b;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding: 0;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content p:has(+ .buttons.clearfix) {
+  margin-bottom: 0;
+  padding-inline: 30px;
+  padding-top: 20px;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content .table-responsive {
+  border: 0;
+  width: unset;
+  overflow: unset;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content table td {
+  padding: 20px 30px !important;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content table tr:nth-child(even) td {
+  background: #fcfaf7;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content table td.text-right {
+  width: 292px;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content table td.text-right .btn-danger.btn {
+  background: #ff3800;
+  border-color: inherit;
+}
+
+:is(.route-account-address, .route-account-address-delete) #account-address #content > .buttons {
+  padding-inline: 30px;
+  padding-bottom: 20px;
+}
+
+.route-account-return-add #account-return form fieldset:first-child {
+  margin-top: 0;
+}
+
+form .input-group.date .input-group-btn button[type="button"] {
+  aspect-ratio: 1;
+  max-height: unset;
+}
+
+.route-account-wishlist #content table .td-price .price {
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.route-account-return #content table td.text-right:not(:has(a)) {
+  text-align: left;
+}
+
+@media only screen and (max-width: 760px) {
+  .route-account-account .account-page#content .account-list a::before {
+    width: 50px;
+  }
+
+  .route-account-register .register-page form.register-form {
+    padding: 30px 20px;
+  }
+
+  :is(.route-account-edit #account-edit, .route-account-password #account-password, .route-account-forgotten #account-forgotten, .route-account-return-add #account-return, .route-account-voucher #account-voucher, .route-account-newsletter #account-newsletter, .route-account-affiliate-add #account-affiliate, .route-account-address-add #account-address, .route-account-address-edit #account-address) form,
+  :is(.route-account-address, .route-account-address-delete) #account-address #content :is(table td, > .buttons, p:has(+ .buttons.clearfix)) {
+    padding-inline: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  :is(.route-account-address, .route-account-address-delete) #account-address #content table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  :is(.route-account-address, .route-account-address-delete) #account-address #content table td {
+    padding: 0 !important;
+    background: transparent !important;
+    width: 100% !important;
+  }
+
+  :is(.route-account-address, .route-account-address-delete) #account-address #content table tr:nth-child(even) {
+    background-color: #fcfaf7;
+  }
+
+  :is(.route-account-address, .route-account-address-delete) #account-address #content table td.text-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 6px;
+  }
+
+  :is(.route-account-address, .route-account-address-delete) #account-address #content table td.text-right .address-default-toggle {
+    grid-column: span 2;
+    max-width: max-content;
+  }
+
+  :is(.route-account-address, .route-account-address-delete) #account-address #content table td.text-right > * {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .route-account-register .register-page > p:first-child,
+  .route-account-forgotten #content p:first-child,
+  .route-account-return-add #content p:first-child {
+    padding: 16px;
+  }
+
+  .route-account-register .register-page form.register-form {
+    padding: 24px 16px;
+  }
+
+  :is(.route-account-edit #account-edit, .route-account-password #account-password, .route-account-forgotten #account-forgotten, .route-account-return-add #account-return, .route-account-voucher #account-voucher, .route-account-newsletter #account-newsletter, .route-account-affiliate-add #account-affiliate, .route-account-address-add #account-address, .route-account-address-edit #account-address) form {
+    padding-block: 24px;
+  }
+
+  .route-account-voucher #account-voucher form .buttons.clearfix .pull-right {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 981px) {
+  .route-account-login .login-box {
+    gap: 30px;
+  }
+}

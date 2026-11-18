@@ -1,0 +1,70 @@
+# Zelmiqo (zelmiqo.com) - All Page URLs
+
+## 1. Core & Navigation Pages
+https://zelmiqo.com/
+https://zelmiqo.com/catalog
+https://zelmiqo.com/catalog?page=2
+https://zelmiqo.com/cart
+https://zelmiqo.com/checkout
+https://zelmiqo.com/blog
+https://zelmiqo.com/page/contact
+https://zelmiqo.com/sitemap
+https://zelmiqo.com/?route=product/search
+https://zelmiqo.com/?route=product/special
+https://zelmiqo.com/?route=product/compare
+
+## 2. Category Pages (8 Categories)
+https://zelmiqo.com/category/mobile-accessories
+https://zelmiqo.com/category/summer-products
+https://zelmiqo.com/category/home-and-kitchen
+https://zelmiqo.com/category/electronics-and-gadgets
+https://zelmiqo.com/category/car-accessories
+https://zelmiqo.com/category/beauty-and-personal-care
+https://zelmiqo.com/category/health-and-fitness
+https://zelmiqo.com/category/islamic-and-gift-products
+
+## 3. Product Pages (20 Products)
+https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand
+https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan-humidifier-led-light
+https://zelmiqo.com/products/3d-double-sided-silicone-facial-cleansing-brush
+https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy
+https://zelmiqo.com/products/bionic-finger-neck-shoulder-kneading-massager
+https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner-usb-charging
+https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum-led-display
+https://zelmiqo.com/products/foldable-car-windshield-sun-shade-umbrella
+https://zelmiqo.com/products/mini-usb-rechargeable-3-speed-handheld-desktop-fan
+https://zelmiqo.com/products/portable-6-blade-juicer-cup-smoothie-blender
+https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display
+https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display-5-speeds
+https://zelmiqo.com/products/portable-rechargeable-double-cup-juicer-blender
+https://zelmiqo.com/products/portable-scalp-massage-liquid-comb
+https://zelmiqo.com/products/portable-usb-citrus-juicer-orange-lemon
+https://zelmiqo.com/products/portable-wireless-car-vacuum-cleaner
+https://zelmiqo.com/products/smart-fascia-massage-gun
+https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care
+https://zelmiqo.com/products/usb-coffee-mug-warmer-heating-coaster-home-office
+https://zelmiqo.com/products/wireless-touch-screen-weather-station-alarm-clock-outdoor-sensor
+
+## 4. Information & Policy Pages
+https://zelmiqo.com/page/about-us
+https://zelmiqo.com/page/delivery
+https://zelmiqo.com/page/privacy
+https://zelmiqo.com/page/terms
+https://zelmiqo.com/page/warranty
+https://zelmiqo.com/page/shipping-tracking
+
+## 5. Blog Post Pages
+https://zelmiqo.com/blog/ultimate-rechargeable-air-conditioner-neck-ventilator-summer-2026
+https://zelmiqo.com/blog/branding
+https://zelmiqo.com/blog?journal_blog_post_id=5
+
+## 6. Account & Customer Service Pages
+https://zelmiqo.com/legacy-account/login
+https://zelmiqo.com/legacy-account/register
+https://zelmiqo.com/legacy-account/forgotten
+https://zelmiqo.com/legacy-account/order
+https://zelmiqo.com/legacy-account/address
+https://zelmiqo.com/legacy-account/download
+https://zelmiqo.com/legacy-account/return/add
+https://zelmiqo.com/legacy-account/voucher
+https://zelmiqo.com/?route=affiliate/login
