@@ -16,3 +16,4 @@
 
 # Git automated backup logs
 .autopush.log
+.autopush.pid
