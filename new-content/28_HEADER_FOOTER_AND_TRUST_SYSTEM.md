@@ -33,92 +33,101 @@
 # 🧭 Header, Footer & Global Trust System (الهيدر، الفوتر وشارات الثقة) - Zelmiqo
 
 > **Brand Identity**: Zelmiqo (زيلميكو) — Global Lifestyle Innovation  
-> **Regional Hub**: Kingdom of Saudi Arabia & Gulf Countries  
-> **Components**: Announcement Bar, Navigation Menus, Footer Bio, Commercial Registration, Payment Methods
+> **Regional Operations**: Dedicated KSA Hub (Riyadh) & Express Gulf Delivery  
+> **Components**: Announcement Bar, Navigation Menus, Trust Badges, Footer Columns & Payment Gateways
 
 ---
 
 ## 1. Top Announcement Bar (شريط الإعلانات العلوي)
 
-### Old English Content (Live on Site)
+### Old English Content
 ```text
 🚚 Free shipping on all orders • Shop now
 ```
 
-### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Option 1 (Direct Upgrade - Global & Local Synergy):
-🚚 Free Express Delivery Across Saudi Arabia on All Orders • Shop Now
+Headline:
+new english content: 🚚 Free Express Delivery Across Saudi Arabia on All Orders • Shop Now
+new arabic content: 🚚 شحن وتوصيل سريع ومجاني لكافة مدن المملكة العربية السعودية • تسوق الآن
 
-Option 2 (Multi-Offer Rotating Marquee):
-🌍 Global Innovations, Local KSA Express Delivery | 💳 Split in 4 with Tabby & Tamara | 🚚 Free Shipping on Orders Over SAR 199
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-الخيار 1 (ترجمة مباشرة راقية):
-🚚 شحن وتوصيل سريع ومجاني لكافة مدن ومناطق المملكة • تسوق الآن
-
-الخيار 2 (شريط إعلاني متحرك يعكس العالمية والخدمة المحلية):
-🌍 ابتكارات عالمية بتوصيل محلي فوري لكافة مدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني للطلبات فوق 199 ر.س
+Rotating Marquee Option (Multi-Value Proposition):
+new english content: 🌍 Global Lifestyle Innovations | ⚡️ Express 24-48h Delivery in KSA | 💳 Split in 4 with Tabby & Tamara | 🚚 100% Free Shipping Today
+new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 24-48 ساعة لمدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني لكافة الطلبات
 ```
 
 ---
 
 ## 2. Header Navigation Menu (قوائم الهيدر العلوية)
 
-| Section | English Label | Arabic Label (المصطلح العربي المعتمد) |
-| :--- | :--- | :--- |
-| **Home** | Home | الرئيسية |
-| **All Products** | Flagship Collection | جميع المنتجات |
-| **Summer Cooling** | ❄️ Climate Series | ❄️ التبريد الصيفي |
-| **Tech & Chargers** | ⚡️ Power & Workspace | ⚡️ الشواحن والمكتب |
-| **Car Accessories** | 🚗 Automotive Prestige | 🚗 العناية بالسيارات |
-| **Personal Care** | 💆‍♀️ Wellness & Spa | 💆‍♀️ العناية والمساج |
-| **Track Order** | Track Your Order | تتبع شحنتك |
-| **Contact Support** | VIP Concierge Support | خدمة العملاء |
+### Old English Content
+```text
+- Home
+- Shop
+- Categories (Dropdown: Mobile Accessories, Summer Products, Home & Kitchen, Electronics & Gadgets, Car Accessories, Beauty & Personal Care, Health & Fitness, Islamic & Gift Products)
+- Tracking
+- Contact
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Navigation Items:
+new english content: • Home -> Home
+• All Products -> Flagship Collection
+• Summer Cooling -> ❄️ Climate & Cooling Series
+• Chargers & Tech -> ⚡️ Power & Workspace
+• Automotive Care -> 🚗 Automotive Prestige
+• Wellness & Beauty -> 💆‍♀️ Wellness & Personal Care
+• Track Order -> Track Your Order
+• VIP Support -> VIP Concierge Support
+new arabic content: • الرئيسية -> الرئيسية
+• جميع المنتجات -> المجموعة المتكاملة
+• التبريد الصيفي -> ❄️ أجهزة التبريد الصيفي
+• الشواحن والمكتب -> ⚡️ منصات الشحن ومستلزمات المكتب
+• العناية بالسيارات -> 🚗 مستلزمات العناية بالسيارات
+• العناية والمساج -> 💆‍♀️ العناية الشخصية والاسترخاء
+• تتبع الشحنة -> تتبع شحنتك
+• خدمة العملاء -> خدمة عملاء VIP
+```
 
 ---
 
-## 3. Global Footer Information (بيانات وتذييل الصفحة الرسمية)
+## 3. Global Footer Information & Pillars (بيانات الفوتر وشارات الثقة)
 
-### New English Content
+### Old English Content
 ```text
-Brand Bio:
-Zelmiqo is an international lifestyle tech brand designing world-class smart gadgets, advanced personal cooling technologies, and restorative wellness solutions for refined living worldwide. Operating with dedicated regional logistics hubs, we provide lightning-fast local fulfillment, certified guarantees, and bilingual VIP support across the Kingdom of Saudi Arabia.
+Smart products for better everyday living — carefully selected for quality, convenience, and value.
 
-Official Store Information:
-- Brand: Zelmiqo International (زيلميكو)
-- Commercial Registration (CR): 1010XXXXXX (Registered in Saudi Arabia)
-- VAT Number: 310XXXXXXXX0003 (VAT-Compliant)
-- Business Certification: Certified Gold E-Store (Saudi Business Center / Maroof)
-- Regional Operations: Riyadh, Kingdom of Saudi Arabia
-- Copyright © 2026 Zelmiqo. All Rights Reserved.
+Information:
+- About Us
+- Delivery Policy
+- Privacy Policy
+- Terms & Conditions
+- Warranty Policy
+
+Quick Links:
+- My Account
+- My Cart
+- Products
+- Shipping Tracking
+
+Copyright:
+© 2026 Zelmiqo. All Rights Reserved.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-نبذة المتجر:
-زيلميكو (Zelmiqo) هي علامة تجارية عالمية متخصصة في ابتكارات الحياة الذكية، أجهزة التبريد الشخصي المتطورة، وحلول العناية والاسترخاء الفاخرة لمواكبة أسلوب الحياة العصري حول العالم. ومن خلال مستودعاتنا وشبكة التوزيع الإقليمية داخل المملكة العربية السعودية، نقدم لعملائنا في المملكة أرقى المعايير العالمية مع توصيل محلي فائق السرعة وضمان ذهبي معتمد وخدمة عملاء VIP.
+Footer Brand Bio:
+new english content: Zelmiqo (زيلميكو) is an international lifestyle innovation house engineering smart living gadgets, ergonomic cooling tech, and restorative wellness solutions for refined homes worldwide. With dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express domestic delivery, the Golden 14-Day Guarantee, and flexible payment plans across Saudi Arabia.
+new arabic content: زيلميكو (Zelmiqo) دار عالمية لابتكارات أسلوب الحياة العصري، تصمم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي، وحلول العناية والاسترخاء لحياة أكثر راحة وتميزاً. ومن خلال مركز عملياتنا اللوجستي المباشر في الرياض، نضمن لعملائنا في كافة مدن المملكة العربية السعودية أعلى معايير الجودة العالمية، توصيلاً محلياً سريعاً، الضمان الذهبي للاستبدال، وحلول دفع وتقسيط ميسرة.
 
-البيانات الرسمية والموثوقية:
-- العلامة التجارية: زيلميكو العالمية (Zelmiqo)
-- السجل التجاري: 1010XXXXXX (موثق رسمياً في المملكة العربية السعودية)
-- الرقم الضريبي: 310XXXXXXXX0003 (خاضع لضريبة القيمة المضافة)
-- التوثيق: معتمد لدى المركز السعودي للأعمال (SBC / معروف)
-- مركز العمليات الإقليمي: الرياض، المملكة العربية السعودية
-- جميع الحقوق محفوظة © 2026 علامة زيلميكو (Zelmiqo).
+Trust & Compliance Footer Ribbon:
+new english content: • Commercial Certification: Registered & Certified Saudi E-Commerce Store.
+• Tax Compliance: 100% VAT-Compliant (15% KSA VAT).
+• Golden Guarantee: 14-Day Direct Replacement & 1-Year Warranty.
+• Accepted Payment Gateways: Mada, Apple Pay, Visa, Mastercard, Tabby (4 Payments), Tamara (4 Payments), and Cash on Delivery (COD).
+new arabic content: • التوثيق التجاري: متجر إلكتروني سعودي موثق ومعتمد لدى المركز السعودي للأعمال ومنصة معروف.
+• الامتثال الضريبي: مسجل وخاضع لضريبة القيمة المضافة (15% VAT).
+• الضمان الذهبي: استبدال فوري خلال 14 يوماً وضمان شامل لمدة عام كامل.
+• بوابات الدفع المعتمدة: بطاقات مدى البنكية، أبل باي، فيزا، ماستركارد، تقسيط تابي على 4 دفعات، تقسيط تمارا، والدفع عند الاستلام.
 ```
-
-### Recommended Images & Visual Mapping
-- **Footer Brand Logo (Large)**: `images/common-all-pages/webp/logo-zelmiqo-footer.webp`
-- **Supported Payment Icons**:
-  - `images/common-all-pages/png/payment-apple-pay_h32.png`
-  - `images/common-all-pages/png/payment-visa_h32.png`
-  - `images/common-all-pages/png/payment-mastercard_h32.png`
-  - `images/common-all-pages/png/payment-american-express_h32.png`
-  - `images/common-all-pages/png/payment-google-pay_h32.png`
-  - `images/common-all-pages/png/payment-paypal_h32.png`
-- **Language Switcher Flags**:
-  - English: `images/common-all-pages/webp/flag-english.webp`
-  - Arabic: `images/common-all-pages/webp/flag-arabic.webp`

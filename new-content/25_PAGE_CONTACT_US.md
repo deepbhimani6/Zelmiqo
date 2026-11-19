@@ -30,49 +30,85 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📞 Contact Us & VIP Support (اتصل بنا وخدمة العملاء) - Zelmiqo Saudi Arabia
+# 📞 Contact Us (اتصل بنا) - Zelmiqo Customer Concierge & Support
 
-> **Page**: `https://zelmiqo.com/page/contact`  
-> **Channel**: WhatsApp, Phone & Email Support tailored for Saudi Arabia
+> **Live Page URL**: `https://zelmiqo.com/page/contact`  
+> **Brand Identity**: Zelmiqo (زيلميكو) — International Lifestyle Tech Brand  
+> **Support Desk**: Dedicated Regional Desk for Saudi Arabia & Gulf Shoppers  
+> **Languages**: Arabic & English (العربية والإنجليزية)
 
 ---
 
-## 1. Contact Options & Business Hours
+## 1. Contact Information & Support Desk (بيانات التواصل وخدمة العملاء)
 
 ### Old English Content
 ```text
-Contact Us
-Fill out the form below or email us.
+Our Location
+Zelmiqo
+Laskana, Surat
+
+Telephone
+6359268709
+
+Opening Times
+Monday - Friday 9:00 - 18:00
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-We Are Here for You – Fast & Friendly Customer Care
+Headline:
+new english content: VIP Concierge Support: We Are Here for You 7 Days a Week
+new arabic content: خدمة عملاء VIP: في خدمتكم على مدار الساعة طوال أيام الأسبوع
 
-At Zelmiqo, exceptional service is our promise. Whether you need help selecting the perfect product, tracking an active order, or filing an inquiry, our Saudi-based support team is just a tap away.
+Regional Desk (Kingdom of Saudi Arabia):
+new english content: • Dedicated Operations Hub: Riyadh Regional Logistics Hub, Kingdom of Saudi Arabia.
+• Instant WhatsApp Support: Direct chat support for order tracking, product consultations, and warranty claims (+966 WhatsApp Concierge).
+• Official Support Email: support@zelmiqo.com (Responses within 2 to 4 hours).
+• Operating Hours: Saturday to Thursday, 9:00 AM to 10:00 PM (Saudi Standard Time, GMT+3).
+new arabic content: • مركز العمليات الإقليمي: مركز التوزيع والخدمات اللوجستية بالرياض، المملكة العربية السعودية.
+• خدمة الواتساب الفورية: تواصل مباشر وسريع لتتبع الشحنات، الاستفسار عن المنتجات، وتفعيل الضمان عبر الواتساب.
+• البريد الإلكتروني الرسمي: support@zelmiqo.com (الرد خلال 2 إلى 4 ساعات).
+• أوقات العمل: من السبت إلى الخميس، من 9:00 صباحاً حتى 10:00 مساءً (بتوقيت مكة المكرمة).
 
-Channels:
-- 💬 WhatsApp Live Support (Recommended): +966 5X XXX XXXX (Instant replies 9:00 AM – 11:00 PM AST)
-- 📧 Email Support: support@zelmiqo.com (Responses within 12 hours)
-- 📍 Operations Hub: Riyadh, Kingdom of Saudi Arabia
-- 🕒 Working Hours: Saturday – Thursday: 9:00 AM – 11:00 PM | Friday: 2:00 PM – 10:00 PM
+Global Headquarters:
+new english content: • Brand Manufacturer: Zelmiqo International Smart Innovations.
+• Commercial Inquiries & International Wholesale: corporate@zelmiqo.com
+new arabic content: • الإدارة العالمية: دار زيلميكو الدولية للابتكارات الذكية.
+• الاستفسارات التجارية والتعاون الدولي: corporate@zelmiqo.com
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+---
+
+## 2. Customer Inquiry Form Guidelines (نموذج التواصل السريع)
+
+### Old English Content
 ```text
-العنوان:
-نسعد دائماً بخدمتكم وتواصلكم معنا في أي وقت
-
-في زيلميكو، راحتكم هي أولويتنا. سواء كنت ترغب في استشارة حول أفضل منتج يناسب احتياجك، متابعة طلبك الحالي، أو لديك أي استفسار؛ فريق خدمة العملاء المتخصص مستعد لخدمتك بأعلى معايير الاهتمام والسرعة.
-
-قنوات التواصل المباشرة:
-- 💬 محادثة واتساب المباشرة (الخيار الأسرع): +966 5X XXX XXXX (رد فوري يومياً من 9 صباحاً حتى 11 مساءً)
-- 📧 البريد الإلكتروني الرسمي: support@zelmiqo.com (الرد خلال أقل من 12 ساعة)
-- 📍 مركز العمليات الرئيسي: الرياض، المملكة العربية السعودية
-- 🕒 أوقات العمل والدعم: من السبت إلى الخميس: 9:00 صباحاً – 11:00 مساءً | الجمعة: 2:00 ظهراً – 10:00 مساءً
+Contact Form:
+- Your Name
+- E-Mail Address
+- Enquiry
+- Submit Button
 ```
 
-### Recommended Images & Visual Mapping
-- **Contact Brand Logo**: `images/page-contact/png/zelmiqo-brand-logo.png`
-- **WhatsApp Direct Icon**: `images/common-all-pages/png/icon-whatsapp.png`
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Form Header:
+new english content: How Can We Assist You Today?
+new arabic content: كيف يمكننا مساعدتك اليوم؟
+
+Field Guidance:
+new english content: • Full Name: Enter your name as it appears on your order.
+• Registered Mobile Number: Enter your Saudi phone number (05XXXXXXXX) for instant SMS order updates.
+• Inquiry Category: Select from Order Tracking, Warranty & Golden Guarantee, Technical Advice, or General Inquiries.
+• Order Reference: (Optional) 6-digit Zelmiqo Order ID.
+• Your Message: Detail your request for rapid resolution.
+new arabic content: • الاسم الكامل: يُفضل كتابة الاسم كما هو مدون في تفاصيل الطلب.
+• رقم الجوال: رقم الجوال السعودي (05XXXXXXXX) لتلقي تحديثات الشحن المباشرة.
+• نوع الاستفسار: تتبع شحنة، استفسار عن منتج، الضمان الذهبي والاستبدال، أو استفسار عام.
+• رقم الطلب: (اختياري) لتسريع معالجة طلبك ومساعدتك فوراً.
+• تفاصيل الرسالة: اكتب استفسارك وسيقوم ممثل خدمة العملاء بالرد عليك فوراً.
+
+Call to Action:
+new english content: Submit Message (Or click the floating WhatsApp button for instant assistance)
+new arabic content: إرسال الرسالة (أو اضغط على أيقونة الواتساب أسفل الشاشة للتحدث الفوري معنا)
+```

@@ -30,121 +30,116 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 🛍️ Catalog & Products Listing Page (كتالوج المنتجات العالمية) - Zelmiqo
+# 🛍️ Catalog & All Products Listing (صفحة دليل المنتجات الشاملة) - Zelmiqo
 
-> **Brand**: Zelmiqo (زيلميكو) — International Smart Living  
-> **Active Regional Hub**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
-> **Currency**: SAR (ر.س)  
-> **Key Objective**: Global brand authority, seamless shopping experience, instant Tabby/Tamara calculations, and localized express delivery.
+> **Live Page URL**: `https://zelmiqo.com/catalog`  
+> **Brand Identity**: Zelmiqo (زيلميكو) — International Lifestyle Innovation Series  
+> **Pricing**: In Saudi Riyals (SAR / ر.س) with 4-Month Tabby / Tamara Installments  
+> **Delivery**: Express Doorstep Fulfillment Across All Saudi Provinces
 
 ---
 
-## 1. Catalog Hero Header & Category Intro
+## 1. Catalog Hero Header & Filter Controls (عنوان الكتالوج وخيارات الفرز)
 
 ### Old English Content
 ```text
-Catalog
-Shop all available products in our store.
+Title: All Products
+Breadcrumbs: Home > All Products
+Controls:
+- Sort By: (Default, Name A-Z, Name Z-A, Price Low-High, Price High-Low, Rating, Model)
+- Show: (15, 25, 50, 75, 100)
 ```
 
-### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-The Complete Zelmiqo Collection | Global Innovations for Refined Living
+Catalog Main Title:
+new english content: The Complete Zelmiqo® Flagship Collection
+new arabic content: تشكيلة زيلميكو® الكاملة من الأجهزة الذكية والابتكارات العصرية
 
-Subtitle:
-Explore our internationally engineered flagship lineup of smart gadgets, high-velocity personal cooling essentials, luxury wellness tools, and automotive care innovations. Built with world-class precision, verified durability, and available with express domestic delivery across Saudi Arabia.
+Subheadline:
+new english content: Explore precision-engineered lifestyle gadgets, personal cooling tech, and wellness devices. All products in stock and fulfilled directly from Riyadh.
+new arabic content: استكشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة. متوفرة وجاهزة للشحن الفوري لكافة مناطق المملكة.
 
-Curated Series:
-- All Products (جميع المنتجات)
-- ❄️ The Climate Series (أجهزة التبريد والانتعاش الصيفي)
-- ⚡️ Power & Workspace Series (الشواحن الذكية ومكتب المستقبل)
-- 🚗 Automotive Prestige Series (عناية وحماية السيارات الفاخرة)
-- 💆‍♀️ Wellness & Spa Series (العناية بالبشرة والمساج الاحترافي)
-- 🥤 Nutrition & Active Living (الخلاطات المحمولة ونمط الحياة الصحي)
-- 🏠 Smart Home Comfort (راحة المنزل الذكي)
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان:
-التشكيلة الكاملة من زيلميكو | ابتكارات عالمية لرفاهية استثنائية
-
-العنوان الفرعي:
-تصفح تشكيلة منتجاتنا المصممة بأعلى المعايير العالمية من الأجهزة الذكية، تقنيات التبريد الصيفي المتطورة، أدوات العناية والاسترخاء الفاخرة، ومستلزمات السيارات عالية الجودة. منتجات أصلية تجمع بين فخامة التصميم العالمي وسرعة التوصيل المحلي الفوري في كافة مدن المملكة.
-
-السلاسل المعتمدة:
-- جميع المنتجات
-- ❄️ سلسلة التبريد المتطور (Climate Series)
-- ⚡️ سلسلة الطاقة والمكتب الذكي (Power & Workspace)
-- 🚗 سلسلة السيارات الفاخرة (Automotive Prestige)
-- 💆‍♀️ سلسلة العناية والاسترخاء (Wellness & Spa)
-- 🥤 سلسلة التغذية والانتعاش (Nutrition Series)
-- 🏠 سلسلة راحة المنزل الذكي (Smart Home)
+Sort & Filter Labels:
+new english content: • Sort By: Featured • Best Selling in KSA • Price: Low to High • Price: High to Low • Customer Rating
+• Show: 16 • 32 • 48 Products Per Page
+new arabic content: • فرز حسب: المنتجات المميزة • الأكثر طلباً في المملكة • السعر: من الأقل للأعلى • السعر: من الأعلى للأقل • الأعلى تقييماً
+• عرض: 16 • 32 • 48 منتجاً في الصفحة
 ```
 
 ---
 
-## 2. Product Card Badges & Price Display
+## 2. Series Quick Filters (أقسام وسلاسل المنتجات الذكية)
 
 ### Old English Content
 ```text
-Price: SAR 129.00
-Add to Cart
+Categories:
+- Summer Products
+- Electronics & Gadgets
+- Car Accessories
+- Beauty & Personal Care
+- Home & Kitchen
+- Health & Fitness
+- Mobile Accessories
+- Islamic & Gift Products
 ```
 
-### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Card Badges:
-- ⭐️ Global Best Seller (الأكثر طلباً عالمياً ومحلياً)
-- ❄️ Summer Essential (أساسي لأجواء الصيف)
-- 🚚 Express KSA Dispatch (شحن محلي سريع)
-- 💳 Split into 4 monthly payments with Tabby or Tamara
-
-Action Buttons:
-- Quick View (نظرة سريعة)
-- Add to Cart (أضف إلى السلة)
-- Buy Now (اطلب الآن والدفع عند الاستلام متاح)
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-شارات المنتج:
-- ⭐️ الأكثر طلباً وتميزاً
-- ❄️ أساسي لأجواء الصيف في المملكة
-- 🚚 توصيل محلي فوري متاح
-- 💳 قسّمها على 4 دفعات بدون فوائد مع تابي أو تمارا
-
-أزرار الشراء:
-- نظرة سريعة
-- أضف إلى السلة
-- اطلب الآن (الدفع عند الاستلام متاح)
+Series Navigation Badges:
+new english content: • All Innovations (View All 20 Devices)
+• ❄️ Arctic Climate Series (Bladeless Fans & Portable Air Coolers)
+• ⚡️ Power & Desk Essentials (Wireless Docks & Smart Heated Coasters)
+• 🚗 Automotive Care (Cordless Vacuums & UV Windshield Umbrellas)
+• 💆‍♀️ Wellness & Rejuvenation (Bionic Massagers & Facial Therapy)
+• 🥤 Active Nutrition (Cordless Portable Blenders & Citrus Extractors)
+new arabic content: • جميع الابتكارات (عرض كافة الأجهزة الـ 20)
+• ❄️ سلسلة التبريد الصيفي (مراوح الرقبة بدون شفرات والمكيفات المحمولة)
+• ⚡️ منصات الشحن والمكتب (شواحن لاسلكية ذكية وقواعد تسخين المشروبات)
+• 🚗 العناية بالسيارات (مكانس لاسلكية ومظلات الزجاج العاكسة للحرارة)
+• 💆‍♀️ العناية والاسترخاء (أجهزة مساج الرقبة ومسدسات التدليك)
+• 🥤 التغذية الصحية (خلاطات العصائر اللاسلكية وعصارات الحمضيات الذكية)
 ```
 
 ---
 
-## 3. Catalog Trust Banner (شريط الثقة أسفل الكتالوج)
+## 3. Product Card Standard Presentation (نمط عرض بطاقة المنتج)
 
-### New English Content
+### Old English Content
 ```text
-The Zelmiqo Global Standard — Delivered Locally Across Saudi Arabia:
-- 🌍 International design and testing on all flagship products
-- 📦 Rapid dispatch from Saudi regional fulfillment centers
-- 🛡️ 14-Day Golden Money-Back & Exchange Guarantee + 1-Year Device Warranty
-- 💳 Flexible payments via Mada, Apple Pay, Tabby, Tamara, or Cash on Delivery
-- 📞 Dedicated bilingual VIP customer care on WhatsApp
+Product Card Layout:
+- Product Image
+- Product Title
+- Price in SAR
+- Add to Cart Button
+- Buy Now Button
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-معايير زيلميكو العالمية — بتوصيل محلي فائق السرعة لكافة مدن المملكة:
-- 🌍 تصميم وهندسة دولية معتمدة لكافة المنتجات الرائدة
-- 📦 شحن وتوصيل فوري من مستودعاتنا المركزية داخل المملكة
-- 🛡️ ضمان ذهبي لمدة 14 يوماً للاستبدال والاسترجاع + ضمان رسمي لمدة عام
-- 💳 سداد ميسر وآمن عبر مدى، أبل باي، تابي، تمارا، أو الدفع عند الاستلام
-- 📞 خدمة عملاء VIP متخصصة باللغتين العربية والإنجليزية عبر الواتساب
+Card Layout & Badge Elements:
+new english content: • Product Title: Bold, premium naming highlighting core benefit.
+• Price Display: Clear SAR price + "Or 4 payments of SAR XX/mo with Tabby / Tamara".
+• Trust Badges: "In Stock in Riyadh" • "Free Delivery" • "Golden 14-Day Guarantee".
+• Quick CTA: "Add to Bag" and "Express Buy with Apple Pay".
+new arabic content: • عنوان المنتج: اسم واضح وجذاب يبرز الفائدة الأساسية للجهاز.
+• عرض السعر: السعر الإجمالي بالريال السعودي + "أو قسّمها على 4 دفعات بقيمة XX ر.س/شهرياً مع تابي أو تمارا".
+• شارات الثقة: "متوفر بمستودعات الرياض" • "شحن مجاني" • "الضمان الذهبي 14 يوماً".
+• زر الشراء السريع: "أضف للسلة" وزر "شراء فوري عبر أبل باي".
 ```
 
-### Recommended Images & Visual Mapping
-- **Catalog Promotional Banner**: `images/home-page/webp/home-hero-banner-main.webp`
-- **Product Card Images**: Direct links to primary `.webp` / `.png` in each product directory under `images/`
+---
+
+## 4. Catalog Trust & Guarantee Ribbon (شريط الثقة أسفل الكتالوج)
+
+### Old English Content
+```text
+Fast Shipping • Quality Checked • Secure Checkout Protection
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Catalog Trust Banner:
+new english content: 🚚 100% Free Express Delivery Across KSA | 🛡️ Golden 14-Day Replacement Warranty | 💳 Split in 4 with Tabby & Tamara | 💵 Cash on Delivery Available
+new arabic content: 🚚 شحن وتوصيل مجاني 100% لكافة مناطق المملكة | 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً | 💳 تقسيط ميسر على 4 دفعات مع تابي وتمارا | 💵 خيار الدفع عند الاستلام متاح
+```

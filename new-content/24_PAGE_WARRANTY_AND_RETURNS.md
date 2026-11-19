@@ -30,58 +30,117 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 🛡️ Warranty, Returns & Golden Guarantee (الضمان الذهبي وسياسة الاسترجاع) - Zelmiqo Saudi Arabia
+# 🛡️ Warranty & Golden Guarantee Policy (الضمان الذهبي والاستبدال) - Zelmiqo
 
-> **Page**: `https://zelmiqo.com/page/warranty` & `https://zelmiqo.com/page/terms`  
-> **Compliance**: Saudi Ministry of Commerce Regulations (وزارة التجارة)  
-> **Key Feature**: 14-Day Golden Guarantee & 1-Year Device Warranty
+> **Live Page URL**: `https://zelmiqo.com/page/warranty`  
+> **Brand Identity**: Zelmiqo (زيلميكو) — International Smart Living Series  
+> **Compliance**: Ministry of Commerce Regulations (وزارة التجارة بالمملكة العربية السعودية)  
+> **Coverage**: 1-Year Comprehensive Warranty & 14-Day Golden Replacement Guarantee
 
 ---
 
-## 1. The 14-Day Golden Guarantee (الضمان الذهبي لمدة 14 يوماً)
+## 1. Warranty Policy Overview (نظرة عامة على سياسة الضمان)
 
 ### Old English Content
 ```text
-Returns Policy
-You can return products within 7 days if unused.
+Warranty policy
+
+At Zelmiqo , we are committed to providing high-quality products and reliable after-sales support. This Warranty Policy explains the terms, conditions, and limitations of warranty coverage applicable to products purchased from our store.
+
+This warranty applies to products purchased within multiple regions including the Kingdom of Saudi Arabia, United Arab Emirates, and other Gulf countries (“the Region”). Warranty coverage may vary depending on the product type and manufacturer terms.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Our Golden 14-Day Satisfaction Guarantee & Effortless Returns
+Headline:
+new english content: The Zelmiqo® Golden Guarantee: Uncompromising Quality & Full Regional Protection
+new arabic content: الضمان الذهبي من زيلميكو®: جودة عالمية موثوقة وحماية شاملة داخل المملكة
 
-We want you to shop with absolute confidence. If you receive your product and discover any manufacturer defect, missing accessory, or if it does not match its description, you are fully covered under our Golden 14-Day Guarantee.
+Subheadline:
+new english content: Certified compliance with Saudi consumer standards. 14-day instant replacement and 1-year warranty on all flagship smart living electronics.
+new arabic content: متوافق مع معايير وزارة التجارة السعودية. استبدال فوري خلال 14 يوماً وضمان شامل لمدة عام كامل على جميع الأجهزة الذكية.
 
-Key Terms:
-1. 14 Days to Request Return: You have a full 14 days from the date of delivery to submit a return or exchange request.
-2. Free Return Shipping: For defective or damaged items, we cover 100% of the return shipping costs.
-3. Fast Refund Process: Refunds are processed back to your original payment method (Mada, Apple Pay, Card, Tabby, Tamara) or bank transfer within 3 to 7 business days after inspection.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
-```text
-العنوان:
-الضمان الذهبي لراحة بالك: استرجاع واستبدال مرن وسريع خلال 14 يوماً
-
-رضاكم التام هو غايتنا الأولى دائماً. نتيح لكم تسوقاً آمناً ومريحاً عبر "الضمان الذهبي"؛ في حال استلامك لأي منتج به عيب مصنعي، نقص في الملحقات، أو عدم مطابقة للمواصفات المعروضة، يمكنك استبداله أو استرجاعه بكل سهولة.
-
-شروط وأحكام الاسترجاع والاستبدال:
-1. مهلة كافية 14 يوماً: يحق لك تقديم طلب الاسترجاع أو الاستبدال خلال 14 يوماً من تاريخ استلام الشحنة.
-2. بوليصة إرجاع مجانية: في حال وجود أي عيب مصنعي، نتحمل تكلفة الشحن والاسترجاع بالكامل دون أي رسوم عليك.
-3. استرداد مالي سريع: تتم إعادة المبالغ المستردة مباشرة إلى وسيلة الدفع الأصلية (مدى، أبل باي، البطاقة الائتمانية، تابي، تمارا) أو تحويل بنكي سريع لحسابكم خلال 3 إلى 7 أيام عمل من فحص المنتج.
+Policy Statement:
+new english content: Every authentic Zelmiqo device is engineered to international durability benchmarks. We proudly stand behind our products with our customer-centric Golden Guarantee across the Kingdom of Saudi Arabia, UAE, and Gulf countries, ensuring effortless after-sales support, rapid local inspection, and immediate replacements for manufacturing defects.
+new arabic content: صُممت جميع أجهزة زيلميكو الأصلية وفق أعلى معايير الجودة والتحمل الدولية. ونحن نلتزم بحماية استثماركم من خلال "الضمان الذهبي" المعتمد داخل المملكة العربية السعودية ودول الخليج، لنوفر لكم تجربة ما بعد البيع سلسة ومريحة مع فحص فني سريع واستبدال فوري عند وجود أي عيب مصنعي.
 ```
 
 ---
 
-## 2. 1-Year Official Electronics Warranty (ضمان الأجهزة لمدة عام كامل)
+## 2. General Warranty Provisions & 14-Day Golden Guarantee (أحكام الضمان والاستبدال)
 
-### New English Content
+### Old English Content
 ```text
-All electronic devices purchased from Zelmiqo come with an official 1-Year Limited Warranty against manufacturing faults, motor failures, and internal electrical defects. Simply message our WhatsApp support with your order number for instant warranty claims.
+General Warranty Provisions
+• All products sold in our store come with a manufacturer's warranty for a specified period depending on the product type.
+• Warranty services do not include availability of spare parts, repair timelines, or direct coordination with service providers for operational inquiries.
+• To claim warranty services, customers must provide valid proof of purchase and ensure the product serial number is registered and within the warranty period. A warranty card (if available) must be presented.
+• In some cases, the product may need to be inspected and tested at an authorized service center or returned to the seller. In such cases, the repair or replacement process may take up to 15 working days from the date of receipt at our warehouse.
+• Depending on evaluation, customers may receive a replacement product or refund. The refund value may be adjusted based on product usage, accessories, and condition, in accordance with applicable trade laws and regulations.
+• The life cycle and durability of each product may vary. Customers are advised to refer to the product manual or consult a specialist for detailed usage information.
+• Some service centers may charge a fee for inspection or repair of products that are found to be out of warranty or not eligible for free service.
+• Warranty does not cover damage caused by misuse, negligence, accidents, liquid damage, improper installation, or external factors.
+• Customers must ensure that products are properly packed in their original packaging or suitable protective packaging during shipping. We are not responsible for damage caused due to improper packaging during transit.
+• Any product sent for warranty service must be securely packaged to prevent damage during transportation. Products damaged due to improper packaging may not be eligible for warranty service.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-كافة الأجهزة الكهربائية والإلكترونية المشتراة من متجر زيلميكو مشمولة بضمان صيانة واستبدال لمدة عام كامل ضد العيوب المصنعية وأعطال المحركات والدارات الكهربائية. كل ما عليك هو مراسلة فريق الدعم الفني عبر الواتساب برقم طلبك لبدء إجراءات الضمان فوراً.
+The 14-Day Golden Replacement Guarantee:
+new english content: • 14-Day Direct Replacement: If your Zelmiqo device experiences any factory defect, charging malfunction, or performance anomaly within 14 days of receipt, we arrange free courier pickup and issue a brand-new replacement immediately without repair delays.
+• 1-Year Comprehensive Warranty: All electronics, motors, cooling turbines, and heating elements are protected against internal component failure for a full 12 months.
+• Zero Complications: Simply provide your order number or registered Saudi mobile number via WhatsApp to initiate service.
+new arabic content: • الضمان الذهبي للاستبدال الفوري (14 يوماً): في حال واجهت أي خلل مصنعي أو عيب في الأداء خلال 14 يوماً من استلام المنتج، نقوم باستلام الجهاز من باب منزلك مجاناً واستبداله بمنتج جديد فوراً دون انتظار إجراءات الصيانة الطويلة.
+• ضمان صيانة واستبدال لمدة عام كامل: نضمن المحركات، التوربينات، الدوائر الكهربائية، وعناصر التسخين ضد العيوب المصنعية لمدة 12 شهراً.
+• إجراءات ميسرة بدون تعقيد: يكفيك تزويدنا برقم الطلب أو رقم الجوال المسجل عبر الواتساب لبدء طلب الضمان مباشرة.
+```
+
+---
+
+## 3. Fast Service Timelines & Reverse Courier Pickup (مواعيد الفحص والاسترجاع)
+
+### Old English Content
+```text
+Device Receipt & Delivery Policy
+• Standard repair or replacement processing time is between 4 to 7 business days , depending on the nature of the issue.
+• Pickup and delivery services are not included in the repair timeline.
+
+Depreciation & Replacement Value
+In some cases where a replacement or refund is applicable, the value will be calculated based on product usage.
+A depreciation rate of 5% per month is applied from the date of purchase, and the total deducted value shall not exceed 80% of the original product price .
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Service & Resolution Timelines:
+new english content: • Domestic Doorstep Pickup: We send a courier to collect the item directly from your address within 24 to 48 hours of your warranty request anywhere in Saudi Arabia.
+• 3-Business-Day Resolution: Devices are inspected by certified technicians within 3 business days of warehouse arrival, followed by immediate shipment of a replacement unit.
+• Fair Value Assurance: Full 100% refund or replacement within the Golden Guarantee window, in strict accordance with the Saudi Ministry of Commerce consumer protection charters.
+new arabic content: • استلام فوري من باب منزلك: نرسل مندوب شركة الشحن لاستلام الجهاز من عنوانك خلال 24 إلى 48 ساعة في أي مدينة داخل المملكة.
+• معالجة سريعة خلال 3 أيام عمل: يتم فحص الجهاز فور وصوله والتأكد من العيب الفني، وإصدار أمر الاستبدال أو الاسترجاع المباشر دون تأخير.
+• ضمان حقوق المستهلك: استرجاع كامل 100% أو استبدال فوري دون أي خصومات ضمن فترة الضمان الذهبي، التزاماً بلائحة حماية المستهلك المعتمدة في المملكة.
+```
+
+---
+
+## 4. Warranty Exclusions & Safety Guidelines (الحالات التي لا يشملها الضمان)
+
+### Old English Content
+```text
+Non-Warranty Coverage
+• Warranty does not cover damage caused by misuse, negligence, accidents, liquid damage, improper installation, or external factors.
+• Use of non-certified charging adapters or unauthorized modifications voids warranty.
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Coverage Exclusions:
+new english content: 1. Physical damage resulting from dropping, severe impact, or unauthorized disassembly.
+2. Liquid immersion or water damage to non-waterproof models (e.g., electronic massagers or warming coasters).
+3. Use of non-standard high-voltage industrial adapters exceeding manufacturer power ratings (standard 5V/2A or official fast chargers recommended).
+4. Normal cosmetic wear and tear from regular daily usage.
+new arabic content: 1. الأضرار الناتجة عن السقوط العنيف، الكسر الخارجي، أو محاولات الفك والإصلاح لدى مراكز غير معتمدة.
+2. غمر الأجهزة بالسوائل أو أضرار تسرب الماء للأجهزة غير المخصصة لمقاومة الماء.
+3. استخدام محولات كهربائية تجارية ذات فولتية تفوق المواصفات المحددة في دليل الاستخدام (يوصى باستخدام شواحن 5V/2A الأصلية).
+4. الاستهلاك الطبيعي والمظهر السطحي الخارجي الناتج عن الاستخدام اليومي المعتاد.
 ```
