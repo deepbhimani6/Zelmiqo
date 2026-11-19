@@ -184,7 +184,7 @@ Ahmed Alharbi | Saudi Arabia: Really handy for keeping my phone and AirPods in o
 
 ---
 
-## 6. Homepage FAQ Section (الأسئلة الشائعة في الصفحة الرئيسية)
+## 5. Homepage FAQ Section (الأسئلة الشائعة في الصفحة الرئيسية)
 
 ### New English Content
 ```text
