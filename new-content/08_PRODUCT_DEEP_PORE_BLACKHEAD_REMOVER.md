@@ -1,10 +1,11 @@
 # 📦 Zelmiqo PorePure Vacuum Blackhead & Blemish Remover with Smart LED Display
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-07`  
 > **Original URL**: `https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum-led-display`  
 > **Category**: 💆‍♀️ Beauty & Skincare Devices  
-> **Standard Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-deep-pore-blackhead-remover/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover)
 
 ---
@@ -16,7 +17,7 @@
 Title: Deep Pore Blackhead Remover Vacuum with LED Display
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo PorePure Vacuum Blackhead & Blemish Remover with Smart LED Display
@@ -25,7 +26,7 @@ Hero Subheadline:
 Goodbye Stubborn Blackheads. Gentle Vacuum Extraction for Squeaky-Clean, Smooth, and Refined Pores.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 جهاز إزالة الرؤوس السوداء وتنظيف المسام بالشفط مع شاشة ذكية LED من زيلميكو
@@ -43,12 +44,12 @@ Goodbye Stubborn Blackheads. Gentle Vacuum Extraction for Squeaky-Clean, Smooth,
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Squeezing blackheads with fingers or metal extractors damages delicate facial capillaries and causes scarring. The Zelmiqo PorePure Vacuum delivers calibrated, dermatologically-safe suction to draw out oxidized sebum, blackheads, and dead skin cells from deep within pores. Featuring 5 adjustable suction tiers tailored for sensitive to oily skin, a crystal-clear LED display, and 4 interchangeable beauty probes, it gives you a clean facial treatment at home.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 عصر الرؤوس السوداء بالأصابع أو الأدوات المعدنية يتسبب في تلف أنسجة البشرة وترك ندبات وتوسيع المسام. يمنحك جهاز زيلميكو بور بيور حلاً احترافياً معتمداً عبر تقنية الشفط الفراغي الدقيق التي تسحب الدهون المتأكسدة والزيوت الزائدة من عمق المسام دون أي ضرر للبشرة. يحتوي على 5 مستويات شفط تناسب جميع أنواع البشرة من الحساسة حتى الدهنية، مع شاشة LED تعرض مستوى البطارية والشفط، و4 رؤوس متخصصة تناسب كافة تضاريس الوجه والأنف.
 ```
@@ -62,14 +63,14 @@ Squeezing blackheads with fingers or metal extractors damages delicate facial ca
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - 🔬 Calibrated Gentle Vacuum Tech: Removes impurities and sebum without bruising or irritating sensitive skin.
 - 📊 Smart LED Battery & Level Display: Visual indicators show exact suction level and remaining battery life.
 - 🎯 5 Adjustable Suction Intensities: Soft for delicate skin, Normal for cheek zones, Strong for stubborn T-zone blackheads.
 - 🔄 4 Ergonomic Multi-Action Probes: Oval head for fine lines, Small round for sensitive spots, Large round for oily pores.
 - 🔋 USB Fast Rechargeable & Long Battery: 60+ minutes of continuous runtime on a single charge.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - 🔬 تقنية شفط فراغي آمنة ودقيقة: تنقي المسام وتزيل الدهون المتراكمة بدون التسبب في كدمات أو تهيج للبشرة.
 - 📊 شاشة ليد LED ذكية وواضحة: تعرض مستوى الشفط وقوة البطارية لتجربة استخدام مريحة ومضبوطة.
 - 🎯 5 درجات شفط قابلة للتعديل: من المستوى اللطيف للبشرة الرقيقة إلى المستوى الفائق لمنطقة الأنف والـ T-Zone.
@@ -87,7 +88,7 @@ Standard bullet points from previous store listing.
 - Battery: 500mAh Lithium Rechargeable
 - Material: Eco-Friendly ABS & Hypoallergenic Probe Tips
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - قوة الشفط القصوى: حتى 65 كيلو باسكال (ضمن الحدود الآمنة طبياً للبشرة)
 - المستويات: 5 مستويات طاقة مبرمجة
 - الشاشة: شاشة LED واضحة

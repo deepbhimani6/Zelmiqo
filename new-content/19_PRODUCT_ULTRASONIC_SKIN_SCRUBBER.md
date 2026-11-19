@@ -1,10 +1,11 @@
 # 📦 Zelmiqo DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion)
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-18`  
 > **Original URL**: `https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care`  
 > **Category**: 💆‍♀️ Skincare & Facial Spatula  
-> **Standard Price**: **SAR 169.00** *(Or 4 monthly interest-free payments of **SAR 42.25** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 169.00** *(Or 4 monthly interest-free payments of **SAR 42.25** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-ultrasonic-skin-scrubber/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber)
 
 ---
@@ -16,7 +17,7 @@
 Title: Ultrasonic Skin Scrubber for Deep Pore Care
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion)
@@ -25,7 +26,7 @@ Hero Subheadline:
 Clinic-Grade Ultrasonic Peeling at Home. Clear Blackheads, Slough Dead Skin & Infuse Serums Deeply.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات من زيلميكو
@@ -43,12 +44,12 @@ Clinic-Grade Ultrasonic Peeling at Home. Clear Blackheads, Slough Dead Skin & In
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Everyday dead skin accumulation, sebum, and dust block your skincare serums from penetrating, leaving skin looking uneven. The Zelmiqo DermaSonic emits 24,000Hz ultrasonic vibrations per second, instantly atomizing water into micro-bubbles that dislodge stubborn dirt, blackheads, and dead skin cells from pores painlessly. Switch to the reverse ion-infusion side to lock in your luxury serums for that dewy, glass-skin glow.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 تراكم خلايا الجلد الميتة والزيوت يسد المسام ويمنع البشرة من الاستفادة من سيروماتك الفاخرة، مما يجعلها باهتة وفاقدة للحيوية. يصدر جهاز زيلميكو ديرما سونيك 24,000 اهتزازة صوتية بالثانية تحوّل قطرات الماء إلى فقاعات ميكروية دقيقة تفتت الأوساخ والرؤوس السوداء والجلد الميت وتخرجها من المسام بنعومة وبدون أي ألم. اقلبي الشفرة السيليكونية لتدليك البشرة بالأيونات لامتصاص عميق ونتائج نضارة فورية كالزجاج.
 ```
@@ -62,14 +63,14 @@ Everyday dead skin accumulation, sebum, and dust block your skincare serums from
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - 🌊 24,000Hz Ultrasonic Peeling: Dislodges blackheads, excess oil, and impurities with gentle acoustic waves.
 - ✨ Ion+ (Cleanse) & Ion- (Infuse): Pulls grime out of pores, then drives anti-aging serums deep into skin.
 - 💆‍♀️ EMS Microcurrent Pulse Lifting: Firms facial contours and stimulates collagen renewal.
 - 🛡️ Medical-Grade Stainless Steel Curved Spatula: Hypoallergenic, smooth, and contoured for nose curves.
 - 🔋 Cordless USB Fast Charging: Lightweight, portable, and ideal for self-care routines anywhere.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - 🌊 تقشير بالموجات الصوتية 24,000 هرتز: يفتت الرؤوس السوداء والأوساخ المتراكمة بالماء دون التسبب في أي احمرار.
 - ✨ تقنية الأيونات المزدوجة (+Ion للتنظيف / -Ion للامتصاص): تنقي المسام أولاً، ثم تساعد البشرة على امتصاص السيروم بعمق.
 - 💆‍♀️ نبضات EMS لشد البشرة: تعزز مرونة الجلد وتحفز إنتاج الكولاجين لمظهر مشدود وأكثر شباباً.
@@ -86,7 +87,7 @@ Standard bullet points from previous store listing.
 - Blade Material: 100% Medical-Grade 304 Stainless Steel
 - Battery: 500mAh Lithium Rechargeable
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - تردد الاهتزازات: 24,000 هرتز في الثانية بالموجات فوق الصوتية
 - الأنماط: تنظيف عميق، شفط أيوني موجب، ترطيب أيوني سالب، شد بالنبضات EMS
 - الخامة: شفرة مقوسة من الستانلس ستيل 304 الطبي المقاوم للبكتيريا

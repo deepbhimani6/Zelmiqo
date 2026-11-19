@@ -1,10 +1,11 @@
 # 📦 Zelmiqo ProVac 2-in-1 Wireless Car Vacuum Cleaner & Air Duster (Brushless Motor)
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-16`  
 > **Original URL**: `https://zelmiqo.com/products/portable-wireless-car-vacuum-cleaner`  
 > **Category**: 🚗 Automotive Luxury & Interior Care  
-> **Standard Price**: **SAR 179.00** *(Or 4 monthly interest-free payments of **SAR 44.75** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 179.00** *(Or 4 monthly interest-free payments of **SAR 44.75** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-portable-wireless-car-vacuum/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-wireless-car-vacuum)
 
 ---
@@ -16,7 +17,7 @@
 Title: Portable Wireless Car Vacuum Cleaner for Home and Interior Cleaning
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo ProVac 2-in-1 Wireless Car Vacuum Cleaner & Air Duster (Brushless Motor)
@@ -25,7 +26,7 @@ Hero Subheadline:
 Dual Action Suction & High-Pressure Blow. Deep Clean Car Air Vents, Trunk Dust, and Laptop Keyboards with Zero Effort.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 مكنسة ومنفاخ هواء السيارة اللاسلكي 2 في 1 بمحرك توربيني براشلس من زيلميكو
@@ -43,12 +44,12 @@ Dual Action Suction & High-Pressure Blow. Deep Clean Car Air Vents, Trunk Dust, 
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Dust and fine sand trapped inside AC vents and between seat seams are notoriously difficult to reach with standard suction alone. The Zelmiqo ProVac features a dual-end engineering marvel: one side delivers high-power suction, while the other functions as a high-pressure compressed air duster. Blow out stuck dust from delicate air vents, then vacuum it up instantly in one seamless workflow.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 الغبار والأتربة العالقة داخل ريش المكيف والشقوق الضيقة للمقاعد يصعب سحبها بالمكانس العادية وحدها. يتميز جهاز زيلميكو برو فاك بتصميم مبتكر ثنائي الوظائف: جهة تعمل كـ مكنسة شفط فائقة القوة، والجهة الأخرى تعمل كـ منفاخ هواء نفاث مضغوط. انفخ الغبار المستعصي من فتحات المكيف وأزرار التحكم، ثم اكنسه فورياً لتحصل على نظافة احترافية متكاملة تليق بسيارتك.
 ```
@@ -62,14 +63,14 @@ Dust and fine sand trapped inside AC vents and between seat seams are notoriousl
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - 🌪️ 2-in-1 Vacuum & Air Blower: Vacuum from the front; blow away fine sand and keyboard dust from the back.
 - ⚡️ Brushless High-Efficiency Motor: 50,000 RPM performance with whisper-smooth acoustic balance.
 - 🔋 Cordless Type-C Fast Charging: Clean your entire SUV cabin on a single battery charge.
 - 🧼 Dual Filter System: Stainless steel pre-filter + HEPA fine particle barrier (100% washable).
 - 🧰 Detailing Accessory Kit: Includes 5 specialized attachment nozzles for car, home, and electronics.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - 🌪️ وظيفة مزدوجة 2 في 1 (شفط ونفخ): شفط قوي للأوساخ من الأمام، ونفخ هواء مضغوط لطرد الغبار من الخلف.
 - ⚡️ محرك توربيني براشلس قوي: يولد حتى 50,000 دورة بالدقيقة بكفاءة تدوم طويلاً دون فقدان في العزم.
 - 🔋 حرية حركة لاسلكية وشحن USB-C: تكفي لتنظيف كامل مقصورة السيارة العائلية بشحنة واحدة.
@@ -86,7 +87,7 @@ Standard bullet points from previous store listing.
 - Battery: 4000mAh Lithium Rechargeable
 - Weight: Compact 380g Metal-Finish Body
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - المحرك: محرك رقمي بدون فحمات (براشلس) فائق التحمل
 - قوة الشفط: تصل إلى 12,000 باسكال
 - البطارية: 4000 مللي أمبير تدعم الشحن السريع Type-C

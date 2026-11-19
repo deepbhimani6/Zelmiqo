@@ -1,10 +1,11 @@
 # 📦 Zelmiqo FreshPress Wireless Automatic Citrus Juicer & Orange Extractor (USB Rechargeable)
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-15`  
 > **Original URL**: `https://zelmiqo.com/products/portable-usb-citrus-juicer-orange-lemon`  
 > **Category**: 🥤 Kitchen Gadgets & Healthy Living  
-> **Standard Price**: **SAR 109.00** *(Or 4 monthly interest-free payments of **SAR 27.25** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 109.00** *(Or 4 monthly interest-free payments of **SAR 27.25** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-portable-usb-citrus-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer)
 
 ---
@@ -16,7 +17,7 @@
 Title: Portable USB Citrus Juicer for Fresh Orange and Lemon Juice
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo FreshPress Wireless Automatic Citrus Juicer & Orange Extractor (USB Rechargeable)
@@ -25,7 +26,7 @@ Hero Subheadline:
 Pure Juice with Zero Manual Effort. Press Fresh Oranges, Pomegranates & Lemons with One Single Button.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية مع شحن USB من زيلميكو
@@ -43,12 +44,12 @@ Pure Juice with Zero Manual Effort. Press Fresh Oranges, Pomegranates & Lemons w
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Manual citrus squeezers leave hands sticky, extract only half the juice, and require strenuous arm pressure. The Zelmiqo FreshPress operates automatically at the touch of a button. Simply cut your fruit in half, place it on the conical reamer, close the lid, and press start. Its slow-speed masticating press extracts up to 95% of pure, seed-free juice with zero bitter rind oils.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العصارات اليدوية التقليدية ترهق اليدين، تترك بقعاً، وتستخرج نصف العصير فقط مع مرارة القشر. عصارة زيلميكو فريش برس تعمل بشكل أوتوماتيكي بالكامل بضغطة زر واحدة! ما عليك سوى قطع البرتقال أو الرمان إلى نصفين، وضعه على الرأس المخروطي، وإغلاق الغطاء والضغط على زر التشغيل؛ ليقوم المحرك بالدوران والعصر البطيء واستخلاص 95% من العصير الصافي بدون بذور وبدون أي تعب.
 ```
@@ -62,14 +63,14 @@ Manual citrus squeezers leave hands sticky, extract only half the juice, and req
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - 🍊 One-Button Automatic 360° Squeeze: Fully hands-free pressing extracts every drop of juice in 20 seconds.
 - 🥤 95% High Juice Yield: Efficient spiral reamer separates pure juice from pulp and seeds flawlessly.
 - 🔋 Wireless & USB Rechargeable: Enjoy 30+ glasses of fresh juice on a single charge anywhere—kitchen, patio, or camping.
 - 🍇 Multi-Fruit Versatility: Perfect for sweet oranges, fresh lemons, limes, grapefruits, and juicy pomegranates.
 - 🧼 Detachable Easy-Rinse Parts: Disassembles in seconds and rinses clean under running water.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - 🍊 عصر أوتوماتيكي 360 درجة بضغطة زر: بدون أي مجهود يدوي؛ تعصر نصف البرتقالة بالكامل خلال 20 ثانية.
 - 🥤 نسبة استخلاص عصير تصل إلى 95%: رأس حلزوني ذكي يفصل العصير الصافي عن القشور والبذور بدون مرارة.
 - 🔋 لاسلكية وقابلة للشحن بـ USB: تعصر أكثر من 30 كوب عصير بشحنة واحدة؛ خذها معك للمطبخ أو الاستراحة أو النزهات البرية.
@@ -86,7 +87,7 @@ Standard bullet points from previous store listing.
 - Capacity: Integrated 200ml Juice Collection Reservoir with Non-Drip Spout
 - Material: Food-Grade ABS + AS High-Transparency Cup (BPA-Free)
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - القوة: محرك عصر بطيء بقوة 45 واط لعصير غني بالفيتامينات
 - البطارية: ليثيوم 1500 مللي أمبير تدعم الشحن السريع Type-C
 - السعة: خزان مدمج 200 مل مع صنبور مانع للتنقيط

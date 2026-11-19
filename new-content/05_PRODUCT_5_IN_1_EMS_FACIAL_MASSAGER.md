@@ -1,10 +1,11 @@
 # 📦 Zelmiqo 5-in-1 EMS Skin Rejuvenation Massager with LED Light Therapy & Thermal Sculpting
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-04`  
 > **Original URL**: `https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy`  
 > **Category**: 💆‍♀️ Beauty & Anti-Aging  
-> **Standard Price**: **SAR 135.00** *(Or 4 monthly interest-free payments of **SAR 33.75** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 135.00** *(Or 4 monthly interest-free payments of **SAR 33.75** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-5-in-1-ems-facial-massager/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-5-in-1-ems-facial-massager)
 
 ---
@@ -16,7 +17,7 @@
 Title: 5-in-1 Facial Beauty Massager with EMS, Ionic Cleansing, Heat & LED Light Therapy
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo 5-in-1 EMS Skin Rejuvenation Massager with LED Light Therapy & Thermal Sculpting
@@ -25,7 +26,7 @@ Hero Subheadline:
 Turn Back Time. Professional Clinic-Level Facelift, Collagen Stimulation & V-Line Jawline Sculpting at Home.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 جهاز العناية بالبشرة المتكامل 5 في 1 مع مساج EMS والعلاج الضوئي LED والتدفئة الحرارية من زيلميكو
@@ -50,12 +51,12 @@ Combining EMS electrical stimulation, positive & negative ions, high-frequency v
 Positive and negative ion technol...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Why spend thousands on clinic sessions in Riyadh or Jeddah when you can achieve luminous, firm skin in just 10 minutes a day? The Zelmiqo 5-in-1 EMS Facial Massager unites five clinically-proven beauty technologies: Microcurrent EMS lifting, Ionic deep cleansing, 42°C soothing thermal therapy, high-frequency sonic vibration, and tri-color LED phototherapy (Red for collagen, Blue for acne & pore refining, Green for hyperpigmentation & dark spots). Sculpt your jawline, diminish fine lines, and enhance facial contours effortlessly.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 لماذا تدفعين آلاف الريالات في جلسات العيادات التجميلية بينما يمكنك الحصول على بشرة مشدودة ونضرة خلال 10 دقائق فقط في منزلك؟ يجمع جهاز زيلميكو 5 في 1 أحدث 5 تقنيات تجميلية مثبتة عالمياً: نبضات EMS الدقيقة لشد الترهلات وتحديد الفك، الأيونات الموجبة والسالبة لامتصاص السيروم وتنظيف المسام، التدفئة الحرارية 42 درجة لتعزيز الدورة الدموية، والموجات الضوئية LED الثلاثية (الأحمر لتحفيز الكولاجين، الأزرق لتهدئة الحبوب وتضييق المسام، والأخضر لتوحيد لون البشرة والتخلص من التصبغات).
 ```
@@ -69,14 +70,14 @@ Why spend thousands on clinic sessions in Riyadh or Jeddah when you can achieve 
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - ⚡️ EMS Microcurrent Sculpting: Gently activates facial muscles, contours the jawline, and tightens sagging skin.
 - 🌈 Tri-Color LED Phototherapy: Red (anti-aging & firming), Blue (anti-blemish & soothing), Green (balancing & radiant glow).
 - 🔥 42°C Thermal Ionic Infusion: Opens pores and drives active serums, hyaluronic acid, and creams 6x deeper into the dermis.
 - ✨ Sonic Micro-Vibration Massage: Awakens tired skin, de-puffs morning eyes, and stimulates lymphatic drainage.
 - 🔋 USB Rechargeable & LCD Smart Screen: Clear mode indicators with intelligent 5-minute auto-timer for consistent routines.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - ⚡️ شد فوري ونحت للفك بتقنية EMS: تحفز العضلات الدقيقة للوجه لتمنحك إطلالة مشدودة وتحدد ملامح الخدين والفك.
 - 🌈 علاج ضوئي ثلاثي الأبعاد LED: الضوء الأحمر (لمحاربة التجاعيد وإنتاج الكولاجين)، الأزرق (لتنقية البشرة من الحبوب)، والأخضر (لتفتيح التصبغات).
 - 🔥 تدفئة حرارية مهدئة 42°C: تفتح المسام بلطف وتساعد على امتصاص السيروم وكريمات الترطيب بعمق مضاعف 6 مرات.
@@ -94,7 +95,7 @@ Standard bullet points from previous store listing.
 - Charging Interface: USB Fast Charging (cable included)
 - Timer: Intelligent 5-Minute Auto Shut-Off per mode
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - أنماط التشغيل: تنظيف عميق، شد وتحديد EMS، ترطيب حراري، علاج ضوئي LED
 - الأطوال الموجية للضوء: أحمر (620 نانومتر)، أزرق (465 نانومتر)، أخضر (520 نانومتر)
 - البطارية: ليثيوم 1000 مللي أمبير تكفي حتى 15 جلسة متتالية بشحنة واحدة

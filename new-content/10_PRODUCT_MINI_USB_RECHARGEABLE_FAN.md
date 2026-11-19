@@ -1,10 +1,11 @@
 # 📦 Zelmiqo BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand Base
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-09`  
 > **Original URL**: `https://zelmiqo.com/products/mini-usb-rechargeable-3-speed-handheld-desktop-fan`  
 > **Category**: ❄️ Portable Cooling & Summer Tech  
-> **Standard Price**: **SAR 122.00** *(Or 4 monthly interest-free payments of **SAR 30.50** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 122.00** *(Or 4 monthly interest-free payments of **SAR 30.50** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-mini-usb-rechargeable-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan)
 
 ---
@@ -16,7 +17,7 @@
 Title: Mini USB Rechargeable Handheld and Desktop Fan with 3 Speeds
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand Base
@@ -25,7 +26,7 @@ Hero Subheadline:
 Your Pocket-Sized Personal Oasis. Ultra-Quiet Cooling Breeze Anywhere Your Day in Saudi Arabia Takes You.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 مروحة الجيب اليدوية والمكتبية القابلة للشحن مع قاعدة وحامل للجوال من زيلميكو
@@ -43,12 +44,12 @@ Your Pocket-Sized Personal Oasis. Ultra-Quiet Cooling Breeze Anywhere Your Day i
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Whether you are waiting outside, studying in a café, working at your desk, or commuting, the scorching daytime warmth in Saudi Arabia demands an immediate cooling solution. The Zelmiqo BreezeMini packs aerodynamic motor power into an elegant, palm-sized design. Use it handheld on the go, or drop it into its weighted non-slip base on your desk—which doubles as a clever smartphone stand for hands-free video watching.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 سواء كنت في انتظار مشوارك، تدرس في الكافيه، تعمل في مكتبك، أو تتنقل في الهواء الطلق؛ تحتاج دائماً لنسيم بارد يخفف عنك حرارة الجو. تجمع مروحة زيلميكو بريز ميني بين قوة الأداء الحركي وصغر الحجم الفائق لتوضع في حقيبتك أو جيبك بكل سهولة. استخدمها كـ مروحة يدوية أثناء المشي، أو ضعها في قاعدتها الأنيقة على المكتب، والتي تعمل أيضاً كـ ستاند مريح لتثبيت جوالك لمشاهدة الفيديوهات أثناء العمل.
 ```
@@ -62,14 +63,14 @@ Whether you are waiting outside, studying in a café, working at your desk, or c
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - 🌪️ 3 Aerodynamic Speed Levels: Gentle breeze, natural flow, and strong gust for swift cooling.
 - 📱 2-in-1 Dual Function Base: Holds the fan stably upright and features an integrated phone dock.
 - 🔋 Long-Lasting Rechargeable Battery: Delivers up to 6 hours of continuous cooling on a single USB charge.
 - 🔇 Whisper-Silent Acoustic Motor: Operates under 30dB, making it courteous for quiet offices and classrooms.
 - 🪶 Featherlight & Handbag-Friendly: Weighs under 150g, perfect for daily commutes, travel, and outdoor events.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - 🌪️ 3 سرعات تبريد ديناميكية: نسيم هادئ للنوم، تدفق طبيعي، وهواء قوي ومنعش لأوقات الحر الشديد.
 - 📱 قاعدة مكتبية ذكية 2 في 1: تثبت المروحة بثبات وتحتوي على مسند ذكي لحمل الجوال ومتابعة مسلسلاتك ومكالماتك.
 - 🔋 بطارية ليثيوم طويلة الأمد: تدوم حتى 6 ساعات من العمل المتواصل بشحنة USB واحدة.
@@ -87,7 +88,7 @@ Standard bullet points from previous store listing.
 - Blades: 4 Aero-Engine Turbine Blades
 - Weight: 145g (including desktop base)
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - البطارية: ليثيوم 1200 مللي أمبير قابلة للشحن
 - منفذ الشحن: USB مع كابل شحن مرفق
 - وقت التشغيل: من 2.5 إلى 6 ساعات بحسب السرعة المختارة

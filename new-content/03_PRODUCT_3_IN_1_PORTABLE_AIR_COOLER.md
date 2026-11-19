@@ -1,10 +1,11 @@
 # 📦 Zelmiqo Arctic Mist 3-in-1 Portable Air Cooler, Nano Humidifier & Ambient Night Light
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-02`  
 > **Original URL**: `https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan-humidifier-led-light`  
 > **Category**: ❄️ Summer Cooling & Home Comfort  
-> **Standard Price**: **SAR 119.00** *(Or 4 monthly interest-free payments of **SAR 29.75** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 119.00** *(Or 4 monthly interest-free payments of **SAR 29.75** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-3-in-1-portable-air-cooler-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan)
 
 ---
@@ -16,7 +17,7 @@
 Title: 3-in-1 Portable Air Cooler Fan with Humidifier & LED Night Light
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo Arctic Mist 3-in-1 Portable Air Cooler, Nano Humidifier & Ambient Night Light
@@ -25,7 +26,7 @@ Hero Subheadline:
 Beat the Scorching Saudi Heat. Instant Ice-Mist Cooling for Your Desk, Bedroom, Kitchen and Majlis.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 مكيف ومبرد الهواء الصيفي المتنقل 3 في 1 مع مرطب نانو وإضاءة ليلية من زيلميكو
@@ -43,12 +44,12 @@ Beat the Scorching Saudi Heat. Instant Ice-Mist Cooling for Your Desk, Bedroom, 
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 When summer temperatures in Riyadh and Mecca soar past 45°C, standard fans just circulate dry, burning air. The Zelmiqo Arctic Mist 3-in-1 changes everything. Combining a high-velocity personal cooling fan with ultrasonic 5-nozzle mist humidification and a soothing 7-color ambient night light, it turns warm, dry air into a cool, revitalizing oasis. Just add cold water or ice cubes to the top tank and enjoy up to 8 hours of soothing, moisturized cooling.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 عندما تتجاوز درجات الحرارة في الرياض ومكة وجدة 45 درجة مئوية، لا تفعل المراوح العادية سوى تحريك الهواء الساخن والجاف. جهاز زيلميكو أركتيك ميست 3 في 1 هو الحل المثالي؛ فهو يجمع بين مروحة تبريد قوية، ونظام ترطيب بالموجات فوق الصوتية عبر 5 فوهات رذاذ، مع إضاءة ليلية مهدئة بـ 7 ألوان. أضف الماء البارد أو مكعبات الثلج في الخزان العلوي واستمتع بنسيم قطبي رطب ومنعش يحميك من جفاف الجو في المنزل، المكتب، أو الاستراحة.
 ```
@@ -62,7 +63,7 @@ When summer temperatures in Riyadh and Mecca soar past 45°C, standard fans just
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - ❄️ Dual Ice-Cooling & 5-Hole Ultrasonic Mist: Instantly drops surrounding temperature by 5°C–8°C when used with cold water and ice.
 - 🌪️ 3 Adjustable Wind Speeds & 3 Spray Modes: Customize your comfort from a quiet nighttime whisper to maximum refreshing airflow.
 - 💧 600ml Large Leak-Proof Water Tank: Provides up to 8 hours of continuous cool mist without frequent refills.
@@ -70,7 +71,7 @@ Standard bullet points from previous store listing.
 - 🔇 Ultra-Quiet Sleep Operation: Whisper-quiet acoustic motor (< 40dB) ensures zero disturbance during study, work, or sleep.
 - 🔌 Type-C Powered Portability: Easily plug into a power bank, laptop, or car USB port for cooling anywhere in KSA.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - ❄️ تبريد فوري مزدوج مع 5 فوهات رذاذ: يخفض حرارة الهواء المحيط بمقدار 5 إلى 8 درجات مئوية فور وضع الماء البارد والثلج.
 - 🌪️ 3 سرعات للرياح و3 أنماط للرذاذ: تحكم كامل في قوة النسيم من هدوء تام يناسب النوم إلى تيار منعش قوي أثناء العمل.
 - 💧 خزان مياه علوي واسع بسعة 600 مل: يمنحك ترطيباً وانتعاشاً مستمراً حتى 8 ساعات متواصلة دون تسريب.
@@ -91,7 +92,7 @@ Standard bullet points from previous store listing.
 - Lighting: 7-Color Soft Ambient LED
 - Dimensions: Compact 21cm x 26cm x 9cm (Lightweight with leather carry handle)
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - طراز المنتج: زيلميكو أركتيك ميست برو
 - سعة خزان المياه: 600 مل مع فتحة علوية سهلة للتنظيف والتعبئة
 - منفذ الطاقة: USB Type-C موفر للطاقة (5 فولت / 2 أمبير)

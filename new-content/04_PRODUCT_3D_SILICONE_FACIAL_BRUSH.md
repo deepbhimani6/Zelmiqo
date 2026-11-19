@@ -1,10 +1,11 @@
 # 📦 Zelmiqo DermaGlow 3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager
 
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-03`  
 > **Original URL**: `https://zelmiqo.com/products/3d-double-sided-silicone-facial-cleansing-brush`  
 > **Category**: 💆‍♀️ Beauty & Skin Care  
-> **Standard Price**: **SAR 121.00** *(Or 4 monthly interest-free payments of **SAR 30.25** with Tabby / Tamara)*  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Price**: **SAR 121.00** *(Or 4 monthly interest-free payments of **SAR 30.25** with Tabby / Tamara)*  
+> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
 > **Primary Image Directory**: [`images/product-3d-silicone-cleansing-brush/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush)
 
 ---
@@ -16,7 +17,7 @@
 Title: 3D Double-Sided Silicone Facial Cleansing Brush
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Title:
 Zelmiqo DermaGlow 3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager
@@ -25,7 +26,7 @@ Hero Subheadline:
 Deep Pore Purification & Radiant Skin. The Gentle Daily Cleanser That Removes 99.5% of Dirt, Oil & Makeup.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان باللغة العربية:
 فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D مزدوجة الوجهين من زيلميكو
@@ -43,12 +44,12 @@ Deep Pore Purification & Radiant Skin. The Gentle Daily Cleanser That Removes 99
 - window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 ```text
 Dust storms, harsh sunlight, and daily humidity in Saudi Arabia often lead to clogged pores, excess sebum, and dull skin. The Zelmiqo DermaGlow 3D Silicone Brush provides clinical-grade deep facial cleansing without abrasive bristles. Featuring dual textures—ultra-fine soft bristles on one side for gentle daily exfoliation, and silicone massage nodes on the other to stimulate blood circulation and enhance skincare absorption—it is your daily ticket to spa-level glowing skin.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 تتعرض البشرة في أجواء المملكة لعوامل الطقس الصيفية من غبار وجفاف ورطوبة، مما يسد المسام ويزيد من إفراز الدهون. صُممت فرشاة زيلميكو ديرما جلو 3D لتمنحك تنظيفاً عميقاً فائق النعومة بدون التسبب في أي تهيج للبشرة. تتميز بتصميم مزدوج؛ شعيرات فائقة الدقة في الأمام لتنقية المسام والتخلص من الرؤوس السوداء، ونقاط تدليك سيليكونية في الخلف لتعزيز الدورة الدموية ومساعدة بشرتك على امتصاص السيروم والكريمات بفاعلية مضاعفة.
 ```
@@ -62,14 +63,14 @@ Dust storms, harsh sunlight, and daily humidity in Saudi Arabia often lead to cl
 Standard bullet points from previous store listing.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
 - 🌸 Food-Grade Hygienic Silicone: 35x more hygienic than traditional nylon brushes; antibacterial and easy to rinse.
 - ✨ Dual-Sided Skincare Versatility: Fine cleansing bristles on front; lifting massage ridges on back for facial contouring.
 - 🧖‍♀️ Deep Exfoliation Without Irritation: Gently sweeps away dead skin cells, sunscreen residue, and stubborn makeup.
 - 💧 100% Waterproof & Ergonomic Grip: Safe for shower use with an easy-to-hold curved handle designed for reaching nose crevices.
 - 👜 Compact Travel-Ready Design: No batteries or charging cables needed; ready for your gym bag, vanity, or travel pouch.
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - 🌸 سيليكون طبي نقي مضاد للبكتيريا: أكثر صحة بمقدار 35 مرة من الفُرش العادية وسهل التنظيف والتجفيف بالكامل.
 - ✨ تصميم مزدوج الوجهين: جانب بشعيرات فائقة النعومة لتنظيف المسام، وجانب لتدليك وشد عضلات الوجه وتحفيز الكولاجين.
 - 🧖‍♀️ تقشير لطيف بدون تهيج: يزيل خلايا الجلد الميتة، بقايا واقي الشمس، ومستحضرات التجميل بلطف حتى للبشرة الحساسة.
@@ -87,7 +88,7 @@ Standard bullet points from previous store listing.
 - Skin Types: Suitable for sensitive, oily, combination, and normal skin
 - Maintenance: Rinse with warm water and air dry
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 - الخامة: سيليكون طبي عالي المرونة ومضاد للبكتيريا 100%
 - الأبعاد: 13 سم × 5.5 سم بقبضة مقوسة لراحة اليد
 - مقاومة الماء: مقاومة للماء بالكامل وسهلة الغسيل
