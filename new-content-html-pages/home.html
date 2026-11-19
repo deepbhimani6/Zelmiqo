@@ -10,7 +10,6 @@
       --primary-light: #162a3d;
       --gold: #d4af37;
       --gold-hover: #f3cf65;
-      --gold-bg: #fffdf5;
       --bg-dark: #09131d;
       --bg-card: #ffffff;
       --bg-light: #f4f6f9;
@@ -18,8 +17,8 @@
       --text-muted: #64748b;
       --border: #e2e8f0;
       --border-dark: #334155;
-      --old-bg: #f8fafc;
-      --old-border: #cbd5e1;
+      --red-accent: #e61919;
+      --red-bg: rgba(230, 25, 25, 0.08);
       --green: #10b981;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -80,7 +79,7 @@
 
     /* Left Pane: Visual Live Website */
     .visual-pane {
-      width: 46%;
+      width: 48%;
       background: #0f172a;
       border-right: 2px solid #cbd5e1;
       display: flex;
@@ -126,50 +125,75 @@
     .image-wrapper {
       position: relative;
       width: 100%;
-      max-width: 720px;
+      max-width: 760px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.5);
       border-radius: 8px;
-      overflow: hidden;
+      overflow: visible; /* so callout badge above top edge is visible */
       background: #000;
+      margin-top: 24px;
+      margin-bottom: 20px;
     }
     .image-wrapper img {
       width: 100%;
       height: auto;
       display: block;
+      border-radius: 8px;
     }
 
-    /* Large High-Contrast Visual Pins */
-    .visual-pin {
+    /* ============================================================== */
+    /* CALLOUT POINTER MARKERS (Directly styled like user 2nd image)  */
+    /* ============================================================== */
+    .visual-callout-wrap {
       position: absolute;
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: var(--gold);
-      color: #09131d;
-      font-weight: 900;
-      font-size: 18px;
-      line-height: 38px;
-      text-align: center;
+      transform: translate(-50%, -100%);
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: center;
-      border: 3px solid #ffffff;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.65), 0 0 0 3px rgba(212, 175, 55, 0.5);
       cursor: pointer;
-      z-index: 10;
-      transform: translate(-50%, -50%);
-      transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+      z-index: 25;
       user-select: none;
+      transition: transform 0.2s;
     }
-    .visual-pin:hover {
-      transform: translate(-50%, -50%) scale(1.18);
-      background: #ffffff;
-      color: #000;
-      border-color: var(--gold);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.8), 0 0 0 4px var(--gold);
+    .visual-callout-wrap:hover {
+      transform: translate(-50%, -100%) scale(1.1);
+      z-index: 35;
     }
+    .callout-badge {
+      background: var(--red-accent);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 4px 8px;
+      border-radius: 5px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.45);
+      border: 1px solid rgba(255,255,255,0.4);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+      letter-spacing: 0.3px;
+    }
+    .callout-arrow {
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 7px solid var(--red-accent);
+      margin-top: -1px;
+    }
+    .callout-target-box {
+      position: absolute;
+      border: 2px solid var(--red-accent);
+      border-radius: 4px;
+      pointer-events: none;
+      background: var(--red-bg);
+      transform: translate(-50%, 0);
+      box-shadow: 0 0 6px rgba(230, 25, 25, 0.4);
+      z-index: 20;
+    }
+
     .slider-hint-box {
-      margin-top: 14px;
+      margin-top: 10px;
       background: #1e293b;
       border-left: 4px solid var(--gold);
       padding: 12px 16px;
@@ -177,14 +201,14 @@
       color: #e2e8f0;
       font-size: 12.5px;
       width: 100%;
-      max-width: 720px;
+      max-width: 760px;
       line-height: 1.5;
     }
     .slider-hint-box strong { color: var(--gold); }
 
     /* Right Pane: Copy & Paste Cards Workstation */
     .workstation-pane {
-      width: 54%;
+      width: 52%;
       overflow-y: auto;
       padding: 20px 28px 60px 28px;
       background: #f8fafc;
@@ -256,19 +280,15 @@
       gap: 12px;
     }
     .card-main-badge {
-      background: var(--gold);
-      color: #09131d;
-      width: 36px;
-      height: 36px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 900;
-      font-size: 16px;
-      border: 2px solid #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      background: var(--red-accent);
+      color: #fff;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 0.3px;
       flex-shrink: 0;
+      box-shadow: 0 2px 5px rgba(230, 25, 25, 0.3);
     }
     .card-header-title h3 {
       font-size: 16px;
@@ -320,20 +340,20 @@
       align-items: center;
       gap: 8px;
     }
-    .field-subpin {
+    .field-callout-pill {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      background: var(--gold);
-      color: #09131d;
-      font-weight: 900;
-      font-size: 14px;
-      border: 2px solid #fff;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      background: var(--red-accent);
+      color: #ffffff;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(230, 25, 25, 0.3);
+      letter-spacing: 0.3px;
       flex-shrink: 0;
+      white-space: nowrap;
     }
     .field-title-text {
       font-size: 13px;
@@ -478,13 +498,13 @@
       </div>
 
       <div class="visual-content">
-        <!-- Visual Image Container with Dynamic Pins -->
+        <!-- Visual Image Container with Dynamic Callout Markers -->
         <div class="image-wrapper" id="imageWrapper">
           <img id="visualImage" src="assets/section_1_hero.jpg" alt="Live Homepage Section">
 
-          <!-- Dynamic Pins Overlay -->
+          <!-- Dynamic Callouts Overlay -->
           <div id="pinsOverlay">
-            <!-- Pins dynamically injected by JS -->
+            <!-- Markers dynamically injected by JS -->
           </div>
         </div>
 
@@ -499,15 +519,15 @@
 
       <!-- Sticky Navigation Bar for Cards (ScrollSpy Active) -->
       <div class="section-nav-pills">
-        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide1')">① Hero Slide 1</a>
-        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide2')">② Hero Slide 2</a>
-        <a href="javascript:void(0)" onclick="selectSection('trust', 'card-trust-pillars')">③ Trust Pillars (3 Cards)</a>
-        <a href="javascript:void(0)" onclick="selectSection('categories', 'card-categories-slider')">④ Categories (8 Slides)</a>
-        <a href="javascript:void(0)" onclick="selectSection('new_collection', 'card-new-collection')">⑤ New Arrivals (6 Slides)</a>
-        <a href="javascript:void(0)" onclick="selectSection('mid_banners', 'card-mid-banners')">⑥ Mid Banners (2 Cards)</a>
-        <a href="javascript:void(0)" onclick="selectSection('trending', 'card-trending-slider')">⑦ Trending (6 Slides)</a>
-        <a href="javascript:void(0)" onclick="selectSection('testimonials', 'card-testimonials-slider')">⑧ Testimonials (6 Slides)</a>
-        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">⑨ SEO & Meta Tags</a>
+        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slide 1</a>
+        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide2')">2. Hero Slide 2</a>
+        <a href="javascript:void(0)" onclick="selectSection('trust', 'card-trust-pillars')">3. Trust Pillars</a>
+        <a href="javascript:void(0)" onclick="selectSection('categories', 'card-categories-slider')">4. Categories</a>
+        <a href="javascript:void(0)" onclick="selectSection('new_collection', 'card-new-collection')">5. New Arrivals</a>
+        <a href="javascript:void(0)" onclick="selectSection('mid_banners', 'card-mid-banners')">6. Mid Banners</a>
+        <a href="javascript:void(0)" onclick="selectSection('trending', 'card-trending-slider')">7. Trending</a>
+        <a href="javascript:void(0)" onclick="selectSection('testimonials', 'card-testimonials-slider')">8. Testimonials</a>
+        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">9. SEO & Meta Tags</a>
       </div>
 
       <!-- ============================================================== -->
@@ -518,7 +538,7 @@
       <div class="content-card" id="card-hero-slide1">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">①</span>
+            <span class="card-main-badge">Hero 1</span>
             <h3>Hero Banner — Slide 1 (Neck Fan Active on Load)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Master Slider (324) > Slide 1</span>
@@ -532,7 +552,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">①-A</span>
+                <span class="field-callout-pill">1. Eyebrow Tag</span>
                 <span class="field-title-text">Top Eyebrow Tag / Mini Banner</span>
               </div>
               <span class="field-target-loc">Visual Location: Top Gold Badge</span>
@@ -559,7 +579,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">①-B</span>
+                <span class="field-callout-pill">2. Headline</span>
                 <span class="field-title-text">Main Hero Headline</span>
               </div>
               <span class="field-target-loc">Visual Location: Centered Hero Title</span>
@@ -586,7 +606,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">①-C</span>
+                <span class="field-callout-pill">3. Subheadline</span>
                 <span class="field-title-text">Hero Subheadline / Value Pitch</span>
               </div>
               <span class="field-target-loc">Visual Location: Under Headline</span>
@@ -613,7 +633,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">①-D</span>
+                <span class="field-callout-pill">4. Button</span>
                 <span class="field-title-text">Call-to-Action Button Label</span>
               </div>
               <span class="field-target-loc">Visual Location: Orange Button</span>
@@ -643,7 +663,7 @@
       <div class="content-card" id="card-hero-slide2">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">②</span>
+            <span class="card-main-badge">Hero 2</span>
             <h3>Hero Banner — Slide 2 (Summer Deals / Lifestyle Gadgets)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Master Slider (324) > Slide 2</span>
@@ -657,7 +677,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">②-A</span>
+                <span class="field-callout-pill">1. Eyebrow Tag</span>
                 <span class="field-title-text">Top Eyebrow Tag</span>
               </div>
               <span class="field-target-loc">Visual Location: Top Badge</span>
@@ -684,7 +704,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">②-B</span>
+                <span class="field-callout-pill">2. Headline</span>
                 <span class="field-title-text">Main Headline</span>
               </div>
               <span class="field-target-loc">Visual Location: Slide 2 Title</span>
@@ -711,7 +731,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">②-C</span>
+                <span class="field-callout-pill">3. Subheadline</span>
                 <span class="field-title-text">Subheadline / Feature Pitch</span>
               </div>
               <span class="field-target-loc">Visual Location: Slide 2 Description</span>
@@ -738,7 +758,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">②-D</span>
+                <span class="field-callout-pill">4. Button</span>
                 <span class="field-title-text">Call-to-Action Button</span>
               </div>
               <span class="field-target-loc">Visual Location: Slide 2 Button</span>
@@ -770,7 +790,7 @@
       <div class="content-card" id="card-trust-pillars">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">③</span>
+            <span class="card-main-badge">Trust Pillars</span>
             <h3>Value Proposition: 3 Core Trust Pillars (Info Blocks)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Info Blocks (529)</span>
@@ -784,7 +804,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">③-1</span>
+                <span class="field-callout-pill">1. Content</span>
                 <span class="field-title-text">Pillar 1: Fast & Free Delivery (Left Card • Truck Icon)</span>
               </div>
               <span class="field-target-loc">Item 1 in Module 529</span>
@@ -814,7 +834,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">③-2</span>
+                <span class="field-callout-pill">2. Content</span>
                 <span class="field-title-text">Pillar 2: 100% Money Back (Center Card • Heart Icon)</span>
               </div>
               <span class="field-target-loc">Item 2 in Module 529</span>
@@ -844,7 +864,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">③-3</span>
+                <span class="field-callout-pill">3. Content</span>
                 <span class="field-title-text">Pillar 3: Safe Checkout (Right Card • Bag Icon)</span>
               </div>
               <span class="field-target-loc">Item 3 in Module 529</span>
@@ -879,7 +899,7 @@
       <div class="content-card" id="card-categories-slider">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">④</span>
+            <span class="card-main-badge">Categories</span>
             <h3>Featured Categories Carousel (All 8 Slides in Exact Live Order)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Categories (423)</span>
@@ -893,7 +913,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-1</span>
+                <span class="field-callout-pill">1. Content</span>
                 <span class="field-title-text">Slide 1: Mobile Accessories (Circle 1 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/mobile-accessories</span>
@@ -920,7 +940,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-2</span>
+                <span class="field-callout-pill">2. Content</span>
                 <span class="field-title-text">Slide 2: Summer Products (Circle 2 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/summer-products</span>
@@ -947,7 +967,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-3</span>
+                <span class="field-callout-pill">3. Content</span>
                 <span class="field-title-text">Slide 3: Home & Kitchen (Circle 3 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/home-and-kitchen</span>
@@ -974,7 +994,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-4</span>
+                <span class="field-callout-pill">4. Content</span>
                 <span class="field-title-text">Slide 4: Electronics & Gadgets (Circle 4 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/electronics-and-gadgets</span>
@@ -992,7 +1012,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="cat-4-ar">إلكترونيات متطورة وأجهزة ذكية مبتكرة</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('cat-4-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('cat-4-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1001,7 +1021,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-5</span>
+                <span class="field-callout-pill">5. Content</span>
                 <span class="field-title-text">Slide 5: Car Accessories (Circle 5 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/car-accessories</span>
@@ -1028,7 +1048,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-6</span>
+                <span class="field-callout-pill">6. Content</span>
                 <span class="field-title-text">Slide 6: Beauty & Personal Care (Circle 6 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/beauty-and-personal-care</span>
@@ -1046,7 +1066,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="cat-6-ar">أجهزة العناية الشخصية والجمال المتطورة</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('cat-6-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('cat-6-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1055,7 +1075,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-7</span>
+                <span class="field-callout-pill">7. Content</span>
                 <span class="field-title-text">Slide 7: Health & Fitness (Rotates in via Autoplay)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/health-and-fitness</span>
@@ -1082,7 +1102,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">④-8</span>
+                <span class="field-callout-pill">8. Content</span>
                 <span class="field-title-text">Slide 8: Islamic & Gift Products (Rotates in via Autoplay)</span>
               </div>
               <span class="field-target-loc">Live URL: /category/islamic-and-gift-products</span>
@@ -1100,7 +1120,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="cat-8-ar">هدايا فاخرة ومقتنيات إسلامية راقية</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('cat-8-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('cat-8-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1114,7 +1134,7 @@
       <div class="content-card" id="card-new-collection">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">⑤</span>
+            <span class="card-main-badge">New Arrivals</span>
             <h3>New Collection Carousel (All 6 Products in Exact Live Order)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Products (418)</span>
@@ -1128,7 +1148,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑤-1</span>
+                <span class="field-callout-pill">1. Content</span>
                 <span class="field-title-text">Product 1: 5-in-1 Facial Massager (Card 1 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 149.00</span>
@@ -1155,7 +1175,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑤-2</span>
+                <span class="field-callout-pill">2. Content</span>
                 <span class="field-title-text">Product 2: Smart Fascia Massage Gun (Card 2 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 189.00</span>
@@ -1182,7 +1202,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑤-3</span>
+                <span class="field-callout-pill">3. Content</span>
                 <span class="field-title-text">Product 3: Bionic Finger Kneading Massager (Card 3 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 199.00</span>
@@ -1209,7 +1229,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑤-4</span>
+                <span class="field-callout-pill">4. Content</span>
                 <span class="field-title-text">Product 4: Portable Double Cup Juicer (Card 4 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 172.00</span>
@@ -1227,7 +1247,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p418-4-ar">خلاط ومحضر عصائر لاسلكي مزدوج الكوب • شحن سريع متنقل للعصائر والمخفوقات الطازجة</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p418-4-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p418-4-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1236,7 +1256,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑤-5</span>
+                <span class="field-callout-pill">5. Content</span>
                 <span class="field-title-text">Product 5: Portable 6-Blade Juicer Cup (Autoplay Slide 5)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 149.00</span>
@@ -1263,7 +1283,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑤-6</span>
+                <span class="field-callout-pill">6. Content</span>
                 <span class="field-title-text">Product 6: Portable USB Citrus Juicer (Autoplay Slide 6)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 109.00</span>
@@ -1295,7 +1315,7 @@
       <div class="content-card" id="card-mid-banners">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">⑥</span>
+            <span class="card-main-badge">Mid Banners</span>
             <h3>Mid-Page Dual Promo Banners (Electronics & Beauty)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Banners (422)</span>
@@ -1309,7 +1329,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑥-1</span>
+                <span class="field-callout-pill">1. Content</span>
                 <span class="field-title-text">Left Banner: Electronics & Gadgets</span>
               </div>
               <span class="field-target-loc">Link: /category/electronics-and-gadgets</span>
@@ -1336,7 +1356,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑥-2</span>
+                <span class="field-callout-pill">2. Content</span>
                 <span class="field-title-text">Right Banner: Beauty & Personal Care</span>
               </div>
               <span class="field-target-loc">Link: /category/beauty-and-personal-care</span>
@@ -1354,7 +1374,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="mb-2-ar"><strong>أجهزة العناية والجمال الفاخرة</strong><br>تقنيات متطورة لتنظيف البشرة وشد الوجه بالفوتون، وأجهزة المساج المتخصصة للعناية اليومية.</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('mb-2-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('mb-2-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1368,7 +1388,7 @@
       <div class="content-card" id="card-trending-slider">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">⑦</span>
+            <span class="card-main-badge">Trending</span>
             <h3>Trending Products Carousel (All 6 Products in Exact Live Order)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Products (526)</span>
@@ -1382,7 +1402,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑦-1</span>
+                <span class="field-callout-pill">1. Content</span>
                 <span class="field-title-text">Product 1: 3-in-1 Fast Charging Dock (Card 1 in Screenshot)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 181.00</span>
@@ -1409,7 +1429,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑦-2</span>
+                <span class="field-callout-pill">2. Content</span>
                 <span class="field-title-text">Product 2: Portable Bladeless Neck Fan (5 Speeds)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 181.00</span>
@@ -1436,7 +1456,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑦-3</span>
+                <span class="field-callout-pill">3. Content</span>
                 <span class="field-title-text">Product 3: Car Windshield Sun Shade Umbrella</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 109.00</span>
@@ -1463,7 +1483,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑦-4</span>
+                <span class="field-callout-pill">4. Content</span>
                 <span class="field-title-text">Product 4: Bladeless Neck Fan with Rechargeable Battery</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 181.00</span>
@@ -1481,7 +1501,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p526-4-ar">طوق التبريد المتطور بتقنية البورسلين الثلجي • بطارية تدوم طويلاً وشحن سريع عبر Type-C</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p526-4-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p526-4-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1490,7 +1510,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑦-5</span>
+                <span class="field-callout-pill">5. Content</span>
                 <span class="field-title-text">Product 5: 3-in-1 Portable Air Cooler Fan</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 119.00</span>
@@ -1517,7 +1537,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑦-6</span>
+                <span class="field-callout-pill">6. Content</span>
                 <span class="field-title-text">Product 6: Smart Fascia Massage Gun (Pro Edition)</span>
               </div>
               <span class="field-target-loc">Live Price: SAR 189.00</span>
@@ -1549,7 +1569,7 @@
       <div class="content-card" id="card-testimonials-slider">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">⑧</span>
+            <span class="card-main-badge">Testimonials</span>
             <h3>Customer Testimonials Carousel (All 6 Reviews in Exact Live Order)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Modules > Testimonials (349)</span>
@@ -1563,7 +1583,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑧-1</span>
+                <span class="field-callout-pill">1. Content</span>
                 <span class="field-title-text">Review 1: Zoya Afroz (Riyadh, Saudi Arabia)</span>
               </div>
               <span class="field-target-loc">Slide 1 in Testimonials</span>
@@ -1593,7 +1613,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑧-2</span>
+                <span class="field-callout-pill">2. Content</span>
                 <span class="field-title-text">Review 2: Fahad Al-Otaibi (Jeddah, Saudi Arabia)</span>
               </div>
               <span class="field-target-loc">Slide 2 in Testimonials</span>
@@ -1623,7 +1643,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑧-3</span>
+                <span class="field-callout-pill">3. Content</span>
                 <span class="field-title-text">Review 3: Maryam Al-Harbi (Dammam, Saudi Arabia)</span>
               </div>
               <span class="field-target-loc">Slide 3 in Testimonials</span>
@@ -1653,7 +1673,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑧-4</span>
+                <span class="field-callout-pill">4. Content</span>
                 <span class="field-title-text">Review 4: Dr. Sultan Al-Qasim (Khobar, Saudi Arabia)</span>
               </div>
               <span class="field-target-loc">Slide 4 in Testimonials</span>
@@ -1683,7 +1703,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑧-5</span>
+                <span class="field-callout-pill">5. Content</span>
                 <span class="field-title-text">Review 5: Malak Al-Shehri (Riyadh, Saudi Arabia)</span>
               </div>
               <span class="field-target-loc">Slide 5 in Testimonials</span>
@@ -1713,7 +1733,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑧-6</span>
+                <span class="field-callout-pill">6. Content</span>
                 <span class="field-title-text">Review 6: Mohammed Al-Dosari (Dammam, Saudi Arabia)</span>
               </div>
               <span class="field-target-loc">Slide 6 in Testimonials</span>
@@ -1748,7 +1768,7 @@
       <div class="content-card" id="card-seo-metadata">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">⑨</span>
+            <span class="card-main-badge">SEO</span>
             <h3>Homepage SEO & Meta Architecture (Google & Social)</h3>
           </div>
           <span class="section-admin-path">FatherShops: System > Settings > Store Settings > SEO / Meta</span>
@@ -1762,7 +1782,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑨-1</span>
+                <span class="field-callout-pill">1. Meta Title</span>
                 <span class="field-title-text">Page Meta Title (HTML &lt;title&gt;)</span>
               </div>
               <span class="field-target-loc">Recommended: 50-60 Characters</span>
@@ -1789,7 +1809,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑨-2</span>
+                <span class="field-callout-pill">2. Meta Desc</span>
                 <span class="field-title-text">Page Meta Description</span>
               </div>
               <span class="field-target-loc">Recommended: 150-160 Characters</span>
@@ -1816,7 +1836,7 @@
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-subpin">⑨-3</span>
+                <span class="field-callout-pill">3. Keywords</span>
                 <span class="field-title-text">Meta Keywords & Google Search Tags</span>
               </div>
               <span class="field-target-loc">Comma-separated Keywords</span>
@@ -1849,86 +1869,86 @@
   <div class="toast" id="toastMsg">✓ Copied to clipboard!</div>
 
   <script>
-    // Visual Section Configuration with Coordinates for Large High-Contrast Pins
+    // Visual Section Configuration with Callout Pointer Markers (Matching User 2nd Image)
     const visualData = {
       hero: {
         img: 'assets/section_1_hero.jpg',
-        hint: '<strong>⚡️ Hero Banner Slider:</strong> Slide 1 (active) and Slide 2 (autoplay) are both checked. Live store displays Banner 1 on load, then transitions to Banner 2.',
+        hint: '<strong>⚡️ Hero Banner Slider:</strong> Red callout pointers point directly to the live text elements without covering them.',
         pins: [
-          { top: '22%', left: '16%', num: '①', card: 'card-hero-slide1' },
-          { top: '38%', left: '20%', num: '②', card: 'card-hero-slide1' },
-          { top: '54%', left: '16%', num: '③', card: 'card-hero-slide1' },
-          { top: '80%', left: '14%', num: '④', card: 'card-hero-slide1' }
+          { top: '24%', left: '16%', label: '1. Eyebrow Tag', card: 'card-hero-slide1', boxW: '160px', boxH: '26px' },
+          { top: '40%', left: '20%', label: '2. Headline', card: 'card-hero-slide1', boxW: '220px', boxH: '45px' },
+          { top: '56%', left: '16%', label: '3. Subheadline', card: 'card-hero-slide1', boxW: '200px', boxH: '34px' },
+          { top: '80%', left: '14%', label: '4. Button', card: 'card-hero-slide1', boxW: '90px', boxH: '34px' }
         ]
       },
       trust: {
         img: 'assets/section_2_trust.jpg',
-        hint: '<strong>🛡️ Value Proposition: 3 Core Trust Pillars:</strong> Live website trust cards located above the footer. Highlights delivery, warranty guarantee, and safe checkout.',
+        hint: '<strong>🛡️ Value Proposition: 3 Core Trust Pillars:</strong> Live website trust cards located above the footer.',
         pins: [
-          { top: '50%', left: '18%', num: '①', card: 'card-trust-pillars' },
-          { top: '50%', left: '50%', num: '②', card: 'card-trust-pillars' },
-          { top: '50%', left: '82%', num: '③', card: 'card-trust-pillars' }
+          { top: '35%', left: '18%', label: '1. Content', card: 'card-trust-pillars', boxW: '210px', boxH: '110px' },
+          { top: '35%', left: '50%', label: '2. Content', card: 'card-trust-pillars', boxW: '210px', boxH: '110px' },
+          { top: '35%', left: '82%', label: '3. Content', card: 'card-trust-pillars', boxW: '210px', boxH: '110px' }
         ]
       },
       categories: {
         img: 'assets/section_3_categories.jpg',
-        hint: '<strong>🗂️ Categories Carousel (8 Slides in Exact Live Order):</strong> Circles 1-6 are visible in initial desktop viewport. Slides 7 (Health & Fitness) and 8 (Islamic & Gift) rotate into view via autoplay/swipe.',
+        hint: '<strong>🗂️ Categories Carousel:</strong> Clean callout badges pointing directly to category titles with no overlap on the text.',
         pins: [
-          { top: '42%', left: '10%', num: '①', card: 'card-categories-slider' },
-          { top: '42%', left: '26%', num: '②', card: 'card-categories-slider' },
-          { top: '42%', left: '42%', num: '③', card: 'card-categories-slider' },
-          { top: '42%', left: '58%', num: '④', card: 'card-categories-slider' },
-          { top: '42%', left: '74%', num: '⑤', card: 'card-categories-slider' },
-          { top: '42%', left: '90%', num: '⑥', card: 'card-categories-slider' }
+          { top: '70%', left: '10%', label: '1. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
+          { top: '70%', left: '26%', label: '2. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
+          { top: '70%', left: '42%', label: '3. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
+          { top: '70%', left: '58%', label: '4. Content', card: 'card-categories-slider', boxW: '130px', boxH: '28px' },
+          { top: '70%', left: '74%', label: '5. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
+          { top: '70%', left: '90%', label: '6. Content', card: 'card-categories-slider', boxW: '135px', boxH: '28px' }
         ]
       },
       new_collection: {
         img: 'assets/section_4_new_collection.jpg',
-        hint: '<strong>✨ New Collection Carousel (6 Products):</strong> Products 1-4 are shown in initial desktop viewport. Products 5 & 6 rotate into view via autoplay.',
+        hint: '<strong>✨ New Collection Carousel (6 Products):</strong> Products 1-4 shown in initial desktop viewport. Products 5 & 6 rotate via autoplay.',
         pins: [
-          { top: '48%', left: '14%', num: '①', card: 'card-new-collection' },
-          { top: '48%', left: '38%', num: '②', card: 'card-new-collection' },
-          { top: '48%', left: '62%', num: '③', card: 'card-new-collection' },
-          { top: '48%', left: '86%', num: '④', card: 'card-new-collection' }
+          { top: '64%', left: '14%', label: '1. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' },
+          { top: '64%', left: '38%', label: '2. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' },
+          { top: '64%', left: '62%', label: '3. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' },
+          { top: '64%', left: '86%', label: '4. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' }
         ]
       },
       mid_banners: {
         img: 'assets/section_5_mid_banners.jpg',
         hint: '<strong>🖼️ Mid-Page Dual Banners:</strong> Features Electronics & Gadgets (Left) and Beauty & Personal Care (Right) promo banners.',
         pins: [
-          { top: '50%', left: '25%', num: '①', card: 'card-mid-banners' },
-          { top: '50%', left: '75%', num: '②', card: 'card-mid-banners' }
+          { top: '48%', left: '25%', label: '1. Content', card: 'card-mid-banners', boxW: '180px', boxH: '50px' },
+          { top: '48%', left: '75%', label: '2. Content', card: 'card-mid-banners', boxW: '180px', boxH: '50px' }
         ]
       },
       trending: {
         img: 'assets/section_6_trending.jpg',
-        hint: '<strong>🔥 Trending Products Carousel (6 Products):</strong> Products 1-4 are shown on initial load. Products 5 & 6 rotate into view via autoplay.',
+        hint: '<strong>🔥 Trending Products Carousel (6 Products):</strong> Products 1-4 shown on initial load. Products 5 & 6 rotate via autoplay.',
         pins: [
-          { top: '48%', left: '14%', num: '①', card: 'card-trending-slider' },
-          { top: '48%', left: '38%', num: '②', card: 'card-trending-slider' },
-          { top: '48%', left: '62%', num: '③', card: 'card-trending-slider' },
-          { top: '48%', left: '86%', num: '④', card: 'card-trending-slider' }
+          { top: '64%', left: '14%', label: '1. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' },
+          { top: '64%', left: '38%', label: '2. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' },
+          { top: '64%', left: '62%', label: '3. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' },
+          { top: '64%', left: '86%', label: '4. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' }
         ]
       },
       testimonials: {
         img: 'assets/section_7_testimonials.jpg',
-        hint: '<strong>💬 Testimonials Slider (6 Slides):</strong> Viewport displays only 1 review at a time. The carousel rotates through all 6 customer reviews automatically.',
+        hint: '<strong>💬 Testimonials Slider (6 Slides):</strong> Viewport displays 1 review at a time. The carousel rotates through all 6 customer reviews.',
         pins: [
-          { top: '40%', left: '50%', num: '①', card: 'card-testimonials-slider' },
-          { top: '75%', left: '50%', num: '②', card: 'card-testimonials-slider' }
+          { top: '38%', left: '50%', label: '1. Content', card: 'card-testimonials-slider', boxW: '240px', boxH: '60px' },
+          { top: '70%', left: '50%', label: '2. Customer', card: 'card-testimonials-slider', boxW: '150px', boxH: '30px' }
         ]
       },
       full: {
         img: 'assets/home_full.jpg',
         hint: '<strong>🗺️ Full Homepage & SEO Meta Architecture:</strong> Google and social search engine metadata, along with full page visual mapping.',
         pins: [
-          { top: '3%', left: '50%', num: '⑨', card: 'card-seo-metadata' },
-          { top: '8%', left: '50%', num: '①', card: 'card-hero-slide1' },
-          { top: '16%', left: '50%', num: '②', card: 'card-trust-pillars' },
-          { top: '23%', left: '50%', num: '③', card: 'card-categories-slider' },
-          { top: '35%', left: '50%', num: '④', card: 'card-new-collection' },
-          { top: '58%', left: '50%', num: '⑤', card: 'card-trending-slider' },
-          { top: '72%', left: '50%', num: '⑥', card: 'card-testimonials-slider' }
+          { top: '3%', left: '50%', label: 'SEO Tags', card: 'card-seo-metadata', boxW: '200px', boxH: '40px' },
+          { top: '9%', left: '50%', label: '1. Hero Slider', card: 'card-hero-slide1', boxW: '220px', boxH: '45px' },
+          { top: '23%', left: '50%', label: '2. Categories', card: 'card-categories-slider', boxW: '220px', boxH: '45px' },
+          { top: '35%', left: '50%', label: '3. New Arrivals', card: 'card-new-collection', boxW: '220px', boxH: '45px' },
+          { top: '58%', left: '50%', label: '4. Trending', card: 'card-trending-slider', boxW: '220px', boxH: '45px' },
+          { top: '72%', left: '50%', label: '5. Testimonials', card: 'card-testimonials-slider', boxW: '220px', boxH: '45px' },
+          { top: '85%', left: '50%', label: '6. Trust Pillars', card: 'card-trust-pillars', boxW: '220px', boxH: '45px' }
         ]
       }
     };
@@ -1947,17 +1967,33 @@
       document.getElementById('visualImage').src = data.img;
       document.getElementById('sliderHint').innerHTML = data.hint;
 
-      // Render pins with large size and bold numbers
+      // Render Callout Pointers (Pointer badge + arrow + target highlight box)
       const overlay = document.getElementById('pinsOverlay');
       overlay.innerHTML = '';
       data.pins.forEach(pin => {
-        const el = document.createElement('div');
-        el.className = 'visual-pin';
-        el.style.top = pin.top;
-        el.style.left = pin.left;
-        el.innerText = pin.num;
-        el.onclick = () => scrollToCard(pin.card);
-        overlay.appendChild(el);
+        // 1. Callout Badge with downward arrow
+        const callout = document.createElement('div');
+        callout.className = 'visual-callout-wrap';
+        callout.style.top = pin.top;
+        callout.style.left = pin.left;
+        callout.innerHTML = `
+          <div class="callout-badge">${pin.label}</div>
+          <div class="callout-arrow"></div>
+        `;
+        callout.onclick = () => scrollToCard(pin.card);
+
+        // 2. Target Box outlining the element without obscuring text
+        if (pin.boxW && pin.boxH) {
+          const box = document.createElement('div');
+          box.className = 'callout-target-box';
+          box.style.top = pin.top;
+          box.style.left = pin.left;
+          box.style.width = pin.boxW;
+          box.style.height = pin.boxH;
+          overlay.appendChild(box);
+        }
+
+        overlay.appendChild(callout);
       });
     }
 
@@ -2016,7 +2052,6 @@
       cards.forEach(card => {
         const rect = card.getBoundingClientRect();
         const cardTop = rect.top - paneTop;
-        // When card header is near or above the top 140px of pane
         if (cardTop <= 160) {
           currentCardId = card.id;
         }
@@ -2056,7 +2091,7 @@
       }, 2000);
     }
 
-    // Initialize visual pins on load
+    // Initialize visual callouts on load
     window.addEventListener('DOMContentLoaded', () => {
       switchVisual('hero');
     });
