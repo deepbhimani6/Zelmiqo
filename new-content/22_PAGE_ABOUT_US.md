@@ -1,12 +1,13 @@
-# 🏛️ About Us (من نحن) - Zelmiqo Saudi Arabia
+# 🏛️ About Us (من نحن) - Zelmiqo Global & Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/page/about-us`  
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
-> **Theme**: Premium Brand Story, Passion for Quality, Modern Saudi Lifestyle
+> **Brand Identity**: Zelmiqo (زيلميكو) — International Smart Living Brand  
+> **Regional Launch Market**: Kingdom of Saudi Arabia & Gulf Region  
+> **Tone**: Visionary, Global Prestige, Passion for Innovation, Customer-Centric
 
 ---
 
-## 1. Brand Headline & Introduction
+## 1. Brand Narrative & Global Vision
 
 ### Old English Content
 ```text
@@ -14,52 +15,50 @@ About Us
 Zelmiqo is an online store dedicated to providing quality gadgets and lifestyle products.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Title:
-Redefining Everyday Convenience Across Saudi Arabia
+Global Innovation. Refined Living. Dedicated to Discerning Homes in Saudi Arabia.
 
-Subtitle:
-At Zelmiqo (زيلميكو), we believe that modern living should be effortless, elegant, and deeply comfortable. Born from a passion for smart innovation, our mission is to empower individuals and families across the Kingdom of Saudi Arabia with thoughtfully curated lifestyle tech, summer cooling essentials, and luxury wellness solutions that genuinely elevate your daily routine.
+At Zelmiqo (زيلميكو), we believe that modern living should be effortless, beautiful, and deeply comfortable. As an international lifestyle innovation brand, our mission is to design and curate state-of-the-art smart devices, advanced personal cooling technologies, and restorative wellness essentials that elevate the rhythm of modern life across the globe.
 
-We bridge the gap between world-class engineering and everyday practicality—delivering tested, high-grade products right to your doorstep anywhere in Saudi Arabia.
+Recognizing the ambitious, forward-thinking spirit and distinctive lifestyle of the Kingdom of Saudi Arabia, we established our dedicated regional operations and fulfillment network directly within the Kingdom. This ensures that our Saudi clientele enjoys world-class engineering, international quality standards, and lightning-fast local doorstep delivery.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان:
-نعيد صياغة مفهوم الراحة اليومية في المملكة العربية السعودية
+ابتكارات عالمية.. لرفاهية استثنائية في كل يوم. مخصصة لعملائنا في المملكة العربية السعودية.
 
-العنوان الفرعي:
-في زيلميكو (Zelmiqo)، نؤمن بأن الحياة العصرية يجب أن تجمع بين السهولة، الفخامة، والراحة المطلقة. انطلقت رحلتنا من شغف عميق بالابتكارات الذكية، لنضع بين أيديكم في كافة مناطق المملكة العربية السعودية تشكيلة استثنائية من الأجهزة الذكية، حلول التبريد الصيفي المتطورة، ومستلزمات العناية الشخصية التي تحدث فرقاً حقيقياً وملموساً في روتينكم اليومي.
+في زيلميكو (Zelmiqo)، نؤمن بأن الحياة العصرية يجب أن تجمع بين الفخامة، السهولة، والراحة المطلقة. بصفتنا علامة تجارية عالمية في مجال ابتكارات أسلوب الحياة الذكي، تتمثل رسالتنا في تصميم وتقديم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي المتطورة، وحلول العناية والاسترخاء التي ترتقي بتفاصيل يومك في مختلف أنحاء العالم.
 
-نحن نربط بين التكنولوجيا العالمية وأحدث متطلبات الحياة اليومية في الخليج العربي، لنقدم لكم منتجات عالية الجودة ومختبرة بعناية، مع توصيل سريع وموثوق إلى باب منزلكم.
+وانطلاقاً من تقديرنا للروح العصرية الطموحة والذوق الرفيع في المملكة العربية السعودية، أسسنا شبكة توزيع وعمليات إقليمية متكاملة داخل المملكة، لنضمن لعملائنا الجمع بين المعايير الهندسية الدولية الفائقة وسرعة التوصيل المحلي الفوري حتى باب منزلكم.
 ```
 
 ---
 
-## 2. Our Core Pillars (قيمنا الأساسية)
+## 2. Our Pillars of Excellence (ركائز التميز والجودة العالمية)
 
 ### New English Content
 ```text
-1. Uncompromising Quality & Testing:
-   Every device on Zelmiqo is rigorously evaluated for durability, safety, battery performance, and ergonomic ease before reaching our catalog.
+1. International Engineering & Rigorous Testing:
+   Every Zelmiqo product undergoes rigorous durability, battery endurance, thermal safety, and ergonomic evaluation to ensure it performs flawlessly under real-world conditions.
 
-2. Saudi-Centered Solutions:
-   From wearable bladeless fans that conquer 48°C summer heat in Riyadh to heat-deflecting titanium car umbrellas, our products solve real daily challenges faced by Saudi residents.
+2. Solutions Tailored for Regional Climates:
+   Our flagship collections—from whisper-quiet bladeless neck fans engineered to conquer 48°C summer heat in Riyadh to titanium-silver car umbrellas that protect luxury leather interiors—provide functional luxury tailored for regional environments.
 
-3. Complete Peace of Mind:
-   We stand behind every order with our Golden 14-Day Guarantee, official 1-year product warranties, and transparent, responsive WhatsApp customer support.
+3. Seamless Regional Care & Golden Guarantees:
+   We pair global prestige with local peace of mind: 14-day Golden Guarantees, 1-year electrical device warranties, certified local payment gateways (Mada, Apple Pay, Tabby, Tamara), and dedicated Arabic-speaking WhatsApp concierge support.
 ```
 
 ### Translate New English Content to Arabic Content
 ```text
-1. جودة استثنائية وموثوقية مختبرة:
-   يخضع كل منتج في زيلميكو لاختبارات فحص دقيقة للجودة، الأمان، كفاءة البطارية، وسهولة الاستخدام لضمان أداء يدوم طويلاً.
+1. هندسة عالمية وفحص جودة صارم:
+   يخضع كل منتج يحمل علامة زيلميكو لاختبارات أداء دقيقة تشمل كفاءة البطارية، الأمان الحراري، والتحمل، لضمان أعلى مستويات الاعتمادية والفخامة.
 
-2. ابتكارات مصممة خصيصاً لأجواء واحتياجات المملكة:
-   من مراوح الرقبة المبتكرة التي تمنحك انتعاشاً فورياً في صيف الرياض الحار، إلى مظلات السيارات العازلة للحرارة؛ نقدم حلولاً حقيقية تناسب أسلوب حياتكم اليومي.
+2. ابتكارات متوافقة مع أرقى متطلبات الحياة في المملكة:
+   صُممت مجموعاتنا الرائدة لتقدم حلولاً عملية استثنائية — من مراوح الرقبة التوربينية التي تمنحك انتعاشاً فورياً في صيف الرياض الحار، إلى مظلات التيتانيوم التي تحمي فرش مقصورة سيارتك من أشعة الشمس الحارقة.
 
-3. راحة بال وضمان ذهبي:
-   نحن لا نبيع منتجات فحسب، بل نبني علاقة ثقة مستمرة مع عملائنا عبر الضمان الذهبي لمدة 14 يوماً، وضمان شامل للأجهزة، وخدمة عملاء سعودية سريعة عبر الواتساب.
+3. راحة بال وضمانات محلية معتمدة:
+   نجمع بين الفخامة العالمية والخدمة المحلية الموثوقة: ضمان ذهبي لمدة 14 يوماً، ضمان شامل للأجهزة لمدة عام، بوابات دفع آمنة (مدى، أبل باي، تابي، تمارا)، وخدمة عملاء VIP عبر الواتساب على مدار الساعة.
 ```
