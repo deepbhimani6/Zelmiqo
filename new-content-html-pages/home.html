@@ -178,9 +178,9 @@
       gap: 8px;
       margin-bottom: 24px;
       position: sticky;
-      top: -10px;
+      top: -24px;
       background: #f8fafc;
-      padding: 10px 0;
+      padding: 12px 0 10px 0;
       z-index: 50;
       border-bottom: 1px solid var(--border);
     }
@@ -195,14 +195,16 @@
       font-weight: 600;
       transition: all 0.2s;
     }
-    .section-nav-pills a:hover {
-      background: var(--primary);
-      color: #fff;
-      border-color: var(--primary);
+    .section-nav-pills a:hover, .section-nav-pills a.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 700;
     }
 
     /* Content Cards */
     .content-card {
+      scroll-margin-top: 85px;
       background: #fff;
       border: 1px solid #e2e8f0;
       border-radius: 12px;
@@ -1338,10 +1340,33 @@ Your payments stay 100% protected. Pay with Mada, Apple Pay, Cash on Delivery, o
     function scrollToCard(cardId) {
       const card = document.getElementById(cardId);
       if (card) {
-        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const pane = document.querySelector('.workstation-pane');
+        const navPills = document.querySelector('.section-nav-pills');
+        const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        if (pane) {
+          const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
+          pane.scrollTo({
+            top: Math.max(0, cardTopRelativeToPane - navHeight),
+            behavior: 'smooth'
+          });
+        } else {
+          card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
         document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
         card.classList.add('highlight');
         setTimeout(() => card.classList.remove('highlight'), 2500);
+
+        // Highlight matching sticky nav pill
+        document.querySelectorAll('.section-nav-pills a').forEach(a => {
+          const onclickAttr = a.getAttribute('onclick') || '';
+          if (onclickAttr.includes(cardId)) {
+            a.classList.add('active');
+          } else {
+            a.classList.remove('active');
+          }
+        });
       }
     }
 
