@@ -1,9 +1,10 @@
-# 🏠 Homepage Content (الصفحة الرئيسية) - Zelmiqo Saudi Arabia
+# 🏠 Homepage Content (الصفحة الرئيسية) - Zelmiqo Global & Saudi Arabia
 
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
-> **Brand Tone**: Modern, Premium, Trustworthy, Solution-Oriented, High-Converting Lifestyle E-Commerce  
+> **Brand Identity**: Zelmiqo (زيلميكو) — International Smart Living & Lifestyle Innovation Brand  
+> **Current Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Global Quality Standards  
+> **Tone**: Global Luxury, Minimalist Innovation, High-Status, Warm & Culturally Attuned to Saudi Shoppers  
 > **Currency**: Saudi Riyal (SAR / ر.س)  
-> **Key Value Propositions**: Fast Delivery Across KSA (Riyadh, Jeddah, Dammam, Mecca, Medina & all regions), Tabby & Tamara 4-Split Payments, Cash on Delivery (الدفع عند الاستلام), Golden Guarantee (ضمان ذهبي 14 يوم للاستبدال والاسترجاع).  
+> **Key Value Propositions**: World-Class Engineering, Dedicated Regional Saudi Fulfillment (24-48h Riyadh/Jeddah, 2-4d all KSA provinces), Tabby & Tamara 4-Month Split, Cash on Delivery, Golden 14-Day Guarantee.  
 > **Note**: Global Header, Top Announcement Bar, and Footer content are maintained in [28_HEADER_FOOTER_AND_TRUST_SYSTEM.md](file:///Users/shunyavkashminim2/Downloads/Test/new-content/28_HEADER_FOOTER_AND_TRUST_SYSTEM.md).
 
 ---
@@ -17,30 +18,30 @@ Explore our collection of innovative products designed to make your daily routin
 Shop Now
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Headline:
-Smart Innovation for Refined Living in Saudi Arabia
+Global Innovation. Refined Living. Now in Saudi Arabia.
 
 Subheadline:
-Discover thoughtfully curated smart gadgets, personal cooling essentials, and luxury wellness devices engineered to bring effortless comfort, elegance, and peak performance to your home, office, and car.
+Engineered with international standards of precision and aesthetic excellence. Explore Zelmiqo's acclaimed collection of smart living tech, high-velocity personal cooling, and ergonomic wellness devices—delivered with dedicated local express fulfillment across the Kingdom.
 
-Call to Action (Primary): Explore Best Sellers
-Call to Action (Secondary): Summer Cooling Collection
-Trust Ribbon: ⭐️ Rated 4.9/5 by 12,500+ Happy Customers Across Riyadh, Jeddah & Eastern Province
+Call to Action (Primary): Explore Flagship Collection
+Call to Action (Secondary): Discover Summer Cooling
+Global Trust Badge: ⭐️ Internationally Designed | Dedicated KSA Regional Hub | 15,000+ Satisfied Customers Across Riyadh, Jeddah & Eastern Province
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان الرئيسي:
-ابتكارات ذكية لحياة عصرية وراحة استثنائية في المملكة
+ابتكارات عالمية.. لرفاهية استثنائية. متوفرة الآن في المملكة العربية السعودية.
 
 العنوان الفرعي:
-اكتشف تشكيلة مختارة بعناية من الأجهزة الذكية، حلول التبريد المبتكرة، ومنتجات العناية الفاخرة المصممة لتمنحك أقصى درجات الراحة والأناقة في منزلك، مكتبك، وسيارتك بكل سهولة.
+صُممت بأعلى المعايير العالمية من الدقة والأناقة العصرية. اكتشف تشكيلة زيلميكو (Zelmiqo) الرائدة من الأجهزة الذكية، تقنيات التبريد الشخصي المتطورة، ومنتجات العناية الفاخرة — متوفرة الآن مع شحن وتوصيل محلي سريع لكافة مدن المملكة.
 
-زر الطلب الرئيسي: تسوق المنتجات الأكثر طلباً
-زر الطلب الثانوي: اكتشف تشكيلة التبريد الصيفي
-شريط الثقة: ⭐️ تقييم 4.9/5 من أكثر من 12,500 عميل في الرياض، جدة، وكافة مدن المملكة
+زر الطلب الرئيسي: تسوق التشكيلة العالمية
+زر الطلب الثانوي: اكتشف ابتكارات التبريد الصيفي
+شريط الثقة الدولي: ⭐️ تصميم عالمي معتمد | مركز توزيع إقليمي داخل المملكة | ثقة أكثر من 15,000 عميل في الرياض، جدة، وكافة المحافظات
 ```
 
 ### Recommended Images & Visual Mapping
@@ -49,7 +50,7 @@ Trust Ribbon: ⭐️ Rated 4.9/5 by 12,500+ Happy Customers Across Riyadh, Jedda
 
 ---
 
-## 2. Trust & Value Pillars (أعمدة الثقة والمزايا التنافسية)
+## 2. Trust & Value Pillars (أعمدة الثقة والتميز)
 
 ### Old English Content
 ```text
@@ -59,34 +60,34 @@ Trust Ribbon: ⭐️ Rated 4.9/5 by 12,500+ Happy Customers Across Riyadh, Jedda
 - Quality Guarantee
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-1. 🚀 Fast Domestic Shipping Across KSA
-   Express delivery within 24-48 hours in Riyadh & Jeddah, and 2-4 business days across all Saudi provinces via premium couriers (SMSA, Aramex, Redbox).
+1. 🌍 International Standards, Local Saudi Dispatch
+   World-class product testing combined with domestic Saudi warehouses. Express delivery within 24–48 hours in Riyadh & Jeddah, and 2–4 business days across all provinces via SMSA, Aramex, and Redbox.
 
-2. 💳 Flexible & 100% Secure Payments
-   Pay with complete peace of mind via Mada, Apple Pay, Visa, Mastercard, or split your payment with Tabby & Tamara (0% interest). Cash on Delivery also available.
+2. 💳 Flexible Global & Local Payment Options
+   Seamless, bank-grade checkout via Mada, Apple Pay, Visa, and Mastercard. Enjoy zero-interest financing with Tabby & Tamara (split into 4 monthly payments). Cash on Delivery (COD) proudly supported.
 
-3. 🛡️ Golden 14-Day Guarantee & 1-Year Warranty
-   Shop risk-free. Enjoy a 14-day hassle-free replacement or return guarantee, plus an official 1-year warranty on all electronic smart devices.
+3. 🛡️ Official 1-Year Warranty & 14-Day Golden Guarantee
+   Every Zelmiqo product carries our international quality stamp. Shop with absolute confidence backed by a 14-day hassle-free replacement/return guarantee and 1-year electrical device warranty.
 
-4. 💬 Dedicated WhatsApp VIP Support
-   Our friendly Saudi-based customer care team is always here for you. Instant assistance and order tracking available 7 days a week.
+4. 💬 Dedicated Concierge Support in Arabic & English
+   Experience VIP customer care. Our regional team provides instant WhatsApp assistance, product guidance, and live delivery updates 7 days a week.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
-1. 🚀 شحن محلي سريع لكافة مناطق المملكة
-   توصيل سريع خلال 24-48 ساعة داخل الرياض وجدة، وخلال 2-4 أيام عمل لكافة مدن ومحافظات المملكة عبر أفضل شركات الشحن المعتمدة (سمسا، أرامكس، ريدبوكس).
+1. 🌍 معايير عالمية.. وشحن محلي فوري داخل المملكة
+   جودة تصنيع دولية مختبرة بعناية تلتقي مع سرعة التوصيل المحلي؛ شحن فوري خلال 24–48 ساعة في الرياض وجدة، وخلال 2–4 أيام عمل لكافة مناطق ومحافظات المملكة عبر سمسا، أرامكس، وريدبوكس.
 
-2. 💳 دفع آمن ومرن 100%
-   سدّد بأمان تام عبر مدى، أبل باي (Apple Pay)، البطاقات الائتمانية، أو قسّم فاتورتك بسهولة على 4 دفعات ميسرة بدون فوائد مع تابي وتمارا. خيار الدفع عند الاستلام متاح أيضاً.
+2. 💳 خيارات دفع مرنة وموثوقة عالمياً ومحلياً
+   أمان مصرفي تام عبر مدى، أبل باي (Apple Pay)، والبطاقات الائتمانية، مع خيار تقسيط ميسر على 4 دفعات بدون أي فوائد عبر تابي وتمارا، وإمكانية الدفع عند الاستلام بكل موثوقية.
 
-3. 🛡️ ضمان ذهبي 14 يوماً وضمان شامل لمدة عام
-   تسوق بثقة تامة وراحة بال؛ نضمن لك استبدال أو استرجاع مرن وسريع خلال 14 يوماً، مع ضمان رسمي لمدة عام على كافة الأجهزة الإلكترونية الذكية.
+3. 🛡️ ضمان رسمي لمدة عام مع الضمان الذهبي 14 يوماً
+   تحمل كافة منتجاتنا ختم الجودة العالمي لعلامة زيلميكو، مع حق استبدال واسترجاع مرن خلال 14 يوماً وضمان شامل لمدة عام على كافة الأجهزة الإلكترونية لراحة بالك التامة.
 
-4. 💬 خدمة عملاء VIP عبر الواتساب
-   فريق دعم سعودي متخصص مستعد لمساعدتك والإجابة على استفساراتك ومتابعة شحنتك لحظة بلحظة على مدار الأسبوع عبر الواتساب.
+4. 💬 خدمة عملاء VIP باللغتين العربية والإنجليزية
+   فريق خدمة عملاء متخصص مستعد لخدمتك ومتابعة شحنتك لحظة بلحظة والإجابة على كافة استفساراتك على مدار الأسبوع عبر الواتساب.
 ```
 
 ### Recommended Images & Visual Mapping
@@ -95,7 +96,7 @@ Trust Ribbon: ⭐️ Rated 4.9/5 by 12,500+ Happy Customers Across Riyadh, Jedda
 
 ---
 
-## 3. Featured Collections (التصنيفات المميزة)
+## 3. Featured Global Collections (المجموعات المميزة عالمياً)
 
 ### Old English Content
 ```text
@@ -107,111 +108,117 @@ Categories:
 - Home and Kitchen
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-1. ❄️ Beat the Saudi Heat | Portable Cooling & Misting Essentials
-   Stay refreshingly cool during hot summer days with wearable bladeless neck fans, desktop mist coolers, and high-velocity rechargeable fans.
+1. ❄️ The Climate Series | Advanced Wearable & Desktop Cooling
+   Conquer extreme temperatures with state-of-the-art bladeless turbines and nano-mist humidifiers, engineered for both outdoor adventures and air-conditioned luxury.
 
-2. ⚡️ Smart Living & Desk Luxury | Fast Wireless Charging & Tech Accessories
-   Declutter your workspace and nightstand with multi-device 3-in-1 charging stations and intelligent desk warmers.
+2. ⚡️ The Power & Workspace Series | Intelligent Charging Stations & Desk Warmers
+   Eliminate cable clutter with Qi-certified 3-in-1 fast wireless stations and precision temperature beverage warmers crafted for modern executive desks.
 
-3. 🚗 Automotive Excellence | Premium Cordless Vacuums & UV Windshield Shades
-   Keep your vehicle immaculate and safeguard your car interior against intense 50°C summer heat with titanium umbrellas and deep-suction vacuums.
+3. 🚗 The Automotive Prestige Series | Cyclone Cordless Vacuums & Thermal Umbrellas
+   Keep high-end vehicles immaculate and shield leather cabins from intense UV heat with military-grade titanium umbrellas and high-RPM vacuums.
 
-4. 💆‍♀️ Self-Care & Recovery | EMS Sculpting, Deep Cleansing & Muscle Massage
-   Bring the luxury spa experience into your daily routine with bionic kneading massagers, facial beauty wands, and deep fascia therapy guns.
+4. 💆‍♀️ The Wellness & Spa Series | Percussive Therapy & Microcurrent Facial Sculpting
+   Transform daily self-care into a clinical spa ritual with 4D bionic kneading, EMS firming wands, and deep tissue recovery guns.
 
-5. 🥤 Fresh & Healthy Living | Portable Blenders & Citrus Extractors
-   Craft revitalizing smoothies, fresh pomegranate juices, and iced protein shakes on-the-go wherever your day takes you.
+5. 🥤 The Nutrition & Active Living Series | Cordless Smoothie Blenders & Automatic Citrus Presses
+   Fuel vitality on-the-go. Pure, seedless cold-pressed juices and gym smoothies blended fresh anywhere in seconds.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
-1. ❄️ انتعاش يدوم في الصيف | حلول التبريد الشخصي والمراوح الذكية
-   تغلب على حرارة الصيف الشديدة مع مراوح الرقبة اللاسلكية الذكية، مبردات الرذاذ المكتبية، والمراوح المدمجة القابلة للشحن في أي وقت وأي مكان.
+1. ❄️ سلسلة التبريد المتطور (Climate Series) | انتعاش في أقسى الأجواء
+   تغلب على درجات الحرارة المرتفعة بأحدث التقنيات التوربينية بدون شفرات ومبردات الرذاذ النانوية، المصممة للاستخدام في المشاوير الخارجية والمجالس المكيفة.
 
-2. ⚡️ رفاهية المكتب والمنزل الذكي | منصات الشحن اللاسلكي السريع
-   تخلص من فوضى الأسلاك ورتب مكتبك وطاولة نومك بأناقة مع منصات الشحن الذكية 3 في 1 وقواعد تسخين المشروبات الذكية.
+2. ⚡️ سلسلة المكتب الذكي (Power & Workspace) | فخامة وترتيب بلا أسلاك
+   تخلص من تشابك الأسلاك مع منصات الشحن اللاسلكي 3 في 1 المعتمدة وقواعد تسخين المشروبات الذكية المصممة للمكاتب التنفيذية الحديثة.
 
-3. 🚗 عناية متكاملة بسيارتك | مكانس لاسلكية ومظلات حماية من الشمس
-   حافظ على نظافة سيارتك وفخامتها، واحمِ مقصورتها الداخلية من حرارة الشمس الحارقة فوق 50 درجة مئوية مع المظلات العازلة والمكانس فائقة القوة.
+3. 🚗 سلسلة العناية بالسيارات الفاخرة (Automotive Prestige) | حماية ونظافة فائقة
+   حافظ على فخامة سيارتك واحمِ مقصورتها الجلدية من أضرار الشمس بحرارة فوق 50° مئوية عبر مظلات التيتانيوم العازلة والمكانس اللاسلكية ذات العزم الإعصاري.
 
-4. 💆‍♀️ العناية الشخصية والاسترخاء | مساج ذكي وأجهزة العناية بالبشرة
-   استمتع بتجربة سبا فاخرة في راحة منزلك مع أجهزة مساج الرقبة العميقة، أجهزة شد البشرة بتقنية EMS، ومسدسات تدليك العضلات الاحترافية.
+4. 💆‍♀️ سلسلة الصحة والاسترخاء (Wellness & Spa) | عناية احترافية في منزلك
+   حوّل روتينك اليومي لتجربة استرخاء فاخرة مع أجهزة المساج الحيوي 4D، أجهزة شد الوجه بتقنية EMS، ومسدسات التدليك العميق للأنسجة.
 
-5. 🥤 نمط حياة صحي ومنعش | خلاطات ومحضرات عصير محمولة
-   حضّر ألذ العصائر الطبيعية الطازجة، مشروبات البروتين، ومخفوقات الفواكه المنعشة في المكتب، النادي، أو أثناء السفر بضغطة زر واحدة.
+5. 🥤 سلسلة التغذية والانتعاش الحيوي (Nutrition Series) | عصائر طازجة أينما كنت
+   عصائر طبيعية ومخفوقات بروتين طازجة بضغطة زر واحدة في النادي، العمل، أو السفر مع الخلاطات المحمولة وعصارات الحمضيات الأوتوماتيكية.
 ```
 
 ---
 
-## 4. Saudi Customer Testimonials (آراء وتجارب عملاء المملكة)
+## 4. Customer Testimonials: Global Standards, Local Love (تجارب وآراء العملاء)
 
 ### Old English Content
 ```text
 Ahmed Alharbi | Saudi Arabia: Really handy for keeping my phone and AirPods in one place. My desk looks much cleaner now.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-1. ⭐️⭐️⭐️⭐️⭐️ "Indispensable for Saudi Summer!"
-   "I purchased the bladeless digital neck fan for my daily walks and outdoor events in Riyadh. The battery easily lasts all day, and the cooling breeze is an absolute lifesaver in the heat. Arrived in just 24 hours via SMSA!"
+1. ⭐️⭐️⭐️⭐️⭐️ "International Quality Arrived at My Doorstep in 24 Hours!"
+   "I usually order smart gadgets from abroad, but finding Zelmiqo with domestic delivery in Riyadh was fantastic. The bladeless neck fan feels like a premium Dyson product. It kept me completely refreshed during outdoor events in 46°C heat."
    — Faisal Al-Otaibi, Riyadh (الرياض)
 
-2. ⭐️⭐️⭐️⭐️⭐️ "Luxury Desk Setup & No More Cables"
-   "The 3-in-1 charging dock transformed my bedside table. Charges my iPhone 15 Pro, Apple Watch Ultra, and AirPods seamlessly. Top-notch build quality and fast charging. Paying via Tabby was so convenient."
+2. ⭐️⭐️⭐️⭐️⭐️ "Minimalist Luxury on Par with Apple"
+   "The 3-in-1 MagCharge dock looks stunning on my bedside table. Solid weight, matte finish, charges my iPhone 15 Pro, Watch, and AirPods at once without overheating. Splitting the cost on Tabby made it an effortless decision."
    — Sara Al-Dosari, Al-Khobar (الخبر)
 
-3. ⭐️⭐️⭐️⭐️⭐️ "The Car Sun Shade Saved My Leather Seats"
-   "Living in Jeddah, car interiors get burning hot. The umbrella sunshade opens in 3 seconds, fits perfectly behind the rearview mirror, and drops cabin temperatures noticeably. Highly recommended!"
+3. ⭐️⭐️⭐️⭐️⭐️ "Essential Protection for Riyadh & Jeddah Summers"
+   "The titanium windshield umbrella is engineered brilliantly. Pops open in 3 seconds and protects my luxury leather seats from sun damage. Super fast delivery via SMSA. Zelmiqo's packaging and quality are truly world-class."
    — Mohammed Al-Zahrani, Jeddah (جدة)
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
-1. ⭐️⭐️⭐️⭐️⭐️ "منتج لا غنى عنه في حر الرياض!"
-   "طلبت مروحة الرقبة اللاسلكية ذات الشاشة الرقمية للمشي ومشواري اليومي في الرياض. تبريد فوري وبطارية ممتازة تدوم طوال اليوم. وصلني الطلب خلال 24 ساعة فقط بتغليف فخم وممتاز."
+1. ⭐️⭐️⭐️⭐️⭐️ "جودة عالمية وصلت لباب منزلي خلال 24 ساعة!"
+   "كنت أطلب الأجهزة الذكية عادة من المتاجر الدولية، لكن وجود زيلميكو بتوصيل محلي في الرياض كان تجربة رائعة. مروحة الرقبة خاماتها فاخرة جداً تضاهي كبرى العلامات العالمية، وتمنح انتعاشاً استثنائياً في حرارة 46 درجة."
    — فيصل العتيبي، الرياض
 
-2. ⭐️⭐️⭐️⭐️⭐️ "فخامة وترتيب لا يوصف"
-   "منصة الشحن 3 في 1 حلت أزمة الأسلاك نهائياً على طاولة السرير. تشحن الآيفون وساعة أبل وسماعات الإيربودز في وقت واحد وبسرعة ممتازة. ميزة التقسيط مع تابي خلت التجربة ولا أسهل."
+2. ⭐️⭐️⭐️⭐️⭐️ "فخامة وأناقة تضاهي منتجات أبل"
+   "منصة الشحن 3 في 1 أنيقة وثابتة على طاولة السرير. تشحن الآيفون 15 برو وساعة أبل وسماعاتي معاً بدون أي حرارة زائدة. خيار التقسيط مع تابي جعل الشراء سهلاً وسلساً للغاية."
    — سارة الدوسري، الخبر
 
-3. ⭐️⭐️⭐️⭐️⭐️ "مظلة السيارة فرقت معاي كثير في حر جدة"
-   "في حرارة جدة العالية، مظلة الزجاج الأمامي تحمي مقاعد الجلد والطبلون بشكل ممتاز وتركيبها بضغطة زر في ثانيتين. مكنسة السيارة اللاسلكية بعد جبارة وقوية جداً."
+3. ⭐️⭐️⭐️⭐️⭐️ "حماية ضرورية جداً لحرارة الصيف في المملكة"
+   "مظلة الزجاج الأمامي مصممة بذكاء واحترافية؛ تفتح في ثوانٍ وتحمي المقاعد الجلدية والطبلون من لهيب الشمس. التوصيل كان سريعاً جداً عبر سمسا بتغليف عالمي راقٍ."
    — محمد الزهراني، جدة
 ```
 
 ---
 
-## 5. Homepage FAQ Section (الأسئلة الشائعة في الصفحة الرئيسية)
+## 5. Homepage FAQ Section (الأسئلة الشائعة)
 
 ### New English Content
 ```text
-Q1: How long does delivery take within Saudi Arabia?
-A1: Orders in Riyadh, Jeddah, and Dammam are typically delivered within 24 to 48 hours. For all other Saudi regions and provinces, delivery takes 2 to 4 business days via reliable courier partners.
+Q1: Is Zelmiqo an international brand?
+A1: Yes! Zelmiqo is a global lifestyle tech brand engineered to international quality standards. To provide an elite customer experience, we have established dedicated regional fulfillment centers in Saudi Arabia for lightning-fast dispatch.
 
-Q2: Can I pay using Tabby or Tamara?
-A2: Yes! You can easily split your order value into 4 equal monthly installments with 0% interest, no hidden fees, and instant approval at checkout.
+Q2: How fast is shipping within Saudi Arabia?
+A2: Orders to Riyadh, Jeddah, and Dammam are typically delivered within 24 to 48 hours. All other regions in the Kingdom receive their packages in 2 to 4 business days via SMSA, Aramex, or Redbox.
 
-Q3: Is Cash on Delivery (COD) supported?
-A3: Absolutely. We offer Cash on Delivery across all major cities and governorates throughout the Kingdom.
+Q3: Can I split my payments with Tabby or Tamara?
+A3: Absolutely. Customers in Saudi Arabia can split any purchase into 4 monthly interest-free payments with 0% interest and instant approval at checkout.
 
-Q4: What is the Golden 14-Day Warranty?
-A4: If your item arrives with any defect or does not match your expectations, our Saudi support team will replace or refund it smoothly within 14 days of delivery.
+Q4: Is Cash on Delivery (COD) supported?
+A4: Yes! We offer Cash on Delivery across all major cities and provinces throughout Saudi Arabia.
+
+Q5: What is the Zelmiqo Golden Guarantee?
+A5: We provide a 14-day hassle-free replacement or full refund policy on all orders, plus a 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.
 ```
 
 ### Translate New English Content to Arabic Content
 ```text
-س1: كم يستغرق توصيل الطلب داخل مدن المملكة؟
-ج1: يتم توصيل الطلبات في الرياض، جدة، والدمام عادةً خلال 24 إلى 48 ساعة فقط. وبالنسبة لباقي مدن ومحافظات المملكة، يستغرق الشحن من 2 إلى 4 أيام عمل عبر شركات الشحن السريع المعتمدة.
+س1: هل متجر زيلميكو علامة تجارية عالمية؟
+ج1: نعم! زيلميكو (Zelmiqo) هي علامة تجارية عالمية في مجال ابتكارات الحياة الذكية مصممة بأعلى المعايير الدولية. ولتقديم تجربة استثنائية لعملائنا في المملكة العربية السعودية، وفرنا مستودعات شحن إقليمية محلية تضمن التوصيل فائق السرعة.
 
-س2: هل يتوفر خيار التقسيط عبر تابي وتمارا؟
-ج2: نعم بالتأكيد! يمكنك تقسيم قيمة طلبك بكل سهولة على 4 دفعات شهرية ميسرة بدون أي فوائد أو رسوم إضافية عبر تابي أو تمارا عند إتمام الدفع.
+س2: ما هي مدة التوصيل داخل مدن المملكة؟
+ج2: يتم توصيل الطلبات في الرياض، جدة، والدمام خلال 24 إلى 48 ساعة فقط. وتصل لباقي مدن ومحافظات المملكة خلال 2 إلى 4 أيام عمل عبر شركائنا المعتمدين (سمسا، أرامكس، ريدبوكس).
 
-س3: هل خدمة الدفع عند الاستلام متوفرة؟
-ج3: نعم، نوفر خيار الدفع عند الاستلام لجميع عملائنا في مختلف مدن ومناطق المملكة بكل راحة وموثوقية.
+س3: هل يمكنني تقسيط المشتريات عبر تابي أو تمارا؟
+ج3: نعم بالتأكيد! نتيح لعملائنا في المملكة تقسيم قيمة طلباتهم بكل راحة على 4 دفعات شهرية ميسرة بدون أي فوائد عبر تابي أو تمارا عند إتمام الطلب.
 
-س4: ما هو الضمان الذهبي لمدة 14 يوماً؟
-ج4: يضمن لك الضمان الذهبي حق استبدال أو استرجاع المنتج بكل سهولة خلال 14 يوماً من استلام الطلب في حال وجود أي عيب مصنعي أو رغبة في الاستبدال، مع خدمة عملاء تتواصل معك مباشرة عبر الواتساب.
+س4: هل خدمة الدفع عند الاستلام متوفرة؟
+ج4: نعم، نوفر خيار الدفع عند الاستلام لجميع عملائنا في مختلف مدن ومناطق المملكة لضمان راحتكم وثقتكم التامة.
+
+س5: ما هو الضمان الذهبي من زيلميكو؟
+ج5: نمنحك ضماناً ذهبياً يتيح لك استبدال أو استرجاع المنتج بكل سهولة خلال 14 يوماً من الاستلام، بالإضافة إلى ضمان شامل لمدة عام كامل على كافة الأجهزة الإلكترونية وفق أنظمة وزارة التجارة السعودية.
 ```
