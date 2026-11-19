@@ -11,17 +11,25 @@
 
 ### Old English Content
 ```text
-Free shipping on orders over SAR 150 | Cash on Delivery available
+🚚 Free shipping on all orders • Shop now
 ```
 
 ### New English Content (Premium & Attractive for KSA)
 ```text
-✨ Welcome to Zelmiqo KSA: Enjoy FREE Express Delivery Across Saudi Arabia on Orders Over SAR 199 | 💳 Split Your Bill into 4 Interest-Free Payments with Tabby & Tamara | 🚚 Cash on Delivery (COD) Available
+Option 1 (Direct Upgrade - High-Converting Saudi Offer):
+🚚 Free Express Delivery on All Orders Across Saudi Arabia • Shop Now
+
+Option 2 (Multi-Message Rotating Marquee):
+✨ Free Express Shipping Across KSA | 💳 Split into 4 Interest-Free Payments with Tabby & Tamara | 💵 Cash on Delivery Available
 ```
 
 ### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
 ```text
-✨ أهلاً بكم في زيلميكو السعودية: توصيل سريع ومجاني لكافة مدن المملكة للطلبات فوق 199 ر.س | 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا | 🚚 الدفع عند الاستلام متاح
+الخيار 1 (ترجمة مباشرة ومطورة):
+🚚 شحن مجاني وسريع لكافة مدن ومناطق المملكة • تسوق الآن
+
+الخيار 2 (شريط إعلانات متحرك متعدد المزايا):
+✨ توصيل سريع ومجاني لكافة مدن المملكة | 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا | 💵 الدفع عند الاستلام متاح
 ```
 
 ---

@@ -5,7 +5,34 @@
 
 ---
 
-## 1. Header Navigation Menu (قوائم الهيدر العلوية)
+## 1. Top Announcement Bar (شريط الإعلانات العلوي)
+
+### Old English Content (Live on Site)
+```text
+🚚 Free shipping on all orders • Shop now
+```
+
+### New English Content (Premium & Attractive for KSA)
+```text
+Option 1 (Direct Upgrade):
+🚚 Free Express Delivery on All Orders Across Saudi Arabia • Shop Now
+
+Option 2 (Rotating Multi-USP Marquee):
+✨ Free Express Shipping Across KSA | 💳 Split into 4 Interest-Free Payments with Tabby & Tamara | 💵 Cash on Delivery Available
+```
+
+### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+```text
+الخيار 1 (ترجمة مباشرة راقية):
+🚚 شحن مجاني وسريع لكافة مدن ومناطق المملكة • تسوق الآن
+
+الخيار 2 (شريط إعلاني متعدد الحوافز):
+✨ توصيل سريع ومجاني لكافة مدن المملكة | 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا | 💵 الدفع عند الاستلام متاح
+```
+
+---
+
+## 2. Header Navigation Menu (قوائم الهيدر العلوية)
 
 | Section | English Label | Arabic Label (المصطلح العربي المعتمد) |
 | :--- | :--- | :--- |
