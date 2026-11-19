@@ -9,7 +9,6 @@
       --primary: #0d1c2a;
       --primary-light: #162a3d;
       --gold: #d4af37;
-      --gold-hover: #f3cf65;
       --bg-dark: #09131d;
       --bg-card: #ffffff;
       --bg-light: #f4f6f9;
@@ -18,7 +17,6 @@
       --border: #e2e8f0;
       --border-dark: #334155;
       --red-accent: #e61919;
-      --red-bg: rgba(230, 25, 25, 0.08);
       --green: #10b981;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -104,10 +102,11 @@
       border-radius: 6px;
       cursor: pointer;
       white-space: nowrap;
-      transition: all 0.2s;
       font-weight: 600;
+      outline: none;
     }
-    .visual-toolbar button.active, .visual-toolbar button:hover {
+    /* ONLY active tab has color & background change (NO hover switch) */
+    .visual-toolbar button.active {
       background: var(--gold);
       color: var(--primary);
       border-color: var(--gold);
@@ -128,10 +127,9 @@
       max-width: 760px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.5);
       border-radius: 8px;
-      overflow: visible; /* so callout badge above top edge is visible */
+      overflow: hidden;
       background: #000;
-      margin-top: 24px;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
     .image-wrapper img {
       width: 100%;
@@ -140,60 +138,7 @@
       border-radius: 8px;
     }
 
-    /* ============================================================== */
-    /* CALLOUT POINTER MARKERS (Directly styled like user 2nd image)  */
-    /* ============================================================== */
-    .visual-callout-wrap {
-      position: absolute;
-      transform: translate(-50%, -100%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      cursor: pointer;
-      z-index: 25;
-      user-select: none;
-      transition: transform 0.2s;
-    }
-    .visual-callout-wrap:hover {
-      transform: translate(-50%, -100%) scale(1.1);
-      z-index: 35;
-    }
-    .callout-badge {
-      background: var(--red-accent);
-      color: #ffffff;
-      font-weight: 800;
-      font-size: 12px;
-      padding: 4px 8px;
-      border-radius: 5px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.45);
-      border: 1px solid rgba(255,255,255,0.4);
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      white-space: nowrap;
-      letter-spacing: 0.3px;
-    }
-    .callout-arrow {
-      width: 0;
-      height: 0;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 7px solid var(--red-accent);
-      margin-top: -1px;
-    }
-    .callout-target-box {
-      position: absolute;
-      border: 2px solid var(--red-accent);
-      border-radius: 4px;
-      pointer-events: none;
-      background: var(--red-bg);
-      transform: translate(-50%, 0);
-      box-shadow: 0 0 6px rgba(230, 25, 25, 0.4);
-      z-index: 20;
-    }
-
     .slider-hint-box {
-      margin-top: 10px;
       background: #1e293b;
       border-left: 4px solid var(--gold);
       padding: 12px 16px;
@@ -237,12 +182,13 @@
       color: var(--text-main);
       text-decoration: none;
       font-weight: 600;
-      transition: all 0.2s;
       display: inline-flex;
       align-items: center;
       gap: 4px;
+      outline: none;
     }
-    .section-nav-pills a:hover, .section-nav-pills a.active {
+    /* ONLY active pill has color & background change (NO hover switch) */
+    .section-nav-pills a.active {
       background: var(--gold);
       color: var(--primary);
       border-color: var(--gold);
@@ -258,13 +204,11 @@
       border-radius: 12px;
       margin-bottom: 28px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      transition: all 0.3s;
       overflow: hidden;
     }
     .content-card.highlight {
       border: 2px solid var(--gold);
       box-shadow: 0 0 22px rgba(212, 175, 55, 0.35);
-      transform: translateY(-2px);
     }
     .card-header {
       background: #f8fafc;
@@ -439,11 +383,6 @@
       justify-content: center;
       gap: 6px;
       white-space: nowrap;
-      transition: all 0.2s;
-    }
-    .copy-btn:hover {
-      background: var(--gold);
-      color: var(--primary);
     }
     .copy-btn.copied {
       background: var(--green);
@@ -484,7 +423,7 @@
   <!-- App Main Container -->
   <div class="app-container">
 
-    <!-- LEFT PANE: Visual Website with Interactive Pins -->
+    <!-- LEFT PANE: Visual Website with Pixel-Perfect Embedded Callouts -->
     <div class="visual-pane">
       <div class="visual-toolbar">
         <button class="active" data-key="hero" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slider</button>
@@ -498,18 +437,13 @@
       </div>
 
       <div class="visual-content">
-        <!-- Visual Image Container with Dynamic Callout Markers -->
+        <!-- Visual Image Container with Pixel-Perfect Annotated Image -->
         <div class="image-wrapper" id="imageWrapper">
           <img id="visualImage" src="assets/section_1_hero.jpg" alt="Live Homepage Section">
-
-          <!-- Dynamic Callouts Overlay -->
-          <div id="pinsOverlay">
-            <!-- Markers dynamically injected by JS -->
-          </div>
         </div>
 
         <div class="slider-hint-box" id="sliderHint">
-          <strong>⚡️ Hero Banner Slider:</strong> Slide 1 (active) and Slide 2 (autoplay) are both checked. Live store displays Banner 1 on load, then transitions to Banner 2.
+          <strong>⚡️ Hero Banner Slider:</strong> Red callout pointers point directly to the live text elements with 100% pixel perfection.
         </div>
       </div>
     </div>
@@ -519,7 +453,7 @@
 
       <!-- Sticky Navigation Bar for Cards (ScrollSpy Active) -->
       <div class="section-nav-pills">
-        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slide 1</a>
+        <a href="javascript:void(0)" class="active" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slide 1</a>
         <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide2')">2. Hero Slide 2</a>
         <a href="javascript:void(0)" onclick="selectSection('trust', 'card-trust-pillars')">3. Trust Pillars</a>
         <a href="javascript:void(0)" onclick="selectSection('categories', 'card-categories-slider')">4. Categories</a>
@@ -958,7 +892,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="cat-2-ar">أجهزة التبريد ومستلزمات الصيف المنعشة</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('cat-2-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('cat-2-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1193,7 +1127,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p418-2-ar">مسدس المساج الذكي للأنسجة العميقة • 9 سرعات احترافية لراحة فورية للعضلات والظهر</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p418-2-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p418-2-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1220,7 +1154,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p418-3-ar">جهاز تدليك الرقبة والأكتاف بتقنية الأصابع الحيوية • تدليك شياتسو عميق مع حرارة مهدئة</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p418-3-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p418-3-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1274,7 +1208,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p418-5-ar">كوب عصارة محمول بـ 6 شفرات فولاذية فائقة القوة • لتحضير السموثي والعصائر أثناء التنقل</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p418-5-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p418-5-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1301,7 +1235,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p418-6-ar">عصارة حمضيات وبرتقال كهربائية لاسلكية • عصر نقي بنقرة زر بدون أي جهد</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p418-6-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p418-6-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1374,7 +1308,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="mb-2-ar"><strong>أجهزة العناية والجمال الفاخرة</strong><br>تقنيات متطورة لتنظيف البشرة وشد الوجه بالفوتون، وأجهزة المساج المتخصصة للعناية اليومية.</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('mb-2-en', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('mb-2-ar', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1420,7 +1354,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p526-1-ar">قاعدة شحن لاسلكي سريع 3 في 1 • مخصصة للآيفون وساعة آبل وسماعات إيربودز بأعلى كفاءة</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p526-1-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p526-1-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1447,7 +1381,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p526-2-ar">مروحة الرقبة المعلقة بدون شفرات • 5 سرعات فائقة مع شاشة رقمية وتبريد فوري صامت</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p526-2-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p526-2-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1528,7 +1462,7 @@
             <div class="copy-box">
               <div class="content-preview arabic" id="p526-5-ar">مكيف ومبرد هواء شخصي 3 في 1 • مرطب رذاذي مائي وإضاءة ليلية مهدئة للمكتب وغرفة النوم</div>
               <div class="copy-btn-bar">
-                <button class="copy-btn" onclick="copyFrom('p526-5-ar', this)">📋 Copy Arabic</button>
+                <button class="copy-btn" onclick="copyFrom('p526-5-en', this)">📋 Copy Arabic</button>
               </div>
             </div>
           </div>
@@ -1869,87 +1803,39 @@
   <div class="toast" id="toastMsg">✓ Copied to clipboard!</div>
 
   <script>
-    // Visual Section Configuration with Callout Pointer Markers (Matching User 2nd Image)
+    // Visual Section Configuration with Pixel-Perfect Pre-Rendered Images
     const visualData = {
       hero: {
         img: 'assets/section_1_hero.jpg',
-        hint: '<strong>⚡️ Hero Banner Slider:</strong> Red callout pointers point directly to the live text elements without covering them.',
-        pins: [
-          { top: '24%', left: '16%', label: '1. Eyebrow Tag', card: 'card-hero-slide1', boxW: '160px', boxH: '26px' },
-          { top: '40%', left: '20%', label: '2. Headline', card: 'card-hero-slide1', boxW: '220px', boxH: '45px' },
-          { top: '56%', left: '16%', label: '3. Subheadline', card: 'card-hero-slide1', boxW: '200px', boxH: '34px' },
-          { top: '80%', left: '14%', label: '4. Button', card: 'card-hero-slide1', boxW: '90px', boxH: '34px' }
-        ]
+        hint: '<strong>⚡️ Hero Banner Slider:</strong> Slide 1 (active) and Slide 2 (autoplay) checked. Banners link to the flagship neck fan product page.'
       },
       trust: {
         img: 'assets/section_2_trust.jpg',
-        hint: '<strong>🛡️ Value Proposition: 3 Core Trust Pillars:</strong> Live website trust cards located above the footer.',
-        pins: [
-          { top: '35%', left: '18%', label: '1. Content', card: 'card-trust-pillars', boxW: '210px', boxH: '110px' },
-          { top: '35%', left: '50%', label: '2. Content', card: 'card-trust-pillars', boxW: '210px', boxH: '110px' },
-          { top: '35%', left: '82%', label: '3. Content', card: 'card-trust-pillars', boxW: '210px', boxH: '110px' }
-        ]
+        hint: '<strong>🛡️ Value Proposition: 3 Core Trust Pillars:</strong> Live website trust cards located above the footer.'
       },
       categories: {
         img: 'assets/section_3_categories.jpg',
-        hint: '<strong>🗂️ Categories Carousel:</strong> Clean callout badges pointing directly to category titles with no overlap on the text.',
-        pins: [
-          { top: '70%', left: '10%', label: '1. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
-          { top: '70%', left: '26%', label: '2. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
-          { top: '70%', left: '42%', label: '3. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
-          { top: '70%', left: '58%', label: '4. Content', card: 'card-categories-slider', boxW: '130px', boxH: '28px' },
-          { top: '70%', left: '74%', label: '5. Content', card: 'card-categories-slider', boxW: '120px', boxH: '28px' },
-          { top: '70%', left: '90%', label: '6. Content', card: 'card-categories-slider', boxW: '135px', boxH: '28px' }
-        ]
+        hint: '<strong>🗂️ Categories Carousel:</strong> Clean callout badges pointing directly to category titles in exact live order.'
       },
       new_collection: {
         img: 'assets/section_4_new_collection.jpg',
-        hint: '<strong>✨ New Collection Carousel (6 Products):</strong> Products 1-4 shown in initial desktop viewport. Products 5 & 6 rotate via autoplay.',
-        pins: [
-          { top: '64%', left: '14%', label: '1. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' },
-          { top: '64%', left: '38%', label: '2. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' },
-          { top: '64%', left: '62%', label: '3. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' },
-          { top: '64%', left: '86%', label: '4. Content', card: 'card-new-collection', boxW: '140px', boxH: '48px' }
-        ]
+        hint: '<strong>✨ New Collection Carousel (6 Products):</strong> Products 1-4 shown on load. Products 5 & 6 rotate via autoplay.'
       },
       mid_banners: {
         img: 'assets/section_5_mid_banners.jpg',
-        hint: '<strong>🖼️ Mid-Page Dual Banners:</strong> Features Electronics & Gadgets (Left) and Beauty & Personal Care (Right) promo banners.',
-        pins: [
-          { top: '48%', left: '25%', label: '1. Content', card: 'card-mid-banners', boxW: '180px', boxH: '50px' },
-          { top: '48%', left: '75%', label: '2. Content', card: 'card-mid-banners', boxW: '180px', boxH: '50px' }
-        ]
+        hint: '<strong>🖼️ Mid-Page Dual Banners:</strong> Features Electronics & Gadgets (Left) and Beauty & Personal Care (Right) promo banners.'
       },
       trending: {
         img: 'assets/section_6_trending.jpg',
-        hint: '<strong>🔥 Trending Products Carousel (6 Products):</strong> Products 1-4 shown on initial load. Products 5 & 6 rotate via autoplay.',
-        pins: [
-          { top: '64%', left: '14%', label: '1. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' },
-          { top: '64%', left: '38%', label: '2. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' },
-          { top: '64%', left: '62%', label: '3. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' },
-          { top: '64%', left: '86%', label: '4. Content', card: 'card-trending-slider', boxW: '140px', boxH: '48px' }
-        ]
+        hint: '<strong>🔥 Trending Products Carousel (6 Products):</strong> Products 1-4 shown on initial load. Products 5 & 6 rotate via autoplay.'
       },
       testimonials: {
         img: 'assets/section_7_testimonials.jpg',
-        hint: '<strong>💬 Testimonials Slider (6 Slides):</strong> Viewport displays 1 review at a time. The carousel rotates through all 6 customer reviews.',
-        pins: [
-          { top: '38%', left: '50%', label: '1. Content', card: 'card-testimonials-slider', boxW: '240px', boxH: '60px' },
-          { top: '70%', left: '50%', label: '2. Customer', card: 'card-testimonials-slider', boxW: '150px', boxH: '30px' }
-        ]
+        hint: '<strong>💬 Testimonials Slider (6 Slides):</strong> Real customer reviews section located right above the trust pillars.'
       },
       full: {
         img: 'assets/home_full.jpg',
-        hint: '<strong>🗺️ Full Homepage & SEO Meta Architecture:</strong> Google and social search engine metadata, along with full page visual mapping.',
-        pins: [
-          { top: '3%', left: '50%', label: 'SEO Tags', card: 'card-seo-metadata', boxW: '200px', boxH: '40px' },
-          { top: '9%', left: '50%', label: '1. Hero Slider', card: 'card-hero-slide1', boxW: '220px', boxH: '45px' },
-          { top: '23%', left: '50%', label: '2. Categories', card: 'card-categories-slider', boxW: '220px', boxH: '45px' },
-          { top: '35%', left: '50%', label: '3. New Arrivals', card: 'card-new-collection', boxW: '220px', boxH: '45px' },
-          { top: '58%', left: '50%', label: '4. Trending', card: 'card-trending-slider', boxW: '220px', boxH: '45px' },
-          { top: '72%', left: '50%', label: '5. Testimonials', card: 'card-testimonials-slider', boxW: '220px', boxH: '45px' },
-          { top: '85%', left: '50%', label: '6. Trust Pillars', card: 'card-trust-pillars', boxW: '220px', boxH: '45px' }
-        ]
+        hint: '<strong>🗺️ Full Homepage & SEO Meta Architecture:</strong> Google and social search engine metadata, along with full page visual mapping.'
       }
     };
 
@@ -1958,7 +1844,6 @@
       const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
       if (activeBtn) {
         activeBtn.classList.add('active');
-        activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
       }
 
       const data = visualData[key];
@@ -1966,35 +1851,6 @@
 
       document.getElementById('visualImage').src = data.img;
       document.getElementById('sliderHint').innerHTML = data.hint;
-
-      // Render Callout Pointers (Pointer badge + arrow + target highlight box)
-      const overlay = document.getElementById('pinsOverlay');
-      overlay.innerHTML = '';
-      data.pins.forEach(pin => {
-        // 1. Callout Badge with downward arrow
-        const callout = document.createElement('div');
-        callout.className = 'visual-callout-wrap';
-        callout.style.top = pin.top;
-        callout.style.left = pin.left;
-        callout.innerHTML = `
-          <div class="callout-badge">${pin.label}</div>
-          <div class="callout-arrow"></div>
-        `;
-        callout.onclick = () => scrollToCard(pin.card);
-
-        // 2. Target Box outlining the element without obscuring text
-        if (pin.boxW && pin.boxH) {
-          const box = document.createElement('div');
-          box.className = 'callout-target-box';
-          box.style.top = pin.top;
-          box.style.left = pin.left;
-          box.style.width = pin.boxW;
-          box.style.height = pin.boxH;
-          overlay.appendChild(box);
-        }
-
-        overlay.appendChild(callout);
-      });
     }
 
     function selectSection(key, cardId) {
@@ -2091,9 +1947,10 @@
       }, 2000);
     }
 
-    // Initialize visual callouts on load
+    // Initialize: Activate 1st tab in both bars on load
     window.addEventListener('DOMContentLoaded', () => {
       switchVisual('hero');
+      updateActivePill('card-hero-slide1');
     });
   </script>
 </body>
