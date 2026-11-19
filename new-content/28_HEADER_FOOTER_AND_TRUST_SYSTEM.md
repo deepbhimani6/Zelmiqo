@@ -1,7 +1,8 @@
-# 🧭 Header, Footer & Global Trust System (الهيدر، الفوتر وشارات الثقة) - Zelmiqo Saudi Arabia
+# 🧭 Header, Footer & Global Trust System (الهيدر، الفوتر وشارات الثقة) - Zelmiqo
 
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
-> **Components**: Navigation Menu, Search Bar, Footer Links, Commercial Information, Payment Method Badges
+> **Brand Identity**: Zelmiqo (زيلميكو) — Global Lifestyle Innovation  
+> **Regional Hub**: Kingdom of Saudi Arabia & Gulf Countries  
+> **Components**: Announcement Bar, Navigation Menus, Footer Bio, Commercial Registration, Payment Methods
 
 ---
 
@@ -12,22 +13,22 @@
 🚚 Free shipping on all orders • Shop now
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Option 1 (Direct Upgrade):
-🚚 Free Express Delivery on All Orders Across Saudi Arabia • Shop Now
+Option 1 (Direct Upgrade - Global & Local Synergy):
+🚚 Free Express Delivery Across Saudi Arabia on All Orders • Shop Now
 
-Option 2 (Rotating Multi-USP Marquee):
-✨ Free Express Shipping Across KSA | 💳 Split into 4 Interest-Free Payments with Tabby & Tamara | 💵 Cash on Delivery Available
+Option 2 (Multi-Offer Rotating Marquee):
+🌍 Global Innovations, Local KSA Express Delivery | 💳 Split in 4 with Tabby & Tamara | 🚚 Free Shipping on Orders Over SAR 199
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 الخيار 1 (ترجمة مباشرة راقية):
-🚚 شحن مجاني وسريع لكافة مدن ومناطق المملكة • تسوق الآن
+🚚 شحن وتوصيل سريع ومجاني لكافة مدن ومناطق المملكة • تسوق الآن
 
-الخيار 2 (شريط إعلاني متعدد الحوافز):
-✨ توصيل سريع ومجاني لكافة مدن المملكة | 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا | 💵 الدفع عند الاستلام متاح
+الخيار 2 (شريط إعلاني متحرك يعكس العالمية والخدمة المحلية):
+🌍 ابتكارات عالمية بتوصيل محلي فوري لكافة مدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني للطلبات فوق 199 ر.س
 ```
 
 ---
@@ -37,42 +38,44 @@ Option 2 (Rotating Multi-USP Marquee):
 | Section | English Label | Arabic Label (المصطلح العربي المعتمد) |
 | :--- | :--- | :--- |
 | **Home** | Home | الرئيسية |
-| **All Products** | Catalog / All Products | جميع المنتجات |
-| **Summer Cooling** | ❄️ Summer Essentials | ❄️ انتعاش الصيف |
-| **Tech & Chargers** | ⚡️ Smart Chargers | ⚡️ الشواحن الذكية |
-| **Car Accessories** | 🚗 Car Care | 🚗 مستلزمات السيارات |
-| **Personal Care** | 💆‍♀️ Wellness & Beauty | 💆‍♀️ العناية والمساج |
+| **All Products** | Flagship Collection | جميع المنتجات |
+| **Summer Cooling** | ❄️ Climate Series | ❄️ التبريد الصيفي |
+| **Tech & Chargers** | ⚡️ Power & Workspace | ⚡️ الشواحن والمكتب |
+| **Car Accessories** | 🚗 Automotive Prestige | 🚗 العناية بالسيارات |
+| **Personal Care** | 💆‍♀️ Wellness & Spa | 💆‍♀️ العناية والمساج |
 | **Track Order** | Track Your Order | تتبع شحنتك |
-| **Contact Support** | WhatsApp VIP Support | خدمة العملاء |
+| **Contact Support** | VIP Concierge Support | خدمة العملاء |
 
 ---
 
-## 2. Global Footer Information (بيانات وتذييل الصفحة الرسمية)
+## 3. Global Footer Information (بيانات وتذييل الصفحة الرسمية)
 
 ### New English Content
 ```text
 Brand Bio:
-Zelmiqo is Saudi Arabia's premier destination for curated smart lifestyle tech, cooling innovations, and ergonomic wellness devices. Designed to elevate your daily living with unmatched quality, transparent guarantees, and dedicated local customer care.
+Zelmiqo is an international lifestyle tech brand designing world-class smart gadgets, advanced personal cooling technologies, and restorative wellness solutions for refined living worldwide. Operating with dedicated regional logistics hubs, we provide lightning-fast local fulfillment, certified guarantees, and bilingual VIP support across the Kingdom of Saudi Arabia.
 
 Official Store Information:
-- Commercial Registration (CR): 1010XXXXXX (سجل تجاري موثق)
-- VAT Number: 310XXXXXXXX0003 (الرقم الضريبي المعتمد)
-- Maroof / SBC Certified: Certified Gold E-Store (معتمد لدى المركز السعودي للأعمال)
-- Headquarters: Riyadh, Kingdom of Saudi Arabia
-- Copyright © 2026 Zelmiqo KSA. All Rights Reserved.
+- Brand: Zelmiqo International (زيلميكو)
+- Commercial Registration (CR): 1010XXXXXX (Registered in Saudi Arabia)
+- VAT Number: 310XXXXXXXX0003 (VAT-Compliant)
+- Business Certification: Certified Gold E-Store (Saudi Business Center / Maroof)
+- Regional Operations: Riyadh, Kingdom of Saudi Arabia
+- Copyright © 2026 Zelmiqo. All Rights Reserved.
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 نبذة المتجر:
-زيلميكو (Zelmiqo) هي وجهتك الأولى في المملكة العربية السعودية لأحدث الأجهزة الذكية، حلول التبريد الصيفي المبتكرة، ومنتجات العناية بالسيارة والمنزل. صُممت منتجاتنا لتمنحك أسلوب حياة أكثر سهولة وفخامة، مع ضمان ذهبي معتمد وتوصيل فوري لكافة مدن المملكة.
+زيلميكو (Zelmiqo) هي علامة تجارية عالمية متخصصة في ابتكارات الحياة الذكية، أجهزة التبريد الشخصي المتطورة، وحلول العناية والاسترخاء الفاخرة لمواكبة أسلوب الحياة العصري حول العالم. ومن خلال مستودعاتنا وشبكة التوزيع الإقليمية داخل المملكة العربية السعودية، نقدم لعملائنا في المملكة أرقى المعايير العالمية مع توصيل محلي فائق السرعة وضمان ذهبي معتمد وخدمة عملاء VIP.
 
 البيانات الرسمية والموثوقية:
-- السجل التجاري: 1010XXXXXX (مسجل رسمياً في وزارة التجارة)
+- العلامة التجارية: زيلميكو العالمية (Zelmiqo)
+- السجل التجاري: 1010XXXXXX (موثق رسمياً في المملكة العربية السعودية)
 - الرقم الضريبي: 310XXXXXXXX0003 (خاضع لضريبة القيمة المضافة)
-- التوثيق: متجر موثق لدى المركز السعودي للأعمال (SBC / منصة معروف)
-- المقر الرئيسي: الرياض، المملكة العربية السعودية
-- جميع الحقوق محفوظة © 2026 متجر زيلميكو السعودية.
+- التوثيق: معتمد لدى المركز السعودي للأعمال (SBC / معروف)
+- مركز العمليات الإقليمي: الرياض، المملكة العربية السعودية
+- جميع الحقوق محفوظة © 2026 علامة زيلميكو (Zelmiqo).
 ```
 
 ### Recommended Images & Visual Mapping
