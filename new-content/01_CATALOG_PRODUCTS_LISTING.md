@@ -1,8 +1,9 @@
-# 🛍️ Catalog & Products Listing Page (صفحة كتالوج المنتجات) - Zelmiqo Saudi Arabia
+# 🛍️ Catalog & Products Listing Page (كتالوج المنتجات العالمية) - Zelmiqo
 
-> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
+> **Brand**: Zelmiqo (زيلميكو) — International Smart Living  
+> **Active Regional Hub**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
 > **Currency**: SAR (ر.س)  
-> **Key Objective**: Maximum conversion, effortless browsing, clear category tags, instant Tabby/Tamara price calculations, and strong Saudi trust signals.
+> **Key Objective**: Global brand authority, seamless shopping experience, instant Tabby/Tamara calculations, and localized express delivery.
 
 ---
 
@@ -14,40 +15,40 @@ Catalog
 Shop all available products in our store.
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Title:
-All Innovations & Curated Essentials for Modern Living
+The Complete Zelmiqo Collection | Global Innovations for Refined Living
 
 Subtitle:
-Explore our complete lineup of premium smart gadgets, summer cooling devices, luxury wellness tools, and automotive care essentials. Built for high performance, verified durability, and effortless daily comfort across Saudi Arabia.
+Explore our internationally engineered flagship lineup of smart gadgets, high-velocity personal cooling essentials, luxury wellness tools, and automotive care innovations. Built with world-class precision, verified durability, and available with express domestic delivery across Saudi Arabia.
 
-Filter Badges:
-- All Products
-- ❄️ Summer Cooling Essentials
-- ⚡️ Smart Tech & Wireless Chargers
-- 🚗 Car Care & Accessories
-- 💆‍♀️ Beauty, Skin & Personal Care
-- 🥤 Kitchen, Fitness & Portable Blenders
-- 🏠 Smart Home & Workspace Comfort
+Curated Series:
+- All Products (جميع المنتجات)
+- ❄️ The Climate Series (أجهزة التبريد والانتعاش الصيفي)
+- ⚡️ Power & Workspace Series (الشواحن الذكية ومكتب المستقبل)
+- 🚗 Automotive Prestige Series (عناية وحماية السيارات الفاخرة)
+- 💆‍♀️ Wellness & Spa Series (العناية بالبشرة والمساج الاحترافي)
+- 🥤 Nutrition & Active Living (الخلاطات المحمولة ونمط الحياة الصحي)
+- 🏠 Smart Home Comfort (راحة المنزل الذكي)
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
 العنوان:
-جميع الابتكارات والمنتجات الذكية لحياة عصرية متكاملة
+التشكيلة الكاملة من زيلميكو | ابتكارات عالمية لرفاهية استثنائية
 
 العنوان الفرعي:
-تصفح تشكيلتنا الشاملة من الأجهزة الذكية الفاخرة، حلول التبريد الصيفي المتطورة، أجهزة العناية الشخصية، ومستلزمات السيارات عالية الجودة. منتجات أصلية مختارة بعناية لتمنحك أقصى درجات الراحة والكفاءة في كل يوم بالمملكة.
+تصفح تشكيلة منتجاتنا المصممة بأعلى المعايير العالمية من الأجهزة الذكية، تقنيات التبريد الصيفي المتطورة، أدوات العناية والاسترخاء الفاخرة، ومستلزمات السيارات عالية الجودة. منتجات أصلية تجمع بين فخامة التصميم العالمي وسرعة التوصيل المحلي الفوري في كافة مدن المملكة.
 
-وسوم التصنيفات السريعة:
+السلاسل المعتمدة:
 - جميع المنتجات
-- ❄️ أجهزة التبريد والانتعاش الصيفي
-- ⚡️ الشواحن الذكية وملحقات الهواتف
-- 🚗 عناية وإكسسوارات السيارات الفاخرة
-- 💆‍♀️ العناية بالبشرة والمساج والاسترخاء
-- 🥤 الخلاطات المحمولة ونمط الحياة الصحي
-- 🏠 راحة المنزل والمكتب الذكي
+- ❄️ سلسلة التبريد المتطور (Climate Series)
+- ⚡️ سلسلة الطاقة والمكتب الذكي (Power & Workspace)
+- 🚗 سلسلة السيارات الفاخرة (Automotive Prestige)
+- 💆‍♀️ سلسلة العناية والاسترخاء (Wellness & Spa)
+- 🥤 سلسلة التغذية والانتعاش (Nutrition Series)
+- 🏠 سلسلة راحة المنزل الذكي (Smart Home)
 ```
 
 ---
@@ -60,32 +61,32 @@ Price: SAR 129.00
 Add to Cart
 ```
 
-### New English Content (Premium & Attractive for KSA)
+### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Badge Options:
-- ⭐️ Best Seller (الأكثر طلباً)
-- ❄️ Summer Must-Have (أساسي لصيف المملكة)
-- 🚚 Express KSA Shipping (شحن سريع)
-- 💳 Split into 4 payments of SAR 32.25 with Tabby / Tamara
+Card Badges:
+- ⭐️ Global Best Seller (الأكثر طلباً عالمياً ومحلياً)
+- ❄️ Summer Essential (أساسي لأجواء الصيف)
+- 🚚 Express KSA Dispatch (شحن محلي سريع)
+- 💳 Split into 4 monthly payments with Tabby or Tamara
 
-Card Action:
+Action Buttons:
 - Quick View (نظرة سريعة)
-- Add to Cart (أضف للسلة)
-- Buy Now with 1-Click (شراء سريع بضغطة واحدة)
+- Add to Cart (أضف إلى السلة)
+- Buy Now (اطلب الآن والدفع عند الاستلام متاح)
 ```
 
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
+### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
 ```text
-خيارات الشارات التسويقية:
-- ⭐️ الأكثر طلباً في المملكة
-- ❄️ أساسي لصيف منعش
-- 🚚 توصيل سريع متاح
-- 💳 قسّمها على 4 دفعات بقيمة 32.25 ر.س مع تابي أو تمارا
+شارات المنتج:
+- ⭐️ الأكثر طلباً وتميزاً
+- ❄️ أساسي لأجواء الصيف في المملكة
+- 🚚 توصيل محلي فوري متاح
+- 💳 قسّمها على 4 دفعات بدون فوائد مع تابي أو تمارا
 
 أزرار الشراء:
 - نظرة سريعة
 - أضف إلى السلة
-- اطلب الآن بضغطة زر واحدة (الدفع عند الاستلام متاح)
+- اطلب الآن (الدفع عند الاستلام متاح)
 ```
 
 ---
@@ -94,20 +95,22 @@ Card Action:
 
 ### New English Content
 ```text
-Why 15,000+ Saudi Customers Choose Zelmiqo:
-- 📦 Fast dispatch from local Saudi fulfillment centers
-- 🛡️ 14-Day Golden Money-Back & Exchange Guarantee
-- 📞 Direct WhatsApp VIP Support from our Saudi Team
-- 💳 Pay with Mada, Apple Pay, Tabby, Tamara or Cash on Delivery
+The Zelmiqo Global Standard — Delivered Locally Across Saudi Arabia:
+- 🌍 International design and testing on all flagship products
+- 📦 Rapid dispatch from Saudi regional fulfillment centers
+- 🛡️ 14-Day Golden Money-Back & Exchange Guarantee + 1-Year Device Warranty
+- 💳 Flexible payments via Mada, Apple Pay, Tabby, Tamara, or Cash on Delivery
+- 📞 Dedicated bilingual VIP customer care on WhatsApp
 ```
 
 ### Translate New English Content to Arabic Content
 ```text
-لماذا يفضل أكثر من 15,000 عميل في المملكة متجر زيلميكو:
-- 📦 شحن وتوصيل فوري من مستودعاتنا داخل المملكة
-- 🛡️ ضمان ذهبي لمدة 14 يوماً للاستبدال والاسترجاع بدون تعقيد
-- 📞 خدمة عملاء ودعم فني مباشر عبر الواتساب على مدار الساعة
-- 💳 خيارات دفع متعددة: مدى، أبل باي، تابي، تمارا، أو الدفع عند الاستلام
+معايير زيلميكو العالمية — بتوصيل محلي فائق السرعة لكافة مدن المملكة:
+- 🌍 تصميم وهندسة دولية معتمدة لكافة المنتجات الرائدة
+- 📦 شحن وتوصيل فوري من مستودعاتنا المركزية داخل المملكة
+- 🛡️ ضمان ذهبي لمدة 14 يوماً للاستبدال والاسترجاع + ضمان رسمي لمدة عام
+- 💳 سداد ميسر وآمن عبر مدى، أبل باي، تابي، تمارا، أو الدفع عند الاستلام
+- 📞 خدمة عملاء VIP متخصصة باللغتين العربية والإنجليزية عبر الواتساب
 ```
 
 ### Recommended Images & Visual Mapping
