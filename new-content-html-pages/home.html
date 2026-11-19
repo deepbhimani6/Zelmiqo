@@ -59,19 +59,10 @@
       border-radius: 20px;
       text-transform: uppercase;
     }
-    .header-links a {
-      color: #e2e8f0;
-      text-decoration: none;
+    .header-tip {
+      color: #94a3b8;
       font-size: 13px;
-      margin-left: 16px;
-      padding: 6px 12px;
-      border-radius: 6px;
-      background: rgba(255,255,255,0.08);
-      transition: all 0.2s;
-    }
-    .header-links a:hover {
-      background: var(--gold);
-      color: var(--primary);
+      font-weight: 500;
     }
 
     /* Layout: Split Screen */
@@ -390,13 +381,8 @@
       <h1>Zelmiqo® Homepage Content Master</h1>
       <span class="badge">Saudi Arabia & Global Launch</span>
     </div>
-    <div class="header-links">
-      <a href="#section-hero">Hero Slider</a>
-      <a href="#section-trust">Trust Pillars</a>
-      <a href="#section-categories">Categories Slider</a>
-      <a href="#section-new">New Collection</a>
-      <a href="#section-trending">Trending Slider</a>
-      <a href="#section-reviews">Testimonials Slider</a>
+    <div class="header-tip">
+      💡 Interactive Content & Visual Workstation
     </div>
   </header>
 
@@ -406,14 +392,14 @@
     <!-- LEFT PANE: Visual Website with Interactive Pins -->
     <div class="visual-pane">
       <div class="visual-toolbar">
-        <button class="active" onclick="switchVisual('hero')">1. Hero Banner Slider</button>
-        <button onclick="switchVisual('trust')">2. Trust Pillars</button>
-        <button onclick="switchVisual('categories')">3. Categories Slider (8 Slides)</button>
-        <button onclick="switchVisual('new_collection')">4. New Collection Slider</button>
-        <button onclick="switchVisual('mid_banners')">5. Mid Banners</button>
-        <button onclick="switchVisual('trending')">6. Trending Slider</button>
-        <button onclick="switchVisual('testimonials')">7. Testimonials Slider (6 Slides)</button>
-        <button onclick="switchVisual('full')">Full Page Map</button>
+        <button class="active" data-key="hero" onclick="switchVisual('hero', this)">1. Hero Banner Slider</button>
+        <button data-key="trust" onclick="switchVisual('trust', this)">2. Trust Pillars</button>
+        <button data-key="categories" onclick="switchVisual('categories', this)">3. Categories Slider (8 Slides)</button>
+        <button data-key="new_collection" onclick="switchVisual('new_collection', this)">4. New Collection Slider</button>
+        <button data-key="mid_banners" onclick="switchVisual('mid_banners', this)">5. Mid Banners</button>
+        <button data-key="trending" onclick="switchVisual('trending', this)">6. Trending Slider</button>
+        <button data-key="testimonials" onclick="switchVisual('testimonials', this)">7. Testimonials Slider (6 Slides)</button>
+        <button data-key="full" onclick="switchVisual('full', this)">Full Page Map</button>
       </div>
 
       <div class="visual-content">
@@ -441,14 +427,14 @@
 
       <!-- Navigation Pills -->
       <div class="section-nav-pills">
-        <a href="#card-hero-slide1">① Hero Slide 1</a>
-        <a href="#card-hero-slide2">② Hero Slide 2</a>
-        <a href="#card-trust-pillars">③ Trust Pillars</a>
-        <a href="#card-categories-slider">④ Categories (8 Slides)</a>
-        <a href="#card-new-collection">⑤ New Arrivals (6 Slides)</a>
-        <a href="#card-trending-slider">⑥ Trending (7 Slides)</a>
-        <a href="#card-testimonials-slider">⑦ Testimonials (6 Slides)</a>
-        <a href="#card-seo-metadata">🔍 SEO Meta Tags</a>
+        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide1')">① Hero Slide 1</a>
+        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide2')">② Hero Slide 2</a>
+        <a href="javascript:void(0)" onclick="selectSection('trust', 'card-trust-pillars')">③ Trust Pillars</a>
+        <a href="javascript:void(0)" onclick="selectSection('categories', 'card-categories-slider')">④ Categories (8 Slides)</a>
+        <a href="javascript:void(0)" onclick="selectSection('new_collection', 'card-new-collection')">⑤ New Arrivals (6 Slides)</a>
+        <a href="javascript:void(0)" onclick="selectSection('trending', 'card-trending-slider')">⑥ Trending (7 Slides)</a>
+        <a href="javascript:void(0)" onclick="selectSection('testimonials', 'card-testimonials-slider')">⑦ Testimonials (6 Slides)</a>
+        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">🔍 SEO Meta Tags</a>
       </div>
 
       <!-- ============================================================== -->
@@ -1316,10 +1302,11 @@ Your payments stay 100% protected. Pay with Mada, Apple Pay, Cash on Delivery, o
       }
     };
 
-    function switchVisual(key) {
+    function switchVisual(key, btnElem) {
       // update buttons
       document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
-      event.target.classList.add('active');
+      const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
+      if (activeBtn) activeBtn.classList.add('active');
 
       const data = visualData[key];
       if (!data) return;
@@ -1339,6 +1326,13 @@ Your payments stay 100% protected. Pay with Mada, Apple Pay, Cash on Delivery, o
         el.onclick = () => scrollToCard(pin.card);
         overlay.appendChild(el);
       });
+    }
+
+    function selectSection(key, cardId) {
+      switchVisual(key);
+      if (cardId) {
+        scrollToCard(cardId);
+      }
     }
 
     function scrollToCard(cardId) {
