@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion)
+# 📦 Zelmiqo DermaSonic Ultrasonic Skin Scrubber, Deep Exfoliator & Blackhead Spatula
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-18`  
-> **Original URL**: `https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care`  
-> **Category**: 💆‍♀️ Skincare & Facial Spatula  
+> **Live Site URL**: `https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care`  
+> **Category**: 💆‍♀️ Skincare Innovation & Peeling  
 > **Price**: **SAR 169.00** *(Or 4 monthly interest-free payments of **SAR 42.25** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-ultrasonic-skin-scrubber/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Ultrasonic Skin Scrubber for Deep Pore Care
+Price: SAR 169.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion)
+Headline:
+new english content: Zelmiqo DermaSonic Ultrasonic Skin Scrubber, Deep Exfoliator & Blackhead Spatula
+new arabic content: جهاز تقشير البشرة وتنظيف المسام بالموجات فوق الصوتية والنبضات الأيونية من زيلميكو
 
-Hero Subheadline:
-Clinic-Grade Ultrasonic Peeling at Home. Clear Blackheads, Slough Dead Skin & Infuse Serums Deeply.
-```
+Subheadline:
+new english content: 24,000Hz Ultrasonic Atomization. Dislodges Deep Blackheads & Infuses Serums Without Skin Redness.
+new arabic content: اهتزاز فائق 24,000 هرتز يفتت الزيوت والرؤوس السوداء ويغذي طبقات البشرة بأمان تام ودون أي تهيج.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-تقشير ناعم ونظافة عيادات التجميل في منزلك. إزالة الرؤوس السوداء، تقشير الجلد الميت، وامتصاص مضاعف للسيروم.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,41 @@ Clinic-Grade Ultrasonic Peeling at Home. Clear Blackheads, Slough Dead Skin & In
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Reveal Fresh, Smooth, Radiant-Looking Skin
+Upgrade your everyday skincare ritual with the Ultrasonic Skin Scrubber for Deep Pore Care. This compact facial cleansing tool uses gentle ultrasonic vibration and a smooth metal spatula head to help lift away surface oil, makeup residue, and buildup from the skin. It is an easy addition to a more complete at-home facial routine.
+### Gentle Deep Pore Cleansing
+The curved spatula head glides comfortably across damp skin, helping to remove visible impurities around the nose, chin, forehead, and T-zone. Regular gentle use can help your skin feel cleaner, smoother, and better prepared for the rest of your skincare routine.
+### Designed for Your Daily Skincare Ritual
+Use this facial scrubber after cleansing and while your skin is damp. Its slim, lightweight shape is easy to hold, allowing you to carefully target areas where excess oil and clogged pores are most noticeable. It is ideal for a relaxing self-care session at home.
+### More Than a Basic Face Cleanser
+This versatile beauty tool supports a fresh-looking complexion by pairing cleansing with gentle facial massage. The vibrating action helps create a soothing routine while making your favourite toner, serum, or moisturizer feel more evenly applied after cleansing.
+### Helps Improve the Look of Skin Texture
+Use the spatula head with light, slow strokes to help sweep away loose surface buildup. With consistent skincare and gentle use, it can help improve the appearance of dull-looking skin and leave your face feeling soft and refreshed.
+### Compact, Simple, and Convenient
+Its sleek portable design makes it easy to keep in your bathroom, vanity drawer, or travel pouch. Enjoy a spa-inspired skincare moment whenever your skin needs a little extra attention, without adding complicated steps to your day.
+### How to Use
+• Cleanse your face and leave the skin slightly damp.
+• Turn on the device and hold the spatula head at a gentle angle.
+• Glide slowly over the nose, chin, forehead, and other desired areas.
+• Use light pressure and avoid staying in one place for too long.
+• Clean the spatula head after use and continue with your normal skincare products.
+### Product Highlights
+• Ultrasonic vibrating facial cleansing tool
+• Helps lift surface oil, dirt, and visible buildup
+• Supports deep pore care around the T-zone
+• Smooth spatula head for gentle facial use
+• Helps skin feel refreshed and smooth
+• Compact design for home or travel use
+• Suitable for adding to a regular skincare routine
+### Care Note
+For external cosmetic use only. Always use the device gently on clean, damp skin. Avoid use on broken, irritated, or inflamed skin, and discontinue use if discomfort occurs. Individual results may vary depending on skin type and skincare routine.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Everyday dead skin accumulation, sebum, and dust block your skincare serums from penetrating, leaving skin looking uneven. The Zelmiqo DermaSonic emits 24,000Hz ultrasonic vibrations per second, instantly atomizing water into micro-bubbles that dislodge stubborn dirt, blackheads, and dead skin cells from pores painlessly. Switch to the reverse ion-infusion side to lock in your luxury serums for that dewy, glass-skin glow.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-تراكم خلايا الجلد الميتة والزيوت يسد المسام ويمنع البشرة من الاستفادة من سيروماتك الفاخرة، مما يجعلها باهتة وفاقدة للحيوية. يصدر جهاز زيلميكو ديرما سونيك 24,000 اهتزازة صوتية بالثانية تحوّل قطرات الماء إلى فقاعات ميكروية دقيقة تفتت الأوساخ والرؤوس السوداء والجلد الميت وتخرجها من المسام بنعومة وبدون أي ألم. اقلبي الشفرة السيليكونية لتدليك البشرة بالأيونات لامتصاص عميق ونتائج نضارة فورية كالزجاج.
+Product Story & Daily Lifestyle Appeal:
+new english content: Achieve glowing, glass-like skin at home. The Zelmiqo DermaSonic spatula oscillates at an incredible 24,000 vibrations per second, turning water into microscopic atomized bubbles that deeply penetrate pores to dislodge stubborn blackheads, whiteheads, and dead skin cells. The reverse side utilizes microcurrent iontophoresis to infuse costly serums and moisturizers into the skin with 3x higher absorption efficiency.
+new arabic content: احصلي على بشرة نضرة ونقية كالحرير في راحة منزلك. تعمل شفرة جهاز زيلميكو ديرما سونيك المصنوعة من الستانلس ستيل الطبي باهتزازات صوتية فائقة تبلغ 24,000 اهتزازة بالثانية، لتحول رذاذ الماء إلى فقاعات مجهرية تنفذ للمسام وتفتت الرؤوس السوداء والجلد الميت والزيوت الزائدة بلطف تام. كما يعمل الوجه الخلفي بالتيار الأيوني لدفع سيروماتك المفضلة إلى عمق خلايا البشرة لامتصاص مضاعف 3 مرات.
 ```
 
 ---
@@ -92,102 +118,59 @@ Everyday dead skin accumulation, sebum, and dust block your skincare serums from
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Reveal Fresh, Smooth, Radiant-Looking Skin
+Upgrade your everyday skincare ritual with the Ultrasonic Skin Scrubber for Deep Pore Care. This compact facial cleansing tool uses gentle ultrasonic vibration and a smooth metal spatula head to help lift away surface oil, makeup residue, and buildup from the skin. It is an easy addition to a more complete at-home facial routine.
+### Gentle Deep Pore ...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🌊 24,000Hz Ultrasonic Peeling: Dislodges blackheads, excess oil, and impurities with gentle acoustic waves.
-- ✨ Ion+ (Cleanse) & Ion- (Infuse): Pulls grime out of pores, then drives anti-aging serums deep into skin.
-- 💆‍♀️ EMS Microcurrent Pulse Lifting: Firms facial contours and stimulates collagen renewal.
-- 🛡️ Medical-Grade Stainless Steel Curved Spatula: Hypoallergenic, smooth, and contoured for nose curves.
-- 🔋 Cordless USB Fast Charging: Lightweight, portable, and ideal for self-care routines anywhere.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 🌊 24,000Hz High-Frequency Sonic Peeling: Liquefies pore sebum and gently clears stubborn blackheads.
+• ✨ 3 Multi-Benefit Modes: Ultrasonic Peeling (Clean), Ion+ Deep Extraction, Ion- Nutrient Infusion.
+• 🛡️ Medical-Grade Stainless Steel Spatula: Curved blade contours perfectly to the nose bridge and chin.
+• 🔋 Cordless Rechargeable Ergonomics: Slim, lightweight design charging easily via USB Type-C.
+• 💧 Painless & Non-Scarring: Safe alternative to harsh metal manual extraction tools.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🌊 تقشير بالموجات الصوتية 24,000 هرتز: يفتت الرؤوس السوداء والأوساخ المتراكمة بالماء دون التسبب في أي احمرار.
-- ✨ تقنية الأيونات المزدوجة (+Ion للتنظيف / -Ion للامتصاص): تنقي المسام أولاً، ثم تساعد البشرة على امتصاص السيروم بعمق.
-- 💆‍♀️ نبضات EMS لشد البشرة: تعزز مرونة الجلد وتحفز إنتاج الكولاجين لمظهر مشدود وأكثر شباباً.
-- 🛡️ ملعقة مقوسة من الستانلس ستيل الطبي: لطيفة جداً على البشرة ومصممة لتنظيف زوايا الأنف والذقن بدقة.
-- 🔋 شحن لاسلكي سريع بـ USB: تصميم مدمج وخفيف الوزن يناسب حقيبة مكياجك وسفرك بكل سهولة.
+new arabic content:
+• 🌊 تقشير بالموجات فوق الصوتية 24,000 هرتز: يذيب دهون المسام ويزيل الرؤوس السوداء برذاذ الماء اللطيف.
+• ✨ 3 أوضاع تشغيل متكاملة: تنظيف وتقشير عميق (Clean)، سحب الشوائب الأيوني (Ion+)، ودفع السيروم المغذي (Ion-).
+• 🛡️ شفرة من الفولاذ الطبي المقاوم للصدأ: تصميم منحني انسيابي يلتف بسهولة حول الأنف والذقن والخدين.
+• 🔋 تصميم لاسلكي فائق الخفة: خفيف ومريح في الاستخدام ويشحن بسهولة عبر منفذ USB Type-C.
+• 💧 عناية آمنة وبدون ألم: بديل مثالي وصحي لأدوات الضغط المعدنية المؤلمة التي تترك ندبات واحمراراً.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Vibration Frequency: 24,000 Hz / Ultrasonic Cavitation
-- Modes: Ultrasonic Clean, Ion+ Deep Extract, Ion- Nutrient Infusion, EMS Lifting
-- Blade Material: 100% Medical-Grade 304 Stainless Steel
-- Battery: 500mAh Lithium Rechargeable
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- تردد الاهتزازات: 24,000 هرتز في الثانية بالموجات فوق الصوتية
-- الأنماط: تنظيف عميق، شفط أيوني موجب، ترطيب أيوني سالب، شد بالنبضات EMS
-- الخامة: شفرة مقوسة من الستانلس ستيل 304 الطبي المقاوم للبكتيريا
-- البطارية: ليثيوم 500 مللي أمبير قابلة للشحن السريع عبر USB
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 42.25 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 42.25 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Frequency: 24,000Hz | Battery: 500mAh | Modes: 3 (Peeling/Ion+/Ion-) | Spatula: 304 Stainless Steel
+new arabic content: التردد: 24,000 هرتز | البطارية: 500 مللي أمبير | الأوضاع: 3 أوضاع تجميلية | الشفرة: ستانلس ستيل طبي 304
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Should I use it on wet or dry skin?
-**Answer (English)**:
-Always use on wet, misted, or damp skin during peeling mode for optimal cavitation results.
-
-**السؤال 1**: هل يُستخدم على بشرة جافة أم رطبة؟  
-**الإجابة (بالعربية)**:  
-يجب دائماً استخدامه على بشرة مبللة بالماء أو التونر أثناء وضع التقشير، لتتحول قطرات الماء إلى موجات تنظيف فعالة.
-
-### FAQ 2: Is it painful?
-**Answer (English)**:
-Zero pain! Unlike squeezing or chemical peels, ultrasonic vibration glides smoothly across the skin with no pinching.
-
-**السؤال 2**: هل يسبب أي ألم؟  
-**الإجابة (بالعربية)**:  
-بدون أي ألم على الإطلاق؛ الشفرة تنزلق برقة متناهية وتستخرج الشوائب بدون ضغط أو احمرار.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-ultrasonic-skin-scrubber/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber).
-
-### Primary Hero / Showcase Images:
-- [`ultrasonic-skin-scrubber-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/ultrasonic-skin-scrubber-main_1000x1000.svg)
-- [`ultrasonic-skin-scrubber-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/ultrasonic-skin-scrubber-main_120x120.svg)
-- [`ultrasonic-skin-scrubber-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/webp/ultrasonic-skin-scrubber-main_140x140.webp)
-- [`ultrasonic-skin-scrubber-main_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/webp/ultrasonic-skin-scrubber-main_1700x1700.webp)
-- [`ultrasonic-skin-scrubber-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/webp/ultrasonic-skin-scrubber-main_200x200.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`3d-silicone-cleansing-brush-gallery-369043-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/3d-silicone-cleansing-brush-gallery-369043-02_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/3d-silicone-cleansing-brush-gallery-369043-03_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/3d-silicone-cleansing-brush-gallery-369043-04_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/3d-silicone-cleansing-brush-gallery-369043-05_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/svg/3d-silicone-cleansing-brush-gallery-369043_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/webp/3d-silicone-cleansing-brush-gallery-369043-02_140x140.webp)
-- [`3d-silicone-cleansing-brush-gallery-369043-02_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/webp/3d-silicone-cleansing-brush-gallery-369043-02_1700x1700.webp)
-- [`3d-silicone-cleansing-brush-gallery-369043-02_70x70.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber/webp/3d-silicone-cleansing-brush-gallery-369043-02_70x70.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `48 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-ultrasonic-skin-scrubber/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

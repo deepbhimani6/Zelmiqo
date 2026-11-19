@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo PorePure Vacuum Blackhead & Blemish Remover with Smart LED Display
+# 📦 Zelmiqo DermaSuction Pro Visual Pore Vacuum & Blackhead Extractor with Smart LED Display
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-07`  
-> **Original URL**: `https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum-led-display`  
-> **Category**: 💆‍♀️ Beauty & Skincare Devices  
+> **Live Site URL**: `https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum-led-display`  
+> **Category**: 💆‍♀️ Skincare Tech & Pore Extraction  
 > **Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-deep-pore-blackhead-remover/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Deep Pore Blackhead Remover Vacuum with LED Display
+Price: SAR 129.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo PorePure Vacuum Blackhead & Blemish Remover with Smart LED Display
+Headline:
+new english content: Zelmiqo DermaSuction Pro Visual Pore Vacuum & Blackhead Extractor with Smart LED Display
+new arabic content: جهاز شفط وإزالة الرؤوس السوداء وتنظيف المسام العميق مع شاشة ذكية LED من زيلميكو
 
-Hero Subheadline:
-Goodbye Stubborn Blackheads. Gentle Vacuum Extraction for Squeaky-Clean, Smooth, and Refined Pores.
-```
+Subheadline:
+new english content: Non-Invasive Hydro-Aerodynamic Suction. Clears Stubborn Blackheads & Excess Sebum Without Bruising.
+new arabic content: شفط هيدروديناميكي آمن وغير جراحي. ينقي المسام ويزيل الرؤوس السوداء والزيوت المتراكمة دون إيذاء البشرة.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-جهاز إزالة الرؤوس السوداء وتنظيف المسام بالشفط مع شاشة ذكية LED من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-وداعاً للرؤوس السوداء المزعجة. شفط عميق وآمن ينقي المسام ويمنحك بشرة ناعمة ونقية كالمرآة.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,46 @@ Goodbye Stubborn Blackheads. Gentle Vacuum Extraction for Squeaky-Clean, Smooth,
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Refresh Your Skin with Targeted Deep Pore Care
+Give your daily skincare routine a more effective finish with the Deep Pore Blackhead Remover Vacuum. Designed for the nose, T-zone, chin, and other areas prone to visible congestion, this compact beauty tool uses gentle vacuum suction to help lift away surface impurities, excess oil, and blackheads for cleaner-looking skin.
+### Adjustable Suction for Personal Comfort
+Different areas of the face need different levels of care. Choose the suction level that feels comfortable for your skin and move the device gently across the area. Start with the lowest setting, especially if you have sensitive skin, then increase only when needed.
+### Multiple Cleaning Tips for Every Area
+The included interchangeable tips help you adapt your routine to different skin concerns. Use the smaller tip around the nose and delicate facial areas, while wider tips are ideal for the forehead, chin, and larger areas where oil and buildup are more common.
+### Easy-to-Read LED Display
+The built-in LED display keeps your selected suction setting visible, helping you stay in control throughout each skincare session. Its simple button operation makes this facial cleansing tool easy to use at home or while traveling.
+### Warm Care Function for a Relaxing Routine
+The warm care feature is designed to make your skincare routine feel more comfortable before cleansing. Use it as part of your self-care ritual to help prepare your skin before using the vacuum suction function.
+### USB Rechargeable and Travel Ready
+Recharge the device easily with the included USB cable. Its lightweight, cordless design fits neatly into a makeup bag, drawer, or travel case, making it a practical skincare companion for home, office, or holidays.
+### How to Use
+• Cleanse your face and gently pat it dry.
+• Select a suitable tip and begin with the lowest suction level.
+• Glide the device slowly across the skin without holding it in one spot.
+• Focus on the nose, chin, forehead, and other areas with visible congestion.
+• Clean the tip after each use and finish with your preferred moisturizer.
+### Product Highlights
+• Helps remove surface oil, dirt, and visible blackheads
+• Adjustable suction levels for personalized use
+• LED display for easy setting control
+• Multiple interchangeable facial cleaning tips
+• Warm care function for an elevated skincare routine
+• USB rechargeable cordless design
+• Compact and convenient for home or travel
+### Package Includes
+• 1 x Deep Pore Blackhead Remover Vacuum
+• Multiple interchangeable suction tips
+• 1 x USB charging cable
+• 1 x User guide
+### Care Note
+For best results, use gently and avoid broken, irritated, or inflamed skin. Do not keep the suction tip in one place for too long. Individual results may vary depending on skin type and skincare routine.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Squeezing blackheads with fingers or metal extractors damages delicate facial capillaries and causes scarring. The Zelmiqo PorePure Vacuum delivers calibrated, dermatologically-safe suction to draw out oxidized sebum, blackheads, and dead skin cells from deep within pores. Featuring 5 adjustable suction tiers tailored for sensitive to oily skin, a crystal-clear LED display, and 4 interchangeable beauty probes, it gives you a clean facial treatment at home.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-عصر الرؤوس السوداء بالأصابع أو الأدوات المعدنية يتسبب في تلف أنسجة البشرة وترك ندبات وتوسيع المسام. يمنحك جهاز زيلميكو بور بيور حلاً احترافياً معتمداً عبر تقنية الشفط الفراغي الدقيق التي تسحب الدهون المتأكسدة والزيوت الزائدة من عمق المسام دون أي ضرر للبشرة. يحتوي على 5 مستويات شفط تناسب جميع أنواع البشرة من الحساسة حتى الدهنية، مع شاشة LED تعرض مستوى البطارية والشفط، و4 رؤوس متخصصة تناسب كافة تضاريس الوجه والأنف.
+Product Story & Daily Lifestyle Appeal:
+new english content: Traditional manual pore squeezing damages delicate capillaries and causes skin inflammation. The Zelmiqo DermaSuction Pro utilizes calibrated aerodynamic vacuum suction across 3 tailored strength levels (Dry, Normal, Oily) to painlessly lift trapped sebum, blackheads, and dead skin cells. The real-time LED screen shows suction intensity and battery percentage, while 4 specialized medical silicone probes ensure targeted treatment for the nose, cheeks, and chin.
+new arabic content: يؤدي الضغط اليدوي التقليدي على الرؤوس السوداء إلى جرح البشرة والتهاب المسام. يستخدم جهاز زيلميكو ديرما ساكشن برو تقنية الشفط الهوائي المعايرة بدقة عبر 3 مستويات مخصصة (للبشرة الجافة، العادية، والدهنية) لسحب الدهون المتراكمة والشوائب برفق وأمان تام. تمنحك شاشة الـ LED متابعة فورية لمستوى الشفط ونسبة الشحن، مع 4 رؤوس علاجية متبادلة تناسب مختلف ثنايا الوجه والأنف.
 ```
 
 ---
@@ -92,104 +123,59 @@ Squeezing blackheads with fingers or metal extractors damages delicate facial ca
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Refresh Your Skin with Targeted Deep Pore Care
+Give your daily skincare routine a more effective finish with the Deep Pore Blackhead Remover Vacuum. Designed for the nose, T-zone, chin, and other areas prone to visible congestion, this compact beauty tool uses gentle vacuum suction to help lift away surface impurities, excess oil, and blackheads for cleaner-looking skin.
+### Adjustable Suction...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🔬 Calibrated Gentle Vacuum Tech: Removes impurities and sebum without bruising or irritating sensitive skin.
-- 📊 Smart LED Battery & Level Display: Visual indicators show exact suction level and remaining battery life.
-- 🎯 5 Adjustable Suction Intensities: Soft for delicate skin, Normal for cheek zones, Strong for stubborn T-zone blackheads.
-- 🔄 4 Ergonomic Multi-Action Probes: Oval head for fine lines, Small round for sensitive spots, Large round for oily pores.
-- 🔋 USB Fast Rechargeable & Long Battery: 60+ minutes of continuous runtime on a single charge.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 🎯 3 Calibrated Suction Levels: Soft for sensitive skin, Normal for everyday care, Strong for stubborn blackheads.
+• 🔬 4 Specialized Ergonomic Probes: Precision circular heads, oval micro-lifting head, and exfoliating tip.
+• 💡 Smart High-Def LED Interface: Real-time display of suction gear and battery status.
+• 🛡️ Skin-Safe Vacuum Regulation: Continuous pressure modulation preventing bruising or redness.
+• 🔋 Rechargeable USB Convenience: Lightweight handheld form with long-lasting battery life.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🔬 تقنية شفط فراغي آمنة ودقيقة: تنقي المسام وتزيل الدهون المتراكمة بدون التسبب في كدمات أو تهيج للبشرة.
-- 📊 شاشة ليد LED ذكية وواضحة: تعرض مستوى الشفط وقوة البطارية لتجربة استخدام مريحة ومضبوطة.
-- 🎯 5 درجات شفط قابلة للتعديل: من المستوى اللطيف للبشرة الرقيقة إلى المستوى الفائق لمنطقة الأنف والـ T-Zone.
-- 🔄 4 رؤوس علاجية متعددة الاستخدامات: رأس بيضاوي لشد الخطوط الدقيقة، رأس دائري صغير للمناطق الحساسة، ورأس كبير للمسام الواسعة.
-- 🔋 شحن سريع عبر USB: بطارية ليثيوم قوية تكفي لأكثر من 60 دقيقة من الاستخدام المتواصل بشحنة واحدة.
+new arabic content:
+• 🎯 3 مستويات شفط معايرة بدقة: ناعم للبشرة الحساسة، معتدل للعناية اليومية، وقوي للرؤوس السوداء العميقة.
+• 🔬 4 رؤوس علاجية مخصصة: رأس دائري صغير للأنف، رأس بيضاوي لشد زوايا الوجه، ورأس تقشير سطحي لطيف.
+• 💡 شاشة LED رقمية عالية الوضوح: تعرض بوضوح مستوى الشفط المختار ومستوى شحن البطارية.
+• 🛡️ تقنية الشفط الآمن للبشرة: سحب هوائي منتظم يمنع الكدمات والاحمرار السطحي.
+• 🔋 شحن USB لاسلكي مريح: تصميم خفيف ومريح في قبضة اليد لسهولة الاستخدام أمام المرآة.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Suction Pressure: ≤ 65 KPa (Dermatologist Safe Maximum)
-- Levels: 5 Power Settings
-- Display: High-Contrast LED Screen
-- Battery: 500mAh Lithium Rechargeable
-- Material: Eco-Friendly ABS & Hypoallergenic Probe Tips
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- قوة الشفط القصوى: حتى 65 كيلو باسكال (ضمن الحدود الآمنة طبياً للبشرة)
-- المستويات: 5 مستويات طاقة مبرمجة
-- الشاشة: شاشة LED واضحة
-- البطارية: 500 مللي أمبير تدعم الشحن عبر كابل USB
-- الخامة: بلاستيك ABS طبي صديق للبشرة ورؤوس غير مسببة للحساسية
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 32.25 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 32.25 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Suction: Up to 60kPa | Battery: 500mAh | Charging: USB Type-C | Probes: 4 Replaceable Tips
+new arabic content: قوة الشفط: تصل إلى 60 كيلو باسكال | البطارية: 500 مللي أمبير | الشحن: USB Type-C | الرؤوس: 4 رؤوس سيليكونية
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: How do I prep my skin before using it?
-**Answer (English)**:
-Apply a warm towel to your face for 3-5 minutes or steam your face to open the pores before suction.
-
-**السؤال 1**: كيف أجهز بشرتي قبل الاستخدام؟  
-**الإجابة (بالعربية)**:  
-يُفضل وضع فوطة دافئة على الوجه لمدة 3 إلى 5 دقائق أو أخذ حمام دافئ لفتح المسام وتسهيل خروج الرؤوس السوداء بنعومة.
-
-### FAQ 2: Does it leave marks?
-**Answer (English)**:
-Never leave the device on one spot for more than 2-3 seconds; keep it gliding smoothly across the skin to prevent redness.
-
-**السؤال 2**: هل يترك علامات أو احمراراً؟  
-**الإجابة (بالعربية)**:  
-لأمان تام، مرري الجهاز بحركة مستمرة دون التوقف في نقطة واحدة لأكثر من ثانيتين، مما يضمن نتائج ممتازة دون أي احمرار.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-deep-pore-blackhead-remover/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover).
-
-### Primary Hero / Showcase Images:
-- [`deep-pore-blackhead-remover-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/deep-pore-blackhead-remover-main_1000x1000.svg)
-- [`deep-pore-blackhead-remover-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/deep-pore-blackhead-remover-main_120x120.svg)
-- [`deep-pore-blackhead-remover-main_140x140.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/jpg/deep-pore-blackhead-remover-main_140x140.jpg)
-- [`deep-pore-blackhead-remover-main_1700x1700.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/jpg/deep-pore-blackhead-remover-main_1700x1700.jpg)
-- [`deep-pore-blackhead-remover-main_200x200.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/jpg/deep-pore-blackhead-remover-main_200x200.jpg)
-
-### Detailed Infographic & Gallery Angles:
-- [`3d-silicone-cleansing-brush-gallery-921-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/3d-silicone-cleansing-brush-gallery-921-02_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-921-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/3d-silicone-cleansing-brush-gallery-921-03_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-921-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/3d-silicone-cleansing-brush-gallery-921-04_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-921-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/3d-silicone-cleansing-brush-gallery-921-05_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-921_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/svg/3d-silicone-cleansing-brush-gallery-921_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-921-02_140x140.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/jpg/3d-silicone-cleansing-brush-gallery-921-02_140x140.jpg)
-- [`3d-silicone-cleansing-brush-gallery-921-02_1700x1700.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/jpg/3d-silicone-cleansing-brush-gallery-921-02_1700x1700.jpg)
-- [`3d-silicone-cleansing-brush-gallery-921-02_70x70.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover/jpg/3d-silicone-cleansing-brush-gallery-921-02_70x70.jpg)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `44 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-deep-pore-blackhead-remover/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

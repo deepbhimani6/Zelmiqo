@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo Arctic Mist 3-in-1 Portable Air Cooler, Nano Humidifier & Ambient Night Light
+# 📦 Zelmiqo HydroBreeze 3-in-1 Desktop Arctic Air Cooler, Ultrasonic Humidifier & Ambient LED Light
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-02`  
-> **Original URL**: `https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan-humidifier-led-light`  
-> **Category**: ❄️ Summer Cooling & Home Comfort  
+> **Live Site URL**: `https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan-humidifier-led-light`  
+> **Category**: ❄️ Climate Cooling & Summer Comfort  
 > **Price**: **SAR 119.00** *(Or 4 monthly interest-free payments of **SAR 29.75** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-3-in-1-portable-air-cooler-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: 3-in-1 Portable Air Cooler Fan with Humidifier & LED Night Light
+Price: SAR 119.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo Arctic Mist 3-in-1 Portable Air Cooler, Nano Humidifier & Ambient Night Light
+Headline:
+new english content: Zelmiqo HydroBreeze 3-in-1 Desktop Arctic Air Cooler, Ultrasonic Humidifier & Ambient LED Light
+new arabic content: مكيف الهواء الصحراوي المكتبي المصغر 3 في 1 مع مرطب رذاذ وإضاءة ليلية LED من زيلميكو
 
-Hero Subheadline:
-Beat the Scorching Saudi Heat. Instant Ice-Mist Cooling for Your Desk, Bedroom, Kitchen and Majlis.
-```
+Subheadline:
+new english content: Instant Arctic Evaporative Cooling. Combats Dry Air & 45°C+ Temperatures at Your Desk or Bedside.
+new arabic content: تبريد قطبي فوري برذاذ الماء المنعش. يحارب جفاف الهواء وحرارة الصيف القاسية على مكتبك أو بجانب سريرك.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-مكيف ومبرد الهواء الصيفي المتنقل 3 في 1 مع مرطب نانو وإضاءة ليلية من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-تغلب على لهيب الصيف في المملكة. نسيم بارد فورياً مع رذاذ الثلج المنعش لمكتبك، غرفة نومك، والمجلس.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,85 @@ Beat the Scorching Saudi Heat. Instant Ice-Mist Cooling for Your Desk, Bedroom, 
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Stay Cool, Fresh & Comfortable Anywhere
+Enjoy refreshing comfort with this 3-in-1 Portable Air Cooler Fan, designed as a personal cooling fan, air humidifier, and soft LED night light. It is perfect for your bedroom, office desk, study table, dorm room, kitchen, camping setup, or bedside table.
+When the air feels hot and dry, simply add water or ice water, connect the USB Type-C cable, and enjoy a cool personal breeze with soothing mist.
+### 3-in-1 Fan, Humidifier & LED Night Light
+This compact cooling fan gives you three daily-use functions in one smart device. It works as a personal fan, a moisture-adding humidifier, and a colorful LED night light for a more relaxing environment.
+### Personal Cooling Fan
+Enjoy a direct cooling breeze while working, studying, sleeping, cooking, or relaxing. It is ideal for personal spaces where you need quick comfort without using a large appliance.
+### Air Moisturizer Humidifier
+The mist spray helps add moisture to dry air, making your surroundings feel fresher and more comfortable during hot or dry weather.
+### 3 Wind Speeds & 3 Spray Modes
+Choose the airflow and mist level that feels best for you. With 3 wind speeds and 3 spray modes, this portable air cooler lets you adjust your comfort for different times of the day.
+• Low speed for sleep, reading, or quiet use
+• Medium speed for daily desk and home use
+• High speed for stronger airflow in hot weather
+• Three mist spray modes for flexible cooling comfort
+• Natural-feeling airflow for personal refreshment
+### Soft 7-Color LED Light for Night Use
+The built-in 7-color LED light creates a soft and relaxing glow, making this fan useful as a night light for bedrooms, dorm rooms, or peaceful evening settings.
+Place it on your bedside table for a cool breeze and gentle light while you sleep, or use it on your desk to create a calm atmosphere while working at night.
+### Quiet Operation for Better Comfort
+This portable fan is designed for low-noise performance, so you can use it while sleeping, studying, reading, working, or relaxing. The gentle sound and cool mist help create a peaceful personal cooling space.
+• Great for bedroom and night use
+• Comfortable for office desks and study tables
+• Suitable for video calls, reading, and relaxing
+• Low-noise airflow for peaceful daily use
+### USB Type-C Powered & Energy Saving
+Power it easily with a USB Type-C cable. The fan is compatible with many USB power sources, making it simple to use at home, in the office, in the car, or outdoors.
+• Connects to USB adapters
+• Works with power banks
+• Can be powered by laptops or desktop computers
+• Suitable for car USB ports
+• Low power consumption for everyday use
+### Portable Design for Home, Office & Outdoor Use
+The compact tabletop design makes this mini air cooler easy to move and place wherever you need it. Use it in your room, office, dorm, kitchen, travel setup, camping area, or outdoor sitting space.
+It takes up very little space while giving you cooling airflow, mist, and ambient light in one useful device.
+### Perfect for Hot Summer Days
+During hot weather, this USB air cooler fan helps you feel cooler and more refreshed. Add water or ice water to the tank and enjoy a comfortable personal breeze while saving space and energy.
+It is a smart choice for anyone who wants a simple, portable, and stylish way to stay comfortable in warm conditions.
+### Product Features
+• 3-in-1 design: fan, air cooler, and humidifier
+• Built-in 7-color LED night light
+• 3 adjustable wind speed modes
+• 3 water spray mist modes
+• USB Type-C power supply
+• Low-noise operation
+• Portable tabletop design
+• Energy-saving and easy to use
+• Suitable for bedroom, office, dorm, desk, travel, and camping
+### Product Specifications
+• Product Name: Portable Air Cooling Fan
+• Function: Fan, air cooler, humidifier, LED night light
+• Power Supply: USB Type-C
+• Voltage: 5V
+• Power: Up to 10W
+• Current: Up to 2A
+• Material: Plastic
+• Installation Type: Tabletop
+• Wind Modes: Low, medium, high
+• Spray Modes: 3 mist settings
+• Light: 7-color LED light
+• Cooling Type: Personal cooling only
+### Best For
+• Bedroom cooling at night
+• Office desk comfort
+• Study table use
+• Small room personal airflow
+• Camping and outdoor sitting areas
+• Dry air moisturizing
+• Summer gift for family and friends
+### Why You Will Love It
+This portable air cooler fan gives you refreshing airflow, moisturizing mist, and calming LED light in one compact device. It is easy to power, easy to carry, and easy to use every day.
+If you want a cooler, fresher, and more comfortable personal space without a bulky setup, this 3-in-1 USB Air Cooler Fan is a smart choice for your home, office, bedroom, and travel needs.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-When summer temperatures in Riyadh and Mecca soar past 45°C, standard fans just circulate dry, burning air. The Zelmiqo Arctic Mist 3-in-1 changes everything. Combining a high-velocity personal cooling fan with ultrasonic 5-nozzle mist humidification and a soothing 7-color ambient night light, it turns warm, dry air into a cool, revitalizing oasis. Just add cold water or ice cubes to the top tank and enjoy up to 8 hours of soothing, moisturized cooling.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-عندما تتجاوز درجات الحرارة في الرياض ومكة وجدة 45 درجة مئوية، لا تفعل المراوح العادية سوى تحريك الهواء الساخن والجاف. جهاز زيلميكو أركتيك ميست 3 في 1 هو الحل المثالي؛ فهو يجمع بين مروحة تبريد قوية، ونظام ترطيب بالموجات فوق الصوتية عبر 5 فوهات رذاذ، مع إضاءة ليلية مهدئة بـ 7 ألوان. أضف الماء البارد أو مكعبات الثلج في الخزان العلوي واستمتع بنسيم قطبي رطب ومنعش يحميك من جفاف الجو في المنزل، المكتب، أو الاستراحة.
+Product Story & Daily Lifestyle Appeal:
+new english content: Air conditioning in Saudi Arabia often leaves indoor air overly dry, while outdoor heat is relentless. The Zelmiqo HydroBreeze combines high-velocity evaporative fan power with micro-mist ultrasonic humidification and soothing 7-color ambient lighting. Fill the top reservoir with cold water and ice cubes to transform arid 40°C air into a brisk, moisturized oasis within seconds. Whisper-quiet operation makes it perfect for uninterrupted sleep, study, or office productivity.
+new arabic content: غالباً ما تتسبب أجهزة التكييف التقليدية في جفاف هواء الغرفة، بينما تشتد حرارة الصيف في الخارج. يجمع مكيف زيلميكو هايدرو بريز بين قوة دفع الهواء البارد، تقنية الترطيب بالموجات فوق الصوتية برذاذ منعش، وإضاءة محيطية مهدئة بـ 7 ألوان. ببساطة أضف الماء البارد ومكعبات الثلج في الخزان العلوي لتحصل على نسيم قطبي مرطب يخفف حرارة الجو على الفور. صوته فائق الهدوء ليوفر لك نوماً عميقاً أو بيئة عمل هادئة.
 ```
 
 ---
@@ -92,110 +162,59 @@ When summer temperatures in Riyadh and Mecca soar past 45°C, standard fans just
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Stay Cool, Fresh & Comfortable Anywhere
+Enjoy refreshing comfort with this 3-in-1 Portable Air Cooler Fan, designed as a personal cooling fan, air humidifier, and soft LED night light. It is perfect for your bedroom, office desk, study table, dorm room, kitchen, camping setup, or bedside table.
+When the air feels hot and dry, simply add water or ice water, connect the USB Type-C cable, and enj...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- ❄️ Dual Ice-Cooling & 5-Hole Ultrasonic Mist: Instantly drops surrounding temperature by 5°C–8°C when used with cold water and ice.
-- 🌪️ 3 Adjustable Wind Speeds & 3 Spray Modes: Customize your comfort from a quiet nighttime whisper to maximum refreshing airflow.
-- 💧 600ml Large Leak-Proof Water Tank: Provides up to 8 hours of continuous cool mist without frequent refills.
-- 🌈 Relaxing 7-Color LED Night Light: Creates a peaceful, tranquil atmosphere for deep sleep and evening relaxation.
-- 🔇 Ultra-Quiet Sleep Operation: Whisper-quiet acoustic motor (< 40dB) ensures zero disturbance during study, work, or sleep.
-- 🔌 Type-C Powered Portability: Easily plug into a power bank, laptop, or car USB port for cooling anywhere in KSA.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• ❄️ Dual Ultrasonic Mist Nozzles: Delivers ultra-fine evaporative cooling that drops ambient air temp up to 8°C.
+• 🧊 600ml Top-Loading Ice Tank: Easy refilling with water and ice cubes for up to 6 hours of continuous cooling.
+• 💨 3 Precision Wind Speeds: From gentle sleep breeze to powerful arctic airflow.
+• 🌈 7-Color Soft Ambient Glow: Calming nightstand illumination with individual color lock or cycling.
+• 🔌 Universal USB-C Power: Runs easily from power banks, laptops, or car adapters anywhere in KSA.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- ❄️ تبريد فوري مزدوج مع 5 فوهات رذاذ: يخفض حرارة الهواء المحيط بمقدار 5 إلى 8 درجات مئوية فور وضع الماء البارد والثلج.
-- 🌪️ 3 سرعات للرياح و3 أنماط للرذاذ: تحكم كامل في قوة النسيم من هدوء تام يناسب النوم إلى تيار منعش قوي أثناء العمل.
-- 💧 خزان مياه علوي واسع بسعة 600 مل: يمنحك ترطيباً وانتعاشاً مستمراً حتى 8 ساعات متواصلة دون تسريب.
-- 🌈 إضاءة ليلية ناعمة بـ 7 ألوان هادئة: تضفي أجواء من السكينة والاسترخاء على غرفتك ليلاً.
-- 🔇 تشغيل هادئ للغاية بمستوى ضجيج منخفض: تصميم مانع للضوضاء (< 40 ديسبل) يتيح لك النوم أو العمل والتركيز التام.
-- 🔌 يعمل بمنفذ Type-C موفر للطاقة: يمكنك تشغيله بسهولة عبر الشاحن المتنقل (البوربانك)، اللابتوب، أو منفذ USB بالسيارة.
+new arabic content:
+• ❄️ فوهات مزدوجة للرذاذ فائق النعومة: تقنية تبريد بالتبخير تخفض حرارة الهواء المحيط حتى 8 درجات مئوية.
+• 🧊 خزان علوي سعة 600 مل لمكعبات الثلج: تعبئة سهلة ومريحة تمنحك انتعاشاً يدوم حتى 6 ساعات متواصلة.
+• 💨 3 سرعات قابلة للتعديل: من نسيم النوم الهادئ إلى تدفق التبريد القطبي القوي.
+• 🌈 إضاءة ليلية بـ 7 ألوان مريحة: إضاءة محيطية ناعمة لغرفة النوم مع إمكانية تثبيت اللون المفضل.
+• 🔌 تشغيل مرن عبر منفذ USB-C: يعمل مع بنوك الطاقة، شواحن السيارات، والمحولات في أي مكان داخل المملكة.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Product Model: Zelmiqo ArcticMist-Pro
-- Water Tank Capacity: 600ml
-- Power Interface: USB Type-C (5V/2A)
-- Mist Volume: 5-Hole Spray (up to 200ml/h)
-- Fan Speeds: 3 Speeds (Low / Medium / High)
-- Lighting: 7-Color Soft Ambient LED
-- Dimensions: Compact 21cm x 26cm x 9cm (Lightweight with leather carry handle)
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- طراز المنتج: زيلميكو أركتيك ميست برو
-- سعة خزان المياه: 600 مل مع فتحة علوية سهلة للتنظيف والتعبئة
-- منفذ الطاقة: USB Type-C موفر للطاقة (5 فولت / 2 أمبير)
-- تقنية الرذاذ: 5 فوهات رذاذ نانوية دقيقة
-- سرعات الهواء: 3 سرعات قابلة للتعديل
-- الإضاءة: إضاءة ليد هادئة بـ 7 خيارات ألوان
-- الأبعاد: تصميم مدمج وخفيف الوزن بمقبض جلدي أنيق وسهل الحمل
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 29.75 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 29.75 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Power: 10W | Tank Capacity: 600ml | Timer: 1h/2h/3h | Dimensions: 21x26cm | Weight: 850g
+new arabic content: القدرة: 10 واط | سعة الخزان: 600 مل | مؤقت تشغيل: 1/2/3 ساعات | الأبعاد: 21x26 سم | الوزن: 850 جرام
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Can I add ice cubes to the tank?
-**Answer (English)**:
-Yes! Adding ice cubes along with water delivers the coldest, most refreshing arctic breeze.
-
-**السؤال 1**: هل يمكنني وضع مكعبات ثلج داخل الخزان؟  
-**الإجابة (بالعربية)**:  
-نعم وبشدة! وضع مكعبات الثلج مع الماء البارد يمنحك أبرد نسيم منعش ومريح جداً في أوقات الذروة الحارة.
-
-### FAQ 2: Can it run on a power bank outdoors?
-**Answer (English)**:
-Yes, any standard 5V/2A power bank powers this cooler, making it perfect for camping, picnics, and outdoor seating.
-
-**السؤال 2**: هل يعمل على شاحن متنقل (بوربانك) في الخارج؟  
-**الإجابة (بالعربية)**:  
-نعم، متوافق مع أي بنك طاقة عادي بقوة 5V/2A، مما يجعله رفيقك المثالي في الرحلات، الاستراحات، والجلسات الخارجية.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-3-in-1-portable-air-cooler-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan).
-
-### Primary Hero / Showcase Images:
-- [`3-in-1-portable-air-cooler-fan-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-main_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-main_120x120.svg)
-- [`3-in-1-portable-air-cooler-fan-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/webp/3-in-1-portable-air-cooler-fan-main_140x140.webp)
-- [`3-in-1-portable-air-cooler-fan-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/webp/3-in-1-portable-air-cooler-fan-main_200x200.webp)
-- [`3-in-1-portable-air-cooler-fan-main_600x315.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/webp/3-in-1-portable-air-cooler-fan-main_600x315.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`3-in-1-portable-air-cooler-fan-gallery-361616_450x450.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616_450x450.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616_900x900.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616_900x900.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-363245-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-363245-02_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-363245-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-363245-03_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-363245-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-363245-04_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-363245-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-363245-05_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-363245_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/svg/3-in-1-portable-air-cooler-fan-gallery-363245_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-363245-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan/webp/3-in-1-portable-air-cooler-fan-gallery-363245-02_140x140.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `37 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-3-in-1-portable-air-cooler-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-portable-air-cooler-fan)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

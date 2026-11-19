@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo FreshPress Wireless Automatic Citrus Juicer & Orange Extractor (USB Rechargeable)
+# 📦 Zelmiqo CitrusPress Automatic Hands-Free Electric Citrus & Orange Juicer Extractor
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-15`  
-> **Original URL**: `https://zelmiqo.com/products/portable-usb-citrus-juicer-orange-lemon`  
-> **Category**: 🥤 Kitchen Gadgets & Healthy Living  
+> **Live Site URL**: `https://zelmiqo.com/products/portable-usb-citrus-juicer-orange-lemon`  
+> **Category**: 🥤 Kitchen Innovation & Healthy Living  
 > **Price**: **SAR 109.00** *(Or 4 monthly interest-free payments of **SAR 27.25** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-portable-usb-citrus-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Portable USB Citrus Juicer for Fresh Orange and Lemon Juice
+Price: SAR 109.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo FreshPress Wireless Automatic Citrus Juicer & Orange Extractor (USB Rechargeable)
+Headline:
+new english content: Zelmiqo CitrusPress Automatic Hands-Free Electric Citrus & Orange Juicer Extractor
+new arabic content: عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية بالضغط الذكي من زيلميكو
 
-Hero Subheadline:
-Pure Juice with Zero Manual Effort. Press Fresh Oranges, Pomegranates & Lemons with One Single Button.
-```
+Subheadline:
+new english content: 1-Touch Hands-Free Extraction. Extracts Every Drop from Oranges, Lemons & Pomegranates with Zero Effort.
+new arabic content: عصر أوتوماتيكي بالكامل بلمسة زر واحدة. تستخلص كل قطرة عصير من البرتقال والليمون والرمان بدون أي مجهود يدوي.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية مع شحن USB من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-عصير طبيعي 100% بدون أي مجهود يدوي. اعصر البرتقال، الرمان، والليمون بضغطة زر واحدة فقط.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,41 @@ Pure Juice with Zero Manual Effort. Press Fresh Oranges, Pomegranates & Lemons w
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Fresh Citrus Juice Wherever You Go
+Enjoy fresh orange and lemon juice without using a large kitchen appliance. This Portable USB Citrus Juicer is compact, convenient, and designed for quick juice preparation at home, in the office, while traveling, or during outdoor activities.
+### Designed for Oranges and Lemons
+The juicer is made for popular citrus fruits such as oranges, lemons, and similar soft fruits. Simply prepare the fruit, place it into the juicing area, and let the electric squeezing function help extract fresh juice with less manual effort.
+### Portable and Easy to Carry
+Its mini cordless design makes it easy to store in a kitchen cabinet, backpack, travel bag, or office drawer. Take it with you when you want a refreshing glass of citrus juice away from home.
+### Convenient USB Rechargeable Design
+Recharge the juicer with a USB cable and enjoy a convenient cordless experience during use. It can be charged from a suitable USB power source, making it practical for kitchens, offices, travel, camping, and outdoor refreshment.
+### Simple One-Button Operation
+The straightforward operation makes fresh juice preparation easy. Add the prepared fruit, press the control button, and allow the juicer to work. Its simple design is suitable for everyday use without complicated settings.
+### Perfect for Everyday Refreshment
+Prepare citrus juice for breakfast, smoothies, drinks, picnics, road trips, or family gatherings. Freshly prepared juice is a convenient way to add more natural citrus flavour to your day.
+### How to Use
+• Wash and cut the orange or lemon into suitable pieces.
+• Place the fruit into the juicing area.
+• Close the cover securely before operation.
+• Press the power button to begin juicing.
+• Pour the juice into a glass and clean the removable parts after use.
+### Product Highlights
+• Portable electric citrus juicer
+• Suitable for oranges, lemons, and similar soft fruits
+• USB rechargeable cordless design
+• Compact size for home, office, travel, and outdoor use
+• Simple operation for convenient juice preparation
+• Helps reduce manual squeezing effort
+• Easy to store and carry
+### Care and Safety Notes
+Wash the fruit before juicing and make sure the cover is securely closed during operation. Do not immerse the motor or charging section in water. Clean the removable components promptly after use and allow them to dry completely before storage.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Manual citrus squeezers leave hands sticky, extract only half the juice, and require strenuous arm pressure. The Zelmiqo FreshPress operates automatically at the touch of a button. Simply cut your fruit in half, place it on the conical reamer, close the lid, and press start. Its slow-speed masticating press extracts up to 95% of pure, seed-free juice with zero bitter rind oils.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العصارات اليدوية التقليدية ترهق اليدين، تترك بقعاً، وتستخرج نصف العصير فقط مع مرارة القشر. عصارة زيلميكو فريش برس تعمل بشكل أوتوماتيكي بالكامل بضغطة زر واحدة! ما عليك سوى قطع البرتقال أو الرمان إلى نصفين، وضعه على الرأس المخروطي، وإغلاق الغطاء والضغط على زر التشغيل؛ ليقوم المحرك بالدوران والعصر البطيء واستخلاص 95% من العصير الصافي بدون بذور وبدون أي تعب.
+Product Story & Daily Lifestyle Appeal:
+new english content: Forget tiring manual squeezing and sticky counter spills. The Zelmiqo CitrusPress features an automatic 360° omnidirectional cone motor that extracts maximum pure vitamin C juice in seconds. Simply cut your fruit in half, place it on the reamer, close the cover, and press the button. The electric mechanism automatically presses and filters out seeds and bitter rind oils, pouring pure, pulp-free juice straight into your glass.
+new arabic content: وداعاً للعصر اليدوي المرهق والأيدي الملطخة بعصير الليمون والبرتقال. تعمل عصارة زيلميكو سيتروس بريس بنظام الضغط الكهربائي الذكي بزاوية 360 درجة لاستخلاص كل قطرة عصير طازجة ونقية. ببساطة اقطع البرتقالة أو الليمونة إلى نصفين، ضعها على رأس العصر، أغلق الغطاء واضغط زر التشغيل. يقوم المحرك تلقائياً برفع الفاكهة وعصرها بالكامل وتصفية البذور والقشور لتستمتع بكوب عصير طازج نقي وصحي كل صباح.
 ```
 
 ---
@@ -92,102 +118,60 @@ Manual citrus squeezers leave hands sticky, extract only half the juice, and req
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Fresh Citrus Juice Wherever You Go
+Enjoy fresh orange and lemon juice without using a large kitchen appliance. This Portable USB Citrus Juicer is compact, convenient, and designed for quick juice preparation at home, in the office, while traveling, or during outdoor activities.
+### Designed for Oranges and Lemons
+The juicer is made for popular citrus fruits such as oranges, lemons, and similar...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🍊 One-Button Automatic 360° Squeeze: Fully hands-free pressing extracts every drop of juice in 20 seconds.
-- 🥤 95% High Juice Yield: Efficient spiral reamer separates pure juice from pulp and seeds flawlessly.
-- 🔋 Wireless & USB Rechargeable: Enjoy 30+ glasses of fresh juice on a single charge anywhere—kitchen, patio, or camping.
-- 🍇 Multi-Fruit Versatility: Perfect for sweet oranges, fresh lemons, limes, grapefruits, and juicy pomegranates.
-- 🧼 Detachable Easy-Rinse Parts: Disassembles in seconds and rinses clean under running water.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 🍊 1-Touch Hands-Free Operation: Automated motor compresses fruit with maximum juice yield and zero bitter pith.
+• 🍋 Universal Citrus Compatibility: Perfect for oranges, lemons, limes, grapefruits, and pomegranate seeds.
+• 🛡️ Built-in Seed & Pulp Strainer: Pure filtered juice with non-drip silicone spout.
+• 🔋 Cordless Rechargeable Convenience: USB-C charged, ready for breakfast tables, picnics, or office use.
+• 🧼 Quick Disassembly Cleaning: All removable parts rinse easily under running tap water.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🍊 عصر أوتوماتيكي 360 درجة بضغطة زر: بدون أي مجهود يدوي؛ تعصر نصف البرتقالة بالكامل خلال 20 ثانية.
-- 🥤 نسبة استخلاص عصير تصل إلى 95%: رأس حلزوني ذكي يفصل العصير الصافي عن القشور والبذور بدون مرارة.
-- 🔋 لاسلكية وقابلة للشحن بـ USB: تعصر أكثر من 30 كوب عصير بشحنة واحدة؛ خذها معك للمطبخ أو الاستراحة أو النزهات البرية.
-- 🍇 متعددة الاستخدامات لكافة الفواكه: مثالية للبرتقال، الليمون، الجريب فروت، وحبات الرمان اللذيذة.
-- 🧼 سهلة الفك والتنظيف: أجزاء قابلة للفك في ثانيتين وشطفها بالماء بكل سهولة.
+new arabic content:
+• 🍊 عصر أوتوماتيكي بلمسة زر: محرك ذكي يضغط الفاكهة بنسبة استخلاص قصوى تفصل العصير عن القشرة المرة.
+• 🍋 مثالية لجميع أنواع الحمضيات: تعصر البرتقال، الليمون، الجريب فروت، وحبات الرمان بكفاءة عالية.
+• 🛡️ فلتر مدمج لعزل البذور والشوائب: صنبور صب ذكي مزود بسدادة سيليكون مانعة للتنقيط على الرخام.
+• 🔋 تشغيل لاسلكي قابل لإعادة الشحن: بطارية USB-C مدمجة تمكنك من استخدامها على مائدة الإفطار أو في الرحلات.
+• 🧼 سهلة الفك والغسيل: جميع القطع العلوية قابلة للفك والشطف بالماء في ثوانٍ معدودة.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Power: 45W Slow-Squeeze Motor
-- Battery: 1500mAh Lithium Rechargeable (USB Type-C)
-- Capacity: Integrated 200ml Juice Collection Reservoir with Non-Drip Spout
-- Material: Food-Grade ABS + AS High-Transparency Cup (BPA-Free)
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- القوة: محرك عصر بطيء بقوة 45 واط لعصير غني بالفيتامينات
-- البطارية: ليثيوم 1500 مللي أمبير تدعم الشحن السريع Type-C
-- السعة: خزان مدمج 200 مل مع صنبور مانع للتنقيط
-- الخامة: خامات معتمدة صحياً وآمنة للأغذية خالية من مادة BPA
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 27.25 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 27.25 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Power: 45W | Charging: USB Type-C | Capacity: 150ml Spout Chamber | Weight: 1100g
+new arabic content: القدرة: 45 واط | الشحن: USB Type-C | سعة غرفة العصير: 150 مل بصنبور صب | الوزن: 1100 جرام
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Can it squeeze pomegranates?
-**Answer (English)**:
-Yes! It extracts rich, delicious pomegranate juice smoothly and filters out seeds automatically.
-
-**السؤال 1**: هل تعصر حبات الرمان؟  
-**الإجابة (بالعربية)**:  
-نعم وبكفاءة رائعة! تعصر الرمان وتستخرج العصير الصافي وتفصل الحبوب في الفلتر بكل نظافة.
-
-### FAQ 2: How do I clean it?
-**Answer (English)**:
-Unlock the top lid and filter bowl with a twist, rinse them under the faucet, and wipe the motor base dry.
-
-**السؤال 2**: كيف يتم تنظيفها؟  
-**الإجابة (بالعربية)**:  
-تُفك الأجزاء العلوية بحركة لولبية سريعة وتُغسل تحت صنبور الماء في 30 ثانية فقط.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-portable-usb-citrus-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer).
-
-### Primary Hero / Showcase Images:
-- [`portable-usb-citrus-juicer-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/svg/portable-usb-citrus-juicer-main_1000x1000.svg)
-- [`portable-usb-citrus-juicer-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/svg/portable-usb-citrus-juicer-main_120x120.svg)
-- [`portable-usb-citrus-juicer-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-usb-citrus-juicer-main_140x140.webp)
-- [`portable-usb-citrus-juicer-main_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-usb-citrus-juicer-main_1700x1700.webp)
-- [`portable-usb-citrus-juicer-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-usb-citrus-juicer-main_200x200.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`portable-6-blade-juicer-cup-gallery-63982-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/svg/portable-6-blade-juicer-cup-gallery-63982-02_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-63982-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/svg/portable-6-blade-juicer-cup-gallery-63982-03_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-63982-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/svg/portable-6-blade-juicer-cup-gallery-63982-04_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-63982_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/svg/portable-6-blade-juicer-cup-gallery-63982_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-63982-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-6-blade-juicer-cup-gallery-63982-02_140x140.webp)
-- [`portable-6-blade-juicer-cup-gallery-63982-02_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-6-blade-juicer-cup-gallery-63982-02_1700x1700.webp)
-- [`portable-6-blade-juicer-cup-gallery-63982-02_70x70.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-6-blade-juicer-cup-gallery-63982-02_70x70.webp)
-- [`portable-6-blade-juicer-cup-gallery-63982-02_850x850.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer/webp/portable-6-blade-juicer-cup-gallery-63982-02_850x850.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `29 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-portable-usb-citrus-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo ThermoDesk Smart Heated Coaster & Beverage Warmer (3 Temperature Settings)
+# 📦 Zelmiqo ThermoDesk Smart Heated Beverage Coaster & Mug Warmer with 3-Temp Settings
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-19`  
-> **Original URL**: `https://zelmiqo.com/products/usb-coffee-mug-warmer-heating-coaster-home-office`  
-> **Category**: ☕️ Coffee Culture & Desk Luxury  
+> **Live Site URL**: `https://zelmiqo.com/products/usb-coffee-mug-warmer-heating-coaster-home-office`  
+> **Category**: ☕️ Smart Living & Office Comfort  
 > **Price**: **SAR 184.00** *(Or 4 monthly interest-free payments of **SAR 46.00** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-usb-coffee-mug-warmer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: USB Coffee Mug Warmer for Home Office Desk
+Price: SAR 184.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo ThermoDesk Smart Heated Coaster & Beverage Warmer (3 Temperature Settings)
+Headline:
+new english content: Zelmiqo ThermoDesk Smart Heated Beverage Coaster & Mug Warmer with 3-Temp Settings
+new arabic content: قاعدة تسخين الأكواب الذكية بـ 3 درجات حرارة ومؤقت أمان للقهوة السعودية والمشروبات من زيلميكو
 
-Hero Subheadline:
-Never Drink Lukewarm Coffee Again. Keep Saudi Coffee, Karak Tea & Lattes at the Perfect Temperature All Day.
-```
+Subheadline:
+new english content: Keeps Saudi Coffee, Karak Tea & Espresso at the Perfect Sipping Temperature for Hours.
+new arabic content: تحافظ على سخونة القهوة السعودية، شاي الكرك، والإسبريسو بدرجة حرارة مثالية طوال ساعات العمل.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-قاعدة تسخين الأكواب والمشروبات الذكية للمكتب والمنزل مع 3 درجات حرارة من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-لن تشرب قهوتك باردة بعد اليوم. حافظ على حرارة القهوة السعودية، شاي الكرك، والإسبريسو بدرجة حرارة مثالية طوال اليوم.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,43 @@ Never Drink Lukewarm Coffee Again. Keep Saudi Coffee, Karak Tea & Lattes at the 
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Keep Every Sip Warm and Enjoyable
+Enjoy your coffee, tea, milk, hot chocolate, or favorite warm drink at a better temperature for longer with this USB Coffee Mug Warmer. Designed for home, office, study desk, and daily use, this compact heating coaster helps keep your drink comfortably warm while you work, read, study, or relax.
+No more rushing to finish your drink before it gets cold. Simply place your mug on the heating surface, connect the USB power cable, and enjoy steady warmth throughout your routine.
+### Perfect for Coffee, Tea, Milk and More
+This electric mug warmer is ideal for people who love warm drinks but often get busy. Whether you are working on a laptop, studying late, attending online meetings, or enjoying a quiet morning, it helps keep your drink ready whenever you take the next sip.
+### Great for Office Desks
+Keep your coffee warm while working, typing, planning, or taking calls. It is a useful desk accessory for long work hours.
+### Ideal for Home Use
+Use it in your bedroom, kitchen, study room, or living room to enjoy tea, milk, coffee, or warm water more comfortably.
+### Thermostatic Heating Coaster Design
+The warming coaster is designed to provide stable heating for your cup. It helps slow down cooling and keeps your beverage warm without needing to reheat it again and again.
+• Helps maintain drink warmth for longer
+• Simple USB-powered operation
+• Compact size for desk and table use
+• Suitable for coffee, tea, milk, cocoa, and warm water
+• Useful for work, study, reading, and relaxation
+### Compact, Simple and Easy to Use
+This USB cup warmer is made for everyday convenience. Its small coaster-style design fits easily on desks, nightstands, counters, and side tables without taking up much space.
+Just plug it in, place your cup on top, and enjoy a warmer drink during your daily routine. It is a practical choice for anyone who dislikes cold coffee or tea.
+### Best for Daily Home and Office Comfort
+• Office workers
+• Students
+• Coffee lovers
+• Tea lovers
+• Remote workers
+• Readers and writers
+• Anyone who enjoys warm drinks slowly
+### Why You Will Love It
+This mug warmer is a small upgrade that makes a big difference in your daily comfort. It keeps your drink warmer for longer, helps reduce repeated reheating, and makes your desk setup feel more useful and enjoyable.
+If you want warm coffee, tea, milk, or hot chocolate beside you while working or relaxing, this USB Coffee Mug Warmer is a smart and practical everyday choice.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Between long office meetings, study sessions, and phone calls, that fresh cup of Saudi coffee, karak tea, or espresso quickly goes cold and loses its rich aroma. The Zelmiqo ThermoDesk is an executive-grade heated coaster designed for modern Saudi workspaces. With 3 smart temperature presets (55°C, 65°C, and 75°C), an intuitive digital touch display, and an 8-hour automatic shut-off safety timer, every sip remains as hot, fresh, and satisfying as the first.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-بين ضغط العمل، الاجتماعات الطويلة، أو جلسات المذاكرة والهدوء في المساء؛ تبرد القهوة السعودية، الشاي، أو الإسبريسو وتفقد لذتها ونكهتها الأصلية. صُممت قاعدة تسخين الأكواب الذكية من زيلميكو لتكون الإضافة الفاخرة المثالية لمكتبك في العمل أو منزلك. تتيح لك 3 درجات حرارة ذكية (55 و65 و75 درجة مئوية) مع شاشة رقمية أنيقة ومؤقت أمان يفصل تلقائياً بعد 8 ساعات، لتبقى كل رشفة دافئة ولذيذة تماماً كالرشفة الأولى.
+Product Story & Daily Lifestyle Appeal:
+new english content: Nothing ruins a productive workday like taking a sip of stone-cold coffee or tea. The Zelmiqo ThermoDesk is an executive electric heated coaster engineered with 3 precision temperature settings (55°C, 65°C, and 75°C) to maintain your Saudi coffee, karak tea, or espresso at the exact ideal drinking temperature. Featuring smart cup-sensing microgravity technology and an automated 8-hour safety shutoff, it combines minimalist luxury styling with absolute peace of mind.
+new arabic content: لا شيء يفسد تركيز يوم عملك أو استرخائك أكثر من برودة كوب القهوة أو الشاي قبل إنهائه. صُممت قاعدة تسخين الأكواب الذكية زيلميكو ثيرمو ديسك خصيصاً لتناسب طقوس محبي القهوة السعودية، شاي الكرك، والإسبريسو، بثلاث درجات حرارة قابلة للتعديل (55°C، 65°C، و75°C) لتحافظ على مشروبك ساخناً ولذيذاً حتى آخر رشفة. مزودة بتقنية استشعار وزن الكوب ومؤقت إيقاف أمان تلقائي بعد 8 ساعات لحمايتك التامة في المكتب أو المنزل.
 ```
 
 ---
@@ -92,104 +120,59 @@ Between long office meetings, study sessions, and phone calls, that fresh cup of
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Keep Every Sip Warm and Enjoyable
+Enjoy your coffee, tea, milk, hot chocolate, or favorite warm drink at a better temperature for longer with this USB Coffee Mug Warmer. Designed for home, office, study desk, and daily use, this compact heating coaster helps keep your drink comfortably warm while you work, read, study, or relax.
+No more rushing to finish your drink before it gets cold. Simply ...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🔥 3 Smart Temperature Presets: 55°C (Warm soothing), 65°C (Standard hot), 75°C (Extra hot for coffee & tea).
-- ⏱️ 8-Hour Intelligent Auto Shut-Off: Complete peace of mind even if you step away from your desk.
-- ☕️ Universal Cup Compatibility: Works with ceramic mugs, glass cups, stainless steel tumblers, and baby bottles.
-- 🛡️ Waterproof Tempered Glass Panel: Spill-proof surface wipes clean in seconds with a paper towel.
-- ✨ Elegant Executive Aesthetic: Sleek wood-grain and metallic accents enhance luxury desk setups.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• ☕️ 3 Calibrated Temp Settings: 55°C (warm milk/tea), 65°C (hot coffee), 75°C (piping hot brews).
+• 🛡️ 8-Hour Automatic Safety Shutoff: Shuts down automatically if forgotten, preventing overheating.
+• ⚖️ Microgravity Induction Sensor: Activates heating when a mug is placed down; enters standby when lifted.
+• 💧 Waterproof Tempered Glass Panel: Spill-resistant surface that wipes clean with a single dry cloth.
+• 🏺 Universal Mug Compatibility: Works with ceramic mugs, glass cups, stainless steel travel cups, and boxed milk.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🔥 3 مستويات حرارة ذكية: 55° مئوية (دفء معتدل)، 65° مئوية (حرارة مثالية)، و75° مئوية (حرارة عالية للقهوة والشاي).
-- ⏱️ إيقاف تلقائي ذكي بعد 8 ساعات: أمان تام وراحة بال حتى وإن نسيت الجهاز وغادرت مكتبك.
-- ☕️ متوافقة مع مختلف أنواع الأكواب: تعمل بكفاءة مع أكواب السيراميك، الزجاج، الستانلس ستيل، وحتى زجاجات الحليب.
-- 🛡️ لوح زجاجي مقسى مقاوم للماء: سطح عازل يمسح بقطعة قماش في ثوانٍ دون الخوف من انسكاب قطرات المشروب.
-- ✨ تصميم تنفيذي فاخر: لمسات أنيقة تضفي فخامة استثنائية على مكتبك وطاولة عملك.
+new arabic content:
+• ☕️ 3 درجات حرارة مضبوطة بدقة: 55°C (دافئ)، 65°C (ساخن للقهوة والشاي)، و75°C (سخونة فائقة لعشاق القهوة الساخنة).
+• 🛡️ إيقاف أمان تلقائي بعد 8 ساعات: تنطفئ تلقائياً في حال نسيانها لضمان الأمان الكامل في مكتبك.
+• ⚖️ مستشعر الجاذبية الذكي: تبدأ التسخين تلقائياً عند وضع الكوب، وتتوقف فور رفعه لتوفير الطاقة والأمان.
+• 💧 سطح زجاجي حراري مقاوم للماء: لوح زجاجي فائق المتانة سهل التنظيف بمسحة منديل عند انسكاب أي قطرات.
+• 🏺 متوافقة مع مختلف الأكواب: تدعم الأكواب الخزفية، الزجاجية، الفولاذية، وأكواب الشاي والقهوة ذات القاع المسطح.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Temperature Range: 55°C / 65°C / 75°C (131°F – 167°F)
-- Heating Surface: High-Thermal Conduction Tempered Glass
-- Power Input: 220V Standard Saudi Plug / USB High-Wattage
-- Safety Feature: Gravity Sensor & 8-Hour Auto-Sleep Timer
-- Dimensions: Sleek Round 13cm Diameter (Ultra-Slim 1.5cm Height)
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- نطاق درجات الحرارة: 55 / 65 / 75 درجة مئوية
-- سطح التسخين: زجاج حراري مقسى فائق التوصيل ومقاوم للخدش
-- الطاقة: متوافقة مع كهرباء المنازل في المملكة وموفرة للطاقة
-- الأمان: مستشعر وزن ذكي + إغلاق تلقائي بعد 8 ساعات
-- الأبعاد: قطر 13 سم بتصميم نحيف وأنيق للغاية
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 46.00 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 46.00 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Temps: 55°C / 65°C / 75°C | Surface: Tempered Glass | Auto-Off: 8 Hours | Cord: 1.5m Cable | Power: 20W
+new arabic content: الحرارة: 55°C / 65°C / 75°C | السطح: زجاج حراري مقاوم للماء | الإيقاف التلقائي: 8 ساعات | القدرة: 20 واط
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: What cup works best?
-**Answer (English)**:
-Thin-bottom flat ceramic or stainless steel mugs deliver the fastest heat conduction.
-
-**السؤال 1**: ما هو أفضل نوع كوب للاستخدام؟  
-**الإجابة (بالعربية)**:  
-الأكواب ذات القاعدة المسطحة والمصنوعة من السيراميك أو الستانلس ستيل تعطي أفضل وأسرع توصيل حراري.
-
-### FAQ 2: Can I use it to warm milk for babies?
-**Answer (English)**:
-Yes! The 55°C setting is ideal for keeping baby bottles and warm milk at the exact safe sipping temperature.
-
-**السؤال 2**: هل يمكن استخدامه لتدفئة الحليب؟  
-**الإجابة (بالعربية)**:  
-نعم بالتأكيد؛ درجة حرارة 55 مئوية مثالية جداً لتدفئة الحليب والمشروبات الخفيفة باعتدال وأمان.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-usb-coffee-mug-warmer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer).
-
-### Primary Hero / Showcase Images:
-- [`usb-coffee-mug-warmer-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/usb-coffee-mug-warmer-main_1000x1000.svg)
-- [`usb-coffee-mug-warmer-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/usb-coffee-mug-warmer-main_120x120.svg)
-- [`usb-coffee-mug-warmer-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/webp/usb-coffee-mug-warmer-main_140x140.webp)
-- [`usb-coffee-mug-warmer-main_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/webp/usb-coffee-mug-warmer-main_1700x1700.webp)
-- [`usb-coffee-mug-warmer-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/webp/usb-coffee-mug-warmer-main_200x200.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`3-in-1-fast-charging-dock-gallery-371468-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/3-in-1-fast-charging-dock-gallery-371468-02_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-371468-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/3-in-1-fast-charging-dock-gallery-371468-03_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-371468-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/3-in-1-fast-charging-dock-gallery-371468-04_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-371468-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/3-in-1-fast-charging-dock-gallery-371468-05_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-371468_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/svg/3-in-1-fast-charging-dock-gallery-371468_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-371468-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/webp/3-in-1-fast-charging-dock-gallery-371468-02_140x140.webp)
-- [`3-in-1-fast-charging-dock-gallery-371468-02_70x70.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/webp/3-in-1-fast-charging-dock-gallery-371468-02_70x70.webp)
-- [`3-in-1-fast-charging-dock-gallery-371468-02_850x850.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer/webp/3-in-1-fast-charging-dock-gallery-371468-02_850x850.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `42 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-usb-coffee-mug-warmer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

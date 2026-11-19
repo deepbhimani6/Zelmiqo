@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo TurboClean Pro Cordless Handheld Car Vacuum Cleaner with Cyclone Suction
+# 📦 Zelmiqo AeroVac Turbo Brushless Cordless Car & Interior Handheld Vacuum Cleaner
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-06`  
-> **Original URL**: `https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner-usb-charging`  
-> **Category**: 🚗 Automotive Luxury & Cleaning  
+> **Live Site URL**: `https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner-usb-charging`  
+> **Category**: 🚗 Automotive Prestige & Interior Detailing  
 > **Price**: **SAR 159.00** *(Or 4 monthly interest-free payments of **SAR 39.75** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-cordless-handheld-car-vacuum/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Cordless Handheld Car Vacuum Cleaner with Strong Suction Power
+Price: SAR 159.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo TurboClean Pro Cordless Handheld Car Vacuum Cleaner with Cyclone Suction
+Headline:
+new english content: Zelmiqo AeroVac Turbo Brushless Cordless Car & Interior Handheld Vacuum Cleaner
+new arabic content: مكنسة السيارة اللاسلكية الذكية توربو بمحرك بدون فحمات وقوة شفط فائقة من زيلميكو
 
-Hero Subheadline:
-Pocket-Sized Powerhouse. Deep-Clean Sand, Dust, Crumbs & Pet Hair from Every Corner of Your Vehicle in Minutes.
-```
+Subheadline:
+new english content: Industrial-Strength Cyclone Suction. Clears Fine Desert Dust, Sand, Crumbs & Pet Hair in Seconds.
+new arabic content: قوة شفط إعصارية هائلة. تبتلع ذرات الرمال الصحراوية الدقيقة، الأتربة، والفتات من مقاعد وفرش السيارة بثوانٍ.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-مكنسة السيارة اللاسلكية المحمولة فائقة القوة مع فلتر قابل للغسيل من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-قوة شفط إعصارية بحجم مدمج. تخلص من الرمال، الغبار، وبقايا الطعام في مقصورة سيارتك بكل سهولة وسرعة.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,23 +75,89 @@ Pocket-Sized Powerhouse. Deep-Clean Sand, Dust, Crumbs & Pet Hair from Every Cor
 
 ### Old English Content
 ```text
-### Available Options
-
-### Description
-
 ### Powerful Cordless Cleaning for Your Car, Home and Office
 Keep your car interior, home corners and office desk clean with this Cordless Handheld Car Vacuum Cleaner. Designed for quick daily cleaning, it helps remove dust, crumbs, dirt, pet hair, small debris and mess from hard-to-reach spaces with less effort.
-The compact handheld design makes it easy to carry, easy to store and easy to use whenever you need fast cleaning. Whether you want to clean car seats, floor mats, sofa gaps, keyboard areas or small home corners, this portable vacuum cleaner is ...
+The compact handheld design makes it easy to carry, easy to store and easy to use whenever you need fast cleaning. Whether you want to clean car seats, floor mats, sofa gaps, keyboard areas or small home corners, this portable vacuum cleaner is a practical everyday cleaning tool.
+### Strong 5000-5200PA Suction Performance
+This wireless electric vacuum cleaner is built with powerful suction performance to help pick up everyday dirt quickly. With 5000-5200PA suction, it is ideal for cleaning dust, food crumbs, sand, hair and small particles from your car and indoor spaces.
+### Perfect for Car Interior Cleaning
+Clean seats, floor mats, dashboards, door pockets, cup holders and trunk areas without dragging a large vacuum cleaner outside.
+### Useful for Home and Office
+Use it on sofas, beds, shelves, keyboards, drawers, desktops and small corners where dust collects easily.
+### Cordless, Lightweight and Easy to Carry
+No long cable, no heavy machine and no complicated setup. The cordless handheld design gives you freedom to clean anywhere. It weighs about 0.68 kg, making it comfortable to hold while cleaning your car, room, office or travel space.
+• Lightweight handheld body
+• Easy to use inside cars and small spaces
+• Portable design for daily cleaning
+• Simple storage after use
+• Great for quick cleaning anytime
+### USB Rechargeable for Everyday Convenience
+The vacuum cleaner supports USB charging, making it convenient for modern daily use. Charge it before cleaning and enjoy cordless operation without depending on a power socket while cleaning your car.
+The charging indicator helps you understand the charging status. Red light shows charging and green light shows full charge. A full charge usually takes about 3-4 hours and provides around 20 minutes of cleaning time, depending on use.
+### Wet and Dry Cleaning Support
+This handheld vacuum cleaner supports dry and light wet cleaning, making it useful for different daily situations. Use it to clean dust, crumbs and small debris, or handle small moisture spills carefully when needed.
+When absorbing liquid, make sure to check the water level in the front cover and drain it in time after use. This helps protect the vacuum and keeps performance better for longer.
+### Multiple Nozzles for Different Cleaning Needs
+Different spaces need different cleaning tools. This portable vacuum can be used with suitable suction nozzles to clean flat surfaces, narrow gaps and small corners more effectively.
+### Crevice Cleaning
+Use the narrow nozzle for car seat gaps, air outlet areas, door storage spaces and tight corners.
+### Daily Dust Cleaning
+Use it for surface dust, crumbs, hair and small particles on seats, mats, tables and shelves.
+### Easy to Use in Just a Few Steps
+• Check that the vacuum cleaner is fully charged
+• Install the filter before use
+• Attach the right nozzle for your cleaning area
+• Turn on the switch and start cleaning
+• Empty the dust cup and clean the filter after use
+For best suction performance, clean the filter regularly and make sure the dust container is not overfilled.
+### Best For Everyday Cleaning
+• Car seats and carpets
+• Floor mats and trunk areas
+• Sofa gaps and cushion corners
+• Office desks and keyboards
+• Pet hair and dust
+• Food crumbs and small debris
+• Travel, home and garage use
+### Why Customers Love This Handheld Vacuum
+• Strong 5000-5200PA suction for quick cleaning
+• Cordless design for easy movement
+• USB rechargeable for convenience
+• Compact and lightweight body
+• Useful for both car and home cleaning
+• Wet and dry cleaning support
+• Easy to empty and clean after use
+• Perfect for small messes and daily maintenance
+### Product Specifications
+• Product Name: Wireless Electric Vacuum Cleaner
+• Use: Car, home and office cleaning
+• Suction Power: 5000-5200PA
+• Battery Capacity: 2000mAh
+• Input Voltage: 12-5V
+• Charging Type: USB charging
+• Charging Time: About 3-4 hours
+• Working Time: About 20 minutes after full charge
+• Product Weight: About 0.68 kg
+• Body Appearance: Metal painted finish
+• Cleaning Type: Wet and dry use
+### Care and Safety Notes
+• Always install the filter before using the vacuum cleaner
+• Do not use in direct sunlight, high temperature or high pressure areas
+• Do not wipe the body with gasoline or strong volatile cleaners
+• Do not remove the front cover while the motor is running
+• Keep the product away from children when used or stored
+• Do not vacuum burning items such as cigarette ends
+• Keep the filter clean for better suction performance
+• Store the product in a dry place after use
+### Make Your Car Feel Cleaner Every Day
+A clean car feels better to drive, and this portable handheld vacuum makes that easier. Keep it ready for quick cleanups after snacks, travel, shopping, kids, pets or daily driving.
+If you want a compact, cordless and powerful cleaning tool for your car and home, this USB rechargeable handheld vacuum cleaner is a smart choice for keeping your space fresh, neat and dust-free.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Saudi desert winds and daily commutes often bring dust and fine sand into your car seats, cup holders, and floor mats. Dragging out a heavy household vacuum or waiting in line at car wash stations is a hassle. The Zelmiqo TurboClean Pro provides high-RPM cyclone suction in a featherlight, cordless design. Equipped with multiple specialized nozzles for AC air vents and seat crevices, plus a washable HEPA filter, it keeps your vehicle showroom-clean at all times.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-تتعرض السيارات في أجواء المملكة لتراكم الغبار والرمال الناعمة في المقاعد وزوايا الأبواب ومجاري التكييف. الانتظار في مغاسل السيارات المتكدسة يضيع وقتك الثمين؛ لذا صُممت مكنسة زيلميكو تيربو كلين اللاسلكية لتمنحك قوة شفط توربينية جبارة بتصميم مدمج وخفيف الوزن في يدك. مزودة بفوهات متعددة للوصول إلى أضيق الزوايا تحت المقاعد وفتحات المكيف مع فلتر HEPA قابل للغسيل، لتحافظ على فخامة ونظافة سيارتك في أي وقت.
+Product Story & Daily Lifestyle Appeal:
+new english content: Desert sand, dust, and daily commuting quickly diminish the prestige of luxury car interiors. The Zelmiqo AeroVac Turbo is powered by an ultra-fast brushless motor spinning up to 65,000 RPM, delivering intense cyclonic suction without the drag of cords. Engineered with washable HEPA filtration, it traps microscopic pollen and sand grains. Its aerodynamic cylindrical aluminum chassis slots neatly into cup holders or side door pockets ready for instant touch-ups.
+new arabic content: تعد الرمال والأتربة الناعمة في أجواء المملكة العدو الأول لنظافة وأناقة مقصورة سيارتك. تم تزويد مكنسة زيلميكو إيروفاك توربو اللاسلكية بمحرك رقمي فائق السرعة يصل إلى 65,000 دورة بالدقيقة، ليولد قوة شفط إعصارية هائلة تلتقط أدق ذرات الرمل والشوائب العالقة بين المقاعد. مزودة بفلتر HEPA قابل للغسل، وتصميمها الأسطواني الأنيق يتسع بسهولة في حامل الأكواب أو درج الباب لتكون دائماً في متناول يدك.
 ```
 
 ---
@@ -98,106 +166,59 @@ Saudi desert winds and daily commutes often bring dust and fine sand into your c
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Powerful Cordless Cleaning for Your Car, Home and Office
+Keep your car interior, home corners and office desk clean with this Cordless Handheld Car Vacuum Cleaner. Designed for quick daily cleaning, it helps remove dust, crumbs, dirt, pet hair, small debris and mess from hard-to-reach spaces with less effort.
+The compact handheld design makes it easy to carry, easy to store and easy to use whe...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🌪️ 9,000Pa High-Velocity Cyclone Suction: Effortlessly lifts sand, gravel, coffee spills, and stubborn debris.
-- 🔋 Cordless Freedom & Fast USB-C Charging: Up to 30 minutes of continuous cleaning per charge; charges directly via car USB.
-- 🧼 Washable & Reusable HEPA Filter: Traps 99.97% of fine allergens and sand dust without losing suction power.
-- 🔦 Built-in LED Precision Light: Illuminates dark seat underbellies and trunk corners so no dust particle escapes.
-- 📦 Complete Multi-Nozzle Detailing Kit: Includes crevice nozzle, dusting brush, and extended hose for complete cabin care.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 🌪️ 65,000 RPM Brushless Motor: High-efficiency cyclonic airflow with zero power degradation.
+• 🛡️ Dual-Stage Washable HEPA Filter: Intercepts 99.9% of fine desert particulate and dust mites.
+• 🚗 2-in-1 Precision Detailing Nozzle: Crevice tool for deep seat tracks plus soft bristle brush for air vents.
+• 🔋 USB-C Quick Charge: Up to 30 minutes of continuous full-throttle cleaning per charge.
+• 💎 Sleek Aluminum & Matte Alloy Body: Premium automotive aesthetics fitting prestigious vehicles.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🌪️ قوة شفط إعصارية جبارة 9000 باسكال: تسحب الرمال العميقة، فتات الطعام، والأتربة المتراكمة بكل سلاسة.
-- 🔋 حرية حركة لاسلكية وشحن USB-C سريع: بطارية تدوم حتى 30 دقيقة متواصلة وتشحن مباشرة من منفذ USB في سيارتك.
-- 🧼 فلتر HEPA عالي الكفاءة وقابل للغسيل: يحجز 99.97% من الأتربة الدقيقة ومسببات الحساسية ويعاد استخدامه لمرات غير محدودة.
-- 🔦 إضاءة ليد LED مدمجة: تضيء الأماكن المظلمة أسفل المقاعد وصندوق الأمتعة لضمان نظافة شاملة دون ترك أي زاوية.
-- 📦 طقم فوهات متكامل: فوهة رفيعة للشقوق الضيقة، فرشاة لتنظيف فتحات المكيف والطبلون، ومحول عملي متعدد الاستخدامات.
+new arabic content:
+• 🌪️ محرك توربيني فائق 65,000 دورة/دقيقة: قوة سحب إعصارية مستمرة تلتقط الرمال والأوساخ العنيدة.
+• 🛡️ فلتر HEPA مزدوج قابل للغسل: يحتجز 99.9% من ذرات الغبار وحبوب اللقاح والأتربة المجهرية.
+• 🚗 ملحقات تنظيف 2 في 1 دقيقة: فوهة طويلة للأماكن الضيقة بين المقاعد، وفرشاة ناعمة لتنظيف فتحات التكييف وشاشات التحكم.
+• 🔋 شحن سريع بمنفذ USB-C: بطارية ليثيوم تدوم حتى 30 دقيقة من التنظيف المتواصل.
+• 💎 هيكل معدني فاخر: تصميم أسطواني عصري من خامات متينة تناسب فخامة السيارات الحديثة.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Motor: High-Speed Pure Copper Motor (36,000 RPM)
-- Suction Power: Up to 9,000Pa
-- Battery Capacity: 2000mAh Dual-Cell Lithium (USB-C Fast Rechargeable)
-- Dust Cup Capacity: 0.2L Easy-Empty One-Click Bin
-- Weight: Ultralight 365g
-- In The Box: Vacuum, Crevice Tool, Brush Nozzle, USB-C Cable, Washable HEPA Filter
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- المحرك: محرك نحاسي فائق السرعة بقدرة 36,000 دورة بالدقيقة
-- قوة الشفط: 9,000 باسكال حقيقية
-- البطارية: ليثيوم 2000 مللي أمبير تدعم الشحن السريع Type-C
-- حاوية الأتربة: سعة 0.2 لتر بتفريغ سهل ونظيف بضغطة واحدة
-- الوزن: خفيفة جداً 365 جرام فقط لراحة اليد أثناء الاستخدام
-- الملحقات: المكنسة، فوهة شقوق، فرشاة تنظيف، كابل شحن Type-C، فلتر HEPA إضافي
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 39.75 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 39.75 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Suction Power: Up to 9,000Pa | Battery: 2x 2000mAh | Dustbin: 150ml Quick-Empty | Weight: 380g
+new arabic content: قوة الشفط: تصل إلى 9,000 باسكال | البطارية: 2x 2000 مللي أمبير | سعة خزان الأتربة: 150 مل بتفريغ سريع | الوزن: 380 جرام
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Can I charge it in my car?
-**Answer (English)**:
-Yes! The USB-C charging cable plugs directly into your car charger, cigarette adapter, or power bank.
-
-**السؤال 1**: هل يمكن شحنها داخل السيارة؟  
-**الإجابة (بالعربية)**:  
-نعم بالتأكيد؛ تشحن مباشرة من أي منفذ USB في سيارتك أو عبر شاحن الولاعة أو البوربانك.
-
-### FAQ 2: Is the filter reusable?
-**Answer (English)**:
-Yes, simply rinse the HEPA filter under warm running water, let it air dry completely, and reuse it indefinitely.
-
-**السؤال 2**: هل الفلتر قابل للغسيل وإعادة الاستخدام؟  
-**الإجابة (بالعربية)**:  
-نعم، يُغسل الفلتر بالماء بسهولة ويُترك ليجف تماماً قبل إعادة تركيبه، ويدوم معك لفترة طويلة جداً.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-cordless-handheld-car-vacuum/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum).
-
-### Primary Hero / Showcase Images:
-- [`cordless-handheld-car-vacuum-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-main_1000x1000.svg)
-- [`cordless-handheld-car-vacuum-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-main_120x120.svg)
-- [`cordless-handheld-car-vacuum-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/webp/cordless-handheld-car-vacuum-main_140x140.webp)
-- [`cordless-handheld-car-vacuum-main_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/webp/cordless-handheld-car-vacuum-main_1700x1700.webp)
-- [`cordless-handheld-car-vacuum-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/webp/cordless-handheld-car-vacuum-main_200x200.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`cordless-handheld-car-vacuum-gallery-28035_450x450.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-28035_450x450.svg)
-- [`cordless-handheld-car-vacuum-gallery-28035_900x900.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-28035_900x900.svg)
-- [`cordless-handheld-car-vacuum-gallery-58233-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-58233-02_1000x1000.svg)
-- [`cordless-handheld-car-vacuum-gallery-58233-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-58233-03_1000x1000.svg)
-- [`cordless-handheld-car-vacuum-gallery-58233-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-58233-04_1000x1000.svg)
-- [`cordless-handheld-car-vacuum-gallery-58233_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-58233_1000x1000.svg)
-- [`cordless-handheld-car-vacuum-gallery-63568_450x450.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-63568_450x450.svg)
-- [`cordless-handheld-car-vacuum-gallery-63568_900x900.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum/svg/cordless-handheld-car-vacuum-gallery-63568_900x900.svg)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `57 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-cordless-handheld-car-vacuum/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

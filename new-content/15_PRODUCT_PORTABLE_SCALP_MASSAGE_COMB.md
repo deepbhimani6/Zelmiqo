@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo ScalpRevive Precision Liquid Applicator & Scalp Massage Comb
+# 📦 Zelmiqo FollicleCare Vibrating Scalp Massager & Precision Liquid Oil Applicator Comb
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-14`  
-> **Original URL**: `https://zelmiqo.com/products/portable-scalp-massage-liquid-comb`  
-> **Category**: 💆‍♀️ Hair Care & Scalp Health  
+> **Live Site URL**: `https://zelmiqo.com/products/portable-scalp-massage-liquid-comb`  
+> **Category**: 💆‍♀️ Hair Care & Scalp Wellness  
 > **Price**: **SAR 135.00** *(Or 4 monthly interest-free payments of **SAR 33.75** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-portable-scalp-massage-comb/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Portable Scalp Massage Liquid Comb for Hair and Scalp Care
+Price: SAR 135.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo ScalpRevive Precision Liquid Applicator & Scalp Massage Comb
+Headline:
+new english content: Zelmiqo FollicleCare Vibrating Scalp Massager & Precision Liquid Oil Applicator Comb
+new arabic content: مشط تدليك وتغذية فروة الرأس بالموجات الاهتزازية وتوزيع الزيوت العلاجية بالدقة من زيلميكو
 
-Hero Subheadline:
-Direct Root Delivery. Zero Greasy Fingers. Promote Hair Density and Relieve Head Tension in 5 Minutes.
-```
+Subheadline:
+new english content: Delivers Hair Oils Directly to Roots Without Greasy Hands. Stimulates Follicles with Sonic Vibration.
+new arabic content: يوصل الزيوت والسيرومات العلاجية مباشرة لجذور الشعر بدون تلطيخ اليدين. ينشط البصيلات بالاهتزاز الصوتي.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-مشط تدليك فروة الرأس وتوزيع زيوت وسيروم الشعر الدقيق من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-توزيع مباشر على بصيلات الشعر بدون تلطيخ اليدين. يحفز نمو وكثافة الشعر ويهدئ التوتر خلال 5 دقائق.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,25 +75,56 @@ Direct Root Delivery. Zero Greasy Fingers. Promote Hair Density and Relieve Head
 
 ### Old English Content
 ```text
-### Available Options
-
-### Description
-
 ### Refresh Your Scalp Care Routine
 Make your daily hair-care routine more relaxing and convenient with the Portable Scalp Massage Liquid Comb. This compact tool combines gentle scalp massage with controlled liquid application, helping you spread suitable hair oils, serums, or scalp-care liquids more evenly across the roots.
-
 ### Two-in-One Scalp Massage and Liquid Application
-The comb is designed to help distribute liquid products while the massage teeth glide gently through the hair and across the scalp. Use it with your preferred compatible scalp oil,...
+The comb is designed to help distribute liquid products while the massage teeth glide gently through the hair and across the scalp. Use it with your preferred compatible scalp oil, hair serum, or liquid treatment to create a more comfortable and organized care routine.
+### Gentle Massage for Everyday Comfort
+The rounded comb teeth are designed to move smoothly over the scalp when used with light pressure. Enjoy a soothing massage while brushing through the roots, loosening the feeling of tension, and caring for your scalp as part of your regular routine.
+### Controlled Liquid Distribution
+The built-in liquid application design helps guide a small amount of product toward the scalp instead of applying it unevenly by hand. This can make your hair-care routine cleaner, simpler, and easier to manage.
+### Suitable for Hair Oils and Scalp Serums
+Use the comb with suitable liquid hair-care products such as scalp oils, nourishing serums, and other compatible treatments. Always check the product instructions before adding any liquid to the comb.
+### Portable Design for Home and Travel
+Its mini size makes this scalp-care tool easy to keep in a bathroom cabinet, handbag, travel pouch, or drawer. Take it with you to work, on holidays, or during overnight stays whenever you want a convenient way to maintain your hair-care routine.
+### Easy to Hold and Use
+The compact shape fits comfortably in the hand and allows you to target the roots, hairline, crown, and other areas that need attention. Its simple operation makes it suitable for beginners and regular hair-care users.
+### How to Use
+• Clean the comb before first use.
+• Fill the liquid compartment with a suitable scalp oil, serum, or compatible hair-care liquid.
+• Secure the cap or cover properly.
+• Part the hair if needed to reach the scalp more easily.
+• Glide the comb gently through the roots and across the scalp.
+• Use light pressure and avoid repeatedly rubbing one area.
+• Clean the comb after use and store it in a dry place.
+### Product Highlights
+• Portable liquid scalp massage comb
+• Helps apply suitable oils and scalp serums
+• Gentle comb teeth for comfortable scalp massage
+• Compact design for home, office, and travel
+• Easy-to-hold shape for targeted application
+• Supports a cleaner and more organized hair-care routine
+• Suitable for daily scalp and hair-care rituals
+### Hair-Care Benefits
+Using a scalp massage comb can help make your routine feel more enjoyable and consistent. The gentle brushing motion helps spread liquid products across the roots while giving your scalp a relaxing massage. Use it alongside a balanced hair-care routine for the best personal experience.
+### Care and Safety Notes
+• Use only liquids that are suitable for the comb and your scalp.
+• Do not use on broken, irritated, or painful skin.
+• Apply gentle pressure and stop if discomfort occurs.
+• Do not share the comb without cleaning it properly.
+• Empty and rinse the liquid compartment after use.
+• Keep the product dry and store it away from direct heat.
+### Package Information
+Package contents may vary according to the selected product option. Please check the seller's package details before placing your order.
+### Enjoy a More Convenient Scalp-Care Experience
+The Portable Scalp Massage Liquid Comb brings together gentle massage and practical liquid application in one compact beauty tool. Whether you are caring for your roots at home or traveling with your favourite hair products, it makes everyday scalp care simple, comfortable, and convenient.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Applying hair oils (like rosemary oil, argan oil, or minoxidil) with bare hands often leaves half the product wasted on hair strands or greasy fingers without reaching the scalp roots. The Zelmiqo ScalpRevive changes the game. Featuring precision micro-roller ball teeth, it dispenses liquid nutrients directly onto your scalp roots while delivering a relaxing micro-vibration massage that boosts follicle micro-circulation.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-استخدام زيوت الشعر والسيروم (مثل زيت الروزماري، الأرجان، أو علاجات تساقط الشعر) باليدين يهدر نصف المنتج على أطراف الشعر ويجعل اليدين دهنية دون أن يصل إلى الجذور. يحل مشط زيلميكو سكالب ريفايف هذه المشكلة بذكاء؛ بفضل أسنانه الكروية المتدحرجة، يوزع السيروم والزيوت مباشرة وبدقة متناهية على بصيلات الشعر مع تدليك خفيف ينشط الدورة الدموية في الرأس ويساعد على إنبات وتكثيف الشعر.
+Product Story & Daily Lifestyle Appeal:
+new english content: Applying hair oils, rosemary water, or regrowth serums often ends up coating the hair strands instead of reaching the follicles, leaving hair greasy. The Zelmiqo FollicleCare comb features micro-roller ball teeth that dispense liquid treatments directly onto the scalp as you brush. High-frequency micro-vibrations awaken dormant roots, boost capillary microcirculation, and melt away daily mental tension in a soothing 5-minute scalp therapy ritual.
+new arabic content: غالباً ما يضيع زيت الشعر أو ماء الروزماري أو سيروم إنبات الشعر على خصلات الشعر الخارجية دون الوصول إلى البصيلات، مما يترك اليدين والشعر دهنياً. يتميز مشط زيلميكو فوليكل كير بأسنان تدليك كروية دقيقة توزع الزيت أو السيروم بالتساوي مباشرة على فروة الرأس أثناء التمشيط. تعمل الاهتزازات الصوتية الدقيقة على تنشيط الدورة الدموية في البصيلات الضعيفة، وتمنحك شعوراً فورياً بالاسترخاء وتخفيف الصداع والإجهاد الذهني.
 ```
 
 ---
@@ -100,102 +133,60 @@ Applying hair oils (like rosemary oil, argan oil, or minoxidil) with bare hands 
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Refresh Your Scalp Care Routine
+Make your daily hair-care routine more relaxing and convenient with the Portable Scalp Massage Liquid Comb. This compact tool combines gentle scalp massage with controlled liquid application, helping you spread suitable hair oils, serums, or scalp-care liquids more evenly across the roots.
+### Two-in-One Scalp Massage and Liquid Application
+The comb is designed ...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 💧 Precision Roller Ball Applicator Teeth: Glides smoothly to deliver oils directly to hair follicles without waste.
-- ✨ Gentle Scalp Massaging Nodes: Stimulates micro-circulation to nourish thinning hair and relieve headaches.
-- 🖐️ Zero Greasy Hands: Built-in 30ml graduated tank keeps your hands completely clean and dry.
-- 🧴 Works with All Hair Treatments: Perfect for rosemary oil, scalp serums, tonics, and hair-growth solutions.
-- 🧼 Easy to Disassemble & Rinse: Washable reservoir resists clogging and essential oil buildup.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 💧 Micro-Ball Liquid Dispenser: Elastic roller teeth release serums evenly without leaking or messy fingers.
+• 💆‍♀️ High-Frequency Scalp Vibration: Promotes blood circulation to strengthen hair roots and combat shedding.
+• 🧼 Detachable Washable Liquid Tank: 6ml transparent tank with scale markings, easily rinsed clean.
+• 🔋 Rechargeable Sonic Engine: Cordless USB charging with compact pocket-sized form.
+• 🌿 Safe for All Serums & Oils: Compatible with rosemary oil, minoxidil, argan oil, and hair tonics.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 💧 أسنان كروية دقيقة لتوزيع الزيوت: تتدحرج بسلاسة على فروة الرأس لتوصيل الزيت للجذور دون أي هدر.
-- ✨ تدليك مهدئ لفروة الرأس: ينشط تدفق الدم لبصيلات الشعر ويخفف التوتر وصداع نهاية اليوم.
-- 🖐️ أيدٍ نظيفة بدون ملمس دهني: خزان شفاف بسعة 30 مل مع تدريج واضح لقياس كمية السيروم المطلوبة.
-- 🧴 متوافق مع كافة زيوت وعلاجات الشعر: مثالي لزيت إكليل الجبل (الروزماري)، سيروم الكثافة، وزيوت الترطيب.
-- 🧼 سهل الفك والغسيل: خزان ومسارات مانعة للانسداد وسهلة الشطف بالماء الدافئ بعد كل استخدام.
+new arabic content:
+• 💧 أسنان كروية دقيقة لتوزيع السوائل: تضغط برفق وتفرز الزيت بالتساوي على الجذور دون أي تسريب أو تلطيخ للأصابع.
+• 💆‍♀️ اهتزازات صوتية دقيقة ومحفزة: تنشط تدفق الدم نحو بصيلات الشعر للمساعدة في تقوية الجذور والحد من التساقط.
+• 🧼 خزان سوائل شفاف وقابل للفك: سعة 6 مل مع تدريج واضح، سهل التنظيف وإعادة التعبئة بالماء الدافئ.
+• 🔋 محرك اهتزاز لاسلكي قابل للشحن: بطارية مدمجة وشحن USB سريع مع تصميم مريح يناسب راحة اليد.
+• 🌿 متوافق مع كافة الزيوت والسيرومات: مثالي لزيت إكليل الجبل (الروزماري)، سيرومات الإنبات، والزيوت الطبيعية.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Liquid Tank Capacity: 30ml Graduated Reservoir
-- Teeth Material: Stainless Steel Ball Rollers + Silicone Elastic Comb Teeth
-- Body Material: Chemical-Resistant Food-Grade ABS
-- Dimensions: Compact Pocket Grip (6cm x 5.8cm)
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- سعة الخزان: 30 مل مع علامات قياس دقيقة بالمليلتر
-- الأسنان: كرات ستانلس ستيل متدحرجة مع أسنان سيليكونية مرنة لتدليك الفروة
-- الخامة: بلاستيك طبي مقاوم لتفاعل الزيوت العطرية
-- الأبعاد: حجم قبضة اليد المريح والسهل في التوزيع والتحكم
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 33.75 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 33.75 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Tank Capacity: 6ml | Vibration Modes: 2 Levels | Material: Food-Grade Silicone + Alloy | USB Rechargeable
+new arabic content: سعة الخزان: 6 مل | مستويات الاهتزاز: مستويان | المواد: سيليكون طبي وسبائك مقاومة للتآكل | شحن USB
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Can I use it with thick oils like castor oil?
-**Answer (English)**:
-Yes! The rolling ball mechanism handles both light serums and heavier oils like castor, olive, and rosemary blends smoothly.
-
-**السؤال 1**: هل يناسب الزيوت الثقيلة مثل زيت الخروع؟  
-**الإجابة (بالعربية)**:  
-نعم بالتأكيد! الكرات الدوارة تتعامل بسلاسة مع السيرومات الخفيفة والزيوت الأكثر كثافة مثل الخروع والأرجان.
-
-### FAQ 2: Does it leak when stored in a drawer?
-**Answer (English)**:
-No, it features a tight sealing cap that prevents any leakage when stored in a drawer or travel pouch.
-
-**السؤال 2**: هل يسرب الزيت عند وضعه في الدرج أو الحقيبة؟  
-**الإجابة (بالعربية)**:  
-مطلقاً؛ يأتي مع غطاء سيليكوني محكم يحبس الزيت داخل الخزان ويمنع أي تسريب.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-portable-scalp-massage-comb/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb).
-
-### Primary Hero / Showcase Images:
-- [`portable-scalp-massage-comb-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/portable-scalp-massage-comb-main_1000x1000.svg)
-- [`portable-scalp-massage-comb-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/portable-scalp-massage-comb-main_120x120.svg)
-- [`portable-scalp-massage-comb-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/webp/portable-scalp-massage-comb-main_140x140.webp)
-- [`portable-scalp-massage-comb-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/webp/portable-scalp-massage-comb-main_200x200.webp)
-- [`portable-scalp-massage-comb-main_600x315.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/webp/portable-scalp-massage-comb-main_600x315.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`3d-silicone-cleansing-brush-gallery-369342-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/3d-silicone-cleansing-brush-gallery-369342-02_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369342-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/3d-silicone-cleansing-brush-gallery-369342-03_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369342-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/3d-silicone-cleansing-brush-gallery-369342-04_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369342-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/3d-silicone-cleansing-brush-gallery-369342-05_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369342_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/svg/3d-silicone-cleansing-brush-gallery-369342_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369342-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/webp/3d-silicone-cleansing-brush-gallery-369342-02_140x140.webp)
-- [`3d-silicone-cleansing-brush-gallery-369342-02_70x70.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/webp/3d-silicone-cleansing-brush-gallery-369342-02_70x70.webp)
-- [`3d-silicone-cleansing-brush-gallery-369342-02_850x850.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb/webp/3d-silicone-cleansing-brush-gallery-369342-02_850x850.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `50 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-portable-scalp-massage-comb/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-scalp-massage-comb)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

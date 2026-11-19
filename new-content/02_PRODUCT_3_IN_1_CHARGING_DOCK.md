@@ -34,10 +34,10 @@
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-01`  
-> **Original URL**: `https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand`  
+> **Live Site URL**: `https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand`  
 > **Category**: ⚡️ Smart Living & Mobile Accessories  
 > **Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-3-in-1-fast-charging-dock/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: 3-in-1 Fast Charging Dock for Phone & AirPods & Apple Watch
+Price: SAR 129.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo MagCharge 3-in-1 Fast Wireless Charging Station for iPhone, Apple Watch & AirPods
+Headline:
+new english content: Zelmiqo MagCharge 3-in-1 Fast Wireless Charging Station for iPhone, Apple Watch & AirPods
+new arabic content: منصة الشحن اللاسلكي السريع 3 في 1 للآيفون، ساعة أبل، وسماعات الإيربودز من زيلميكو
 
-Hero Subheadline:
-One Sleek Dock. Zero Cord Clutter. Fast Simultaneous Charging for Your Daily Apple & Android Ecosystem.
-```
+Subheadline:
+new english content: One Sleek Station. Zero Cord Clutter. Fast Simultaneous 15W Wireless Power for Your Apple & Android Ecosystem.
+new arabic content: منصة واحدة راقية. وداعاً لفوضى الأسلاك. شحن لاسلكي سريع لجميع أجهزتك اليومية في وقت واحد وبمنتهى الأناقة.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-منصة الشحن اللاسلكي السريع 3 في 1 للآيفون، ساعة أبل، وسماعات الإيربودز من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-منصة واحدة راقية. وداعاً لفوضى الأسلاك. شحن لاسلكي سريع لجميع أجهزتك اليومية في وقت واحد.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,27 +75,47 @@ One Sleek Dock. Zero Cord Clutter. Fast Simultaneous Charging for Your Daily App
 
 ### Old English Content
 ```text
-- Visa
-- Apple Pay
-- Mastercard
-- Americal Express
-- PayPal
-- Google Pay
-- Razor Pay
-
 ### Power Up Your Everyday Essentials in One Clean Charging Dock
 Keep your desk, bedside table, or workspace clean and organized with this smart 3-in-1 Fast Charging Dock. Designed for iPhone, Samsung phones, AirPods, and Apple Watch users, this compact charging station helps you charge your daily devices in one convenient place.
-No more messy cables, scattered chargers, or low-battery stress. Place your phone on the charging stand, dock your AirPods, and rest your Apple Watch neatly on the built-in watch sta...
+No more messy cables, scattered chargers, or low-battery stress. Place your phone on the charging stand, dock your AirPods, and rest your Apple Watch neatly on the built-in watch stand. Everything stays easy to see, easy to reach, and ready when you need it.
+### Designed for iPhone, Samsung, AirPods & Apple Watch
+This charging dock is made for modern device users who want a simple and stylish way to power multiple essentials. It works beautifully as a phone charging stand for iPhone and Samsung devices, while also giving your AirPods a dedicated charging spot and your Apple Watch a clean display stand.
+### Charge Your Phone Upright
+The upright phone stand keeps your device visible while charging, making it perfect for checking notifications, watching videos, video calls, alarms, or simply keeping your phone in view while you work or relax.
+### Dedicated AirPods Charging Slot
+The front charging area keeps your AirPods secure and easy to access. It is ideal for daily use, so your earbuds are always stored neatly and ready to go.
+### Apple Watch Stand for Clean Display
+The built-in Apple Watch stand keeps your watch elevated and organized. It helps reduce desk clutter and gives your charging setup a premium, modern look.
+### Why Customers Love This Charging Dock
+• Charges and organizes multiple devices in one place
+• Supports iPhone, Samsung phones, AirPods, and Apple Watch setup
+• Clean vertical design saves desk and bedside space
+• Perfect for home, office, nightstand, study table, and travel setup
+• Helps reduce cable mess and keeps devices easy to find
+• Modern black finish matches most interiors and device styles
+### Clean Setup, Faster Routine
+This 2-in-1 charging dock is more than a charger. It is a daily convenience upgrade. Instead of using separate cables for your phone, earbuds, and watch, you can keep your most-used devices in one organized charging station.
+Place it beside your bed and wake up with your essentials ready. Keep it on your office desk and stay powered through the day. Use it in your study area to keep your workspace neat and focused.
+### Perfect for Desk, Office & Bedside Table
+The slim base takes up minimal space while giving your devices a stable and premium-looking charging area. Whether you use it at night, during work, or while traveling between rooms, this dock helps create a cleaner and smarter charging habit.
+### Best For
+• iPhone users
+• Samsung phone users
+• AirPods users
+• Apple Watch users who need a neat stand
+• People who want a clutter-free charging station
+• Gift buyers looking for a useful tech accessory
+### A Smart Gift for Tech Lovers
+This charging dock makes a practical and stylish gift for anyone who uses multiple devices every day. It is useful for students, professionals, travelers, Apple users, Samsung users, and anyone who wants a cleaner charging setup.
+### Upgrade Your Charging Space Today
+Bring order, convenience, and a premium look to your daily charging routine. With space for your phone, AirPods, and Apple Watch, this 2-in-1 Fast Charging Dock is a simple upgrade that makes your everyday setup feel cleaner, smarter, and more reliable.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Tired of tangling cables on your nightstand or desk? The Zelmiqo 3-in-1 Charging Dock redefines modern workspace elegance across Saudi Arabia. Engineered with intelligent dual-coil fast charging, it powers your smartphone in portrait or landscape mode, docks your AirPods effortlessly, and showcases your Apple Watch in nightstand view. Built with smart temperature management to preserve your battery health even in warm weather.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-هل مللت من تشابك الأسلاك وفوضى الشواحن على طاولة السرير أو مكتب العمل؟ صُممت منصة زيلميكو 3 في 1 لتمنحك ترتيباً فائق الأناقة وتجربة شحن ذكية تواكب أرقى معايير الحياة العصرية في المملكة. بفضل تقنية الشحن السريع بالحث الكهرومغناطيسي، يمكنك شحن جوالك بالوضع الأفقي أو الرأسي، شحن سماعاتك، وتثبيت ساعتك في مكان مخصص ومرتفع، مع نظام حماية ذكي يمنع ارتفاع حرارة البطارية.
+Product Story & Daily Lifestyle Appeal:
+new english content: Eliminate messy cables and disorganized nightstands. The Zelmiqo MagCharge 3-in-1 Station is engineered for seamless executive desk and bedside integration. It delivers optimal 15W Qi-certified power directly to your smartphone (in both portrait for FaceTime or landscape for video watching), docks your Apple Watch in nightstand view, and powers your AirPods simultaneously. Built with an intelligent internal cooling coil to keep charging temperatures low even during warm summer afternoons in Saudi Arabia.
+new arabic content: تخلص من فوضى الأسلاك وتشابك الشواحن على طاولة السرير أو مكتب العمل. صُممت منصة زيلميكو ماج تشارج 3 في 1 لتمنحك ترتيباً فائق الأناقة وتجربة شحن ذكية تواكب نمط الحياة العصري في المملكة. بفضل تقنية الشحن السريع بالحث الكهرومغناطيسي، يمكنك شحن جوالك بالوضع الأفقي أو الرأسي، شحن سماعاتك، وتثبيت ساعتك في مكان مخصص ومرتفع، مع نظام حماية ذكي يمنع ارتفاع حرارة البطارية حتى في أجواء الصيف.
 ```
 
 ---
@@ -102,114 +124,59 @@ Tired of tangling cables on your nightstand or desk? The Zelmiqo 3-in-1 Charging
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Power Up Your Everyday Essentials in One Clean Charging Dock
+Keep your desk, bedside table, or workspace clean and organized with this smart 3-in-1 Fast Charging Dock. Designed for iPhone, Samsung phones, AirPods, and Apple Watch users, this compact charging station helps you charge your daily devices in one convenient place.
+No more messy cables, scattered chargers, or low-battery stress. Pla...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- ⚡️ 15W High-Speed Wireless Output: Fast-charges iPhone 15/14/13/12 series and Samsung Galaxy smartphones safely.
-- ⌚️ Dedicated Watch Display Stand: Keeps your Apple Watch securely elevated in nightstand display mode.
-- 🎧 Custom AirPods Recess: Prevents sliding and delivers stable, optimized charging for AirPods Pro and Qi-enabled earbuds.
-- 🛡️ MultiProtect Safety System: Advanced surge protection, foreign object detection (FOD), and intelligent heat dissipation.
-- 🛋️ Minimalist Luxury Aesthetic: Premium matte finish that complements high-end Saudi interior designs and executive office setups.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• ⚡️ 15W High-Speed Output: Fast charges iPhone 16/15/14/13/12 and flagship Samsung devices safely.
+• ⌚️ Dedicated Apple Watch Perch: Secure elevated magnetic rest supporting nightstand clock mode.
+• 🎧 Custom Earbuds Recess: Tailored anti-slip charging cradle for AirPods Pro and Qi-enabled wireless cases.
+• 🛡️ Intelligent Heat & Surge Control: Built-in foreign object detection (FOD) protecting battery longevity.
+• 🛋️ Minimalist Matte Architecture: Premium non-scratch finish complementing luxury Saudi home interiors.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- ⚡️ شحن لاسلكي فائق السرعة بقوة تصل إلى 15 واط: متوافق مع كافة أجهزة آيفون (من آيفون 12 حتى 15 برو ماكس) وأجهزة سامسونج الحديثة.
-- ⌚️ حامل مخصص ومرفوع لساعة أبل: يعرض الوقت والمنبه بوضوح ويحمي ساعتك من الخدوش على الطاولة.
-- 🎧 تجويف مخصص لسماعات الإيربودز: ثبات تام وشحن آمن لسماعات AirPods Pro وكافة السماعات الداعمة للشحن اللاسلكي.
-- 🛡️ حماية ذكية متكاملة: مستشعرات ذكية لمنع الشحن الزائد، والحرارة الزائدة، والتعرف على الأجسام الغريبة للحفاظ على عمر بطارياتك.
-- 🛋️ تصميم أنيق فاخر: لمسات مطفية أنيقة تضيف فخامة ورتابة استثنائية لمكتبك أو غرفة نومك.
+new arabic content:
+• ⚡️ شحن لاسلكي سريع بقوة تصل إلى 15 واط: متوافق مع كافة أجهزة آيفون الحديثة وسلسلة سامسونج جالاكسي.
+• ⌚️ حامل مخصص ومرفوع لساعة أبل: يعرض الوقت والمنبه بوضوح ويحمي ساعتك من الخدوش على الأسطح.
+• 🎧 تجويف مخصص لسماعات الإيربودز: ثبات تام وشحن آمن لسماعات AirPods Pro وكافة السماعات الداعمة للشحن اللاسلكي.
+• 🛡️ حماية ذكية من الحرارة والجهد الزائد: مستشعرات متطورة للتعرف على الأجسام الغريبة لحماية صحة البطاريات.
+• 🛋️ تصميم عصري بلمسات مطفية: خامات فاخرة مقاومة للخدش تضيف لمسة جمالية راقية لمكتبك أو غرفتك.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Input: 9V/2A, 12V/1.5A via USB Type-C (QC 3.0 / PD Adapter recommended)
-- Phone Output: 15W / 10W / 7.5W / 5W
-- Watch Output: 2.5W
-- Earbuds Output: 3W
-- Transmission Distance: ≤ 8mm (Works through phone cases up to 5mm thick)
-- Package Contents: 1x 3-in-1 Charging Dock, 1x USB-C Fast Cable, 1x User Manual
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- منفذ الإدخال: 9 فولت / 2 أمبير، 12 فولت / 1.5 أمبير عبر كابل Type-C المرفق
-- قدرة شحن الجوال: 15W / 10W / 7.5W / 5W ذكية التكيف
-- قدرة شحن الساعة: 2.5W
-- قدرة شحن السماعة: 3W
-- نطاق الشحن: حتى 8 ملم (يشحن من خلال كفرات الحماية حتى سُمك 5 ملم)
-- محتويات الصندوق: منصة الشحن 3 في 1، كابل Type-C سريع، دليل المستخدم المعتمد
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 32.25 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 32.25 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Input: 9V/2A, 12V/1.5A via Type-C | Phone: 15W/10W/7.5W | Watch: 2.5W | Earbuds: 3W | Case Friendly: Up to 5mm
+new arabic content: منفذ الإدخال: 9V/2A أو 12V/1.5A عبر Type-C | الجوال: 15W/10W/7.5W | الساعة: 2.5W | السماعات: 3W | يشحن عبر كفرات الحماية حتى 5 ملم
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Does this work with phone cases?
-**Answer (English)**:
-Yes! It charges effortlessly through plastic, TPU, and silicone cases up to 5mm thick (avoid metal cases or magnetic credit cards).
-
-**السؤال 1**: هل يدعم الشحن مع كفرات الحماية؟  
-**الإجابة (بالعربية)**:  
-نعم بالتأكيد! يشحن بكفاءة عالية عبر الأغطية البلاستيكية والسيليكون حتى سُمك 5 ملم (تجنب الكفرات المعدنية أو التي تحتوي على بطاقات بنكية).
-
-### FAQ 2: Is the fast charging adapter included?
-**Answer (English)**:
-The dock includes a high-speed Type-C cable. For optimal 15W triple-device charging, we recommend using an 18W or 20W USB-C wall adapter.
-
-**السؤال 2**: هل يأتي مع فيش جداري؟  
-**الإجابة (بالعربية)**:  
-تأتي المنصة مع كابل شحن سريع Type-C، وللحصول على أقصى سرعة شحن لثلاثة أجهزة معاً، يُفضل استخدام فيش جداري بقوة 18 واط أو 20 واط.
-
-### FAQ 3: Is it safe to leave my devices charging overnight?
-**Answer (English)**:
-100% safe. The smart chip automatically stops charging and switches to trickle mode once your battery reaches 100%.
-
-**السؤال 3**: هل من الآمن ترك الأجهزة تشحن طوال الليل؟  
-**الإجابة (بالعربية)**:  
-آمن تماماً 100%؛ تفصل المنصة التيار تلقائياً وتتحول إلى وضع الحماية عند امتلاء البطارية للحفاظ على صحتها.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-3-in-1-fast-charging-dock/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock).
-
-### Primary Hero / Showcase Images:
-- [`3-in-1-fast-charging-dock-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-main_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-main_120x120.svg)
-- [`3-in-1-fast-charging-dock-main_140x140.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/jpg/3-in-1-fast-charging-dock-main_140x140.jpg)
-- [`3-in-1-fast-charging-dock-main_1700x1700.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/jpg/3-in-1-fast-charging-dock-main_1700x1700.jpg)
-- [`3-in-1-fast-charging-dock-main_200x200.jpg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/jpg/3-in-1-fast-charging-dock-main_200x200.jpg)
-
-### Detailed Infographic & Gallery Angles:
-- [`3-in-1-fast-charging-dock-gallery-371468_450x450.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-371468_450x450.svg)
-- [`3-in-1-fast-charging-dock-gallery-371468_900x900.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-371468_900x900.svg)
-- [`3-in-1-fast-charging-dock-gallery-557-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-557-02_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-557-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-557-03_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-557-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-557-04_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-557-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-557-05_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-557_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/svg/3-in-1-fast-charging-dock-gallery-557_1000x1000.svg)
-- [`3-in-1-fast-charging-dock-gallery-557-02_1024x1024.png`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock/png/3-in-1-fast-charging-dock-gallery-557-02_1024x1024.png)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `76 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-3-in-1-fast-charging-dock/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

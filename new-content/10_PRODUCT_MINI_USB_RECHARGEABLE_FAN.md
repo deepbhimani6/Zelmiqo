@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand Base
+# 📦 Zelmiqo PocketAir 3-Speed Handheld & Desktop Rechargeable Turbo Fan with Base
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-09`  
-> **Original URL**: `https://zelmiqo.com/products/mini-usb-rechargeable-3-speed-handheld-desktop-fan`  
-> **Category**: ❄️ Portable Cooling & Summer Tech  
+> **Live Site URL**: `https://zelmiqo.com/products/mini-usb-rechargeable-3-speed-handheld-desktop-fan`  
+> **Category**: ❄️ Summer Cooling & Portable Gadgets  
 > **Price**: **SAR 122.00** *(Or 4 monthly interest-free payments of **SAR 30.50** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-mini-usb-rechargeable-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Mini USB Rechargeable Handheld and Desktop Fan with 3 Speeds
+Price: SAR 122.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand Base
+Headline:
+new english content: Zelmiqo PocketAir 3-Speed Handheld & Desktop Rechargeable Turbo Fan with Base
+new arabic content: مروحة الجيب اللاسلكية الذكية 2 في 1 لليد والمكتب بـ 3 سرعات توربينية من زيلميكو
 
-Hero Subheadline:
-Your Pocket-Sized Personal Oasis. Ultra-Quiet Cooling Breeze Anywhere Your Day in Saudi Arabia Takes You.
-```
+Subheadline:
+new english content: Ultra-Compact Arctic Breeze in Your Palm. Essential for Outdoor Walks, Malls, Hajj, Umrah & Commutes.
+new arabic content: نسيم تبريد قطبي بين يديك. رفيقتك المثالية في المشاوير الخارجية، المجمعات، مناسك الحج والعمرة، والدوام.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-مروحة الجيب اليدوية والمكتبية القابلة للشحن مع قاعدة وحامل للجوال من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-نسيمك المنعش في راحة يدك. مروحة فائقة الهدوء ترافقك في المكتب، الجامعة، والمشاوير الصيفية في كل مكان.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,66 @@ Your Pocket-Sized Personal Oasis. Ultra-Quiet Cooling Breeze Anywhere Your Day i
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Cool Comfort in Your Hand or on Your Desk
+Stay refreshed wherever you go with this Mini USB Rechargeable 3-Speed Handheld and Desktop Fan. Compact, lightweight and easy to use, it is designed for personal cooling at home, in the office, at school, while traveling, or during outdoor summer days.
+Use it in your hand when you are moving, or place it on a desk for steady airflow while working, studying, reading, applying makeup, cooking or relaxing.
+### 3 Speed Settings for Your Perfect Breeze
+Choose the airflow that feels right for your moment. This portable fan comes with 3 adjustable speed levels, giving you soft, medium or stronger cooling whenever you need it.
+• Low speed for gentle cooling while reading or sleeping
+• Medium speed for daily desk, office and study use
+• High speed for stronger airflow during hot weather
+### Handheld and Desktop Use in One Fan
+This fan is made for flexible everyday use. Hold it in your hand when you are outdoors, commuting or walking, then place it on a table when you need hands-free cooling.
+### Handheld Cooling
+The compact grip makes it easy to carry and use while traveling, shopping, waiting outside, attending events or moving around during warm days.
+### Desktop Cooling
+Place it on your desk, bedside table, study area or vanity for steady personal airflow without taking up much space.
+### USB Rechargeable for Daily Convenience
+No need to depend on disposable batteries. This mini fan supports USB charging, making it easy to recharge from a power bank, laptop, USB adapter, car charger or other USB power source.
+It is a smart cooling accessory for students, office workers, travelers and anyone who wants simple personal comfort during hot weather.
+### Quiet Airflow for Work, Study and Rest
+The fan is designed for comfortable personal cooling without unnecessary noise. Use it while studying, working, reading, resting, watching videos or sleeping nearby.
+• Great for office desks and study tables
+• Useful for bedrooms and bedside use
+• Comfortable for travel and daily carry
+• Perfect for warm rooms and summer days
+### Small Size, Big Everyday Use
+The mini design makes this fan easy to keep in your bag, drawer, car, dorm room or office. It is lightweight enough for daily carry and practical enough to use again and again.
+Whether you need quick cooling during travel, a personal fan for your desk, or a useful summer accessory for outdoor use, this fan is ready whenever heat starts to bother you.
+### Perfect for Home, Office, School and Travel
+This rechargeable mini fan fits easily into many daily situations. Keep one on your work desk, carry one in your bag, or use it beside your bed for personal airflow at night.
+### Best For
+• Students and classroom use
+• Office desks and workstations
+• Travel, commuting and outdoor activities
+• Bedroom, vanity and bedside cooling
+• Gym, walking, camping and summer events
+### Why You Will Love It
+• Mini portable design for easy carrying
+• 3 speed settings for adjustable comfort
+• Works as both handheld and desktop fan
+• USB rechargeable for simple everyday use
+• Quiet airflow for work, study and rest
+• Lightweight body for travel and outdoor use
+• Stylish design for summer cooling anywhere
+### Product Specifications
+• Product Name: Mini USB Rechargeable 3-Speed Handheld and Desktop Fan
+• Fan Type: Portable personal cooling fan
+• Use Modes: Handheld and desktop use
+• Speed Levels: 3 adjustable speeds
+• Charging Type: USB rechargeable
+• Suitable For: Home, office, school, travel and outdoor use
+• Design: Compact, lightweight and portable
+### Your Everyday Summer Cooling Essential
+This Mini USB Rechargeable Fan is a simple but useful upgrade for hot days. It gives you cool airflow when you need it, fits easily into your daily routine and works wherever personal cooling matters most.
+If you want a compact fan that is easy to carry, easy to recharge and comfortable to use on a desk or in your hand, this 3-speed portable fan is a smart choice for everyday comfort.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Whether you are waiting outside, studying in a café, working at your desk, or commuting, the scorching daytime warmth in Saudi Arabia demands an immediate cooling solution. The Zelmiqo BreezeMini packs aerodynamic motor power into an elegant, palm-sized design. Use it handheld on the go, or drop it into its weighted non-slip base on your desk—which doubles as a clever smartphone stand for hands-free video watching.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-سواء كنت في انتظار مشوارك، تدرس في الكافيه، تعمل في مكتبك، أو تتنقل في الهواء الطلق؛ تحتاج دائماً لنسيم بارد يخفف عنك حرارة الجو. تجمع مروحة زيلميكو بريز ميني بين قوة الأداء الحركي وصغر الحجم الفائق لتوضع في حقيبتك أو جيبك بكل سهولة. استخدمها كـ مروحة يدوية أثناء المشي، أو ضعها في قاعدتها الأنيقة على المكتب، والتي تعمل أيضاً كـ ستاند مريح لتثبيت جوالك لمشاهدة الفيديوهات أثناء العمل.
+Product Story & Daily Lifestyle Appeal:
+new english content: Stay refreshed wherever the summer takes you. The Zelmiqo PocketAir packs an aerodynamically contoured 5-blade turbine that channels concentrated, silent cooling air up to 3 meters. Weighing a featherlight 120g, it slips into small handbags or thobe pockets. When you arrive at your office, café, or study table, dock it into the included anti-slip desktop cradle to keep a steady, focused breeze on your face and hands throughout the day.
+new arabic content: حافظ على انتعاشك وحيويتك أينما ذهبت في فصل الصيف. تتميز مروحة زيلميكو بوكيت إير بتصميم توربيني بـ 5 شفرات انسيابية تضخ تيار هواء بارد وقوي يصل لمسافة 3 أمتار بهدوء تام. بوزن خفيف جداً يبلغ 120 جرام، تتسع بسهولة في جيب الثوب أو حقيبة اليد. وعند وصولك لمكتبك أو طاولتك، ضعها على قاعدتها الأنيقة المانعة للانزلاق لتحصل على تبريد مستمر ومريح طوال اليوم.
 ```
 
 ---
@@ -92,104 +143,59 @@ Whether you are waiting outside, studying in a café, working at your desk, or c
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Cool Comfort in Your Hand or on Your Desk
+Stay refreshed wherever you go with this Mini USB Rechargeable 3-Speed Handheld and Desktop Fan. Compact, lightweight and easy to use, it is designed for personal cooling at home, in the office, at school, while traveling, or during outdoor summer days.
+Use it in your hand when you are moving, or place it on a desk for steady airflow while working, stu...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🌪️ 3 Aerodynamic Speed Levels: Gentle breeze, natural flow, and strong gust for swift cooling.
-- 📱 2-in-1 Dual Function Base: Holds the fan stably upright and features an integrated phone dock.
-- 🔋 Long-Lasting Rechargeable Battery: Delivers up to 6 hours of continuous cooling on a single USB charge.
-- 🔇 Whisper-Silent Acoustic Motor: Operates under 30dB, making it courteous for quiet offices and classrooms.
-- 🪶 Featherlight & Handbag-Friendly: Weighs under 150g, perfect for daily commutes, travel, and outdoor events.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 💨 3 Precision Speed Gears: Gentle breeze for indoors, Medium for daily walking, Turbo for outdoor heat.
+• 🔄 2-in-1 Dual Functionality: Ergonomic handheld grip plus detachable weighted desktop stand.
+• 🔋 High-Density 2000mAh Battery: Delivers up to 8 hours of continuous cordless cooling per charge.
+• 🤫 Whisper-Quiet Brushless Motor: Operates under 28dB, discreet for offices, mosques, and quiet lectures.
+• 🔌 USB Rechargeable: Charges quickly from standard phone chargers, laptops, or portable power banks.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🌪️ 3 سرعات تبريد ديناميكية: نسيم هادئ للنوم، تدفق طبيعي، وهواء قوي ومنعش لأوقات الحر الشديد.
-- 📱 قاعدة مكتبية ذكية 2 في 1: تثبت المروحة بثبات وتحتوي على مسند ذكي لحمل الجوال ومتابعة مسلسلاتك ومكالماتك.
-- 🔋 بطارية ليثيوم طويلة الأمد: تدوم حتى 6 ساعات من العمل المتواصل بشحنة USB واحدة.
-- 🔇 صوت هادئ للغاية كحفيف الشجر: مستوى صوت منخفض جداً (< 30 ديسبل) مناسب للمكاتب الهادئة وقاعات الدراسة.
-- 🪶 وزن فائق الخفة ومثالي للحقيبة: وزنها أقل من 150 جرام، خفيفة وسهلة الحمل أينما ذهبت.
+new arabic content:
+• 💨 3 سرعات تبريد معايرة: نسيم هادئ للاستخدام المكتبي، متوسط للمشي، وتوربو قوي للأجواء الخارجية الحارة.
+• 🔄 استخدام مزدوج 2 في 1: مقبض مريح لليد مع قاعدة مكتبية ثابتة ومانعة للانزلاق.
+• 🔋 بطارية ليثيوم 2000 مللي أمبير: تدوم حتى 8 ساعات من التشغيل المتواصل بالشحنة الواحدة.
+• 🤫 محرك هادئ فائق الهدوء: يعمل بصوت خافت أقل من 28 ديسيبل يناسب المكاتب، المساجد، وقاعات المحاضرات.
+• 🔌 شحن USB مريح: يتوافق مع بنك الطاقة وشواحن الجوال وشاحن السيارة أينما كنت.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Battery: 1200mAh Lithium Rechargeable
-- Charging Port: Standard Micro-USB / Type-C (Cable Included)
-- Runtime: 2.5 to 6 Hours (depending on speed setting)
-- Blades: 4 Aero-Engine Turbine Blades
-- Weight: 145g (including desktop base)
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- البطارية: ليثيوم 1200 مللي أمبير قابلة للشحن
-- منفذ الشحن: USB مع كابل شحن مرفق
-- وقت التشغيل: من 2.5 إلى 6 ساعات بحسب السرعة المختارة
-- الشفرات: 4 شفرات توربينية انسيابية تدفع الهواء لمسافات أبعد
-- الوزن: 145 جرام خفيفة الوزن ومريحة لقبضة اليد
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 30.50 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 30.50 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Battery: 2000mAh | Speeds: 3 | Runtime: 3-8 Hours | Weight: 120g | Charging: Micro-USB / Type-C
+new arabic content: البطارية: 2000 مللي أمبير | السرعات: 3 سرعات | وقت التشغيل: 3-8 ساعات | الوزن: 120 جرام
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Can I use it while it's charging?
-**Answer (English)**:
-Yes! You can plug it into a laptop or power bank and enjoy continuous cooling while it recharges.
-
-**السؤال 1**: هل يمكن تشغيلها أثناء الشحن؟  
-**الإجابة (بالعربية)**:  
-نعم بالتأكيد! يمكنك وصلها باللابتوب أو البوربانك وتشغيلها بشكل مستمر وهي تشحن.
-
-### FAQ 2: Does the base stay stable on smooth desks?
-**Answer (English)**:
-Yes, the base is equipped with non-slip silicone pads on the bottom to prevent vibration or tipping.
-
-**السؤال 2**: هل القاعدة ثابتة ولا تنزلق من المكتب؟  
-**الإجابة (بالعربية)**:  
-نعم، القاعدة مزودة بقطع سيليكون مانعة للانزلاق لضمان ثباتها التام على الأسطح الملساء والزجاجية.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-mini-usb-rechargeable-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan).
-
-### Primary Hero / Showcase Images:
-- [`mini-usb-rechargeable-fan-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/mini-usb-rechargeable-fan-main_1000x1000.svg)
-- [`mini-usb-rechargeable-fan-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/mini-usb-rechargeable-fan-main_120x120.svg)
-- [`mini-usb-rechargeable-fan-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/webp/mini-usb-rechargeable-fan-main_140x140.webp)
-- [`mini-usb-rechargeable-fan-main_1700x1700.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/webp/mini-usb-rechargeable-fan-main_1700x1700.webp)
-- [`mini-usb-rechargeable-fan-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/webp/mini-usb-rechargeable-fan-main_200x200.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616-02_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616-03_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616-04_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616-05_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/svg/3-in-1-portable-air-cooler-fan-gallery-361616_1000x1000.svg)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/webp/3-in-1-portable-air-cooler-fan-gallery-361616-02_140x140.webp)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-02_70x70.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/webp/3-in-1-portable-air-cooler-fan-gallery-361616-02_70x70.webp)
-- [`3-in-1-portable-air-cooler-fan-gallery-361616-02_850x850.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan/webp/3-in-1-portable-air-cooler-fan-gallery-361616-02_850x850.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `51 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-mini-usb-rechargeable-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

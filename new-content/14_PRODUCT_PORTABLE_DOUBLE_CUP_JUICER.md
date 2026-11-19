@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo DuoCup Portable Double-Cup Blender & Smoothie Maker with Drinking Lids
+# 📦 Zelmiqo DuoBlend 2-in-1 Dual-Cup Rechargeable Portable Juicer & Smoothie Blender
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-13`  
-> **Original URL**: `https://zelmiqo.com/products/portable-rechargeable-double-cup-juicer-blender`  
-> **Category**: 🥤 Kitchen & Healthy Nutrition  
+> **Live Site URL**: `https://zelmiqo.com/products/portable-rechargeable-double-cup-juicer-blender`  
+> **Category**: 🥤 Nutrition & Healthy Living  
 > **Price**: **SAR 172.00** *(Or 4 monthly interest-free payments of **SAR 43.00** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-portable-double-cup-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: Portable Rechargeable Double Cup Juicer for Fresh Fruit Milkshakes
+Price: SAR 172.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo DuoCup Portable Double-Cup Blender & Smoothie Maker with Drinking Lids
+Headline:
+new english content: Zelmiqo DuoBlend 2-in-1 Dual-Cup Rechargeable Portable Juicer & Smoothie Blender
+new arabic content: خلاط العصائر المحمول اللاسلكي 2 في 1 مع كوبين رياضيين مانعين للتسرب من زيلميكو
 
-Hero Subheadline:
-Blend One, Save One. Two Detachable BPA-Free Cups for Couples, Gym Enthusiasts & Busy Lifestyles.
-```
+Subheadline:
+new english content: Includes 2 Interchangeable To-Go Cups. Blend at Home, Drink in Your Car or Gym Without Washing Twice.
+new arabic content: يشمل كوبين رياضيين متبادلين. اخلط عصيرك في ثوانٍ، وانطلق به للسيارة أو النادي الرياضي دون عناء الغسيل.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-خلاط العصائر المحمول بنظام الكوبين المزدوجين DuoCup والشحن اللاسلكي من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-كوب لك وكوب لمن تحب. نظام الكوبين المزدوجين لعشاق النادي، المشروبات الصحية، والأزواج أثناء التنقل.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,70 @@ Blend One, Save One. Two Detachable BPA-Free Cups for Couples, Gym Enthusiasts &
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Fresh Juice and Smoothies Wherever You Go
+Enjoy fresh homemade drinks with the Portable Rechargeable Double Cup Juicer. Designed for fruit juice, smoothies, and milkshakes, this compact electric blender gives you a convenient way to prepare refreshing drinks at home, in the office, while traveling, or during outdoor activities.
+### Portable Double-Cup Design
+The convenient cup design makes it easy to blend and enjoy your drink in the same container. Its compact size is simple to store in the kitchen and easy to carry in a travel bag, making it a practical choice for busy lifestyles and everyday refreshment.
+### Suitable for Juice, Smoothies, and Milkshakes
+Prepare refreshing drinks using soft fruits, berries, and other suitable ingredients. Blend fruit for breakfast, create a smoothie after exercise, or make a milkshake whenever you want a quick homemade treat.
+### Powerful Stainless Steel Blades
+The built-in stainless steel blade system is designed to mix suitable ingredients efficiently. For smoother blending, cut fruit into small pieces, remove hard seeds and pits, and avoid overfilling the cup.
+### Simple One-Button Operation
+Using the juicer is easy and convenient. Add your prepared ingredients, secure the lid tightly, press the control button, and allow the blender to mix. Its straightforward operation is suitable for quick drinks at home, work, or on the go.
+### Rechargeable Cordless Convenience
+Recharge the built-in battery using a suitable USB power source and enjoy cordless blending without being connected to a wall outlet during use. This makes the portable juicer useful for kitchens, offices, picnics, travel, camping, and outdoor refreshment.
+### Easy to Carry and Store
+The lightweight portable design fits neatly into a backpack, travel bag, or kitchen cabinet. Take it with you when you want to prepare fresh fruit drinks away from traditional kitchen appliances.
+### Easy Cleaning After Every Use
+The smooth plastic cup and removable drink components are designed for convenient cleaning. Rinse the cup and lid after use, carefully clean around the blade area, and allow all parts to dry before storing.
+### Perfect for Everyday Refreshment
+• Fresh fruit juice for breakfast
+• Fruit smoothies after exercise
+• Milkshakes for family treats
+• Refreshing drinks at the office
+• Travel and outdoor activities
+• Picnics, camping, and road trips
+### How to Use the Portable Juicer
+• Charge the juicer fully before first use.
+• Wash and cut fruit into small pieces.
+• Place the ingredients into the cup without overfilling it.
+• Add a suitable amount of liquid if needed.
+• Secure the lid tightly before starting.
+• Press the power button to begin blending.
+• Gently shake the unit if the ingredients need help moving.
+• Turn off the juicer and clean it after use.
+### Important Usage Instructions
+• Do not use the juicer while it is charging.
+• Make sure the lid and cup are securely attached before operation.
+• Do not operate the motor without the cup and lid properly installed.
+• Cut large fruit pieces into smaller portions before blending.
+• Do not fill the cup completely, as ingredients need room to move.
+• Do not place hard pits, bones, or very hard ingredients inside.
+• Keep the motor and charging port away from water.
+### Product Highlights
+• Portable electric fruit juicer and blender
+• Rechargeable cordless design
+• Convenient double-cup construction
+• Suitable for juice, smoothies, and milkshakes
+• Built-in stainless steel blades
+• Compact design for travel and daily use
+• Simple one-button operation
+• Easy-to-clean cup and lid
+• Ideal for home, office, travel, and outdoor use
+### Package Includes
+• 1 x Portable Rechargeable Juicer
+• 1 x Cup and Lid
+• 1 x USB Charging Cable
+• 1 x User Guide
+### Make Your Favourite Drinks in Minutes
+From fresh fruit juice and breakfast smoothies to creamy milkshakes, the Portable Rechargeable Double Cup Juicer makes drink preparation simple and convenient. Its compact size, cordless operation, stainless steel blades, and easy-clean design make it a useful addition to any modern kitchen and travel routine.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Why limit your fresh drinks to just one serving? The Zelmiqo DuoCup comes with two detachable, food-grade travel cups and direct sipping sports lids. Blend your morning protein shake in cup one, swap on cup two to prepare a fresh strawberry juice for your partner or children, and take them both on the road. Powerful motor blades blitz through fruit chunks and soft ice effortlessly.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-لماذا تكتفي بكوب عصير واحد بينما يمكنك تحضير كوبين طازجين في دقيقة واحدة؟ يأتي خلاط زيلميكو دو كوب مع كوبين مستقلين ومصنوعين من مواد آمنة غذائياً مع أغطية شرب رياضية محكمة الإغلاق. اخلط مخفوق البروتين الخاص بك في الكوب الأول، ثم بدّل للكوب الثاني لتحضير عصير فواكه طازج لشريكة حياتك أو أطفالك واصطحبهما معك للعمل أو النادي بكل فخامة.
+Product Story & Daily Lifestyle Appeal:
+new english content: Why dirty big kitchen appliances for a single glass of juice? The Zelmiqo DuoBlend comes equipped with two high-grade portable drinking tumblers and travel flip-top lids. Blend your morning detox juice or post-workout protein shake in the first cup, swap it with the spare cup for family members, and head out. Its high-torque motor blends frozen fruits, milkshakes, and cold coffee drinks to silky perfection in 30 seconds.
+new arabic content: لماذا تستخدم خلاطات المطبخ الكبيرة والمعقدة من أجل كوب عصير واحد؟ يأتي خلاط زيلميكو ديو بليند مزوداً بكوبين رياضيين متبادلين وأغطية محكمة مانعة للتسرب مع حزام حمل أنيق. اخلط مشروب الطاقة الصباحي أو البروتين في الكوب الأول، واحتفظ بالثاني لمشروب آخر أو لأفراد عائلتك. محركه القوي يسحق الفواكه الطازجة والمجمدة وحبات الثلج ليمنحك قواماً مخملياً رائعاً في 30 ثانية فقط.
 ```
 
 ---
@@ -92,102 +147,60 @@ Why limit your fresh drinks to just one serving? The Zelmiqo DuoCup comes with t
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Fresh Juice and Smoothies Wherever You Go
+Enjoy fresh homemade drinks with the Portable Rechargeable Double Cup Juicer. Designed for fruit juice, smoothies, and milkshakes, this compact electric blender gives you a convenient way to prepare refreshing drinks at home, in the office, while traveling, or during outdoor activities.
+### Portable Double-Cup Design
+The convenient cup design makes it ...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🥤 2-in-1 Dual Cup Swappable System: Includes two independent travel cups with leak-proof drinking lids.
-- ⚡️ High-Torque Cyclone Blades: Pulverizes berries, bananas, dates, and ice into silky-smooth drinks in 40 seconds.
-- 🔒 Dual Safety Induction Switch: Operates only when a cup is properly locked into alignment.
-- 🔋 Large Rechargeable Battery: Delivers up to 15 blends per single charge via USB.
-- 🌿 100% Food-Grade BPA-Free Material: Eco-friendly, shatter-resistant, and dishwasher-safe cups.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• 🥤 Dual Interchangeable Travel Cups: Includes two matching BPA-free tumblers with leakproof flip lids.
+• ⚡️ High-RPM Cyclone Motor: Easily pulverizes dates, bananas, frozen berries, and crushed ice.
+• 🔒 Dual-Click Safety Switch: Prevents accidental startup inside gym bags or car cup holders.
+• 🔋 Extended Battery Pack: Up to 20 cycles on a single charge with universal USB-C cable.
+• 🧼 Effortless Water Rinsing: Detachable motor base allows quick under-tap cleaning.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🥤 نظام الكوبين المزدوجين: يحتوي على كوبين منفصلين مع أغطية شرب مانعة للتسريب بنسبة 100%.
-- ⚡️ شفرات إعصارية حادة وعالية العزم: تخلط الفواكه، التمر، والمكسرات والثلج في 40 ثانية فقط.
-- 🔒 قفل أمان ذكي بالحث المغناطيسي: حماية تامة تمنع تشغيل الشفرات إلا عند تركيب الكوب بإحكام.
-- 🔋 بطارية قوية قابلة لإعادة الشحن: تكفي حتى 15 خلطة متتالية بشحنة USB واحدة.
-- 🌿 خامات صحية خالية من BPA: كؤوس متينة ومقاومة للصدمات وسهلة الغسيل.
+new arabic content:
+• 🥤 كوبان رياضيان متبادلان BPA-Free: كوبان صحيان ضد الكسر مع أغطية محكمة للشرب المباشر والسهل.
+• ⚡️ محرك إعصاري عالي العزم: يخلط التمر، الموز، الفواكه المجمدة، والثلج المجروش بنعومة وسرعة فائقة.
+• 🔒 زر تشغيل ذكي بنقرتين: يمنع التشغيل المفاجئ داخل حقيبة الجيم أو السيارة.
+• 🔋 بطارية ذات سعة مضاعفة: تمنحك حتى 20 عملية خلط متتالية بالشحنة الواحدة عبر منفذ USB-C.
+• 🧼 سهولة تامة في التنظيف: قاعدة المحرك قابلة للفصل لغسل الكوب بالماء والصابون بثوانٍ معدودة.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Cups Included: 2x Detachable 350ml Travel Cups + Sports Drinking Lid
-- Blades: 3D Stainless Steel Crushing Assembly
-- Battery: 3000mAh Lithium Rechargeable
-- Weight: 450g Total Modular Weight
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- الملحقات: كوبان منفصلان سعة 350 مل + غطاء شرب رياضي محكم + كابل شحن USB
-- الشفرات: ستانلس ستيل معالج ومقاوم للأحماض والصدأ
-- البطارية: 3000 مللي أمبير طويلة الأمد
-- الوزن: 450 جرام فقط بتصميم يسهل حمله وتخزينه
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 43.00 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 43.00 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Includes: 1x Blender Base, 2x Travel Tumblers, 2x Drink Lids | Power: High-Torque DC Motor | USB-C
+new arabic content: المحتويات: قاعدة الخلاط، كوبين رياضيين للشرب، غطاءين مانعين للتسرب | المحرك: عالي العزم | شحن Type-C
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Do both cups come with drinking lids?
-**Answer (English)**:
-Yes! You can seal both cups and take them with you or store one in the fridge.
-
-**السؤال 1**: هل يأتي مع غطاء شرب لكلا الكوبين؟  
-**الإجابة (بالعربية)**:  
-نعم، يمكنك إغلاق الكوبين وحفظ أحدهما في الثلاجة واصطحاب الآخر معك فوراً.
-
-### FAQ 2: Is it safe to wash in the dishwasher?
-**Answer (English)**:
-The cups and lids are 100% dishwasher safe (keep the motorized base hand-washed).
-
-**السؤال 2**: هل يمكن وضع الكوب في غسالة الصحون؟  
-**الإجابة (بالعربية)**:  
-نعم، الكؤوس والأغطية آمنة في غسالة الصحون، بينما تُمسح القاعدة التي تحتوي على المحرك يدوياً.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-portable-double-cup-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer).
-
-### Primary Hero / Showcase Images:
-- [`portable-double-cup-juicer-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-double-cup-juicer-main_1000x1000.svg)
-- [`portable-double-cup-juicer-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-double-cup-juicer-main_120x120.svg)
-- [`portable-double-cup-juicer-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/webp/portable-double-cup-juicer-main_140x140.webp)
-- [`portable-double-cup-juicer-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/webp/portable-double-cup-juicer-main_200x200.webp)
-- [`portable-double-cup-juicer-main_600x315.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/webp/portable-double-cup-juicer-main_600x315.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`portable-6-blade-juicer-cup-gallery-369763-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-6-blade-juicer-cup-gallery-369763-02_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-369763-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-6-blade-juicer-cup-gallery-369763-03_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-369763-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-6-blade-juicer-cup-gallery-369763-04_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-369763-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-6-blade-juicer-cup-gallery-369763-05_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-369763_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/svg/portable-6-blade-juicer-cup-gallery-369763_1000x1000.svg)
-- [`portable-6-blade-juicer-cup-gallery-369763-02_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/webp/portable-6-blade-juicer-cup-gallery-369763-02_140x140.webp)
-- [`portable-6-blade-juicer-cup-gallery-369763-02_70x70.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/webp/portable-6-blade-juicer-cup-gallery-369763-02_70x70.webp)
-- [`portable-6-blade-juicer-cup-gallery-369763-02_850x850.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer/webp/portable-6-blade-juicer-cup-gallery-369763-02_850x850.webp)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `31 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-portable-double-cup-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-double-cup-juicer)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.

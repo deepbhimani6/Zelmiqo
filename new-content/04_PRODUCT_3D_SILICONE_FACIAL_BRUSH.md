@@ -30,14 +30,14 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Zelmiqo DermaGlow 3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager
+# 📦 Zelmiqo PureSonic 3D Dual-Action Silicone Facial Cleansing Brush & Pore Clarifier
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Catalog ID**: `PRD-03`  
-> **Original URL**: `https://zelmiqo.com/products/3d-double-sided-silicone-facial-cleansing-brush`  
-> **Category**: 💆‍♀️ Beauty & Skin Care  
+> **Live Site URL**: `https://zelmiqo.com/products/3d-double-sided-silicone-facial-cleansing-brush`  
+> **Category**: 💆‍♀️ Skincare & Personal Care  
 > **Price**: **SAR 121.00** *(Or 4 monthly interest-free payments of **SAR 30.25** with Tabby / Tamara)*  
-> **Active Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) with Express Domestic Fulfillment  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
 > **Primary Image Directory**: [`images/product-3d-silicone-cleansing-brush/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush)
 
 ---
@@ -47,24 +47,26 @@
 ### Old English Content
 ```text
 Title: 3D Double-Sided Silicone Facial Cleansing Brush
+Price: SAR 121.00
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Zelmiqo DermaGlow 3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager
+Headline:
+new english content: Zelmiqo PureSonic 3D Dual-Action Silicone Facial Cleansing Brush & Pore Clarifier
+new arabic content: فرشاة تنظيف وتقشير الوجه المصنوعة من السيليكون الطبي مزدوجة الأوجه 3D من زيلميكو
 
-Hero Subheadline:
-Deep Pore Purification & Radiant Skin. The Gentle Daily Cleanser That Removes 99.5% of Dirt, Oil & Makeup.
-```
+Subheadline:
+new english content: Deep Pore Clarification & Velvet Smooth Skin. Removes Desert Dust, Makeup & Impurities Gently.
+new arabic content: تنظيف عميق للمسام وبشرة مخملية نضرة. تزيل ذرات الغبار وآثار المكياج والشوائب بمنتهى اللطف والأمان.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان باللغة العربية:
-فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D مزدوجة الوجهين من زيلميكو
+Call to Action (Primary): Explore Flagship Collection & Buy
+new english content: Add to Bag • Express Dispatch in KSA
+new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-الشعار التسويقي البارز:
-تنظيف عميق للمسام وبشرة تشع نضارة وحيوية. تزيل 99.5% من الأتربة، الدهون، وبقايا المكياج بلطف فائق.
+Call to Action (Secondary - Installments):
+new english content: Split in 4 with Tabby & Tamara (Zero Interest)
+new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
 ```
 
 ---
@@ -73,17 +75,65 @@ Deep Pore Purification & Radiant Skin. The Gentle Daily Cleanser That Removes 99
 
 ### Old English Content
 ```text
-- window['Journal'] = {"isPopup":false,"isPhone":false,"isTablet":false,"isDesktop":true,"filterScrollTop":false,"filterUrlValuesSeparator":",","countdownDay":"Day","countdownHour":"Hour","countdownMin":"Min","countdownSec":"Sec","globalPageColumnLeftTabletStatus":false,"globalPageColumnRightTabletStatus":false,"scrollTop":true,"scrollToTop":false,"notificationHideAfter":"3000","quickviewPageStyleCloudZoomStatus":true,"quickviewPageStyleAdditionalImagesCarousel":true,"quickviewPageStyleAdditionalImagesCarouselStyleSpeed":"500","quickviewPageStyleAdditionalImagesCarouselStyleAutoPlay":true,"qui...
+### Deep Clean, Gentle Massage & Fresh-Looking Skin
+Upgrade your daily skincare routine with this 3D Double-Sided Silicone Facial Cleansing Brush. Designed for gentle face washing, pore cleansing, exfoliating and facial massage, it helps your skin feel cleaner, smoother and more refreshed after every use.
+The soft silicone bristles work gently on the skin while helping remove dirt, oil, makeup residue and buildup from the pores. It is a simple manual skincare tool that makes face cleansing feel cleaner, easier and more relaxing.
+### Double-Sided Design for Better Skincare
+This face brush is designed with two useful sides, giving you more control during your skincare routine. One side helps create a rich foam and clean the skin gently, while the other side supports facial massage and better product absorption.
+### Soft Bristle Cleansing Side
+The soft bristle side helps cleanse pores deeply without feeling harsh. It is perfect for daily face wash, removing excess oil and keeping the skin fresh.
+### Massage Side for Relaxing Care
+The massage side helps relax the skin, improve the feeling of circulation and support better absorption of skincare products such as cleanser, serum, cream or facial oil.
+### Gentle Exfoliation for Smooth Skin
+Daily dirt, sweat and oil can make the skin look dull. This silicone face exfoliator helps lift away buildup and dead skin cells gently, leaving your face feeling soft, clean and refreshed.
+Use it with your favorite cleanser to create foam and cleanse more effectively than washing by hand alone.
+### Comfortable Handle, Easy to Use
+The ergonomic handle is designed to fit comfortably in your hand. The brush is easy to hold, easy to control and simple to use during your morning or night skincare routine.
+• Easy grip handle for better control
+• Manual use with no battery required
+• Lightweight and portable design
+• Suitable for home, travel and daily skincare
+### Helps Clean Pores & Reduce Blackhead Buildup
+The soft silicone texture helps clean around the nose, forehead, chin and cheeks where oil and buildup often collect. With regular use, it supports a cleaner-looking complexion and helps prevent pore congestion.
+It is ideal for anyone who wants a simple skincare tool for deep cleansing without using a harsh scrub.
+### Soft Silicone for Daily Face Washing
+Made with silicone and plastic, this brush is gentle, practical and easy to clean after use. The soft bristles are suitable for regular skincare routines and help make cleansing more effective while still feeling comfortable on the skin.
+### Best For
+• Daily face cleansing
+• Gentle exfoliation
+• Pore cleaning
+• Blackhead buildup care
+• Facial massage
+• Improving skincare product absorption
+### Perfect for Morning & Night Skincare
+Use this facial cleansing brush in the morning to refresh your skin or at night to remove the day’s buildup. It pairs well with facial cleanser, cleansing foam, gel cleanser and other skincare products.
+The manual design makes it simple, quiet and travel-friendly. No charging, no batteries and no complicated setup.
+### Why You Will Love It
+• Double-sided brush for cleansing and massage
+• Soft bristles help clean pores gently
+• Helps remove oil, dirt and makeup residue
+• Supports smoother and fresher-looking skin
+• Comfortable handle with easy grip design
+• Simple manual use with no battery needed
+• Great for home, bathroom, gym bag and travel
+### Product Specifications
+• Product Name: 3D Double-Sided Silicone Facial Cleansing Brush
+• Material: Silicone and plastic
+• Color Options: Pink and blue
+• Size: 13 x 6 cm
+• Use: Facial cleansing, exfoliating and massage
+• Power: Manual, no battery required
+• Package Includes: 1 facial cleansing brush
+### A Small Tool That Makes Cleansing Feel Better
+This 3D silicone facial cleansing brush is a smart addition to any skincare routine. It helps you cleanse deeper, massage gently and keep your skin feeling fresh with less effort.
+If you want smoother-feeling skin, cleaner pores and a more relaxing face wash routine, this double-sided face brush is an easy everyday choice.
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Dust storms, harsh sunlight, and daily humidity in Saudi Arabia often lead to clogged pores, excess sebum, and dull skin. The Zelmiqo DermaGlow 3D Silicone Brush provides clinical-grade deep facial cleansing without abrasive bristles. Featuring dual textures—ultra-fine soft bristles on one side for gentle daily exfoliation, and silicone massage nodes on the other to stimulate blood circulation and enhance skincare absorption—it is your daily ticket to spa-level glowing skin.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-تتعرض البشرة في أجواء المملكة لعوامل الطقس الصيفية من غبار وجفاف ورطوبة، مما يسد المسام ويزيد من إفراز الدهون. صُممت فرشاة زيلميكو ديرما جلو 3D لتمنحك تنظيفاً عميقاً فائق النعومة بدون التسبب في أي تهيج للبشرة. تتميز بتصميم مزدوج؛ شعيرات فائقة الدقة في الأمام لتنقية المسام والتخلص من الرؤوس السوداء، ونقاط تدليك سيليكونية في الخلف لتعزيز الدورة الدموية ومساعدة بشرتك على امتصاص السيروم والكريمات بفاعلية مضاعفة.
+Product Story & Daily Lifestyle Appeal:
+new english content: Exposure to outdoor dust, makeup, and humidity creates stubborn sebum and clogged pores. The Zelmiqo PureSonic 3D dual-sided brush features ultra-soft food-grade silicone bristles on one side for gentle foaming exfoliation, and fine micro-bristles on the reverse for deep pore extraction. Ergonomically shaped to stand upright on vanity counters, it prevents bacterial contamination and delivers a revitalizing spa-quality facial cleanse every morning and evening.
+new arabic content: يؤدي التعرض المستمر للغبار، حرارة الجو، والمكياج إلى انسداد المسام وتراكم الدهون على البشرة. تتميز فرشاة زيلميكو بيور سونيك 3D بتصميم ذكي مزدوج الأوجه: وجه بشعيرات سيليكون طبية ناعمة جداً لتقشير لطيف وتدليك يحفز الدورة الدموية، ووجه آخر بشعيرات دقيقة للتنظيف العميق وإزالة الرؤوس السوداء. تصميمها الثابت والقائم يضمن جفافها السريع ويمنع تراكم البكتيريا على طاولة الحمام.
 ```
 
 ---
@@ -92,104 +142,59 @@ Dust storms, harsh sunlight, and daily humidity in Saudi Arabia often lead to cl
 
 ### Old English Content
 ```text
-Standard bullet points from previous store listing.
+### Deep Clean, Gentle Massage & Fresh-Looking Skin
+Upgrade your daily skincare routine with this 3D Double-Sided Silicone Facial Cleansing Brush. Designed for gentle face washing, pore cleansing, exfoliating and facial massage, it helps your skin feel cleaner, smoother and more refreshed after every use.
+The soft silicone bristles work gently on the skin while helping remove dirt, oil, makeup res...
 ```
 
-### New English Content (Global Luxury Standards • Attractive for Saudi Arabia)
-- 🌸 Food-Grade Hygienic Silicone: 35x more hygienic than traditional nylon brushes; antibacterial and easy to rinse.
-- ✨ Dual-Sided Skincare Versatility: Fine cleansing bristles on front; lifting massage ridges on back for facial contouring.
-- 🧖‍♀️ Deep Exfoliation Without Irritation: Gently sweeps away dead skin cells, sunscreen residue, and stubborn makeup.
-- 💧 100% Waterproof & Ergonomic Grip: Safe for shower use with an easy-to-hold curved handle designed for reaching nose crevices.
-- 👜 Compact Travel-Ready Design: No batteries or charging cables needed; ready for your gym bag, vanity, or travel pouch.
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Strategic Key Features:
+new english content:
+• ✨ 3D Dual-Texture Head: Soft silicone nodes for massaging on front; dense micro-fiber bristles on back.
+• 🛡️ 100% Medical-Grade Antibacterial Silicone: 35x more hygienic than standard nylon facial brushes.
+• 🧴 Deep Foam Generation: Creates rich cleansing lather with minimal cleanser usage.
+• 💧 Ergonomic Self-Standing Base: Dries naturally without touching dirty surfaces.
+• ✈️ Non-Electric & Travel Friendly: Zero charging needed, perfect for daily gym bags and weekend getaways.
 
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- 🌸 سيليكون طبي نقي مضاد للبكتيريا: أكثر صحة بمقدار 35 مرة من الفُرش العادية وسهل التنظيف والتجفيف بالكامل.
-- ✨ تصميم مزدوج الوجهين: جانب بشعيرات فائقة النعومة لتنظيف المسام، وجانب لتدليك وشد عضلات الوجه وتحفيز الكولاجين.
-- 🧖‍♀️ تقشير لطيف بدون تهيج: يزيل خلايا الجلد الميتة، بقايا واقي الشمس، ومستحضرات التجميل بلطف حتى للبشرة الحساسة.
-- 💧 مقاومة للماء 100% بمقبض مريح: مناسبة للاستخدام أثناء الاستحمام مع قبضة مريحة تصل لزوايا الأنف والذقن بسهولة.
-- 👜 مثالية للسفر والحقيبة: لا تحتاج إلى شحن أو بطاريات، خفيفة وعملية يمكنك اصطحابها للنادي أو الرحلات.
+new arabic content:
+• ✨ رأس مزدوج بتقنية 3D: حبيبات سيليكون ناعمة للمساج، وشعيرات فائقة النعومة لتنظيف المسام والزيوت.
+• 🛡️ سيليكون طبي نقي 100% مقاوم للبكتيريا: أكثر نظافة وصحة بـ 35 مرة من الفرش التقليدية.
+• 🧴 رغوة غنية وتنظيف اقتصادي: تمنحك رغوة كثيفة بأقل كمية من غسول الوجه المفضل لديك.
+• 💧 قاعدة ذاتية الوقوف: تجف بسرعة في الهواء دون ملامسة الأسطح للحفاظ على أعلى مستويات النظافة.
+• ✈️ سهلة الحمل وبدون شحن: لا تحتاج لبطاريات أو أسلاك، مثالية لحقيبة النادي والسفر والرحلات.
+```
 
 ---
 
 ## 4. Technical Specifications & Box Contents (المواصفات الفنية ومحتويات الصندوق)
 
-### New English Content
-- Material: 100% Medical-Grade Antibacterial Silicone + Ergonomic ABS Core
-- Dimensions: 13cm x 5.5cm x 4cm (Curved Palm Grip)
-- Waterproof Rating: IPX7 Washable
-- Skin Types: Suitable for sensitive, oily, combination, and normal skin
-- Maintenance: Rinse with warm water and air dry
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-- الخامة: سيليكون طبي عالي المرونة ومضاد للبكتيريا 100%
-- الأبعاد: 13 سم × 5.5 سم بقبضة مقوسة لراحة اليد
-- مقاومة الماء: مقاومة للماء بالكامل وسهلة الغسيل
-- نوع البشرة: مناسبة لجميع أنواع البشرة (الحساسة، الدهنية، والمختلطة)
-- طريقة العناية: تُشطف بالماء وتُترك لتجف في ثوانٍ
-
----
-
-## 5. Saudi Trust & Purchase Triggers (عوامل الثقة والحوافز للعميل السعودي)
-
-### New English Content
+### Old English Content
 ```text
-💳 Split into 4 Payments: Only SAR 30.25 per month with 0% interest via Tabby or Tamara.
-🚚 Express KSA Shipping: 24-48 hours in Riyadh & Jeddah | 2-4 days across all Saudi provinces.
-💵 Cash on Delivery (COD): Available at checkout across all cities.
-🛡️ Golden Guarantee: 14-day hassle-free replacement or return + 1-Year device warranty.
+Care and Safety Notes & Package details from live product page.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-💳 قسّم فاتورتك على 4 دفعات: ادفع فقط 30.25 ر.س شهرياً بدون فوائد عبر تابي أو تمارا.
-🚚 شحن وتوصيل سريع: خلال 24-48 ساعة بالرياض وجدة | 2-4 أيام لكافة مدن ومحافظات المملكة.
-💵 الدفع عند الاستلام متاح: تسوق بكل أمان وادفع عند استلام شحنتك.
-🛡️ الضمان الذهبي: استرجاع واستبدال مرن وسريع خلال 14 يوماً + ضمان لمدة عام كامل ضد العيوب المصنعية.
+Technical Specifications:
+new english content: Material: Food-Grade Silicone + ABS | Waterproof: 100% Washable | Weight: 95g
+new arabic content: الخامة: سيليكون طبي معتمد + ABS | مقاومة الماء: قابلة للغسل بالكامل 100% | الوزن: 95 جرام
+
+Box Contents & Guarantee:
+new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+
+Regional Warranty & Assurance:
+new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---
 
-## 6. Frequently Asked Questions (الأسئلة الشائعة حول المنتج)
+## 5. Visual Asset Mapping (مكتبة الصور المعتمدة للمنتج)
 
-### FAQ 1: Is it gentle enough for sensitive, acne-prone skin?
-**Answer (English)**:
-Yes! The rounded silicone micro-bristles glide smoothly without causing micro-tears or redness, making it ideal for daily cleansing.
-
-**السؤال 1**: هل تناسب البشرة الحساسة والمعرضة لحب الشباب؟  
-**الإجابة (بالعربية)**:  
-نعم بالتأكيد؛ شعيرات السيليكون دائرية وناعمة جداً لا تسبب أي خدوش أو احمرار، وتساعد في تنظيف البكتيريا المسببة للحبوب.
-
-### FAQ 2: Does it require batteries?
-**Answer (English)**:
-No batteries required! It offers manual precision control so you can apply the exact gentle pressure you desire.
-
-**السؤال 2**: هل تحتاج إلى بطاريات أو شحن؟  
-**الإجابة (بالعربية)**:  
-لا تحتاج لأي شحن أو بطاريات؛ تمنحك تحكماً يدوياً دقيقاً في الضغط والتدليك وتدوم معك لسنوات.
-
----
-
-## 7. Recommended Images & Visual Mapping (الصور المعتمدة ومساراتها)
-
-> All images below reside in the deduplicated project repository at [`images/product-3d-silicone-cleansing-brush/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush).
-
-### Primary Hero / Showcase Images:
-- [`3d-silicone-cleansing-brush-main_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-main_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-main_120x120.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-main_120x120.svg)
-- [`3d-silicone-cleansing-brush-main_140x140.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/webp/3d-silicone-cleansing-brush-main_140x140.webp)
-- [`3d-silicone-cleansing-brush-main_200x200.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/webp/3d-silicone-cleansing-brush-main_200x200.webp)
-- [`3d-silicone-cleansing-brush-main_600x315.webp`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/webp/3d-silicone-cleansing-brush-main_600x315.webp)
-
-### Detailed Infographic & Gallery Angles:
-- [`3d-silicone-cleansing-brush-gallery-369042-02_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369042-02_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369042-03_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369042-03_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369042-04_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369042-04_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369042-05_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369042-05_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369042_1000x1000.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369042_1000x1000.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043_450x450.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369043_450x450.svg)
-- [`3d-silicone-cleansing-brush-gallery-369043_900x900.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369043_900x900.svg)
-- [`3d-silicone-cleansing-brush-gallery-369342_450x450.svg`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush/svg/3d-silicone-cleansing-brush-gallery-369342_450x450.svg)
-
-### Total Cleaned Assets Available for this Product:
-- **Total Unique Files in Folder**: `43 files`
-- **Supported Formats**: SVG (crisp vector/high-res), WebP (modern lightweight web), PNG (transparent backgrounds), JPG
+- **Dedicated Clean Image Folder**: [`images/product-3d-silicone-cleansing-brush/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush)
+- **Recommended Usage**:
+  - `Hero Product Image`: First high-res shot with clear transparent/white background.
+  - `Infographic & Dimension Image`: Exploded view of turbines, motor, or charging coils.
+  - `Lifestyle Scene Image`: Displaying the product in home, vehicle interior, or office environment.
