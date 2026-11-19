@@ -3,38 +3,12 @@
 > **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية)  
 > **Brand Tone**: Modern, Premium, Trustworthy, Solution-Oriented, High-Converting Lifestyle E-Commerce  
 > **Currency**: Saudi Riyal (SAR / ر.س)  
-> **Key Value Propositions**: Fast Delivery Across KSA (Riyadh, Jeddah, Dammam, Mecca, Medina & all regions), Tabby & Tamara 4-Split Payments, Cash on Delivery (الدفع عند الاستلام), Golden Guarantee (ضمان ذهبي 14 يوم للاستبدال والاسترجاع).
+> **Key Value Propositions**: Fast Delivery Across KSA (Riyadh, Jeddah, Dammam, Mecca, Medina & all regions), Tabby & Tamara 4-Split Payments, Cash on Delivery (الدفع عند الاستلام), Golden Guarantee (ضمان ذهبي 14 يوم للاستبدال والاسترجاع).  
+> **Note**: Global Header, Top Announcement Bar, and Footer content are maintained in [28_HEADER_FOOTER_AND_TRUST_SYSTEM.md](file:///Users/shunyavkashminim2/Downloads/Test/new-content/28_HEADER_FOOTER_AND_TRUST_SYSTEM.md).
 
 ---
 
-## 1. Announcement Bar (شريط الإعلانات العلوي المتحرك)
-
-### Old English Content
-```text
-🚚 Free shipping on all orders • Shop now
-```
-
-### New English Content (Premium & Attractive for KSA)
-```text
-Option 1 (Direct Upgrade - High-Converting Saudi Offer):
-🚚 Free Express Delivery on All Orders Across Saudi Arabia • Shop Now
-
-Option 2 (Multi-Message Rotating Marquee):
-✨ Free Express Shipping Across KSA | 💳 Split into 4 Interest-Free Payments with Tabby & Tamara | 💵 Cash on Delivery Available
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي احترافي وجذاب للسوق السعودي)
-```text
-الخيار 1 (ترجمة مباشرة ومطورة):
-🚚 شحن مجاني وسريع لكافة مدن ومناطق المملكة • تسوق الآن
-
-الخيار 2 (شريط إعلانات متحرك متعدد المزايا):
-✨ توصيل سريع ومجاني لكافة مدن المملكة | 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا | 💵 الدفع عند الاستلام متاح
-```
-
----
-
-## 2. Hero Banner & Main Value Proposition (البانر الرئيسي وواجهة المتجر)
+## 1. Hero Banner & Main Value Proposition (البانر الرئيسي وواجهة المتجر)
 
 ### Old English Content
 ```text
@@ -72,12 +46,10 @@ Trust Ribbon: ⭐️ Rated 4.9/5 by 12,500+ Happy Customers Across Riyadh, Jedda
 ### Recommended Images & Visual Mapping
 - **Desktop Hero Banner**: `images/home-page/webp/home-hero-banner-main.webp` (or `images/pages/home✅/full-page.png`)
 - **Mobile Hero Banner**: `images/home-page/webp/home-hero-mobile_600x450.webp`
-- **Branding Header Logo**: `images/common-all-pages/png/logo-zelmiqo-header.png`
-- **Header Favicon**: `images/common-all-pages/svg/favicon-zelmiqo_100x100.svg`
 
 ---
 
-## 3. Trust & Value Pillars (أعمدة الثقة والمزايا التنافسية)
+## 2. Trust & Value Pillars (أعمدة الثقة والمزايا التنافسية)
 
 ### Old English Content
 ```text
