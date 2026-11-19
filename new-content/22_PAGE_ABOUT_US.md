@@ -32,65 +32,141 @@
 
 # 🏛️ About Us (من نحن) - Zelmiqo Global & Saudi Arabia
 
-> **Page**: `https://zelmiqo.com/page/about-us`  
+> **Live Page URL**: `https://zelmiqo.com/page/about-us`  
 > **Brand Identity**: Zelmiqo (زيلميكو) — International Smart Living Brand  
-> **Regional Launch Market**: Kingdom of Saudi Arabia & Gulf Region  
-> **Tone**: Visionary, Global Prestige, Passion for Innovation, Customer-Centric
+> **Target Market**: Kingdom of Saudi Arabia (المملكة العربية السعودية) & Worldwide  
+> **Positioning**: Global Prestige, Innovative Lifestyle Tech, Dedicated Local Saudi Operations
 
 ---
 
-## 1. Brand Narrative & Global Vision
+## 1. Brand Headline & Introduction (المقدمة والرؤية العامة)
 
 ### Old English Content
 ```text
-About Us
-Zelmiqo is an online store dedicated to providing quality gadgets and lifestyle products.
+Smart Shopping. Better Living. Anywhere.
+
+Welcome to Zelmiqo — your trusted global online shopping destination for innovative, practical, and high-quality products designed to make everyday life easier.
+
+We believe shopping should be more than simply purchasing products—it should be a seamless, enjoyable, and reliable experience. That's why we carefully source trending, problem-solving, and quality products from trusted manufacturers around the world, ensuring every item offers exceptional value, functionality, and reliability.
+
+Whether you're upgrading your home, discovering smart gadgets, improving your lifestyle, or searching for the perfect gift, Zelmiqo is committed to delivering products you'll love with an experience you can trust.
 ```
 
-### New English Content (Global Luxury Brand • Attractive for Saudi Arabia)
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-Title:
-Global Innovation. Refined Living. Dedicated to Discerning Homes in Saudi Arabia.
+Headline:
+new english content: Global Innovation. Refined Living. Dedicated to Saudi Arabia.
+new arabic content: ابتكارات عالمية.. لرفاهية استثنائية في كل يوم. مخصصة للمملكة العربية السعودية.
 
-At Zelmiqo (زيلميكو), we believe that modern living should be effortless, beautiful, and deeply comfortable. As an international lifestyle innovation brand, our mission is to design and curate state-of-the-art smart devices, advanced personal cooling technologies, and restorative wellness essentials that elevate the rhythm of modern life across the globe.
+Subheadline:
+new english content: World-class engineering meets authentic regional hospitality. Discover smart gadgets designed to elevate your everyday living.
+new arabic content: هندسة عالمية فائقة تلتقي بالضيافة السعودية الأصيلة. اكتشف أجهزة ذكية صُممت لترتقي بتفاصيل حياتك اليومية.
 
-Recognizing the ambitious, forward-thinking spirit and distinctive lifestyle of the Kingdom of Saudi Arabia, we established our dedicated regional operations and fulfillment network directly within the Kingdom. This ensures that our Saudi clientele enjoys world-class engineering, international quality standards, and lightning-fast local doorstep delivery.
-```
-
-### Translate New English Content to Arabic Content (محتوى عربي عالمي فاخر وجذاب لعملاء المملكة)
-```text
-العنوان:
-ابتكارات عالمية.. لرفاهية استثنائية في كل يوم. مخصصة لعملائنا في المملكة العربية السعودية.
-
-في زيلميكو (Zelmiqo)، نؤمن بأن الحياة العصرية يجب أن تجمع بين الفخامة، السهولة، والراحة المطلقة. بصفتنا علامة تجارية عالمية في مجال ابتكارات أسلوب الحياة الذكي، تتمثل رسالتنا في تصميم وتقديم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي المتطورة، وحلول العناية والاسترخاء التي ترتقي بتفاصيل يومك في مختلف أنحاء العالم.
-
-وانطلاقاً من تقديرنا للروح العصرية الطموحة والذوق الرفيع في المملكة العربية السعودية، أسسنا شبكة توزيع وعمليات إقليمية متكاملة داخل المملكة، لنضمن لعملائنا الجمع بين المعايير الهندسية الدولية الفائقة وسرعة التوصيل المحلي الفوري حتى باب منزلكم.
+Brand Narrative:
+new english content: Welcome to Zelmiqo (زيلميكو) — an international lifestyle tech house founded on the principle that modern living should be seamless, inspiring, and exceptionally comfortable. From quiet, high-velocity wearable cooling engineered for 48°C desert summers to executive multi-device wireless charging stations and restorative percussive massagers, our innovations bring global luxury into Saudi homes. Operating with dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express 24-48h domestic delivery and flexible 4-month installments with Tabby and Tamara.
+new arabic content: أهلاً بكم في زيلميكو (Zelmiqo) — دار الابتكارات التقنية العالمية لأسلوب حياة استثنائي، والتي تأسست على يقين بأن الحياة العصرية ينبغي أن تكون مفعمة بالراحة، الإلهام، والأناقة العملية. من مراوح التبريد الشخصية التوربينية المصممة للتغلب على حرارة الصيف البالغة 48 درجة مئوية في المملكة، إلى منصات الشحن اللاسلكي الذكية ومسدسات المساج الاحترافية للاسترخاء، نقدم لكم الفخامة العالمية في منازلكم. ومن خلال مركز عملياتنا وتوزيعنا الإقليمي في الرياض، نضمن لعملائنا في السعودية معايير الجودة الدولية مع توصيل محلي سريع خلال 24-48 ساعة، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.
 ```
 
 ---
 
-## 2. Our Pillars of Excellence (ركائز التميز والجودة العالمية)
+## 2. Our Story (قصتنا)
 
-### New English Content
+### Old English Content
 ```text
-1. International Engineering & Rigorous Testing:
-   Every Zelmiqo product undergoes rigorous durability, battery endurance, thermal safety, and ergonomic evaluation to ensure it performs flawlessly under real-world conditions.
+Our Story
 
-2. Solutions Tailored for Regional Climates:
-   Our flagship collections—from whisper-quiet bladeless neck fans engineered to conquer 48°C summer heat in Riyadh to titanium-silver car umbrellas that protect luxury leather interiors—provide functional luxury tailored for regional environments.
+Zelmiqo was founded with one simple vision:
+To make innovative, high-quality products accessible to customers around the world at fair and affordable prices.
 
-3. Seamless Regional Care & Golden Guarantees:
-   We pair global prestige with local peace of mind: 14-day Golden Guarantees, 1-year electrical device warranties, certified local payment gateways (Mada, Apple Pay, Tabby, Tamara), and dedicated Arabic-speaking WhatsApp concierge support.
+We recognized that many useful and trending products were either difficult to find or priced far above their true value. Our goal became clear—to create a global online store where customers can discover carefully selected products that combine quality, innovation, affordability, and style.
+
+As we continue to grow, we remain dedicated to expanding our product range while maintaining the highest standards of quality, customer satisfaction, and service.
 ```
 
-### Translate New English Content to Arabic Content
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-1. هندسة عالمية وفحص جودة صارم:
-   يخضع كل منتج يحمل علامة زيلميكو لاختبارات أداء دقيقة تشمل كفاءة البطارية، الأمان الحراري، والتحمل، لضمان أعلى مستويات الاعتمادية والفخامة.
+Section Title:
+new english content: Our Story: Bridging Global Technology with Saudi Aspirations
+new arabic content: قصتنا: جسر بين التكنولوجيا العالمية وطموح المملكة
 
-2. ابتكارات متوافقة مع أرقى متطلبات الحياة في المملكة:
-   صُممت مجموعاتنا الرائدة لتقدم حلولاً عملية استثنائية — من مراوح الرقبة التوربينية التي تمنحك انتعاشاً فورياً في صيف الرياض الحار، إلى مظلات التيتانيوم التي تحمي فرش مقصورة سيارتك من أشعة الشمس الحارقة.
+Story Body:
+new english content: Zelmiqo began with a clear purpose: to bridge the gap between premium international smart technology and the everyday realities of modern living. While global markets offered high-tech tools, customers in the Gulf and across the world often faced inflated reseller prices, slow international drop-shipping, or questionable build quality. We set out to redefine this experience. By establishing direct precision engineering partnerships globally and establishing a dedicated logistics hub within the Kingdom of Saudi Arabia, Zelmiqo delivers authentic prestige, uncompromising durability, and fair pricing directly to discerning Saudi families.
+new arabic content: انطلقت رحلة زيلميكو (Zelmiqo) برؤية واضحة: سد الفجوة بين أحدث التقنيات الذكية العالمية والاحتياجات اليومية للحياة العصرية في المملكة والخليج والعالم. لاحظنا أن العديد من المنتجات المبتكرة كانت إما محتكرة بأسعار مبالغ فيها، أو تتطلب أسابيع من الشحن الدولي غير المضمون، أو تأتي بجودة متدنية لا تدوم. لذلك أعدنا ابتكار التجربة بالكامل؛ فأنشأنا شراكات هندسية وتصنيعية مباشرة حول العالم، ودعمناها بمركز توزيع إقليمي متكامل داخل المملكة العربية السعودية، لنضع بين أيديكم أجهزة فاخرة، معتمدة، وبأسعار عادلة تناسب العائلة السعودية الطموحة.
+```
 
-3. راحة بال وضمانات محلية معتمدة:
-   نجمع بين الفخامة العالمية والخدمة المحلية الموثوقة: ضمان ذهبي لمدة 14 يوماً، ضمان شامل للأجهزة لمدة عام، بوابات دفع آمنة (مدى، أبل باي، تابي، تمارا)، وخدمة عملاء VIP عبر الواتساب على مدار الساعة.
+---
+
+## 3. Mission & Vision (رسالتنا ورؤيتنا)
+
+### Old English Content
+```text
+Our Mission
+Our mission is to simplify everyday living by offering innovative, practical, and affordable products while providing customers worldwide with a secure, transparent, and enjoyable shopping experience.
+
+Our Vision
+Our vision is to become one of the world's most trusted online shopping destinations, known for carefully curated products, exceptional customer service, reliable worldwide delivery, and long-lasting customer relationships.
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Our Mission:
+new english content: To empower modern households worldwide and throughout Saudi Arabia with thoughtful lifestyle technology, rigorous safety certifications, and respectful service that transforms routine tasks into effortless pleasure.
+new arabic content: تمكين العائلات العصرية في المملكة وحول العالم بأجهزة ذكية ذات تصميم راقٍ، واعتمادات أمان عالمية، وخدمة عملاء فائقة تحول المهام اليومية إلى متعة وراحة متناهية.
+
+Our Vision:
+new english content: To stand as the world's premier lifestyle innovation brand, admired across Saudi Arabia and internationally for relentless product refinement, transparent fulfillment, and trusted customer relationships.
+new arabic content: أن نكون العلامة التجارية العالمية الأولى والمفضلة في المملكة العربية السعودية والشرق الأوسط للأجهزة الذكية العصرية، والمشهود لها بالجودة الصارمة، الشفافية التامة، والثقة المستدامة مع كل عميل.
+```
+
+---
+
+## 4. Why Choose Zelmiqo? (لماذا يختار عملاؤنا زيلميكو؟)
+
+### Old English Content
+```text
+Why Choose Zelmiqo?
+
+✔ Carefully Curated Collection
+Every product is selected based on quality, functionality, durability, customer demand, and overall value.
+
+✔ Premium Quality Standards
+We work with trusted manufacturers and suppliers to ensure every product meets our quality expectations.
+
+✔ Fair & Affordable Pricing
+Our efficient sourcing process allows us to offer competitive prices without compromising on quality.
+
+✔ Secure Shopping
+Your personal information and payment details are protected through trusted and secure payment technologies.
+
+✔ International Shipping
+We proudly serve customers across multiple countries with reliable international shipping and order tracking.
+
+✔ Customer-First Service
+Our customers are at the center of everything we do. We strive to provide prompt support, honest communication, and dependable assistance.
+
+✔ Simple & Convenient Shopping
+Our website is designed to provide a fast, secure, and user-friendly shopping experience across desktop and mobile devices.
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Pillar 1 - Precision International Engineering:
+new english content: ✔ Precision International Engineering: Every device undergoes thermal endurance testing, battery life optimization, and drop testing to withstand demanding environments, including Saudi summer climates.
+new arabic content: ✔ هندسة دولية فائقة الدقة: يخضع كل جهاز لاختبارات صارمة للتحمل الحراري، كفاءة البطارية، ومقاومة الصدمات ليعمل بكفاءة مطلقة في مختلف الظروف، وخاصة صيف المملكة الحار.
+
+Pillar 2 - Dedicated Local Saudi Fulfillment:
+new english content: ✔ Dedicated Local Saudi Fulfillment: No long customs delays or drop-shipping. Orders are dispatched from domestic fulfillment hubs in Riyadh via SMSA, Aramex, and local couriers within 24 to 48 hours.
+new arabic content: ✔ مستودعات وتوصيل محلي مباشر في السعودية: لا انتظار للشحن الدولي أو إجراءات الجمارك المعقدة. تُشحن طلباتكم مباشرة من مستودعاتنا الإقليمية في الرياض عبر أرامكس وسمسا خلال 24 إلى 48 ساعة فقط.
+
+Pillar 3 - Transparent Flexible Financing:
+new english content: ✔ Transparent Flexible Financing: Enjoy financial ease by splitting payments into 4 interest-free installments with Tabby and Tamara, or choose Cash on Delivery (COD) and Mada upon receipt.
+new arabic content: ✔ خيارات دفع وتقسيط ميسرة: تسوق براحة تامة وقسّم فاتورتك على 4 دفعات بدون فوائد أو رسوم خفية عبر تابي وتمارا، أو اختر الدفع عند الاستلام وبطاقات مدى وأبل باي.
+
+Pillar 4 - Golden 14-Day Warranty & Protection:
+new english content: ✔ Golden 14-Day Warranty & Protection: Shop with absolute peace of mind backed by our Golden 14-Day direct replacement guarantee and 1-year product warranty compliant with Saudi consumer standards.
+new arabic content: ✔ الضمان الذهبي والاستبدال السريع: تسوق بثقة تامة مع الضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام وفق اشتراطات وزارة التجارة السعودية.
+
+Pillar 5 - Bilingual VIP Concierge Support:
+new english content: ✔ Bilingual VIP Concierge Support: Dedicated Arabic and English support specialists available 7 days a week via direct WhatsApp to answer inquiries and assist with tracking.
+new arabic content: ✔ خدمة عملاء VIP باللغتين العربية والإنجليزية: فريق دعم متخصص في خدمتك طوال أيام الأسبوع عبر الواتساب للإجابة الفورية وتتبع شحنتك ومساعدتك في أي استفسار.
 ```
