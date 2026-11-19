@@ -83,28 +83,29 @@
     }
     .visual-toolbar {
       background: #1e293b;
-      padding: 12px 16px;
+      padding: 10px 14px;
       display: flex;
-      gap: 8px;
-      overflow-x: auto;
+      flex-wrap: wrap;
+      gap: 6px;
       border-bottom: 1px solid #334155;
     }
     .visual-toolbar button {
       background: #0f172a;
       color: #94a3b8;
       border: 1px solid #334155;
-      padding: 6px 12px;
-      font-size: 12px;
+      padding: 5px 10px;
+      font-size: 11.5px;
       border-radius: 6px;
       cursor: pointer;
       white-space: nowrap;
       transition: all 0.2s;
+      font-weight: 500;
     }
     .visual-toolbar button.active, .visual-toolbar button:hover {
       background: var(--gold);
       color: var(--primary);
       border-color: var(--gold);
-      font-weight: 600;
+      font-weight: 700;
     }
     .visual-content {
       flex: 1;
@@ -394,14 +395,14 @@
     <!-- LEFT PANE: Visual Website with Interactive Pins -->
     <div class="visual-pane">
       <div class="visual-toolbar">
-        <button class="active" data-key="hero" onclick="switchVisual('hero', this)">1. Hero Banner Slider</button>
-        <button data-key="trust" onclick="switchVisual('trust', this)">2. Trust Pillars</button>
-        <button data-key="categories" onclick="switchVisual('categories', this)">3. Categories Slider (8 Slides)</button>
-        <button data-key="new_collection" onclick="switchVisual('new_collection', this)">4. New Collection Slider</button>
-        <button data-key="mid_banners" onclick="switchVisual('mid_banners', this)">5. Mid Banners</button>
-        <button data-key="trending" onclick="switchVisual('trending', this)">6. Trending Slider</button>
-        <button data-key="testimonials" onclick="switchVisual('testimonials', this)">7. Testimonials Slider (6 Slides)</button>
-        <button data-key="full" onclick="switchVisual('full', this)">Full Page Map</button>
+        <button class="active" data-key="hero" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slider</button>
+        <button data-key="trust" onclick="selectSection('trust', 'card-trust-pillars')">2. Trust Pillars</button>
+        <button data-key="categories" onclick="selectSection('categories', 'card-categories-slider')">3. Categories (8 Slides)</button>
+        <button data-key="new_collection" onclick="selectSection('new_collection', 'card-new-collection')">4. New Collection (6 Slides)</button>
+        <button data-key="mid_banners" onclick="selectSection('mid_banners', 'card-categories-slider')">5. Mid Banners</button>
+        <button data-key="trending" onclick="selectSection('trending', 'card-trending-slider')">6. Trending (7 Slides)</button>
+        <button data-key="testimonials" onclick="selectSection('testimonials', 'card-testimonials-slider')">7. Testimonials (6 Slides)</button>
+        <button data-key="full" onclick="selectSection('full', 'card-seo-metadata')">8. Full Page & SEO Map</button>
       </div>
 
       <div class="visual-content">
@@ -427,7 +428,7 @@
     <!-- RIGHT PANE: Copy & Paste Workstation -->
     <div class="workstation-pane">
 
-      <!-- Navigation Pills -->
+      <!-- Sticky Navigation Bar for Cards -->
       <div class="section-nav-pills">
         <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide1')">① Hero Slide 1</a>
         <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide2')">② Hero Slide 2</a>
@@ -436,7 +437,7 @@
         <a href="javascript:void(0)" onclick="selectSection('new_collection', 'card-new-collection')">⑤ New Arrivals (6 Slides)</a>
         <a href="javascript:void(0)" onclick="selectSection('trending', 'card-trending-slider')">⑥ Trending (7 Slides)</a>
         <a href="javascript:void(0)" onclick="selectSection('testimonials', 'card-testimonials-slider')">⑦ Testimonials (6 Slides)</a>
-        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">🔍 SEO Meta Tags</a>
+        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">⑧ SEO & Full Page Map</a>
       </div>
 
       <!-- ============================================================== -->
@@ -1292,8 +1293,9 @@ Your payments stay 100% protected. Pay with Mada, Apple Pay, Cash on Delivery, o
       },
       full: {
         img: 'assets/home_full.jpg',
-        hint: '<strong>🗺️ Full Homepage Overview Map:</strong> Click any section tab above to zoom in on individual sliders and their hidden autoplay slides.',
+        hint: '<strong>🗺️ Full Homepage & SEO Meta Architecture:</strong> Google and social search engine metadata, along with full page visual mapping.',
         pins: [
+          { top: '3%', left: '50%', num: '⑧', card: 'card-seo-metadata' },
           { top: '8%', left: '50%', num: '①', card: 'card-hero-slide1' },
           { top: '16%', left: '50%', num: '②', card: 'card-trust-pillars' },
           { top: '23%', left: '50%', num: '③', card: 'card-categories-slider' },
@@ -1308,7 +1310,10 @@ Your payments stay 100% protected. Pay with Mada, Apple Pay, Cash on Delivery, o
       // update buttons
       document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
       const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
-      if (activeBtn) activeBtn.classList.add('active');
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+        activeBtn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
+      }
 
       const data = visualData[key];
       if (!data) return;
