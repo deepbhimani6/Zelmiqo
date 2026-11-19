@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `3-in-1 Fast Wireless Charging Station for iPhone, Watch & AirPods | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Eliminate cord clutter with the Zelmiqo 3-in-1 Fast Wireless Dock. Simultaneous 15W charging for iPhone, Apple Watch & AirPods. Express delivery across KSA.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `3 in 1 wireless charger, iphone apple watch charging dock, airpods charging stand, 15w qi fast charger riyadh, desk charger stand ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `3-in-1 Fast Wireless Charging Station for iPhone, Watch & AirPods | Zelmiqo®`
+  - `og:description`: `Eliminate cord clutter with the Zelmiqo 3-in-1 Fast Wireless Dock. Simultaneous 15W charging for iPhone, Apple Watch & AirPods. Express delivery across KSA.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `منصة شحن لاسلكي سريع 3 في 1 للآيفون وساعة أبل وإيربودز | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `تخلص من فوضى الأسلاك مع شاحن زيلميكو الذكي 3 في 1. شحن لاسلكي سريع 15 واط للآيفون وساعة أبل وسماعاتك معاً. شحن سريع لجميع مدن المملكة وتقسيط تابي.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `شاحن 3 في 1, منصة شحن لاسلكي, شاحن ايفون وساعة ابل, ستاند شحن مكتبي, شاحن ايربودز, شواحن ذكية السعودية, شاحن سريع الرياض`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `منصة شحن لاسلكي سريع 3 في 1 للآيفون وساعة أبل وإيربودز | زيلميكو®`
+  - `og:description`: `تخلص من فوضى الأسلاك مع شاحن زيلميكو الذكي 3 في 1. شحن لاسلكي سريع 15 واط للآيفون وساعة أبل وسماعاتك معاً. شحن سريع لجميع مدن المملكة وتقسيط تابي.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo MagCharge 3-in-1 Fast Wireless Charging Station for iPhone, Apple Watch & AirPods
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

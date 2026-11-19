@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Privacy Policy & Terms of Service | Saudi E-Commerce Law Compliant`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Your privacy is protected. 256-bit bank-grade encryption, secure payments via Mada, Apple Pay & Tabby. Compliant with Saudi E-Commerce & Personal Data Protection Laws.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `zelmiqo privacy policy, saudi ecommerce law compliance, personal data protection pdpl ksa, secure payment processing`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Privacy Policy & Terms of Service | Saudi E-Commerce Law Compliant`
+  - `og:description`: `Your privacy is protected. 256-bit bank-grade encryption, secure payments via Mada, Apple Pay & Tabby. Compliant with Saudi E-Commerce & Personal Data Protection Laws.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `سياسة الخصوصية والشروط والأحكام | متوافق مع نظام التجارة الإلكترونية السعودي`
+- **وصف الصفحة (Meta Description)**:
+  `حماية تامة وأمان مصرفي مشفر لبياناتك الشخصية والمالية وفقاً لنظام التجارة الإلكترونية ونظام حماية البيانات الشخصية في المملكة العربية السعودية.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `سياسة الخصوصية, شروط وأحكام الشراء, نظام التجارة الإلكترونية السعودي, أمان الدفع مدى وأبل باي`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `سياسة الخصوصية والشروط والأحكام | متوافق مع نظام التجارة الإلكترونية السعودي`
+  - `og:description`: `حماية تامة وأمان مصرفي مشفر لبياناتك الشخصية والمالية وفقاً لنظام التجارة الإلكترونية ونظام حماية البيانات الشخصية في المملكة العربية السعودية.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🔒 Privacy Policy & Terms of Service (سياسة الخصوصية والشروط) - Zelmiqo Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/page/privacy` & `https://zelmiqo.com/page/terms`  

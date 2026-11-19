@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `5-in-1 EMS Skin Tightening Massager with LED Light Therapy | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Clinic-grade facelift at home. Microcurrent EMS lifting, 42°C thermal infusion & tri-color LED phototherapy for V-line sculpting & collagen stimulation.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `ems facial massager, led light therapy wand, face lifting microcurrent device, skin rejuvenation tool, anti aging device saudi arabia`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `5-in-1 EMS Skin Tightening Massager with LED Light Therapy | Zelmiqo®`
+  - `og:description`: `Clinic-grade facelift at home. Microcurrent EMS lifting, 42°C thermal infusion & tri-color LED phototherapy for V-line sculpting & collagen stimulation.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `جهاز شد وتجديد البشرة 5 في 1 مع مساج EMS وعلاج ضوئي LED | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `شد فوري للوجه ونحت لخط الفك بتقنيات العيادات. مساج نبضات EMS الدقيقة، تدفئة حرارية 42°، وعلاج ضوئي LED ثلاثي لتحفيز الكولاجين ومحاربة التجاعيد.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `جهاز شد الوجه ems, جهاز مساج الوجه الضوئي, علاج ضوئي ليد للبشرة, جهاز تحديد الفك, تحفيز الكولاجين منزلي, أجهزة عناية بالبشرة السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `جهاز شد وتجديد البشرة 5 في 1 مع مساج EMS وعلاج ضوئي LED | زيلميكو®`
+  - `og:description`: `شد فوري للوجه ونحت لخط الفك بتقنيات العيادات. مساج نبضات EMS الدقيقة، تدفئة حرارية 42°، وعلاج ضوئي LED ثلاثي لتحفيز الكولاجين ومحاربة التجاعيد.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo 5-in-1 EMS Skin Rejuvenation Massager with LED Light Therapy & Thermal Sculpting
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

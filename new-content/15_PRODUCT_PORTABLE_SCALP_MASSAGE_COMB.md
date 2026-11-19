@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `ScalpRevive Precision Liquid Applicator & Scalp Massage Comb | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Direct root delivery with zero greasy hands. Precision roller ball teeth distribute rosemary oil and hair serums straight to follicles while massaging scalp.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `scalp applicator comb, liquid oil applicator for hair, rosemary oil scalp massager, hair growth serum applicator, scalp massage comb ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `ScalpRevive Precision Liquid Applicator & Scalp Massage Comb | Zelmiqo®`
+  - `og:description`: `Direct root delivery with zero greasy hands. Precision roller ball teeth distribute rosemary oil and hair serums straight to follicles while massaging scalp.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مشط تدليك فروة الرأس وتوزيع زيوت وسيروم الشعر الدقيق | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `توزيع مباشر لزيوت الشعر والسيروم على الجذور بدون تلطيخ اليدين. أسنان كروية متدحرجة توزع زيت الروزماري وعلاجات الكثافة بدقة مع تدليك ينشط نمو وبصيلات الشعر.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مشط توزيع الزيت للشعر, أداة وضع سيروم الفروة, تدليك فروة الرأس, إنبات وتكثيف الشعر, مشط زيت الروزماري, عناية بالشعر السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مشط تدليك فروة الرأس وتوزيع زيوت وسيروم الشعر الدقيق | زيلميكو®`
+  - `og:description`: `توزيع مباشر لزيوت الشعر والسيروم على الجذور بدون تلطيخ اليدين. أسنان كروية متدحرجة توزع زيت الروزماري وعلاجات الكثافة بدقة مع تدليك ينشط نمو وبصيلات الشعر.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo ScalpRevive Precision Liquid Applicator & Scalp Massage Comb
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

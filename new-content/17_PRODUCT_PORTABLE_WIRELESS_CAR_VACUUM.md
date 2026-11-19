@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `ProVac 2-in-1 Wireless Car Vacuum Cleaner & Air Duster (Brushless Motor) | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Dual action: heavy-duty suction + compressed air blower. 50,000 RPM brushless digital motor cleans car air vents, keyboard crumbs & seat dust effortlessly.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `2 in 1 car vacuum and air duster, brushless motor car vacuum, cordless keyboard blower cleaner, high power auto detailing vacuum, car accessories ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `ProVac 2-in-1 Wireless Car Vacuum Cleaner & Air Duster (Brushless Motor) | Zelmiqo®`
+  - `og:description`: `Dual action: heavy-duty suction + compressed air blower. 50,000 RPM brushless digital motor cleans car air vents, keyboard crumbs & seat dust effortlessly.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مكنسة ومنفاخ هواء السيارة اللاسلكي 2 في 1 بمحرك براشلس توربيني | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `قوة مزدوجة تجمع بين شفط الأوساخ ونفخ الهواء المضغوط 2 في 1. محرك رقمي 50,000 دورة بالدقيقة ينظف مجاري المكيف الضيقة، الكيبورد، وزوايا مقاعد السيارة باحترافية تامة.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مكنسة ومنفاخ سيارة 2 في 1, مكنسة سيارة براشلس, منفاخ هواء للغبار والمكيف, مكنسة تنظيف لوحة المفاتيح, اكسسوارات سيارات فخمة الرياض, مكنسة شحن قوية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مكنسة ومنفاخ هواء السيارة اللاسلكي 2 في 1 بمحرك براشلس توربيني | زيلميكو®`
+  - `og:description`: `قوة مزدوجة تجمع بين شفط الأوساخ ونفخ الهواء المضغوط 2 في 1. محرك رقمي 50,000 دورة بالدقيقة ينظف مجاري المكيف الضيقة، الكيبورد، وزوايا مقاعد السيارة باحترافية تامة.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo ProVac 2-in-1 Wireless Car Vacuum Cleaner & Air Duster (Brushless Motor)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

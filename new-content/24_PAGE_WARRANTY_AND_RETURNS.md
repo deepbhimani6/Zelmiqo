@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Golden 14-Day Guarantee & 1-Year Official Warranty | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Shop with peace of mind. 14-day hassle-free replacement/return guarantee and 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `zelmiqo warranty, golden guarantee 14 days, return policy saudi arabia, 1 year electronics warranty ksa, consumer rights ministry of commerce`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Golden 14-Day Guarantee & 1-Year Official Warranty | Zelmiqo®`
+  - `og:description`: `Shop with peace of mind. 14-day hassle-free replacement/return guarantee and 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `الضمان الذهبي وسياسة الاسترجاع والاستبدال خلال 14 يوماً | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `تسوق باطمئنان تام. نوفر لك الضمان الذهبي للاستبدال والاسترجاع خلال 14 يوماً بكل سهولة، مع ضمان شامل لمدة عام كامل على كافة الأجهزة وفق أنظمة وزارة التجارة السعودية.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `الضمان الذهبي زيلميكو, سياسة الاسترجاع والاستبدال, ضمان الأجهزة الإلكترونية, حماية المستهلك وزارة التجارة, استرجاع مجاني`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `الضمان الذهبي وسياسة الاسترجاع والاستبدال خلال 14 يوماً | زيلميكو®`
+  - `og:description`: `تسوق باطمئنان تام. نوفر لك الضمان الذهبي للاستبدال والاسترجاع خلال 14 يوماً بكل سهولة، مع ضمان شامل لمدة عام كامل على كافة الأجهزة وفق أنظمة وزارة التجارة السعودية.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🛡️ Warranty, Returns & Golden Guarantee (الضمان الذهبي وسياسة الاسترجاع) - Zelmiqo Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/page/warranty` & `https://zelmiqo.com/page/terms`  

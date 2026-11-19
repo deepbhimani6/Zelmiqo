@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Deep pore cleansing without irritation. Hygienic food-grade silicone removes 99.5% dirt & oil. Dual textures for gentle exfoliation and lifting massage.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `silicone facial cleansing brush, 3d pore cleanser, exfoliating face brush, blackhead removal brush, skincare tools saudi arabia`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager | Zelmiqo®`
+  - `og:description`: `Deep pore cleansing without irritation. Hygienic food-grade silicone removes 99.5% dirt & oil. Dual textures for gentle exfoliation and lifting massage.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D للمسام والمساج | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `تنظيف عميق للمسام ونضارة فورية. فرشاة سيليكون طبية مزدوجة تنظف 99.5% من الدهون والشوائب بلطف بدون تهيج للبشرة الحساسة. توصيل سريع وتقسيط تابي.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `فرشاة تنظيف الوجه سيليكون, جهاز غسيل الوجه, تنظيف مسام البشرة, إزالة الرؤوس السوداء, مساج للوجه, فرشاة ديرما كير السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D للمسام والمساج | زيلميكو®`
+  - `og:description`: `تنظيف عميق للمسام ونضارة فورية. فرشاة سيليكون طبية مزدوجة تنظف 99.5% من الدهون والشوائب بلطف بدون تهيج للبشرة الحساسة. توصيل سريع وتقسيط تابي.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo DermaGlow 3D Double-Sided Silicone Facial Cleansing Brush & Pore Massager
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

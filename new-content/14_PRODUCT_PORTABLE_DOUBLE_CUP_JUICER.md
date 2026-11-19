@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `DuoCup Portable Double-Cup Blender & Travel Smoothie Maker | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Two detachable travel cups with drinking lids. Blend one, swap to the second for partner or gym workout. Powerful motor, food-grade BPA-free & USB fast charging.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `double cup portable blender, duo cup smoothie maker, 2 in 1 travel personal blender, usb rechargeable double juicer, healthy living blender ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `DuoCup Portable Double-Cup Blender & Travel Smoothie Maker | Zelmiqo®`
+  - `og:description`: `Two detachable travel cups with drinking lids. Blend one, swap to the second for partner or gym workout. Powerful motor, food-grade BPA-free & USB fast charging.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `خلاط العصائر المحمول بنظام الكوبين المزدوجين DuoCup والشحن السريع | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `نظام الكوبين المنفصلين مع أغطية شرب رياضية مانعة للتسريب. اخلط لنفسك ولمن تحب في ثوانٍ. خامات آمنة صحياً خالية من BPA ومحرك قوي يطحن الفواكه والثلج.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `خلاط كوبين متنقل, خلاط عصير محمول مزدوج الكوب, خلاط رياضي للنادي, خلاط فواكه محمول, محضر سموذي سريع, أدوات رياضية صحية السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `خلاط العصائر المحمول بنظام الكوبين المزدوجين DuoCup والشحن السريع | زيلميكو®`
+  - `og:description`: `نظام الكوبين المنفصلين مع أغطية شرب رياضية مانعة للتسريب. اخلط لنفسك ولمن تحب في ثوانٍ. خامات آمنة صحياً خالية من BPA ومحرك قوي يطحن الفواكه والثلج.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo DuoCup Portable Double-Cup Blender & Smoothie Maker with Drinking Lids
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

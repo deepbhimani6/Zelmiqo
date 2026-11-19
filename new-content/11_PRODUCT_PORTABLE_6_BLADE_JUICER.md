@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `NutriBlend 6-Blade Portable USB Smoothie Maker & Fruit Juicer Cup | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Crushes ice and frozen fruit in 30 seconds. 6 stainless steel blades, 22,000 RPM high-torque motor & 4000mAh battery. Blend & drink from the same sports cup.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `portable 6 blade blender, usb smoothie maker cup, travel fruit juicer blender, personal blender for gym, ice crushing portable blender ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `NutriBlend 6-Blade Portable USB Smoothie Maker & Fruit Juicer Cup | Zelmiqo®`
+  - `og:description`: `Crushes ice and frozen fruit in 30 seconds. 6 stainless steel blades, 22,000 RPM high-torque motor & 4000mAh battery. Blend & drink from the same sports cup.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `خلاط العصائر والسموذي المحمول بـ 6 شفرات فولاذية وشحن USB | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `يطحن الثلج والفواكه المجمدة في 30 ثانية. 6 شفرات حادة من الستانلس ستيل ومحرك 22,000 دورة بالدقيقة مع كوب رياضي محكم الإغلاق للنادي والمكتب والرحلات.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `خلاط محمول للشحن, خلاط سموذي متنقل, خلاط بروتين رياضي, خلاط فواكه صغير يو اس بي, خلاط محمول يطحن الثلج, أدوات مطبخ صحية السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `خلاط العصائر والسموذي المحمول بـ 6 شفرات فولاذية وشحن USB | زيلميكو®`
+  - `og:description`: `يطحن الثلج والفواكه المجمدة في 30 ثانية. 6 شفرات حادة من الستانلس ستيل ومحرك 22,000 دورة بالدقيقة مع كوب رياضي محكم الإغلاق للنادي والمكتب والرحلات.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo NutriBlend 6-Blade Portable USB Smoothie Maker & Fruit Juicer Cup
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

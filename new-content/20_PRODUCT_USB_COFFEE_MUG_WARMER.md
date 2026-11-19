@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `ThermoDesk Smart Heated Coaster & Beverage Warmer (3 Temperatures) | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Never drink cold coffee again. 3 temperature settings (55°C, 65°C, 75°C) keep Saudi coffee, tea & lattes hot all day. 8-hour auto shut-off & spill-proof tempered glass.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `smart coffee mug warmer, heated beverage coaster, desk cup warmer 3 temperatures, electric warmer for saudi coffee tea, office desk accessories ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `ThermoDesk Smart Heated Coaster & Beverage Warmer (3 Temperatures) | Zelmiqo®`
+  - `og:description`: `Never drink cold coffee again. 3 temperature settings (55°C, 65°C, 75°C) keep Saudi coffee, tea & lattes hot all day. 8-hour auto shut-off & spill-proof tempered glass.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `قاعدة تسخين الأكواب والمشروبات الذكية للمكتب مع 3 درجات حرارة | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `حافظ على حرارة القهوة السعودية وشاي الكرك والإسبريسو ساخناً وطازجاً طوال اليوم. 3 درجات حرارة ذكية (55 و65 و75 درجة) مع شاشة رقمية ومؤقت إيقاف تلقائي آمن وسطح زجاجي مقاوم للانسكاب.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `سخان أكواب ذكي, قاعدة تسخين القهوة للمكتب, جهاز تدفئة المشروبات, سخان الشاي والكرك, اكسسوارات مكتبية فخمة, حافظ حرارة الكوب الرياض`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `قاعدة تسخين الأكواب والمشروبات الذكية للمكتب مع 3 درجات حرارة | زيلميكو®`
+  - `og:description`: `حافظ على حرارة القهوة السعودية وشاي الكرك والإسبريسو ساخناً وطازجاً طوال اليوم. 3 درجات حرارة ذكية (55 و65 و75 درجة) مع شاشة رقمية ومؤقت إيقاف تلقائي آمن وسطح زجاجي مقاوم للانسكاب.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo ThermoDesk Smart Heated Coaster & Beverage Warmer (3 Temperature Settings)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

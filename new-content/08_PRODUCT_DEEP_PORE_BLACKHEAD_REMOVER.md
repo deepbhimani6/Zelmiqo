@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `PorePure Vacuum Blackhead Remover with LED Screen & 5 Levels | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Painless pore vacuum extraction. Dermatologist-safe suction clears blackheads, excess oil & dead skin. 5 power tiers, 4 beauty probes & crystal LED display.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `pore vacuum blackhead remover, electric blackhead suction tool, facial pore cleaner machine, acne vacuum extractor, skincare devices ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `PorePure Vacuum Blackhead Remover with LED Screen & 5 Levels | Zelmiqo®`
+  - `og:description`: `Painless pore vacuum extraction. Dermatologist-safe suction clears blackheads, excess oil & dead skin. 5 power tiers, 4 beauty probes & crystal LED display.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `جهاز إزالة الرؤوس السوداء وتنظيف المسام بالشفط مع شاشة ذكية | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `شفط فراغي آمن ينقي المسام بعمق ويزيل الرؤوس السوداء والدهون المتأكسدة بدون ألم أو كدمات. 5 درجات شفط مع 4 رؤوس متخصصة وشاشة عرض رقمية.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `جهاز شفط الرؤوس السوداء, تنظيف مسام الوجه, جهاز إزالة دهون الأنف, شفط دهون الوجه, جهاز تقشير البشرة, أجهزة تجميل منزلية السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `جهاز إزالة الرؤوس السوداء وتنظيف المسام بالشفط مع شاشة ذكية | زيلميكو®`
+  - `og:description`: `شفط فراغي آمن ينقي المسام بعمق ويزيل الرؤوس السوداء والدهون المتأكسدة بدون ألم أو كدمات. 5 درجات شفط مع 4 رؤوس متخصصة وشاشة عرض رقمية.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo PorePure Vacuum Blackhead & Blemish Remover with Smart LED Display
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

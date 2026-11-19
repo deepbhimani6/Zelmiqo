@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Zelmiqo® Lifestyle & Technology Guides | Beat the Summer Heat in KSA`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Expert guides on personal cooling tech, car interior protection under 50°C sun, and decluttering your desk with modern wireless charging docks.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `summer cooling guide saudi arabia, neck fan reviews, car interior uv protection tips, minimalist desk setup`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Zelmiqo® Lifestyle & Technology Guides | Beat the Summer Heat in KSA`
+  - `og:description`: `Expert guides on personal cooling tech, car interior protection under 50°C sun, and decluttering your desk with modern wireless charging docks.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مدونة وأدلة الشراء الذكية | دليل التغلب على حرارة الصيف والعناية | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `مقالات ونصائح حصرية حول أفضل أجهزة التبريد الصيفي لمواجهة حرارة الصيف، حماية مقاعد وطبلون السيارة من الشمس، وترتيب المكتب بدون أسلاك.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `دليل التبريد الصيفي, نصائح حماية السيارة من حرارة الصيف, مروحة الرقبة في الحج, مقالات تقنية أسلوب الحياة`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مدونة وأدلة الشراء الذكية | دليل التغلب على حرارة الصيف والعناية | زيلميكو®`
+  - `og:description`: `مقالات ونصائح حصرية حول أفضل أجهزة التبريد الصيفي لمواجهة حرارة الصيف، حماية مقاعد وطبلون السيارة من الشمس، وترتيب المكتب بدون أسلاك.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📰 Blog & Buying Guides (المدونة وأدلة الشراء الذكية) - Zelmiqo Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/blog`  

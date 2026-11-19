@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `TitaniumShield Foldable Car Windshield Sun Shade Umbrella (UPF 50+) | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Drop interior heat by 30°C in 3 seconds. Multi-layer titanium thermal coating shields dashboard & leather seats from scorching Saudi summer sun.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `foldable car windshield sun shade, car umbrella sunshade, titanium uv heat blocker, auto sunshade umbrella, sun shade suv sedan ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `TitaniumShield Foldable Car Windshield Sun Shade Umbrella (UPF 50+) | Zelmiqo®`
+  - `og:description`: `Drop interior heat by 30°C in 3 seconds. Multi-layer titanium thermal coating shields dashboard & leather seats from scorching Saudi summer sun.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مظلة الزجاج الأمامي العازلة للحرارة وأشعة الشمس للسيارات | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `اخفض حرارة سيارتك حتى 30 درجة في 3 ثوانٍ. مظلة شمسية بطبقات تيتانيوم عازلة تحمي المقاعد الجلدية والطبلون من لهيب شمس الصيف في المملكة مع UPF 50+.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مظلة سيارة شمسية, شماسة سيارة مظلة, عازل حراري للزجاج الامامي, حماية طبلون السيارة من الشمس, مظلة سيارات قابلة للطي, اكسسوارات سيارات السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مظلة الزجاج الأمامي العازلة للحرارة وأشعة الشمس للسيارات | زيلميكو®`
+  - `og:description`: `اخفض حرارة سيارتك حتى 30 درجة في 3 ثوانٍ. مظلة شمسية بطبقات تيتانيوم عازلة تحمي المقاعد الجلدية والطبلون من لهيب شمس الصيف في المملكة مع UPF 50+.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo TitaniumShield Foldable Car Windshield Sun Shade Umbrella (UV & Heat Deflector)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `3-in-1 Portable Air Cooler Fan, Nano Humidifier & Night Light | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Instant arctic breeze for Saudi heat. 3-in-1 personal desk cooler with 5-nozzle mist humidification & 7-color LED. USB-C powered, leak-proof 600ml tank.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `portable air cooler saudi arabia, mini mist cooling fan, desktop humidifier cooler, usb c air cooler riyadh, summer heat cooler ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `3-in-1 Portable Air Cooler Fan, Nano Humidifier & Night Light | Zelmiqo®`
+  - `og:description`: `Instant arctic breeze for Saudi heat. 3-in-1 personal desk cooler with 5-nozzle mist humidification & 7-color LED. USB-C powered, leak-proof 600ml tank.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مكيف ومبرد هواء صيفي متنقل 3 في 1 مع مرطب رذاذ وإضاءة | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `نسيم بارد فوري لمواجهة حرارة الصيف. مبرد هواء ومكيف مكتبي متنقل مع 5 فوهات رذاذ نانو وإضاءة ليلية 7 ألوان. توصيل سريع في المملكة والدفع عند الاستلام.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مكيف متنقل صغير, مبرد هواء مكتبي, مروحة رذاذ ماء وثلج, مكيف ميني يو اس بي, تبريد صيفي للغرفة, مكيف شخصي السعودية, مكيف صحراوي صغير`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مكيف ومبرد هواء صيفي متنقل 3 في 1 مع مرطب رذاذ وإضاءة | زيلميكو®`
+  - `og:description`: `نسيم بارد فوري لمواجهة حرارة الصيف. مبرد هواء ومكيف مكتبي متنقل مع 5 فوهات رذاذ نانو وإضاءة ليلية 7 ألوان. توصيل سريع في المملكة والدفع عند الاستلام.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo Arctic Mist 3-in-1 Portable Air Cooler, Nano Humidifier & Ambient Night Light
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

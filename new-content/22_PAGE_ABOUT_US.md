@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `About Zelmiqo® | Global Lifestyle Tech & Saudi Regional Operations`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Learn about Zelmiqo's global mission to engineer minimalist smart living essentials, summer cooling devices, and restorative wellness, backed by dedicated Saudi fulfillment.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `about zelmiqo, global lifestyle tech brand, smart gadgets saudi arabia, precision engineering, trusted ksa store`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `About Zelmiqo® | Global Lifestyle Tech & Saudi Regional Operations`
+  - `og:description`: `Learn about Zelmiqo's global mission to engineer minimalist smart living essentials, summer cooling devices, and restorative wellness, backed by dedicated Saudi fulfillment.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `من نحن | علامة زيلميكو® العالمية ومركز العمليات في المملكة العربية السعودية`
+- **وصف الصفحة (Meta Description)**:
+  `تعرف على قصة ورسالة زيلميكو العالمية لتقديم ابتكارات الحياة الذكية وحلول التبريد الصيفي والعناية الفاخرة مع مركز توزيع محلي مخصص في المملكة.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `عن زيلميكو, متجر أجهزة ذكية عالمي, ماركة زيلميكو الأصلية, تسوق موثوق السعودية, ضمان الأجهزة الذكية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `من نحن | علامة زيلميكو® العالمية ومركز العمليات في المملكة العربية السعودية`
+  - `og:description`: `تعرف على قصة ورسالة زيلميكو العالمية لتقديم ابتكارات الحياة الذكية وحلول التبريد الصيفي والعناية الفاخرة مع مركز توزيع محلي مخصص في المملكة.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🏛️ About Us (من نحن) - Zelmiqo Global & Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/page/about-us`  

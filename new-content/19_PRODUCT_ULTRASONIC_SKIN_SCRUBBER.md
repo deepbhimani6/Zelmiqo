@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion) | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `24,000Hz ultrasonic blackhead peeling at home. Ion+ removes trapped sebum and grime; Ion- infuses serums deeply; EMS pulses firm facial contours.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `ultrasonic skin scrubber, facial pore spatula, ultrasonic blackhead extractor, ion skin peeling machine, ems lifting skincare device ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion) | Zelmiqo®`
+  - `og:description`: `24,000Hz ultrasonic blackhead peeling at home. Ion+ removes trapped sebum and grime; Ion- infuses serums deeply; EMS pulses firm facial contours.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `تنظيف وتقشير عيادات التجميل في منزلك. 24,000 اهتزازة صوتية تفتت وتزيل الرؤوس السوداء والجلد الميت مع تقنية الأيونات لامتصاص عميق للسيروم وشد الوجه بالنبضات.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `جهاز تقشير البشرة بالموجات فوق الصوتية, ملعقة تنظيف المسام, إزالة الرؤوس السوداء سونيك, جهاز تغلغل السيروم, تنظيف عميق للبشرة, أجهزة نضارة الوجه السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات | زيلميكو®`
+  - `og:description`: `تنظيف وتقشير عيادات التجميل في منزلك. 24,000 اهتزازة صوتية تفتت وتزيل الرؤوس السوداء والجلد الميت مع تقنية الأيونات لامتصاص عميق للسيروم وشد الوجه بالنبضات.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo DermaSonic Ultrasonic Skin Scrubber & Deep Pore Spatula (Ionic Infusion)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

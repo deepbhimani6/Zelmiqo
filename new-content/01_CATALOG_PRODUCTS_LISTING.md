@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Zelmiqo® Catalog | All Flagship Smart Gadgets & Lifestyle Tech`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Browse the complete Zelmiqo collection. Climate cooling devices, wireless chargers, wellness massagers & automotive gear with express delivery across KSA.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `zelmiqo catalog, buy smart gadgets saudi arabia, neck cooling fans, car vacuum cordless, facial ems massager, ksa electronics shop`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Zelmiqo® Catalog | All Flagship Smart Gadgets & Lifestyle Tech`
+  - `og:description`: `Browse the complete Zelmiqo collection. Climate cooling devices, wireless chargers, wellness massagers & automotive gear with express delivery across KSA.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `كتالوج منتجات زيلميكو® | جميع الابتكارات الذكية وأجهزة التبريد والعناية`
+- **وصف الصفحة (Meta Description)**:
+  `تصفح تشكيلة منتجات زيلميكو الكاملة. أجهزة التبريد، منصات الشحن اللاسلكي، أجهزة المساج والعناية، ومستلزمات السيارات مع توصيل سريع لجميع مناطق المملكة.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `كتالوج زيلميكو, تسوق أجهزة ذكية, مروحة رقبة للبيع, مكنسة سيارة قوية, أجهزة عناية بالبشرة, متجر إلكتروني الرياض, شحن سريع السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `كتالوج منتجات زيلميكو® | جميع الابتكارات الذكية وأجهزة التبريد والعناية`
+  - `og:description`: `تصفح تشكيلة منتجات زيلميكو الكاملة. أجهزة التبريد، منصات الشحن اللاسلكي، أجهزة المساج والعناية، ومستلزمات السيارات مع توصيل سريع لجميع مناطق المملكة.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🛍️ Catalog & Products Listing Page (كتالوج المنتجات العالمية) - Zelmiqo
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living  

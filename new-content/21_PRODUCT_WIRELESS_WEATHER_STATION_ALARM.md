@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `MeteoTouch Wireless Color Touchscreen Weather Station & Dual Alarm Clock | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Accurate real-time indoor & outdoor micro-climate monitoring. 60m wireless outdoor sensor, color touch LCD, barometric trends, humidity comfort index & dual alarms.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `wireless weather station indoor outdoor, color touch weather station clock, digital humidity temperature monitor, home comfort sensor ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `MeteoTouch Wireless Color Touchscreen Weather Station & Dual Alarm Clock | Zelmiqo®`
+  - `og:description`: `Accurate real-time indoor & outdoor micro-climate monitoring. 60m wireless outdoor sensor, color touch LCD, barometric trends, humidity comfort index & dual alarms.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `محطة الأرصاد الجوية المنزلية الذكية اللاسلكية بشاشة لمس ملونة ومنبه | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `متابعة حية ودقيقة لدرجات الحرارة والرطوبة الداخلية والخارجية. مستشعر خارجي لاسلكي حتى 60 متراً، شاشة لمس ملونة LCD، مؤشر راحة الهواء، وتوقعات الطقس ومنبه مزدوج لغرفتك ومكتبك.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `محطة ارصاد جوية منزلية, جهاز قياس حرارة ورطوبة الجو, ساعة منبه رقمية ذكية, مقياس طقس لاسلكي خارجي, أجهزة منزل ذكي السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `محطة الأرصاد الجوية المنزلية الذكية اللاسلكية بشاشة لمس ملونة ومنبه | زيلميكو®`
+  - `og:description`: `متابعة حية ودقيقة لدرجات الحرارة والرطوبة الداخلية والخارجية. مستشعر خارجي لاسلكي حتى 60 متراً، شاشة لمس ملونة LCD، مؤشر راحة الهواء، وتوقعات الطقس ومنبه مزدوج لغرفتك ومكتبك.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo MeteoTouch Wireless Color Touchscreen Weather Station & Dual Alarm Clock (Outdoor Sensor)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Shipping & Delivery Across Saudi Arabia | Zelmiqo® Domestic Logistics`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Fast domestic delivery across Riyadh, Jeddah (24-48h) and all Saudi provinces (2-4d) via SMSA, Aramex & Redbox. Free shipping on orders over SAR 199. Cash on Delivery available.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `zelmiqo shipping policy, fast delivery riyadh jeddah, smsa aramex ksa tracking, free shipping saudi arabia, cash on delivery electronics`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Shipping & Delivery Across Saudi Arabia | Zelmiqo® Domestic Logistics`
+  - `og:description`: `Fast domestic delivery across Riyadh, Jeddah (24-48h) and all Saudi provinces (2-4d) via SMSA, Aramex & Redbox. Free shipping on orders over SAR 199. Cash on Delivery available.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `الشحن والتوصيل لكافة مدن المملكة | التوصيل المحلي السريع من زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `شحن وتوصيل محلي سريع خلال 24-48 ساعة بالرياض وجدة و2-4 أيام لكافة مدن ومحافظات المملكة عبر سمسا وأرامكس وريدبوكس. شحن مجاني للطلبات فوق 199 ر.س والدفع عند الاستلام متاح.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `شحن وتوصيل السعودية, مدة توصيل زيلميكو, شحن سمسا أرامكس الرياض, شحن مجاني للمشتريات, الدفع عند الاستلام متاح`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `الشحن والتوصيل لكافة مدن المملكة | التوصيل المحلي السريع من زيلميكو®`
+  - `og:description`: `شحن وتوصيل محلي سريع خلال 24-48 ساعة بالرياض وجدة و2-4 أيام لكافة مدن ومحافظات المملكة عبر سمسا وأرامكس وريدبوكس. شحن مجاني للطلبات فوق 199 ر.س والدفع عند الاستلام متاح.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🚚 Shipping & Delivery Policy (الشحن والتوصيل) - Zelmiqo Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/page/delivery` & `https://zelmiqo.com/page/shipping-tracking`  

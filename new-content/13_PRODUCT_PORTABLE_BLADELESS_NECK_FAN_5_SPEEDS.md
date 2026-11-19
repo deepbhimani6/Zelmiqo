@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `AeroPulse 5-Speed Bladeless Neck Fan with Quad Air Ducts & LED Screen | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `5 turbo gear speeds for extreme heat. Quad-channel air outlets deliver upward and downward cooling to face and neck. Skin-friendly silicone, long battery life.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `5 speed bladeless neck fan, quad duct neck cooling fan, high power wearable neck fan, rechargeable summer neck cooler, extreme heat neck fan ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `AeroPulse 5-Speed Bladeless Neck Fan with Quad Air Ducts & LED Screen | Zelmiqo®`
+  - `og:description`: `5 turbo gear speeds for extreme heat. Quad-channel air outlets deliver upward and downward cooling to face and neck. Skin-friendly silicone, long battery life.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مروحة الرقبة الرياضية بـ 5 سرعات توربينية وقنوات تبريد رباعية | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `5 سرعات هوائية لمواجهة أشد درجات الحرارة في الصيف. 4 قنوات هوائية تضخ الهواء البارد للوجه والرقبة مع شاشة LED لعرض السرعة وشحن البطارية. طوق سيليكوني مريح مقاوم للتعرق.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مروحة رقبة 5 سرعات, مروحة رقبة رياضية قوية, مكيف رقبة توربيني, مروحة تبريد متنقلة, تبريد الرأس والرقبة, أجهزة تبريد صيفية الرياض`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مروحة الرقبة الرياضية بـ 5 سرعات توربينية وقنوات تبريد رباعية | زيلميكو®`
+  - `og:description`: `5 سرعات هوائية لمواجهة أشد درجات الحرارة في الصيف. 4 قنوات هوائية تضخ الهواء البارد للوجه والرقبة مع شاشة LED لعرض السرعة وشحن البطارية. طوق سيليكوني مريح مقاوم للتعرق.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo AeroPulse 5-Speed Bladeless Neck Fan with LED Screen & Quad-Air Channels
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

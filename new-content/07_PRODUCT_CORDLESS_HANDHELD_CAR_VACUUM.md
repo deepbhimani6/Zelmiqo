@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `TurboClean Pro Cordless Handheld Car Vacuum Cleaner (9,000Pa) | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Powerful 9,000Pa cyclone suction in a compact cordless design. Lifts sand, gravel & crumbs from car seats and AC vents. Washable HEPA filter & LED light.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `cordless car vacuum cleaner, handheld vacuum 9000pa, portable car interior cleaner, usb rechargeable car vacuum, sand suction cleaner ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `TurboClean Pro Cordless Handheld Car Vacuum Cleaner (9,000Pa) | Zelmiqo®`
+  - `og:description`: `Powerful 9,000Pa cyclone suction in a compact cordless design. Lifts sand, gravel & crumbs from car seats and AC vents. Washable HEPA filter & LED light.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مكنسة السيارة اللاسلكية المحمولة بقوة شفط 9000 باسكال وفلتر HEPA | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `شفط إعصاري جبار بقوة 9000 باسكال يزيل الرمال والغبار وبقايا الطعام من مقاعد السيارة ومجاري المكيف بكل سهولة. شحن USB-C وفلتر قابل للغسيل.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مكنسة سيارة لاسلكية, مكنسة شحن للسيارة, مكنسة شفط رمال وغبار, مكنسة يد ميني قوية, مستلزمات سيارات الرياض, تنظيف سيارات منزلي`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مكنسة السيارة اللاسلكية المحمولة بقوة شفط 9000 باسكال وفلتر HEPA | زيلميكو®`
+  - `og:description`: `شفط إعصاري جبار بقوة 9000 باسكال يزيل الرمال والغبار وبقايا الطعام من مقاعد السيارة ومجاري المكيف بكل سهولة. شحن USB-C وفلتر قابل للغسيل.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo TurboClean Pro Cordless Handheld Car Vacuum Cleaner with Cyclone Suction
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

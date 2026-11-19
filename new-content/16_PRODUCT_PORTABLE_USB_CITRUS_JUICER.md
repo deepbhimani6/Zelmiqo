@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `FreshPress Wireless Automatic Citrus Juicer & Orange Extractor | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `100% pure juice with one button. Hands-free 360° automatic pressing for oranges, lemons, limes & pomegranates. Wireless USB-C rechargeable, 95% juice yield.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `automatic citrus juicer electric, wireless orange squeezer, hands free lemon juicer machine, pomegranate juice press, usb citrus extractor ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `FreshPress Wireless Automatic Citrus Juicer & Orange Extractor | Zelmiqo®`
+  - `og:description`: `100% pure juice with one button. Hands-free 360° automatic pressing for oranges, lemons, limes & pomegranates. Wireless USB-C rechargeable, 95% juice yield.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية بضغطة زر | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `عصير طبيعي طازج بضغطة زر واحدة وبدون أي مجهود يدوي. عصر أوتوماتيكي 360 درجة للبرتقال والرمان والليمون مع استخلاص 95% من العصير الصافي بدون بذور. قابلة للشحن بـ USB.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `عصارة برتقال كهربائية شحن, عصارة حمضيات اوتوماتيكية, عصارة رمان متنقلة, عصارة فواكه بضغطة زر, أدوات مطبخ عصرية, تسوق أجهزة منزلية السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية بضغطة زر | زيلميكو®`
+  - `og:description`: `عصير طبيعي طازج بضغطة زر واحدة وبدون أي مجهود يدوي. عصر أوتوماتيكي 360 درجة للبرتقال والرمان والليمون مع استخلاص 95% من العصير الصافي بدون بذور. قابلة للشحن بـ USB.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo FreshPress Wireless Automatic Citrus Juicer & Orange Extractor (USB Rechargeable)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

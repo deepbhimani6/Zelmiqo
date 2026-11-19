@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 24-48h delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `zelmiqo, smart lifestyle gadgets, wearable cooling fan, wireless charger stand, car interior care, saudi arabia online shopping, tabby tamara ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia`
+  - `og:description`: `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 24-48h delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `زيلميكو® | ابتكارات ذكية عالمية لرفاهية استثنائية • متوفرة في السعودية`
+- **وصف الصفحة (Meta Description)**:
+  `اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، وقسّط مشترياتك مع تابي وتمارا.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `زيلميكو, متجر إلكتروني سعودي, أجهزة ذكية منزلية, مراوح تبريد صيفية, شواحن لاسلكية, مستلزمات سيارات فاخرة, تقسيط تابي, دفع عند الاستلام الرياض جدة`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `زيلميكو® | ابتكارات ذكية عالمية لرفاهية استثنائية • متوفرة في السعودية`
+  - `og:description`: `اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، وقسّط مشترياتك مع تابي وتمارا.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🏠 Homepage Content (الصفحة الرئيسية) - Zelmiqo Global & Saudi Arabia
 
 > **Brand Identity**: Zelmiqo (زيلميكو) — International Smart Living & Lifestyle Innovation Brand  

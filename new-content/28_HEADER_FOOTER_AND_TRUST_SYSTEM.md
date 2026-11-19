@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Header, Navigation, Global Trust & Official Registration Data | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Official navigation menus, announcement bars, certified commercial registration (CR), VAT credentials & certified payment method ribbons for Zelmiqo.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `zelmiqo official store, header navigation, commercial registration ksa, vat number, payment gateways`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Header, Navigation, Global Trust & Official Registration Data | Zelmiqo®`
+  - `og:description`: `Official navigation menus, announcement bars, certified commercial registration (CR), VAT credentials & certified payment method ribbons for Zelmiqo.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `الهيدر، القوائم، بيانات السجل التجاري وشارات الثقة | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `شريط الإعلانات، القوائم العلوية، بيانات السجل التجاري والتوثيق الضريبي المعتمد لدى المركز السعودي للأعمال وشارات الدفع الآمنة لمتجر زيلميكو.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `توثيق متجر زيلميكو, السجل التجاري, الرقم الضريبي, بوابات الدفع مدى ابل باي تابي تمارا`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `الهيدر، القوائم، بيانات السجل التجاري وشارات الثقة | زيلميكو®`
+  - `og:description`: `شريط الإعلانات، القوائم العلوية، بيانات السجل التجاري والتوثيق الضريبي المعتمد لدى المركز السعودي للأعمال وشارات الدفع الآمنة لمتجر زيلميكو.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 🧭 Header, Footer & Global Trust System (الهيدر، الفوتر وشارات الثقة) - Zelmiqo
 
 > **Brand Identity**: Zelmiqo (زيلميكو) — Global Lifestyle Innovation  

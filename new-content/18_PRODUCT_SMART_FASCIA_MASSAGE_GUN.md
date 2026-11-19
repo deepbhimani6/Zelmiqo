@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `ProPercuss 9-Speed Deep Tissue Fascia Massage Gun with LCD Touchscreen | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Accelerate muscle recovery & banish stiffness. 12mm deep percussive stroke, 9 intensity tiers & 4 therapeutic heads. Whisper-quiet motor & long-life battery.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `deep tissue massage gun, fascia massage gun 9 speed, percussive muscle massager, athletic recovery gun, quiet back massage gun saudi arabia`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `ProPercuss 9-Speed Deep Tissue Fascia Massage Gun with LCD Touchscreen | Zelmiqo®`
+  - `og:description`: `Accelerate muscle recovery & banish stiffness. 12mm deep percussive stroke, 9 intensity tiers & 4 therapeutic heads. Whisper-quiet motor & long-life battery.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مسدس تدليك العضلات العميق الاحترافي بـ 9 سرعات وشاشة لمس ذكية | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `استشفاء عضلي سريع وتخفيف فوري للآلام والتشنجات. اختراق عميق للأنسجة العضلية 12 ملم مع 9 سرعات لمس و4 رؤوس علاجية متخصصة ومحرك هادئ فائق التحمل.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مسدس مساج العضلات, جهاز تدليك الفاشيا العميق, جهاز مساج رياضي للجيم, علاج تشنج العضلات والظهر, مسدس تدليك شاشة لمس, أجهزة رياضية السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مسدس تدليك العضلات العميق الاحترافي بـ 9 سرعات وشاشة لمس ذكية | زيلميكو®`
+  - `og:description`: `استشفاء عضلي سريع وتخفيف فوري للآلام والتشنجات. اختراق عميق للأنسجة العضلية 12 ملم مع 9 سرعات لمس و4 رؤوس علاجية متخصصة ومحرك هادئ فائق التحمل.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo ProPercuss 9-Speed Deep Tissue Fascia Massage Gun with LCD Touchscreen
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

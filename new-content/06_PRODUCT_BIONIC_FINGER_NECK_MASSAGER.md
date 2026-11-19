@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Bionic Finger Shiatsu Neck & Shoulder Kneading Massager with Heat | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Melt away neck tension and driving stiffness in 15 minutes. 4D human-hand kneading rollers with soothing infrared thermal therapy. Includes car & home plugs.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `bionic neck massager, shiatsu shoulder kneading massager, heated neck pain relief, trapezius muscle massager, car neck massager saudi arabia`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Bionic Finger Shiatsu Neck & Shoulder Kneading Massager with Heat | Zelmiqo®`
+  - `og:description`: `Melt away neck tension and driving stiffness in 15 minutes. 4D human-hand kneading rollers with soothing infrared thermal therapy. Includes car & home plugs.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `جهاز مساج وتدليك الرقبة والأكتاف الحيوي 4D مع تدفئة حرارية | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `تدليك شياتسو يحاكي حركة اليد الحقيقية بدقة. يزيل تشنجات الرقبة وآلام الأكتاف وتعب القيادة والعمل في 15 دقيقة مع تدفئة بالأشعة تحت الحمراء.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `جهاز مساج الرقبة والاكتاف, مساج شياتسو بالحرارة, جهاز تدليك عضلات الرقبة, مساج للسيارة والمنزل, علاج آلام الرقبة, أجهزة مساج السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `جهاز مساج وتدليك الرقبة والأكتاف الحيوي 4D مع تدفئة حرارية | زيلميكو®`
+  - `og:description`: `تدليك شياتسو يحاكي حركة اليد الحقيقية بدقة. يزيل تشنجات الرقبة وآلام الأكتاف وتعب القيادة والعمل في 15 دقيقة مع تدفئة بالأشعة تحت الحمراء.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo Bionic Finger Shiatsu Neck & Shoulder Kneading Massager with Infrared Heat
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `Contact Zelmiqo® | VIP WhatsApp Concierge & Customer Care (+966)`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Need assistance? Contact Zelmiqo's dedicated customer support via live WhatsApp, phone, or email. Fast bilingual assistance available 7 days a week.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `contact zelmiqo, whatsapp support saudi arabia, customer care riyadh, track my order, order assistance ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `Contact Zelmiqo® | VIP WhatsApp Concierge & Customer Care (+966)`
+  - `og:description`: `Need assistance? Contact Zelmiqo's dedicated customer support via live WhatsApp, phone, or email. Fast bilingual assistance available 7 days a week.`
+  - `og:type`: `website`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `اتصل بنا | خدمة عملاء VIP عبر الواتساب على مدار الساعة | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `فريق خدمة عملاء زيلميكو مستعد لخدمتك والإجابة على استفساراتك وتتبع طلبك عبر محادثة الواتساب المباشرة على مدار الأسبوع.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `رقم واتساب زيلميكو, خدمة العملاء السعودية, تواصل مع المتجر, تتبع الشحنة, الدعم الفني للاجهزة`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `اتصل بنا | خدمة عملاء VIP عبر الواتساب على مدار الساعة | زيلميكو®`
+  - `og:description`: `فريق خدمة عملاء زيلميكو مستعد لخدمتك والإجابة على استفساراتك وتتبع طلبك عبر محادثة الواتساب المباشرة على مدار الأسبوع.`
+  - `og:type`: `website`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📞 Contact Us & VIP Support (اتصل بنا وخدمة العملاء) - Zelmiqo Saudi Arabia
 
 > **Page**: `https://zelmiqo.com/page/contact`  

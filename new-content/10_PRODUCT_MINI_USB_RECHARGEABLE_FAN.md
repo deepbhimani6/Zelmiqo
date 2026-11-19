@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `Whisper-quiet pocket cooling. 3 speeds, 6-hour rechargeable battery, and 2-in-1 desktop base with integrated phone stand. Perfect for campus, office & commuting.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `mini usb rechargeable fan, handheld portable fan, desktop fan with phone holder, pocket battery fan, quiet personal cooling fan ksa`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand | Zelmiqo®`
+  - `og:description`: `Whisper-quiet pocket cooling. 3 speeds, 6-hour rechargeable battery, and 2-in-1 desktop base with integrated phone stand. Perfect for campus, office & commuting.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مروحة الجيب اليدوية والمكتبية القابلة للشحن مع قاعدة وحامل جوال | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `نسيم منعش وهادئ في راحة يدك. مروحة مدمجة بـ 3 سرعات وبطارية تدوم حتى 6 ساعات مع قاعدة مكتبية وحامل للجوال. خفيفة ومثالية للجامعة والعمل والسفر.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مروحة يد صغيرة شحن, مروحة جيب يو اس بي, مروحة مكتبية مع ستاند جوال, مروحة محمولة صيفية, مروحة صغيرة قوية, تبريد شخصي الرياض`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مروحة الجيب اليدوية والمكتبية القابلة للشحن مع قاعدة وحامل جوال | زيلميكو®`
+  - `og:description`: `نسيم منعش وهادئ في راحة يدك. مروحة مدمجة بـ 3 سرعات وبطارية تدوم حتى 6 ساعات مع قاعدة مكتبية وحامل للجوال. خفيفة ومثالية للجامعة والعمل والسفر.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo BreezeMini 3-Speed Rechargeable Handheld & Desktop Fan with Phone Stand Base
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  

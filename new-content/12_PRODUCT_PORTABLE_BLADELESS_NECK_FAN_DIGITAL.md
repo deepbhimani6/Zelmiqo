@@ -1,3 +1,35 @@
+<!-- SEO_METADATA_START -->
+---
+# 🔍 SEO & Meta Architecture (بيانات الميتا ومحركات البحث للمتصفح وأرشفة قوقل)
+
+### 🇬🇧 English SEO Metadata (Search Engine Optimization)
+- **Meta Title** (HTML `<title>` tag):
+  `AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display | Zelmiqo®`
+- **Meta Description** (HTML `<meta name="description">`):
+  `360° surround arctic airflow. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12-hour runtime. Essential for Saudi summer & Hajj.`
+- **Meta Keywords** (HTML `<meta name="keywords">`):
+  `bladeless neck fan digital display, wearable neck air conditioner, rechargeable neck fan 360, personal neck cooling fan hajj umrah, neck fan saudi arabia`
+- **Open Graph / Social Media Tags**:
+  - `og:title`: `AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display | Zelmiqo®`
+  - `og:description`: `360° surround arctic airflow. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12-hour runtime. Essential for Saudi summer & Hajj.`
+  - `og:type`: `product`
+  - `og:locale`: `en_US` (Alternate: `ar_SA`)
+
+### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
+- **عنوان الصفحة (Meta Title)**:
+  `مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو®`
+- **وصف الصفحة (Meta Description)**:
+  `تبريد قطبي محيطي 360 درجة بدون استخدام اليدين. محركات توربينية آمنة للشعر 100% مع شاشة رقمية توضح نسبة البطارية وبطارية تدوم 12 ساعة. أساسية لصيف المملكة ومناسك الحج والعمرة.`
+- **الكلمات المفتاحية (Meta Keywords)**:
+  `مروحة رقبة بدون شفرات, مروحة الرقبة التوربينية, مروحة شاشة رقمية, مروحة للحج والعمرة, مكيف رقبة متنقل, تبريد شخصي صيفي السعودية`
+- **وسوم التواصل الاجتماعي (Open Graph Tags)**:
+  - `og:title`: `مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو®`
+  - `og:description`: `تبريد قطبي محيطي 360 درجة بدون استخدام اليدين. محركات توربينية آمنة للشعر 100% مع شاشة رقمية توضح نسبة البطارية وبطارية تدوم 12 ساعة. أساسية لصيف المملكة ومناسك الحج والعمرة.`
+  - `og:type`: `product`
+  - `og:locale`: `ar_SA` (Alternate: `en_US`)
+---
+<!-- SEO_METADATA_END -->
+
 # 📦 Zelmiqo AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
