@@ -95,7 +95,7 @@ Trust Ribbon: ⭐️ Rated 4.9/5 by 12,500+ Happy Customers Across Riyadh, Jedda
 
 ---
 
-## 4. Featured Collections (التصنيفات المميزة)
+## 3. Featured Collections (التصنيفات المميزة)
 
 ### Old English Content
 ```text
@@ -145,7 +145,7 @@ Categories:
 
 ---
 
-## 5. Saudi Customer Testimonials (آراء وتجارب عملاء المملكة)
+## 4. Saudi Customer Testimonials (آراء وتجارب عملاء المملكة)
 
 ### Old English Content
 ```text
