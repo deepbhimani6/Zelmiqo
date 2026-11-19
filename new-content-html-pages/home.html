@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo® Homepage Content Master | Visual Workstation</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --gold: #c9a14b;
+      --gold-light: #e8d7a5;
+      --bg-dark: #09131d;
+      --bg-card: #132435;
+      --bg-light: #f8fafc;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+    
+    /* Top Bar */
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+    .brand-title span.badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+    }
+    .header-links a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-size: 13px;
+      margin-left: 16px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.08);
+      transition: all 0.2s;
+    }
+    .header-links a:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+
+    /* Layout: Split Screen */
+    .app-container {
+      display: flex;
+      height: calc(100vh - 65px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Visual Live Website */
+    .visual-pane {
+      width: 48%;
+      background: #0f172a;
+      border-right: 2px solid #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .visual-toolbar {
+      background: #1e293b;
+      padding: 12px 16px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      border-bottom: 1px solid #334155;
+    }
+    .visual-toolbar button {
+      background: #0f172a;
+      color: #94a3b8;
+      border: 1px solid #334155;
+      padding: 6px 12px;
+      font-size: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .visual-toolbar button.active, .visual-toolbar button:hover {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 600;
+    }
+    .visual-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .image-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 720px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #000;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Visual Pins / Markers */
+    .visual-pin {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--gold);
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 0 4px rgba(201, 161, 75, 0.4), 0 4px 10px rgba(0,0,0,0.5);
+      cursor: pointer;
+      z-index: 10;
+      transition: transform 0.2s, background 0.2s;
+    }
+    .visual-pin:hover {
+      transform: scale(1.2);
+      background: #fef08a;
+    }
+    .slider-hint-box {
+      margin-top: 14px;
+      background: #1e293b;
+      border-left: 4px solid var(--gold);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      color: #e2e8f0;
+      font-size: 12px;
+      width: 100%;
+      max-width: 720px;
+    }
+    .slider-hint-box strong { color: var(--gold); }
+
+    /* Right Pane: Copy & Paste Cards */
+    .workstation-pane {
+      width: 52%;
+      overflow-y: auto;
+      padding: 24px 30px;
+      background: #f8fafc;
+    }
+    .section-nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+      position: sticky;
+      top: -10px;
+      background: #f8fafc;
+      padding: 10px 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-nav-pills a {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--text-main);
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .section-nav-pills a:hover {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      transition: all 0.3s;
+      overflow: hidden;
+    }
+    .content-card.highlight {
+      border: 2px solid var(--gold);
+      box-shadow: 0 0 20px rgba(201, 161, 75, 0.3);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      background: #f8fafc;
+      padding: 14px 20px;
+      border-bottom: 1px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-header-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .card-pin-badge {
+      background: var(--gold);
+      color: var(--primary);
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 13px;
+    }
+    .card-header-title h3 {
+      font-size: 16px;
+      color: var(--primary);
+      font-weight: 700;
+    }
+    .slider-tag {
+      font-size: 11px;
+      background: #e0f2fe;
+      color: #0369a1;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    
+    /* Field Rows */
+    .field-row {
+      margin-bottom: 20px;
+      padding-bottom: 18px;
+      border-bottom: 1px dashed #e2e8f0;
+    }
+    .field-row:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .field-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .field-label .slide-indicator {
+      font-size: 11px;
+      color: var(--gold);
+      font-weight: 600;
+      text-transform: none;
+    }
+
+    /* Content Box with Copy Button */
+    .copy-box {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .content-preview {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 13px;
+      color: #0f172a;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: inherit;
+      position: relative;
+    }
+    .content-preview.arabic {
+      direction: rtl;
+      font-family: "Geeza Pro", "Traditional Arabic", Tahoma, sans-serif;
+      background: #fdfaf3;
+      border-color: #e8d7a5;
+      color: #262626;
+      font-size: 14px;
+    }
+    .copy-btn-bar {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .copy-btn {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      color: #1e293b;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .copy-btn.copied {
+      background: var(--green) !important;
+      color: #fff !important;
+      border-color: var(--green) !important;
+    }
+
+    /* Toast Notification */
+    #copy-toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+      border-left: 4px solid var(--green);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 9999;
+    }
+    #copy-toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .app-container { flex-direction: column; height: auto; }
+      .visual-pane, .workstation-pane { width: 100%; height: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Global Header -->
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® Homepage Content Master</h1>
+      <span class="badge">Saudi Arabia & Global Launch</span>
+    </div>
+    <div class="header-links">
+      <a href="#section-hero">Hero Slider</a>
+      <a href="#section-trust">Trust Pillars</a>
+      <a href="#section-categories">Categories Slider</a>
+      <a href="#section-new">New Collection</a>
+      <a href="#section-trending">Trending Slider</a>
+      <a href="#section-reviews">Testimonials Slider</a>
+    </div>
+  </header>
+
+  <!-- App Main Container -->
+  <div class="app-container">
+
+    <!-- LEFT PANE: Visual Website with Interactive Pins -->
+    <div class="visual-pane">
+      <div class="visual-toolbar">
+        <button class="active" onclick="switchVisual('hero')">1. Hero Banner Slider</button>
+        <button onclick="switchVisual('trust')">2. Trust Pillars</button>
+        <button onclick="switchVisual('categories')">3. Categories Slider (8 Slides)</button>
+        <button onclick="switchVisual('new_collection')">4. New Collection Slider</button>
+        <button onclick="switchVisual('mid_banners')">5. Mid Banners</button>
+        <button onclick="switchVisual('trending')">6. Trending Slider</button>
+        <button onclick="switchVisual('testimonials')">7. Testimonials Slider (6 Slides)</button>
+        <button onclick="switchVisual('full')">Full Page Map</button>
+      </div>
+
+      <div class="visual-content">
+        <!-- Visual Image Container with Pins -->
+        <div class="image-wrapper" id="imageWrapper">
+          <img id="visualImage" src="assets/section_1_hero.jpg" alt="Live Homepage Section">
+
+          <!-- Dynamic Pins Overlay (Switched by JS) -->
+          <div id="pinsOverlay">
+            <div class="visual-pin" style="top: 30%; left: 15%;" onclick="scrollToCard('card-hero-slide1')">①</div>
+            <div class="visual-pin" style="top: 55%; left: 15%;" onclick="scrollToCard('card-hero-slide1')">②</div>
+            <div class="visual-pin" style="top: 85%; left: 50%;" onclick="scrollToCard('card-hero-slide2')">③</div>
+          </div>
+        </div>
+
+        <div class="slider-hint-box" id="sliderHint">
+          <strong>⚡️ Slider Architecture Note:</strong><br>
+          In the live store viewport, only the active slide is shown. The slider autoplays to the next slide every few seconds. Below on the right workstation, <strong>both Slide 1 and Slide 2</strong> are completely laid out with 1-click copy buttons!
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANE: Copy & Paste Workstation -->
+    <div class="workstation-pane">
+
+      <!-- Navigation Pills -->
+      <div class="section-nav-pills">
+        <a href="#card-hero-slide1">① Hero Slide 1</a>
+        <a href="#card-hero-slide2">② Hero Slide 2</a>
+        <a href="#card-trust-pillars">③ Trust Pillars</a>
+        <a href="#card-categories-slider">④ Categories (8 Slides)</a>
+        <a href="#card-new-collection">⑤ New Arrivals (6 Slides)</a>
+        <a href="#card-trending-slider">⑥ Trending (7 Slides)</a>
+        <a href="#card-testimonials-slider">⑦ Testimonials (6 Slides)</a>
+        <a href="#card-seo-metadata">🔍 SEO Meta Tags</a>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 1: HERO SLIDER (SLIDE 1 & SLIDE 2)                     -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-hero-slide1">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">①</span>
+            <h3>Hero Banner — Slide 1 (Active on Load)</h3>
+          </div>
+          <span class="slider-tag">Slider 1 • Slide 1 of 2</span>
+        </div>
+        <div class="card-body">
+          <div class="field-row">
+            <div class="field-label">
+              <span>Main Hero Headline</span>
+              <span class="slide-indicator">Visual Location: Centered Hero Banner 1</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-s1-title-en">Elevating Everyday Living Worldwide. Engineered for Saudi Arabia.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s1-title-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-s1-title-ar">ابتكارات عالمية لرفاهية استثنائية. صُممت خصيصاً للمملكة العربية السعودية.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s1-title-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-label">
+              <span>Hero Subheadline / Value Pitch</span>
+              <span class="slide-indicator">Visual Location: Under Headline</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-s1-sub-en">Discover world-class smart lifestyle tech, arctic wearable cooling, and luxury wellness gadgets. Dispatched directly from Riyadh with 24-48h express delivery.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s1-sub-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-s1-sub-ar">اكتشف أحدث التقنيات الذكية لأسلوب حياة راقٍ، حلول التبريد الصيفي القطبية، وأجهزة المساج الفاخرة. شحن محلي سريع من الرياض لكافة مدن المملكة.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s1-sub-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-label">
+              <span>Call to Action Buttons</span>
+              <span class="slide-indicator">Primary & Secondary Buttons</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-s1-btn1-en">Explore Flagship Collection</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s1-btn1-en', this)">📋 Copy English Button</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-s1-btn1-ar">استكشف المجموعة المتكاملة</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s1-btn1-ar', this)">📋 Copy Arabic Button</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Slide 2 -->
+      <div class="content-card" id="card-hero-slide2">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">②</span>
+            <h3>Hero Banner — Slide 2 (Autoplay Slide)</h3>
+          </div>
+          <span class="slider-tag">Slider 1 • Slide 2 of 2</span>
+        </div>
+        <div class="card-body">
+          <div class="field-row">
+            <div class="field-label">
+              <span>Banner 2 Headline (Summer Climate Series)</span>
+              <span class="slide-indicator">Hidden initially, autoplays into view</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-s2-title-en">Conquer the 48°C Summer Heat: Arctic Wearable Cooling Tech</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s2-title-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-s2-title-ar">تغلّب على حرارة الصيف فوق 48 درجة مئوية: تقنيات التبريد الشخصي القطبية</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s2-title-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-label">
+              <span>Banner 2 Subheadline & Offer</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-s2-sub-en">Hands-free bladeless neck fans and evaporative desktop coolers. Split your purchase in 4 interest-free installments with Tabby & Tamara.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s2-sub-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-s2-sub-ar">مراوح الرقبة التوربينية بدون شفرات ومكيفات الرذاذ المكتبية. قسّم مشترياتك على 4 دفعات بدون أي فوائد مع تابي وتمارا.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s2-sub-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-label">
+              <span>Banner 2 Button CTA</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-s2-btn-en">Shop Summer Cooling Series</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s2-btn-en', this)">📋 Copy English Button</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-s2-btn-ar">تسوق أجهزة التبريد الصيفي</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-s2-btn-ar', this)">📋 Copy Arabic Button</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 2: 3 TRUST PILLARS                                     -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-trust-pillars">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">③</span>
+            <h3>Value Proposition Bar: 3 Core Trust Pillars</h3>
+          </div>
+          <span class="slider-tag">Fixed Grid Under Hero</span>
+        </div>
+        <div class="card-body">
+          <!-- Pillar 1 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Pillar 1: Fast & Free KSA Delivery</span>
+              <span class="slide-indicator">Left Block</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="trust-p1-en">Fast & Free Domestic Delivery
+Get your favorite smart living products delivered quickly across Saudi Arabia with 100% free shipping directly from our Riyadh warehouse.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('trust-p1-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trust-p1-ar">توصيل محلي سريع ومجاني
+استمتع بتوصيل فوري لكافة مدن المملكة بشحن مجاني 100% ينطلق مباشرة من مستودعاتنا في الرياض.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('trust-p1-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Pillar 2: 100% Golden Guarantee</span>
+              <span class="slide-indicator">Center Block</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="trust-p2-en">100% Golden Guarantee & Easy Returns
+Shop with complete peace of mind backed by our Golden 14-Day direct replacement guarantee and 1-year product warranty.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('trust-p2-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trust-p2-ar">الضمان الذهبي والاستبدال السهل
+تسوق بثقة تامة مع الضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('trust-p2-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Pillar 3: Safe Checkout & Installments</span>
+              <span class="slide-indicator">Right Block</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="trust-p3-en">Safe Checkout & Flexible Installments
+Your payments stay 100% protected. Pay with Mada, Apple Pay, Cash on Delivery, or split in 4 with Tabby & Tamara.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('trust-p3-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trust-p3-ar">دفع آمن وتقسيط ميسر
+حماية مصرفية متكاملة لبياناتك. ادفع عبر مدى، أبل باي، الدفع عند الاستلام، أو قسّم فاتورتك على 4 دفعات مع تابي وتمارا.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('trust-p3-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 3: CATEGORIES CAROUSEL SLIDER (ALL 8 SLIDES)           -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-categories-slider">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">④</span>
+            <h3>Featured Categories Carousel (All 8 Slides Checked)</h3>
+          </div>
+          <span class="slider-tag">Slider 2 • 8 Total Slides</span>
+        </div>
+        <div class="card-body">
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+            ℹ️ <strong>Slider Viewport Notice:</strong> On desktop, 5-6 categories are shown at once; slides 7 and 8 are hidden and autoplay/swipe. All 8 slides are provided below:
+          </p>
+
+          <!-- Category 1 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 1: Summer Products</span>
+              <span class="slide-indicator">Visible in initial viewport</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s1-en">❄️ Climate & Cooling Series (Cool Comfort Essentials)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s1-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s1-ar">❄️ أجهزة التبريد والانتعاش الصيفي</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s1-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 2 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 2: Car Accessories</span>
+              <span class="slide-indicator">Visible in initial viewport</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s2-en">🚗 Automotive Prestige (Car Accessories Customers Love)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s2-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s2-ar">🚗 مستلزمات العناية بالسيارات</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s2-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 3 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 3: Mobile Accessories</span>
+              <span class="slide-indicator">Visible in initial viewport</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s3-en">⚡️ Power & Workspace (Mobile Accessories Ready to Ship)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s3-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s3-ar">⚡️ منصات الشحن وملحقات الجوال</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s3-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 4 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 4: Islamic & Gift Products</span>
+              <span class="slide-indicator">Visible in initial viewport</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s4-en">✨ Prestige Lifestyle & Gifts (Customer Favorite Picks)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s4-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s4-ar">✨ هدايا وابتكارات فاخرة ومختارة</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s4-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 5 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 5: Health & Fitness</span>
+              <span class="slide-indicator">Visible in initial viewport</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s5-en">💪 Active Recovery & Fitness Series</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s5-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s5-ar">💪 أجهزة التدليك واللياقة والنشاط</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s5-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 6 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 6: Home & Kitchen</span>
+              <span class="slide-indicator">Edge of viewport / Autoplay</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s6-en">🏡 Smart Home & Kitchen Must-Haves</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s6-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s6-ar">🏡 مستلزمات المنزل والمطبخ العصري</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s6-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 7 (Hidden until swipe) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 7: Electronics & Gadgets</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s7-en">🔌 Smart Electronics & Gadgets for Daily Life</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s7-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s7-ar">🔌 أجهزة إلكترونية ذكية للحياة اليومية</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s7-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Category 8 (Hidden until swipe) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 8: Beauty & Personal Care</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="cat-s8-en">💆‍♀️ Restorative Wellness & Personal Care</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s8-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="cat-s8-ar">💆‍♀️ العناية الشخصية والاسترخاء المنزلي</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('cat-s8-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 4: NEW COLLECTION CAROUSEL (6 SLIDES)                  -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-new-collection">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">⑤</span>
+            <h3>NEW COLLECTION / New Arrivals (All 6 Product Slides)</h3>
+          </div>
+          <span class="slider-tag">Slider 3 • 6 Total Slides</span>
+        </div>
+        <div class="card-body">
+          <div class="field-row">
+            <div class="field-label"><span>Section Main Title & Subtitle</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-sec-title-en">The New Innovation Series: Designed for Modern Living</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-sec-title-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-sec-title-ar">أحدث ابتكارات الموسم: صُممت لحياة عصرية متكاملة</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-sec-title-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Product Slide 1 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 1: 5-in-1 EMS Facial Massager (SAR 135.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-p1-en">Zelmiqo LuminaLift 5-in-1 EMS Microcurrent Facial Sculptor & LED Therapy — SAR 135.00 (Split in 4: SAR 33.75/mo)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p1-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-p1-ar">جهاز شد ونحت الوجه 5 في 1 بالتيار الدقيق EMS والعلاج الضوئي — 135.00 ر.س (قسّمها: 33.75 ر.س/شهر)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p1-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Product Slide 2 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 2: Smart Fascia Massage Gun (SAR 139.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-p2-en">Zelmiqo ProPercuss 9-Speed Smart Fascia Deep Tissue Massage Gun — SAR 139.00 (Split in 4: SAR 34.75/mo)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p2-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-p2-ar">مسدس المساج والتدليك العضلي العميق بـ 9 سرعات وشاشة LCD — 139.00 ر.س (قسّمها: 34.75 ر.س/شهر)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p2-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Product Slide 3 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 3: Bionic Finger Neck Massager (SAR 149.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-p3-en">Zelmiqo BionicTouch 4D Finger Kneading Neck & Shoulder Massager — SAR 149.00 (Split in 4: SAR 37.25/mo)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p3-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-p3-ar">جهاز مساج الرقبة والأكتاف بالضغط الحيوي 4D والتسخين الحراري — 149.00 ر.س (قسّمها: 37.25 ر.س/شهر)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p3-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Product Slide 4 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 4: Portable Double Cup Juicer (SAR 172.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-p4-en">Zelmiqo DuoBlend 2-in-1 Dual-Cup Rechargeable Smoothie Blender — SAR 172.00 (Split in 4: SAR 43.00/mo)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p4-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-p4-ar">خلاط العصائر والسموذي المحمول 2 في 1 مع كوبين رياضيين — 172.00 ر.س (قسّمها: 43.00 ر.س/شهر)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p4-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Product Slide 5 (Hidden initially) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 5: Portable 6-Blade Juicer (SAR 149.00)</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-p5-en">Zelmiqo NutriBlend Pro 6-Blade Cordless Portable Smoothie Blender — SAR 149.00 (Split in 4: SAR 37.25/mo)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p5-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-p5-ar">خلاط العصائر المحمول بـ 6 شفرات ثلاثية الأبعاد لطحن الثلج — 149.00 ر.س (قسّمها: 37.25 ر.س/شهر)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p5-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Product Slide 6 (Hidden initially) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 6: Portable USB Citrus Juicer (SAR 109.00)</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="new-p6-en">Zelmiqo CitrusPress Automatic Hands-Free Electric Citrus Juicer — SAR 109.00 (Split in 4: SAR 27.25/mo)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p6-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="new-p6-ar">عصارة البرتقال والليمون الكهربائية الأوتوماتيكية بلمسة واحدة — 109.00 ر.س (قسّمها: 27.25 ر.س/شهر)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('new-p6-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 5: TRENDING PRODUCTS CAROUSEL (7 SLIDES)               -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-trending-slider">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">⑥</span>
+            <h3>TRENDING COLLECTION / Trending Products (All 7 Slides)</h3>
+          </div>
+          <span class="slider-tag">Slider 4 • 7 Total Slides</span>
+        </div>
+        <div class="card-body">
+          <div class="field-row">
+            <div class="field-label"><span>Section Main Title</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-sec-title-en">Most Wanted in Saudi Arabia: Trending Daily Innovations</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-sec-title-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-sec-title-ar">الأكثر طلباً ورواجاً في المملكة: ابتكارات عصرية لا غنى عنها</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-sec-title-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 1 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 1: 3-in-1 Fast Charging Dock (SAR 129.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p1-en">Zelmiqo MagCharge 3-in-1 Fast Wireless Charging Station — SAR 129.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p1-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p1-ar">منصة الشحن اللاسلكي السريع 3 في 1 للآيفون والساعة والسماعة — 129.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p1-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 2: Bladeless Neck Fan 5 Speeds (SAR 159.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p2-en">Zelmiqo AeroBreeze Max 5-Speed Wearable Neck Fan with LED Screen — SAR 159.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p2-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p2-ar">مروحة الرقبة اللاسلكية بـ 5 سرعات توربينية وشاشة LED — 159.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p2-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 3: Foldable Car Sun Shade Umbrella (SAR 115.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p3-en">Zelmiqo SolGuard Titanium-Silver Foldable Car Windshield Sun Shade Umbrella — SAR 115.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p3-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p3-ar">مظلة زجاج السيارة القابلة للطي والمطلية بالتيتانيوم الفضي — 115.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p3-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="field-row">
+            <div class="field-label"><span>Slide 4: Bladeless Neck Fan Digital Display (SAR 181.00)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p4-en">Zelmiqo AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display — SAR 181.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p4-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p4-ar">مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED — 181.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p4-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 5 (Hidden initially) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 5: 3-in-1 Portable Air Cooler Fan (SAR 119.00)</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p5-en">Zelmiqo HydroBreeze 3-in-1 Desktop Arctic Air Cooler & Mist Humidifier — SAR 119.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p5-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p5-ar">مكيف الهواء المكتبي الصحراوي 3 في 1 برذاذ الماء وإضاءة LED — 119.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p5-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 6 (Hidden initially) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 6: Smart Fascia Massage Gun (SAR 139.00)</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p6-en">Zelmiqo ProPercuss 9-Speed Deep Tissue Massage Gun — SAR 139.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p6-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p6-ar">مسدس المساج والتدليك العضلي العميق بـ 9 سرعات — 139.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p6-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Slide 7 (Hidden initially) -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Slide 7: Cordless Handheld Car Vacuum (SAR 159.00)</span>
+              <span class="slide-indicator">⚠️ Hidden in viewport initially • Autoplays</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="trend-p7-en">Zelmiqo AeroVac Turbo Brushless Cordless Car Handheld Vacuum — SAR 159.00</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p7-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="trend-p7-ar">مكنسة السيارة اللاسلكية الذكية توربو بقوة شفط إعصارية للرمال — 159.00 ر.س</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('trend-p7-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 6: TESTIMONIALS SLIDER (ALL 6 SLIDES CHECKED)          -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-testimonials-slider">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">⑦</span>
+            <h3>Customer Reviews Slider (All 6 Slides Checked)</h3>
+          </div>
+          <span class="slider-tag">Slider 5 • 6 Total Slides</span>
+        </div>
+        <div class="card-body">
+          <div class="field-row">
+            <div class="field-label"><span>Section Title & Subheading</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-sec-title-en">What Our Customers Say • Our Customers Are Loving It!</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-sec-title-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-sec-title-ar">تجارب وآراء عملائنا • ثقة ورضا من أول طلب!</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-sec-title-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">
+            ℹ️ <strong>Slider Viewport Notice:</strong> In the live store, this slider shows only <strong>1 slide at a time</strong>, while slides 2 through 6 rotate automatically. All 6 verified slides are fully upgraded below:
+          </p>
+
+          <!-- Review Slide 1 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Review Slide 1: Zoya Afroz, Saudi</span>
+              <span class="slide-indicator">Visible on initial page load</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-s1-en">"Arrived securely packaged within 36 hours in Riyadh! The build quality and metallic finish exceeded my expectations. Outstanding cooling performance for daily commutes in hot weather. Will definitely order more for the family." — Zoya A., Riyadh, KSA (Verified Buyer)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s1-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-s1-ar">"وصل الطلب بتغليف فاخر ومحكم خلال 36 ساعة فقط في الرياض! جودة التصنيع والخامات ممتازة جداً وتفوق التوقعات. أداء تبريد رائع للمشاوير اليومية في حرارة الصيف. سأطلب قطعاً أخرى للعائلة بكل تأكيد." — زويا أ.، الرياض (مشترٍ موثق)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s1-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Review Slide 2 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Review Slide 2: Adelaide, UK</span>
+              <span class="slide-indicator">⚠️ Autoplay Slide 2</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-s2-en">"Exceptional ergonomics and instant relief for neck strain. Holds posture straight and the bionic kneading feels authentic. Very fast international delivery and top-notch packaging." — Adelaide, UK (Verified Buyer)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s2-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-s2-ar">"تصميم مريح للغاية وراحة فورية لعضلات الرقبة والكتفين. التدليك يحاكي الأيدي الحقيقية بدقة، وتوصيل سريع وتغليف أنيق جداً." — أديلايد، المملكة المتحدة (مشترٍ موثق)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s2-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Review Slide 3 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Review Slide 3: Maryam, Saudi</span>
+              <span class="slide-indicator">⚠️ Autoplay Slide 3</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-s3-en">"Delivered remarkably fast to Jeddah. The cordless vacuum suction is surprisingly powerful for sandy car carpets, and paying with Tabby made it so convenient. Highly recommended store!" — Maryam S., Jeddah, KSA (Verified Buyer)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s3-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-s3-ar">"توصيل سريع بشكل مذهل إلى جدة. قوة شفط المكنسة اللاسلكية قوية جداً وتنظف مقاعد وسجاد السيارة من الأتربة بسهولة، وخيار التقسيط عبر تابي جعل الشراء مريحاً جداً. متجر يستحق الثقة!" — مريم س.، جدة (مشترٍ موثق)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s3-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Review Slide 4 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Review Slide 4: Charlotte, UK</span>
+              <span class="slide-indicator">⚠️ Autoplay Slide 4</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-s4-en">"Ordered online and received live dispatch tracking within hours. The product exactly matches the website images and functions flawlessly. Will be back for gifts." — Charlotte, UK (Verified Buyer)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s4-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-s4-ar">"طلبت الجهاز ووصلتني رسالة التتبع برقم الشحنة خلال ساعات قليلة. المنتج مطابق تماماً للصور والمواصفات المعروضة على المتجر ويعمل بكفاءة عالية." — شارلوت، بريطانيا (مشترٍ موثق)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s4-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Review Slide 5 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Review Slide 5: Malak, Riyadh</span>
+              <span class="slide-indicator">⚠️ Autoplay Slide 5</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-s5-en">"The bionic neck massager relieved severe desk tension on my shoulders after just 15 minutes of use. Premium packaging, fast SMS tracking updates, and genuine quality." — Malak K., Riyadh, KSA (Verified Buyer)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s5-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-s5-ar">"جهاز مساج الرقبة أراح عضلات الكتف والرقبة بعد ساعات العمل الطويلة على المكتب من أول استخدام. تغليف أنيق، رسائل تتبع دقيقة عبر الجوال، وجودة حقيقية تستحق الاقتناء." — ملاك خ.، الرياض (مشترٍ موثق)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s5-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+
+          <!-- Review Slide 6 -->
+          <div class="field-row">
+            <div class="field-label">
+              <span>Review Slide 6: Mohd. Hassan, Dubai</span>
+              <span class="slide-indicator">⚠️ Autoplay Slide 6</span>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="rev-s6-en">"World-class build standards and highly practical for daily life. Real value for money and the fast Gulf delivery was smooth and transparent." — Mohd. Hassan, Dubai, UAE (Verified Buyer)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s6-en', this)">📋 Copy English</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="rev-s6-ar">"معايير تصنيع دولية فاخرة ومنتجات عملية جداً للحياة اليومية. قيمة حقيقية مقابل السعر وتوصيل سريع وموثوق." — محمد حسن، دبي (مشترٍ موثق)</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('rev-s6-ar', this)">📋 Copy Arabic</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================== -->
+      <!-- SECTION 7: SEO METADATA FOR HOMEPAGE                           -->
+      <!-- ============================================================== -->
+      <div class="content-card" id="card-seo-metadata">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-pin-badge">🔍</span>
+            <h3>Homepage SEO & Meta Architecture (Google & Social)</h3>
+          </div>
+          <span class="slider-tag">Header / Meta Tags</span>
+        </div>
+        <div class="card-body">
+          <div class="field-row">
+            <div class="field-label"><span>Page Meta Title (HTML &lt;title&gt;)</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="seo-title-en">Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('seo-title-en', this)">📋 Copy English Title</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="seo-title-ar">زيلميكو® | ابتكارات ذكية عالمية لرفاهية استثنائية • متوفرة في السعودية</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('seo-title-ar', this)">📋 Copy Arabic Title</button></div>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-label"><span>Page Meta Description</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="seo-desc-en">Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 24-48h delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('seo-desc-en', this)">📋 Copy English Description</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="seo-desc-ar">اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، وقسّط مشترياتك مع تابي وتمارا.</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('seo-desc-ar', this)">📋 Copy Arabic Description</button></div>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-label"><span>Meta Keywords</span></div>
+            <div class="copy-box">
+              <div class="content-preview" id="seo-keys-en">zelmiqo, smart lifestyle gadgets, wearable cooling fan, wireless charger stand, car interior care, saudi arabia online shopping, tabby tamara ksa</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('seo-keys-en', this)">📋 Copy English Keywords</button></div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="seo-keys-ar">زيلميكو, متجر إلكتروني سعودي, أجهزة ذكية منزلية, مراوح تبريد صيفية, شواحن لاسلكية, مستلزمات سيارات فاخرة, تقسيط تابي, دفع عند الاستلام الرياض جدة</div>
+              <div class="copy-btn-bar"><button class="copy-btn" onclick="copyFrom('seo-keys-ar', this)">📋 Copy Arabic Keywords</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification element -->
+  <div id="copy-toast">✓ Copied to clipboard!</div>
+
+  <script>
+    // Visual switcher
+    const visualData = {
+      hero: {
+        img: 'assets/section_1_hero.jpg',
+        hint: '<strong>⚡️ Hero Banner Slider:</strong> Slide 1 (active) and Slide 2 (autoplay) are both highlighted. In live store, Banner 1 displays first, then autoplays to Banner 2.',
+        pins: [
+          { top: '25%', left: '15%', num: '①', card: 'card-hero-slide1' },
+          { top: '50%', left: '15%', num: '②', card: 'card-hero-slide1' },
+          { top: '80%', left: '50%', num: '③', card: 'card-hero-slide2' }
+        ]
+      },
+      trust: {
+        img: 'assets/section_2_trust.jpg',
+        hint: '<strong>🛡️ Trust Pillars:</strong> Positioned directly under hero banner. Contains Fast & Free Delivery, 100% Money Back, and Safe Checkout.',
+        pins: [
+          { top: '40%', left: '18%', num: '①', card: 'card-trust-pillars' },
+          { top: '40%', left: '50%', num: '②', card: 'card-trust-pillars' },
+          { top: '40%', left: '82%', num: '③', card: 'card-trust-pillars' }
+        ]
+      },
+      categories: {
+        img: 'assets/section_3_categories.jpg',
+        hint: '<strong>🎠 Categories Carousel Slider (8 Slides):</strong> Viewport shows 5-6 categories initially. Slides 7 (Electronics) and 8 (Beauty) are hidden until swiping or autoplay.',
+        pins: [
+          { top: '45%', left: '10%', num: '①', card: 'card-categories-slider' },
+          { top: '45%', left: '35%', num: '②', card: 'card-categories-slider' },
+          { top: '45%', left: '60%', num: '③', card: 'card-categories-slider' },
+          { top: '45%', left: '88%', num: '④', card: 'card-categories-slider' }
+        ]
+      },
+      new_collection: {
+        img: 'assets/section_4_new_collection.jpg',
+        hint: '<strong>📦 NEW COLLECTION Product Carousel (6 Slides):</strong> Desktop shows 4 products in viewport; products 5 (6-blade juicer) and 6 (citrus juicer) are hidden until autoplay.',
+        pins: [
+          { top: '20%', left: '15%', num: '①', card: 'card-new-collection' },
+          { top: '50%', left: '18%', num: '②', card: 'card-new-collection' },
+          { top: '50%', left: '42%', num: '③', card: 'card-new-collection' },
+          { top: '50%', left: '68%', num: '④', card: 'card-new-collection' },
+          { top: '50%', left: '90%', num: '⑤', card: 'card-new-collection' }
+        ]
+      },
+      mid_banners: {
+        img: 'assets/section_5_mid_banners.jpg',
+        hint: '<strong>🖼️ Mid-Page Dual Banners:</strong> Features Electronics & Gadgets and Beauty & Personal Care promo cards.',
+        pins: [
+          { top: '45%', left: '25%', num: '①', card: 'card-categories-slider' },
+          { top: '45%', left: '75%', num: '②', card: 'card-categories-slider' }
+        ]
+      },
+      trending: {
+        img: 'assets/section_6_trending.jpg',
+        hint: '<strong>🔥 Trending Products Carousel (7 Slides):</strong> 4 products visible in initial viewport; slides 5 (portable cooler), 6 (massage gun), and 7 (car vacuum) are hidden until autoplay.',
+        pins: [
+          { top: '20%', left: '15%', num: '①', card: 'card-trending-slider' },
+          { top: '55%', left: '18%', num: '②', card: 'card-trending-slider' },
+          { top: '55%', left: '42%', num: '③', card: 'card-trending-slider' },
+          { top: '55%', left: '68%', num: '④', card: 'card-trending-slider' },
+          { top: '55%', left: '90%', num: '⑤', card: 'card-trending-slider' }
+        ]
+      },
+      testimonials: {
+        img: 'assets/section_7_testimonials.jpg',
+        hint: '<strong>💬 Testimonials Slider (6 Slides):</strong> Viewport displays only 1 review at a time. The carousel rotates through all 6 customer reviews automatically.',
+        pins: [
+          { top: '30%', left: '50%', num: '①', card: 'card-testimonials-slider' },
+          { top: '65%', left: '50%', num: '②', card: 'card-testimonials-slider' }
+        ]
+      },
+      full: {
+        img: 'assets/home_full.jpg',
+        hint: '<strong>🗺️ Full Homepage Overview Map:</strong> Click any section tab above to zoom in on individual sliders and their hidden autoplay slides.',
+        pins: [
+          { top: '8%', left: '50%', num: '①', card: 'card-hero-slide1' },
+          { top: '16%', left: '50%', num: '②', card: 'card-trust-pillars' },
+          { top: '23%', left: '50%', num: '③', card: 'card-categories-slider' },
+          { top: '35%', left: '50%', num: '④', card: 'card-new-collection' },
+          { top: '58%', left: '50%', num: '⑤', card: 'card-trending-slider' },
+          { top: '72%', left: '50%', num: '⑥', card: 'card-testimonials-slider' }
+        ]
+      }
+    };
+
+    function switchVisual(key) {
+      // update buttons
+      document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+
+      const data = visualData[key];
+      if (!data) return;
+
+      document.getElementById('visualImage').src = data.img;
+      document.getElementById('sliderHint').innerHTML = data.hint;
+
+      // Render pins
+      const overlay = document.getElementById('pinsOverlay');
+      overlay.innerHTML = '';
+      data.pins.forEach(pin => {
+        const el = document.createElement('div');
+        el.className = 'visual-pin';
+        el.style.top = pin.top;
+        el.style.left = pin.left;
+        el.innerText = pin.num;
+        el.onclick = () => scrollToCard(pin.card);
+        overlay.appendChild(el);
+      });
+    }
+
+    function scrollToCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
+        card.classList.add('highlight');
+        setTimeout(() => card.classList.remove('highlight'), 2500);
+      }
+    }
+
+    // One-Click Copy Function
+    function copyFrom(elemId, btn) {
+      const el = document.getElementById(elemId);
+      if (!el) return;
+      const text = el.innerText || el.textContent;
+
+      navigator.clipboard.writeText(text).then(() => {
+        showToast('✓ Copied to clipboard!');
+        const origText = btn.innerText;
+        btn.innerText = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.innerText = origText;
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(err => {
+        // Fallback
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        showToast('✓ Copied to clipboard!');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('copy-toast');
+      toast.innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2200);
+    }
+  </script>
+</body>
+</html>
