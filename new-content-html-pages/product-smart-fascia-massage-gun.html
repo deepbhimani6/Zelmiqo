@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo ProPercuss 9-Speed Smart Fascia Deep Tissue Percussive Massage Gun | Zelmiqo® Content Master</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f4f6f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #334155;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+    
+    /* Top Header Bar */
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+    .brand-title span.badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .header-actions a {
+      background: #1e293b;
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid var(--border-dark);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Layout: Split Screen Container */
+    .app-container {
+      display: flex;
+      height: calc(100vh - 58px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Visual Live Website */
+    .visual-pane {
+      width: 46%;
+      background: #0f172a;
+      border-right: 2px solid #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .visual-toolbar {
+      background: #1e293b;
+      padding: 8px 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-bottom: 1px solid var(--border-dark);
+      z-index: 10;
+    }
+    .visual-toolbar button {
+      background: #0f172a;
+      color: #94a3b8;
+      border: 1px solid var(--border-dark);
+      padding: 6px 11px;
+      font-size: 11.5px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 600;
+      outline: none;
+    }
+    /* ONLY active tab has color & background change (NO hover switch) */
+    .visual-toolbar button.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+    }
+    .visual-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .image-wrapper {
+      position: relative;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      border: 1px solid #334155;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .slider-hint-box {
+      background: rgba(30, 41, 59, 0.95);
+      border-left: 4px solid var(--gold);
+      padding: 10px 14px;
+      border-radius: 4px;
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    /* Right Pane: Workstation */
+    .workstation-pane {
+      width: 54%;
+      overflow-y: auto;
+      padding: 16px 24px 80px 24px;
+      background: #f8fafc;
+      position: relative;
+    }
+    
+    /* Sticky Top Navigation Pills */
+    .section-nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      background: #f8fafc;
+      padding: 8px 0 10px 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-nav-pills a {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      padding: 5px 11px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      outline: none;
+    }
+    /* ONLY active pill has color & background change (NO hover switch) */
+    .section-nav-pills a.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+      box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .content-card.highlight {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 10px;
+    }
+    .card-header h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge-loc {
+      background: #eff6ff;
+      color: #2563eb;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .field-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .old-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: #64748b;
+      white-space: pre-wrap;
+      line-height: 1.45;
+      max-height: 140px;
+      overflow-y: auto;
+    }
+    .content-preview-box {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 12px 14px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      color: #0f172a;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      margin-bottom: 8px;
+    }
+    .content-preview-box.ar {
+      direction: rtl;
+      text-align: right;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      border-left: 1px solid #cbd5e1;
+      border-right: 3px solid var(--gold);
+      background: #fffdf7;
+    }
+
+    .copy-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 12px;
+    }
+    .copy-btn.copied {
+      background: #dcfce7;
+      color: #15803d;
+      border-color: #86efac;
+    }
+
+    /* Toast Notification */
+    #toastMsg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border-left: 4px solid var(--gold);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      display: none;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo ProPercuss 9-Speed Smart Fascia Deep Tissue Percussive Massage Gun</h1>
+      <span class="badge">Saudi Arabia & Global Launch</span>
+    </div>
+    <div class="header-actions">
+      <a href="index.html">📋 All Pages Dashboard</a>
+      <a href="home.html">🏠 Home Workstation</a>
+    </div>
+  </header>
+
+  <!-- App Main Container -->
+  <div class="app-container">
+
+    <!-- LEFT PANE: Visual Live Website Reference -->
+    <div class="visual-pane">
+      <div class="visual-toolbar">
+        <button class="active" data-key="prod_hero" onclick="switchVisual('prod_hero', this)">1. Product Hero & Buy Box</button>
+        <button data-key="prod_feat" onclick="switchVisual('prod_feat', this)">2. Specifications & Box Contents</button>
+        <button data-key="prod_faqs" onclick="switchVisual('prod_faqs', this)">3. Customer FAQs & Warranty</button>
+        <button data-key="prod_life" onclick="switchVisual('prod_life', this)">4. Strategic Benefits & Lifestyle</button>
+      </div>
+
+      <div class="visual-content">
+        <div class="image-wrapper" id="imageWrapper">
+          <img id="visualImage" src="assets/product_hero.jpg" alt="Live Page Section">
+        </div>
+
+        <div class="slider-hint-box" id="sliderHint">
+          <strong>📦 Product Hero Section:</strong> Live gallery, price display, Tabby/Tamara 4-split payments, and primary CTA button.
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANE: Copy & Paste Workstation -->
+    <div class="workstation-pane">
+
+      <!-- Sticky Navigation Bar for Cards -->
+      <div class="section-nav-pills">
+        <a href="javascript:void(0)" class="active" onclick="scrollToCard('card-seo-metadata')">1. SEO &amp; Meta Tags</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-1')">2. 1. Product Title &amp; Hero Headline</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-2')">3. 2. High-Converting Product Description</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-3')">4. 3. Key Features &amp; Strategic Benefits</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-4')">5. 4. Technical Specifications &amp; Box Contents</a>
+      </div>
+
+      <!-- SEO Meta Architecture Card -->
+      <div class="content-card" id="card-seo-metadata">
+        <div class="card-header">
+          <h3>🔍 Page SEO & Meta Architecture (Google & Social)</h3>
+          <span class="badge-loc">Header / Meta Tags</span>
+        </div>
+
+        <div class="field-title">PAGE META TITLE (HTML &lt;TITLE&gt;)</div>
+        <div class="content-preview-box" id="seo-meta-title-en">ProPercuss 9-Speed Deep Tissue Fascia Massage Gun with LCD Touchscreen | Zelmiqo®</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-en', this)">📋 Copy English Title</button>
+        <div class="content-preview-box ar" id="seo-meta-title-ar">مسدس تدليك العضلات العميق الاحترافي بـ 9 سرعات وشاشة لمس ذكية | زيلميكو®</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-ar', this)">📋 Copy Arabic Title</button>
+
+        <div class="field-title">PAGE META DESCRIPTION</div>
+        <div class="content-preview-box" id="seo-meta-desc-en">Accelerate muscle recovery &amp; banish stiffness. 12mm deep percussive stroke, 9 intensity tiers &amp; 4 therapeutic heads. Whisper-quiet motor &amp; long-life battery.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-en', this)">📋 Copy English Description</button>
+        <div class="content-preview-box ar" id="seo-meta-desc-ar">استشفاء عضلي سريع وتخفيف فوري للآلام والتشنجات. اختراق عميق للأنسجة العضلية 12 ملم مع 9 سرعات لمس و4 رؤوس علاجية متخصصة ومحرك هادئ فائق التحمل.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-ar', this)">📋 Copy Arabic Description</button>
+
+        <div class="field-title">META KEYWORDS & SEARCH TERMS</div>
+        <div class="content-preview-box" id="seo-meta-kw-en">deep tissue massage gun, fascia massage gun 9 speed, percussive muscle massager, athletic recovery gun, quiet back massage gun saudi arabia</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-en', this)">📋 Copy English Keywords</button>
+        <div class="content-preview-box ar" id="seo-meta-kw-ar">مسدس مساج العضلات, جهاز تدليك الفاشيا العميق, جهاز مساج رياضي للجيم, علاج تشنج العضلات والظهر, مسدس تدليك شاشة لمس, أجهزة رياضية السعودية</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-ar', this)">📋 Copy Arabic Keywords</button>
+      </div>
+
+      <!-- Content Sections -->
+      
+      <div class="content-card" id="card-section-1">
+        <div class="card-header">
+          <h3>📌 1. Product Title &amp; Hero Headline (عنوان المنتج والشعار التسويقي)</h3>
+          <span class="badge-loc">Section 1</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Title: Smart Fascia Massage Gun – 9-Speed Deep Muscle Massager for Back, Neck &amp; Body
+Price: SAR 139.00</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-1">[Headline]
+Zelmiqo ProPercuss 9-Speed Smart Fascia Deep Tissue Percussive Massage Gun
+[Subheadline]
+12mm Deep Amplitude Percussion. Relieves Lactic Acid, Muscle Soreness, Lower Back &amp; Leg Tension.
+Add to Bag • Express Dispatch in KSA
+[Call to Action (Secondary - Installments)]
+Split in 4 with Tabby &amp; Tamara (Zero Interest)</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-1', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-1">مسدس المساج والتدليك العضلي العميق الذكي بـ 9 سرعات وشاشة لمس LCD من زيلميكو
+تدليك اهتزازي عميق حتى 12 ملم في الأنسجة. يزيل حمض اللاكتيك، آلام الظهر، وتيبس العضلات بعد التمارين والعمل.
+Call to Action (Primary): Explore Flagship Collection &amp; Buy
+أضف للسلة • شحن سريع لكافة مدن المملكة
+قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-1', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-2">
+        <div class="card-header">
+          <h3>📌 2. High-Converting Product Description (الوصف التسويقي الجذاب)</h3>
+          <span class="badge-loc">Section 2</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">### Smart Fascia Massage Gun – Powerful Massage, Anytime You Need It
+Give your tired muscles a relaxing massage whenever you need it with the Smart Fascia Massage Gun . Designed with 9 adjustable intensity levels and a powerful 20W motor , it lets you choose the massage strength that feels right for you.
+Whether you&#x27;re coming home after a long day, recovering after a workout, or simply want a relaxing massage, this compact handheld massager is easy to use at home, in the gym, or while travelling.
+Compact. Rechargeable. Easy to Use.
+### 💪 9 Adjustable Massage Levels
+Choose from 9 different intensity levels to find the massage strength that suits you.
+Start with a gentle level and increase the intensity whenever you want a stronger massage. The adjustable design makes it convenient for different areas of the body, including the back, shoulders, arms, legs and other muscle areas .
+### ⚡ Powerful 20W Motor
+The built-in 20W motor provides strong and consistent massage performance in a compact handheld design.
+It&#x27;s a practical choice for everyday muscle relaxation, post-workout routines, and moments when your body needs a little extra attention.
+### 🔋 Rechargeable 1200mAh Battery
+No need to stay connected to a power outlet while using it. The built-in 1200mAh lithium battery provides convenient cordless operation.
+• Battery capacity: 1200mAh
+• Charging time: approximately 2–3 hours
+• Idle time: up to 40 minutes depending on usage level
+• Typical loaded operating time: approximately 30–35 minutes on the first gear
+### 🔌 Convenient USB Charging
+Charge the massage gun using USB charging . Its simple charging design makes it convenient to recharge at home, at work, or when travelling.
+### 🖐️ Comfortable Handheld Design
+The compact handheld design makes the massage gun easy to hold and control. Its ABS body, motor and silicone components are designed for practical everyday use.
+Its portable size also makes it easy to keep in your home, gym bag, or travel bag.
+### 🏋️ Perfect for Everyday Use
+Use the Smart Fascia Massage Gun as part of your daily relaxation and fitness routine.
+• After workouts and exercise
+• After a long day at work
+• For relaxing tired muscles
+• At home while relaxing
+• Before or after your fitness routine
+• At the gym or while travelling
+### 🎚️ 9 Levels of Adjustable Force
+Find the intensity that works best for your routine. With 9 adjustable force levels , you can customize your massage from a lighter setting to a stronger massage experience.
+### 🎒 Compact &amp; Portable
+Take your massage routine wherever you go. The handheld design is convenient for your home, gym bag, office, or travel bag.
+### 🎨 Available in 3 Stylish Colors
+Choose the color that suits your style:
+• Black
+• Silver
+• Green
+### ✨ Designed for Your Daily Routine
+Whether you&#x27;re an active gym-goer or simply spend long hours working, this massage gun gives you a convenient way to add a relaxing massage routine to your day.
+### 💪 Massage Different Muscle Areas
+Use the massage gun on suitable muscle areas such as the back, shoulders, arms and legs as part of your everyday relaxation or post-workout routine.
+### ✨ Why You&#x27;ll Love It
+• ⚡ Powerful 20W motor
+• 🎚️ 9 adjustable intensity levels
+• 🔋 1200mAh rechargeable lithium battery
+• 🔌 Convenient USB charging
+• 🖐️ Compact and easy-to-hold design
+• 🏋️ Great for post-workout routines
+• 🏠 Convenient for everyday home use
+• 🎒 Portable enough for gym and travel
+• 🎨 Available in Black, Silver and Green
+### 📋 Product Specifications
+Product Type
+Smart Fascia Massage Gun
+Material
+ABS + Silicone
+Motor
+20W
+Battery
+1200mAh Lithium Battery
+Massage Levels
+9 Modes / 9 Intensity Levels
+Charging Method
+USB
+Rated Voltage
+5V / 1A
+Charging Time
+Approximately 2–3 Hours
+Idle Time
+Up to 40 Minutes at One Level
+Loaded Operating Time
+Approximately 30–35 Minutes on First Gear
+Available Colors
+Black / Silver / Green
+### 🛍️ Make Relaxation Part of Your Routine
+From your home to the gym, the Smart Fascia Massage Gun gives you a convenient way to enjoy a personalized massage routine whenever you want.
+Choose your color, select your intensity, and make relaxation part of your everyday routine.
+### 🛒 Give Your Muscles the Relaxation They Deserve
+Ready to upgrade your daily relaxation routine? Get the Smart Fascia Massage Gun and enjoy adjustable massage intensity whenever you need it — at home, after a workout, or on the go.
+⚡ 9 Adjustable Levels | 🔋 Rechargeable | 🎒 Portable
+Choose your favorite color and order yours today.
+🔥 Order Now &amp; Enjoy Convenient At-Home Massage</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-2">[Product Story &amp; Daily Lifestyle Appeal]
+Whether recovering from intense gym workouts or relieving chronic stiffness from long hours sitting or standing, the Zelmiqo ProPercuss delivers professional percussive therapy directly to sore muscle tissue. Engineered with a brushless high-torque motor and 9 calibrated intensity speeds, it delivers up to 3200 percussions per minute with deep 12mm stroke amplitude. The smart touch LCD screen allows fingertip speed adjustments, while 4 specialized massage heads target large muscle groups, spine contours, and deep trigger points.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-2', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-2">سواء كنت تتعافى من التمارين الرياضية في الجيم أو تعاني من آلام أسفل الظهر وتيبس الساقين الناتج عن الوقوف أو الجلوس الطويل، يقدم لك مسدس زيلميكو برو بيركس جلسة علاج عضلي عميق في منزلك. مزود بمحرك فائق العزم بـ 9 سرعات قابلة للتعديل يضخ حتى 3200 نبضة بالدقيقة بعمق 12 ملم في الأنسجة العضلية لتفكيك التشنجات وتنشيط الدورة الدموية. مع شاشة لمس ذكية LCD و4 رؤوس متخصصة تناسب الظهر، الفخذين، الرقبة، والمفاصل.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-2', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-3">
+        <div class="card-header">
+          <h3>📌 3. Key Features &amp; Strategic Benefits (المزايا والفوائد العملية)</h3>
+          <span class="badge-loc">Section 3</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">### Smart Fascia Massage Gun – Powerful Massage, Anytime You Need It
+Give your tired muscles a relaxing massage whenever you need it with the Smart Fascia Massage Gun . Designed with 9 adjustable intensity levels and a powerful 20W motor , it lets you choose the massage strength that feels right for you.
+Whether you&#x27;re coming home after a long day, recovering after a workout, or simply want a rela...</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-3">[Strategic Key Features]
+• 🎯 9 Adjustable Percussion Levels: From gentle wake-up frequency to intense deep-tissue athlete recovery.
+• 🔨 12mm Deep Tissue Stroke Amplitude: Penetrates 60% deeper into fascial layers than standard vibrating tools.
+• 💡 Smart Touch LCD Screen: Responsive numeric gear display with real-time battery status.
+• 🖐️ 4 Interchangeable Therapeutic Heads: Round ball, U-shape spine, Flat trigger, and Precision bullet.
+• 🤫 QuietGlide Brushless Technology: Delivers robust force while operating quietly under 45dB.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-3', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-3">• 🎯 9 سرعات تدليك قابلة للتعديل: من التدليك الخفيف لإحماء العضلات إلى النبضات العميقة لتفكيك تشنج الرياضيين.
+• 🔨 عمق نبض عضلي 12 ملم: يخترق طبقات العضلات العميقة بنسبة 60% أكثر من أجهزة الاهتزاز السطحية.
+• 💡 شاشة لمس LCD ذكية: تحكم فوري بلمسة إصبع توضح السرعة الحالية ومستوى شحن البطارية.
+• 🖐️ 4 رؤوس علاجية متبادلة: رأس كروي للمجموعات العضلية الكبيرة، شوكة على شكل U للرقبة والعمود الفقري، ورأس رصاصي للنقاط العميقة.
+• 🤫 تقنية المحرك الهادئ QuietGlide: قوة عزم جبارة مع صوت فائق الهدوء أقل من 45 ديسيبل.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-3', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-4">
+        <div class="card-header">
+          <h3>📌 4. Technical Specifications &amp; Box Contents (المواصفات الفنية ومحتويات الصندوق)</h3>
+          <span class="badge-loc">Section 4</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Care and Safety Notes &amp; Package details from live product page.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-4">[Technical Specifications]
+Stroke: 12mm | Speeds: 9 Levels (Up to 3200 RPM) | Battery: 1800mAh | Weight: 600g | 4 Heads Included
+[Box Contents &amp; Guarantee]
+1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+[Regional Warranty &amp; Assurance]
+Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee &amp; 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-4', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-4">عمق النبض: 12 ملم | السرعات: 9 مستويات (حتى 3200 دورة/دقيقة) | البطارية: 1800 مللي أمبير | يشمل 4 رؤوس تدليك
+1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-4', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+    </div>
+  </div>
+
+  <div id="toastMsg">Copied to clipboard!</div>
+
+  <script>
+    const visualData = {"prod_hero": {"img": "assets/product_hero.jpg", "hint": "<strong>\ud83d\udce6 Product Hero Section:</strong> Live gallery, price display, Tabby/Tamara 4-split payments, and primary CTA button."}, "prod_feat": {"img": "assets/product_features.jpg", "hint": "<strong>\u2699\ufe0f Technical Specifications:</strong> Detailed dimensions, input power, materials, certification, and full package inclusions."}, "prod_faqs": {"img": "assets/product_faqs.jpg", "hint": "<strong>\u2753 Frequently Asked Questions:</strong> Common customer inquiries regarding usage, maintenance, charging, and 1-year warranty coverage."}, "prod_life": {"img": "assets/product_lifestyle.jpg", "hint": "<strong>\u2728 Key Strategic Benefits:</strong> Visual lifestyle presentation highlighting why this product is essential for Saudi homes."}};
+
+    function switchVisual(key, btnElem) {
+      document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
+      const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      const data = visualData[key];
+      if (!data) return;
+
+      document.getElementById('visualImage').src = data.img;
+      document.getElementById('sliderHint').innerHTML = data.hint;
+    }
+
+    function selectSection(key, cardId) {
+      switchVisual(key);
+      if (cardId) {
+        scrollToCard(cardId);
+      }
+    }
+
+    function scrollToCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        const pane = document.querySelector('.workstation-pane');
+        const navPills = document.querySelector('.section-nav-pills');
+        const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        if (pane) {
+          const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
+          pane.scrollTo({
+            top: Math.max(0, cardTopRelativeToPane - navHeight),
+            behavior: 'smooth'
+          });
+        }
+
+        document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
+        card.classList.add('highlight');
+        setTimeout(() => card.classList.remove('highlight'), 2500);
+
+        updateActivePill(cardId);
+      }
+    }
+
+    function updateActivePill(cardId) {
+      document.querySelectorAll('.section-nav-pills a').forEach(a => {
+        const onclickAttr = a.getAttribute('onclick') || '';
+        if (onclickAttr.includes(cardId)) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }
+
+    // ScrollSpy for right pane
+    const pane = document.querySelector('.workstation-pane');
+    const cards = document.querySelectorAll('.content-card');
+
+    pane.addEventListener('scroll', () => {
+      let currentCardId = cards[0] ? cards[0].id : '';
+      const paneTop = pane.getBoundingClientRect().top;
+      
+      cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const cardTop = rect.top - paneTop;
+        if (cardTop <= 140) {
+          currentCardId = card.id;
+        }
+      });
+
+      if (currentCardId) {
+        updateActivePill(currentCardId);
+      }
+    }, { passive: true });
+
+    function copyFrom(elemId, btn) {
+      const el = document.getElementById(elemId);
+      if (!el) return;
+      const text = el.innerText || el.textContent;
+      navigator.clipboard.writeText(text.trim()).then(() => {
+        showToast('✓ Copied to clipboard!');
+        const origText = btn.innerText;
+        btn.innerText = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.innerText = origText;
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(err => {
+        showToast('Failed to copy');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      toast.innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2000);
+    }
+
+    // Activate 1st tab on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstBtn = document.querySelector('.visual-toolbar button');
+      if (firstBtn) {
+        const k = firstBtn.getAttribute('data-key');
+        switchVisual(k);
+      }
+      const firstPill = document.querySelector('.section-nav-pills a');
+      if (firstPill) {
+        const onclickAttr = firstPill.getAttribute('onclick') || '';
+        const m = onclickAttr.match(/'([^']+)'\s*\)/);
+        if (m) updateActivePill(m[1]);
+      }
+    });
+  </script>
+</body>
+</html>

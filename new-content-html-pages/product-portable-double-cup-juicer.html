@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo DuoBlend 2-in-1 Dual-Cup Rechargeable Portable Juicer &amp; Smoothie Blender | Zelmiqo® Content Master</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f4f6f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #334155;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+    
+    /* Top Header Bar */
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+    .brand-title span.badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .header-actions a {
+      background: #1e293b;
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid var(--border-dark);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Layout: Split Screen Container */
+    .app-container {
+      display: flex;
+      height: calc(100vh - 58px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Visual Live Website */
+    .visual-pane {
+      width: 46%;
+      background: #0f172a;
+      border-right: 2px solid #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .visual-toolbar {
+      background: #1e293b;
+      padding: 8px 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-bottom: 1px solid var(--border-dark);
+      z-index: 10;
+    }
+    .visual-toolbar button {
+      background: #0f172a;
+      color: #94a3b8;
+      border: 1px solid var(--border-dark);
+      padding: 6px 11px;
+      font-size: 11.5px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 600;
+      outline: none;
+    }
+    /* ONLY active tab has color & background change (NO hover switch) */
+    .visual-toolbar button.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+    }
+    .visual-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .image-wrapper {
+      position: relative;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      border: 1px solid #334155;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .slider-hint-box {
+      background: rgba(30, 41, 59, 0.95);
+      border-left: 4px solid var(--gold);
+      padding: 10px 14px;
+      border-radius: 4px;
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    /* Right Pane: Workstation */
+    .workstation-pane {
+      width: 54%;
+      overflow-y: auto;
+      padding: 16px 24px 80px 24px;
+      background: #f8fafc;
+      position: relative;
+    }
+    
+    /* Sticky Top Navigation Pills */
+    .section-nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      background: #f8fafc;
+      padding: 8px 0 10px 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-nav-pills a {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      padding: 5px 11px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      outline: none;
+    }
+    /* ONLY active pill has color & background change (NO hover switch) */
+    .section-nav-pills a.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+      box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .content-card.highlight {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 10px;
+    }
+    .card-header h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge-loc {
+      background: #eff6ff;
+      color: #2563eb;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .field-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .old-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: #64748b;
+      white-space: pre-wrap;
+      line-height: 1.45;
+      max-height: 140px;
+      overflow-y: auto;
+    }
+    .content-preview-box {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 12px 14px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      color: #0f172a;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      margin-bottom: 8px;
+    }
+    .content-preview-box.ar {
+      direction: rtl;
+      text-align: right;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      border-left: 1px solid #cbd5e1;
+      border-right: 3px solid var(--gold);
+      background: #fffdf7;
+    }
+
+    .copy-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 12px;
+    }
+    .copy-btn.copied {
+      background: #dcfce7;
+      color: #15803d;
+      border-color: #86efac;
+    }
+
+    /* Toast Notification */
+    #toastMsg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border-left: 4px solid var(--gold);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      display: none;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo DuoBlend 2-in-1 Dual-Cup Rechargeable Portable Juicer &amp; Smoothie Blender</h1>
+      <span class="badge">Saudi Arabia & Global Launch</span>
+    </div>
+    <div class="header-actions">
+      <a href="index.html">📋 All Pages Dashboard</a>
+      <a href="home.html">🏠 Home Workstation</a>
+    </div>
+  </header>
+
+  <!-- App Main Container -->
+  <div class="app-container">
+
+    <!-- LEFT PANE: Visual Live Website Reference -->
+    <div class="visual-pane">
+      <div class="visual-toolbar">
+        <button class="active" data-key="prod_hero" onclick="switchVisual('prod_hero', this)">1. Product Hero & Buy Box</button>
+        <button data-key="prod_feat" onclick="switchVisual('prod_feat', this)">2. Specifications & Box Contents</button>
+        <button data-key="prod_faqs" onclick="switchVisual('prod_faqs', this)">3. Customer FAQs & Warranty</button>
+        <button data-key="prod_life" onclick="switchVisual('prod_life', this)">4. Strategic Benefits & Lifestyle</button>
+      </div>
+
+      <div class="visual-content">
+        <div class="image-wrapper" id="imageWrapper">
+          <img id="visualImage" src="assets/product_hero.jpg" alt="Live Page Section">
+        </div>
+
+        <div class="slider-hint-box" id="sliderHint">
+          <strong>📦 Product Hero Section:</strong> Live gallery, price display, Tabby/Tamara 4-split payments, and primary CTA button.
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANE: Copy & Paste Workstation -->
+    <div class="workstation-pane">
+
+      <!-- Sticky Navigation Bar for Cards -->
+      <div class="section-nav-pills">
+        <a href="javascript:void(0)" class="active" onclick="scrollToCard('card-seo-metadata')">1. SEO &amp; Meta Tags</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-1')">2. 1. Product Title &amp; Hero Headline</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-2')">3. 2. High-Converting Product Description</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-3')">4. 3. Key Features &amp; Strategic Benefits</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-4')">5. 4. Technical Specifications &amp; Box Contents</a>
+      </div>
+
+      <!-- SEO Meta Architecture Card -->
+      <div class="content-card" id="card-seo-metadata">
+        <div class="card-header">
+          <h3>🔍 Page SEO & Meta Architecture (Google & Social)</h3>
+          <span class="badge-loc">Header / Meta Tags</span>
+        </div>
+
+        <div class="field-title">PAGE META TITLE (HTML &lt;TITLE&gt;)</div>
+        <div class="content-preview-box" id="seo-meta-title-en">DuoCup Portable Double-Cup Blender &amp; Travel Smoothie Maker | Zelmiqo®</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-en', this)">📋 Copy English Title</button>
+        <div class="content-preview-box ar" id="seo-meta-title-ar">خلاط العصائر المحمول بنظام الكوبين المزدوجين DuoCup والشحن السريع | زيلميكو®</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-ar', this)">📋 Copy Arabic Title</button>
+
+        <div class="field-title">PAGE META DESCRIPTION</div>
+        <div class="content-preview-box" id="seo-meta-desc-en">Two detachable travel cups with drinking lids. Blend one, swap to the second for partner or gym workout. Powerful motor, food-grade BPA-free &amp; USB fast charging.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-en', this)">📋 Copy English Description</button>
+        <div class="content-preview-box ar" id="seo-meta-desc-ar">نظام الكوبين المنفصلين مع أغطية شرب رياضية مانعة للتسريب. اخلط لنفسك ولمن تحب في ثوانٍ. خامات آمنة صحياً خالية من BPA ومحرك قوي يطحن الفواكه والثلج.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-ar', this)">📋 Copy Arabic Description</button>
+
+        <div class="field-title">META KEYWORDS & SEARCH TERMS</div>
+        <div class="content-preview-box" id="seo-meta-kw-en">double cup portable blender, duo cup smoothie maker, 2 in 1 travel personal blender, usb rechargeable double juicer, healthy living blender ksa</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-en', this)">📋 Copy English Keywords</button>
+        <div class="content-preview-box ar" id="seo-meta-kw-ar">خلاط كوبين متنقل, خلاط عصير محمول مزدوج الكوب, خلاط رياضي للنادي, خلاط فواكه محمول, محضر سموذي سريع, أدوات رياضية صحية السعودية</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-ar', this)">📋 Copy Arabic Keywords</button>
+      </div>
+
+      <!-- Content Sections -->
+      
+      <div class="content-card" id="card-section-1">
+        <div class="card-header">
+          <h3>📌 1. Product Title &amp; Hero Headline (عنوان المنتج والشعار التسويقي)</h3>
+          <span class="badge-loc">Section 1</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Title: Portable Rechargeable Double Cup Juicer for Fresh Fruit Milkshakes
+Price: SAR 172.00</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-1">[Headline]
+Zelmiqo DuoBlend 2-in-1 Dual-Cup Rechargeable Portable Juicer &amp; Smoothie Blender
+[Subheadline]
+Includes 2 Interchangeable To-Go Cups. Blend at Home, Drink in Your Car or Gym Without Washing Twice.
+Add to Bag • Express Dispatch in KSA
+[Call to Action (Secondary - Installments)]
+Split in 4 with Tabby &amp; Tamara (Zero Interest)</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-1', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-1">خلاط العصائر المحمول اللاسلكي 2 في 1 مع كوبين رياضيين مانعين للتسرب من زيلميكو
+يشمل كوبين رياضيين متبادلين. اخلط عصيرك في ثوانٍ، وانطلق به للسيارة أو النادي الرياضي دون عناء الغسيل.
+Call to Action (Primary): Explore Flagship Collection &amp; Buy
+أضف للسلة • شحن سريع لكافة مدن المملكة
+قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-1', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-2">
+        <div class="card-header">
+          <h3>📌 2. High-Converting Product Description (الوصف التسويقي الجذاب)</h3>
+          <span class="badge-loc">Section 2</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">### Fresh Juice and Smoothies Wherever You Go
+Enjoy fresh homemade drinks with the Portable Rechargeable Double Cup Juicer. Designed for fruit juice, smoothies, and milkshakes, this compact electric blender gives you a convenient way to prepare refreshing drinks at home, in the office, while traveling, or during outdoor activities.
+### Portable Double-Cup Design
+The convenient cup design makes it easy to blend and enjoy your drink in the same container. Its compact size is simple to store in the kitchen and easy to carry in a travel bag, making it a practical choice for busy lifestyles and everyday refreshment.
+### Suitable for Juice, Smoothies, and Milkshakes
+Prepare refreshing drinks using soft fruits, berries, and other suitable ingredients. Blend fruit for breakfast, create a smoothie after exercise, or make a milkshake whenever you want a quick homemade treat.
+### Powerful Stainless Steel Blades
+The built-in stainless steel blade system is designed to mix suitable ingredients efficiently. For smoother blending, cut fruit into small pieces, remove hard seeds and pits, and avoid overfilling the cup.
+### Simple One-Button Operation
+Using the juicer is easy and convenient. Add your prepared ingredients, secure the lid tightly, press the control button, and allow the blender to mix. Its straightforward operation is suitable for quick drinks at home, work, or on the go.
+### Rechargeable Cordless Convenience
+Recharge the built-in battery using a suitable USB power source and enjoy cordless blending without being connected to a wall outlet during use. This makes the portable juicer useful for kitchens, offices, picnics, travel, camping, and outdoor refreshment.
+### Easy to Carry and Store
+The lightweight portable design fits neatly into a backpack, travel bag, or kitchen cabinet. Take it with you when you want to prepare fresh fruit drinks away from traditional kitchen appliances.
+### Easy Cleaning After Every Use
+The smooth plastic cup and removable drink components are designed for convenient cleaning. Rinse the cup and lid after use, carefully clean around the blade area, and allow all parts to dry before storing.
+### Perfect for Everyday Refreshment
+• Fresh fruit juice for breakfast
+• Fruit smoothies after exercise
+• Milkshakes for family treats
+• Refreshing drinks at the office
+• Travel and outdoor activities
+• Picnics, camping, and road trips
+### How to Use the Portable Juicer
+• Charge the juicer fully before first use.
+• Wash and cut fruit into small pieces.
+• Place the ingredients into the cup without overfilling it.
+• Add a suitable amount of liquid if needed.
+• Secure the lid tightly before starting.
+• Press the power button to begin blending.
+• Gently shake the unit if the ingredients need help moving.
+• Turn off the juicer and clean it after use.
+### Important Usage Instructions
+• Do not use the juicer while it is charging.
+• Make sure the lid and cup are securely attached before operation.
+• Do not operate the motor without the cup and lid properly installed.
+• Cut large fruit pieces into smaller portions before blending.
+• Do not fill the cup completely, as ingredients need room to move.
+• Do not place hard pits, bones, or very hard ingredients inside.
+• Keep the motor and charging port away from water.
+### Product Highlights
+• Portable electric fruit juicer and blender
+• Rechargeable cordless design
+• Convenient double-cup construction
+• Suitable for juice, smoothies, and milkshakes
+• Built-in stainless steel blades
+• Compact design for travel and daily use
+• Simple one-button operation
+• Easy-to-clean cup and lid
+• Ideal for home, office, travel, and outdoor use
+### Package Includes
+• 1 x Portable Rechargeable Juicer
+• 1 x Cup and Lid
+• 1 x USB Charging Cable
+• 1 x User Guide
+### Make Your Favourite Drinks in Minutes
+From fresh fruit juice and breakfast smoothies to creamy milkshakes, the Portable Rechargeable Double Cup Juicer makes drink preparation simple and convenient. Its compact size, cordless operation, stainless steel blades, and easy-clean design make it a useful addition to any modern kitchen and travel routine.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-2">[Product Story &amp; Daily Lifestyle Appeal]
+Why dirty big kitchen appliances for a single glass of juice? The Zelmiqo DuoBlend comes equipped with two high-grade portable drinking tumblers and travel flip-top lids. Blend your morning detox juice or post-workout protein shake in the first cup, swap it with the spare cup for family members, and head out. Its high-torque motor blends frozen fruits, milkshakes, and cold coffee drinks to silky perfection in 30 seconds.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-2', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-2">لماذا تستخدم خلاطات المطبخ الكبيرة والمعقدة من أجل كوب عصير واحد؟ يأتي خلاط زيلميكو ديو بليند مزوداً بكوبين رياضيين متبادلين وأغطية محكمة مانعة للتسرب مع حزام حمل أنيق. اخلط مشروب الطاقة الصباحي أو البروتين في الكوب الأول، واحتفظ بالثاني لمشروب آخر أو لأفراد عائلتك. محركه القوي يسحق الفواكه الطازجة والمجمدة وحبات الثلج ليمنحك قواماً مخملياً رائعاً في 30 ثانية فقط.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-2', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-3">
+        <div class="card-header">
+          <h3>📌 3. Key Features &amp; Strategic Benefits (المزايا والفوائد العملية)</h3>
+          <span class="badge-loc">Section 3</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">### Fresh Juice and Smoothies Wherever You Go
+Enjoy fresh homemade drinks with the Portable Rechargeable Double Cup Juicer. Designed for fruit juice, smoothies, and milkshakes, this compact electric blender gives you a convenient way to prepare refreshing drinks at home, in the office, while traveling, or during outdoor activities.
+### Portable Double-Cup Design
+The convenient cup design makes it ...</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-3">[Strategic Key Features]
+• 🥤 Dual Interchangeable Travel Cups: Includes two matching BPA-free tumblers with leakproof flip lids.
+• ⚡️ High-RPM Cyclone Motor: Easily pulverizes dates, bananas, frozen berries, and crushed ice.
+• 🔒 Dual-Click Safety Switch: Prevents accidental startup inside gym bags or car cup holders.
+• 🔋 Extended Battery Pack: Up to 20 cycles on a single charge with universal USB-C cable.
+• 🧼 Effortless Water Rinsing: Detachable motor base allows quick under-tap cleaning.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-3', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-3">• 🥤 كوبان رياضيان متبادلان BPA-Free: كوبان صحيان ضد الكسر مع أغطية محكمة للشرب المباشر والسهل.
+• ⚡️ محرك إعصاري عالي العزم: يخلط التمر، الموز، الفواكه المجمدة، والثلج المجروش بنعومة وسرعة فائقة.
+• 🔒 زر تشغيل ذكي بنقرتين: يمنع التشغيل المفاجئ داخل حقيبة الجيم أو السيارة.
+• 🔋 بطارية ذات سعة مضاعفة: تمنحك حتى 20 عملية خلط متتالية بالشحنة الواحدة عبر منفذ USB-C.
+• 🧼 سهولة تامة في التنظيف: قاعدة المحرك قابلة للفصل لغسل الكوب بالماء والصابون بثوانٍ معدودة.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-3', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-4">
+        <div class="card-header">
+          <h3>📌 4. Technical Specifications &amp; Box Contents (المواصفات الفنية ومحتويات الصندوق)</h3>
+          <span class="badge-loc">Section 4</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Care and Safety Notes &amp; Package details from live product page.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-4">[Technical Specifications]
+Includes: 1x Blender Base, 2x Travel Tumblers, 2x Drink Lids | Power: High-Torque DC Motor | USB-C
+[Box Contents &amp; Guarantee]
+1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+[Regional Warranty &amp; Assurance]
+Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee &amp; 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-4', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-4">المحتويات: قاعدة الخلاط، كوبين رياضيين للشرب، غطاءين مانعين للتسرب | المحرك: عالي العزم | شحن Type-C
+1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-4', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+    </div>
+  </div>
+
+  <div id="toastMsg">Copied to clipboard!</div>
+
+  <script>
+    const visualData = {"prod_hero": {"img": "assets/product_hero.jpg", "hint": "<strong>\ud83d\udce6 Product Hero Section:</strong> Live gallery, price display, Tabby/Tamara 4-split payments, and primary CTA button."}, "prod_feat": {"img": "assets/product_features.jpg", "hint": "<strong>\u2699\ufe0f Technical Specifications:</strong> Detailed dimensions, input power, materials, certification, and full package inclusions."}, "prod_faqs": {"img": "assets/product_faqs.jpg", "hint": "<strong>\u2753 Frequently Asked Questions:</strong> Common customer inquiries regarding usage, maintenance, charging, and 1-year warranty coverage."}, "prod_life": {"img": "assets/product_lifestyle.jpg", "hint": "<strong>\u2728 Key Strategic Benefits:</strong> Visual lifestyle presentation highlighting why this product is essential for Saudi homes."}};
+
+    function switchVisual(key, btnElem) {
+      document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
+      const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      const data = visualData[key];
+      if (!data) return;
+
+      document.getElementById('visualImage').src = data.img;
+      document.getElementById('sliderHint').innerHTML = data.hint;
+    }
+
+    function selectSection(key, cardId) {
+      switchVisual(key);
+      if (cardId) {
+        scrollToCard(cardId);
+      }
+    }
+
+    function scrollToCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        const pane = document.querySelector('.workstation-pane');
+        const navPills = document.querySelector('.section-nav-pills');
+        const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        if (pane) {
+          const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
+          pane.scrollTo({
+            top: Math.max(0, cardTopRelativeToPane - navHeight),
+            behavior: 'smooth'
+          });
+        }
+
+        document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
+        card.classList.add('highlight');
+        setTimeout(() => card.classList.remove('highlight'), 2500);
+
+        updateActivePill(cardId);
+      }
+    }
+
+    function updateActivePill(cardId) {
+      document.querySelectorAll('.section-nav-pills a').forEach(a => {
+        const onclickAttr = a.getAttribute('onclick') || '';
+        if (onclickAttr.includes(cardId)) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }
+
+    // ScrollSpy for right pane
+    const pane = document.querySelector('.workstation-pane');
+    const cards = document.querySelectorAll('.content-card');
+
+    pane.addEventListener('scroll', () => {
+      let currentCardId = cards[0] ? cards[0].id : '';
+      const paneTop = pane.getBoundingClientRect().top;
+      
+      cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const cardTop = rect.top - paneTop;
+        if (cardTop <= 140) {
+          currentCardId = card.id;
+        }
+      });
+
+      if (currentCardId) {
+        updateActivePill(currentCardId);
+      }
+    }, { passive: true });
+
+    function copyFrom(elemId, btn) {
+      const el = document.getElementById(elemId);
+      if (!el) return;
+      const text = el.innerText || el.textContent;
+      navigator.clipboard.writeText(text.trim()).then(() => {
+        showToast('✓ Copied to clipboard!');
+        const origText = btn.innerText;
+        btn.innerText = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.innerText = origText;
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(err => {
+        showToast('Failed to copy');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      toast.innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2000);
+    }
+
+    // Activate 1st tab on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstBtn = document.querySelector('.visual-toolbar button');
+      if (firstBtn) {
+        const k = firstBtn.getAttribute('data-key');
+        switchVisual(k);
+      }
+      const firstPill = document.querySelector('.section-nav-pills a');
+      if (firstPill) {
+        const onclickAttr = firstPill.getAttribute('onclick') || '';
+        const m = onclickAttr.match(/'([^']+)'\s*\)/);
+        if (m) updateActivePill(m[1]);
+      }
+    });
+  </script>
+</body>
+</html>

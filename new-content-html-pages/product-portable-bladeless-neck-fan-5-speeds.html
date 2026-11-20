@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo AeroBreeze Max 5-Speed Bladeless Wearable Neck Fan with LED Screen | Zelmiqo® Content Master</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f4f6f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #334155;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+    
+    /* Top Header Bar */
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+    .brand-title span.badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .header-actions a {
+      background: #1e293b;
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid var(--border-dark);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Layout: Split Screen Container */
+    .app-container {
+      display: flex;
+      height: calc(100vh - 58px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Visual Live Website */
+    .visual-pane {
+      width: 46%;
+      background: #0f172a;
+      border-right: 2px solid #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .visual-toolbar {
+      background: #1e293b;
+      padding: 8px 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-bottom: 1px solid var(--border-dark);
+      z-index: 10;
+    }
+    .visual-toolbar button {
+      background: #0f172a;
+      color: #94a3b8;
+      border: 1px solid var(--border-dark);
+      padding: 6px 11px;
+      font-size: 11.5px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 600;
+      outline: none;
+    }
+    /* ONLY active tab has color & background change (NO hover switch) */
+    .visual-toolbar button.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+    }
+    .visual-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .image-wrapper {
+      position: relative;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      border: 1px solid #334155;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .slider-hint-box {
+      background: rgba(30, 41, 59, 0.95);
+      border-left: 4px solid var(--gold);
+      padding: 10px 14px;
+      border-radius: 4px;
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    /* Right Pane: Workstation */
+    .workstation-pane {
+      width: 54%;
+      overflow-y: auto;
+      padding: 16px 24px 80px 24px;
+      background: #f8fafc;
+      position: relative;
+    }
+    
+    /* Sticky Top Navigation Pills */
+    .section-nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      background: #f8fafc;
+      padding: 8px 0 10px 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-nav-pills a {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      padding: 5px 11px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      outline: none;
+    }
+    /* ONLY active pill has color & background change (NO hover switch) */
+    .section-nav-pills a.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+      box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .content-card.highlight {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 10px;
+    }
+    .card-header h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge-loc {
+      background: #eff6ff;
+      color: #2563eb;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .field-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .old-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: #64748b;
+      white-space: pre-wrap;
+      line-height: 1.45;
+      max-height: 140px;
+      overflow-y: auto;
+    }
+    .content-preview-box {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 12px 14px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      color: #0f172a;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      margin-bottom: 8px;
+    }
+    .content-preview-box.ar {
+      direction: rtl;
+      text-align: right;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      border-left: 1px solid #cbd5e1;
+      border-right: 3px solid var(--gold);
+      background: #fffdf7;
+    }
+
+    .copy-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 12px;
+    }
+    .copy-btn.copied {
+      background: #dcfce7;
+      color: #15803d;
+      border-color: #86efac;
+    }
+
+    /* Toast Notification */
+    #toastMsg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border-left: 4px solid var(--gold);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      display: none;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo AeroBreeze Max 5-Speed Bladeless Wearable Neck Fan with LED Screen</h1>
+      <span class="badge">Saudi Arabia & Global Launch</span>
+    </div>
+    <div class="header-actions">
+      <a href="index.html">📋 All Pages Dashboard</a>
+      <a href="home.html">🏠 Home Workstation</a>
+    </div>
+  </header>
+
+  <!-- App Main Container -->
+  <div class="app-container">
+
+    <!-- LEFT PANE: Visual Live Website Reference -->
+    <div class="visual-pane">
+      <div class="visual-toolbar">
+        <button class="active" data-key="prod_hero" onclick="switchVisual('prod_hero', this)">1. Product Hero & Buy Box</button>
+        <button data-key="prod_feat" onclick="switchVisual('prod_feat', this)">2. Specifications & Box Contents</button>
+        <button data-key="prod_faqs" onclick="switchVisual('prod_faqs', this)">3. Customer FAQs & Warranty</button>
+        <button data-key="prod_life" onclick="switchVisual('prod_life', this)">4. Strategic Benefits & Lifestyle</button>
+      </div>
+
+      <div class="visual-content">
+        <div class="image-wrapper" id="imageWrapper">
+          <img id="visualImage" src="assets/product_hero.jpg" alt="Live Page Section">
+        </div>
+
+        <div class="slider-hint-box" id="sliderHint">
+          <strong>📦 Product Hero Section:</strong> Live gallery, price display, Tabby/Tamara 4-split payments, and primary CTA button.
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANE: Copy & Paste Workstation -->
+    <div class="workstation-pane">
+
+      <!-- Sticky Navigation Bar for Cards -->
+      <div class="section-nav-pills">
+        <a href="javascript:void(0)" class="active" onclick="scrollToCard('card-seo-metadata')">1. SEO &amp; Meta Tags</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-1')">2. 1. Product Title &amp; Hero Headline</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-2')">3. 2. High-Converting Product Description</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-3')">4. 3. Key Features &amp; Strategic Benefits</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-4')">5. 4. Technical Specifications &amp; Box Contents</a>
+      </div>
+
+      <!-- SEO Meta Architecture Card -->
+      <div class="content-card" id="card-seo-metadata">
+        <div class="card-header">
+          <h3>🔍 Page SEO & Meta Architecture (Google & Social)</h3>
+          <span class="badge-loc">Header / Meta Tags</span>
+        </div>
+
+        <div class="field-title">PAGE META TITLE (HTML &lt;TITLE&gt;)</div>
+        <div class="content-preview-box" id="seo-meta-title-en">AeroPulse 5-Speed Bladeless Neck Fan with Quad Air Ducts &amp; LED Screen | Zelmiqo®</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-en', this)">📋 Copy English Title</button>
+        <div class="content-preview-box ar" id="seo-meta-title-ar">مروحة الرقبة الرياضية بـ 5 سرعات توربينية وقنوات تبريد رباعية | زيلميكو®</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-ar', this)">📋 Copy Arabic Title</button>
+
+        <div class="field-title">PAGE META DESCRIPTION</div>
+        <div class="content-preview-box" id="seo-meta-desc-en">5 turbo gear speeds for extreme heat. Quad-channel air outlets deliver upward and downward cooling to face and neck. Skin-friendly silicone, long battery life.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-en', this)">📋 Copy English Description</button>
+        <div class="content-preview-box ar" id="seo-meta-desc-ar">5 سرعات هوائية لمواجهة أشد درجات الحرارة في الصيف. 4 قنوات هوائية تضخ الهواء البارد للوجه والرقبة مع شاشة LED لعرض السرعة وشحن البطارية. طوق سيليكوني مريح مقاوم للتعرق.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-ar', this)">📋 Copy Arabic Description</button>
+
+        <div class="field-title">META KEYWORDS & SEARCH TERMS</div>
+        <div class="content-preview-box" id="seo-meta-kw-en">5 speed bladeless neck fan, quad duct neck cooling fan, high power wearable neck fan, rechargeable summer neck cooler, extreme heat neck fan ksa</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-en', this)">📋 Copy English Keywords</button>
+        <div class="content-preview-box ar" id="seo-meta-kw-ar">مروحة رقبة 5 سرعات, مروحة رقبة رياضية قوية, مكيف رقبة توربيني, مروحة تبريد متنقلة, تبريد الرأس والرقبة, أجهزة تبريد صيفية الرياض</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-ar', this)">📋 Copy Arabic Keywords</button>
+      </div>
+
+      <!-- Content Sections -->
+      
+      <div class="content-card" id="card-section-1">
+        <div class="card-header">
+          <h3>📌 1. Product Title &amp; Hero Headline (عنوان المنتج والشعار التسويقي)</h3>
+          <span class="badge-loc">Section 1</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Title: Portable Bladeless Neck Fan with Digital Display and 5 Speeds
+Price: SAR 159.00</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-1">[Headline]
+Zelmiqo AeroBreeze Max 5-Speed Bladeless Wearable Neck Fan with LED Screen
+[Subheadline]
+5 Tuned Wind Intensities. From Whisper Sleep Breeze to Hurricane Arctic Gusts for Intense Heat.
+Add to Bag • Express Dispatch in KSA
+[Call to Action (Secondary - Installments)]
+Split in 4 with Tabby &amp; Tamara (Zero Interest)</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-1', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-1">مروحة الرقبة اللاسلكية المتطورة بـ 5 سرعات توربينية وشاشة LED ديجيتال من زيلميكو
+5 سرعات هوائية فائقة الدقة. من النسيم الصامت حتى العصف القطبي القوي لمقاومة أشد أيام الصيف حرارة.
+Call to Action (Primary): Explore Flagship Collection &amp; Buy
+أضف للسلة • شحن سريع لكافة مدن المملكة
+قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-1', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-2">
+        <div class="card-header">
+          <h3>📌 2. High-Converting Product Description (الوصف التسويقي الجذاب)</h3>
+          <span class="badge-loc">Section 2</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">### Hands-Free Cooling Comfort Wherever You Go
+Stay cool without holding a fan in your hand. This Portable Bladeless Neck Fan is designed for easy, hands-free comfort while studying, working, walking, exercising, traveling, cooking, or relaxing at home.
+With a lightweight neck-hanging design, digital power display, USB charging, quiet airflow, and 5 adjustable speed levels, it gives you personal cooling anytime you need fresh air around you.
+### Bladeless-Style Design for Safer Daily Use
+The fan uses a bladeless-style air outlet with hidden turbine airflow, helping reduce the risk of hair getting caught while keeping the breeze smooth and comfortable. It is a smart choice for students, office workers, travelers, gym users, and anyone who wants easy personal cooling.
+### Comfortable Around the Neck
+The soft neck connection sits comfortably around your neck, so you can enjoy cooling while keeping your hands free for work, study, phone use, sports, or outdoor activities.
+### Multi-Angle Airflow
+The flexible wearing design helps direct airflow where you need it, giving you a refreshing breeze around the face and neck area.
+### 5 Speed Levels for Personalized Cooling
+Choose your ideal airflow with 5 adjustable speed settings. Use a lower speed for quiet indoor comfort or switch to a stronger setting when the weather feels hotter.
+• 5 wind speed levels for flexible use
+• Soft airflow for reading, studying, or sleeping
+• Medium airflow for office and daily use
+• Stronger airflow for outdoor, sports, and summer heat
+• Easy adjustment for different comfort needs
+### Digital Display for Easy Power Checking
+The built-in digital display lets you check the power status at a glance. You can easily know when it is time to recharge, making it more convenient for daily use, travel, office, school, and outdoor activities.
+No guessing, no sudden surprise. The clear display helps you stay prepared before going out.
+### USB Charging for Everyday Convenience
+This portable neck fan supports USB charging, making it easy to power from a USB adapter, laptop, power bank, car charger, or other USB-supported power source.
+• Convenient USB charging design
+• Great for home, office, school, travel, and outdoor use
+• Can be charged with a power bank while traveling
+• Energy-saving personal cooling solution
+### Quiet Cooling for Work, Study &amp; Relaxation
+The quiet airflow design makes this fan suitable for focused environments. Use it while studying, working in the office, reading, commuting, or relaxing without disturbing the people around you.
+It is especially useful during warm days when you need personal cooling but do not want a large fan or noisy device.
+### Perfect for Students, Sports, Office &amp; Travel
+This wearable neck fan is made for active and busy lifestyles. It keeps your hands free and your body cooler while you move through your day.
+### Best For
+• Students in classrooms, dorm rooms, and study areas
+• Office workers and desk users
+• Walking, jogging, gym, and light sports
+• Travel, commuting, camping, and outdoor events
+• Cooking, cleaning, gardening, and home use
+• Hot summer days and warm indoor spaces
+### Lightweight, Portable &amp; Easy to Wear
+The compact wearable design makes it easy to carry and comfortable to use for long daily routines. Place it around your neck and enjoy fresh airflow without holding anything in your hands.
+It is a practical cooling accessory for anyone who wants comfort while staying mobile.
+### Why You Will Love It
+• Bladeless-style neck fan for hands-free cooling
+• 5 adjustable speed levels
+• Digital display for easy power checking
+• USB charging for daily convenience
+• Quiet airflow for work, study, and travel
+• Comfortable neck-hanging design
+• Great for office, sport, student use, outdoor use, and summer cooling
+### Product Specifications
+• Product Name: Portable Bladeless Neck Fan
+• Design: Neck-hanging wearable fan
+• Speed Levels: 5 adjustable gears
+• Display: Digital power display
+• Charging: USB charging
+• Air Outlet: Bladeless-style hidden turbine airflow
+• Use Type: Hands-free personal cooling
+• Suitable For: Students, office, sport, travel, home, and outdoor use
+### Package Includes
+• 1 neck fan
+• 1 USB cable
+• 1 instruction manual
+• 1 packaging box
+### Your Personal Cooling Partner for Hot Days
+This portable bladeless neck fan gives you cooling freedom wherever you are. Wear it while working, studying, exercising, traveling, or relaxing and enjoy a fresh breeze without holding a traditional fan.
+If you want quiet, portable, hands-free cooling with 5 speed levels and a clear digital display, this USB rechargeable neck fan is an easy everyday upgrade.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-2">[Product Story &amp; Daily Lifestyle Appeal]
+When generic 3-speed fans cannot deliver the exact cooling level you desire, the Zelmiqo AeroBreeze Max provides 5 precisely tuned aerodynamic speed tiers. Switch between whisper mode for executive meetings, moderate flow for walking, or turbo Level 5 for peak midday sun during pilgrimages or outdoor sports. Built with premium acoustic dampening to operate silently below 30dB, it keeps you refreshed without disturbing conversations.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-2', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-2">عندما لا تفي المراوح العادية باحتياجاتك الدقيقة، تمنحك مروحة زيلميكو إيروبريز ماكس 5 سرعات هوائية متباينة بدقة فائقة. يمكنك التبديل بضغطة زر بين النسيم الصامت أثناء الاجتماعات أو الدوام، والتدفق المعتدل للتسوق، وصولاً إلى المستوى الخامس التوربيني الفائق لمقاومة حرارة الظهيرة أثناء الحج أو الأنشطة الخارجية. مع تقنية عزل الصوت المتقدمة التي تجعل صوتها أقل من 30 ديسيبل لتنعم بالانتعاش دون أي إزعاج.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-2', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-3">
+        <div class="card-header">
+          <h3>📌 3. Key Features &amp; Strategic Benefits (المزايا والفوائد العملية)</h3>
+          <span class="badge-loc">Section 3</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">### Hands-Free Cooling Comfort Wherever You Go
+Stay cool without holding a fan in your hand. This Portable Bladeless Neck Fan is designed for easy, hands-free comfort while studying, working, walking, exercising, traveling, cooking, or relaxing at home.
+With a lightweight neck-hanging design, digital power display, USB charging, quiet airflow, and 5 adjustable speed levels, it gives you personal c...</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-3">[Strategic Key Features]
+• 🌪️ 5 Precision Calibrated Speeds: Custom comfort for indoor office, gym workouts, or desert excursions.
+• 💡 Numeric LED Screen: Displays current speed setting (1-5) and remaining battery reserve.
+• 🛡️ Pinch-Free Bladeless Architecture: Complete safety for children, adults, and long hair.
+• ❄️ Dual-Sided Arctic Intakes: Up to 40% higher air volume intake than standard neck coolers.
+• 🔋 USB Type-C Fast Charging: Fully recharges in under 3 hours.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-3', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-3">• 🌪️ 5 سرعات متباينة ومضبوطة بدقة: تحكم كامل يناسب المكتب، التمارين الرياضية، أو الأجواء المفتوحة في المملكة.
+• 💡 شاشة LED رقمية مضيئة: توضح رقم السرعة الحالية (من 1 إلى 5) ونسبة شحن البطارية.
+• 🛡️ تصميم آمن بدون شفرات دوارة: حماية كاملة ومريحة للأطفال والكبار وتمنع تشابك الشعر تماماً.
+• ❄️ مداخل هواء مزدوجة عالية الكفاءة: تسحب وتضخ كمية هواء أكبر بنسبة 40% مقارنة بالمراوح العادية.
+• 🔋 شحن سريع بمنفذ Type-C: يعيد شحن البطارية بالكامل خلال أقل من 3 ساعات.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-3', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-4">
+        <div class="card-header">
+          <h3>📌 4. Technical Specifications &amp; Box Contents (المواصفات الفنية ومحتويات الصندوق)</h3>
+          <span class="badge-loc">Section 4</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Care and Safety Notes &amp; Package details from live product page.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-4">[Technical Specifications]
+Speed Gears: 1 to 5 | Noise Level: &lt;30dB | Battery: Long-Life Lithium | Weight: 275g | USB-C
+[Box Contents &amp; Guarantee]
+1x Authentic Zelmiqo® Device, 1x Certified USB Charging Cable, 1x Multilingual User Manual, 1x Certified Warranty Card.
+[Regional Warranty &amp; Assurance]
+Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee &amp; 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-4', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-4">مستويات السرعة: من 1 إلى 5 | مستوى الضجيج: أقل من 30 ديسيبل | البطارية: ليثيوم طويلة الأمد | الوزن: 275 جرام
+1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
+مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-4', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+    </div>
+  </div>
+
+  <div id="toastMsg">Copied to clipboard!</div>
+
+  <script>
+    const visualData = {"prod_hero": {"img": "assets/product_hero.jpg", "hint": "<strong>\ud83d\udce6 Product Hero Section:</strong> Live gallery, price display, Tabby/Tamara 4-split payments, and primary CTA button."}, "prod_feat": {"img": "assets/product_features.jpg", "hint": "<strong>\u2699\ufe0f Technical Specifications:</strong> Detailed dimensions, input power, materials, certification, and full package inclusions."}, "prod_faqs": {"img": "assets/product_faqs.jpg", "hint": "<strong>\u2753 Frequently Asked Questions:</strong> Common customer inquiries regarding usage, maintenance, charging, and 1-year warranty coverage."}, "prod_life": {"img": "assets/product_lifestyle.jpg", "hint": "<strong>\u2728 Key Strategic Benefits:</strong> Visual lifestyle presentation highlighting why this product is essential for Saudi homes."}};
+
+    function switchVisual(key, btnElem) {
+      document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
+      const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      const data = visualData[key];
+      if (!data) return;
+
+      document.getElementById('visualImage').src = data.img;
+      document.getElementById('sliderHint').innerHTML = data.hint;
+    }
+
+    function selectSection(key, cardId) {
+      switchVisual(key);
+      if (cardId) {
+        scrollToCard(cardId);
+      }
+    }
+
+    function scrollToCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        const pane = document.querySelector('.workstation-pane');
+        const navPills = document.querySelector('.section-nav-pills');
+        const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        if (pane) {
+          const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
+          pane.scrollTo({
+            top: Math.max(0, cardTopRelativeToPane - navHeight),
+            behavior: 'smooth'
+          });
+        }
+
+        document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
+        card.classList.add('highlight');
+        setTimeout(() => card.classList.remove('highlight'), 2500);
+
+        updateActivePill(cardId);
+      }
+    }
+
+    function updateActivePill(cardId) {
+      document.querySelectorAll('.section-nav-pills a').forEach(a => {
+        const onclickAttr = a.getAttribute('onclick') || '';
+        if (onclickAttr.includes(cardId)) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }
+
+    // ScrollSpy for right pane
+    const pane = document.querySelector('.workstation-pane');
+    const cards = document.querySelectorAll('.content-card');
+
+    pane.addEventListener('scroll', () => {
+      let currentCardId = cards[0] ? cards[0].id : '';
+      const paneTop = pane.getBoundingClientRect().top;
+      
+      cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const cardTop = rect.top - paneTop;
+        if (cardTop <= 140) {
+          currentCardId = card.id;
+        }
+      });
+
+      if (currentCardId) {
+        updateActivePill(currentCardId);
+      }
+    }, { passive: true });
+
+    function copyFrom(elemId, btn) {
+      const el = document.getElementById(elemId);
+      if (!el) return;
+      const text = el.innerText || el.textContent;
+      navigator.clipboard.writeText(text.trim()).then(() => {
+        showToast('✓ Copied to clipboard!');
+        const origText = btn.innerText;
+        btn.innerText = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.innerText = origText;
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(err => {
+        showToast('Failed to copy');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      toast.innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2000);
+    }
+
+    // Activate 1st tab on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstBtn = document.querySelector('.visual-toolbar button');
+      if (firstBtn) {
+        const k = firstBtn.getAttribute('data-key');
+        switchVisual(k);
+      }
+      const firstPill = document.querySelector('.section-nav-pills a');
+      if (firstPill) {
+        const onclickAttr = firstPill.getAttribute('onclick') || '';
+        const m = onclickAttr.match(/'([^']+)'\s*\)/);
+        if (m) updateActivePill(m[1]);
+      }
+    });
+  </script>
+</body>
+</html>

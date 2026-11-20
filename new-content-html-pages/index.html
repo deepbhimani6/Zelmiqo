@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo® Content Workstation Hub | All Store Pages</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --gold: #d4af37;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    header.hub-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 24px 32px;
+      border-bottom: 3px solid var(--gold);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .hub-header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .hub-title-group h1 {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .hub-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+    }
+    .hub-stats {
+      display: flex;
+      gap: 16px;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+    .hub-stats span strong {
+      color: var(--gold);
+    }
+    .hub-search-bar {
+      margin-top: 14px;
+      display: flex;
+      gap: 12px;
+    }
+    .hub-search-input {
+      flex: 1;
+      padding: 10px 16px;
+      border-radius: 6px;
+      border: 1px solid #334155;
+      background: #1e293b;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+    }
+    .hub-search-input:focus {
+      border-color: var(--gold);
+    }
+
+    main.hub-container {
+      max-width: 1400px;
+      margin: 32px auto;
+      padding: 0 24px 60px 24px;
+    }
+    .hub-section {
+      margin-bottom: 36px;
+    }
+    .hub-section-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+    }
+    .hub-count-pill {
+      background: #e2e8f0;
+      color: #475569;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+    .hub-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      gap: 16px;
+    }
+    .hub-card {
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .hub-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+    .hub-card-header h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      line-height: 1.4;
+    }
+    .hub-file-badge {
+      background: #f1f5f9;
+      color: #475569;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+      padding: 3px 6px;
+      border-radius: 4px;
+      white-space: nowrap;
+      border: 1px solid #e2e8f0;
+    }
+    .hub-card p {
+      color: var(--text-muted);
+      font-size: 12.5px;
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+    .hub-card-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      border-top: 1px solid #f1f5f9;
+      padding-top: 12px;
+    }
+    .hub-status-tag {
+      color: #16a34a;
+      font-size: 11px;
+      font-weight: 600;
+    }
+    .hub-open-btn {
+      background: var(--primary);
+      color: var(--gold);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      margin-left: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hub-header">
+    <div class="hub-header-top">
+      <div class="hub-title-group">
+        <h1>Zelmiqo® Content Workstation Hub</h1>
+        <span class="hub-badge">Interactive Live-Site Workstation Suite</span>
+      </div>
+      <div class="hub-stats">
+        <span>Total Pages: <strong>31</strong></span>
+        <span>Target: <strong>Saudi Arabia &amp; Global</strong></span>
+        <span>Status: <strong>Ready for Copy &amp; Paste</strong></span>
+      </div>
+    </div>
+    <div class="hub-search-bar">
+      <input type="text" id="searchInput" class="hub-search-input" placeholder="🔍 Search page name, file, or product keywords..." oninput="filterHubCards()">
+    </div>
+  </header>
+
+  <main class="hub-container">
+    
+      <section class="hub-section">
+        <h3 class="hub-section-title">🌟 Core Store Pages <span class="hub-count-pill">4 Pages</span></h3>
+        <div class="hub-grid">
+          
+        <div class="hub-card" data-title="homepage content master" data-desc="interactive 8-section master workstation with pixel-perfect visual callouts, live existing text, luxury english and saudi arabic content.">
+          <div class="hub-card-header">
+            <h4>Homepage Content Master</h4>
+            <span class="hub-file-badge">home.html</span>
+          </div>
+          <p>Interactive 8-section master workstation with pixel-perfect visual callouts, live existing text, luxury English and Saudi Arabic content.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="home.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="catalog &amp; all products listing" data-desc="complete collection listing, category quick-filters, breadcrumbs and product card presentation.">
+          <div class="hub-card-header">
+            <h4>Catalog &amp; All Products Listing</h4>
+            <span class="hub-file-badge">catalog.html</span>
+          </div>
+          <p>Complete collection listing, category quick-filters, breadcrumbs and product card presentation.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="catalog.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="header &amp; navigation master" data-desc="global top announcement ribbon, navigation taxonomy, search architecture, and currency selectors.">
+          <div class="hub-card-header">
+            <h4>Header &amp; Navigation Master</h4>
+            <span class="hub-file-badge">header.html</span>
+          </div>
+          <p>Global top announcement ribbon, navigation taxonomy, search architecture, and currency selectors.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="header.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="footer, payment &amp; trust system" data-desc="commercial registration (cr), vat compliance, payment gateway badges, customer care and golden guarantee.">
+          <div class="hub-card-header">
+            <h4>Footer, Payment &amp; Trust System</h4>
+            <span class="hub-file-badge">footer.html</span>
+          </div>
+          <p>Commercial registration (CR), VAT compliance, payment gateway badges, customer care and Golden Guarantee.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="footer.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        </div>
+      </section>
+    
+      <section class="hub-section">
+        <h3 class="hub-section-title">🏛️ Customer Care, Operations & Legal Policies <span class="hub-count-pill">7 Pages</span></h3>
+        <div class="hub-grid">
+          
+        <div class="hub-card" data-title="about us &amp; saudi brand story" data-desc="zelmiqo brand heritage, vision, quality standards, and dedicated riyadh fulfillment hub operations.">
+          <div class="hub-card-header">
+            <h4>About Us &amp; Saudi Brand Story</h4>
+            <span class="hub-file-badge">about-us.html</span>
+          </div>
+          <p>Zelmiqo brand heritage, vision, quality standards, and dedicated Riyadh fulfillment hub operations.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="about-us.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="delivery &amp; shipping information" data-desc="24-48h express domestic timelines, saudi provincial coverage, and courier partners.">
+          <div class="hub-card-header">
+            <h4>Delivery &amp; Shipping Information</h4>
+            <span class="hub-file-badge">delivery-and-shipping.html</span>
+          </div>
+          <p>24-48h express domestic timelines, Saudi provincial coverage, and courier partners.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="delivery-and-shipping.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="warranty policy &amp; golden 14-day guarantee" data-desc="14-day direct doorstep replacement, 1-year comprehensive warranty, and reverse courier service.">
+          <div class="hub-card-header">
+            <h4>Warranty Policy &amp; Golden 14-Day Guarantee</h4>
+            <span class="hub-file-badge">warranty-and-returns.html</span>
+          </div>
+          <p>14-Day direct doorstep replacement, 1-year comprehensive warranty, and reverse courier service.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="warranty-and-returns.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="contact us &amp; vip concierge" data-desc="whatsapp direct desk, email ticketing, riyadh headquarters location, and customer support standards.">
+          <div class="hub-card-header">
+            <h4>Contact Us &amp; VIP Concierge</h4>
+            <span class="hub-file-badge">contact-us.html</span>
+          </div>
+          <p>WhatsApp direct desk, email ticketing, Riyadh headquarters location, and customer support standards.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="contact-us.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="privacy policy &amp; terms of service" data-desc="full saudi pdpl data compliance, secure payment encryption, and fair transaction terms.">
+          <div class="hub-card-header">
+            <h4>Privacy Policy &amp; Terms of Service</h4>
+            <span class="hub-file-badge">privacy-and-terms.html</span>
+          </div>
+          <p>Full Saudi PDPL data compliance, secure payment encryption, and fair transaction terms.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="privacy-and-terms.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="order tracking portal" data-desc="real-time shipment lookup, courier dispatch updates, and automated delivery notifications.">
+          <div class="hub-card-header">
+            <h4>Order Tracking Portal</h4>
+            <span class="hub-file-badge">shipping-tracking.html</span>
+          </div>
+          <p>Real-time shipment lookup, courier dispatch updates, and automated delivery notifications.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="shipping-tracking.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="lifestyle blog &amp; summer cooling guides" data-desc="in-depth buying guides, desert cooling survival tips, and minimalist workspace optimization.">
+          <div class="hub-card-header">
+            <h4>Lifestyle Blog &amp; Summer Cooling Guides</h4>
+            <span class="hub-file-badge">blogs-and-articles.html</span>
+          </div>
+          <p>In-depth buying guides, desert cooling survival tips, and minimalist workspace optimization.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="blogs-and-articles.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        </div>
+      </section>
+    
+      <section class="hub-section">
+        <h3 class="hub-section-title">📦 20 Flagship Product Pages <span class="hub-count-pill">20 Pages</span></h3>
+        <div class="hub-grid">
+          
+        <div class="hub-card" data-title="magcharge 3-in-1 fast wireless charging station" data-desc="15w simultaneous charging for iphone, apple watch &amp; airpods pro.">
+          <div class="hub-card-header">
+            <h4>MagCharge 3-in-1 Fast Wireless Charging Station</h4>
+            <span class="hub-file-badge">product-3-in-1-charging-dock.html</span>
+          </div>
+          <p>15W simultaneous charging for iPhone, Apple Watch &amp; AirPods Pro.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-3-in-1-charging-dock.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="hydrofrost 3-in-1 portable air cooler &amp; humidifier" data-desc="rapid arctic evaporative cooling with 7-color ambient lighting.">
+          <div class="hub-card-header">
+            <h4>HydroFrost 3-in-1 Portable Air Cooler &amp; Humidifier</h4>
+            <span class="hub-file-badge">product-3-in-1-portable-air-cooler.html</span>
+          </div>
+          <p>Rapid arctic evaporative cooling with 7-color ambient lighting.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-3-in-1-portable-air-cooler.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="3d double-sided silicone facial cleansing brush" data-desc="deep sonic pore cleansing with ultra-hygienic antimicrobial bristles.">
+          <div class="hub-card-header">
+            <h4>3D Double-Sided Silicone Facial Cleansing Brush</h4>
+            <span class="hub-file-badge">product-3d-silicone-facial-brush.html</span>
+          </div>
+          <p>Deep sonic pore cleansing with ultra-hygienic antimicrobial bristles.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-3d-silicone-facial-brush.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="5-in-1 ems facial rejuvenation &amp; led massager" data-desc="microcurrent lifting, thermal therapy and 5 targeted light treatments.">
+          <div class="hub-card-header">
+            <h4>5-in-1 EMS Facial Rejuvenation &amp; LED Massager</h4>
+            <span class="hub-file-badge">product-5-in-1-ems-facial-massager.html</span>
+          </div>
+          <p>Microcurrent lifting, thermal therapy and 5 targeted light treatments.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-5-in-1-ems-facial-massager.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="bionic finger neck &amp; shoulder kneading massager" data-desc="deep tissue shiatsu massage nodes with soothing infrared warmth.">
+          <div class="hub-card-header">
+            <h4>Bionic Finger Neck &amp; Shoulder Kneading Massager</h4>
+            <span class="hub-file-badge">product-bionic-finger-neck-massager.html</span>
+          </div>
+          <p>Deep tissue Shiatsu massage nodes with soothing infrared warmth.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-bionic-finger-neck-massager.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="aerocyclone cordless handheld car vacuum cleaner" data-desc="12,000pa brushless motor with washable hepa filtration.">
+          <div class="hub-card-header">
+            <h4>AeroCyclone Cordless Handheld Car Vacuum Cleaner</h4>
+            <span class="hub-file-badge">product-cordless-handheld-car-vacuum.html</span>
+          </div>
+          <p>12,000Pa brushless motor with washable HEPA filtration.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-cordless-handheld-car-vacuum.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="vacuumpro deep pore blackhead remover &amp; extractor" data-desc="multi-level suction with 5 interchangeable microcrystalline probes.">
+          <div class="hub-card-header">
+            <h4>VacuumPro Deep Pore Blackhead Remover &amp; Extractor</h4>
+            <span class="hub-file-badge">product-deep-pore-blackhead-remover.html</span>
+          </div>
+          <p>Multi-level suction with 5 interchangeable microcrystalline probes.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-deep-pore-blackhead-remover.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="foldable windshield sun shade &amp; heat umbrella" data-desc="military-grade titanium silver coating reflecting 99% uv rays.">
+          <div class="hub-card-header">
+            <h4>Foldable Windshield Sun Shade &amp; Heat Umbrella</h4>
+            <span class="hub-file-badge">product-foldable-car-sun-shade.html</span>
+          </div>
+          <p>Military-grade titanium silver coating reflecting 99% UV rays.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-foldable-car-sun-shade.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="breezepocket mini usb rechargeable handheld fan" data-desc="whisper-quiet brushless airflow with all-day 2000mah battery.">
+          <div class="hub-card-header">
+            <h4>BreezePocket Mini USB Rechargeable Handheld Fan</h4>
+            <span class="hub-file-badge">product-mini-usb-rechargeable-fan.html</span>
+          </div>
+          <p>Whisper-quiet brushless airflow with all-day 2000mAh battery.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-mini-usb-rechargeable-fan.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="nutriblade portable 6-blade blender &amp; smoothie cup" data-desc="3d 304 stainless blades crushing ice and fruit in 30 seconds.">
+          <div class="hub-card-header">
+            <h4>NutriBlade Portable 6-Blade Blender &amp; Smoothie Cup</h4>
+            <span class="hub-file-badge">product-portable-6-blade-juicer.html</span>
+          </div>
+          <p>3D 304 stainless blades crushing ice and fruit in 30 seconds.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-6-blade-juicer.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="arcticbreeze bladeless neck fan with led display" data-desc="semiconductor ice cooling plate with real-time digital battery readout.">
+          <div class="hub-card-header">
+            <h4>ArcticBreeze Bladeless Neck Fan with LED Display</h4>
+            <span class="hub-file-badge">product-portable-bladeless-neck-fan-digital.html</span>
+          </div>
+          <p>Semiconductor ice cooling plate with real-time digital battery readout.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-bladeless-neck-fan-digital.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="turboflow 5-speed bladeless wearable neck fan" data-desc="360° surround airflow with 5 custom aerodynamic speeds.">
+          <div class="hub-card-header">
+            <h4>TurboFlow 5-Speed Bladeless Wearable Neck Fan</h4>
+            <span class="hub-file-badge">product-portable-bladeless-neck-fan-5-speeds.html</span>
+          </div>
+          <p>360° surround airflow with 5 custom aerodynamic speeds.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-bladeless-neck-fan-5-speeds.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="duoblend portable double-cup personal juicer" data-desc="dual sports drinking cups with leak-proof carry lids for fitness.">
+          <div class="hub-card-header">
+            <h4>DuoBlend Portable Double-Cup Personal Juicer</h4>
+            <span class="hub-file-badge">product-portable-double-cup-juicer.html</span>
+          </div>
+          <p>Dual sports drinking cups with leak-proof carry lids for fitness.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-double-cup-juicer.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="scalprevive electric vibration &amp; red light massage comb" data-desc="high-frequency micro-vibration stimulating follicle hair density.">
+          <div class="hub-card-header">
+            <h4>ScalpRevive Electric Vibration &amp; Red Light Massage Comb</h4>
+            <span class="hub-file-badge">product-portable-scalp-massage-comb.html</span>
+          </div>
+          <p>High-frequency micro-vibration stimulating follicle hair density.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-scalp-massage-comb.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="citrusmax electric usb hands-free citrus juicer" data-desc="automated 360° slow masticating extraction yielding 95% pure juice.">
+          <div class="hub-card-header">
+            <h4>CitrusMax Electric USB Hands-Free Citrus Juicer</h4>
+            <span class="hub-file-badge">product-portable-usb-citrus-juicer.html</span>
+          </div>
+          <p>Automated 360° slow masticating extraction yielding 95% pure juice.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-usb-citrus-juicer.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="autoclean pro portable wireless vehicle vacuum" data-desc="dual-function vacuuming and high-pressure dusting for cars.">
+          <div class="hub-card-header">
+            <h4>AutoClean Pro Portable Wireless Vehicle Vacuum</h4>
+            <span class="hub-file-badge">product-portable-wireless-car-vacuum.html</span>
+          </div>
+          <p>Dual-function vacuuming and high-pressure dusting for cars.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-portable-wireless-car-vacuum.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="prorelief deep tissue smart fascia massage gun" data-desc="32 intensity levels with ai intelligent pressure sensor.">
+          <div class="hub-card-header">
+            <h4>ProRelief Deep Tissue Smart Fascia Massage Gun</h4>
+            <span class="hub-file-badge">product-smart-fascia-massage-gun.html</span>
+          </div>
+          <p>32 intensity levels with AI intelligent pressure sensor.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-smart-fascia-massage-gun.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="dermaglow ultrasonic deep skin scrubber &amp; peeling spatula" data-desc="28,000hz ultrasonic cavitation removing dead skin and excess sebum.">
+          <div class="hub-card-header">
+            <h4>DermaGlow Ultrasonic Deep Skin Scrubber &amp; Peeling Spatula</h4>
+            <span class="hub-file-badge">product-ultrasonic-skin-scrubber.html</span>
+          </div>
+          <p>28,000Hz ultrasonic cavitation removing dead skin and excess sebum.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-ultrasonic-skin-scrubber.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="warmsip smart usb desktop coffee &amp; mug warmer" data-desc="3 temperature presets keeping beverages at perfect drinking warmth.">
+          <div class="hub-card-header">
+            <h4>WarmSip Smart USB Desktop Coffee &amp; Mug Warmer</h4>
+            <span class="hub-file-badge">product-usb-coffee-mug-warmer.html</span>
+          </div>
+          <p>3 temperature presets keeping beverages at perfect drinking warmth.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-usb-coffee-mug-warmer.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        <div class="hub-card" data-title="climasense wireless digital weather station &amp; smart clock" data-desc="precision wireless outdoor sensor with indoor temperature and comfort gauges.">
+          <div class="hub-card-header">
+            <h4>ClimaSense Wireless Digital Weather Station &amp; Smart Clock</h4>
+            <span class="hub-file-badge">product-wireless-weather-station-alarm.html</span>
+          </div>
+          <p>Precision wireless outdoor sensor with indoor temperature and comfort gauges.</p>
+          <div class="hub-card-footer">
+            <span class="hub-status-tag">✓ English &amp; Arabic Ready</span>
+            <span class="hub-status-tag">✓ Copy Buttons</span>
+            <a href="product-wireless-weather-station-alarm.html" class="hub-open-btn">Open Workstation &rarr;</a>
+          </div>
+        </div>
+        
+        </div>
+      </section>
+    
+  </main>
+
+  <script>
+    function filterHubCards() {
+      const q = document.getElementById('searchInput').value.toLowerCase().trim();
+      document.querySelectorAll('.hub-card').forEach(card => {
+        const title = card.getAttribute('data-title') || '';
+        const desc = card.getAttribute('data-desc') || '';
+        if (!q || title.includes(q) || desc.includes(q)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>

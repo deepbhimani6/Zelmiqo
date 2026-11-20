@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us (من نحن) - Zelmiqo Global &amp; Saudi Arabia | Zelmiqo® Content Master</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f4f6f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #334155;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+    
+    /* Top Header Bar */
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title h1 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+    .brand-title span.badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 9px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-actions {
+      display: flex;
+      gap: 10px;
+    }
+    .header-actions a {
+      background: #1e293b;
+      color: #cbd5e1;
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid var(--border-dark);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Layout: Split Screen Container */
+    .app-container {
+      display: flex;
+      height: calc(100vh - 58px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Visual Live Website */
+    .visual-pane {
+      width: 46%;
+      background: #0f172a;
+      border-right: 2px solid #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .visual-toolbar {
+      background: #1e293b;
+      padding: 8px 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border-bottom: 1px solid var(--border-dark);
+      z-index: 10;
+    }
+    .visual-toolbar button {
+      background: #0f172a;
+      color: #94a3b8;
+      border: 1px solid var(--border-dark);
+      padding: 6px 11px;
+      font-size: 11.5px;
+      border-radius: 6px;
+      cursor: pointer;
+      white-space: nowrap;
+      font-weight: 600;
+      outline: none;
+    }
+    /* ONLY active tab has color & background change (NO hover switch) */
+    .visual-toolbar button.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+    }
+    .visual-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .image-wrapper {
+      position: relative;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      border: 1px solid #334155;
+    }
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .slider-hint-box {
+      background: rgba(30, 41, 59, 0.95);
+      border-left: 4px solid var(--gold);
+      padding: 10px 14px;
+      border-radius: 4px;
+      color: #cbd5e1;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    /* Right Pane: Workstation */
+    .workstation-pane {
+      width: 54%;
+      overflow-y: auto;
+      padding: 16px 24px 80px 24px;
+      background: #f8fafc;
+      position: relative;
+    }
+    
+    /* Sticky Top Navigation Pills */
+    .section-nav-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+      position: sticky;
+      top: 0;
+      background: #f8fafc;
+      padding: 8px 0 10px 0;
+      z-index: 50;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-nav-pills a {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      padding: 5px 11px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: #475569;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      outline: none;
+    }
+    /* ONLY active pill has color & background change (NO hover switch) */
+    .section-nav-pills a.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 800;
+      box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    }
+    .content-card.highlight {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.3);
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 10px;
+    }
+    .card-header h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge-loc {
+      background: #eff6ff;
+      color: #2563eb;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+
+    .field-title {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #64748b;
+      margin-top: 14px;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .old-box {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: #64748b;
+      white-space: pre-wrap;
+      line-height: 1.45;
+      max-height: 140px;
+      overflow-y: auto;
+    }
+    .content-preview-box {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 12px 14px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      color: #0f172a;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      margin-bottom: 8px;
+    }
+    .content-preview-box.ar {
+      direction: rtl;
+      text-align: right;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      border-left: 1px solid #cbd5e1;
+      border-right: 3px solid var(--gold);
+      background: #fffdf7;
+    }
+
+    .copy-btn {
+      background: #f1f5f9;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: #334155;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 12px;
+    }
+    .copy-btn.copied {
+      background: #dcfce7;
+      color: #15803d;
+      border-color: #86efac;
+    }
+
+    /* Toast Notification */
+    #toastMsg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border-left: 4px solid var(--gold);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      display: none;
+      z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>About Us (من نحن) - Zelmiqo Global &amp; Saudi Arabia</h1>
+      <span class="badge">Saudi Arabia & Global Launch</span>
+    </div>
+    <div class="header-actions">
+      <a href="index.html">📋 All Pages Dashboard</a>
+      <a href="home.html">🏠 Home Workstation</a>
+    </div>
+  </header>
+
+  <!-- App Main Container -->
+  <div class="app-container">
+
+    <!-- LEFT PANE: Visual Live Website Reference -->
+    <div class="visual-pane">
+      <div class="visual-toolbar">
+        <button class="active" data-key="info_main" onclick="switchVisual('info_main', this)">1. Live About Us & Saudi Brand Story</button>
+      </div>
+
+      <div class="visual-content">
+        <div class="image-wrapper" id="imageWrapper">
+          <img id="visualImage" src="assets/about_us_full.jpg" alt="Live Page Section">
+        </div>
+
+        <div class="slider-hint-box" id="sliderHint">
+          <strong>🏛️ About Us & Saudi Brand Story:</strong> Authentic live store visual layout with highlighted sections.
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT PANE: Copy & Paste Workstation -->
+    <div class="workstation-pane">
+
+      <!-- Sticky Navigation Bar for Cards -->
+      <div class="section-nav-pills">
+        <a href="javascript:void(0)" class="active" onclick="scrollToCard('card-seo-metadata')">1. SEO &amp; Meta Tags</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-1')">2. 1. Brand Headline &amp; Introduction</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-2')">3. 2. Our Story</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-3')">4. 3. Mission &amp; Vision</a>
+        <a href="javascript:void(0)" onclick="scrollToCard('card-section-4')">5. 4. Why Choose Zelmiqo?</a>
+      </div>
+
+      <!-- SEO Meta Architecture Card -->
+      <div class="content-card" id="card-seo-metadata">
+        <div class="card-header">
+          <h3>🔍 Page SEO & Meta Architecture (Google & Social)</h3>
+          <span class="badge-loc">Header / Meta Tags</span>
+        </div>
+
+        <div class="field-title">PAGE META TITLE (HTML &lt;TITLE&gt;)</div>
+        <div class="content-preview-box" id="seo-meta-title-en">About Zelmiqo® | Global Lifestyle Tech &amp; Saudi Regional Operations</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-en', this)">📋 Copy English Title</button>
+        <div class="content-preview-box ar" id="seo-meta-title-ar">من نحن | علامة زيلميكو® العالمية ومركز العمليات في المملكة العربية السعودية</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-title-ar', this)">📋 Copy Arabic Title</button>
+
+        <div class="field-title">PAGE META DESCRIPTION</div>
+        <div class="content-preview-box" id="seo-meta-desc-en">Learn about Zelmiqo&#x27;s global mission to engineer minimalist smart living essentials, summer cooling devices, and restorative wellness, backed by dedicated Saudi fulfillment.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-en', this)">📋 Copy English Description</button>
+        <div class="content-preview-box ar" id="seo-meta-desc-ar">تعرف على قصة ورسالة زيلميكو العالمية لتقديم ابتكارات الحياة الذكية وحلول التبريد الصيفي والعناية الفاخرة مع مركز توزيع محلي مخصص في المملكة.</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-desc-ar', this)">📋 Copy Arabic Description</button>
+
+        <div class="field-title">META KEYWORDS & SEARCH TERMS</div>
+        <div class="content-preview-box" id="seo-meta-kw-en">about zelmiqo, global lifestyle tech brand, smart gadgets saudi arabia, precision engineering, trusted ksa store</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-en', this)">📋 Copy English Keywords</button>
+        <div class="content-preview-box ar" id="seo-meta-kw-ar">عن زيلميكو, متجر أجهزة ذكية عالمي, ماركة زيلميكو الأصلية, تسوق موثوق السعودية, ضمان الأجهزة الذكية</div>
+        <button class="copy-btn" onclick="copyFrom('seo-meta-kw-ar', this)">📋 Copy Arabic Keywords</button>
+      </div>
+
+      <!-- Content Sections -->
+      
+      <div class="content-card" id="card-section-1">
+        <div class="card-header">
+          <h3>📌 1. Brand Headline &amp; Introduction (المقدمة والرؤية العامة)</h3>
+          <span class="badge-loc">Section 1</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Smart Shopping. Better Living. Anywhere.
+
+Welcome to Zelmiqo — your trusted global online shopping destination for innovative, practical, and high-quality products designed to make everyday life easier.
+
+We believe shopping should be more than simply purchasing products—it should be a seamless, enjoyable, and reliable experience. That&#x27;s why we carefully source trending, problem-solving, and quality products from trusted manufacturers around the world, ensuring every item offers exceptional value, functionality, and reliability.
+
+Whether you&#x27;re upgrading your home, discovering smart gadgets, improving your lifestyle, or searching for the perfect gift, Zelmiqo is committed to delivering products you&#x27;ll love with an experience you can trust.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-1">[Headline]
+Global Innovation. Refined Living. Dedicated to Saudi Arabia.
+[Subheadline]
+World-class engineering meets authentic regional hospitality. Discover smart gadgets designed to elevate your everyday living.
+[Brand Narrative]
+Welcome to Zelmiqo (زيلميكو) — an international lifestyle tech house founded on the principle that modern living should be seamless, inspiring, and exceptionally comfortable. From quiet, high-velocity wearable cooling engineered for 48°C desert summers to executive multi-device wireless charging stations and restorative percussive massagers, our innovations bring global luxury into Saudi homes. Operating with dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express 24-48h domestic delivery and flexible 4-month installments with Tabby and Tamara.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-1', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-1">ابتكارات عالمية.. لرفاهية استثنائية في كل يوم. مخصصة للمملكة العربية السعودية.
+هندسة عالمية فائقة تلتقي بالضيافة السعودية الأصيلة. اكتشف أجهزة ذكية صُممت لترتقي بتفاصيل حياتك اليومية.
+أهلاً بكم في زيلميكو (Zelmiqo) — دار الابتكارات التقنية العالمية لأسلوب حياة استثنائي، والتي تأسست على يقين بأن الحياة العصرية ينبغي أن تكون مفعمة بالراحة، الإلهام، والأناقة العملية. من مراوح التبريد الشخصية التوربينية المصممة للتغلب على حرارة الصيف البالغة 48 درجة مئوية في المملكة، إلى منصات الشحن اللاسلكي الذكية ومسدسات المساج الاحترافية للاسترخاء، نقدم لكم الفخامة العالمية في منازلكم. ومن خلال مركز عملياتنا وتوزيعنا الإقليمي في الرياض، نضمن لعملائنا في السعودية معايير الجودة الدولية مع توصيل محلي سريع خلال 24-48 ساعة، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-1', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-2">
+        <div class="card-header">
+          <h3>📌 2. Our Story (قصتنا)</h3>
+          <span class="badge-loc">Section 2</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Our Story
+
+Zelmiqo was founded with one simple vision:
+To make innovative, high-quality products accessible to customers around the world at fair and affordable prices.
+
+We recognized that many useful and trending products were either difficult to find or priced far above their true value. Our goal became clear—to create a global online store where customers can discover carefully selected products that combine quality, innovation, affordability, and style.
+
+As we continue to grow, we remain dedicated to expanding our product range while maintaining the highest standards of quality, customer satisfaction, and service.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-2">[Section Title]
+Our Story: Bridging Global Technology with Saudi Aspirations
+[Story Body]
+Zelmiqo began with a clear purpose: to bridge the gap between premium international smart technology and the everyday realities of modern living. While global markets offered high-tech tools, customers in the Gulf and across the world often faced inflated reseller prices, slow international drop-shipping, or questionable build quality. We set out to redefine this experience. By establishing direct precision engineering partnerships globally and establishing a dedicated logistics hub within the Kingdom of Saudi Arabia, Zelmiqo delivers authentic prestige, uncompromising durability, and fair pricing directly to discerning Saudi families.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-2', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-2">قصتنا: جسر بين التكنولوجيا العالمية وطموح المملكة
+انطلقت رحلة زيلميكو (Zelmiqo) برؤية واضحة: سد الفجوة بين أحدث التقنيات الذكية العالمية والاحتياجات اليومية للحياة العصرية في المملكة والخليج والعالم. لاحظنا أن العديد من المنتجات المبتكرة كانت إما محتكرة بأسعار مبالغ فيها، أو تتطلب أسابيع من الشحن الدولي غير المضمون، أو تأتي بجودة متدنية لا تدوم. لذلك أعدنا ابتكار التجربة بالكامل؛ فأنشأنا شراكات هندسية وتصنيعية مباشرة حول العالم، ودعمناها بمركز توزيع إقليمي متكامل داخل المملكة العربية السعودية، لنضع بين أيديكم أجهزة فاخرة، معتمدة، وبأسعار عادلة تناسب العائلة السعودية الطموحة.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-2', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-3">
+        <div class="card-header">
+          <h3>📌 3. Mission &amp; Vision (رسالتنا ورؤيتنا)</h3>
+          <span class="badge-loc">Section 3</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Our Mission
+Our mission is to simplify everyday living by offering innovative, practical, and affordable products while providing customers worldwide with a secure, transparent, and enjoyable shopping experience.
+
+Our Vision
+Our vision is to become one of the world&#x27;s most trusted online shopping destinations, known for carefully curated products, exceptional customer service, reliable worldwide delivery, and long-lasting customer relationships.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-3">[Our Mission]
+To empower modern households worldwide and throughout Saudi Arabia with thoughtful lifestyle technology, rigorous safety certifications, and respectful service that transforms routine tasks into effortless pleasure.
+[Our Vision]
+To stand as the world&#x27;s premier lifestyle innovation brand, admired across Saudi Arabia and internationally for relentless product refinement, transparent fulfillment, and trusted customer relationships.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-3', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-3">تمكين العائلات العصرية في المملكة وحول العالم بأجهزة ذكية ذات تصميم راقٍ، واعتمادات أمان عالمية، وخدمة عملاء فائقة تحول المهام اليومية إلى متعة وراحة متناهية.
+أن نكون العلامة التجارية العالمية الأولى والمفضلة في المملكة العربية السعودية والشرق الأوسط للأجهزة الذكية العصرية، والمشهود لها بالجودة الصارمة، الشفافية التامة، والثقة المستدامة مع كل عميل.
+---</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-3', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+      <div class="content-card" id="card-section-4">
+        <div class="card-header">
+          <h3>📌 4. Why Choose Zelmiqo? (لماذا يختار عملاؤنا زيلميكو؟)</h3>
+          <span class="badge-loc">Section 4</span>
+        </div>
+
+        <div class="field-title">LIVE SITE EXISTING CONTENT</div>
+        <div class="old-box">Why Choose Zelmiqo?
+
+✔ Carefully Curated Collection
+Every product is selected based on quality, functionality, durability, customer demand, and overall value.
+
+✔ Premium Quality Standards
+We work with trusted manufacturers and suppliers to ensure every product meets our quality expectations.
+
+✔ Fair &amp; Affordable Pricing
+Our efficient sourcing process allows us to offer competitive prices without compromising on quality.
+
+✔ Secure Shopping
+Your personal information and payment details are protected through trusted and secure payment technologies.
+
+✔ International Shipping
+We proudly serve customers across multiple countries with reliable international shipping and order tracking.
+
+✔ Customer-First Service
+Our customers are at the center of everything we do. We strive to provide prompt support, honest communication, and dependable assistance.
+
+✔ Simple &amp; Convenient Shopping
+Our website is designed to provide a fast, secure, and user-friendly shopping experience across desktop and mobile devices.</div>
+
+        <div class="field-title">NEW CONTENT (ENGLISH - LUXURY &amp; HIGH-CONVERTING)</div>
+        <div class="content-preview-box" id="copy-en-sec-4">[Pillar 1 - Precision International Engineering]
+✔ Precision International Engineering: Every device undergoes thermal endurance testing, battery life optimization, and drop testing to withstand demanding environments, including Saudi summer climates.
+[Pillar 2 - Dedicated Local Saudi Fulfillment]
+✔ Dedicated Local Saudi Fulfillment: No long customs delays or drop-shipping. Orders are dispatched from domestic fulfillment hubs in Riyadh via SMSA, Aramex, and local couriers within 24 to 48 hours.
+[Pillar 3 - Transparent Flexible Financing]
+✔ Transparent Flexible Financing: Enjoy financial ease by splitting payments into 4 interest-free installments with Tabby and Tamara, or choose Cash on Delivery (COD) and Mada upon receipt.
+[Pillar 4 - Golden 14-Day Warranty &amp; Protection]
+✔ Golden 14-Day Warranty &amp; Protection: Shop with absolute peace of mind backed by our Golden 14-Day direct replacement guarantee and 1-year product warranty compliant with Saudi consumer standards.
+[Pillar 5 - Bilingual VIP Concierge Support]
+✔ Bilingual VIP Concierge Support: Dedicated Arabic and English support specialists available 7 days a week via direct WhatsApp to answer inquiries and assist with tracking.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-en-sec-4', this)">📋 Copy English</button>
+
+        <div class="field-title">NEW CONTENT (ARABIC - SAUDI DIALECT &amp; LUXURY)</div>
+        <div class="content-preview-box ar" id="copy-ar-sec-4">✔ هندسة دولية فائقة الدقة: يخضع كل جهاز لاختبارات صارمة للتحمل الحراري، كفاءة البطارية، ومقاومة الصدمات ليعمل بكفاءة مطلقة في مختلف الظروف، وخاصة صيف المملكة الحار.
+✔ مستودعات وتوصيل محلي مباشر في السعودية: لا انتظار للشحن الدولي أو إجراءات الجمارك المعقدة. تُشحن طلباتكم مباشرة من مستودعاتنا الإقليمية في الرياض عبر أرامكس وسمسا خلال 24 إلى 48 ساعة فقط.
+✔ خيارات دفع وتقسيط ميسرة: تسوق براحة تامة وقسّم فاتورتك على 4 دفعات بدون فوائد أو رسوم خفية عبر تابي وتمارا، أو اختر الدفع عند الاستلام وبطاقات مدى وأبل باي.
+✔ الضمان الذهبي والاستبدال السريع: تسوق بثقة تامة مع الضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام وفق اشتراطات وزارة التجارة السعودية.
+✔ خدمة عملاء VIP باللغتين العربية والإنجليزية: فريق دعم متخصص في خدمتك طوال أيام الأسبوع عبر الواتساب للإجابة الفورية وتتبع شحنتك ومساعدتك في أي استفسار.</div>
+        <button class="copy-btn" onclick="copyFrom('copy-ar-sec-4', this)">📋 Copy Arabic</button>
+      </div>
+        
+
+    </div>
+  </div>
+
+  <div id="toastMsg">Copied to clipboard!</div>
+
+  <script>
+    const visualData = {"info_main": {"img": "assets/about_us_full.jpg", "hint": "<strong>\ud83c\udfdb\ufe0f About Us & Saudi Brand Story:</strong> Authentic live store visual layout with highlighted sections."}};
+
+    function switchVisual(key, btnElem) {
+      document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
+      const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      const data = visualData[key];
+      if (!data) return;
+
+      document.getElementById('visualImage').src = data.img;
+      document.getElementById('sliderHint').innerHTML = data.hint;
+    }
+
+    function selectSection(key, cardId) {
+      switchVisual(key);
+      if (cardId) {
+        scrollToCard(cardId);
+      }
+    }
+
+    function scrollToCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        const pane = document.querySelector('.workstation-pane');
+        const navPills = document.querySelector('.section-nav-pills');
+        const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        if (pane) {
+          const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
+          pane.scrollTo({
+            top: Math.max(0, cardTopRelativeToPane - navHeight),
+            behavior: 'smooth'
+          });
+        }
+
+        document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
+        card.classList.add('highlight');
+        setTimeout(() => card.classList.remove('highlight'), 2500);
+
+        updateActivePill(cardId);
+      }
+    }
+
+    function updateActivePill(cardId) {
+      document.querySelectorAll('.section-nav-pills a').forEach(a => {
+        const onclickAttr = a.getAttribute('onclick') || '';
+        if (onclickAttr.includes(cardId)) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }
+
+    // ScrollSpy for right pane
+    const pane = document.querySelector('.workstation-pane');
+    const cards = document.querySelectorAll('.content-card');
+
+    pane.addEventListener('scroll', () => {
+      let currentCardId = cards[0] ? cards[0].id : '';
+      const paneTop = pane.getBoundingClientRect().top;
+      
+      cards.forEach(card => {
+        const rect = card.getBoundingClientRect();
+        const cardTop = rect.top - paneTop;
+        if (cardTop <= 140) {
+          currentCardId = card.id;
+        }
+      });
+
+      if (currentCardId) {
+        updateActivePill(currentCardId);
+      }
+    }, { passive: true });
+
+    function copyFrom(elemId, btn) {
+      const el = document.getElementById(elemId);
+      if (!el) return;
+      const text = el.innerText || el.textContent;
+      navigator.clipboard.writeText(text.trim()).then(() => {
+        showToast('✓ Copied to clipboard!');
+        const origText = btn.innerText;
+        btn.innerText = '✓ Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.innerText = origText;
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(err => {
+        showToast('Failed to copy');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      toast.innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2000);
+    }
+
+    // Activate 1st tab on load
+    window.addEventListener('DOMContentLoaded', () => {
+      const firstBtn = document.querySelector('.visual-toolbar button');
+      if (firstBtn) {
+        const k = firstBtn.getAttribute('data-key');
+        switchVisual(k);
+      }
+      const firstPill = document.querySelector('.section-nav-pills a');
+      if (firstPill) {
+        const onclickAttr = firstPill.getAttribute('onclick') || '';
+        const m = onclickAttr.match(/'([^']+)'\s*\)/);
+        if (m) updateActivePill(m[1]);
+      }
+    });
+  </script>
+</body>
+</html>
