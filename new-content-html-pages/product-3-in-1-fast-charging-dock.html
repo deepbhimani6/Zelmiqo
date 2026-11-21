@@ -383,6 +383,21 @@
       color: #fff;
       border-color: var(--green);
     }
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0f172a;
+      color: #fff;
+      border-left: 4px solid var(--gold);
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      z-index: 99999;
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -1539,6 +1554,9 @@ Upgrade your smart charging ecosystem and unlock Free Express Delivery across Sa
     </div>
   </div>
 
+  <!-- Toast Notification -->
+  <div class="toast" id="toastMsg">✓ Copied to clipboard!</div>
+
   <script>
     // Visual Images Data Dictionary
     const visualData = {
@@ -1669,9 +1687,10 @@ Upgrade your smart charging ecosystem and unlock Free Express Delivery across Sa
     }
 
     // ScrollSpy Observer
-    const workstationPane = document.querySelector('.workstation-pane');
-    if (workstationPane) {
-      workstationPane.addEventListener('scroll', () => {
+    const pane = document.querySelector('.workstation-pane');
+    const workstationPane = pane;
+    if (pane) {
+      pane.addEventListener('scroll', () => {
         if (isProgrammaticScroll) return;
 
         const cards = document.querySelectorAll('.content-card');
@@ -1724,13 +1743,25 @@ Upgrade your smart charging ecosystem and unlock Free Express Delivery across Sa
         const originalText = btn.innerHTML;
         btn.innerHTML = '✓ Copied!';
         btn.classList.add('copied');
+        showToast('✓ Copied to clipboard!');
         setTimeout(() => {
           btn.innerHTML = originalText;
           btn.classList.remove('copied');
         }, 2000);
       }).catch(err => {
         console.error('Copy failed: ', err);
+        showToast('Failed to copy');
       });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      if (!toast) return;
+      toast.innerText = msg || '✓ Copied to clipboard!';
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2000);
     }
 
     window.addEventListener('DOMContentLoaded', () => {

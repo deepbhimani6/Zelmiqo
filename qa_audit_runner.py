@@ -24,14 +24,14 @@ REQUIRED_PAGES = [
     'blogs-and-articles.html',
     'header.html',
     'footer.html',
-    'index.html'
+    'index.html',
+    'product-3-in-1-fast-charging-dock.html'
 ]
 
 FORBIDDEN_PAGE_PATTERNS = [
     r'account.*\.html',
     r'tracking.*\.html',
     r'shipping-tracking.*\.html',
-    r'product-.*\.html',
     r'category-.*\.html',
     r'cart.*\.html',
     r'checkout.*\.html',
@@ -58,7 +58,18 @@ REQUIRED_ASSETS = [
     'section_5_mid_banners.jpg',
     'section_6_trending.jpg',
     'section_7_testimonials.jpg',
-    'warranty_full.jpg'
+    'warranty_full.jpg',
+    'product_dock_hero.jpg',
+    'product_dock_faqs.jpg',
+    'product_dock_two_col.jpg',
+    'product_dock_center_4blocks.jpg',
+    'product_dock_benefits_grid.jpg',
+    'product_dock_table.jpg',
+    'product_dock_marquee.jpg',
+    'product_dock_customers.jpg',
+    'product_dock_reviews.jpg',
+    'product_dock_related.jpg',
+    'product_dock_full.jpg'
 ]
 
 KSA_VALUE_PROPS = {
