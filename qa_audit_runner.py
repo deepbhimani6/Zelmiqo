@@ -25,7 +25,8 @@ REQUIRED_PAGES = [
     'header.html',
     'footer.html',
     'index.html',
-    'product-3-in-1-fast-charging-dock.html'
+    'product-3-in-1-fast-charging-dock.html',
+    'product-portable-bladeless-neck-fan.html'
 ]
 
 FORBIDDEN_PAGE_PATTERNS = [
