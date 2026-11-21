@@ -62,6 +62,29 @@
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .hub-link-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
     .header-tip {
       color: #94a3b8;
       font-size: 13px;
@@ -415,8 +438,9 @@
       <h1>Zelmiqo® Homepage Content Master</h1>
       <span class="badge">Saudi Arabia & Global Launch</span>
     </div>
-    <div class="header-tip">
-      💡 Live Store Visual References & Verbatim Old-to-New Copy Workstation
+    <div class="header-actions">
+      <span class="header-tip">💡 Live Store Visual References & Verbatim Workstation</span>
+      <a href="index.html" class="hub-link-btn">← Back to Master Hub</a>
     </div>
   </header>
 
