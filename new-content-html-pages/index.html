@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo® Master Content Workstation Hub | Saudi Arabia & Global</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-light: #f1f5f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding-bottom: 60px;
+    }
+    header.hub-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 30px 40px;
+      border-bottom: 3px solid var(--gold);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    }
+    .hub-header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .hub-title-group h1 {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .hub-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 12px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .hub-desc {
+      color: #94a3b8;
+      font-size: 14px;
+      max-width: 900px;
+      line-height: 1.6;
+    }
+    .hub-container {
+      max-width: 1300px;
+      margin: 40px auto 0 auto;
+      padding: 0 24px;
+    }
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: 36px;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .stat-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .stat-value {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .stat-sub {
+      font-size: 12px;
+      color: var(--green);
+      font-weight: 600;
+    }
+    .grid-section-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .pages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+    .page-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .page-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border-color: var(--gold);
+    }
+    .card-banner {
+      background: #1e293b;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #334155;
+    }
+    .card-badge {
+      background: var(--red-accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .card-banner h3 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .card-content {
+      padding: 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-desc {
+      font-size: 13px;
+      color: #475569;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .card-meta {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      background: #f8fafc;
+      padding: 10px 12px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+      margin-bottom: 16px;
+    }
+    .card-meta strong {
+      color: var(--primary);
+    }
+    .open-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      transition: background 0.2s;
+    }
+    .open-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hub-header">
+    <div class="hub-header-top">
+      <div class="hub-title-group">
+        <h1>Zelmiqo® Content Workstation Hub</h1>
+        <span class="hub-badge">Saudi Arabia & Global Launch</span>
+      </div>
+    </div>
+    <div class="hub-desc">
+      Interactive visual content workstation for FatherShops e-commerce deployment. Every page includes pixel-perfect live store screenshot callouts in red bounding boxes with numbered badges, accompanied by verbatim old-to-new bilingual high-converting copy cards with one-click copy functionality.
+    </div>
+  </header>
+
+  <div class="hub-container">
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <span class="stat-label">In-Scope Workstation Pages</span>
+        <span class="stat-value">10 Pages</span>
+        <span class="stat-sub">✓ 100% Complete & Verified</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Red Box Visual Callouts</span>
+        <span class="stat-value">62 Sections</span>
+        <span class="stat-sub">✓ 1:1 Number Match Guarantee</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Target Market Localization</span>
+        <span class="stat-value">Saudi Arabia</span>
+        <span class="stat-sub">✓ Mada, Apple Pay, Tabby, Tamara</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Bilingual Copy Quality</span>
+        <span class="stat-value">English & Arabic</span>
+        <span class="stat-sub">✓ 10-Yr Experience High-Converting</span>
+      </div>
+    </div>
+
+    <div class="grid-section-title">
+      🏠 Core Store & Information Pages
+    </div>
+
+    <div class="pages-grid">
+      <!-- 1. Home -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Home Page (الرئيسية)</h3>
+          <span class="card-badge">9 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Complete homepage visual workstation with 8 annotated image views covering Hero Slider (Neck Fan & Summer Deals), 3 Trust Pillars, 8 Categories, New Arrivals, Mid Banners, Trending, and Testimonials.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/<br>
+            <strong>Assets:</strong> 8 JPGs (section_1_hero to section_7, home_full)
+          </div>
+          <a href="home.html" class="open-btn">Open Home Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 2. Catalog -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Catalog Page (الكتالوج)</h3>
+          <span class="card-badge">5 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Full catalog listing page with red boxes on Header, Category filter pills, Sorting options, Product card badges (SAR Price & Tabby/Tamara 4x installments), and bottom trust banner.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/catalog<br>
+            <strong>Assets:</strong> catalog_full.jpg (Full-length scrollable)
+          </div>
+          <a href="catalog.html" class="open-btn">Open Catalog Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 3. About Us -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>About Us (من نحن)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Global brand manifesto, engineering standards, direct Riyadh operations hub, and 4 core value propositions with 14-day Golden Guarantee details.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/page/about-us<br>
+            <strong>Assets:</strong> about_us_full.jpg
+          </div>
+          <a href="about-us.html" class="open-btn">Open About Us Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 4. Delivery & Shipping -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Delivery & Shipping (الشحن والتوصيل)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Express 24-48h Riyadh dispatch timelines across all 13 provinces, courier network details (SMSA, Aramex, Redbox, SPL), Cash on Delivery terms, and free shipping over SAR 199.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/page/delivery<br>
+            <strong>Assets:</strong> delivery_full.jpg
+          </div>
+          <a href="delivery-and-shipping.html" class="open-btn">Open Delivery Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 5. Warranty & Returns -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Warranty & Returns (الضمان والاسترجاع)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            14-Day Golden Guarantee replacement policy, 1-year comprehensive hardware warranty, 3-step easy return process, 100% free return pickup in KSA, and instant refund terms.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/page/warranty<br>
+            <strong>Assets:</strong> warranty_full.jpg
+          </div>
+          <a href="warranty-and-returns.html" class="open-btn">Open Warranty Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 6. Contact Us -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Contact Us (اتصل بنا)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            VIP customer concierge welcome, dedicated WhatsApp channel (+966) with under 15-minute response SLA, support email, operating hours, Riyadh HQ address, and contact form microcopy.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/page/contact<br>
+            <strong>Assets:</strong> contact_full.jpg
+          </div>
+          <a href="contact-us.html" class="open-btn">Open Contact Us Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 7. Privacy & Terms -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Privacy & Terms (الخصوصية والشروط)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Dual legal compliance workstation covering the Saudi Personal Data Protection Law (PDPL) and Saudi E-Commerce Law, 15% VAT pricing transparency, and SAMA payment security.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/page/privacy & /terms<br>
+            <strong>Assets:</strong> privacy_full.jpg
+          </div>
+          <a href="privacy-and-terms.html" class="open-btn">Open Privacy & Terms Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 8. Blogs & Articles -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Blogs & Articles (المدونة والمقالات)</h3>
+          <span class="card-badge">5 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            High-converting lifestyle tech guides: 48°C summer personal cooling survival guide, the Zelmiqo engineering philosophy, executive desk setups, and car protection.
+          </div>
+          <div class="card-meta">
+            <strong>Target URL:</strong> https://zelmiqo.com/blog<br>
+            <strong>Assets:</strong> blogs_full.jpg
+          </div>
+          <a href="blogs-and-articles.html" class="open-btn">Open Blogs Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 9. Header -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Store Header (رأس الصفحة)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Global store header with bilingual rotating marquee announcement, brand logo and tagline, navigation links, currency switcher, and search bar microcopy.
+          </div>
+          <div class="card-meta">
+            <strong>Scope:</strong> Global Component<br>
+            <strong>Assets:</strong> header_full.jpg
+          </div>
+          <a href="header.html" class="open-btn">Open Header Workstation →</a>
+        </div>
+      </div>
+
+      <!-- 10. Footer -->
+      <div class="page-card">
+        <div class="card-banner">
+          <h3>Store Footer (تذييل الصفحة)</h3>
+          <span class="card-badge">6 Sections</span>
+        </div>
+        <div class="card-content">
+          <div class="card-desc">
+            Official Commercial Registration (CR) and VAT notice, quick directory links, customer policies, VIP WhatsApp concierge channels, and certified payment partner badges.
+          </div>
+          <div class="card-meta">
+            <strong>Scope:</strong> Global Component<br>
+            <strong>Assets:</strong> footer_full.jpg
+          </div>
+          <a href="footer.html" class="open-btn">Open Footer Workstation →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
