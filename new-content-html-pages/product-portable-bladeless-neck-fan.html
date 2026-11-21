@@ -170,76 +170,6 @@
       border-radius: 8px;
     }
 
-    /* Visual Architecture Wireframe Reference Card */
-    .layout-reference-card {
-      width: 100%;
-      max-width: 900px;
-      background: #0d1b2a;
-      border: 2px dashed var(--gold);
-      border-radius: 8px;
-      padding: 24px;
-      color: #e2e8f0;
-      margin-bottom: 16px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-    }
-    .ref-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #1e293b;
-      padding-bottom: 12px;
-      margin-bottom: 16px;
-    }
-    .ref-header h4 {
-      font-size: 15px;
-      color: var(--gold);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .ref-badge {
-      background: rgba(212, 175, 55, 0.2);
-      color: var(--gold);
-      border: 1px solid var(--gold);
-      padding: 3px 8px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-weight: 700;
-    }
-    .ref-specs-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px;
-      margin-bottom: 16px;
-    }
-    .ref-spec-item {
-      background: #162436;
-      padding: 10px 14px;
-      border-radius: 6px;
-      border-left: 3px solid var(--gold);
-    }
-    .ref-spec-label {
-      font-size: 11px;
-      color: #94a3b8;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      font-weight: 700;
-    }
-    .ref-spec-val {
-      font-size: 13px;
-      font-weight: 600;
-      color: #fff;
-      margin-top: 3px;
-    }
-    .ref-path-box {
-      background: #09131f;
-      border: 1px solid #1e293b;
-      padding: 10px 14px;
-      border-radius: 6px;
-      font-size: 12px;
-      color: #cbd5e1;
-    }
-    .ref-path-box strong { color: var(--gold); }
 
     .slider-hint-box {
       width: 100%;
@@ -532,37 +462,8 @@
       </div>
 
       <div class="visual-content">
-        <!-- Visual Layout Architecture Reference -->
-        <div class="layout-reference-card" id="layoutRefCard">
-          <div class="ref-header">
-            <h4 id="refSectionTitle">⚡️ 1. Purchase Area & Buy Box</h4>
-            <span class="ref-badge">Section Architecture</span>
-          </div>
-          <div class="ref-specs-grid">
-            <div class="ref-spec-item">
-              <div class="ref-spec-label">Target Product</div>
-              <div class="ref-spec-val" id="refTargetVal">Portable Bladeless Neck Fan with LED Display</div>
-            </div>
-            <div class="ref-spec-item">
-              <div class="ref-spec-label">Pricing Architecture</div>
-              <div class="ref-spec-val" id="refPriceVal">SAR 89.00 (SAR 22.25/mo x 4 Tabby/Tamara)</div>
-            </div>
-            <div class="ref-spec-item">
-              <div class="ref-spec-label">Key Selling Hook</div>
-              <div class="ref-spec-val" id="refHookVal">360° Arctic Airflow • 100% Hair-Safe • 4000mAh</div>
-            </div>
-            <div class="ref-spec-item">
-              <div class="ref-spec-label">Saudi Fulfillment</div>
-              <div class="ref-spec-val" id="refFulfillVal">Express 24-48h Dispatch from Riyadh Warehouse</div>
-            </div>
-          </div>
-          <div class="ref-path-box" id="refPathBox">
-            <strong>Where to paste in FatherShops:</strong> Under <code>Catalog > Products > Portable Bladeless Neck Fan > General & Data</code>.
-          </div>
-        </div>
-
         <div class="image-wrapper" id="imageWrapper">
-          <img id="visualImage" src="assets/product_dock_hero.jpg" alt="Product Section Reference View">
+          <img id="visualImage" src="assets/neck_fan_hero.jpg" alt="Portable Bladeless Neck Fan Section Reference View">
         </div>
 
         <div class="slider-hint-box" id="sliderHint">
@@ -632,27 +533,63 @@
             </div>
           </div>
 
-          <!-- 1.2 Subtitle / Value Hook -->
+          <!-- Product Image Callout Tag -->
           <div class="field-row">
             <div class="field-header">
               <div class="field-title-wrap">
-                <span class="field-callout-pill">[2] Hook</span>
-                <span class="field-title-text">Conversion Subheadline & Core Selling Proposition</span>
+                <span class="field-callout-pill">[Callout] Image Tag</span>
+                <span class="field-title-text">Hero Image Callout Tag (Above Product Photo)</span>
+              </div>
+              <span class="field-target-loc">Design > Layouts > Product Hero > Image Badge</span>
+            </div>
+            <div class="live-content-box">
+              <strong>LIVE SITE EXISTING CONTENT:</strong>
+              360° Hands-Free Arctic Airflow
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="p-hero-callout-en">360° Hands-Free Arctic Airflow</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('p-hero-callout-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box arabic">
+              <div class="content-preview arabic" id="p-hero-callout-ar">تدفق هواء قطبي 360 درجة بدون استخدام اليدين</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('p-hero-callout-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1.2 Subtitle & 4 Feature Bullets -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[2] 4 Bullets</span>
+                <span class="field-title-text">4 Key Feature Bullet Points (Under Title)</span>
               </div>
               <span class="field-target-loc">Short Summary / Above Price</span>
             </div>
             <div class="live-content-box">
               <strong>LIVE SITE EXISTING CONTENT:</strong>
-              Beat the heat with hands-free cooling for work, travel and sports.
+              • 360° surround airflow with dual turbine power<br>
+              • Smart digital LED battery display<br>
+              • 100% hair-safe bladeless design<br>
+              • Up to 16 hours runtime on single charge
             </div>
             <div class="copy-box">
-              <div class="content-preview" id="p-hero-hook-en">Hands-Free Arctic Airflow • 72 Turbine Air Vents • 100% Hair-Safe • Ultra-Quiet Whisper Operation</div>
+              <div class="content-preview" id="p-hero-hook-en">• ❄️ 360° Surround Airflow: 72 aerodynamic micro-vents circulate arctic breeze across face and neck
+• 📊 Smart Digital LED Display: Real-time battery percentage & speed gear monitor (never runs out unannounced)
+• 🛡️ 100% Bladeless & Hair-Safe: Dual enclosed centrifugal intakes prevent hair or scarf tangling
+• 🔋 4000mAh Extended Battery: Up to 16 hours of continuous cooling on a single Type-C fast charge</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-hook-en', this)">📋 Copy English</button>
               </div>
             </div>
             <div class="copy-box arabic">
-              <div class="content-preview arabic" id="p-hero-hook-ar">تبريد قطبي فوري بدون استخدام اليدين • 72 منفذاً هوائياً توربينياً • آمنة تماماً على الشعر 100% • محرك صامت فائق الهدوء</div>
+              <div class="content-preview arabic" id="p-hero-hook-ar">• ❄️ تدفق هواء محيطي 360 درجة: 72 فتحة تهوية دقيقة تبث نسيم تبريد منعش يغطي الوجه والعنق بالكامل
+• 📊 شاشة رقمية LED ذكية: عرض دقيق لنسبة البطارية ومستوى السرعة في الوقت الفعلي
+• 🛡️ آمنة تماماً على الشعر 100%: فتحات توربينية مغلقة تمنع تشابك الشعر الطويل أو الحجاب أو الشماغ
+• 🔋 بطارية ضخمة 4000 مللي أمبير: تعمل حتى 16 ساعة متواصلة بشحنة واحدة سريعة عبر منفذ Type-C</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-hook-ar', this)">📋 Copy Arabic</button>
               </div>
@@ -1611,114 +1548,48 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
     // Visual Section Layout Data
     const visualData = {
       hero: {
-        title: '⚡️ 1. Purchase Area & Buy Box',
-        target: 'Portable Bladeless Neck Fan with LED Display',
-        price: 'SAR 89.00 (SAR 22.25/mo x 4 Tabby/Tamara)',
-        hook: '360° Arctic Airflow • 100% Hair-Safe • 4000mAh',
-        fulfill: 'Express 24-48h Dispatch from Riyadh Warehouse',
-        path: 'Under <code>Catalog > Products > Portable Bladeless Neck Fan > General & Data</code>.',
-        img: 'assets/product_dock_hero.jpg',
-        hint: '<strong>⚡️ Product Purchase Area & Sidebar:</strong> Main gallery, high-converting product title, SAR pricing, Tabby/Tamara installments, and purchase CTAs.'
+        img: 'assets/neck_fan_hero.jpg',
+        hint: '<strong>⚡️ Product Purchase Area & Sidebar:</strong> Main gallery, high-converting product title, SAR pricing, Tabby/Tamara installments, and purchase CTAs.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Catalog > Products > Portable Bladeless Neck Fan > General & Data</span>'
       },
       faqs: {
-        title: '❓ 2. FAQs Accordion Section',
-        target: 'Portable Bladeless Neck Fan FAQ Matrix',
-        price: '5 In-Depth Technical & Safety Questions',
-        hook: 'Resolves Hair Safety, Battery Runtime, Weight, Noise, Type-C Charging',
-        fulfill: 'Increases Conversion & Reduces Pre-Purchase Support Questions',
-        path: 'Under <code>Design > Layouts > Product Details > FAQ Accordion Module</code>.',
-        img: 'assets/product_dock_faqs.jpg',
-        hint: '<strong>❓ Product FAQs Accordion:</strong> Five customer-objection resolving answers addressing hair safety, battery life, weight, noise, and fast charging.'
+        img: 'assets/neck_fan_faqs.jpg',
+        hint: '<strong>❓ Product FAQs Accordion:</strong> Five customer-objection resolving answers addressing hair safety, battery life, weight, noise, and fast charging.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > FAQ Accordion Module</span>'
       },
       two_col: {
-        title: '🌟 3. Two Col Hero Section',
-        target: 'Twin-Turbo Surround Airflow Feature',
-        price: 'Dual-Column Layout with 3 Trust Cards',
-        hook: 'Instant 360° Arctic Airflow • Engineered for the Saudi Heat',
-        fulfill: 'High-Impact Visual & Value Proposition Split',
-        path: 'Under <code>Design > Layouts > Product Details > 2 Column Feature Module</code>.',
-        img: 'assets/product_dock_two_col.jpg',
-        hint: '<strong>🌟 Two Col Hero Section:</strong> High-impact dual-column feature presentation with headline, subheadline, and 3 value proposition cards.'
+        img: 'assets/neck_fan_two_col.jpg',
+        hint: '<strong>🌟 Two Col Hero Section:</strong> High-impact dual-column feature presentation with headline, subheadline, and 3 value proposition cards.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > 2 Column Feature Module</span>'
       },
       center_4blocks: {
-        title: '⚙️ 4. Center Img & 4 Side-by-Side Blocks',
-        target: 'Wearable Cooling Quad Feature Layout',
-        price: 'Center Visual with 4 Flanking Feature Callouts',
-        hook: 'Smart LED Display, 3-Speed Control, Silicone Band, Brushless Motor',
-        fulfill: 'Technical Supremacy & Premium Product Engineering',
-        path: 'Under <code>Design > Layouts > Product Details > Quad Feature Section</code>.',
-        img: 'assets/product_dock_center_4blocks.jpg',
-        hint: '<strong>⚙️ Center Img & 4 Side-by-Side Blocks:</strong> Highlights smart LED screen, 3-speed airflow, food-grade silicone, and ultra-quiet motor.'
+        img: 'assets/neck_fan_center_4blocks.jpg',
+        hint: '<strong>⚙️ Center Img & 4 Side-by-Side Blocks:</strong> Highlights smart LED screen, 3-speed airflow, food-grade silicone, and ultra-quiet motor.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > Quad Feature Section</span>'
       },
       benefits_grid: {
-        title: '🌴 5. 2 Col Img 4 Block (Everyday Benefits Grid)',
-        target: 'Everyday Saudi Lifestyle Applications',
-        price: '4 Practical Scenario Blocks with Visuals',
-        hook: 'Outdoor Commutes, Hajj & Umrah Pilgrimage, Gym & Sports, Car Cool-Down',
-        fulfill: 'Relatable Saudi Context Driving Immediate Purchase Intent',
-        path: 'Under <code>Design > Layouts > Product Details > Lifestyle Benefits Grid</code>.',
-        img: 'assets/product_dock_benefits_grid.jpg',
-        hint: '<strong>🌴 Everyday Benefits Grid (4 Blocks):</strong> Commuting, Hajj/Umrah, Gym/Fitness, and fast car cool-down scenarios.'
+        img: 'assets/neck_fan_benefits_grid.jpg',
+        hint: '<strong>🌴 Everyday Benefits Grid (4 Blocks):</strong> Commuting, Hajj/Umrah, Gym/Fitness, and fast car cool-down scenarios.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > Lifestyle Benefits Grid</span>'
       },
       table: {
-        title: '📊 6. Comparison Table Section',
-        target: 'Zelmiqo® AeroBreeze vs Ordinary Handheld Fans',
-        price: '5 Technical & Quality Comparison Points',
-        hook: 'Hands-Free, Hair-Safe, 360° Airflow, 4000mAh LED Screen, Saudi Warranty',
-        fulfill: 'Justifies Premium Value & Destroys Cheap Market Alternatives',
-        path: 'Under <code>Design > Layouts > Product Details > Comparison Table Module</code>.',
-        img: 'assets/product_dock_table.jpg',
-        hint: '<strong>📊 Comparison Table:</strong> Direct side-by-side comparison between Zelmiqo® AeroBreeze and cheap market alternatives across 5 key dimensions.'
+        img: 'assets/neck_fan_table.jpg',
+        hint: '<strong>📊 Comparison Table:</strong> Direct side-by-side comparison between Zelmiqo® AeroBreeze and cheap market alternatives across 5 key dimensions.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > Comparison Table Module</span>'
       },
       marquee: {
-        title: '🔄 7. Marquee Continuous Trust Ribbon',
-        target: 'High-Conversion Trust & Value Ticker',
-        price: '6 Moving Ribbons in Continuous Loop',
-        hook: '360° Airflow, LED Display, 4000mAh, Riyadh Dispatch, 14-Day Guarantee',
-        fulfill: 'Builds Unconscious Social Proof & Brand Credibility',
-        path: 'Under <code>Design > Layouts > Product Details > Marquee Ribbon Module</code>.',
-        img: 'assets/product_dock_marquee.jpg',
-        hint: '<strong>🔄 Marquee Trust Ribbon:</strong> Continuous moving ribbon highlighting key selling points and domestic Saudi buyer assurances.'
+        img: 'assets/neck_fan_marquee.jpg',
+        hint: '<strong>🔄 Marquee Trust Ribbon:</strong> Continuous moving ribbon highlighting key selling points and domestic Saudi buyer assurances.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > Marquee Ribbon Module</span>'
       },
       customers: {
-        title: '👥 8. Customers Showcase Gallery',
-        target: 'Verified Saudi Customer Feedback',
-        price: '4 Verified Local Buyer Reviews with Cities',
-        hook: 'Real Feedback from Riyadh, Jeddah, Dammam, and Madinah',
-        fulfill: 'Authentic Local Credibility & Social Validation',
-        path: 'Under <code>Design > Layouts > Product Details > Customer Photo Gallery Module</code>.',
-        img: 'assets/product_dock_customers.jpg',
-        hint: '<strong>👥 Customers Showcase Gallery:</strong> Photo cards with verified feedback from shoppers across Riyadh, Jeddah, Dammam, and Madinah.'
+        img: 'assets/neck_fan_customers.jpg',
+        hint: '<strong>👥 Customers Showcase Gallery:</strong> Photo cards with verified feedback from shoppers across Riyadh, Jeddah, Dammam, and Madinah.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Design > Layouts > Product Details > Customer Photo Gallery Module</span>'
       },
       reviews: {
-        title: '⭐️ 9. Customer Reviews & Ratings',
-        target: '4.9/5 Aggregate Rating Matrix',
-        price: '248 Verified Customer Reviews (93% 5-Star)',
-        hook: 'Full Star Breakdown & Domestic Fulfillment Assurance',
-        fulfill: 'Final Conversion Booster for Undecided Shoppers',
-        path: 'Under <code>Catalog > Reviews > Product Reviews</code>.',
-        img: 'assets/product_dock_reviews.jpg',
-        hint: '<strong>⭐️ Customer Reviews & Ratings:</strong> 4.9/5 star aggregate rating breakdown and detailed verified customer reviews.'
+        img: 'assets/neck_fan_reviews.jpg',
+        hint: '<strong>⭐️ Customer Reviews & Ratings:</strong> 4.9/5 star aggregate rating breakdown and detailed verified customer reviews.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Catalog > Reviews > Product Reviews</span>'
       },
       related: {
-        title: '🛍️ 10. Related Products Ecosystem',
-        target: 'High-AOV Cross-Sells & Ecosystem Bundles',
-        price: '4 Complementary Summer Living Companions',
-        hook: 'Air Cooler, Mini Desktop Fan, Car Sun Shade, Fast Charging Dock',
-        fulfill: 'SAR 199 Free Delivery Threshold Maximizer',
-        path: 'Under <code>Catalog > Products > Edit Product > Links > Related Products</code>.',
-        img: 'assets/product_dock_related.jpg',
-        hint: '<strong>🛍️ Related Products Ecosystem:</strong> Smart cross-sells driving higher AOV and unlocking free delivery.'
+        img: 'assets/neck_fan_related.jpg',
+        hint: '<strong>🛍️ Related Products Ecosystem:</strong> Smart cross-sells driving higher AOV and unlocking free delivery.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Catalog > Products > Edit Product > Links > Related Products</span>'
       },
       full: {
-        title: '🗺️ 11. Full Page & SEO Architecture',
-        target: 'Google Search & Social Sharing Metadata',
-        price: 'Bilingual Meta Titles, Descriptions & Search Keywords',
-        hook: 'Targeted High-Volume Saudi Search Terms',
-        fulfill: 'Organic Search Traffic & High Click-Through Rate',
-        path: 'Under <code>Catalog > Products > Edit Product > SEO tab</code>.',
-        img: 'assets/product_dock_full.jpg',
-        hint: '<strong>🗺️ Full Page & SEO Architecture:</strong> Google search metadata, social sharing cards, and full product page visual cartography.'
+        img: 'assets/neck_fan_full.jpg',
+        hint: '<strong>🗺️ Full Page & SEO Architecture:</strong> Google search metadata, social sharing cards, and full product page visual cartography.<br><span style="color:var(--gold); font-size:12px;">📁 FatherShops: Catalog > Products > Edit Product > SEO tab</span>'
       }
     };
 
@@ -1750,13 +1621,6 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
 
       const data = visualData[key];
       if (!data) return;
-
-      document.getElementById('refSectionTitle').innerText = data.title;
-      document.getElementById('refTargetVal').innerText = data.target;
-      document.getElementById('refPriceVal').innerText = data.price;
-      document.getElementById('refHookVal').innerText = data.hook;
-      document.getElementById('refFulfillVal').innerText = data.fulfill;
-      document.getElementById('refPathBox').innerHTML = '<strong>Where to paste in FatherShops:</strong> ' + data.path;
 
       document.getElementById('visualImage').src = data.img;
       document.getElementById('sliderHint').innerHTML = data.hint;

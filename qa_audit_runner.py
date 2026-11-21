@@ -70,7 +70,18 @@ REQUIRED_ASSETS = [
     'product_dock_customers.jpg',
     'product_dock_reviews.jpg',
     'product_dock_related.jpg',
-    'product_dock_full.jpg'
+    'product_dock_full.jpg',
+    'neck_fan_hero.jpg',
+    'neck_fan_faqs.jpg',
+    'neck_fan_two_col.jpg',
+    'neck_fan_center_4blocks.jpg',
+    'neck_fan_benefits_grid.jpg',
+    'neck_fan_table.jpg',
+    'neck_fan_marquee.jpg',
+    'neck_fan_customers.jpg',
+    'neck_fan_reviews.jpg',
+    'neck_fan_related.jpg',
+    'neck_fan_full.jpg'
 ]
 
 KSA_VALUE_PROPS = {
