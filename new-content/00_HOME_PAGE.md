@@ -216,3 +216,44 @@ Review 3 (Verified Saudi Shopper):
 new english content: "The bionic neck massager relieved severe desk tension on my shoulders after just 15 minutes of use. Premium packaging, fast SMS tracking updates, and genuine quality." — Malak K., Riyadh, KSA (Verified Buyer)
 new arabic content: "جهاز مساج الرقبة أراح عضلات الكتف والرقبة بعد ساعات العمل الطويلة على المكتب من أول استخدام. تغليف أنيق، رسائل تتبع دقيقة عبر الجوال، وجودة حقيقية تستحق الاقتناء." — ملاك خ.، الرياض (مشترٍ موثق)
 ```
+
+---
+
+## 6. Marquee Ticker Sliders (شريط التمرير المتحرك - الماركيه التفاعلي)
+
+### Old English Content
+```text
+- Fast Shipping
+- Quality Checked Before Dispatch
+- Easy Returns On Selected Items
+- Secure Checkout Protection
+- Fresh Deals Every Week
+- Customer Support On WhatsApp
+```
+
+### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
+```text
+Item 1: Express Dispatch:
+new english content: ⚡️ Express 24-48h Domestic Dispatch from Riyadh
+new arabic content: ⚡️ شحن محلي سريع خلال 24-48 ساعة من مستودعات الرياض
+
+Item 2: Golden Guarantee:
+new english content: 🛡️ Golden 14-Day Replacement Guarantee
+new arabic content: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً
+
+Item 3: Installments:
+new english content: 💳 Split in 4 Interest-Free Payments with Tabby & Tamara
+new arabic content: 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا
+
+Item 4: Certified Checkout:
+new english content: 🔒 100% Certified Safe Checkout with Mada & Apple Pay
+new arabic content: 🔒 دفع آمن وموثق 100% عبر مدى وأبل باي
+
+Item 5: VIP Concierge:
+new english content: 💬 Bilingual VIP Concierge Support on WhatsApp (+966)
+new arabic content: 💬 خدمة عملاء VIP فورية باللغتين عبر الواتساب
+
+Item 6: Free Shipping:
+new english content: 🚚 Free Delivery Across Saudi Arabia on Orders Over SAR 199
+new arabic content: 🚚 شحن مجاني لكافة مناطق المملكة للطلبات فوق 199 ر.س
+```

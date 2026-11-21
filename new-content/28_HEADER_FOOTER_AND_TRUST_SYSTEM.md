@@ -48,12 +48,12 @@
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Headline:
-new english content: 🚚 Free Express Delivery Across Saudi Arabia on All Orders • Shop Now
-new arabic content: 🚚 شحن وتوصيل سريع ومجاني لكافة مدن المملكة العربية السعودية • تسوق الآن
+new english content: 🚚 Free Express Delivery Across Saudi Arabia on Orders Over SAR 199 • Dispatched in 24-48h • Shop Now
+new arabic content: 🚚 شحن سريع ومجاني لكافة مدن المملكة للطلبات فوق 199 ر.س • انطلاق الشحنات خلال 24-48 ساعة • تسوق الآن
 
 Rotating Marquee Option (Multi-Value Proposition):
-new english content: 🌍 Global Lifestyle Innovations | ⚡️ Express 24-48h Delivery in KSA | 💳 Split in 4 with Tabby & Tamara | 🚚 100% Free Shipping Today
-new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 24-48 ساعة لمدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني لكافة الطلبات
+new english content: 🌍 Global Lifestyle Innovations | ⚡️ Express 24-48h Delivery in KSA | 💳 Split in 4 with Tabby & Tamara | 🚚 Free Shipping Over SAR 199
+new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 24-48 ساعة لمدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني للطلبات فوق 199 ر.س
 ```
 
 ---
@@ -88,6 +88,11 @@ new arabic content: • الرئيسية -> الرئيسية
 • العناية والمساج -> 💆‍♀️ العناية الشخصية والاسترخاء
 • تتبع الشحنة -> تتبع شحنتك
 • خدمة العملاء -> خدمة عملاء VIP
+
+Search Input Microcopy (حقل البحث الذكي):
+Old English Content: "Search" / "Search products..."
+new english content: Search smart living gadgets, neck fans, wireless chargers...
+new arabic content: ابحث عن أجهزة التبريد، منصات الشحن، مستلزمات السيارات...
 ```
 
 ---
@@ -122,12 +127,30 @@ new english content: Zelmiqo (زيلميكو) is an international lifestyle inno
 new arabic content: زيلميكو (Zelmiqo) دار عالمية لابتكارات أسلوب الحياة العصري، تصمم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي، وحلول العناية والاسترخاء لحياة أكثر راحة وتميزاً. ومن خلال مركز عملياتنا اللوجستي المباشر في الرياض، نضمن لعملائنا في كافة مدن المملكة العربية السعودية أعلى معايير الجودة العالمية، توصيلاً محلياً سريعاً، الضمان الذهبي للاستبدال، وحلول دفع وتقسيط ميسرة.
 
 Trust & Compliance Footer Ribbon:
-new english content: • Commercial Certification: Registered & Certified Saudi E-Commerce Store.
-• Tax Compliance: 100% VAT-Compliant (15% KSA VAT).
-• Golden Guarantee: 14-Day Direct Replacement & 1-Year Warranty.
-• Accepted Payment Gateways: Mada, Apple Pay, Visa, Mastercard, Tabby (4 Payments), Tamara (4 Payments), and Cash on Delivery (COD).
-new arabic content: • التوثيق التجاري: متجر إلكتروني سعودي موثق ومعتمد لدى المركز السعودي للأعمال ومنصة معروف.
-• الامتثال الضريبي: مسجل وخاضع لضريبة القيمة المضافة (15% VAT).
-• الضمان الذهبي: استبدال فوري خلال 14 يوماً وضمان شامل لمدة عام كامل.
-• بوابات الدفع المعتمدة: بطاقات مدى البنكية، أبل باي، فيزا، ماستركارد، تقسيط تابي على 4 دفعات، تقسيط تمارا، والدفع عند الاستلام.
+new english content: • Commercial Certification: Registered & Certified Saudi E-Commerce Entity (CR No. 1010XXXXXX • Saudi Business Center / Maroof Verified).
+• Tax Compliance: 100% Registered & VAT-Compliant (VAT Reg. 310XXXXXXXX0003 • 15% KSA VAT Included).
+• Golden Guarantee: 14-Day Direct Replacement & 1-Year Official Hardware Warranty.
+• Accepted Payment Gateways: Mada, Apple Pay, Visa, Mastercard, Tabby (Split in 4), Tamara (Split in 4), and Cash on Delivery (COD).
+new arabic content: • التوثيق التجاري: كيان تجارة إلكترونية مسجل ومعتمد بالمملكة (سجل تجاري رقم: 1010XXXXXX • موثق لدى المركز السعودي للأعمال ومنصة معروف).
+• الامتثال الضريبي: مسجل رسمياً وخاضع لضريبة القيمة المضافة (الرقم الضريبي: 310XXXXXXXX0003 • الأسعار شاملة 15% ضريبة القيمة المضافة).
+• الضمان الذهبي: استبدال فوري خلال 14 يوماً وضمان صيانة معتمد لمدة عام كامل.
+• بوابات الدفع المعتمدة: بطاقات مدى البنكية، أبل باي، فيزا، ماستركارد، تقسيط تابي على 4 دفعات بدون فوائد، تقسيط تمارا، والدفع نقداً عند الاستلام.
+
+Footer Columns Navigation (أقسام وروابط الفوتر):
+Column 1: Customer Care (خدمة العملاء والمساعدة):
+new english content: • Track Your Order • VIP WhatsApp Concierge (+966) • Delivery Timelines & Fees • Golden 14-Day Replacement Policy
+new arabic content: • تتبع شحنتك • خدمة عملاء VIP عبر الواتساب • مواعيد ورسوم التوصيل • سياسة الضمان الذهبي والاستبدال
+
+Column 2: Policies & Compliance (السياسات والاشتراطات الرسمية):
+new english content: • Privacy Policy (Saudi PDPL) • Terms of Service (KSA E-Commerce Law) • Hardware Warranty Guidelines • Safe Payment Processing
+new arabic content: • سياسة الخصوصية (نظام حماية البيانات PDPL) • الشروط والأحكام (نظام التجارة الإلكترونية) • أحكام ضمان الأجهزة • بوابات الدفع الآمنة
+
+Column 3: Flagship Categories (أقسام المتجر الرئيسية):
+new english content: • Arctic Climate Series • Power & Executive Workspace • Automotive Prestige Care • Restorative Wellness & Massage
+new arabic content: • أجهزة التبريد والانتعاش الصيفي • منصات الشحن ومستلزمات المكتب • مستلزمات العناية بالسيارات • أجهزة المساج والاسترخاء
+
+Copyright & Legal Notice (حقوق النشر والإشعار القانوني):
+Old English Content: "© 2026 Zelmiqo. All Rights Reserved."
+new english content: © 2026 Zelmiqo®. All Rights Reserved. Engineered for refined modern living. Fully registered and operating in the Kingdom of Saudi Arabia.
+new arabic content: © 2026 زيلميكو® (Zelmiqo). جميع الحقوق محفوظة. صُممت لرفاهية الحياة العصرية. متجر موثق وخاضع للأنظمة التجارية في المملكة العربية السعودية.
 ```

@@ -133,12 +133,12 @@ new arabic content: • الرياض، جدة، الدمام، والخبر: ت�
 • المحافظات والقرى والمناطق النائية: توصيل شامل حتى باب المنزل أو أقرب نقطة استلام خلال 3 إلى 5 أيام عمل.
 
 Shipping Rates & Promotions:
-new english content: • 🚚 Free Express Delivery: Enjoy 100% Free Shipping on all orders across Saudi Arabia.
-• 💵 Cash on Delivery (COD): Available in all major Saudi cities with a nominal courier handling fee of SAR 15.
-• 💳 Electronic & Installment Payments (Mada, Apple Pay, Visa, Tabby, Tamara): Zero extra processing fees.
-new arabic content: • 🚚 شحن سريع مجاني بالكامل: استمتع بشحن مجاني 100% لكافة مدن ومحافظات المملكة العربية السعودية بدون حد أدنى.
-• 💵 خدمة الدفع عند الاستلام: متاحة في جميع المدن الرئيسية برسم خدمة رمزي لشركة الشحن بقيمة 15 ر.س.
-• 💳 الدفع الإلكتروني والتقسيط (مدى، أبل باي، فيزا، تابي، تمارا): بدون أي رسوم إضافية إطلاقاً.
+new english content: • 🚚 Free Express Domestic Delivery: Free shipping on all orders over SAR 199 (Standard delivery SAR 19 for orders below SAR 199). Dispatched from Riyadh within 24-48 hours.
+• 💵 Cash on Delivery (COD): Available across all major Saudi cities with a nominal courier handling fee of SAR 15.
+• 💳 Electronic & Installment Payments (Mada, Apple Pay, Visa, Tabby, Tamara): 100% Free processing with zero additional fees.
+new arabic content: • 🚚 شحن محلي سريع ومجاني: شحن مجاني لكافة الطلبات بقيمة 199 ر.س أو أكثر (رسوم شحن رمزية 19 ر.س للطلبات الأقل من ذلك). الشحن ينطلق مباشرة من الرياض خلال 24-48 ساعة.
+• 💵 خدمة الدفع عند الاستلام (COD): متاحة في كافة المدن الرئيسية بالمملكة برسم خدمة رمزي لشركة الشحن بقيمة 15 ر.س فقط.
+• 💳 الدفع الإلكتروني والتقسيط (مدى، أبل باي، فيزا، تابي، تمارا): مجاني 100% وبدون أي رسوم إضافية.
 ```
 
 ---

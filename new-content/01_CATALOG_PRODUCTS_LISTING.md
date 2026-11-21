@@ -118,14 +118,27 @@ Product Card Layout:
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Card Layout & Badge Elements:
-new english content: • Product Title: Bold, premium naming highlighting core benefit.
-• Price Display: Clear SAR price + "Or 4 payments of SAR XX/mo with Tabby / Tamara".
-• Trust Badges: "In Stock in Riyadh" • "Free Delivery" • "Golden 14-Day Guarantee".
-• Quick CTA: "Add to Bag" and "Express Buy with Apple Pay".
-new arabic content: • عنوان المنتج: اسم واضح وجذاب يبرز الفائدة الأساسية للجهاز.
-• عرض السعر: السعر الإجمالي بالريال السعودي + "أو قسّمها على 4 دفعات بقيمة XX ر.س/شهرياً مع تابي أو تمارا".
-• شارات الثقة: "متوفر بمستودعات الرياض" • "شحن مجاني" • "الضمان الذهبي 14 يوماً".
-• زر الشراء السريع: "أضف للسلة" وزر "شراء فوري عبر أبل باي".
+new english content: 
+• Badge 1 (Scarcity / Popularity): "🔥 Most Wanted in KSA • Dispatched from Riyadh in 24-48h"
+• Product Title: Precision naming emphasizing core utility and engineering tier.
+• Rating & Social Proof: "★★★★★ 4.9 (120+ Verified Saudi Reviews)"
+• Price Display: Bold SAR pricing (e.g. "SAR 149.00 (Includes 15% VAT)")
+• 4x Split Payment Badge: "Or 4 interest-free payments of SAR 37.25 with Tabby / Tamara"
+• Fast Shipping Micro-Badge: "⚡️ In Stock in Riyadh • Fast Courier Dispatch"
+• Guarantee Micro-Badge: "🛡️ Golden 14-Day Replacement Guarantee"
+• Primary Action: "Add to Bag"
+• Express Action: "Express Buy with Apple Pay"
+
+new arabic content: 
+• شارة التميز (رواج وشعبية): "🔥 الأكثر طلباً في المملكة • ينطلق من مستودعات الرياض خلال 24-48 ساعة"
+• عنوان المنتج: صياغة احترافية تركز على الفائدة المباشرة والهندسة المتقنة.
+• التقييم وإثبات الثقة: "★★★★★ 4.9 (أكثر من 120 تقييماً موثقاً في السعودية)"
+• عرض السعر: السعر الإجمالي بالريال السعودي بخط عريض (مثال: "149.00 ر.س شامل ضريبة القيمة المضافة 15%")
+• شارة التقسيط على 4 دفعات: "أو قسّمها على 4 دفعات ميسرة بقيمة 37.25 ر.س/شهرياً بدون فوائد مع تابي أو تمارا"
+• شارة الشحن السريع: "⚡️ متوفر بمستودعات الرياض • شحن محلي فوري"
+• شارة الضمان: "🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً"
+• زر الشراء الأساسي: "أضف إلى السلة"
+• زر الشراء السريع: "شراء فوري عبر أبل باي"
 ```
 
 ---
