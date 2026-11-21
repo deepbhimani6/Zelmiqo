@@ -1839,11 +1839,38 @@
       }
     };
 
+    let activeVisualKey = 'hero';
+    let isProgrammaticScroll = false;
+    let scrollTimeout = null;
+
+    const cardToVisual = {
+      'card-hero-slide1': 'hero',
+      'card-hero-slide2': 'hero',
+      'card-trust-pillars': 'trust',
+      'card-categories-slider': 'categories',
+      'card-new-collection': 'new_collection',
+      'card-mid-banners': 'mid_banners',
+      'card-trending-slider': 'trending',
+      'card-testimonials-slider': 'testimonials',
+      'card-seo-metadata': 'full'
+    };
+
     function switchVisual(key, btnElem) {
+      activeVisualKey = key;
       document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
       const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
       if (activeBtn) {
         activeBtn.classList.add('active');
+        const toolbar = document.querySelector('.visual-toolbar');
+        if (toolbar && toolbar.scrollWidth > toolbar.clientWidth) {
+          const btnLeft = activeBtn.offsetLeft;
+          const btnRight = btnLeft + activeBtn.offsetWidth;
+          if (btnLeft < toolbar.scrollLeft) {
+            toolbar.scrollTo({ left: Math.max(0, btnLeft - 10), behavior: 'smooth' });
+          } else if (btnRight > toolbar.scrollLeft + toolbar.clientWidth) {
+            toolbar.scrollTo({ left: btnRight - toolbar.clientWidth + 10, behavior: 'smooth' });
+          }
+        }
       }
 
       const data = visualData[key];
@@ -1854,6 +1881,7 @@
     }
 
     function selectSection(key, cardId) {
+      activeVisualKey = key;
       switchVisual(key);
       if (cardId) {
         scrollToCard(cardId);
@@ -1866,6 +1894,12 @@
         const pane = document.querySelector('.workstation-pane');
         const navPills = document.querySelector('.section-nav-pills');
         const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        isProgrammaticScroll = true;
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+          isProgrammaticScroll = false;
+        }, 800);
 
         if (pane) {
           const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
@@ -1897,12 +1931,12 @@
       });
     }
 
-    // SCROLLSPY: On scroll change active tab in right side column
+    // SCROLLSPY: On scroll change active tab in right side column AND left side image tab
     const pane = document.querySelector('.workstation-pane');
     const cards = document.querySelectorAll('.content-card');
 
     pane.addEventListener('scroll', () => {
-      let currentCardId = '';
+      let currentCardId = cards[0] ? cards[0].id : '';
       const paneTop = pane.getBoundingClientRect().top;
       
       cards.forEach(card => {
@@ -1915,6 +1949,14 @@
 
       if (currentCardId) {
         updateActivePill(currentCardId);
+
+        // SYNC LEFT IMAGE TAB ON SCROLL
+        if (!isProgrammaticScroll) {
+          const targetVisualKey = cardToVisual[currentCardId];
+          if (targetVisualKey && targetVisualKey !== activeVisualKey) {
+            switchVisual(targetVisualKey);
+          }
+        }
       }
     }, { passive: true });
 
