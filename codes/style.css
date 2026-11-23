@@ -638,6 +638,7 @@ footer a:has(img) {
 /* 13. Floating Widgets */
 #WAButton.floating-wpp {
   bottom: 15px !important;
+  translate: none !important;
 }
 
 #WAButton.floating-wpp .floating-wpp-button {
