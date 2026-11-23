@@ -6,12 +6,12 @@
 - **Meta Title** (HTML `<title>` tag):
   `Zelmiqo® AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display | KSA`
 - **Meta Description** (HTML `<meta name="description">`):
-  `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Riyadh 24-48h dispatch, Tabby & Tamara.`
+  `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Fast 7-8 days delivery across Saudi Arabia, Tabby & Tamara.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
   `portable bladeless neck fan digital display, wearable neck air conditioner ksa, neck cooling fan riyadh, hajj umrah cooling fan, tabby tamara neck fan, rechargeable neck fan saudi arabia`
 - **Open Graph / Social Media Tags**:
   - `og:title`: `Zelmiqo® AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display | KSA`
-  - `og:description`: `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Riyadh 24-48h dispatch, Tabby & Tamara.`
+  - `og:description`: `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Fast 7-8 days delivery across Saudi Arabia, Tabby & Tamara.`
   - `og:type`: `product`
   - `og:price:amount`: `89.00`
   - `og:price:currency`: `SAR`
@@ -21,12 +21,12 @@
 - **عنوان الصفحة (Meta Title)**:
   `مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو® السعودية`
 - **وصف الصفحة (Meta Description)**:
-  `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. شحن سريع من الرياض وتقسيط تابي.`
+  `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. توصيل سريع خلال 7-8 أيام وتقسيط تابي.`
 - **الكلمات المفتاحية (Meta Keywords)**:
   `مروحة رقبة بدون شفرات, مروحة الرقبة التوربينية الرياض, مروحة شاشة رقمية, مروحة للحج والعمرة, مكيف رقبة متنقل, تبريد شخصي صيفي السعودية, تقسيط تابي مروحة`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو® السعودية`
-  - `og:description`: `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. شحن سريع من الرياض وتقسيط تابي.`
+  - `og:description`: `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. توصيل سريع خلال 7-8 أيام وتقسيط تابي.`
   - `og:type`: `product`
   - `og:price:amount`: `89.00`
   - `og:price:currency`: `SAR`
@@ -47,7 +47,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display`  
 > **Category**: ❄️ Climate & Arctic Cooling Series  
 > **Pricing**: **SAR 89.00** *(Regular: SAR 149.00 — Save 40%)* | **SAR 22.25/mo** in 4 installments with Tabby or Tamara  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Logistics Center) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Logistics Center) with Fast 7-8 Days Nationwide Delivery  
 > **Primary Image Directory**: [`images/product-portable-bladeless-neck-fan-digital/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-bladeless-neck-fan-digital)  
 
 ---
@@ -70,7 +70,7 @@ Zelmiqo® AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display
 
 Social Proof & Scarcity Badges:
 • Badge 1: 🔥 #1 Summer Essential in Saudi Arabia (Over 3,400 Units Shipped)
-• Badge 2: ⚡️ Express 24-48h Domestic Dispatch from Riyadh
+• Badge 2: ⚡️ Express 7-8 days Domestic Dispatch from Riyadh
 • Badge 3: 🛡️ Golden 14-Day Direct Replacement Guarantee
 
 Pricing & Flexible Payment Display:
@@ -83,7 +83,7 @@ Buy Box CTAs:
 • Express CTA: Express Buy with Apple Pay / Mada
 
 Value Proposition Ribbon (Directly Below Buy Box):
-• 🚚 Fast Domestic Shipping: Free delivery over SAR 199 across all Saudi provinces (Riyadh & Jeddah in 24-48h).
+• 🚚 Fast Domestic Shipping: Free delivery over SAR 199 across all Saudi provinces (Riyadh & Jeddah in 7-8 days).
 • 🛡️ Golden 14-Day Guarantee: 100% Free Doorstep Replacement for any manufacturing defects.
 • ⚡️ 1-Year Comprehensive Warranty: Full internal turbine and lithium battery protection.
 • 💵 Cash on Delivery Available: Pay upon arrival with zero prepayment pressure.
@@ -103,7 +103,7 @@ Beat the extreme 48°C Gulf summer heat with hands-free, whisper-quiet personal 
 
 شارات التميز وإثبات الثقة:
 • الشارة 1: 🔥 الجهاز الأكثر طلباً لصيف المملكة (أكثر من 3,400 طلب تم تسليمه)
-• الشارة 2: ⚡️ شحن محلي سريع خلال 24-48 ساعة من مستودعات الرياض
+• الشارة 2: ⚡️ شحن محلي سريع خلال 7-8 أيام من مستودعات الرياض
 • الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً
 
 عرض السعر والتقسيط الميسر:
@@ -116,7 +116,7 @@ Beat the extreme 48°C Gulf summer heat with hands-free, whisper-quiet personal 
 • الزر السريع: شراء فوري عبر أبل باي / مدى
 
 شريط مزايا الثقة الفورية (أسفل زر الشراء):
-• 🚚 توصيل محلي سريع وموثوق: شحن مجاني للطلبات فوق 199 ر.س لكافة مدن المملكة (الرياض وجدة 24-48 ساعة).
+• 🚚 توصيل محلي سريع وموثوق: شحن مجاني للطلبات فوق 199 ر.س لكافة مدن المملكة (الرياض وجدة 7-8 أيام).
 • 🛡️ الضمان الذهبي 14 يوماً: استبدال فوري مجاني من باب منزلك عند وجود أي عيب مصنعي.
 • ⚡️ ضمان صيانة معتمد لمدة عام: حماية شاملة للمحركات التوربينية وخلايا بطارية الليثيوم.
 • 💵 الدفع عند الاستلام متاح: تسوق باطمئنان وادفع نقداً عند استلام شحنتك.
@@ -479,7 +479,7 @@ Fast Shipping • Quality Checked Before Dispatch • Easy Returns On Selected I
 Hook 1: ❄️ 360° Arctic Airflow Engineered for 48°C Saudi Heat
 Hook 2: 💇‍♀️ 100% Enclosed Hair-Safe Bladeless Turbines
 Hook 3: 💡 Real-Time Smart Digital LED Battery % Display
-Hook 4: ⚡️ Express 24-48h Domestic Dispatch from Riyadh Hub
+Hook 4: ⚡️ Express 7-8 days Domestic Dispatch from Riyadh Hub
 Hook 5: 🛡️ Golden 14-Day Hassle-Free Direct Replacement Guarantee
 Hook 6: 💳 Split into 4 Zero-Interest Installments with Tabby & Tamara
 ```
@@ -489,7 +489,7 @@ Hook 6: 💳 Split into 4 Zero-Interest Installments with Tabby & Tamara
 الركيزة 1: ❄️ تدفق هوائي قطبي 360 درجة صُمم لمواجهة حرارة صيف المملكة فوق 48°م
 الركيزة 2: 💇‍♀️ محركات توربينية مغلقة خالية من الشفرات وآمنة على الشعر 100%
 الركيزة 3: 💡 شاشة رقمية LED ذكية تعرض النسبة المئوية الدقيقة لطاقة البطارية
-الركيزة 4: ⚡️ شحن محلي سريع من مستودعات الرياض خلال 24-48 ساعة لكافة المناطق
+الركيزة 4: ⚡️ شحن محلي سريع من مستودعات الرياض خلال 7-8 أيام لكافة المناطق
 الركيزة 5: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً من باب منزلك مجاناً
 الركيزة 6: 💳 قسّم مشترياتك على 4 دفعات بدون أي فوائد مع تابي وتمارا
 ```
@@ -667,11 +667,11 @@ Bundle Incentive Callout:
 
 ### 🇬🇧 English SEO Metadata
 - **Meta Title**: `Zelmiqo® AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display | KSA`
-- **Meta Description**: `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Riyadh 24-48h dispatch, Tabby & Tamara.`
+- **Meta Description**: `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Fast 7-8 days delivery across Saudi Arabia, Tabby & Tamara.`
 - **Meta Keywords**: `portable bladeless neck fan digital display, wearable neck air conditioner ksa, neck cooling fan riyadh, hajj umrah cooling fan, tabby tamara neck fan, rechargeable neck fan saudi arabia`
 - **OG Tags**:
   - `og:title`: `Zelmiqo® AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display | KSA`
-  - `og:description`: `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Riyadh 24-48h dispatch, Tabby & Tamara.`
+  - `og:description`: `360° surround arctic airflow for 48°C Saudi summer heat. 100% hair-safe bladeless turbines, real-time LED battery percentage display & 12h battery. Fast 7-8 days delivery across Saudi Arabia, Tabby & Tamara.`
   - `og:type`: `product`
   - `og:price:amount`: `89.00`
   - `og:price:currency`: `SAR`
@@ -679,11 +679,11 @@ Bundle Incentive Callout:
 
 ### 🇸🇦 Arabic SEO Metadata
 - **عنوان الميتا (Meta Title)**: `مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو® السعودية`
-- **وصف الميتا (Meta Description)**: `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. شحن سريع من الرياض وتقسيط تابي.`
+- **وصف الميتا (Meta Description)**: `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. توصيل سريع خلال 7-8 أيام وتقسيط تابي.`
 - **الكلمات المفتاحية (Meta Keywords)**: `مروحة رقبة بدون شفرات, مروحة الرقبة التوربينية الرياض, مروحة شاشة رقمية, مروحة للحج والعمرة, مكيف رقبة متنقل, تبريد شخصي صيفي السعودية, تقسيط تابي مروحة`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو® السعودية`
-  - `og:description`: `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. شحن سريع من الرياض وتقسيط تابي.`
+  - `og:description`: `تبريد قطبي محيطي 360 درجة لمواجهة حرارة الصيف فوق 48° مئوية. آمنة للشعر 100%، شاشة رقمية لنسبة البطارية، وتعمل حتى 12 ساعة. مثالية للدوام ومناسك الحج والعمرة. توصيل سريع خلال 7-8 أيام وتقسيط تابي.`
   - `og:type`: `product`
   - `og:price:amount`: `89.00`
   - `og:price:currency`: `SAR`
