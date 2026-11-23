@@ -104,7 +104,7 @@ REQUIRED_ASSETS = [
 
 KSA_VALUE_PROPS = {
     'Riyadh Operations / الرياض': [r'Riyadh', r'الرياض'],
-    'Express 24-48h Dispatch / 24-48 ساعة': [r'24-48', r'24\s*-\s*48'],
+    'Fast 7-8 Days Delivery / 7-8 أيام': [r'7-8', r'7\s*-\s*8', r'7–8', r'7\s*إلى\s*8'],
     'Mada Payment / مدى': [r'Mada', r'مدى'],
     'Apple Pay / أبل باي': [r'Apple Pay', r'أبل باي'],
     'Tabby Installments / تابي': [r'Tabby', r'تابي'],
