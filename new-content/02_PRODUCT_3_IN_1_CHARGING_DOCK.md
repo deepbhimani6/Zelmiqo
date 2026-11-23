@@ -4,14 +4,14 @@
 
 ### 🇬🇧 English SEO Metadata (Search Engine Optimization)
 - **Meta Title** (HTML `<title>` tag):
-  `Zelmiqo® 3-in-1 Fast Wireless Charging Station for iPhone, Watch & AirPods | KSA`
+  `3-in-1 Fast Charging Dock for Phone, AirPods & Apple Watch | Zelmiqo® KSA`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Eliminate messy desk cables with the Zelmiqo 3-in-1 Wireless Dock. Fast 15W charging for iPhone 16/15, Apple Watch & AirPods. Fast 24-48h Riyadh dispatch, Tabby & Tamara.`
+  `Eliminate cable clutter with the 3-in-1 Fast Charging Dock. Simultaneously powers your iPhone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia with Mada, Apple Pay, Tabby & Tamara installments.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
-  `3 in 1 wireless charger saudi arabia, iphone apple watch charging dock riyadh, airpods wireless stand, fast wireless charging station ksa, tabby tamara electronics`
+  `3 in 1 wireless charging dock saudi arabia, fast charging station riyadh, iphone apple watch airpods stand, wireless charger ksa 7-8 days delivery, tabby tamara charger`
 - **Open Graph / Social Media Tags**:
-  - `og:title`: `Zelmiqo® 3-in-1 Fast Wireless Charging Station for iPhone, Watch & AirPods | KSA`
-  - `og:description`: `Eliminate messy desk cables with the Zelmiqo 3-in-1 Wireless Dock. Fast 15W charging for iPhone 16/15, Apple Watch & AirPods. Fast 24-48h Riyadh dispatch, Tabby & Tamara.`
+  - `og:title`: `3-in-1 Fast Charging Dock for Phone, AirPods & Apple Watch | Zelmiqo® KSA`
+  - `og:description`: `Eliminate cable clutter with the 3-in-1 Fast Charging Dock. Simultaneously powers your iPhone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia with Mada, Apple Pay, Tabby & Tamara installments.`
   - `og:type`: `product`
   - `og:price:amount`: `129.00`
   - `og:price:currency`: `SAR`
@@ -19,14 +19,14 @@
 
 ### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
 - **عنوان الصفحة (Meta Title)**:
-  `منصة شحن لاسلكي سريع 3 في 1 للآيفون وساعة أبل وإيربودز | زيلميكو® السعودية`
+  `منصة شاحن 3 في 1 السريع للجوال، السماعات، وساعة أبل | زيلميكو السعودية`
 - **وصف الصفحة (Meta Description)**:
-  `تخلص من فوضى الأسلاك مع منصة زيلميكو الذكية 3 في 1. شحن سريع 15 واط للآيفون وساعة أبل وسماعاتك معاً. شحن سريع من الرياض خلال 24-48 ساعة، وتقسيط عبر تابي وتمارا.`
+  `تخلص من فوضى وتشابك الأسلاك مع منصة شاحن 3 في 1 السريع. اشحن الجوال، ساعة أبل، وسماعات الإيربودز معاً على منصة واحدة مدمجة. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا ودفع عبر مدى وأبل باي.`
 - **الكلمات المفتاحية (Meta Keywords)**:
-  `شاحن 3 في 1 لاسلكي, منصة شحن ايفون وساعة ابل, شاحن ايربودز مكتبي, شواحن سريعة الرياض, تقسيط تابي اجهزة, متجر زيلميكو`
+  `شاحن 3 في 1 سريع السعودية, منصة شحن ايفون وساعة ابل, شاحن ايربودز مكتبي, شاحن لاسلكي توصيل 7-8 ايام, تقسيط تابي وتمارا, متجر زيلميكو`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
-  - `og:title`: `منصة شحن لاسلكي سريع 3 في 1 للآيفون وساعة أبل وإيربودز | زيلميكو® السعودية`
-  - `og:description`: `تخلص من فوضى الأسلاك مع منصة زيلميكو الذكية 3 في 1. شحن سريع 15 واط للآيفون وساعة أبل وسماعاتك معاً. شحن سريع من الرياض خلال 24-48 ساعة، وتقسيط عبر تابي وتمارا.`
+  - `og:title`: `منصة شاحن 3 في 1 السريع للجوال، السماعات، وساعة أبل | زيلميكو السعودية`
+  - `og:description`: `تخلص من فوضى وتشابك الأسلاك مع منصة شاحن 3 في 1 السريع. اشحن الجوال، ساعة أبل، وسماعات الإيربودز معاً على منصة واحدة مدمجة. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا ودفع عبر مدى وأبل باي.`
   - `og:type`: `product`
   - `og:price:amount`: `129.00`
   - `og:price:currency`: `SAR`
@@ -38,7 +38,7 @@
 ---
 <!-- SEO_METADATA_END -->
 
-# 📦 Product Details Pilot: Zelmiqo® MagCharge 3-in-1 Fast Wireless Charging Station
+# 📦 Product Details Pilot: 3-in-1 Fast Charging Dock for Phone, AirPods & Apple Watch Stand
 ## (Gold Standard Master Template for All 20 Flagship Products)
 
 > **Brand**: Zelmiqo (زيلميكو) — International Smart Living Series  
@@ -47,7 +47,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand`  
 > **Category**: ⚡️ Smart Living & Mobile Accessories  
 > **Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia with Fast 7–8 Days Nationwide Delivery  
 > **Primary Image Directory**: [`images/product-3-in-1-fast-charging-dock/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock)  
 
 ---
@@ -66,11 +66,17 @@ Overview: Keep your desk, bedside table, or workspace clean and organized with t
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
 Product Title:
-Zelmiqo® MagCharge 3-in-1 Fast Wireless Charging Station for iPhone, Apple Watch & AirPods
+3-in-1 Fast Charging Dock for Phone, AirPods & Apple Watch Stand
 
-Social Proof & Scarcity Badges:
-• Badge 1: 🔥 #1 Best Seller in Riyadh (Over 1,200 Units Delivered)
-• Badge 2: ⚡️ Express 24-48h Domestic Dispatch from Riyadh
+Section Eyebrow & Secondary Headline:
+POWER THREE ESSENTIALS AT ONCE<br>Fast, Clutter-Free Charging for Bedside & Desk<br>Simultaneously charge your phone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia.
+
+Hero Image Callout Tag:
+Fast Charging Essential (Does Not Include Watch Cable)
+
+Social Proof & Trust Badges:
+• Badge 1: 🔥 #1 Bestselling Charging Station in Saudi Arabia
+• Badge 2: 🚚 Fast 7–8 Days Delivery Across Saudi Arabia
 • Badge 3: 🛡️ Golden 14-Day Replacement Guarantee
 
 Pricing & Flexible Payment Display:
@@ -78,31 +84,43 @@ Pricing & Flexible Payment Display:
 • Installment Badge: Or 4 interest-free payments of SAR 32.25/mo with Tabby or Tamara (Zero hidden fees)
 
 Buy Box CTAs:
-• Primary CTA: Add to Bag — Free Shipping on Orders Over SAR 199
+• Primary CTA: Add to Bag — Fast 7–8 Days Delivery
 • Express CTA: Express Buy with Apple Pay / Mada
 
+4 Concise Highlights (Key Purchase Bullets):
+• ⚡️ 15W Qi Fast Charging
+• 🛋️ Zero Desk Cable Clutter
+• 📱 60° Upright Screen View
+• ⌚️ Integrated Apple Watch Slot
+
 Value Proposition Ribbon (Directly Below Buy Box):
-• 🚚 Fast Domestic Shipping: Free delivery over SAR 199 across all Saudi provinces (Riyadh & Jeddah in 24-48h).
+• 🚚 Fast Domestic Shipping: Fast 7–8 days delivery across all Saudi provinces.
 • 🛡️ Golden 14-Day Guarantee: 100% Free Doorstep Replacement for any manufacturing defects.
 • ⚡️ 1-Year Comprehensive Warranty: Full internal coil and electrical surge protection.
 • 💵 Cash on Delivery Available: Pay upon arrival with zero prepayment pressure.
 
 Color & Inventory Selection:
 • Color Finishes: Matte Obsidian Black (Most Popular) | Arctic Pearl White
-• Live Stock Notice: Only 14 units left in Riyadh warehouse — Ships Today if ordered within 2 hours.
+• Live Stock Notice: Only 14 units left in warehouse — Ships Today with fast 7–8 days delivery.
 
 Sidebar Overview Description:
-Consolidate your Apple & Qi-compatible ecosystem into one architecturally refined docking station. Powers iPhone (up to 15W), Apple Watch (elevated nightstand view), and AirPods simultaneously with zero tangled wires and advanced thermal protection engineered for Saudi summer ambient temperatures.
+Consolidate your Apple & Qi-compatible ecosystem into one architecturally refined docking station. Powers iPhone (up to 15W), Apple Watch, and AirPods simultaneously with zero tangled wires and advanced thermal protection. Fast 7–8 days delivery across Saudi Arabia.
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
 عنوان المنتج:
-منصة الشحن اللاسلكي السريع 3 في 1 للآيفون، ساعة أبل، وسماعات الإيربودز من زيلميكو®
+منصة شاحن 3 في 1 السريع للجوال، السماعات، وساعة أبل
+
+العنوان التمهيدي والرئيسي:
+طاقة متزامنة لثلاثة أجهزة معاً<br>شحن سريع ومنظم لطاولة سريرك ومكتبك<br>اشحن جوالك وساعة أبل وسماعات الإيربودز معاً على منصة واحدة بلا تشابك أسلاك، مع توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.
+
+شارة صورة المنتج الأساسية:
+قطعة أساسية للشحن السريع (لا يشمل كابل شاحن الساعة المغناطيسي)
 
 شارات التميز وإثبات الثقة:
-• الشارة 1: 🔥 الأكثر مبيعاً في الرياض (أكثر من 1,200 طلب تم تسليمه)
-• الشارة 2: ⚡️ شحن محلي سريع خلال 24-48 ساعة من مستودعات الرياض
+• الشارة 1: 🔥 منصة الشحن الأكثر مبيعاً وطلباً في المملكة
+• الشارة 2: 🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة
 • الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً
 
 عرض السعر والتقسيط الميسر:
@@ -110,21 +128,27 @@ Consolidate your Apple & Qi-compatible ecosystem into one architecturally refine
 • شارة التقسيط: أو قسّمها على 4 دفعات ميسرة بقيمة 32.25 ر.س/شهرياً بدون فوائد أو رسوم خفية عبر تابي أو تمارا
 
 أزرار صندوق الشراء (CTAs):
-• الزر الأساسي: أضف إلى السلة — شحن مجاني للطلبات فوق 199 ر.س
+• الزر الأساسي: أضف إلى السلة — توصيل سريع خلال 7–8 أيام
 • الزر السريع: شراء فوري عبر أبل باي / مدى
 
+4 نقاط بارزة وموجزة:
+• ⚡️ شحن لاسلكي سريع 15W
+• 🛋️ تنظيم كامل بدون أسلاك
+• 📱 زاوية رؤية رأسية 60°
+• ⌚️ حامل مخصص لساعة أبل
+
 شريط مزايا الثقة الفورية (أسفل زر الشراء):
-• 🚚 توصيل محلي سريع وموثوق: شحن مجاني للطلبات فوق 199 ر.س لكافة مدن المملكة (الرياض وجدة 24-48 ساعة).
+• 🚚 توصيل سريع وموثوق: توصيل خلال 7–8 أيام لكافة مناطق ومدن المملكة.
 • 🛡️ الضمان الذهبي 14 يوماً: استبدال فوري مجاني من باب منزلك عند وجود أي عيب مصنعي.
 • ⚡️ ضمان صيانة معتمد لمدة عام: حماية شاملة للدوائر الكهربائية وملفات الشحن اللاسلكي.
 • 💵 الدفع عند الاستلام متاح: تسوق باطمئنان وادفع نقداً عند استلام شحنتك.
 
 خيارات الألوان والمخزون:
 • الألوان المتوفرة: أسود مطفي فاخر (الأكثر طلباً) | أبيض لؤلؤي أنيق
-• حالة التوفر: متوفر بمستودعات الرياض (متبقي 14 قطعة فقط — يُشحن اليوم عند الطلب خلال ساعتين).
+• حالة التوفر: متوفر بالمخزون (متبقي 14 قطعة فقط — يُشحن فوراً مع توصيل سريع خلال 7–8 أيام).
 
 الوصف الموجز للشريط الجانبي:
-اجمع أجهزة آيفون وساعة أبل وسماعاتك اليومية في منصة شحن واحدة مصممة بأعلى معايير الأناقة الهندسية. تمنحك شحناً سريعاً حتى 15 واط مع شاشة عرض رأسية، وتدعم وضع المنبه الليلي للساعة، وتوفر شحناً آمناً مزوداً بحماية حرارية ذكية لصيف المملكة.
+اجمع أجهزة آيفون وساعة أبل وسماعاتك اليومية في منصة شحن واحدة مصممة بأعلى معايير الأناقة الهندسية. تمنحك شحناً سريعاً حتى 15 واط مع شاشة عرض رأسية، وتدعم وضع المنبه الليلي للساعة، وتوفر شحناً آمناً مزوداً بحماية حرارية ذكية، مع توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -148,16 +172,16 @@ Accordion Items:
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Eyebrow & Section Heading:
-FREQUENTLY ASKED QUESTIONS • Everything You Need to Know
+Section Header:
+SMART CHARGING ANSWERS<br>Frequently Asked Questions<br>Everything you need to know about compatibility, battery safety, and fast 7–8 days delivery across Saudi Arabia.
 
 FAQ 1: Smartphone Compatibility (iPhone 16/15/14/13/12 & Samsung)
-Q: Is the Zelmiqo MagCharge dock compatible with the latest iPhone 16 series and flagship Samsung devices?
-A: Yes, absolutely. The smart magnetic wireless charging cradle features dual-coil inductive charging that supports the entire iPhone lineup (iPhone 16, 16 Pro, 15, 14, 13, 12, 11, and SE) as well as Samsung Galaxy S24, S23, S22, and Note series. It delivers high-speed Qi-certified power up to 15W safely and automatically negotiates the optimal power profile for your specific phone.
+Q: Is the 3-in-1 Fast Charging Dock compatible with the latest iPhone 16 series and flagship Samsung devices?
+A: Yes, absolutely. The smart wireless charging cradle features dual-coil inductive charging that supports the entire iPhone lineup (iPhone 16, 16 Pro, 15, 14, 13, 12, 11, and SE) as well as Samsung Galaxy S24, S23, S22, and Note series. It delivers high-speed Qi-certified power up to 15W safely and automatically negotiates the optimal power profile for your specific phone.
 
 FAQ 2: Apple Watch Compatibility (Series 1-9 & Ultra 1/2)
 Q: Which Apple Watch models and watch band styles are supported?
-A: The elevated magnetic watch stand is engineered for all Apple Watch generations, including Apple Watch Series 1 through 9, Apple Watch Ultra 1 & 2, and Apple Watch SE (sizes 38mm through 49mm). The angle supports Nightstand Mode so you can use your watch as a bedside clock, and accommodates sports loops, Milanese bands, leather straps, and link bracelets seamlessly.
+A: The elevated watch stand is engineered for all Apple Watch generations, including Apple Watch Series 1 through 9, Apple Watch Ultra 1 & 2, and Apple Watch SE (sizes 38mm through 49mm). The angle supports Nightstand Mode so you can use your watch as a bedside clock, and accommodates sports loops, Milanese bands, leather straps, and link bracelets seamlessly.
 
 FAQ 3: AirPods & Wireless Earbuds
 Q: Can I charge AirPods Pro and other wireless earbuds on this dock?
@@ -169,16 +193,16 @@ A: No, you do not need to remove your case. The reinforced inductive coils trans
 
 FAQ 5: Saudi Climate Thermal Protection & Battery Safety
 Q: How does this dock protect device batteries during warm Saudi summer afternoons?
-A: Unlike cheap uncertified chargers that overheat phone batteries, the Zelmiqo MagCharge dock is equipped with an active Smart Thermal Management IC and aerodynamic bottom heat dissipation vents. It constantly monitors surface temperature (stopping power if temperatures exceed 40°C), guards against voltage surges, and automatically switches to trickle-charging once your battery reaches 80% to preserve maximum battery longevity.
+A: Unlike cheap uncertified chargers that overheat phone batteries, the dock is equipped with an active Smart Thermal Management IC and aerodynamic bottom heat dissipation vents. It constantly monitors surface temperature (stopping power if temperatures exceed 40°C), guards against voltage surges, and automatically switches to trickle-charging once your battery reaches 80% to preserve maximum battery longevity.
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
 العنوان التمهيدي والرئيسي:
-الأسئلة الشائعة • كل ما تود معرفته عن منصة زيلميكو الذكية
+إجابات الشحن الذكي<br>الأسئلة الأكثر شيوعاً وإجاباتها<br>كل ما تود معرفته حول توافق أجهزتك، الأمان الحراري، والتوصيل السريع خلال 7–8 أيام لكافة مدن المملكة.
 
 السؤال 1: توافق الهواتف الذكية (آيفون 16/15 وسامسونج)
-س: هل تتوافق منصة زيلميكو مع أجهزة آيفون 16 الجديدة وسلسلة سامسونج جالاكسي؟
+س: هل تتوافق منصة الشحن مع أجهزة آيفون 16 الجديدة وسلسلة سامسونج جالاكسي؟
 ج: نعم بكل تأكيد. تدعم المنصة تقنية الحث الكهرومغناطيسي ثنائية الملفات المتوافقة مع كافة أجهزة آيفون الحديثة (بما في ذلك آيفون 16، 16 برو ماكس، وسلسلة 15، 14، 13، و12) بالإضافة إلى أجهزة سامسونج جالاكسي S24 وS23 ونوت. تضبط المنصة تيار الشحن تلقائياً وتوفر شحناً سريعاً حتى 15 واط بأمان تام.
 
 السؤال 2: توافق ساعة أبل (الإصدارات 1 إلى 9 والألترا)
@@ -195,7 +219,7 @@ A: Unlike cheap uncertified chargers that overheat phone batteries, the Zelmiqo 
 
 السؤال 5: الحماية الحرارية في صيف المملكة وحماية البطارية
 س: كيف تحمي هذه المنصة بطاريات الأجهزة من التلف أثناء حرارة الصيف المرتفعة في المملكة؟
-ج: على عكس الشواحن التجارية مجهولة المصدر، تم تزويد منصة زيلميكو بشريحة ذكية للإدارة الحرارية (Smart Thermal IC) وفتحات تهوية سفلية ديناميكية. يراقب النظام درجة الحرارة باستمرار ويمنع ارتفاعها فوق 40 درجة مئوية، كما يتحول تلقائياً إلى وضع الشحن النبضي الآمن (Trickle Charge) عند بلوغ البطارية نسبة 80% لحماية عمر البطارية الافتراضي.
+ج: على عكس الشواحن التجارية مجهولة المصدر، تم تزويد المنصة بشريحة ذكية للإدارة الحرارية (Smart Thermal IC) وفتحات تهوية سفلية ديناميكية. يراقب النظام درجة الحرارة باستمرار ويمنع ارتفاعها فوق 40 درجة مئوية، كما يتحول تلقائياً إلى وضع الشحن النبضي الآمن (Trickle Charge) عند بلوغ البطارية نسبة 80% لحماية عمر البطارية الافتراضي.
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -219,48 +243,24 @@ Trust Cards:
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Eyebrow:
-ONE DOCK • THREE ESSENTIALS • ZERO COMPROMISE
+Section Header:
+ALL-IN-ONE POWER HUB<br>Streamline Your Daily Charging Routine<br>Keep your phone upright, watch elevated, and earbuds charged on one elegant dock. Enjoy fast 7–8 days delivery to any address in Saudi Arabia.
 
-Headline:
-One Master Dock Powers Your Phone, Earbuds, and Watch in Harmonious Synergy
-
-Body Text:
-Engineered for modern executive desks and minimalist bedside tables. The ergonomic 60-degree tilt keeps your smartphone display perfectly angled for facial recognition unlock, hands-free video conferences, and incoming WhatsApp alerts while charging at maximum speed.
-
-3 Trust Cards:
-• Trust Card 1:
-  Title: ⚡️ Express Riyadh Dispatch
-  Description: In stock in our Saudi warehouse. Orders dispatched within 24 to 48 hours via SMSA, Aramex, and Redbox.
-• Trust Card 2:
-  Title: 🛡️ 100% Golden Guarantee
-  Description: Shop with total confidence. 14-day direct replacement with zero depreciation deductions.
-• Trust Card 3:
-  Title: 🔄 Free Doorstep Returns
-  Description: Defective or damaged item? We send a courier to collect it directly from your doorstep anywhere in KSA.
+3 Concise Trust Cards:
+• Card 1: 🚚 Fast 7–8 Days KSA Delivery
+• Card 2: 🛡️ 14-Day Golden Guarantee
+• Card 3: 💳 100% Secure Mada Checkout
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-العنوان التمهيدي:
-منصة واحدة • لاحتياجاتك اليومية الثلاثة • فخامة بلا مساومة
+العنوان التمهيدي والرئيسي:
+محطة شحن متكاملة<br>روتين شحن يومي أسرع وأكثر ترتيباً<br>اشحن جوالك بوضع رأسي، وساعتك وسماعاتك بأناقة على منصة واحدة — مع توصيل سريع وموثوق خلال 7–8 أيام لباب منزلك في المملكة.
 
-العنوان الرئيسي:
-منصة شحن متكاملة تمنح جوالك، سماعاتك، وساعتك طاقة فورية في وقت واحد
-
-النص التعريفي:
-صُممت لتناسب مكاتب العمل التنفيذية وطاولات غرف النوم العصرية. تمنحك زاوية ميل هندسية 60 درجة تتيح فتح قفل الجوال بالبصمة الوجهية وقراءة إشعارات الواتساب ومكالمات الفيديو دون الحاجة لرفع الجهاز من مكانه أثناء الشحن.
-
-بطاقات الثقة الثلاث:
-• البطاقة 1:
-  العنوان: ⚡️ شحن محلي فوري من الرياض
-  الوصف: متوفر بمستودعاتنا داخل المملكة. ينطلق طلبك خلال 24 إلى 48 ساعة عبر سمسا وأرامكس وريدبوكس.
-• البطاقة 2:
-  العنوان: 🛡️ الضمان الذهبي 100%
-  الوصف: تسوق باطمئنان تام؛ استبدال فوري خلال 14 يوماً بدون أي رسوم أو خصومات استهلاك.
-• البطاقة 3:
-  العنوان: 🔄 استرجاع مجاني من باب منزلك
-  الوصف: في حال واجهت أي عيب مصنعي، نرسل مندوب الشحن لاستلام الجهاز من عنوانك في أي مدينة بالمملكة مجاناً.
+3 بطاقات ثقة وضمان موجزة:
+• البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام
+• البطاقة 2: 🛡️ الضمان الذهبي 14 يوماً
+• البطاقة 3: 💳 دفع آمن 100% عبر مدى
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -285,54 +285,26 @@ Benefit Cards:
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Eyebrow:
-BUILT FOR SEAMLESS MODERN LIVING
+Section Header:
+ERGONOMIC VIEW & POWER<br>Hands-Free Screen Viewing While Charging<br>Check WhatsApp messages, take hands-free calls, or stream videos comfortably while your devices power up fast.
 
-Main Heading:
-Charge Your Phone Upright and Never Miss an Urgent Call or Notification
-
-Body Text:
-A precision-weighted silicone anti-slip base holds your device securely at eye level. Check WhatsApp messages, join Zoom meetings, or stream content horizontally while your battery replenishes at 15W Qi fast-charging speed.
-
-4 Benefit Cards:
-• Card 1 (Top-Left):
-  Title: Simultaneous 3-in-1 Ecosystem Power
-  Description: Powers iPhone, Apple Watch, and AirPods together using a single wall socket—saving 2 extra adapter plugs.
-• Card 2 (Bottom-Left):
-  Title: Ergonomic 60° Upright Stand
-  Description: Unlocks instantly with FaceID without reaching for your phone. Perfect for hands-free video calls and desk productivity.
-• Card 3 (Top-Right):
-  Title: Dual-Coil Landscape & Portrait Freedom
-  Description: Charge vertically for WhatsApp chats or horizontally for watching YouTube videos and football matches without interrupting power.
-• Card 4 (Bottom-Right):
-  Title: Precision-Molded AirPods Cradle
-  Description: Custom-recessed groove prevents accidental slipping and ensures continuous magnetic alignment for instant charging.
+4 Concise Benefit Blocks:
+• Block 1: ⚡️ Three Devices, One Cord
+• Block 2: 📱 60° Eye-Level Stand
+• Block 3: 🔄 Dual-Coil Landscape & Portrait
+• Block 4: 🎧 Dedicated Non-Slip AirPods Slot
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-العنوان التمهيدي:
-صُممت لأسلوب حياة عصري منظم
+العنوان التمهيدي والرئيسي:
+رؤية مريحة وشحن متطور<br>شاشة واضحة بين يديك أثناء الشحن السريع<br>تابع تنبيهات الواتساب، وأجرِ مكالماتك، وشاهد مقاطعك المفضلة بزاوية رؤية مثالية أثناء الشحن السريع.
 
-العنوان الرئيسي:
-اشحن جوالك بوضع رأسي أنيق وابقَ على اطلاع دائم بجميع إشعاراتك ومكالماتك
-
-النص التوضيحي:
-قاعدة معززة بوزن مثالي وسيليكون مانع للانزلاق لتثبيت أجهزتك بأمان فائق. تابع رسائل الواتساب، وأجرِ اجتماعات العمل، وشاهد مقاطعك المفضلة بالوضع الأفقي أو الرأسي أثناء الشحن السريع بقوة 15 واط.
-
-البطاقات الجانبية الأربعة:
-• البطاقة 1 (أعلى اليمين / اليسار حسب الاتجاه):
-  العنوان: شحن متزامن لـ 3 أجهزة بفيش واحد
-  الوصف: يشحن الآيفون وساعة أبل وسماعاتك معاً من خلال منفذ جداري واحد، مما يوفر مقابس الكهرباء ويمنع الفوضى.
-• البطاقة 2:
-  العنوان: حامل رأسي مريح بزاوية 60 درجة
-  الوصف: يتيح التعرف الفوري على بصمة الوجه دون الحاجة للمس الجوال، مثالي لمكالمات الفيديو والعمل المكتبي.
-• البطاقة 3:
-  العنوان: ملفات شحن مزدوجة للوضع الأفقي والرأسي
-  الوصف: حرية تامة لشحن الجوال عمودياً أثناء المحادثات أو أفقياً لمتابعة المباريات ومقاطع الفيديو دون انقطاع الشحن.
-• البطاقة 4:
-  العنوان: تجويف شحن مخصص لسماعات الإيربودز
-  الوصف: تجويف مغناطيسي مانع للانزلاق يضمن وضع علبة السماعة في نقطة الشحن الدقيقة فوراً لشحن سريع ومستقر.
+4 بطاقات مزايا موجزة:
+• البطاقة 1: ⚡️ ثلاثة أجهزة بكابل واحد
+• البطاقة 2: 📱 ستاند مريح بزاوية 60°
+• البطاقة 3: 🔄 شحن بالوضعين الأفقي والرأسي
+• البطاقة 4: 🎧 تجويف مخصص لسماعات الإيربودز
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -357,52 +329,30 @@ Product Panel: Detachable Charging Dock Station for Apple
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Eyebrow:
-CUSTOMER-FAVORITE DAILY UPGRADES
+Section Header:
+TRANSFORM YOUR SPACE<br>Everyday Upgrades You Feel Immediately<br>Eliminate nightstand clutter and morning battery stress with an effortless, unified charging habit.
 
-Heading:
-Everyday Lifestyle Upgrades You Notice From Day One
-
-4 Benefit Cards (Left Column 2x2 Grid):
-• Card 1:
-  Title: Zero Cable Tangling
-  Description: Replaces 3 tangled cords with one discreet Type-C braided cable, creating a clean executive visual aesthetic.
-• Card 2:
-  Title: Screen Stays Always in Sight
-  Description: Never miss an important OTP, family call, or urgent WhatsApp notification while working or cooking.
-• Card 3:
-  Title: A Single Home for Daily Essentials
-  Description: Always know where your watch, earbuds, and phone are resting—ending morning scrambles when leaving for work.
-• Card 4:
-  Title: Minimalist Bedside Tranquility
-  Description: Quiet, soft LED indicators ensure you sleep undisturbed without glaring bedroom lights.
+4 Concise Everyday Benefits:
+• Card 1: 🛋️ Zero Nightstand Cable Clutter
+• Card 2: 👀 Screen Visible At All Times
+• Card 3: 🎯 All Essentials In One Place
+• Card 4: 🌙 Peaceful Sleep-Friendly Design
 
 Right Column Showcase Panel:
 Headline: Modular Detachable Architecture
-Description: Engineered with a detachable watch perch and modular base for effortless flat-packing when traveling between Riyadh, Jeddah, or weekend getaways.
+Description: Engineered with a detachable watch perch and modular base for effortless flat-packing when traveling between Saudi cities.
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-العنوان التمهيدي:
-مزايا عملية يفضلها عملاؤنا
+العنوان التمهيدي والرئيسي:
+ارتقِ بمساحة مكتبك وغرفتك<br>تنظيم فائق ولمسات تلاحظها فوراً<br>تخلص من فوضى الأسلاك وقلق نفاد البطارية صباحاً مع نظام شحن ذكي يوفر وقتك ومساحتك.
 
-العنوان الرئيسي:
-ارتقِ بأسلوب حياتك اليومي من أول يوم استخدام
-
-بطاقات المزايا الأربعة (شبكة 2×2):
-• البطاقة 1:
-  العنوان: وداعاً لتشابك وفوضى الأسلاك
-  الوصف: استبدل ثلاثة أسلاك متشابكة بكابل واحد أنيق Type-C، لتستمتع بمكتب عمل منظم يعكس رقي أسلوبك.
-• البطاقة 2:
-  العنوان: شاشة جوالك في مرمى بصرك دائماً
-  الوصف: لن تفوتك أي رسالة تحقق بنكية (OTP) أو اتصال عاجل، حيث تبقى شاشتك مضيئة وواضحة أمام عينيك.
-• البطاقة 3:
-  العنوان: مكان موحد لكافة أجهزتك اليومية
-  الوصف: ستجد ساعتك وسماعاتك وجوالك في مكان واحد دائم ومثالي، لتنطلق في الصباح إلى دوامك بأجهزة كاملة الشحن.
-• البطاقة 4:
-  العنوان: طاولة نوم هادئة وأنيقة بجوار سريرك
-  الوصف: تصميم مدمج مع إضاءة مؤشر خافتة ومدروسة تضمن لك نوماً عميقاً دون أي إزعاج بصري أثناء الليل.
+4 بطاقات مزايا يومية موجزة:
+• البطاقة 1: 🛋️ وداعاً لتشابك وفوضى الأسلاك
+• البطاقة 2: 👀 شاشة جوالك أمامك دائماً
+• البطاقة 3: 🎯 كل أجهزتك في مكان واحد
+• البطاقة 4: 🌙 تصميم هادئ ومريح للنوم
 
 لوحة التوضيح الجانبية:
 العنوان: تصميم تركيبي قابل للفصل والتنقل
@@ -433,66 +383,34 @@ Comparison Rows:
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Eyebrow:
-THE SUPERIOR POWER BENCHMARK
-
-Heading:
-Three Flagship Devices. One Intelligent Station. Zero Compromises.
-
-Body Text:
-Engineered to outperform cheap generic multi-chargers. Backed by certified Saudi warranties, active thermal regulation, and premium aerospace-grade materials.
+Section Header:
+ENGINEERED QUALITY BENCHMARK<br>Why Zelmiqo Outperforms Generic Chargers<br>Featuring dual 15W fast coils, active heat management, and reliable 7–8 days delivery across Saudi Arabia.
 
 Secure Payments Ribbon:
 🔒 100% Certified Safe Saudi Payments: Mada • Apple Pay • Tabby (Split in 4) • Tamara (Split in 4) • Visa • Mastercard • Cash on Delivery
 
 Comparison Table Matrix:
-• Feature 1: Charging Speed & Coils
-  - Zelmiqo MagCharge 3-in-1: Dual-Coil 15W Qi Fast Charging (Charges in portrait & landscape) [GOLD CHECK]
-  - Market Alternatives (Others): Slow 7.5W single coil; phone must be precisely centered [GRAY X]
-• Feature 2: Climate Thermal Safety
-  - Zelmiqo MagCharge 3-in-1: Active Smart Thermal IC with aerodynamic vents (Certified for 45°C+ heat) [GOLD CHECK]
-  - Market Alternatives (Others): Cheap plastic with no heat dissipation (causes battery overheating) [GRAY X]
-• Feature 3: Case Compatibility
-  - Zelmiqo MagCharge 3-in-1: Charges through thick shockproof cases up to 5mm [GOLD CHECK]
-  - Market Alternatives (Others): Fails with cases thicker than 2mm [GRAY X]
-• Feature 4: Warranty & Consumer Rights
-  - Zelmiqo MagCharge 3-in-1: Golden 14-Day Replacement + 1-Year KSA Hardware Warranty [GOLD CHECK]
-  - Market Alternatives (Others): Overseas drop-shipping; no local warranty or returns [GRAY X]
-• Feature 5: Domestic Delivery & Payment
-  - Zelmiqo MagCharge 3-in-1: Dispatched from Riyadh in 24-48h + Tabby, Tamara & COD [GOLD CHECK]
-  - Market Alternatives (Others): 2-4 weeks overseas transit; upfront credit card only [GRAY X]
+• Row 1: ⚡️ 15W Qi Fast Charging | Zelmiqo (✓ Dual Orientation) | Generic Chargers (✕ Slow 7.5W single coil)
+• Row 2: 🛡️ Smart Heat Management | Zelmiqo (✓ Safe in Saudi Heat) | Generic Chargers (✕ Overheats phone battery)
+• Row 3: 📱 5mm Case Penetration | Zelmiqo (✓ Charges through cases) | Generic Chargers (✕ Fails on thick cases)
+• Row 4: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 Days + 1-Year Warranty) | Generic Chargers (✕ 3–4 weeks untracked, no warranty)
+• Row 5: 💳 Certified Local Payment | Zelmiqo (✓ Mada, Apple Pay, Tabby, Tamara) | Generic Chargers (✕ Credit card only)
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-العنوان التمهيدي:
-المعيار الأرقى في عالم الشواحن اللاسلكية
-
-العنوان الرئيسي:
-ثلاثة أجهزة ذكية. محطة طاقة واحدة متطورة. جودة عالمية بدون مساومة.
-
-النص التعريفي:
-صُممت لتتفوق بمراحل على الشواحن التجارية مجهولة المصدر، مع حماية معتمدة للبطاريات وضمان رسمي داخل المملكة.
+العنوان التمهيدي والرئيسي:
+معيار الجودة والأمان المتطور<br>لماذا تتفوق منصة زيلميكو على الشواحن العادية؟<br>ملفات شحن مزدوجة 15 واط، نظام حماية حرارية ذكي، وتوصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.
 
 شريط الدفع الآمن بالمملكة:
 🔒 بوابات دفع آمنة ومعتمدة في المملكة: مدى • أبل باي • تابي (4 دفعات) • تمارا (4 دفعات) • فيزا • ماستركارد • الدفع عند الاستلام
 
 جدول المقارنة الذكي:
-• المعيار 1: سرعة الشحن وملفات التوصيل
-  - شاحن زيلميكو 3 في 1: شحن سريع بقوة 15 واط بملفات مزدوجة (شحن أفقي ورأسي) [علامة صح ذهبية]
-  - الشواحن المقلدة بالسوق: شحن بطيء 7.5 واط بملف واحد يتطلب دقة شديدة في وضع الجوال [علامة X]
-• المعيار 2: الحماية من الحرارة لصيف المملكة
-  - شاحن زيلميكو 3 في 1: شريحة ذكية للإدارة الحرارية وفتحات تهوية تحمي البطارية حتى فوق 45°م [علامة صح ذهبية]
-  - الشواحن المقلدة بالسوق: تسخن البطارية وتتسبب في تلف خلايا الليثيوم بسرعة [علامة X]
-• المعيار 3: كفاءة الشحن عبر كفرات الحماية
-  - شاحن زيلميكو 3 في 1: يشحن بقوة عبر الكفرات السميكة حتى 5 ملم [علامة صح ذهبية]
-  - الشواحن المقلدة بالسوق: يفشل في الشحن عند وجود أي كفر بسُمك يتجاوز 2 ملم [علامة X]
-• المعيار 4: الضمان وحماية المستهلك
-  - شاحن زيلميكو 3 في 1: الضمان الذهبي 14 يوماً للاستبدال + ضمان شامل لمدة عام داخل المملكة [علامة صح ذهبية]
-  - الشواحن المقلدة بالسوق: شحن خارجي بدون أي ضمان محلي أو إمكانية استرجاع [علامة X]
-• المعيار 5: سرعة التوصيل وطرق الدفع
-  - شاحن زيلميكو 3 في 1: شحن من الرياض خلال 24-48 ساعة مع خيارات تابي وتمارا والدفع عند الاستلام [علامة صح ذهبية]
-  - الشواحن المقلدة بالسوق: انتظار من أسبوعين إلى 4 أسابيع، ودفع مسبق بالبطاقة فقط [علامة X]
+• الصف 1: ⚡️ شحن لاسلكي سريع 15 واط | منصة زيلميكو (✓ ملفات شحن مزدوجة) | الشواحن التجارية (✕ شحن بطيء 7.5 واط)
+• الصف 2: 🛡️ حماية حرارية ذكية | منصة زيلميكو (✓ آمنة في صيف المملكة) | الشواحن التجارية (✕ تحبس الحرارة وتتلف البطارية)
+• الصف 3: 📱 شحن عبر كفرات الحماية | منصة زيلميكو (✓ يدعم الكفرات حتى 5 ملم) | الشواحن التجارية (✕ يفشل مع الكفرات العادية)
+• الصف 4: 🚚 توصيل سريع بالمملكة | منصة زيلميكو (✓ توصيل سريع 7-8 أيام وضمان عام) | الشواحن التجارية (✕ انتظار أسابيع بلا تتبع أو ضمان)
+• الصف 5: 💳 طرق دفع سعودية معتمدة | منصة زيلميكو (✓ مدى، أبل باي، تابي، تمارا) | الشواحن التجارية (✕ بطاقة ائتمان فقط)
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -513,18 +431,14 @@ Comparison Table Matrix:
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Item 1: 🔒 Saudi PDPL Compliant & 256-Bit Bank-Grade Privacy Protection
-Item 2: 🛡️ 1-Year Comprehensive Hardware Warranty on Electrical Coils
-Item 3: ⚡️ Express Domestic Dispatch from Riyadh Hub in 24–48 Hours
-Item 4: ✨ Golden 14-Day Hassle-Free Direct Replacement Guarantee
+Continuous Trust Ribbon:
+🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada Checkout
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-العنصر 1: 🔒 متوافق مع نظام حماية البيانات الشخصية السعودي (PDPL) بتشفير بنكي 256-bit
-العنصر 2: 🛡️ ضمان صيانة شامل لمدة عام كامل معتمد داخل المملكة العربية السعودية
-العنصر 3: ⚡️ شحن محلي سريع من مستودعات الرياض خلال 24–48 ساعة لكافة المدن
-العنصر 4: ✨ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً من باب منزلك مجاناً
+شريط الثقة المستمر:
+🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -548,40 +462,34 @@ Quotes:
 
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
-Heading:
-Loved Across Saudi Arabia: Real Stories From Verified Buyers
-
-Subtitle:
-Discover how modern Saudi professionals and households upgraded their daily charging routine with Zelmiqo.
+Section Header:
+REAL BUYER EXPERIENCES<br>Loved by Saudi Shoppers Nationwide<br>Verified stories from customers across Riyadh, Jeddah, Dammam, and Khobar who received their docks in 7–8 days.
 
 4 Testimonial Cards:
 • Card 1: Zainab I. — Riyadh, KSA (Verified Buyer)
-  Quote: "Been using the Zelmiqo dock for over three months on my executive desk in Riyadh. The matte build feels exceptionally solid, and phone FaceID unlocks seamlessly at the 60-degree angle. Dispatched to my door in just 30 hours!"
+  Quote: "Been using the dock for over three months on my executive desk in Riyadh. The matte build feels exceptionally solid, and phone FaceID unlocks seamlessly at the 60-degree angle. Received in 7 days exactly!"
 • Card 2: Aisha R. — Jeddah, KSA (Verified Buyer)
   Quote: "Finally eliminated the messy nest of cables on my nightstand. My iPhone 15 Pro, Apple Watch Series 9, and AirPods Pro all charge in one designated spot. Splitting the price with Tabby into 4 installments made it an absolute no-brainer."
 • Card 3: Hina M. — Dammam, KSA (Verified Buyer)
-  Quote: "I love that my phone stays perfectly upright while charging so I can monitor my work notifications without reaching over. Does not get hot at all even in warm weather. Packaging and presentation are Dyson-tier quality."
+  Quote: "I love that my phone stays perfectly upright while charging so I can monitor my work notifications without reaching over. Does not get hot at all even in warm weather. Delivered swiftly in 7 days."
 • Card 4: Fahad O. — Khobar, KSA (Verified Buyer)
-  Quote: "Super fast delivery to Khobar via SMSA. The watch perch holds my Apple Watch Ultra securely in nightstand clock mode, and the matte black finish looks great with my setup. Outstanding customer care on WhatsApp!"
+  Quote: "Fast and reliable 7-day delivery to Khobar. The watch perch holds my Apple Watch Ultra securely in nightstand clock mode, and the matte black finish looks great with my setup. Outstanding customer care on WhatsApp!"
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-العنوان الرئيسي:
-نال إعجاب وثقة عملائنا في المملكة: تجارب حقيقية من متسوقين موثقين
-
-العنوان الفرعي:
-اكتشف كيف ساعدت منصة زيلميكو المحترفين والعائلات في المملكة على التخلص من فوضى الأسلاك والارتقاء بروتين الشحن اليومي.
+العنوان التمهيدي والرئيسي:
+تجارب حقيقية من عملائنا<br>يحظى بثقة ورضا المتسوقين في المملكة<br>قصص موثقة من مشترين في الرياض، جدة، الدمام، والخبر استلموا طلباتهم خلال 7–8 أيام واستمتعوا بتجربة مميزة.
 
 بطاقات آراء وتجارب العملاء المعتمدة:
 • البطاقة 1: زينب إ. — الرياض (مشترٍ موثق)
-  الرأي: "أستخدم منصة زيلميكو منذ أكثر من ثلاثة أشهر على مكتبي بالرياض. جودة الخامات المطفية ممتازة وثابتة جداً، وزاوية الحامل تسمح بفتح قفل الجوال بالوجه فوراً. وصل الطلب لباب بيتي خلال 30 ساعة فقط!"
+  الرأي: "أستخدم منصة الشحن منذ أكثر من ثلاثة أشهر على مكتبي بالرياض. جودة الخامات المطفية ممتازة وثابتة جداً، وزاوية الحامل تسمح بفتح قفل الجوال بالوجه فوراً. وصل الطلب خلال 7 أيام تماماً!"
 • البطاقة 2: عائشة ر. — جدة (مشترٍ موثق)
   الرأي: "تخلصت أخيراً من تشابك الأسلاك المزعج على طاولة السرير. الآيفون وساعة أبل وسماعاتي تشحن معاً في مكان واحد أنيق. وخيار التقسيط عبر تابي على 4 دفعات بدون فوائد جعل الشراء في غاية السهولة."
 • البطاقة 3: هناء م. — الدمام (مشترٍ موثق)
-  الرأي: "أكثر ما يعجبني هو بقاء شاشة الجوال بوضع رأسي يسمح لي بمتابعة إشعارات العمل دون رفعه. الجهاز لا يسخن إطلاقاً حتى في الأجواء الحارة. التغليف فخم جداً ويضاهي أرقى الماركات العالمية."
+  الرأي: "أكثر ما يعجبني هو بقاء شاشة الجوال بوضع رأسي يسمح لي بمتابعة إشعارات العمل دون رفعه. الجهاز لا يسخن إطلاقاً حتى في الأجواء الحارة. وصلني في الدمام خلال أسبوع بحالة ممتازة."
 • البطاقة 4: فهد ع. — الخبر (مشترٍ موثق)
-  الرأي: "توصيل سريع جداً إلى الخبر عبر سمسا. حامل الساعة يثبت ساعة أبل ألترا بإحكام تام مع تفعيل المنبه الليلي، واللون الأسود المطفي أضاف فخامة واضحة لمكتبي. ودعم الواتساب سريع ومتجاوب لأبعد حد!"
+  الرأي: "توصيل سريع وموثوق خلال 7 أيام إلى الخبر. حامل الساعة يثبت ساعة أبل ألترا بإحكام تام مع تفعيل المنبه الليلي، واللون الأسود المطفي أضاف فخامة واضحة لمكتبي. ودعم الواتساب سريع ومتجاوب لأبعد حد!"
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -603,23 +511,8 @@ No formal review aggregate widget.
 Rating Summary Bar:
 • Overall Score: ★★★★★ 4.9 out of 5.0 Stars
 • Verified Reviews: Based on 128 verified customer purchases across Saudi Arabia
-• Rating Breakdown: 5-Star (91%) | 4-Star (7%) | 3-Star (2%) | 2-Star (0%) | 1-Star (0%)
-• Recommendation Rate: 98% of customers recommend this product
-
-Featured In-Depth Customer Reviews:
-• Review 1 (Riyadh):
-  Author: Saud Al-Otaibi (سعود العتيبي) — Verified Buyer
-  Rating: ★★★★★ (5.0)
-  Date: 3 days ago
-  Title: Essential desk upgrade for every Apple user
-  Body: "The best desk accessory I have purchased this year. Solved my multi-device charging clutter in 2 minutes. The phone charges even with my thick protective case on. Highly recommend Zelmiqo!"
-
-• Review 2 (Jeddah):
-  Author: Reem Al-Ghamdi (ريم الغامدي) — Verified Buyer
-  Rating: ★★★★★ (5.0)
-  Date: 1 week ago
-  Title: Elegant, fast, and does not overheat
-  Body: "Very elegant and space-saving. Loved the 14-day Golden Guarantee for peace of mind, but the device works flawlessly. Charges my AirPods and watch super fast."
+• Delivery Track Record: Fast 7–8 days delivery to Riyadh, Jeddah, Mecca, Medina & Eastern Province
+• Recommendation Rate: 94% of customers recommend this product to a friend
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
@@ -627,23 +520,8 @@ Featured In-Depth Customer Reviews:
 ملخص التقييمات العامة:
 • التقييم العام: ★★★★★ 4.9 من 5 نجوم
 • عدد التقييمات: بناءً على 128 تقييماً موثقاً من مشترين فعليين داخل المملكة العربية السعودية
-• توزيع النجوم: 5 نجوم (91%) | 4 نجوم (7%) | 3 نجوم (2%) | نجمتان (0%) | نجمة واحدة (0%)
-• نسبة التوصية: 98% من المشترين يوصون باقتناء هذا المنتج
-
-نماذج المراجعات الموثقة:
-• المراجعة 1 (الرياض):
-  الاسم: سعود العتيبي — مشترٍ موثق
-  التقييم: ★★★★★ (5.0)
-  التاريخ: قبل 3 أيام
-  عنوان المراجعة: استثمار أساسي ومثالي لمكتب العمل
-  نص المراجعة: "أفضل استثمار لمكتبي هذا العام. أنهى مشكلة شحن أجهزتي المتعددة في دقيقتين. يشحن الجوال حتى مع كفر الحماية المقوى. متجر زيلميكو يستحق كل الإشادة!"
-
-• المراجعة 2 (جدة):
-  الاسم: ريم الغامدي — مشترٍ موثق
-  التقييم: ★★★★★ (5.0)
-  التاريخ: قبل أسبوع
-  عنوان المراجعة: أنيق وسريع ولا يسخن إطلاقاً
-  نص المراجعة: "تصميم أنيق جداً ويوفر مساحة كبيرة. أحببت وجود الضمان الذهبي لمدة 14 يوماً الذي يعطيك راحة بال تامة، ولكن الجهاز يعمل بكفاءة خيالية من أول لحظة."
+• سجل التوصيل: توصيل سريع خلال 7–8 أيام للرياض، جدة، مكة، المدينة والمنطقة الشرقية
+• نسبة التوصية: 94% من المشترين يوصون باقتناء هذا المنتج لأصدقائهم
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -665,47 +543,13 @@ Select 3 More Items
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
 Section Header:
-Frequently Bought Together: Complete Your Smart Living Ecosystem (Bundle & Save 15%)
-
-Bundle Incentive Callout:
-💡 Add any complementary accessory below to your order and unlock an extra 15% instant bundle discount at checkout!
-
-4 Cross-Sell Flagship Items:
-1. Zelmiqo MagSafe Magnetic Fast Car Mount Charger:
-   • Regular Price: SAR 89.00 | Bundle Price: SAR 75.00
-   • Key Hook: 15W high-stability magnetic vent charger for hands-free navigation in Saudi traffic.
-2. Zelmiqo Foldable Aerospace Aluminum Desk Phone Stand:
-   • Regular Price: SAR 49.00 | Bundle Price: SAR 39.00
-   • Key Hook: Ultra-portable multi-angle metal stand for iPad and smartphones on the go.
-3. Zelmiqo 65W GaN Dual-Port Ultra-Fast Wall Charger:
-   • Regular Price: SAR 99.00 | Bundle Price: SAR 82.00
-   • Key Hook: High-efficiency GaN fast charger delivering full-speed power to your 3-in-1 dock and laptop.
-4. Zelmiqo Ultra-Slim 10,000mAh Magnetic Wireless Power Bank:
-   • Regular Price: SAR 119.00 | Bundle Price: SAR 99.00
-   • Key Hook: Pocket-sized magnetic backup battery snapping directly to iPhone for outdoor power in Riyadh.
+COMPLETE YOUR SETUP<br>Smart Essentials Frequently Paired Together<br>Enhance your everyday tech ecosystem with complementary fast-charging accessories—delivered across Saudi Arabia in 7–8 days.
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
-عنوان القسم:
-يتم شراؤها معاً في الغالب: أكمل منظومتك الذكية (وفّر 15% عند الشراء كحزمة)
-
-حافز الخصم الإضافي:
-💡 أضف أي منتج مكمل من القائمة أدناه إلى سلتك واحصل على خصم فوري بقيمة 15% عند الدفع!
-
-المنتجات التكميلية الأربعة:
-1. شاحن السيارة المغناطيسي الذكي MagSafe من زيلميكو:
-   • السعر المنفرد: 89.00 ر.س | سعر الحزمة: 75.00 ر.س
-   • الفائدة: شاحن سيارة مغناطيسي سريع 15 واط بفتحات التكييف، لتثبيت الجوال واستخدام خرائط الطريق بأمان.
-2. ستاند الجوال المكتبي القابل للطي من ألومنيوم الطائرات:
-   • السعر المنفرد: 49.00 ر.س | سعر الحزمة: 39.00 ر.س
-   • الفائدة: ستاند مكتبي متين من الألومنيوم قابل للطي ومتعدد الزوايا للاستخدام أثناء السفر والاجتماعات.
-3. شاحن الجدار فائق السرعة بتقنية GaN بقدرة 65 واط:
-   • السعر المنفرد: 99.00 ر.س | سعر الحزمة: 82.00 ر.س
-   • الفائدة: شاحن جداري بتقنية GaN الفائقة بقدرة 65 واط، يمنح منصتك اللاسلكية طاقتها القصوى ويشحن أجهزة اللابتوب.
-4. بنك الطاقة المغناطيسي اللاسلكي فائق النحافة 10,000 مللي أمبير:
-   • السعر المنفرد: 119.00 ر.س | سعر الحزمة: 99.00 ر.س
-   • الفائدة: بنك طاقة لاسلكي مغناطيسي فائق النحافة سعة 10,000 مللي أمبير يلتحم بظهر الآيفون للتنقل والرحلات.
+العنوان التمهيدي والرئيسي:
+أكمل منظومة أجهزتك الذكية<br>ملحقات شحن مثالية يفضل شراؤها معاً<br>ارتقِ بتجربتك اليومية مع إكسسوارات شحن ذكية وسريعة — تصلك إلى باب منزلك في المملكة خلال 7–8 أيام.
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
