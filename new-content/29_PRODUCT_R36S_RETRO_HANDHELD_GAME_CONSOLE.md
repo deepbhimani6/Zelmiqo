@@ -100,326 +100,193 @@ r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket
 
 ---
 
-## 8. Products Description with Full Rich Content
+## 8. Products Description with Full Rich Content (Clean Unstyled HTML Structure)
 
-### 🇬🇧 English Rich HTML Description (FatherShops Pasteable)
+> **Format Standard**: Pure semantic HTML (`<h2>`, `<h3>`, `<p>`, `<ul>`, `<ol>`, `<li>`, `<strong>`, `<img>`) without any inline `style="..."` attributes, exactly matching FatherShops CMS native styling and the reference format.
+
+### 🇬🇧 English Product Description Box (Unstyled Semantic HTML)
 
 ```html
-<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.7; color: #1e293b; max-width: 960px; margin: 0 auto; padding: 10px;">
+<h2>🎮 R36S Retro Handheld Game Console with 3.5" IPS Screen & 15,000+ Classic Games</h2>
+<p>Relive the golden era of childhood gaming with a powerful, pocket-sized retro console designed to <strong>bring back timeless arcade, console, and handheld memories</strong> &mdash; anytime, anywhere across Saudi Arabia.</p>
+<p>Combining a <strong>high-performance 64-bit quad-core processor, dual 3D analog joysticks, a vivid 3.5-inch IPS OCA display, and a massive 3500mAh rechargeable battery</strong>, this portable powerhouse comes fully preloaded with over 15,000 classic games ready to play out of the box.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa105d90717b64fbb9f45773545970e8ak.png" /></p>
 
-  <!-- Hero Highlight Banner -->
-  <div style="background: linear-gradient(135deg, #0d1c2a 0%, #1a365d 100%); color: #ffffff; padding: 28px 24px; border-radius: 16px; margin-bottom: 24px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
-    <span style="background: #d4af37; color: #0d1c2a; font-size: 12px; font-weight: 800; padding: 4px 12px; border-radius: 20px; text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin-bottom: 12px;">The Ultimate Nostalgia Machine</span>
-    <h2 style="font-size: 26px; font-weight: 800; margin: 0 0 10px 0; color: #ffffff; letter-spacing: -0.5px;">15,000+ Classic Games In The Palm Of Your Hand</h2>
-    <p style="font-size: 15px; margin: 0; color: #cbd5e1; max-width: 720px; margin: 0 auto;">Step straight back into the golden era of gaming. Powered by a high-speed quad-core processor and a crystal-clear 3.5" IPS display, the R36S brings legendary arcade, PlayStation 1, and retro classics everywhere you go.</p>
-  </div>
+<h2>🕹️ Your Ultimate Pocket Retro Experience</h2>
+<h3>✔ 15,000+ Preloaded Classic Titles</h3>
+<p>No downloads, configurations, or internet needed. Turn on the console and instantly enjoy thousands of legendary games across PlayStation 1, PSP, Nintendo 64, Game Boy Advance, Sega Genesis, and Arcade classics.</p>
+<h3>✔ Crystal-Clear 3.5" IPS OCA Screen</h3>
+<p>Enjoy vibrant colors and sharp 640&times;480 resolution with a native 4:3 retro aspect ratio and a 178-degree wide viewing angle for true nostalgic visuals without glare.</p>
+<h3>✔ Dual 3D Joysticks & Tactical Back Triggers</h3>
+<p>Master fighting games, platformers, and 3D racing with smooth 360-degree analog control, a responsive D-pad, and ergonomic rear L1/L2/R1/R2 shoulder triggers.</p>
+<h3>✔ Instant Save & Load States</h3>
+<p>Powered by optimized ArkOS Linux firmware, you can save your game progress at any exact second and resume whenever you want with a single hotkey shortcut.</p>
+<h3>✔ High-Capacity 3500mAh Rechargeable Battery</h3>
+<p>Enjoy 6 to 8 hours of uninterrupted gaming on road trips, flights, or weekend gatherings, with convenient USB Type-C fast charging.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/S6b6b3c0999644665939a659544fcb26dt.jpg" /></p>
 
-  <!-- Key Value Props Strip -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 24px;">
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 20px; margin-bottom: 4px;">🎮</div>
-      <strong style="color: #0f172a; font-size: 14px; display: block;">15,000+ Retro Games</strong>
-      <span style="font-size: 12px; color: #64748b;">20+ Built-In Emulators</span>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 20px; margin-bottom: 4px;">📺</div>
-      <strong style="color: #0f172a; font-size: 14px; display: block;">3.5" IPS Full-Fit Screen</strong>
-      <span style="font-size: 12px; color: #64748b;">640×480 HD OCA Panel</span>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 20px; margin-bottom: 4px;">🕹️</div>
-      <strong style="color: #0f172a; font-size: 14px; display: block;">Dual 3D Hall Joysticks</strong>
-      <span style="font-size: 12px; color: #64748b;">L1/L2/R1/R2 Back Triggers</span>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 20px; margin-bottom: 4px;">🔋</div>
-      <strong style="color: #0f172a; font-size: 14px; display: block;">3500mAh Big Battery</strong>
-      <span style="font-size: 12px; color: #64748b;">6–8 Hours Continuous Play</span>
-    </div>
-  </div>
+<h2>🌈 Supported Emulator Platforms</h2>
+<h3>🎮 PlayStation 1 (PS1) & PSP</h3>
+<p>Experience iconic 3D polygon classics and adventure titles running smoothly at full speed.</p>
+<h3>🕹️ Arcade Classics (MAME, CPS1, CPS2, CPS3, NeoGeo)</h3>
+<p>Relive the thrill of original arcade fighting and scrolling shooter machines right in your hands.</p>
+<h3>👾 Nintendo Legends (N64, GBA, GBC, GB, SNES, NES)</h3>
+<p>Rediscover beloved handheld adventures, platforming masterpieces, and childhood favorite quests.</p>
+<h3>⚡ Sega Genesis & Mega Drive</h3>
+<p>Enjoy blazing-fast 16-bit action, sharp chiptune audio, and nostalgic retro titles.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/S81c1e5abb99e473d890a0cdd8110576bd.jpg" /></p>
 
-  <!-- Image 1 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa105d90717b64fbb9f45773545970e8ak.png" alt="R36S Retro Handheld Game Console Overview" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
+<h2>💡 Why You'll Love It</h2>
+<ul>
+<li>Over 15,000 preloaded nostalgic games ready to play instantly</li>
+<li>Supports 20+ legendary retro consoles and arcade emulators</li>
+<li>Crisp 3.5-inch IPS display with OCA full lamination</li>
+<li>Dual 3D analog joysticks for precision 360-degree control</li>
+<li>4 tactile shoulder triggers (L1, L2, R1, R2) for competitive gameplay</li>
+<li>Instant save and load state support &mdash; never lose your progress</li>
+<li>Dual TF card slots: dedicated OS card + 64GB expandable game storage</li>
+<li>Long-lasting 3500mAh battery providing 6–8 hours continuous playtime</li>
+<li>Built-in cavity speaker plus 3.5mm headphone jack for private audio</li>
+<li>Compact pocket size weighing under 200g &mdash; ideal for travel and gatherings</li>
+</ul>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbf617519611847a4804940a5c27c5d46n.jpg" /></p>
 
-  <!-- Section 1: Nostalgia & Emulation -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-left: 4px solid #d4af37; padding-left: 12px;">Instant Plug & Play Childhood Memories</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">No complex setup, downloads, or internet connection required. Turn it on and dive straight into over 15,000 carefully curated classic titles spanning the 80s, 90s, and 2000s. Relive unforgettable adventures across 20+ legendary platforms including:</p>
-    <div style="background: #f1f5f9; padding: 14px 18px; border-radius: 10px; font-size: 13.5px; color: #334155; line-height: 1.8;">
-      <strong>Supported Platforms:</strong> PlayStation 1 (PS1), PSP, Nintendo 64 (N64), Game Boy Advance (GBA), Game Boy Color (GBC), Game Boy (GB), Super Nintendo (SNES), NES, Sega Genesis / Mega Drive, NeoGeo, MAME, Arcade Classics, CPS1/CPS2/CPS3, and more.
-    </div>
-  </div>
+<h2>🚀 Seamless Plug-and-Play Simplicity</h2>
+<p>Just power on the console, browse through organized platform menus, and jump straight into your favorite game. With <strong>hotkey instant saving, customizable button mapping, screen brightness control, and multi-language support</strong>, getting back into retro gaming has never been easier or more fun.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd755b2a35902476a8fd5912a553b4f0f7.jpg" /></p>
 
-  <!-- Image 2 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/S6b6b3c0999644665939a659544fcb26dt.jpg" alt="R36S 3.5 Inch High Definition IPS Screen" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
+<h2>🔋 Product Specifications</h2>
+<ul>
+<li><strong>Product Name:</strong> R36S Retro Handheld Game Console</li>
+<li><strong>Screen:</strong> 3.5-inch IPS OCA Full-Lamination (640 &times; 480, 4:3 Ratio)</li>
+<li><strong>Processor (CPU):</strong> Rockchip RK3326 Quad-Core 64-Bit Cortex-A35 up to 1.5GHz</li>
+<li><strong>GPU:</strong> Mali-G31MP2 (Supports OpenGL ES 3.2)</li>
+<li><strong>RAM:</strong> 1GB DDR3L High-Speed Memory</li>
+<li><strong>Storage:</strong> 64GB MicroSD TF Card (Preloaded with 15,000+ Games)</li>
+<li><strong>Operating System:</strong> Linux (ArkOS Open-Source Gaming System)</li>
+<li><strong>Battery:</strong> 3500mAh Lithium-Polymer (6–8 Hours Runtime)</li>
+<li><strong>Charging:</strong> USB Type-C (5V / 2A Fast Charging)</li>
+<li><strong>Audio:</strong> Built-in High-Quality Cavity Speaker + 3.5mm Stereo Headphone Jack</li>
+<li><strong>Interface:</strong> USB-C Charging Port, USB-C OTG Port, 2 &times; TF Card Slots, 3.5mm Audio Port</li>
+<li><strong>Dimensions & Weight:</strong> Approx. 130 &times; 82 &times; 21 mm, 190 grams</li>
+</ul>
 
-  <!-- Section 2: Display & Visuals -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-left: 4px solid #d4af37; padding-left: 12px;">Vibrant 3.5" IPS Full-Fit HD Display</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">Experience retro titles the way they were meant to be seen. The 3.5-inch OCA fully laminated IPS screen boasts a sharp 640×480 resolution with a native 4:3 aspect ratio—eliminating stretched pixels and visual distortion.</p>
-    <ul style="padding-left: 20px; font-size: 14.5px; color: #475569; margin: 0 0 12px 0;">
-      <li style="margin-bottom: 6px;"><strong>Wide 178° Viewing Angle:</strong> Vivid colors and deep contrast from any angle.</li>
-      <li style="margin-bottom: 6px;"><strong>Zero Gap OCA Lamination:</strong> Reduces outdoor glare and repels dust.</li>
-      <li style="margin-bottom: 6px;"><strong>Gentle on the Eyes:</strong> Soft hardware dimming ideal for late-night gaming sessions.</li>
-    </ul>
-  </div>
+<h2>📦 What's Included</h2>
+<ul>
+<li>1 &times; R36S Retro Handheld Game Console</li>
+<li>1 &times; 64GB High-Speed TF Card (15,000+ Games Preinstalled)</li>
+<li>1 &times; USB Type-C Fast Charging Cable</li>
+<li>1 &times; Protective Screen Film</li>
+<li>1 &times; User Manual</li>
+</ul>
 
-  <!-- Image 3 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/S81c1e5abb99e473d890a0cdd8110576bd.jpg" alt="R36S Console Controls and 3D Joysticks" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
+<h2>⚠️ Important Usage Information</h2>
+<ol>
+<li>Long-press the top power button for 3 seconds to turn the device on or safely power off.</li>
+<li>To save game progress at any point, press the hotkey shortcut (FN + R1) to save instantly, and (FN + L1) to load your saved state.</li>
+<li>To safely exit any game back to the main menu, press the hotkey combination (FN + Start) or press Select + Start twice.</li>
+<li>Always power down the console via the system menu or by holding the power button; do not abruptly pull out the MicroSD card while the system is running.</li>
+<li>Use the included 5V/2A Type-C charging cable with a standard USB charger or power bank. Avoid using high-wattage fast chargers exceeding 5V/2A.</li>
+<li>Keep the console away from water, extreme heat, and direct sunlight when not in use.</li>
+<li>To add your own custom game ROMs, insert the secondary TF card into your computer's card reader and copy files into their respective console folders.</li>
+</ol>
 
-  <!-- Section 3: Precision Controls & Performance -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-left: 4px solid #d4af37; padding-left: 12px;">Dual 3D Joysticks & Console-Grade Tactile Triggers</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">Master tight platformers, fighting combos, and 3D racing titles with uncompromised precision. The R36S features dual 3D analog sticks alongside a responsive cross D-pad, classic ABXY buttons, and curved L1/L2/R1/R2 shoulder triggers on the reverse for full ergonomic hand grip.</p>
-    <ul style="padding-left: 20px; font-size: 14.5px; color: #475569; margin: 0 0 12px 0;">
-      <li style="margin-bottom: 6px;"><strong>Quad-Core 64-Bit RK3326 CPU:</strong> Smooth 60 FPS performance without lagging audio or frame drops.</li>
-      <li style="margin-bottom: 6px;"><strong>Instant Save States:</strong> Save and resume your game at any exact second with one hotkey press.</li>
-      <li style="margin-bottom: 6px;"><strong>Dual MicroSD Slots:</strong> Independent system OS card and dedicated 64GB expandable game storage.</li>
-    </ul>
-  </div>
-
-  <!-- Image 4 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbf617519611847a4804940a5c27c5d46n.jpg" alt="R36S 15000 Classic Retro Game Library" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
-
-  <!-- Section 4: Battery & On-The-Go Portability -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-left: 4px solid #d4af37; padding-left: 12px;">All-Day 3500mAh Battery & True Pocket Portability</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">Weighing under 200 grams and slipping easily into your pocket, jacket, or backpack, the R36S is your ultimate travel companion across Saudi Arabia. Powered by a premium 3500mAh lithium-ion rechargeable battery, enjoy 6 to 8 hours of uninterrupted playtime on long highway drives, flights, or family camping trips.</p>
-    <ul style="padding-left: 20px; font-size: 14.5px; color: #475569; margin: 0 0 12px 0;">
-      <li style="margin-bottom: 6px;"><strong>Fast Type-C Charging:</strong> Recharges effortlessly via standard phone chargers or power banks.</li>
-      <li style="margin-bottom: 6px;"><strong>Front-Firing Speaker + 3.5mm Audio:</strong> Enjoy punchy retro 8-bit sound or plug in headphones for private play.</li>
-      <li style="margin-bottom: 6px;"><strong>OTG Support:</strong> Connect external controllers for two-player multiplayer battles.</li>
-    </ul>
-  </div>
-
-  <!-- Image 5 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd755b2a35902476a8fd5912a553b4f0f7.jpg" alt="R36S Ergonomic Handheld Design and Build Quality" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
-
-  <!-- Specifications Table -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 14px; border-left: 4px solid #d4af37; padding-left: 12px;">Technical Specifications</h3>
-    <table style="width: 100%; border-collapse: collapse; font-size: 14px; text-align: left; background: #ffffff; border-radius: 10px; overflow: hidden; border: 1px solid #e2e8f0;">
-      <tbody>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc; width: 35%;">Screen</td>
-          <td style="padding: 10px 14px; color: #475569;">3.5-inch IPS OCA Full-Fit (640×480, 4:3 Ratio)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">Processor</td>
-          <td style="padding: 10px 14px; color: #475569;">Rockchip RK3326 Quad-Core 64-Bit Cortex-A35 up to 1.5GHz</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">GPU & RAM</td>
-          <td style="padding: 10px 14px; color: #475569;">Mali-G31MP2 (OpenGL ES 3.2) • 1GB DDR3L High-Speed RAM</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">Storage</td>
-          <td style="padding: 10px 14px; color: #475569;">64GB MicroSD (Preloaded with 15,000+ Games), Supports up to 512GB</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">Operating System</td>
-          <td style="padding: 10px 14px; color: #475569;">Open-Source Linux (ArkOS)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">Battery & Charging</td>
-          <td style="padding: 10px 14px; color: #475569;">3500mAh Polymer Li-ion (6–8h Playtime) • Type-C 5V/2A Fast Charge</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">Audio & Ports</td>
-          <td style="padding: 10px 14px; color: #475569;">Built-in 8W Speaker, 3.5mm Headphone Jack, Dual Type-C (Charge + OTG)</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">Package Contents</td>
-          <td style="padding: 10px 14px; color: #475569;">R36S Console, 64GB TF Card, Type-C Charging Cable, Screen Protector, User Manual</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Saudi Shopping Guarantee & Perks Box -->
-  <div style="background: #fdfcf7; border: 2px solid #d4af37; border-radius: 14px; padding: 22px 20px; margin-top: 24px;">
-    <h4 style="font-size: 16px; font-weight: 800; color: #0d1c2a; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">
-      <span>🇸🇦</span> Why Shop With Zelmiqo in Saudi Arabia?
-    </h4>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; font-size: 13.5px; color: #334155;">
-      <div>🚚 <strong>Fast 7–8 Days Delivery</strong> across Riyadh, Jeddah, Dammam & all KSA cities.</div>
-      <div>🛡️ <strong>14-Day Golden Guarantee</strong>: 100% replacement for any defect.</div>
-      <div>💳 <strong>Split in 4 with Tabby & Tamara</strong>: Zero interest, zero hidden fees.</div>
-      <div>🔒 <strong>100% Safe Payments</strong>: Mada, Apple Pay, Visa, Mastercard & COD available.</div>
-    </div>
-  </div>
-
-</div>
+<h2>✨ Timeless Nostalgia. Pure Entertainment.</h2>
+<p><strong>Play &bull; Save &bull; Relive &bull; Travel &bull; Enjoy</strong></p>
+<p>Bring the timeless excitement of arcade classics and childhood memories into your pocket with the <strong>Zelmiqo R36S Retro Handheld Game Console</strong>.</p>
+<p><strong>Fast 7–8 days delivery across Saudi Arabia, 14-day Golden Guarantee, and flexible 4-payment installments with Tabby and Tamara.</strong></p>
 ```
 
 ---
 
-### 🇸🇦 Arabic Rich HTML Description (FatherShops Pasteable)
+### 🇸🇦 Arabic Product Description Box (Unstyled Semantic HTML)
 
 ```html
-<div dir="rtl" style="font-family: 'Segoe UI', Tahoma, Arial, sans-serif; line-height: 1.8; color: #1e293b; max-width: 960px; margin: 0 auto; padding: 10px; text-align: right;">
+<h2>🎮 جهاز ألعاب الطيبين الكلاسيكي المحمول R36S مع شاشة 3.5 بوصة IPS وأكثر من 15,000 لعبة</h2>
+<p>استرجع أجمل ذكريات الطفولة ولحظات الحماس الذهبية مع جهاز ألعاب محمول بحجم الجيب مصمم <strong>ليعيد إليك متعة ألعاب الطيبين وصالات الأركيد الكلاسيكية</strong> &mdash; في أي وقت وأي مكان داخل المملكة العربية السعودية.</p>
+<p>بفضل <strong>معالج رباعي النواة عالي السرعة، وعصا تحكم أنالوج مزدوجة 3D، وشاشة IPS ملونة عالية النقاء مقاس 3.5 بوصة، وبطارية عملاقة 3500 ملي أمبير</strong>، يأتي هذا الجهاز الصغير محملاً مسبقاً بأكثر من 15,000 لعبة كلاسيكية جاهزة للتشغيل الفوري فور إخراجه من الصندوق دون أي تعقيد.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa105d90717b64fbb9f45773545970e8ak.png" /></p>
 
-  <!-- Hero Highlight Banner -->
-  <div style="background: linear-gradient(135deg, #0d1c2a 0%, #1a365d 100%); color: #ffffff; padding: 28px 24px; border-radius: 16px; margin-bottom: 24px; text-align: center; border: 1px solid rgba(212, 175, 55, 0.3); box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
-    <span style="background: #d4af37; color: #0d1c2a; font-size: 12px; font-weight: 800; padding: 4px 14px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; display: inline-block; margin-bottom: 12px;">جهاز ألعاب الطيبين الأسطوري</span>
-    <h2 style="font-size: 26px; font-weight: 800; margin: 0 0 10px 0; color: #ffffff; letter-spacing: -0.5px;">أكثر من 15,000 لعبة كلاسيكية في راحة يدك</h2>
-    <p style="font-size: 15.5px; margin: 0; color: #cbd5e1; max-width: 720px; margin: 0 auto;">استعد أجمل ذكريات الطفولة ولحظات الحماس الخالدة. يجمع جهاز R36S المحمول مكتبة ضخمة تضم أشهر ألعاب الطيبين عبر شاشة IPS فائقة الوضوح ومعالج قوي يمنحك تجربة لعب سلسة أينما ذهبت.</p>
-  </div>
+<h2>🕹️ تجربة ألعاب كلاسيكية متكاملة بين يديك</h2>
+<h3>✔ أكثر من 15,000 لعبة محملة مسبقاً</h3>
+<p>وداعاً لتعقيدات التنزيل والإعداد والاتصال بالإنترنت. فقط شغّل الجهاز وانطلق مباشرة في عالم ألعاب الطيبين عبر منصات بلايستيشن 1، وبي إس بي، ونينتندو، وجيم بوي، وسيجا، وألعاب الأركيد.</p>
+<h3>✔ شاشة IPS فائقة الوضوح مقاس 3.5 بوصة</h3>
+<p>استمتع بألوان زاهية وتفاصيل نقية بدقة 640&times;480 وبأبعاد 4:3 التراثية مع زاوية رؤية واسعة 178 درجة وتقنية التصفيح الكامل OCA لمنع الانعكاسات المزعجة.</p>
+<h3>✔ عصا تحكم مزدوجة 3D وأزرار كتف خلفية</h3>
+<p>تحكم فائق الدقة بزاوية 360 درجة في ألعاب القتال والسباقات والمغامرات مع أزرار توجيه سريعة الاستجابة وأزرار كتف خلفية مريحة L1/L2/R1/R2 لتجربة لعب احترافية.</p>
+<h3>✔ حفظ فوري لتقدم اللعبة (Save States)</h3>
+<p>بفضل نظام التشغيل المطور ArkOS، يمكنك حفظ مرحلتك في أي ثانية والرجوع إليها لاحقاً بضغطة زر واحدة دون فقدان تقدمك أبداً.</p>
+<h3>✔ بطارية قوية سعة 3500 ملي أمبير</h3>
+<p>استمتع بما يصل إلى 6 إلى 8 ساعات من الترفيه المتواصل أثناء السفر، ورحلات البر، والطلعات العائلية، مع سهولة الشحن عبر منفذ Type-C.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/S6b6b3c0999644665939a659544fcb26dt.jpg" /></p>
 
-  <!-- Key Value Props Strip -->
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-bottom: 24px;">
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 22px; margin-bottom: 4px;">🎮</div>
-      <strong style="color: #0f172a; font-size: 14.5px; display: block;">15,000+ لعبة كلاسيكية</strong>
-      <span style="font-size: 12px; color: #64748b;">أكثر من 20 محاكياً مدمجاً</span>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 22px; margin-bottom: 4px;">📺</div>
-      <strong style="color: #0f172a; font-size: 14.5px; display: block;">شاشة IPS مقاس 3.5 بوصة</strong>
-      <span style="font-size: 12px; color: #64748b;">دقة 640×480 بتقنية OCA</span>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 22px; margin-bottom: 4px;">🕹️</div>
-      <strong style="color: #0f172a; font-size: 14.5px; display: block;">عصا تحكم مزدوجة 3D</strong>
-      <span style="font-size: 12px; color: #64748b;">أزرار كتف خلفية L1/L2/R1/R2</span>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px 16px; border-radius: 12px; text-align: center;">
-      <div style="font-size: 22px; margin-bottom: 4px;">🔋</div>
-      <strong style="color: #0f172a; font-size: 14.5px; display: block;">بطارية قوية 3500 مللي أمبير</strong>
-      <span style="font-size: 12px; color: #64748b;">6 إلى 8 ساعات لعب متواصل</span>
-    </div>
-  </div>
+<h2>🌈 منصات الألعاب والمحاكيات المدعومة</h2>
+<h3>🎮 بلايستيشن 1 (PS1) وبي إس بي (PSP)</h3>
+<p>عش تجربة ألعاب المغامرات والسيارات والمصارعة ثلاثية الأبعاد الكلاسيكية بسلاسة وسرعة 60 إطاراً في الثانية.</p>
+<h3>🕹️ ألعاب صالات الأركيد الكلاسيكية (MAME, NeoGeo, CPS)</h3>
+<p>استعد متعة ألعاب القتال التنافسية وطيارات الحروب القديمة بنظام الأركيد الأصلي.</p>
+<h3>👾 ألعاب نينتندو الأسطورية (N64, GBA, GBC, GB, SNES, NES)</h3>
+<p>أعد اكتشاف ألعاب المغامرات الفردية وألعاب الجيم بوي التي رافقتنا طوال سنوات الطفولة الجميلة.</p>
+<h3>⚡ سيجا جينيسيس وميجا درايف (Sega Genesis)</h3>
+<p>انطلق مع ألعاب الحركة السريعة والتأثيرات الصوتية الحماسية المميزة لجيل الـ 16 بت.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/S81c1e5abb99e473d890a0cdd8110576bd.jpg" /></p>
 
-  <!-- Image 1 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sa105d90717b64fbb9f45773545970e8ak.png" alt="جهاز ألعاب الطيبين R36S المحمول" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
+<h2>💡 لماذا ستحب هذا الجهاز؟</h2>
+<ul>
+<li>أكثر من 15,000 لعبة كلاسيكية أصلية جاهزة للتشغيل الفوري</li>
+<li>يدعم أكثر من 20 محاكياً ومنصة ألعاب كلاسيكية شهيرة</li>
+<li>شاشة IPS نقية مقاس 3.5 بوصة مصفحة بالكامل بتقنية OCA</li>
+<li>عصا تحكم مزدوجة ثلاثية الأبعاد لتحكم سلس وسريع</li>
+<li>4 أزرار كتف خلفية (L1, L2, R1, R2) لتجربة تحكم متكاملة</li>
+<li>ميزة الحفظ والاسترجاع الفوري للمراحل بضغطة زر</li>
+<li>منفذان لبطاقات الذاكرة: منفذ للنظام ومنفذ 64 جيجابايت للألعاب</li>
+<li>بطارية تدوم من 6 إلى 8 ساعات متواصلة مع شحن Type-C سريع</li>
+<li>سبيكر مدمج بنغمات كلاسيكية نقية بالإضافة لمنفذ سماعة 3.5 ملم</li>
+<li>وزن خفيف جداً يقل عن 200 جرام وحجم جيب مدمج لسهولة التنقل</li>
+</ul>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbf617519611847a4804940a5c27c5d46n.jpg" /></p>
 
-  <!-- Section 1: Nostalgia & Emulation -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-right: 4px solid #d4af37; padding-right: 12px;">شغّل والعب فوراً.. دون الحاجة لإنترنت</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">وداعاً لتعقيدات التحميل والاشتراكات. فقط شغّل الجهاز وانطلق مباشرة في عالم يضم أكثر من 15,000 لعبة من ألعاب التسعينات وبداية الألفية التي عشنا معها أجمل الذكريات. يغطي الجهاز أكثر من 20 منصة ومحاكياً أسطورياً من بينها:</p>
-    <div style="background: #f1f5f9; padding: 14px 18px; border-radius: 10px; font-size: 13.5px; color: #334155; line-height: 1.8;">
-      <strong>المنصات المدعومة:</strong> بلايستيشن 1 (PS1)، وبلايستيشن بورتابل (PSP)، ونينتندو 64 (N64)، وجيم بوي أدفانس (GBA)، وجيم بوي كولر (GBC)، وسوبر نينتندو (SNES)، وسيجا جينيسيس (Mega Drive)، وألعاب الآركيد وصالات الألعاب الكلاسيكية (MAME/CPS)، وغيرها الكثير.
-    </div>
-  </div>
+<h2>🚀 سهولة مطلقة: شغّل واستمتع فوراً</h2>
+<p>كل ما عليك هو تشغيل الجهاز واختيار منصتك المفضلة وبدء اللعب مباشرة. بفضل <strong>أزرار الاختصار السريعة للحفظ، والتحكم بمستوى السطوع والصوت، ودعم اللعب المتعدد عبر منفذ OTG</strong>، أصبح خوض غمار ألعاب الطيبين أسهل وأكثر متعة من أي وقت مضى.</p>
+<p><img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd755b2a35902476a8fd5912a553b4f0f7.jpg" /></p>
 
-  <!-- Image 2 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/S6b6b3c0999644665939a659544fcb26dt.jpg" alt="شاشة جهاز R36S فائقة الوضوح IPS" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
+<h2>🔋 المواصفات التقنية للمنتج</h2>
+<ul>
+<li><strong>اسم المنتج:</strong> جهاز ألعاب الفيديو المحمول R36S</li>
+<li><strong>الشاشة:</strong> IPS مقاس 3.5 بوصة مصفحة بالكامل OCA (دقة 640 &times; 480، نسبة 4:3)</li>
+<li><strong>المعالج (CPU):</strong> Rockchip RK3326 رباعي النواة 64-بت بتردد 1.5 جيجاهرتز</li>
+<li><strong>معالج الرسوميات (GPU):</strong> Mali-G31MP2 عالي الكفاءة</li>
+<li><strong>الذاكرة العشوائية (RAM):</strong> 1 جيجابايت DDR3L عالية السرعة</li>
+<li><strong>سعة التخزين:</strong> بطاقة ذاكرة 64 جيجابايت (تحتوي على 15,000+ لعبة مسبقاً)</li>
+<li><strong>نظام التشغيل:</strong> لينكس مفتوح المصدر (ArkOS) مخصص للألعاب</li>
+<li><strong>البطارية:</strong> ليثيوم بوليمر 3500 ملي أمبير (6–8 ساعات لعب متواصل)</li>
+<li><strong>الشحن:</strong> منفذ USB Type-C (شحن سريع 5 فولت / 2 أمبير)</li>
+<li><strong>الصوت:</strong> مكبر صوت مدمج بتجويف صوتي + منفذ سماعات رأس قياسي 3.5 ملم</li>
+<li><strong>المنافذ:</strong> منفذ شحن Type-C، منفذ OTG Type-C، منفذان لبطاقات TF، منفذ سماعات 3.5 ملم</li>
+<li><strong>الأبعاد والوزن:</strong> حوالي 130 &times; 82 &times; 21 ملم، 190 جرام تقريباً</li>
+</ul>
 
-  <!-- Section 2: Display & Visuals -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-right: 4px solid #d4af37; padding-right: 12px;">شاشة IPS مصفحة بالألوان الطبيعية مقاس 3.5 بوصة</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">استمتع بألعابك الكلاسيكية بنقاوتها الأصلية. تم تزويد الجهاز بشاشة IPS بتقنية التصفيح الكامل OCA بدقة 640×480 وبأبعاد 4:3 المخصصة للألعاب التراثية دون أي تمطيط للصورة أو تشويه للبكسلات.</p>
-    <ul style="padding-right: 20px; font-size: 14.5px; color: #475569; margin: 0 0 12px 0;">
-      <li style="margin-bottom: 6px;"><strong>زاوية رؤية واسعة 178 درجة:</strong> ألوان زاهية وتباين فائق من كافة الزوايا.</li>
-      <li style="margin-bottom: 6px;"><strong>طبقة حماية OCA بدون فجوات:</strong> تمنع انعكاس الضوء وتحمي الشاشة من الغبار.</li>
-      <li style="margin-bottom: 6px;"><strong>مريحة للعين:</strong> تدرج سطوع ذكي يتيح اللعب ليلاً براحة تامة.</li>
-    </ul>
-  </div>
+<h2>📦 محتويات العلبة</h2>
+<ul>
+<li>1 &times; جهاز ألعاب الفيديو المحمول R36S</li>
+<li>1 &times; بطاقة ذاكرة سريعة 64 جيجابايت (مثبت عليها 15,000+ لعبة)</li>
+<li>1 &times; كابل شحن سريع USB Type-C</li>
+<li>1 &times; لصقة حماية زجاجية للشاشة</li>
+<li>1 &times; دليل المستخدم</li>
+</ul>
 
-  <!-- Image 3 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/S81c1e5abb99e473d890a0cdd8110576bd.jpg" alt="أزرار التحكم وعصا التحكم المزدوجة لجهاز R36S" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
+<h2>⚠️ تعليمات استخدام وإرشادات هامة</h2>
+<ol>
+<li>اضغط مطولاً على زر التشغيل العلوي لمدة 3 ثوانٍ لتشغيل الجهاز أو إيقاف تشغيله بأمان.</li>
+<li>لحفظ مرحلة اللعبة في أي وقت، اضغط على زر الاختصار (FN + R1) للحفظ الفوري، واضغط (FN + L1) لاسترجاع مرحلتك المحفوظة.</li>
+<li>للخروج بأمان من أي لعبة والعودة إلى قائمة الألعاب الرئيسية، اضغط على (FN + Start) معاً أو اضغط على Select + Start مرتين متتاليتين.</li>
+<li>احرص دائماً على إيقاف تشغيل الجهاز عبر قائمة النظام أو بالضغط المطول على زر التشغيل، وتجنب نزع بطاقة الذاكرة أثناء عمل النظام.</li>
+<li>يُنصح باستخدام كابل Type-C المرفق مع شاحن جداري عادي 5 فولت / 2 أمبير، وتجنب استخدام الشواحن السريعة ذات القدرات العالية التي تتجاوز 5V/2A.</li>
+<li>احفظ الجهاز بعيداً عن السوائل والرطوبة وأشعة الشمس المباشرة للحفاظ على كفاءة البطارية والشاشة.</li>
+<li>لإضافة ألعاب مخصصة جديدة، يمكنك إدخال بطاقة الذاكرة الثانوية في قارئ بطاقات الكمبيوتر ونسخ ملفات الألعاب داخل المجلدات المخصصة لكل منصة.</li>
+</ol>
 
-  <!-- Section 3: Precision Controls & Performance -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-right: 4px solid #d4af37; padding-right: 12px;">تحكم احترافي بعصا أنالوج مزدوجة وأزرار كتف خلفية</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">تحكم فائق الدقة في ألعاب المغامرات، والقتال، وسباقات السيارات ثلاثية الأبعاد. يمنحك الجهاز زوجاً من عصي الأنالوج 3D مع أزرار توجيه كلاسيكية متجاوبة وأزرار كتف خلفية L1/L2/R1/R2 بتصميم مريح لقبضة اليد أثناء اللعب الحماسي.</p>
-    <ul style="padding-right: 20px; font-size: 14.5px; color: #475569; margin: 0 0 12px 0;">
-      <li style="margin-bottom: 6px;"><strong>معالج رباعي النواة 64-بت RK3326:</strong> أداء سلس واستقرار 60 إطاراً في الثانية دون تقطيع في الصوت أو الصورة.</li>
-      <li style="margin-bottom: 6px;"><strong>حفظ تقدم اللعبة فوراً (Save State):</strong> احفظ لعبتك في أي ثانية واستأنفها بضغطة زر واحدة.</li>
-      <li style="margin-bottom: 6px;"><strong>منفذان لبطاقات الذاكرة:</strong> منفذ مخصص لنظام التشغيل ومنفذ للألعاب بسعة 64 جيجابايت قابلة للتوسعة.</li>
-    </ul>
-  </div>
-
-  <!-- Image 4 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sbf617519611847a4804940a5c27c5d46n.jpg" alt="مكتبة ألعاب الطيبين الضخمة على جهاز R36S" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
-
-  <!-- Section 4: Battery & On-The-Go Portability -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 12px; border-right: 4px solid #d4af37; padding-right: 12px;">بطارية تدوم طويلاً وحجم جيب مثالي لجمعات العائلة والسفر</h3>
-    <p style="font-size: 15px; color: #475569; margin-bottom: 12px;">بوزن خفيف يقل عن 200 جرام وحجم مدمج يدخل جيبك بسهولة، يعتبر جهاز R36S رفيقك المثالي في طلعات البر، وجلسات الاستراحة، ورحلات الطيران، والسفر بين مدن المملكة. بطارية ليثيوم بوليمر سعة 3500 مللي أمبير تمنحك من 6 إلى 8 ساعات من الترفيه المتواصل.</p>
-    <ul style="padding-right: 20px; font-size: 14.5px; color: #475569; margin: 0 0 12px 0;">
-      <li style="margin-bottom: 6px;"><strong>شحن سريع Type-C:</strong> اشحنه بسهولة عبر شاحن جوالك أو بنك الطاقة المتنقل.</li>
-      <li style="margin-bottom: 6px;"><strong>مكبر صوت نقي + منفذ سماعات 3.5 ملم:</strong> صوت ألعاب 8-bit كلاسيكي حماسي مع خيار استخدام السماعات السلكية.</li>
-      <li style="margin-bottom: 6px;"><strong>دعم منافذ OTG:</strong> إمكانية ربط أذرع تحكم إضافية للعب الزوجي والتحدي الممتع.</li>
-    </ul>
-  </div>
-
-  <!-- Image 5 -->
-  <div style="text-align: center; margin: 24px 0;">
-    <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sd755b2a35902476a8fd5912a553b4f0f7.jpg" alt="تصميم وخامات جهاز الألعاب المحمول R36S" style="max-width: 100%; height: auto; border-radius: 14px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); display: block; margin: 0 auto;" />
-  </div>
-
-  <!-- Specifications Table -->
-  <div style="margin-bottom: 28px;">
-    <h3 style="font-size: 20px; font-weight: 700; color: #0d1c2a; margin-bottom: 14px; border-right: 4px solid #d4af37; padding-right: 12px;">المواصفات التقنية للجهاز</h3>
-    <table style="width: 100%; border-collapse: collapse; font-size: 14px; text-align: right; background: #ffffff; border-radius: 10px; overflow: hidden; border: 1px solid #e2e8f0;">
-      <tbody>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc; width: 35%;">الشاشة</td>
-          <td style="padding: 10px 14px; color: #475569;">IPS مقاس 3.5 بوصة مصفحة بالكامل OCA (دقة 640×480 بنسبة 4:3)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">المعالج (CPU)</td>
-          <td style="padding: 10px 14px; color: #475569;">Rockchip RK3326 رباعي النواة 64-بت Cortex-A35 بتردد 1.5 جيجاهرتز</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">معالج الرسوميات والذاكرة</td>
-          <td style="padding: 10px 14px; color: #475569;">Mali-G31MP2 • رام 1 جيجابايت DDR3L عالية السرعة</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">سعة التخزين</td>
-          <td style="padding: 10px 14px; color: #475569;">ذاكرة MicroSD سعة 64 جيجابايت مجهزة بـ 15,000+ لعبة (تدعم حتى 512 جيجابايت)</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">نظام التشغيل</td>
-          <td style="padding: 10px 14px; color: #475569;">لينكس مفتوح المصدر (ArkOS) مجهز ومعدل بالكامل</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">البطارية والشحن</td>
-          <td style="padding: 10px 14px; color: #475569;">3500 مللي أمبير بوليمر ليثيوم (6–8 ساعات تشغيل) • منفذ شحن سريع Type-C</td>
-        </tr>
-        <tr style="border-bottom: 1px solid #e2e8f0;">
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">الصوت والمنافذ</td>
-          <td style="padding: 10px 14px; color: #475569;">سبيكر مدمج 8 واط، منفذ سماعات 3.5 ملم، منفذا Type-C (شحن + توصيل OTG)</td>
-        </tr>
-        <tr>
-          <td style="padding: 10px 14px; font-weight: 700; color: #1e293b; background: #f8fafc;">محتويات العلبة</td>
-          <td style="padding: 10px 14px; color: #475569;">جهاز R36S، كرت ذاكرة 64 جيجابايت، كابل شحن Type-C، ستيكر حماية شاشة، دليل الاستخدام</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Saudi Shopping Guarantee & Perks Box -->
-  <div style="background: #fdfcf7; border: 2px solid #d4af37; border-radius: 14px; padding: 22px 20px; margin-top: 24px;">
-    <h4 style="font-size: 16px; font-weight: 800; color: #0d1c2a; margin: 0 0 12px 0; display: flex; align-items: center; gap: 8px;">
-      <span>🇸🇦</span> لماذا تتسوق جهاز ألعابك من متجر زيلميكو؟
-    </h4>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; font-size: 13.5px; color: #334155;">
-      <div>🚚 <strong>توصيل سريع خلال 7–8 أيام</strong> لكافة مدن ومحافظات المملكة (الرياض، جدة، الشرقية، مكة، المدينة).</div>
-      <div>🛡️ <strong>الضمان الذهبي 14 يوماً</strong>: استبدال فوري ومجاني عند وجود أي عيب مصنعي.</div>
-      <div>💳 <strong>قسّم فاتورتك مع تابي وتمارا</strong>: على 4 دفعات ميسرة بدون فوائد أو رسوم إضافية.</div>
-      <div>🔒 <strong>طرق دفع آمنة 100%</strong>: مدى، أبل باي، فيزا، ماستركارد، مع إمكانية الدفع عند الاستلام.</div>
-    </div>
-  </div>
-
-</div>
-```
+<h2>✨ ذكريات لا تُنسى. ترفيه لا ينتهي.</h2>
+<p><strong>العب &bull; احفظ &bull; استرجع ذكرياتك &bull; سافر &bull; استمتع</strong></p>
+<p>اجعل أوقات فراغك وسفرك عامرة بالحماس مع <strong>جهاز ألعاب الطيبين المحمول R36S من زيلميكو</strong>.</p>
+<p><strong>توصيل سريع خلال 7–8 أيام لكافة مدن المملكة، الضمان الذهبي لمدة 14 يوماً، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.</strong></p>
