@@ -52,13 +52,13 @@
       color: #fff;
       letter-spacing: 0.5px;
     }
-    .brand-title span.badge {
+    .brand-title .badge {
       background: var(--gold);
       color: var(--primary);
       font-size: 11px;
       font-weight: 800;
-      padding: 4px 10px;
-      border-radius: 20px;
+      padding: 3px 10px;
+      border-radius: 12px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
@@ -88,27 +88,26 @@
     .header-tip {
       color: #94a3b8;
       font-size: 13px;
-      font-weight: 500;
     }
 
-    /* Layout: Split Screen Container */
+    /* Main Split-Screen Container */
     .app-container {
       display: flex;
-      height: calc(100vh - 61px);
+      height: calc(100vh - 59px);
       overflow: hidden;
     }
 
-    /* Left Pane: Visual Live Website */
+    /* LEFT PANE: Visual Image & Sticky Navigation */
     .visual-pane {
       width: 48%;
-      background: #0f172a;
-      border-right: 2px solid #cbd5e1;
+      background: var(--bg-dark);
+      border-right: 2px solid var(--border-dark);
       display: flex;
       flex-direction: column;
       overflow: hidden;
     }
     .visual-toolbar {
-      background: #1e293b;
+      background: #111e2e;
       padding: 10px 14px;
       display: flex;
       flex-wrap: wrap;
@@ -127,13 +126,14 @@
       white-space: nowrap;
       font-weight: 600;
       outline: none;
+      transition: all 0.2s;
     }
-    /* ONLY active tab has color & background change (NO hover switch) */
     .visual-toolbar button.active {
       background: var(--gold);
       color: var(--primary);
       border-color: var(--gold);
       font-weight: 800;
+      box-shadow: 0 0 10px rgba(212,175,55,0.4);
     }
     .visual-content {
       flex: 1;
@@ -142,12 +142,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      position: relative;
     }
     .image-wrapper {
       position: relative;
       width: 100%;
-      max-width: 760px;
+      max-width: 900px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.5);
       border-radius: 8px;
       overflow: hidden;
@@ -160,30 +159,29 @@
       display: block;
       border-radius: 8px;
     }
-
     .slider-hint-box {
-      background: #1e293b;
-      border-left: 4px solid var(--gold);
-      padding: 12px 16px;
-      border-radius: 0 8px 8px 0;
-      color: #e2e8f0;
-      font-size: 12.5px;
       width: 100%;
-      max-width: 760px;
-      line-height: 1.5;
+      max-width: 900px;
+      background: #162436;
+      border-left: 4px solid var(--gold);
+      padding: 10px 16px;
+      border-radius: 0 6px 6px 0;
+      color: #cbd5e1;
+      font-size: 13px;
+      margin-top: 4px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
-    .slider-hint-box strong { color: var(--gold); }
 
-    /* Right Pane: Copy & Paste Cards Workstation */
+    /* RIGHT PANE: Workstation Copy Cards */
     .workstation-pane {
       width: 52%;
+      background: #f8fafc;
       overflow-y: auto;
       padding: 20px 28px 60px 28px;
-      background: #f8fafc;
       position: relative;
     }
-    
-    /* Sticky Top Navigation Pills (ScrollSpy Enabled) */
+
+    /* Sticky Sub-Navigation Pills (ScrollSpy) */
     .section-nav-pills {
       display: flex;
       flex-wrap: wrap;
@@ -209,8 +207,8 @@
       align-items: center;
       gap: 4px;
       outline: none;
+      transition: all 0.2s;
     }
-    /* ONLY active pill has color & background change (NO hover switch) */
     .section-nav-pills a.active {
       background: var(--gold);
       color: var(--primary);
@@ -223,20 +221,24 @@
     .content-card {
       scroll-margin-top: 90px;
       background: #fff;
-      border: 1px solid #e2e8f0;
-      border-radius: 12px;
-      margin-bottom: 28px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 24px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-      overflow: hidden;
+      transition: all 0.3s ease;
     }
     .content-card.highlight {
       border: 2px solid var(--gold);
       box-shadow: 0 0 22px rgba(212, 175, 55, 0.35);
     }
+    .content-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
     .card-header {
-      background: #f8fafc;
-      padding: 14px 20px;
-      border-bottom: 1px solid #e2e8f0;
+      background: #f1f5f9;
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      border-radius: 10px 10px 0 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -244,52 +246,43 @@
     .card-header-title {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 10px;
     }
     .card-main-badge {
       background: var(--red-accent);
       color: #fff;
-      padding: 4px 10px;
-      border-radius: 6px;
+      font-size: 11px;
       font-weight: 800;
-      font-size: 13px;
-      letter-spacing: 0.3px;
-      flex-shrink: 0;
-      box-shadow: 0 2px 5px rgba(230, 25, 25, 0.3);
+      padding: 3px 8px;
+      border-radius: 4px;
     }
-    .card-header-title h3 {
-      font-size: 16px;
-      color: var(--primary);
+    .card-header h3 {
+      font-size: 15px;
       font-weight: 700;
+      color: var(--primary);
     }
     .section-admin-path {
       font-size: 11px;
-      background: #e0f2fe;
-      color: #0369a1;
-      padding: 4px 9px;
-      border-radius: 12px;
-      font-weight: 600;
+      color: #64748b;
+      background: #e2e8f0;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: monospace;
     }
     .card-admin-tip {
-      background: #eff6ff;
-      border-left: 4px solid #3b82f6;
-      padding: 9px 14px;
-      margin: 14px 20px 0 20px;
+      background: #f8fafc;
+      border-left: 3px solid #3b82f6;
+      padding: 8px 16px;
       font-size: 12px;
-      color: #1e3a8a;
-      border-radius: 0 6px 6px 0;
-      line-height: 1.4;
+      color: #334155;
     }
-    .card-admin-tip strong { color: #1d4ed8; }
     .card-body {
-      padding: 20px;
+      padding: 16px 20px;
     }
-    
-    /* Field Rows & Sub-Points */
     .field-row {
-      margin-bottom: 24px;
-      padding-bottom: 20px;
-      border-bottom: 1px dashed #e2e8f0;
+      margin-bottom: 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #f1f5f9;
     }
     .field-row:last-child {
       margin-bottom: 0;
@@ -300,7 +293,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }
     .field-title-wrap {
       display: flex;
@@ -308,111 +301,103 @@
       gap: 8px;
     }
     .field-callout-pill {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
       background: var(--red-accent);
-      color: #ffffff;
+      color: #fff;
+      font-size: 11px;
       font-weight: 800;
-      font-size: 12px;
-      padding: 3px 8px;
+      padding: 2px 6px;
       border-radius: 4px;
-      box-shadow: 0 2px 5px rgba(230, 25, 25, 0.3);
-      letter-spacing: 0.3px;
-      flex-shrink: 0;
-      white-space: nowrap;
     }
     .field-title-text {
       font-size: 13px;
       font-weight: 700;
-      color: var(--primary);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+      color: #0f172a;
     }
     .field-target-loc {
-      font-size: 11.5px;
-      color: #64748b;
-      font-style: italic;
+      font-size: 11px;
+      color: #94a3b8;
     }
-
-    /* Old Live Content Box */
     .old-content-box {
-      background: #f1f5f9;
-      border: 1px solid #cbd5e1;
-      border-left: 4px solid #94a3b8;
-      border-radius: 6px;
-      padding: 10px 14px;
-      margin-bottom: 12px;
+      background: #fff5f5;
+      border-left: 3px solid #f87171;
+      padding: 8px 12px;
+      font-size: 12px;
+      color: #7f1d1d;
+      margin-bottom: 8px;
+      border-radius: 0 4px 4px 0;
     }
     .old-tag {
-      font-size: 10.5px;
+      font-size: 10px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.5px;
-      color: #475569;
-      display: inline-block;
-      margin-bottom: 4px;
+      margin-bottom: 2px;
+      color: #b91c1c;
     }
     .old-text {
-      font-size: 13px;
-      color: #334155;
-      line-height: 1.45;
-      font-family: inherit;
+      font-size: 12px;
+      color: #7f1d1d;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.5;
     }
-
-    /* New Copy Boxes */
     .copy-box {
-      display: flex;
-      gap: 10px;
-      align-items: stretch;
-      margin-bottom: 10px;
-    }
-    .copy-box:last-child {
-      margin-bottom: 0;
-    }
-    .content-preview {
-      flex: 1;
-      background: #fff;
-      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      border: 1px solid var(--border);
       border-radius: 6px;
       padding: 10px 14px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+    .copy-box:last-child { margin-bottom: 0; }
+    .content-preview {
       font-size: 13px;
-      color: var(--text-main);
+      color: #1e293b;
+      white-space: pre-wrap;
+      word-break: break-word;
       line-height: 1.5;
     }
     .content-preview.arabic {
       direction: rtl;
+      text-align: right;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
-      background: #fffdf5;
-      border-color: #e8d7a5;
+      color: #0d1c2a;
+      background: #fcfbf7;
+      border-left: none;
+      border-right: 3px solid var(--gold);
+      padding: 8px 12px;
+      margin-top: 4px;
+      border-radius: 4px;
     }
     .copy-btn-bar {
       display: flex;
-      align-items: center;
+      justify-content: flex-end;
+      margin-top: 6px;
     }
     .copy-btn {
-      background: #0f172a;
-      color: #fff;
-      border: none;
-      padding: 0 16px;
-      height: 100%;
-      min-height: 42px;
-      border-radius: 6px;
-      font-size: 12px;
+      background: #fff;
+      color: var(--primary);
+      border: 1px solid #cbd5e1;
+      padding: 4px 10px;
+      font-size: 11px;
       font-weight: 700;
+      border-radius: 4px;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      gap: 6px;
-      white-space: nowrap;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
     }
     .copy-btn.copied {
       background: var(--green);
       color: #fff;
+      border-color: var(--green);
     }
-
-    /* Toast Notification */
     .toast {
       position: fixed;
       bottom: 24px;
@@ -425,8 +410,8 @@
       font-size: 13px;
       font-weight: 600;
       box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      z-index: 99999;
       display: none;
-      z-index: 1000;
     }
   </style>
 </head>
@@ -450,14 +435,15 @@
     <!-- LEFT PANE: Visual Website with Pixel-Perfect Embedded Callouts -->
     <div class="visual-pane">
       <div class="visual-toolbar">
-        <button class="active" data-key="hero" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slider</button>
-        <button data-key="trust" onclick="selectSection('trust', 'card-trust-pillars')">2. Trust Pillars (3 Cards)</button>
-        <button data-key="categories" onclick="selectSection('categories', 'card-categories-slider')">3. Categories (8 Slides)</button>
-        <button data-key="new_collection" onclick="selectSection('new_collection', 'card-new-collection')">4. New Collection (6 Slides)</button>
-        <button data-key="mid_banners" onclick="selectSection('mid_banners', 'card-mid-banners')">5. Mid Banners</button>
-        <button data-key="trending" onclick="selectSection('trending', 'card-trending-slider')">6. Trending (6 Slides)</button>
-        <button data-key="testimonials" onclick="selectSection('testimonials', 'card-testimonials-slider')">7. Testimonials (6 Slides)</button>
-        <button data-key="full" onclick="selectSection('full', 'card-seo-metadata')">8. Full Page & SEO Map</button>
+<button class="active" data-key="hero1" onclick="selectSection('hero1', 'card-hero-slide1')">1. Hero Slide 1</button>
+        <button data-key="hero2" onclick="selectSection('hero2', 'card-hero-slide2')">2. Hero Slide 2</button>
+        <button data-key="trust" onclick="selectSection('trust', 'card-trust-pillars')">3. Trust Pillars</button>
+        <button data-key="categories" onclick="selectSection('categories', 'card-categories-slider')">4. Categories</button>
+        <button data-key="new_collection" onclick="selectSection('new_collection', 'card-new-collection')">5. New Collection</button>
+        <button data-key="mid_banners" onclick="selectSection('mid_banners', 'card-mid-banners')">6. Mid Banners</button>
+        <button data-key="trending" onclick="selectSection('trending', 'card-trending-slider')">7. Trending Products</button>
+        <button data-key="testimonials" onclick="selectSection('testimonials', 'card-testimonials-slider')">8. Testimonials</button>
+        <button data-key="full" onclick="selectSection('full', 'card-seo-metadata')">9. Full Page & SEO</button>
       </div>
 
       <div class="visual-content">
@@ -476,16 +462,16 @@
     <div class="workstation-pane">
 
       <!-- Sticky Navigation Bar for Cards (ScrollSpy Active) -->
-      <div class="section-nav-pills">
-        <a href="javascript:void(0)" class="active" onclick="selectSection('hero', 'card-hero-slide1')">1. Hero Slide 1</a>
-        <a href="javascript:void(0)" onclick="selectSection('hero', 'card-hero-slide2')">2. Hero Slide 2</a>
+      <div class="section-nav-pills" id="sectionNavPills">
+<a href="javascript:void(0)" class="active" onclick="selectSection('hero1', 'card-hero-slide1')">1. Hero Slide 1</a>
+        <a href="javascript:void(0)" onclick="selectSection('hero2', 'card-hero-slide2')">2. Hero Slide 2</a>
         <a href="javascript:void(0)" onclick="selectSection('trust', 'card-trust-pillars')">3. Trust Pillars</a>
         <a href="javascript:void(0)" onclick="selectSection('categories', 'card-categories-slider')">4. Categories</a>
-        <a href="javascript:void(0)" onclick="selectSection('new_collection', 'card-new-collection')">5. New Arrivals</a>
+        <a href="javascript:void(0)" onclick="selectSection('new_collection', 'card-new-collection')">5. New Collection</a>
         <a href="javascript:void(0)" onclick="selectSection('mid_banners', 'card-mid-banners')">6. Mid Banners</a>
         <a href="javascript:void(0)" onclick="selectSection('trending', 'card-trending-slider')">7. Trending</a>
         <a href="javascript:void(0)" onclick="selectSection('testimonials', 'card-testimonials-slider')">8. Testimonials</a>
-        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">9. SEO & Meta Tags</a>
+        <a href="javascript:void(0)" onclick="selectSection('full', 'card-seo-metadata')">9. SEO & Full Page</a>
       </div>
 
       <!-- ============================================================== -->
@@ -1827,49 +1813,53 @@
   <div class="toast" id="toastMsg">✓ Copied to clipboard!</div>
 
   <script>
-    // Visual Section Configuration with Pixel-Perfect Pre-Rendered Images
+    // Visual Images Data Dictionary
     const visualData = {
-      hero: {
+      hero1: {
         img: 'assets/section_1_hero.jpg',
-        hint: '<strong>⚡️ Hero Banner Slider:</strong> Slide 1 (active) and Slide 2 (autoplay) checked. Banners link to the flagship neck fan product page.'
+        hint: '<strong>⚡️ Hero Banner Slider (Slide 1):</strong> Active hero banner featuring Flagless Arctic Neck Fan with direct purchase CTAs.'
+      },
+      hero2: {
+        img: 'assets/section_1_hero.jpg',
+        hint: '<strong>⚡️ Hero Banner Slider (Slide 2):</strong> Autoplay promo banner highlighting smart lifestyle innovations and summer cooling.'
       },
       trust: {
         img: 'assets/section_2_trust.jpg',
-        hint: '<strong>🛡️ Value Proposition: 3 Core Trust Pillars:</strong> Live website trust cards located above the footer.'
+        hint: '<strong>🛡️ Value Proposition: 3 Core Trust Pillars:</strong> Fast 7-8 Days Delivery, 14-Day Golden Guarantee, and Mada/Apple Pay payment options.'
       },
       categories: {
         img: 'assets/section_3_categories.jpg',
-        hint: '<strong>🗂️ Categories Carousel:</strong> Clean callout badges pointing directly to category titles in exact live order.'
+        hint: '<strong>🗂️ Categories Carousel:</strong> 8 Featured Product Categories in exact live site order.'
       },
       new_collection: {
         img: 'assets/section_4_new_collection.jpg',
-        hint: '<strong>✨ New Collection Carousel (6 Products):</strong> Products 1-4 shown on load. Products 5 & 6 rotate via autoplay.'
+        hint: '<strong>✨ New Collection Carousel:</strong> 6 Latest Product Innovations with SAR pricing and Tabby installments.'
       },
       mid_banners: {
         img: 'assets/section_5_mid_banners.jpg',
-        hint: '<strong>🖼️ Mid-Page Dual Banners:</strong> Features Electronics & Gadgets (Left) and Beauty & Personal Care (Right) promo banners.'
+        hint: '<strong>🖼️ Mid-Page Dual Banners:</strong> Smart Living Tech (Left) and Personal Wellness (Right) promo banners.'
       },
       trending: {
         img: 'assets/section_6_trending.jpg',
-        hint: '<strong>🔥 Trending Products Carousel (6 Products):</strong> Products 1-4 shown on initial load. Products 5 & 6 rotate via autoplay.'
+        hint: '<strong>🔥 Trending Products Carousel:</strong> 6 Best-Selling items across Saudi Arabia.'
       },
       testimonials: {
         img: 'assets/section_7_testimonials.jpg',
-        hint: '<strong>💬 Testimonials Slider (6 Slides):</strong> Real customer reviews section located right above the trust pillars.'
+        hint: '<strong>💬 Testimonials Slider:</strong> 6 Verified Saudi customer reviews with ratings.'
       },
       full: {
         img: 'assets/home_full.jpg',
-        hint: '<strong>🗺️ Full Homepage & SEO Meta Architecture:</strong> Google and social search engine metadata, along with full page visual mapping.'
+        hint: '<strong>🗺️ Full Homepage & SEO Meta Architecture:</strong> Google search metadata, social sharing cards, and full page visual cartography.'
       }
     };
 
-    let activeVisualKey = 'hero';
+    let activeVisualKey = 'hero1';
     let isProgrammaticScroll = false;
     let scrollTimeout = null;
 
     const cardToVisual = {
-      'card-hero-slide1': 'hero',
-      'card-hero-slide2': 'hero',
+      'card-hero-slide1': 'hero1',
+      'card-hero-slide2': 'hero2',
       'card-trust-pillars': 'trust',
       'card-categories-slider': 'categories',
       'card-new-collection': 'new_collection',
@@ -1900,8 +1890,14 @@
       const data = visualData[key];
       if (!data) return;
 
-      document.getElementById('visualImage').src = data.img;
-      document.getElementById('sliderHint').innerHTML = data.hint;
+      const imgEl = document.getElementById('visualImage');
+      if (imgEl && data.img) {
+        imgEl.src = data.img;
+      }
+      const hintEl = document.getElementById('sliderHint');
+      if (hintEl && data.hint) {
+        hintEl.innerHTML = data.hint;
+      }
     }
 
     function selectSection(key, cardId) {
@@ -1939,7 +1935,6 @@
         card.classList.add('highlight');
         setTimeout(() => card.classList.remove('highlight'), 2500);
 
-        // Update active sticky nav pill
         updateActivePill(cardId);
       }
     }
@@ -1949,73 +1944,85 @@
         const onclickAttr = a.getAttribute('onclick') || '';
         if (onclickAttr.includes(cardId)) {
           a.classList.add('active');
+          const pillsBar = document.querySelector('.section-nav-pills');
+          if (pillsBar && pillsBar.scrollWidth > pillsBar.clientWidth) {
+            const pillLeft = a.offsetLeft;
+            const pillRight = pillLeft + a.offsetWidth;
+            if (pillLeft < pillsBar.scrollLeft) {
+              pillsBar.scrollTo({ left: Math.max(0, pillLeft - 10), behavior: 'smooth' });
+            } else if (pillRight > pillsBar.scrollLeft + pillsBar.clientWidth) {
+              pillsBar.scrollTo({ left: pillRight - pillsBar.clientWidth + 10, behavior: 'smooth' });
+            }
+          }
         } else {
           a.classList.remove('active');
         }
       });
     }
 
-    // SCROLLSPY: On scroll change active tab in right side column AND left side image tab
+    // ScrollSpy Observer
     const pane = document.querySelector('.workstation-pane');
     const cards = document.querySelectorAll('.content-card');
 
-    pane.addEventListener('scroll', () => {
-      let currentCardId = cards[0] ? cards[0].id : '';
-      const paneTop = pane.getBoundingClientRect().top;
-      
-      cards.forEach(card => {
-        const rect = card.getBoundingClientRect();
-        const cardTop = rect.top - paneTop;
-        if (cardTop <= 160) {
-          currentCardId = card.id;
-        }
-      });
+    if (pane) {
+      pane.addEventListener('scroll', () => {
+        let currentCardId = cards[0] ? cards[0].id : '';
+        const paneTop = pane.getBoundingClientRect().top;
 
-      if (currentCardId) {
-        updateActivePill(currentCardId);
+        cards.forEach(card => {
+          const rect = card.getBoundingClientRect();
+          const cardTop = rect.top - paneTop;
+          if (cardTop <= 160) {
+            currentCardId = card.id;
+          }
+        });
 
-        // SYNC LEFT IMAGE TAB ON SCROLL
-        if (!isProgrammaticScroll) {
-          const targetVisualKey = cardToVisual[currentCardId];
-          if (targetVisualKey && targetVisualKey !== activeVisualKey) {
-            switchVisual(targetVisualKey);
+        if (currentCardId) {
+          updateActivePill(currentCardId);
+
+          // SYNC LEFT IMAGE TAB ON SCROLL
+          if (!isProgrammaticScroll) {
+            const targetVisualKey = cardToVisual[currentCardId];
+            if (targetVisualKey && targetVisualKey !== activeVisualKey) {
+              switchVisual(targetVisualKey);
+            }
           }
         }
-      }
-    }, { passive: true });
+      }, { passive: true });
+    }
 
-    // One-Click Copy Function
     function copyFrom(elemId, btn) {
-      const el = document.getElementById(elemId);
-      if (!el) return;
-      const text = el.innerText || el.textContent;
+      const elem = document.getElementById(elemId);
+      if (!elem) return;
+      const text = elem.innerText || elem.textContent;
 
       navigator.clipboard.writeText(text).then(() => {
-        showToast('✓ Copied to clipboard!');
-        const origText = btn.innerText;
-        btn.innerText = '✓ Copied!';
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '✓ Copied!';
         btn.classList.add('copied');
+        showToast('✓ Copied to clipboard!');
         setTimeout(() => {
-          btn.innerText = origText;
+          btn.innerHTML = originalText;
           btn.classList.remove('copied');
         }, 2000);
       }).catch(err => {
+        console.error('Copy failed: ', err);
         showToast('Failed to copy');
       });
     }
 
     function showToast(msg) {
       const toast = document.getElementById('toastMsg');
-      toast.innerText = msg;
+      if (!toast) return;
+      toast.innerText = msg || '✓ Copied to clipboard!';
       toast.style.display = 'block';
       setTimeout(() => {
         toast.style.display = 'none';
       }, 2000);
     }
 
-    // Initialize: Activate 1st tab in both bars on load
     window.addEventListener('DOMContentLoaded', () => {
-      switchVisual('hero');
+      switchVisual('hero1');
       updateActivePill('card-hero-slide1');
     });
   </script>
