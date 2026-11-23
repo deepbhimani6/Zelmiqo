@@ -289,10 +289,10 @@ Section Header:
 ERGONOMIC VIEW & POWER<br>Hands-Free Screen Viewing While Charging<br>Check WhatsApp messages, take hands-free calls, or stream videos comfortably while your devices power up fast.
 
 4 Concise Benefit Blocks:
-• Block 1: Charges Three Devices<br>Powers your phone, AirPods, and Apple Watch together in one compact dock.
-• Block 2: Upright Phone Stand<br>60° viewing angle keeps notifications visible while charging.
-• Block 3: Charges Phone Upright<br>Dual coils let you charge vertically for chats or horizontally for videos.
-• Block 4: Dedicated AirPods Slot<br>Molded anti-slip slot keeps earbuds secure and charging safely.
+• Block 1: All 3 Devices, One Spot<br>Charge your phone, Apple Watch, and AirPods together without multiple plugs.
+• Block 2: Upright 60° Screen View<br>Check WhatsApp messages and unlock with Face ID without lifting your phone.
+• Block 3: Dual-Angle Fast Charging<br>Charge vertically for video calls or horizontally for watching YouTube and matches.
+• Block 4: Safe AirPods Drop & Charge<br>Dedicated non-slip base holds your AirPods securely so they are always full and ready.
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
@@ -301,10 +301,10 @@ ERGONOMIC VIEW & POWER<br>Hands-Free Screen Viewing While Charging<br>Check What
 رؤية مريحة وشحن متطور<br>شاشة واضحة بين يديك أثناء الشحن السريع<br>تابع تنبيهات الواتساب، وأجرِ مكالماتك، وشاهد مقاطعك المفضلة بزاوية رؤية مثالية أثناء الشحن السريع.
 
 4 بطاقات مزايا موجزة:
-• البطاقة 1: شحن متزامن لـ 3 أجهزة<br>يشحن جوالك وسماعاتك وساعتك معاً في منصة واحدة مدمجة.
-• البطاقة 2: حامل جوال رأسي مريح<br>زاوية رؤية 60° تتيح متابعة الإشعارات وفتح القفل أثناء الشحن.
-• البطاقة 3: شحن بالوضعين الرأسي والأفقي<br>ملفات مزدوجة تتيح الشحن رأسياً للمحادثات أو أفقياً لمشاهدة الفيديو.
-• البطاقة 4: تجويف مخصص لسماعات الإيربودز<br>مكان مخصص بملمس مانع للانزلاق يثبت السماعات ويشحنها بأمان.
+• البطاقة 1: اشحن أجهزتك الثلاثة معاً<br>مكان واحد يجمع جوالك وساعتك وسماعاتك بدون زحمة أفياش أو أسلاك.
+• البطاقة 2: شاشة واضحة بزاوية 60°<br>تابع رسائل الواتساب وافتح الجوال ببصمة الوجه بسهولة دون رفعه من الشاحن.
+• البطاقة 3: شحن رأسي وأفقي ذكي<br>اشحن عمودياً لمكالمات الفيديو أو أفقياً لمشاهدة المباريات ومقاطع اليوتيوب براحة.
+• البطاقة 4: مكان مخصص لسماعاتك<br>قاعدة مانعة للانزلاق تثبت سماعات الإيربودز بأمان لتكون مشحونة وجاهزة كل صباح.
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -333,10 +333,10 @@ Section Header:
 TRANSFORM YOUR SPACE<br>Everyday Upgrades You Feel Immediately<br>Eliminate nightstand clutter and morning battery stress with an effortless, unified charging habit.
 
 4 Concise Everyday Benefits:
-• Card 1: Less Cable Clutter<br>One sleek dock replaces multiple tangled charging cables on your desk.
-• Card 2: Phone Stays Visible<br>Check incoming messages, OTP codes, and calls without lifting your phone.
-• Card 3: Everything in One Place<br>Phone, watch, and earbuds stay organized together in a single dedicated spot.
-• Card 4: Cleaner Bedside Setup<br>Compact footprint and gentle sleep-friendly light for peaceful, clutter-free nights.
+• Card 1: Zero Cable Clutter<br>One neat power cord replaces three tangled bedside cables for a clean luxury setup.
+• Card 2: Always in Clear View<br>Glance at OTP verification codes and incoming calls instantly from your desk or bed.
+• Card 3: All Essentials in One Spot<br>Never misplace your Apple Watch or AirPods again—everything charges organized together.
+• Card 4: Peaceful Nightstand Setup<br>Compact design with subtle, sleep-friendly indicator lights for quiet, restful nights.
 
 Right Column Showcase Panel:
 Headline: Modular Detachable Architecture
@@ -349,10 +349,10 @@ Description: Engineered with a detachable watch perch and modular base for effor
 ارتقِ بمساحة مكتبك وغرفتك<br>تنظيم فائق ولمسات تلاحظها فوراً<br>تخلص من فوضى الأسلاك وقلق نفاد البطارية صباحاً مع نظام شحن ذكي يوفر وقتك ومساحتك.
 
 4 بطاقات مزايا يومية موجزة:
-• البطاقة 1: وداعاً لفوضى وتشابك الأسلاك<br>منصة واحدة أنيقة تختصر كابلات الشحن المتعددة وتمنح مكتبك مظهراً مرتباً.
-• البطاقة 2: شاشة جوالك أمامك دائماً<br>تابع رسائل التحقق (OTP) والإشعارات والمكالمات بلمحة سريعة دون رفع الجوال.
-• البطاقة 3: كل أجهزتك في مكان موحد<br>جوالك وساعتك وسماعاتك تجتمع في نقطة واحدة لتنتهي معاناتك في البحث عنها.
-• البطاقة 4: طاولة سرير أكثر ترتيباً وهدوءاً<br>حجم مدمج وإضاءة هادئة مدروسة لنوم هانئ بدون أي إزعاج بصري.
+• البطاقة 1: وداعاً لفوضى الأسلاك<br>كابل واحد أنيق يستبدل ثلاثة أسلاك متشابكة ويمنح طاولة سريرك ومكتبك ترتيباً راقياً.
+• البطاقة 2: شاشة جوالك في مرمى بصرك<br>شاهد رموز التحقق (OTP) والمكالمات الواردة بلمحة سريعة دون الحاجة لرفع الجوال.
+• البطاقة 3: كل أجهزتك في مكان واحد<br>انسَ ضياع الساعة أو السماعات؛ كل أجهزتك منظمة ومشحونة معاً وتبدأ يومك جاهزاً.
+• البطاقة 4: طاولة سرير هادئة ومرتبة<br>تصميم مدمج وأنيق بإضاءة خافتة ومريحة للعين تضمن لك نوماً هادئاً بدون أي إزعاج.
 
 لوحة التوضيح الجانبية:
 العنوان: تصميم تركيبي قابل للفصل والتنقل
