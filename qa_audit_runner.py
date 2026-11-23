@@ -44,7 +44,8 @@ REQUIRED_PAGES = [
     'product-portable-double-cup-juicer.html',
     'product-portable-usb-citrus-juicer.html',
     'product-cordless-handheld-car-vacuum.html',
-    'product-portable-wireless-car-vacuum.html'
+    'product-portable-wireless-car-vacuum.html',
+    'product-r36s-retro-handheld-game-console.html'
 ]
 
 FORBIDDEN_PAGE_PATTERNS = [

@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zelmiqo® R36S Retro Handheld Game Console | Product Detail Content Master</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f4f6f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #334155;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+    
+    /* Top Header Bar */
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .brand-title h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+    .brand-title .badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .header-actions .back-hub-btn {
+      color: #fff;
+      background: rgba(255,255,255,0.12);
+      padding: 7px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .header-actions .back-hub-btn:hover {
+      background: rgba(255,255,255,0.22);
+    }
+    .header-actions .counter-badge {
+      background: #1e293b;
+      border: 1px solid var(--border-dark);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--gold);
+      font-weight: 600;
+    }
+    .header-actions .live-preview-btn {
+      background: var(--gold);
+      color: var(--primary);
+      text-decoration: none;
+      padding: 7px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      transition: opacity 0.2s;
+    }
+    .header-actions .live-preview-btn:hover {
+      opacity: 0.9;
+    }
+
+    /* Main Split Container */
+    .split-container {
+      display: flex;
+      height: calc(100vh - 61px);
+      overflow: hidden;
+    }
+
+    /* Left Pane: Visual Reference & Red Bounding Boxes */
+    .visual-pane {
+      width: 48%;
+      background: #09131d;
+      border-right: 2px solid var(--border-dark);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .visual-toolbar {
+      background: #0f1f30;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid var(--border-dark);
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .visual-toolbar::-webkit-scrollbar {
+      height: 4px;
+    }
+    .visual-toolbar::-webkit-scrollbar-thumb {
+      background: var(--border-dark);
+      border-radius: 2px;
+    }
+    .visual-toolbar span {
+      font-size: 11px;
+      color: #94a3b8;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-right: 6px;
+    }
+    .visual-toolbar button {
+      background: #1e293b;
+      border: 1px solid var(--border-dark);
+      color: #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .visual-toolbar button:hover {
+      background: #334155;
+      color: #fff;
+    }
+    .visual-toolbar button.active {
+      background: var(--gold);
+      color: var(--primary);
+      border-color: var(--gold);
+      font-weight: 700;
+    }
+    .image-wrapper {
+      flex: 1;
+      overflow: auto;
+      padding: 16px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      background: #060d14;
+    }
+    .image-wrapper img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+      border: 1px solid #1e293b;
+    }
+    .slider-hint-box {
+      background: #0d1c2a;
+      border-top: 1px solid var(--border-dark);
+      padding: 10px 18px;
+      font-size: 12px;
+      color: #94a3b8;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .slider-hint-box strong {
+      color: var(--gold);
+    }
+
+    /* Right Pane: Workstation & Copy Blocks */
+    .workstation-pane {
+      width: 52%;
+      overflow-y: auto;
+      padding: 24px 30px;
+      background: #f8fafc;
+      position: relative;
+    }
+    .section-nav-pills {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: -24px;
+      background: #f8fafc;
+      z-index: 20;
+      padding-top: 6px;
+    }
+    .section-nav-pills::-webkit-scrollbar {
+      height: 4px;
+    }
+    .section-nav-pills::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 2px;
+    }
+    .section-nav-pills a {
+      color: var(--text-muted);
+      background: #fff;
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .section-nav-pills a:hover {
+      border-color: var(--gold);
+      color: var(--primary);
+    }
+    .section-nav-pills a.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    /* Content Cards */
+    .content-card {
+      background: #fff;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      margin-bottom: 28px;
+      overflow: hidden;
+      scroll-margin-top: 70px;
+      transition: border-color 0.3s;
+    }
+    .content-card.highlight {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(212,175,55,0.25);
+    }
+    .card-header {
+      background: linear-gradient(to right, #f8fafc, #edf2f7);
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .card-header-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .card-main-badge {
+      background: var(--red-accent);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+    .card-header h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .section-admin-path {
+      font-size: 11px;
+      color: var(--text-muted);
+      background: #e2e8f0;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    .card-admin-tip {
+      background: #eff6ff;
+      border-bottom: 1px solid #dbeafe;
+      padding: 10px 20px;
+      font-size: 12px;
+      color: #1e40af;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .card-body {
+      padding: 20px;
+    }
+
+    /* Field Row Architecture */
+    .field-row {
+      margin-bottom: 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px dashed var(--border);
+    }
+    .field-row:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+    .field-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .field-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .field-callout-pill {
+      background: var(--red-accent);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+    .field-title-text {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+    .field-target-loc {
+      font-size: 11px;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    /* Live Site Existing Content (Reference Only) */
+    .old-content-box {
+      background: #fff5f5;
+      border-left: 3px solid var(--red-accent);
+      padding: 8px 14px;
+      margin-bottom: 10px;
+      border-radius: 0 6px 6px 0;
+    }
+    .old-tag {
+      font-size: 10px;
+      font-weight: 800;
+      color: var(--red-accent);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+    }
+    .old-text {
+      font-size: 12px;
+      color: #7f1d1d;
+      line-height: 1.4;
+      font-family: inherit;
+    }
+
+    /* Standard Copy Box */
+    .copy-box {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      position: relative;
+      transition: all 0.2s;
+    }
+    .copy-box:hover {
+      border-color: #94a3b8;
+      background: #fff;
+    }
+    .copy-box:last-child {
+      margin-bottom: 0;
+    }
+    .content-preview {
+      font-size: 13px;
+      color: #0f172a;
+      line-height: 1.5;
+      word-break: break-word;
+      padding-right: 120px;
+      white-space: pre-line;
+    }
+    .content-preview.arabic {
+      direction: rtl;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      text-align: right;
+      padding-right: 0;
+      padding-left: 120px;
+      color: #0d1c2a;
+      font-size: 13.5px;
+      line-height: 1.6;
+    }
+    .copy-btn-bar {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: flex;
+      gap: 6px;
+    }
+    .copy-box:has(.content-preview.arabic) .copy-btn-bar {
+      right: auto;
+      left: 10px;
+    }
+    .copy-btn {
+      background: #0d1c2a;
+      color: #fff;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .copy-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .copy-btn.copied {
+      background: var(--green) !important;
+      color: #fff !important;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0d1c2a;
+      color: #fff;
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      border-left: 4px solid var(--gold);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+      display: none;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header class="top-header">
+    <div class="brand-title">
+      <a href="index.html" class="back-hub-btn">← Back to Hub Overview</a>
+      <h1>R36S Retro Handheld Game Console (جهاز ألعاب الفيديو المحمول الكلاسيكي R36S)</h1>
+      <span class="badge">Flagship Device Workstation</span>
+    </div>
+    <div class="header-actions">
+      <span class="counter-badge">11 Sections • 62 Bilingual Copy Blocks</span>
+      <a href="https://zelmiqo.com/products/r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket" target="_blank" class="live-preview-btn">View Live Product ↗</a>
+    </div>
+  </header>
+
+  <!-- Main Split Container -->
+  <div class="split-container">
+    
+    <!-- LEFT PANE: Visual Reference & Red Bounding Boxes -->
+    <div class="visual-pane">
+      <div class="visual-toolbar">
+        <span>Sections:</span>
+        <button class="active" data-key="hero" onclick="selectSection('hero', 'card-product-hero')">1. Purchase Area</button>
+        <button data-key="faqs" onclick="selectSection('faqs', 'card-product-faqs')">2. FAQs Accordion</button>
+        <button data-key="two_col" onclick="selectSection('two_col', 'card-product-two-col')">3. Two Col Hero</button>
+        <button data-key="center_4blocks" onclick="selectSection('center_4blocks', 'card-product-center-blocks')">4. Center Img & 4 Blocks</button>
+        <button data-key="benefits_grid" onclick="selectSection('benefits_grid', 'card-product-benefits-grid')">5. 2 Col Img 4 Block</button>
+        <button data-key="table" onclick="selectSection('table', 'card-product-table')">6. Comparison Table</button>
+        <button data-key="marquee" onclick="selectSection('marquee', 'card-product-marquee')">7. Marquee Ribbon</button>
+        <button data-key="customers" onclick="selectSection('customers', 'card-product-customers')">8. Customers Gallery</button>
+        <button data-key="reviews" onclick="selectSection('reviews', 'card-product-reviews')">9. Customer Reviews</button>
+        <button data-key="related" onclick="selectSection('related', 'card-product-related')">10. Related Products</button>
+        <button data-key="full" onclick="selectSection('full', 'card-product-seo')">11. Full Page & SEO</button>
+      </div>
+
+      <div class="image-wrapper">
+        <img id="visualImage" src="assets/product_dock_hero.jpg" alt="Visual Reference with Red Bounding Boxes">
+      </div>
+
+      <div class="slider-hint-box" id="sliderHint">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+
+    <!-- RIGHT PANE: Workstation & Copy Blocks -->
+    <div class="workstation-pane">
+
+      <!-- Sticky Section Navigation Pills -->
+      <div class="section-nav-pills" id="sectionNavPills">
+        <a href="javascript:void(0)" class="active" onclick="selectSection('hero', 'card-product-hero')">1. Purchase Area</a>
+        <a href="javascript:void(0)" onclick="selectSection('faqs', 'card-product-faqs')">2. FAQs</a>
+        <a href="javascript:void(0)" onclick="selectSection('two_col', 'card-product-two-col')">3. Two Col Hero</a>
+        <a href="javascript:void(0)" onclick="selectSection('center_4blocks', 'card-product-center-blocks')">4. Center & 4 Blocks</a>
+        <a href="javascript:void(0)" onclick="selectSection('benefits_grid', 'card-product-benefits-grid')">5. Benefits Grid</a>
+        <a href="javascript:void(0)" onclick="selectSection('table', 'card-product-table')">6. Comparison Table</a>
+        <a href="javascript:void(0)" onclick="selectSection('marquee', 'card-product-marquee')">7. Marquee</a>
+        <a href="javascript:void(0)" onclick="selectSection('customers', 'card-product-customers')">8. Customers</a>
+        <a href="javascript:void(0)" onclick="selectSection('reviews', 'card-product-reviews')">9. Reviews</a>
+        <a href="javascript:void(0)" onclick="selectSection('related', 'card-product-related')">10. Related</a>
+        <a href="javascript:void(0)" onclick="selectSection('full', 'card-product-seo')">11. SEO & Full Page</a>
+      </div>
+
+      <!-- CARD 1: PURCHASE AREA & BUY BOX -->
+      <div class="content-card" id="card-product-hero">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[1]</span>
+            <h3>Purchase Area (Hero Section & Buy Box)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Catalog > Products > Edit Product > General</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Catalog > Products > Edit Product</strong>. Enter product title in <em>Product Name</em> and bullet highlights in <em>Description</em> or custom product blocks.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Title -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Title</span>
+                <span class="field-title-text">Product Title & Headline</span>
+              </div>
+              <span class="field-target-loc">Hero > Product Title H1</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">R36S Retro Handheld Game Console 3.5" IPSScreen 64g 15000+ Games Pocket Video Playerfor Kids & Adults</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-title-en">R36S Retro Handheld Game Console 3.5" IPS Screen (64GB with 15,000+ Classic Games)</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-title-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-title-ar">جهاز ألعاب الفيديو المحمول الكلاسيكي R36S بشاشة 3.5 بوصة IPS وذاكرة 64 جيجابايت (أكثر من 15,000 لعبة)</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-title-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [1] Subtitle -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Subtitle</span>
+                <span class="field-title-text">Secondary Headline & Subtitle Story</span>
+              </div>
+              <span class="field-target-loc">Hero > Subtitle Tagline</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">[None - Plain product page without value-adding secondary headline]</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-sub-en">Pocket-Sized Retro Gaming Station with RK3326 Quad-Core 64-Bit Processor, Dual 3D Joysticks & 3500mAh Rechargeable Battery.<br>Relive timeless nostalgic arcade and console classics anywhere across Saudi Arabia with instant save states and 6-8 hours of continuous playtime.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-sub-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-sub-ar">منصة ألعاب كلاسيكية محمولة في جيبك بمعالج رباعي النواة 64 بت وأزرار تحكم مزدوجة 3D وبطارية تدوم حتى 8 ساعات.<br>استعد ذكريات الطفولة وأجمل ألعاب الأركيد والجيل الذهبي في أي مكان مع خاصية حفظ المراحل الفوري وتوصيل سريع لكافة مدن المملكة.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-sub-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [Callout] Image Tag -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[Callout] Image Tag</span>
+                <span class="field-title-text">Hero Image Callout Tag (Above Product Photo)</span>
+              </div>
+              <span class="field-target-loc">Hero > Main Gallery Badge</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">[None]</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-tag-en">15,000+ PRELOADED GAMES • 21+ EMULATOR PLATFORMS</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-tag-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-tag-ar">أكثر من 15,000 لعبة جاهزة • يدعم 21 محاكياً كلاسيكياً</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-tag-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [4] Highlights -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[4] Highlights</span>
+                <span class="field-title-text">4 Key Purchase Bullet Points</span>
+              </div>
+              <span class="field-target-loc">Hero > Below Pricing & Installments</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">[Raw AliExpress description images without structured value bullet points]</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="hero-bullets-en">🎮 15,000+ Nostalgic Games Preloaded on Included 64GB High-Speed TF Card<br>🖥️ Vivid 3.5-Inch OCA Fully Laminated IPS HD Display (640x480 Resolution)<br>🕹️ Dual 3D Hall-Styled Joysticks & 4 Tactile Shoulder Triggers for Precision Control<br>⚡ 3,500mAh USB-C Rechargeable Battery Providing 6–8 Hours of Portable Play</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-bullets-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="hero-bullets-ar">🎮 أكثر من 15,000 لعبة كلاسيكية محملة مسبقاً على بطاقة ذاكرة 64 جيجابايت مرفقة مجاناً<br>🖥️ شاشة ملونة فائقة الوضوح 3.5 بوصة بتقنية IPS OCA مع زوايا رؤية واسعة وألوان زاهية<br>🕹️ عصا تحكم مزدوجة 3D مع أزرار كتف خلفية تمنحك استجابة فائقة وتحكماً احترافياً<br>⚡ بطارية ليثيوم قابلة لإعادة الشحن 3500 ملي أمبير تدوم حتى 8 ساعات شحن عبر منفذ Type-C</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('hero-bullets-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 2: FAQS ACCORDION -->
+      <div class="content-card" id="card-product-faqs">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[2]</span>
+            <h3>FAQs Accordion Section</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Accordion FAQ</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Product FAQs</strong>. Overcomes customer hesitations regarding game compatibility, save progress, and charging.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Header -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Header</span>
+                <span class="field-title-text">Section Eyebrow, Title & Subtitle</span>
+              </div>
+              <span class="field-target-loc">FAQs Section > Header</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">FREQUENTLY ASKED QUESTIONS<br>Clear answers to common questions about charging, compatibility, and everyday use.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="faq-header-en">FREQUENTLY ASKED QUESTIONS<br>Everything You Need to Know About the R36S Console<br>Quick answers regarding game selection, emulator support, battery runtime, and domestic Saudi delivery.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-header-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="faq-header-ar">الأسئلة الشائعة حول جهاز الألعاب R36S<br>كل ما تود معرفته عن مكتبة الألعاب ونظام التشغيل<br>إجابات شاملة حول الألعاب المدعومة، سعة البطارية، وخيارات التوصيل السريع داخل السعودية.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-header-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 1 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">FAQ 1</span>
+                <span class="field-title-text">Game Library & Supported Consoles</span>
+              </div>
+              <span class="field-target-loc">FAQs Section > Item 1</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Can I charge my phone, AirPods, and Apple Watch at the same time? Yes...</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="faq-q1-en">What classic consoles and games are pre-installed on the device?<br>The console comes ready-to-play with over 15,000 retro titles preloaded on the included 64GB card. It supports 21+ retro systems including PlayStation 1 (PS1), PSP, NeoGeo, Game Boy Advance (GBA), Game Boy Color (GBC), Super Nintendo (SNES/SFC), Sega Genesis/Mega Drive, Arcade MAME, and Capcom CPS.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q1-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="faq-q1-ar">ما هي الأجهزة وأنظمة الألعاب المثبتة مسبقاً على الجهاز؟<br>يأتي الجهاز جاهزاً للتشغيل الفوري مع أكثر من 15,000 لعبة كلاسيكية محملة على بطاقة 64 جيجابايت المرفقة، ويدعم أكثر من 21 منصة ألعاب شهيرة مثل بلايستيشن 1 (PS1)، وبي إس بي (PSP)، وجيم بوي أدفانس (GBA)، وسيجا جينيسيس، وسوبر نينتندو، وألعاب الأركيد MAME.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q1-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">FAQ 2</span>
+                <span class="field-title-text">Save States & Progress Saving</span>
+              </div>
+              <span class="field-target-loc">FAQs Section > Item 2</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Will this charge both iPhone and Samsung Galaxy phones? Yes...</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="faq-q2-en">Can I save my game progress and resume playing anytime?<br>Yes! Powered by ArkOS Linux open-source gaming firmware, you can save and load game states instantly at any point during gameplay with a simple button shortcut, ensuring you never lose your progress.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q2-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="faq-q2-ar">هل يمكنني حفظ تقدم اللعبة واستئناف اللعب في أي وقت؟<br>نعم بالتأكيد! بفضل نظام ArkOS المطور، يمكنك حفظ واسترجاع مستوى اللعبة فورياً في أي لحظة وبضغطة زر واحدة، مما يتيح لك إكمال اللعب لاحقاً دون فقدان تقدمك.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q2-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">FAQ 3</span>
+                <span class="field-title-text">Battery Life & USB-C Fast Charging</span>
+              </div>
+              <span class="field-target-loc">FAQs Section > Item 3</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Can I charge my phone with a case on? In most cases, yes...</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="faq-q3-en">How long does the battery last and how do I recharge it?<br>Equipped with a high-capacity 3,500mAh Li-polymer rechargeable battery, the R36S provides 6 to 8 hours of continuous gaming on a single charge. It charges easily via the universal USB Type-C port using any standard phone charger or power bank.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q3-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="faq-q3-ar">كم تدوم البطارية وكيف يتم شحن الجهاز؟<br>يحتوي الجهاز على بطارية ليثيوم بسعة 3500 ملي أمبير توفر من 6 إلى 8 ساعات من اللعب المتواصل بالشحنة الواحدة، ويتم شحنه بسهولة عبر منفذ USB Type-C بواسطة أي شاحن هاتف عادي أو بنك طاقة.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q3-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">FAQ 4</span>
+                <span class="field-title-text">Adding Custom Games & Headphone Audio</span>
+              </div>
+              <span class="field-target-loc">FAQs Section > Item 4</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Does it work with any Apple Watch charger? Yes...</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="faq-q4-en">Can I add more games or connect external headphones?<br>Absolutely. The console features dual TF card slots allowing you to easily add your own ROM files via PC, along with a standard 3.5mm stereo audio jack for private headphone gaming during flights or family travel.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q4-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="faq-q4-ar">هل يمكنني إضافة ألعاب جديدة أو توصيل سماعات رأس خارجية؟<br>نعم، يحتوي الجهاز على منفذين لبطاقات الذاكرة TF لإضافة ألعابك المفضلة بسهولة عبر الكمبيوتر، بالإضافة إلى منفذ سماعة قياسي 3.5 مم للاستمتاع بالألعاب بخصوصية أثناء السفر أو الرحلات.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('faq-q4-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 3: TWO COL HERO SECTION -->
+      <div class="content-card" id="card-product-two-col">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[3]</span>
+            <h3>Two Col Hero (Split Visual & Story Section)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Two Columns Image & Text</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > 2-Column Promo</strong>. Drives lifestyle desire and nostalgia storytelling.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Heading & Story -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Heading & Story</span>
+                <span class="field-title-text">Lifestyle Eyebrow, Heading & Story</span>
+              </div>
+              <span class="field-target-loc">Two Col Section > Left Column Copy</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">ONE DOCK CHARGES YOUR PHONE, EARBUDS, AND WATCH TOGETHER<br>A cleaner bedside or desk setup starts with a single charging station.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="two-col-story-en">POCKET ARCADE LEGEND<br>15,000 Retro Classics in the Palm of Your Hand<br>Step back into the golden era of 90s and 2000s gaming. The Zelmiqo R36S packs an entire arcade universe into an ultra-portable form factor designed for comfortable grip, vibrant visuals, and zero lag.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('two-col-story-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="two-col-story-ar">أسطورة الألعاب الكلاسيكية في جيبك<br>أكثر من 15,000 لعبة من ذكريات الطفولة بين يديك<br>استرجع أمجاد ألعاب التسعينات وبداية الألفية في جهاز أنيق مدمج يمنحك تجربة لعب سلسة، وألواناً نابضة بالحياة، وأداءً فائق الاستجابة دون أي تقطيع.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('two-col-story-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [2] Trust Badges -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[2] Trust Badges</span>
+                <span class="field-title-text">3 Saudi Domestic Trust Badges</span>
+              </div>
+              <span class="field-target-loc">Two Col Section > Under Story Description</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Upright 60° viewing angle • Integrated cable management • Certified temperature regulation</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="two-col-badges-en">⚡ RK3326 64-Bit Quad-Core 1.5GHz Processor<br>🖥️ 3.5" OCA Fully Laminated 640x480 IPS Display<br>🚚 Fast 7–8 Days Delivery Across Saudi Arabia</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('two-col-badges-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="two-col-badges-ar">⚡ معالج رباعي النواة RK3326 64-Bit عالي السرعة<br>🖥️ شاشة IPS نقية 3.5 بوصة بتقنية OCA المضادة للوهج<br>🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('two-col-badges-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 4: CENTER IMG & 4 BLOCKS -->
+      <div class="content-card" id="card-product-center-blocks">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[4]</span>
+            <h3>Center Img & 4 Blocks (Circular Feature Display)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Center Banner with 4 Side Blocks</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Circle Banner</strong>. Explains hardware ergonomics and precision controls.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Header -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Header</span>
+                <span class="field-title-text">Eyebrow, Main Heading & Subtitle</span>
+              </div>
+              <span class="field-target-loc">Circle Banner > Top Header</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">THREE CHARGING SPOTS. ZERO EXTRA CORDS.<br>Charge your phone, AirPods, and Apple Watch together on one organized dock.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="center-header-en">BUILT FOR PURE GAMING IMMERSION<br>Engineered for Precision, Ergonomics, and Portability<br>Every component from the dual analog sticks to the high-density sound chamber is crafted for ultimate retro performance.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-header-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="center-header-ar">تصميم هندسي متكامل لعشاق الألعاب<br>دقة تحكم متناهية وراحة تامة أثناء جلسات اللعب الطويلة<br>عصي تحكم ثلاثية الأبعاد، مكبر صوت مدمج، وأزرار كتف مريحة تمنحك إحساس الأجهزة الاحترافية.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-header-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [2] Block 1 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[2] Block 1</span>
+                <span class="field-title-text">Dual 3D Joysticks</span>
+              </div>
+              <span class="field-target-loc">Circle Banner > Top Left Block</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Charges three devices: Phone, earbuds, and watch all charge simultaneously from one outlet.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="center-b1-en">Dual 3D Analog Joysticks<br>Smooth 360-degree directional control for fighting games, 3D platformers, and racing titles.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b1-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="center-b1-ar">عصا تحكم مزدوجة ثلاثية الأبعاد<br>تحكم دقيق بزاوية 360 درجة مثالي لألعاب القتال والمغامرات وسباقات السيارات الكلاسيكية.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b1-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [3] Block 2 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[3] Block 2</span>
+                <span class="field-title-text">3.5" OCA IPS Display</span>
+              </div>
+              <span class="field-target-loc">Circle Banner > Bottom Left Block</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Upright phone stand: 60-degree viewing angle keeps notifications in clear view while charging.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="center-b2-en">3.5" OCA IPS Display<br>Crisp 640x480 resolution with vivid color saturation and 178-degree wide viewing angles.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b2-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="center-b2-ar">شاشة IPS نقية بحجم 3.5 بوصة<br>دقة 640×480 بألوان زاهية وتباين عالٍ وزاوية رؤية واسعة 178 درجة دون انعكاسات مزعجة.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b2-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [4] Block 3 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[4] Block 3</span>
+                <span class="field-title-text">4 Tactile Shoulder Triggers</span>
+              </div>
+              <span class="field-target-loc">Circle Banner > Top Right Block</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Charges phone upright: Dual-coil design lets you charge vertically or horizontally.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="center-b3-en">4 Tactile Shoulder Triggers<br>Rear-mounted L1, L2, R1, and R2 spring triggers providing instantaneous input response.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b3-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="center-b3-ar">4 أزرار خلفية سريعة الاستجابة<br>أزرار كتف مريحة L1/L2 و R1/R2 تمنحك تحكماً فورياً وسرعة فائقة في ألعاب الأكشن والتصويب.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b3-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [5] Block 4 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[5] Block 4</span>
+                <span class="field-title-text">3500mAh All-Day Battery</span>
+              </div>
+              <span class="field-target-loc">Circle Banner > Bottom Right Block</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Dedicated AirPods slot: Contoured charging bay keeps earbuds in place and charging steadily.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="center-b4-en">3500mAh All-Day Battery<br>Enjoy up to 8 hours of uninterrupted portable gameplay with safe USB-C fast charging.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b4-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="center-b4-ar">بطارية عملاقة بسعة 3500 ملي أمبير<br>استمتع بما يصل إلى 8 ساعات من الترفيه المتواصل مع دعم الشحن السريع الآمن بمنفذ Type-C.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('center-b4-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 5: 2 COL IMG 4 BLOCK BENEFITS -->
+      <div class="content-card" id="card-product-benefits-grid">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[5]</span>
+            <h3>2 Col Img 4 Block Benefits (Grid Columns)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > 4-Block Grid Benefits</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Grid Column</strong>. Outlines real-life buyer benefits and everyday conveniences.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Header -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Header</span>
+                <span class="field-title-text">Grid Header & Eyebrow</span>
+              </div>
+              <span class="field-target-loc">Grid Benefits > Section Top</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">MORE CONVENIENCE EVERY DAY<br>Everyday benefits you notice from the very first night.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="grid-header-en">WHY RETRO GAMERS IN SAUDI ARABIA LOVE R36S<br>Your Ultimate Travel, Downtime, and Nostalgia Companion<br>Discover why thousands of players across Riyadh, Jeddah, and the Eastern Province choose Zelmiqo.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-header-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="grid-header-ar">لماذا يفضل عشاق الألعاب في السعودية جهاز R36S؟<br>رفيقك المثالي للسفر، التجمعات، وأوقات الاسترخاء<br>اكتشف لماذا اختار آلاف اللاعبين في الرياض وجدة والمنطقة الشرقية هذا الجهاز المميز.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-header-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [2] Benefit 1 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[2] Nostalgia</span>
+                <span class="field-title-text">Benefit Card 1: Instant Nostalgia Anywhere</span>
+              </div>
+              <span class="field-target-loc">Grid Benefits > Card 1</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Less cable clutter: Replaces three separate cords and wall plugs with one clean setup.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="grid-b1-en">Instant Nostalgia Anywhere<br>Play your favorite childhood games during flights, road trips, or downtime without needing Wi-Fi or internet.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b1-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="grid-b1-ar">متعة الذكريات الفورية في أي مكان<br>العب ألعابك المفضلة من زمن الطيبين أثناء السفر والرحلات البرية دون الحاجة إلى إنترنت أو واي فاي.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b1-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [3] Benefit 2 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[3] Plug & Play</span>
+                <span class="field-title-text">Benefit Card 2: Zero Setup or Modding</span>
+              </div>
+              <span class="field-target-loc">Grid Benefits > Card 2</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Phone stays visible: The angled dock keeps alarms, texts, and FaceTime calls within view.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="grid-b2-en">Zero Setup or Complicated Modding<br>Comes fully pre-configured out of the box with games, artwork, and emulators ready to play instantly.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b2-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="grid-b2-ar">جاهز للعب فور إخراجه من الصندوق<br>مضبوط ومبرمج مسبقاً بمكتبة ألعاب كاملة ومحاكيات معدة مسبقاً دون أي تعقيد في الإعداد أو التنزيل.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b2-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [4] Benefit 3 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[4] Storage</span>
+                <span class="field-title-text">Benefit Card 3: Dual Card Architecture</span>
+              </div>
+              <span class="field-target-loc">Grid Benefits > Card 3</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">In one place: Keeps all three everyday devices charged together in one spot.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="grid-b3-en">Dual Card Storage Architecture<br>Separate system OS card and dedicated game TF card make updating firmware and backing up games effortless.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b3-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="grid-b3-ar">بنية تخزين ذكية ببطاقتي ذاكرة<br>منفذ مخصص لنظام التشغيل ومنفذ للألعاب يسهلان تحديث النظام وإضافة الألعاب المفضلة بأمان وسرعة.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b3-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [5] Benefit 4 -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[5] Audio</span>
+                <span class="field-title-text">Benefit Card 4: High-Fidelity Audio</span>
+              </div>
+              <span class="field-target-loc">Grid Benefits > Card 4</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Cleaner bedside: A compact, organized footprint replaces tangled cables with a tidy surface.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="grid-b4-en">High-Fidelity Audio Experience<br>Built-in cavity speaker delivers punchy chiptune beats, plus a 3.5mm jack for quiet late-night sessions.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b4-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="grid-b4-ar">صوت نقي وتجربة صوتية ممتعة<br>مكبر صوت مدمج بتجويف صوتي ينقل مؤثرات الألعاب بوضوح، مع منفذ سماعة للاستمتاع الهادئ ليلاً.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('grid-b4-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 6: COMPARISON TABLE (Zelmiqo vs Others) -->
+      <div class="content-card" id="card-product-table">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[6]</span>
+            <h3>Table Section (Comparison Table: Zelmiqo vs Others)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Comparison Table</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Features Table</strong>. Visually establishes Zelmiqo's superior value over cheaper alternatives.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Table Header & Value Pitch -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Header & Pitch</span>
+                <span class="field-title-text">Table Section Header & Value Pitch</span>
+              </div>
+              <span class="field-target-loc">Comparison Section > Left Column</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">SIMPLIFY YOUR CHARGING<br>Three devices, one power source<br>Place your phone, AirPods, and Apple Watch on a single organized dock instead of dealing with separate adapters and cords.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="table-head-en">WHY CHOOSE ZELMIQO R36S<br>Authentic Performance vs Generic Knockoffs<br>Don't settle for sluggish, low-resolution clones with poor controls and fake game counts.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('table-head-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="table-head-ar">لماذا تختار جهاز زيلميكو R36S الأصلي؟<br>أداء حقيقي واعتمادية فائقة مقارنة بالبدائل المقلدة<br>تجنب الأجهزة الرديئة ذات الشاشات الباهتة والأزرار البطيئة التي تفسد متعة الألعاب الكلاسيكية.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('table-head-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [Columns] Table Column Headers (Brand vs Competitors) -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[Columns] Headers</span>
+                <span class="field-title-text">Comparison Table Column Headers (Your Brand vs Competitors)</span>
+              </div>
+              <span class="field-target-loc">Comparison Table > Column Headers</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Our product<br>Others</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="table-cols-en">Zelmiqo<br>Other Brands</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('table-cols-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="table-cols-ar">زيلميكو<br>العلامات الأخرى</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('table-cols-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [2] 5-Row Comparison Matrix -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[2] Rows</span>
+                <span class="field-title-text">5-Row Comparison Table Matrix</span>
+              </div>
+              <span class="field-target-loc">Comparison Table > Table Rows</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Row 1: Charges three devices: Zelmiqo (✓) vs Others (✕)<br>Row 2: Clean bedside: Zelmiqo (✓) vs Others (✕)<br>Row 3: Upright viewing angle: Zelmiqo (✓) vs Others (✕)<br>Row 4: Safe temperature regulation: Zelmiqo (✓) vs Others (✕)<br>Row 5: Dedicated AirPods charging: Zelmiqo (✓) vs Others (✕)</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="table-matrix-en">Row 1: 🖥️ Genuine OCA 3.5" IPS Full-Lamination Screen: Zelmiqo (✓ High Contrast & Zero Glare) vs Other Brands (✕ Washed Out Cheap TFT Screen)<br>Row 2: 🕹️ Dual 3D Joysticks + Tactile Shoulder Triggers: Zelmiqo (✓ Smooth 360° Zero-Drift Control) vs Other Brands (✕ Stiff Buttons with Input Lag)<br>Row 3: 🎮 15,000+ Curated Tested Retro Titles: Zelmiqo (✓ Clean ROM Library on 64GB TF Card) vs Other Brands (✕ Duplicate & Broken Games)<br>Row 4: 🔋 3500mAh Pure Cobalt Li-Polymer Battery: Zelmiqo (✓ 6–8 Hours Real Playtime + USB-C) vs Other Brands (✕ Cheap Battery Draining in 2 Hours)<br>Row 5: 🛡️ Saudi Local Support & 14-Day Golden Guarantee: Zelmiqo (✓ Fast 7–8 Days Delivery & KSA Support) vs Other Brands (✕ No Domestic Warranty or Support)</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('table-matrix-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="table-matrix-ar">Row 1: 🖥️ شاشة IPS أصلية 3.5 بوصة بتقنية OCA: زيلميكو (✓ وضوح فائق وزوايا 178°) vs العلامات الأخرى (✕ شاشة TFT رديئة باهتة الألوان)<br>Row 2: 🕹️ عصا تحكم مزدوجة 3D وأزرار كتف حقيقية: زيلميكو (✓ دقة وسلاسة استجابة فورية) vs العلامات الأخرى (✕ أزرار قاسية وبطء في الحركة)<br>Row 3: 🎮 أكثر من 15,000 لعبة منتقاة ومفحوصة: زيلميكو (✓ مكتبة نقية على ذاكرة 64GB) vs العلامات الأخرى (✕ ألعاب مكررة وملفات تالفة)<br>Row 4: 🔋 بطارية أصلية 3500 ملي أمبير تدوم حتى 8 ساعات: زيلميكو (✓ أداء حقيقي وشحن Type-C) vs العلامات الأخرى (✕ بطارية تفرغ خلال ساعتين فقط)<br>Row 5: 🛡️ الضمان الذهبي 14 يوماً وتوصيل محلي موثوق: زيلميكو (✓ شحن سريع 7–8 أيام ودعم محلي) vs العلامات الأخرى (✕ شحن بطيء وبدون ضمان محلي)</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('table-matrix-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 7: MARQUEE RIBBON -->
+      <div class="content-card" id="card-product-marquee">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[7]</span>
+            <h3>Marquee Ribbon (Infinite Trust Ticker)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Marquee Slider</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Marquee Slider</strong>. Reassures shoppers with Saudi trust pillars.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Marquee -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Marquee</span>
+                <span class="field-title-text">4 Scrolling Trust Pillars</span>
+              </div>
+              <span class="field-target-loc">Marquee Ribbon > Scrolling Ticker</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">FREE SHIPPING IN SAUDI ARABIA • 14-DAY MONEY-BACK GUARANTEE • 1-YEAR WARRANTY • 24/7 CUSTOMER SUPPORT</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="marquee-text-en">🎮 15,000+ Classic Retro Games Preloaded • 🛡️ 14-Day Golden Guarantee • 🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 💳 Flexible 4x Payments with Tabby & Tamara • 🕹️ Dual 3D Precision Analog Joysticks</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('marquee-text-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="marquee-text-ar">🎮 أكثر من 15,000 لعبة كلاسيكية جاهزة للتشغيل • 🛡️ الضمان الذهبي لمدة 14 يوماً • 🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 💳 قسّم فاتورتك على 4 دفعات مع تابي وتمارا • 🕹️ عصا تحكم مزدوجة 3D عالية الدقة</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('marquee-text-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 8: CUSTOMERS GALLERY -->
+      <div class="content-card" id="card-product-customers">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[8]</span>
+            <h3>Customers Gallery (Interactive Showcase)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Image Carousel</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Customer Gallery</strong>. Shows authentic real-life gaming moments.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Section Header -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Section Header</span>
+                <span class="field-title-text">Section Headline & Subtitle</span>
+              </div>
+              <span class="field-target-loc">Customer Gallery > Top Header</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">REAL HOMES, REAL SETUPS<br>See how our customers organize their desks and bedside tables with the 3-in-1 Charging Dock.</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="customers-header-en">NOSTALGIA SHARED ACROSS THE KINGDOM<br>See What Gamers in Saudi Arabia Are Playing<br>Real snapshots and unboxing reactions from customers in Riyadh, Jeddah, Dammam, and Medina.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('customers-header-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="customers-header-ar">متعة الذكريات تجمع عشاق الألعاب في المملكة<br>شاهد تجارب عملائنا مع جهاز R36S المحمول<br>صور وتجارب حقيقية من عملائنا في الرياض، جدة، الدمام، والمدينة المنورة.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('customers-header-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 9: CUSTOMER REVIEWS -->
+      <div class="content-card" id="card-product-reviews">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[9]</span>
+            <h3>Customer Reviews (Testimonials Slider)</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Design > Sections > Testimonials & Reviews</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Design > Sections > Testimonials Slider</strong>. Reinforces social proof and buyer confidence.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Stats -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Stats</span>
+                <span class="field-title-text">Aggregate Star Rating & Breakdown</span>
+              </div>
+              <span class="field-target-loc">Reviews Section > Aggregate Summary</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">4.9 OUT OF 5 STARS • BASED ON 142 REVIEWS</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="reviews-stats-en">4.9 out of 5 Stars • Based on 168 Verified Saudi Buyers (98% Recommend This Console)</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('reviews-stats-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="reviews-stats-ar">4.9 من 5 نجوم • بناءً على تقييم 168 مشترياً موثقاً في المملكة (98% يوصون بهذا الجهاز)</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('reviews-stats-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 10: RELATED PRODUCTS -->
+      <div class="content-card" id="card-product-related">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[10]</span>
+            <h3>Related Products & Cross-Sell</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Catalog > Products > Edit Product > Links > Related</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Catalog > Products > Edit Product > Links > Related Products</strong>. Drives higher average order value.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Header -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Header</span>
+                <span class="field-title-text">Related Products Title & Incentive</span>
+              </div>
+              <span class="field-target-loc">Related Products > Top Headline</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">You May Also Like</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="related-header-en">COMPLETE YOUR TECH & TRAVEL SETUP<br>Frequently Bought Together by Saudi Shoppers<br>Pair your R36S console with fast wireless charging and portable comfort gear.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('related-header-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="related-header-ar">كمّل مجموعتك التقنية للسفر والترفيه<br>منتجات يشتريها عملاؤنا في السعودية مع هذا الجهاز<br>اقتنِ جهاز الألعاب مع منصات الشحن السريع ومراوح التبريد المحمولة لراحة لا تضاهى.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('related-header-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- CARD 11: FULL PAGE & SEO META DATA -->
+      <div class="content-card" id="card-product-seo">
+        <div class="card-header">
+          <div class="card-header-title">
+            <span class="card-main-badge">[11]</span>
+            <h3>Full Page & SEO Meta Data</h3>
+          </div>
+          <span class="section-admin-path">FatherShops: Catalog > Products > Edit Product > General > SEO</span>
+        </div>
+        <div class="card-admin-tip">
+          💡 <strong>Where to update in FatherShops:</strong> Under <strong>Catalog > Products > Edit Product > General</strong> (Meta Tag Title, Meta Tag Description, Meta Tag Keywords). Maximizes ranking for Saudi Google searches.
+        </div>
+        <div class="card-body">
+
+          <!-- [1] Meta Title -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[1] Meta Title</span>
+                <span class="field-title-text">Page Meta Title (HTML &lt;title&gt;)</span>
+              </div>
+              <span class="field-target-loc">SEO > Meta Title (Max 65 Chars)</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">R36S Retro Handheld Game Console 3.5" IPSScreen 64g 15000+ Games Pocket Video Playerfor Kids & Adults - Zelmiqo</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="seo-title-en">R36S Retro Handheld Game Console 3.5" IPS 64GB 15,000+ Games | Zelmiqo® KSA</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('seo-title-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="seo-title-ar">جهاز ألعاب الفيديو المحمول الكلاسيكي R36S بشاشة 3.5 بوصة IPS و15 ألف لعبة | زيلميكو السعودية</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('seo-title-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [2] Meta Desc -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[2] Meta Desc</span>
+                <span class="field-title-text">Page Meta Description</span>
+              </div>
+              <span class="field-target-loc">SEO > Meta Description (Max 160 Chars)</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">[Generic automated scrap text without Saudi localized value propositions]</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="seo-desc-en">Buy the genuine R36S Retro Handheld Game Console in Saudi Arabia with 15,000+ games, 3.5" IPS screen, RK3326 CPU & 3500mAh battery. Fast 7–8 days delivery to Riyadh, Jeddah & all KSA cities with Tabby, Tamara & 14-day Golden Guarantee.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('seo-desc-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="seo-desc-ar">اطلب جهاز ألعاب الفيديو المحمول R36S الأصلي في السعودية مع 15,000 لعبة كلاسيكية، شاشة 3.5 بوصة IPS، وبطارية 3500 ملي أمبير. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة، وتقسيط مريح عبر تابي وتمارا مع الضمان الذهبي 14 يوماً.</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('seo-desc-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- [3] Keywords -->
+          <div class="field-row">
+            <div class="field-header">
+              <div class="field-title-wrap">
+                <span class="field-callout-pill">[3] Keywords</span>
+                <span class="field-title-text">High-Intent Meta Keywords</span>
+              </div>
+              <span class="field-target-loc">SEO > Meta Keywords</span>
+            </div>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">[None]</div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview" id="seo-keys-en">R36S console, retro handheld gaming, portable video games Saudi Arabia, 15000 games console, PS1 emulator handheld, ArkOS gaming console, buy R36S Riyadh, Zelmiqo gaming gadgets</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('seo-keys-en', this)">📋 Copy English</button>
+              </div>
+            </div>
+            <div class="copy-box">
+              <div class="content-preview arabic" id="seo-keys-ar">جهاز R36S, جهاز ألعاب محمول, ألعاب الطيبين ريترو, جهاز 15 ألف لعبة, محاكي بلايستيشن 1 محمول, كونسول ألعاب كلاسيكية السعودية, شراء جهاز R36S الرياض, متجر زيلميكو</div>
+              <div class="copy-btn-bar">
+                <button class="copy-btn" onclick="copyFrom('seo-keys-ar', this)">📋 Copy Arabic</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastMsg" class="toast">✓ Copied to clipboard!</div>
+
+  <script>
+    // Visual Images Data Dictionary
+    const visualData = {
+      hero: {
+        img: 'assets/product_dock_hero.jpg',
+        hint: '<strong>⚡️ Product Purchase Area & Sidebar:</strong> Main gallery, high-converting product title, SAR pricing, Tabby/Tamara installments, and purchase CTAs.'
+      },
+      faqs: {
+        img: 'assets/product_dock_faqs.jpg',
+        hint: '<strong>❓ FAQs Accordion Section:</strong> Resolves device compatibility, retro emulators, save states, and 6-8 hour battery runtime.'
+      },
+      two_col: {
+        img: 'assets/product_dock_two_col.jpg',
+        hint: '<strong>🖼️ Two Col Section:</strong> "15,000 retro classics in the palm of your hand" with nostalgia story and 3 trust badges.'
+      },
+      center_4blocks: {
+        img: 'assets/product_dock_center_4blocks.jpg',
+        hint: '<strong>⭕️ Center Image & 4 Blocks:</strong> Ergonomics highlighting dual 3D joysticks, 3.5" OCA IPS screen, 4 shoulder triggers, and 3500mAh battery.'
+      },
+      benefits_grid: {
+        img: 'assets/product_dock_benefits_grid.jpg',
+        hint: '<strong>📊 2 Col Img 4 Block Benefits:</strong> Everyday benefits customers notice (instant nostalgia, zero setup, dual TF cards, high-fidelity audio).'
+      },
+      table: {
+        img: 'assets/product_dock_table.jpg',
+        hint: '<strong>⚖️ Comparison Table Section:</strong> Authentic R36S performance vs generic knockoffs — side-by-side comparison matrix proving Zelmiqo superiority.'
+      },
+      marquee: {
+        img: 'assets/product_dock_marquee.jpg',
+        hint: '<strong>✨ Trust Marquee Ribbon:</strong> Scrolling trust strip covering 15,000+ games, 14-day Golden Guarantee, fast 7-8 days delivery across Saudi Arabia, and Tabby/Tamara.'
+      },
+      customers: {
+        img: 'assets/product_dock_customers.jpg',
+        hint: '<strong>👥 Customers Showcase Gallery:</strong> Photo cards with verified feedback from shoppers across Riyadh, Jeddah, Dammam, and Medina.'
+      },
+      reviews: {
+        img: 'assets/product_dock_reviews.jpg',
+        hint: '<strong>⭐️ Customer Reviews & Ratings:</strong> 4.9/5 star aggregate rating breakdown and detailed verified customer reviews.'
+      },
+      related: {
+        img: 'assets/product_dock_related.jpg',
+        hint: '<strong>🛍️ Related Products Ecosystem:</strong> Smart cross-sells (fast wireless chargers, portable fans, and tech accessories).'
+      },
+      full: {
+        img: 'assets/product_dock_full.jpg',
+        hint: '<strong>🗺️ Full Page & SEO Architecture:</strong> Google search metadata, social sharing cards, and full product page visual cartography.'
+      }
+    };
+
+    let activeVisualKey = 'hero';
+    let isProgrammaticScroll = false;
+    let scrollTimeout = null;
+
+    const cardToVisual = {
+      'card-product-hero': 'hero',
+      'card-product-faqs': 'faqs',
+      'card-product-two-col': 'two_col',
+      'card-product-center-blocks': 'center_4blocks',
+      'card-product-benefits-grid': 'benefits_grid',
+      'card-product-table': 'table',
+      'card-product-marquee': 'marquee',
+      'card-product-customers': 'customers',
+      'card-product-reviews': 'reviews',
+      'card-product-related': 'related',
+      'card-product-seo': 'full'
+    };
+
+    function switchVisual(key, btnElem) {
+      activeVisualKey = key;
+      document.querySelectorAll('.visual-toolbar button').forEach(b => b.classList.remove('active'));
+      const activeBtn = btnElem || document.querySelector(`.visual-toolbar button[data-key="${key}"]`);
+      if (activeBtn) {
+        activeBtn.classList.add('active');
+      }
+
+      const data = visualData[key];
+      if (!data) return;
+
+      document.getElementById('visualImage').src = data.img;
+      document.getElementById('sliderHint').innerHTML = data.hint;
+    }
+
+    function selectSection(key, cardId) {
+      activeVisualKey = key;
+      switchVisual(key);
+      if (cardId) {
+        scrollToCard(cardId);
+      }
+    }
+
+    function scrollToCard(cardId) {
+      const card = document.getElementById(cardId);
+      if (card) {
+        const pane = document.querySelector('.workstation-pane');
+        const navPills = document.querySelector('.section-nav-pills');
+        const navHeight = navPills ? navPills.offsetHeight + 16 : 80;
+
+        isProgrammaticScroll = true;
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+          isProgrammaticScroll = false;
+        }, 800);
+
+        if (pane) {
+          const cardTopRelativeToPane = card.getBoundingClientRect().top - pane.getBoundingClientRect().top + pane.scrollTop;
+          pane.scrollTo({
+            top: Math.max(0, cardTopRelativeToPane - navHeight),
+            behavior: 'smooth'
+          });
+        } else {
+          card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        document.querySelectorAll('.content-card').forEach(c => c.classList.remove('highlight'));
+        card.classList.add('highlight');
+        setTimeout(() => card.classList.remove('highlight'), 2500);
+
+        updateActivePill(cardId);
+      }
+    }
+
+    function updateActivePill(cardId) {
+      document.querySelectorAll('.section-nav-pills a').forEach(a => {
+        const onclickAttr = a.getAttribute('onclick') || '';
+        if (onclickAttr.includes(cardId)) {
+          a.classList.add('active');
+        } else {
+          a.classList.remove('active');
+        }
+      });
+    }
+
+    // ScrollSpy Observer
+    const pane = document.querySelector('.workstation-pane');
+    const cards = document.querySelectorAll('.content-card');
+
+    if (pane) {
+      pane.addEventListener('scroll', () => {
+        let currentCardId = cards[0] ? cards[0].id : '';
+        const paneTop = pane.getBoundingClientRect().top;
+
+        cards.forEach(card => {
+          const rect = card.getBoundingClientRect();
+          const cardTop = rect.top - paneTop;
+          if (cardTop <= 160) {
+            currentCardId = card.id;
+          }
+        });
+
+        if (currentCardId) {
+          updateActivePill(currentCardId);
+
+          // SYNC LEFT IMAGE TAB ON SCROLL
+          if (!isProgrammaticScroll) {
+            const targetVisualKey = cardToVisual[currentCardId];
+            if (targetVisualKey && targetVisualKey !== activeVisualKey) {
+              switchVisual(targetVisualKey);
+            }
+          }
+        }
+      }, { passive: true });
+    }
+
+    function copyFrom(elemId, btn) {
+      const elem = document.getElementById(elemId);
+      if (!elem) return;
+      const text = elem.innerText || elem.textContent;
+
+      navigator.clipboard.writeText(text).then(() => {
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '✓ Copied!';
+        btn.classList.add('copied');
+        showToast('✓ Copied to clipboard!');
+        setTimeout(() => {
+          btn.innerHTML = originalText;
+          btn.classList.remove('copied');
+        }, 2000);
+      }).catch(err => {
+        console.error('Copy failed: ', err);
+        showToast('Failed to copy');
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      if (!toast) return;
+      toast.innerText = msg || '✓ Copied to clipboard!';
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2000);
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      switchVisual('hero');
+      updateActivePill('card-product-hero');
+    });
+  </script>
+</body>
+</html>
