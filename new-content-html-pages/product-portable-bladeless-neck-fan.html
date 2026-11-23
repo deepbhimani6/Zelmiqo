@@ -3,97 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zelmiqo® Product Detail Master — Portable Bladeless Neck Fan with Smart Digital LED Display</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <title>Zelmiqo® Portable Bladeless Neck Fan | Product Detail Content Master</title>
   <style>
     :root {
-      --primary: #0a1420;
-      --primary-light: #122338;
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
       --gold: #d4af37;
-      --gold-hover: #b89728;
-      --bg-dark: #070d14;
-      --card-bg: #ffffff;
-      --text-main: #0f172a;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f4f6f9;
+      --text-main: #1e293b;
       --text-muted: #64748b;
       --border: #e2e8f0;
-      --border-dark: #1e293b;
+      --border-dark: #334155;
+      --red-accent: #e61919;
       --green: #10b981;
-      --green-light: #ecfdf5;
-      --red-box: #e61919;
-      --font-en: 'Plus Jakarta Sans', sans-serif;
-      --font-ar: 'Tajawal', sans-serif;
     }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: var(--font-en);
-      background-color: var(--bg-dark);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f1f5f9;
       color: var(--text-main);
-      overflow-x: hidden;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
+      line-height: 1.5;
     }
-
-    /* Master Top Header Bar */
-    header.master-header {
+    
+    /* Top Header Bar */
+    header.top-header {
       background: var(--primary);
-      border-bottom: 2px solid var(--gold);
-      padding: 10px 24px;
+      color: #fff;
+      padding: 14px 24px;
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
       z-index: 100;
-      flex-shrink: 0;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-    .header-branding {
+    .brand-title {
       display: flex;
       align-items: center;
       gap: 12px;
     }
-    .header-branding h1 {
-      font-size: 17px;
-      font-weight: 800;
+    .brand-title h1 {
+      font-size: 20px;
+      font-weight: 700;
       color: #fff;
-      letter-spacing: -0.3px;
+      letter-spacing: 0.5px;
     }
-    .header-branding .badge {
+    .brand-title .badge {
       background: var(--gold);
       color: var(--primary);
       font-size: 11px;
       font-weight: 800;
-      padding: 3px 8px;
-      border-radius: 4px;
+      padding: 3px 10px;
+      border-radius: 12px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 12px;
     }
     .hub-link-btn {
       background: #1e293b;
-      color: #fff;
-      border: 1px solid var(--border-dark);
+      color: var(--gold);
+      border: 1px solid var(--gold);
       padding: 6px 14px;
       border-radius: 6px;
       font-size: 12px;
       font-weight: 700;
       text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
       transition: all 0.2s;
     }
     .hub-link-btn:hover {
       background: var(--gold);
       color: var(--primary);
-      border-color: var(--gold);
     }
     .header-tip {
       color: #94a3b8;
@@ -169,8 +159,6 @@
       display: block;
       border-radius: 8px;
     }
-
-
     .slider-hint-box {
       width: 100%;
       max-width: 900px;
@@ -261,46 +249,40 @@
       gap: 10px;
     }
     .card-main-badge {
-      background: var(--primary);
-      color: var(--gold);
+      background: var(--red-accent);
+      color: #fff;
       font-size: 11px;
       font-weight: 800;
-      padding: 4px 8px;
+      padding: 3px 8px;
       border-radius: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
     }
     .card-header h3 {
-      font-size: 14.5px;
+      font-size: 15px;
       font-weight: 700;
       color: var(--primary);
     }
     .section-admin-path {
       font-size: 11px;
-      color: var(--text-muted);
-      background: #fff;
-      padding: 3px 8px;
+      color: #64748b;
+      background: #e2e8f0;
+      padding: 2px 8px;
       border-radius: 4px;
-      border: 1px solid var(--border);
-      font-weight: 600;
+      font-family: monospace;
     }
     .card-admin-tip {
-      background: #eff6ff;
+      background: #f8fafc;
       border-left: 3px solid #3b82f6;
       padding: 8px 16px;
       font-size: 12px;
-      color: #1e40af;
-      line-height: 1.4;
+      color: #334155;
     }
     .card-body {
       padding: 16px 20px;
     }
-
-    /* Form Fields & Rows */
     .field-row {
       margin-bottom: 18px;
       padding-bottom: 18px;
-      border-bottom: 1px dashed var(--border);
+      border-bottom: 1px solid #f1f5f9;
     }
     .field-row:last-child {
       margin-bottom: 0;
@@ -311,7 +293,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     .field-title-wrap {
       display: flex;
@@ -319,64 +301,62 @@
       gap: 8px;
     }
     .field-callout-pill {
-      background: var(--red-box);
+      background: var(--red-accent);
       color: #fff;
-      font-size: 10.5px;
+      font-size: 11px;
       font-weight: 800;
-      padding: 2px 7px;
-      border-radius: 12px;
+      padding: 2px 6px;
+      border-radius: 4px;
     }
     .field-title-text {
       font-size: 13px;
       font-weight: 700;
-      color: #1e293b;
+      color: #0f172a;
     }
     .field-target-loc {
       font-size: 11px;
-      color: var(--text-muted);
+      color: #94a3b8;
     }
-    .live-content-box {
-      background: #f8fafc;
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
-      padding: 10px 14px;
-      margin-bottom: 10px;
+    .old-content-box {
+      background: #fff5f5;
+      border-left: 3px solid #f87171;
+      padding: 8px 12px;
       font-size: 12px;
-      color: #475569;
-      line-height: 1.4;
+      color: #7f1d1d;
+      margin-bottom: 8px;
+      border-radius: 0 4px 4px 0;
     }
-    .live-content-box strong {
-      color: #0f172a;
-      display: block;
-      margin-bottom: 3px;
-      font-size: 11px;
+    .old-tag {
+      font-size: 10px;
+      font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      margin-bottom: 2px;
+      color: #b91c1c;
     }
-
-    /* Copy Boxes */
     .copy-box {
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
+      background: #f8fafc;
+      border: 1px solid var(--border);
       border-radius: 6px;
       padding: 10px 14px;
       margin-bottom: 8px;
+      position: relative;
     }
-    .copy-box.arabic {
-      background: #fefce8;
-      border-color: #fef08a;
-      direction: rtl;
-      font-family: var(--font-ar);
-    }
+    .copy-box:last-child { margin-bottom: 0; }
     .content-preview {
-      font-size: 12.5px;
+      font-size: 13px;
+      color: #1e293b;
+      white-space: pre-wrap;
+      word-break: break-word;
       line-height: 1.5;
-      color: #0f172a;
-      white-space: pre-line;
     }
     .content-preview.arabic {
-      font-size: 13px;
-      color: #713f12;
+      direction: rtl;
+      text-align: right;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
+      color: #0d1c2a;
+      background: #fcfbf7;
+      border-left: none;
       border-right: 3px solid var(--gold);
       padding: 8px 12px;
       margin-top: 4px;
@@ -431,10 +411,10 @@
 <body>
 
   <!-- Top Master Bar -->
-  <header class="master-header">
-    <div class="header-branding">
+  <header class="top-header">
+    <div class="brand-title">
       <h1>Zelmiqo® Product Detail Master</h1>
-      <span class="badge">PILOT 2 • PORTABLE BLADELESS NECK FAN</span>
+      <span class="badge">Pilot 2 • Portable Bladeless Neck Fan</span>
     </div>
     <div class="header-actions">
       <span class="header-tip">💡 Live Store Visual References & Verbatim Copy Workstation</span>
@@ -496,7 +476,7 @@
       <div class="content-card" id="card-product-hero">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 1</span>
+            <span class="card-main-badge">[1]</span>
             <h3>Purchase Area & Buy Box (Title, Price, Tabby/Tamara, Trust Badges)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Catalog > Products > Portable Bladeless Neck Fan</span>
@@ -515,9 +495,9 @@
               </div>
               <span class="field-target-loc">Product Name Field</span>
             </div>
-            <div class="live-content-box">
-              <strong>LIVE SITE EXISTING CONTENT:</strong>
-              Portable Bladeless Neck Fan with Digital Display & Rechargeable Battery
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">Portable Bladeless Neck Fan with Digital Display & Rechargeable Battery</div>
             </div>
             <div class="copy-box">
               <div class="content-preview" id="p-hero-title-en">Zelmiqo® AeroBreeze Pro 360° Bladeless Neck Fan with Smart Digital LED Battery Display</div>
@@ -525,7 +505,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-title-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-title-ar">مروحة الرقبة التوربينية بدون شفرات 360 درجة مع شاشة رقمية ذكية LED وبطارية تدوم طويلاً من زيلميكو®</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-title-ar', this)">📋 Copy Arabic</button>
@@ -542,9 +522,9 @@
               </div>
               <span class="field-target-loc">Design > Layouts > Product Hero > Image Badge</span>
             </div>
-            <div class="live-content-box">
-              <strong>LIVE SITE EXISTING CONTENT:</strong>
-              360° Hands-Free Arctic Airflow
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">360° Hands-Free Arctic Airflow</div>
             </div>
             <div class="copy-box">
               <div class="content-preview" id="p-hero-callout-en">360° Hands-Free Arctic Airflow</div>
@@ -552,7 +532,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-callout-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-callout-ar">تدفق هواء قطبي 360 درجة بدون استخدام اليدين</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-callout-ar', this)">📋 Copy Arabic</button>
@@ -569,12 +549,12 @@
               </div>
               <span class="field-target-loc">Short Summary / Above Price</span>
             </div>
-            <div class="live-content-box">
-              <strong>LIVE SITE EXISTING CONTENT:</strong>
-              • 360° surround airflow with dual turbine power<br>
+            <div class="old-content-box">
+              <div class="old-tag">Live Site Existing Content:</div>
+              <div class="old-text">• 360° surround airflow with dual turbine power<br>
               • Smart digital LED battery display<br>
               • 100% hair-safe bladeless design<br>
-              • Up to 16 hours runtime on single charge
+              • Up to 16 hours runtime on single charge</div>
             </div>
             <div class="copy-box">
               <div class="content-preview" id="p-hero-hook-en">• ❄️ 360° Surround Airflow: 72 aerodynamic micro-vents circulate arctic breeze across face and neck
@@ -585,7 +565,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-hook-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-hook-ar">• ❄️ تدفق هواء محيطي 360 درجة: 72 فتحة تهوية دقيقة تبث نسيم تبريد منعش يغطي الوجه والعنق بالكامل
 • 📊 شاشة رقمية LED ذكية: عرض دقيق لنسبة البطارية ومستوى السرعة في الوقت الفعلي
 • 🛡️ آمنة تماماً على الشعر 100%: فتحات توربينية مغلقة تمنع تشابك الشعر الطويل أو الحجاب أو الشماغ
@@ -611,7 +591,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-price-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-price-ar">89.00 ر.س (بدلاً من 149.00 ر.س — وفر 40% اليوم مع استرجاع مجاني)</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-price-ar', this)">📋 Copy Arabic</button>
@@ -634,7 +614,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-bnpl-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-bnpl-ar">أو قسّمها على 4 دفعات شهرية بقيمة 22.25 ر.س بدون فوائد مع تابي أو تمارا (متوافق مع الشريعة وبدون رسوم إضافية)</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-bnpl-ar', this)">📋 Copy Arabic</button>
@@ -657,7 +637,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-ship-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-ship-ar">⚡️ شحن وتوصيل فوري خلال 24–48 ساعة من مستودعات الرياض • شحن مجاني للطلبات فوق 199 ر.س • ضمان ذهبي للاستبدال 14 يوماً</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-ship-ar', this)">📋 Copy Arabic</button>
@@ -680,7 +660,7 @@
                 <button class="copy-btn" onclick="copyFrom('p-hero-btn-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-hero-btn-ar">أضف للسلة الآن • استفد من خصم صيف المملكة 40%</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-hero-btn-ar', this)">📋 Copy Arabic</button>
@@ -697,7 +677,7 @@
       <div class="content-card" id="card-product-faqs">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 2</span>
+            <span class="card-main-badge">[2]</span>
             <h3>FAQs Accordion (Hair Safety, Battery Duration, Weight, Noise Level, Charging)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > FAQs Module</span>
@@ -722,7 +702,7 @@ A: No, absolutely not. The Zelmiqo AeroBreeze Pro is engineered with fully enclo
                 <button class="copy-btn" onclick="copyFrom('p-faq-1-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-faq-1-ar">س: هل يمكن أن يعلق شعري الطويل، الحجاب، أو الشماغ في مروحة الرقبة؟
 ج: كلا، على الإطلاق. تم تصميم مروحة زيلميكو إيروبريز برو بتقنية التوربينات المزدوجة المغلقة بالكامل مع 72 منفذاً دقيقاً، مما يلغي وجود أي شفرات مكشوفة. وهي آمنة بنسبة 100% مع الشعر الطويل، الحجاب، الشماغ، والإكسسوارات دون أي خطر للتشابك.</div>
               <div class="copy-btn-bar">
@@ -746,7 +726,7 @@ A: The built-in 4000mAh high-density lithium battery delivers between 4 to 16 ho
                 <button class="copy-btn" onclick="copyFrom('p-faq-2-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-faq-2-ar">س: كم تدوم البطارية بشحنة واحدة أثناء الاستخدام في الهواء الطلق؟
 ج: توفر بطارية الليثيوم المدمجة بسعة 4000 مللي أمبير ما بين 4 إلى 16 ساعة من التبريد المستمر وفقاً لمستوى السرعة المختار (السرعة 1: حتى 16 ساعة، السرعة 2: حتى 9 ساعات، السرعة 3: حتى 4.5 ساعة). وتعرض شاشة LED الرقمية الذكية النسبة المئوية المتبقية لحظة بلحظة.</div>
               <div class="copy-btn-bar">
@@ -770,7 +750,7 @@ A: Not at all. Weighing only 245 grams, it features an ergonomic center band cra
                 <button class="copy-btn" onclick="copyFrom('p-faq-3-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-faq-3-ar">س: هل المروحة ثقيلة أو مزعجة عند ارتدائها أثناء المشي الطويل أو التمارين؟
 ج: أبداً، وزن المروحة خفيف جداً (245 جرام فقط)، ومزودة بقطاع وسطي مرن مصنوع من السيليكون الطبي الصديق للبشرة والمقاوم للبكتيريا، والذي ينحني بسهولة ليلائم كافة مقاسات الرقبة دون أي إجهاد أو تجمع للعرق.</div>
               <div class="copy-btn-bar">
@@ -794,7 +774,7 @@ A: No. Powered by an advanced multi-stage brushless DC motor, the fan operates a
                 <button class="copy-btn" onclick="copyFrom('p-faq-4-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-faq-4-ar">س: هل صوت المروحة مرتفع وقد يزعج الزملاء في العمل أو المكالمات الهاتفية؟
 ج: كلا، بفضل المحرك المغناطيسي عديم الفرش المتطور، تعمل المروحة بمستوى ضجيج منخفض جداً أقل من 25 ديسيبل في وضع النسيم الهادئ، وهو أهدأ من الهمس في مكتبة. يمكنك إجراء المكالمات والدراسة بهدوء وراحة تامة.</div>
               <div class="copy-btn-bar">
@@ -818,7 +798,7 @@ A: Using the included universal Type-C fast-charging cable, it reaches a full 10
                 <button class="copy-btn" onclick="copyFrom('p-faq-5-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-faq-5-ar">س: كم يستغرق شحن المروحة بالكامل وهل تقبل الشحن من بنك الطاقة المتنقل؟
 ج: باستخدام كابل الشحن السريع Type-C المرفق، يكتمل الشحن بنسبة 100% خلال 3 ساعات تقريباً. ويمكن شحنها من أي شاحن جداري، شاحن سيارة، لابتوب، أو بنك طاقة متنقل (باور بانك)، مما يجعلها الرفيق المثالي للرحلات ومناسك الحج والعمرة.</div>
               <div class="copy-btn-bar">
@@ -836,7 +816,7 @@ A: Using the included universal Type-C fast-charging cable, it reaches a full 10
       <div class="content-card" id="card-product-two-col">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 3</span>
+            <span class="card-main-badge">[3]</span>
             <h3>Two Col Hero Section (Dual Feature Split with 3 Trust Cards)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > Two Column Feature</span>
@@ -860,7 +840,7 @@ A: Using the included universal Type-C fast-charging cable, it reaches a full 10
                 <button class="copy-btn" onclick="copyFrom('p-two-head-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-two-head-ar">تدفق هواء قطبي محيطي 360 درجة • مصممة خصيصاً لمقاومة حرارة الصيف</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-two-head-ar', this)">📋 Copy Arabic</button>
@@ -882,7 +862,7 @@ A: Using the included universal Type-C fast-charging cable, it reaches a full 10
                 <button class="copy-btn" onclick="copyFrom('p-two-sub-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-two-sub-ar">محركات توربينية مزدوجة فائقة القوة و72 فتحة تهوية دقيقة تبث نسيم تبريد منعش يغطي الوجه والعنق بالكامل—لتحافظ على انتعاشك وجفافك حتى في درجات حرارة تتجاوز 45 مئوية.</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-two-sub-ar', this)">📋 Copy Arabic</button>
@@ -911,7 +891,7 @@ Equipped with an advanced internal smart chip that regulates motor temperature a
                 <button class="copy-btn" onclick="copyFrom('p-two-cards-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-two-cards-ar">البطاقة 1: توزيع هواء محيطي 360 درجة
 تحيط بالرقبة بشكل دائري كامل لتدفق هواء منعش يغطي جانبي الوجه والرقبة من الخلف دون أي نقاط ساخنة.
 
@@ -935,7 +915,7 @@ Equipped with an advanced internal smart chip that regulates motor temperature a
       <div class="content-card" id="card-product-center-blocks">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 4</span>
+            <span class="card-main-badge">[4]</span>
             <h3>Center Img & 4 Side-by-Side Blocks (Feature Quad Layout)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > Quad Feature Section</span>
@@ -959,7 +939,7 @@ Equipped with an advanced internal smart chip that regulates motor temperature a
                 <button class="copy-btn" onclick="copyFrom('p-center-head-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-center-head-ar">تقنية تبريد متنقلة ذكية مصممة لتمنحك أقصى درجات الراحة طوال اليوم</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-center-head-ar', this)">📋 Copy Arabic</button>
@@ -991,7 +971,7 @@ Engineered with multi-chamber acoustic noise reduction operating below 25dB, ens
                 <button class="copy-btn" onclick="copyFrom('p-center-blocks-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-center-blocks-ar">المربع 1: شاشة LED رقمية ذكية توضح النسبة
 لا داعي لتخمين طاقة البطارية بعد اليوم. توفر شاشة LED الرقمية قراءة دقيقة لنسبة الشحن المتبقية (من 1% إلى 100%) ومستوى السرعة الحالي بلمحة سريعة.
 
@@ -1018,7 +998,7 @@ Engineered with multi-chamber acoustic noise reduction operating below 25dB, ens
       <div class="content-card" id="card-product-benefits-grid">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 5</span>
+            <span class="card-main-badge">[5]</span>
             <h3>2 Col Img 4 Block (Everyday Lifestyle Benefits Grid)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > Lifestyle Grid</span>
@@ -1042,7 +1022,7 @@ Engineered with multi-chamber acoustic noise reduction operating below 25dB, ens
                 <button class="copy-btn" onclick="copyFrom('p-grid-head-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-grid-head-ar">انتعاش يومي أينما كنت • مصممة لأسلوب الحياة في المملكة</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-grid-head-ar', this)">📋 Copy Arabic</button>
@@ -1074,7 +1054,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-grid-blocks-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-grid-blocks-ar">المربع 1: التنقل، التسوق والمشاوير اليومية
 تخلص من موجات الحر الخانقة فور الخروج من المراكز التجارية المكيفة، الأبراج المكتبية، أو محطات القطار في الرياض وجدة.
 
@@ -1101,7 +1081,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
       <div class="content-card" id="card-product-table">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 6</span>
+            <span class="card-main-badge">[6]</span>
             <h3>Comparison Table (Zelmiqo® AeroBreeze vs Ordinary Handheld Fans)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > Comparison Table</span>
@@ -1125,7 +1105,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-table-head-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-table-head-ar">لماذا تتفوق مروحة زيلميكو® إيروبريز على المراوح اليدوية التقليدية</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-table-head-ar', this)">📋 Copy Arabic</button>
@@ -1151,7 +1131,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-table-metrics-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-table-metrics-ar">1. طريقة الارتداء: زيلميكو: حرة اليدين 100% مع طوق رقبة مريح وخفيف للغاية (245 جرام) | أخرى: يجب حملها باليد طوال الوقت مما يسبب إجهاد المعصم.
 2. أمان الشعر والحجاب: زيلميكو: توربينات مزدوجة مغلقة بالكامل — آمنة 100% ولا تتشابك بالشعر نهائياً | أخرى: شفرات دوارة مكشوفة وخطيرة تسحب الشعر وخيوط الحجاب بسهولة.
 3. توزيع تيار الهواء: زيلميكو: تبريد محيطي شامل 360 درجة عبر 72 منفذاً هوائياً للوجه والعنق | أخرى: تيار هواء ضيق وأحادي الاتجاه يوجه لبقعة واحدة فقط.
@@ -1172,7 +1152,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
       <div class="content-card" id="card-product-marquee">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 7</span>
+            <span class="card-main-badge">[7]</span>
             <h3>Marquee Trust Ribbon (Continuous Moving Ticker)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > Marquee Ticker</span>
@@ -1200,7 +1180,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-marquee-hooks-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-marquee-hooks-ar">• ❄️ تبريد محيطي شامل بزاوية 360 درجة بدون شفرات
 • ⚡️ شاشة رقمية ذكية توضح نسبة الشحن المتبقية بدقة
 • 🔋 بطارية عملاقة 4000 مللي أمبير تدوم حتى 16 ساعة متواصلة
@@ -1222,7 +1202,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
       <div class="content-card" id="card-product-customers">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 8</span>
+            <span class="card-main-badge">[8]</span>
             <h3>Customers Showcase Gallery (Verified Saudi Shopper Feedback)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Design > Layouts > Product Page > Customer Photo Showcase</span>
@@ -1246,7 +1226,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-cust-1-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-cust-1-ar">"منقذ حقيقي في صيف الرياض ودرجات الحرارة اللي تتجاوز 46 درجة. استخدمها يومياً من مواقف السيارات إلى مبنى الوزارة، وزنها خفيف جداً وصوتها شبه معدوم."</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-cust-1-ar', this)">📋 Copy Arabic</button>
@@ -1268,7 +1248,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-cust-2-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-cust-2-ar">"استخدمتها أثناء أداء العمرة في الحرم المكي الشريف، ساعدتني جداً خلال الطواف والسعي وحمتني من الإرهاق الحراري بدون أي خوف على الحجاب أو الشعر. بطاريتها خرافية!"</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-cust-2-ar', this)">📋 Copy Arabic</button>
@@ -1290,7 +1270,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-cust-3-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-cust-3-ar">"الشاشة الرقمية بنسبة الشحن ميزة جبارة وتعرف بالضبط كم باقي فيها طاقة. وشحنها سريع جداً عبر كابل تايب سي. تستاهل كل ريال."</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-cust-3-ar', this)">📋 Copy Arabic</button>
@@ -1312,7 +1292,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-cust-4-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-cust-4-ar">"السيليكون الناعم مريح جداً على الرقبة وما يسبب أي تعرق. تصميمها أنيق وعصري كأنها سماعات رأس حديثة. أنصح فيها وبشدة!"</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-cust-4-ar', this)">📋 Copy Arabic</button>
@@ -1329,7 +1309,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
       <div class="content-card" id="card-product-reviews">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 9</span>
+            <span class="card-main-badge">[9]</span>
             <h3>Customer Reviews & Ratings (4.9/5 Breakdown & Detailed Feedback)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Catalog > Reviews > Product Reviews</span>
@@ -1353,7 +1333,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-rev-sum-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-rev-sum-ar">تقييم 4.9 من 5.0 بناءً على 248 تقييماً موثقاً من عملاء المملكة (93% 5 نجوم، 6% 4 نجوم، 1% 3 نجوم)</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-rev-sum-ar', this)">📋 Copy Arabic</button>
@@ -1375,7 +1355,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-rev-note-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-rev-note-ar">كافة التقييمات صادرة عن مشترين موثقين تم توصيل طلباتهم محلياً في الرياض، جدة، الدمام، مكة، والمدينة. مشمولة بالضمان الذهبي للاستبدال الفوري.</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-rev-note-ar', this)">📋 Copy Arabic</button>
@@ -1392,7 +1372,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
       <div class="content-card" id="card-product-related">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 10</span>
+            <span class="card-main-badge">[10]</span>
             <h3>Related Products Ecosystem (Frequently Bought Together & Cross-Sells)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Catalog > Products > Related Products</span>
@@ -1418,7 +1398,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-rel-items-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-rel-items-ar">1. مبرد ومكيف الهواء المحمول 3 في 1 مع مرطب وإضاءة — 129.00 ر.س (واحة تبريد شخصية للمكتب والمنزل)
 2. مروحة المكتب الصغيرة القابلة للشحن 3 سرعات — 49.00 ر.س (رفيق تبريد مدمج لغرفة النوم والمكتب)
 3. مظلة شمسية قابلة للطي لزجاج السيارة الأمامي — 69.00 ر.س (حجب 99% من حرارة الشمس وحماية مقصورة السيارة)
@@ -1442,7 +1422,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-rel-upsell-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-rel-upsell-ar">عرض الباقة والتوفير: اطلب مروحة الرقبة مع مظلة زجاج السيارة أو مبرد المكتب لتصل إلى 199 ر.س واحصل فوراً على شحن سريع مجاني لكافة مدن المملكة!</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-rel-upsell-ar', this)">📋 Copy Arabic</button>
@@ -1459,7 +1439,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
       <div class="content-card" id="card-product-seo">
         <div class="card-header">
           <div class="card-header-title">
-            <span class="card-main-badge">Section 11</span>
+            <span class="card-main-badge">[SEO]</span>
             <h3>Full Page Visual Architecture & SEO Metadata (Google & Social Sharing)</h3>
           </div>
           <span class="section-admin-path">FatherShops: Catalog > Products > SEO & Social Metadata</span>
@@ -1483,7 +1463,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-seo-title-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-seo-title-ar">مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية LED | زيلميكو® السعودية</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-seo-title-ar', this)">📋 Copy Arabic</button>
@@ -1505,7 +1485,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-seo-desc-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-seo-desc-ar">تبريد قطبي محيطي 360 درجة بدون استخدام اليدين. محركات توربينية آمنة للشعر 100% مع شاشة رقمية توضح نسبة البطارية وبطارية تدوم 16 ساعة. أساسية لصيف المملكة، الحج والعمرة. توصيل سريع في السعودية.</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-seo-desc-ar', this)">📋 Copy Arabic</button>
@@ -1527,7 +1507,7 @@ Provides immediate refreshing neck breeze while waiting for your car's AC to coo
                 <button class="copy-btn" onclick="copyFrom('p-seo-kw-en', this)">📋 Copy English</button>
               </div>
             </div>
-            <div class="copy-box arabic">
+            <div class="copy-box">
               <div class="content-preview arabic" id="p-seo-kw-ar">مروحة رقبة بدون شفرات, مروحة الرقبة التوربينية, مروحة شاشة رقمية, مروحة للحج والعمرة, مكيف رقبة متنقل, تبريد شخصي صيفي السعودية, مروحة رقبة زيلميكو</div>
               <div class="copy-btn-bar">
                 <button class="copy-btn" onclick="copyFrom('p-seo-kw-ar', this)">📋 Copy Arabic</button>
