@@ -26,7 +26,25 @@ REQUIRED_PAGES = [
     'footer.html',
     'index.html',
     'product-3-in-1-fast-charging-dock.html',
-    'product-portable-bladeless-neck-fan.html'
+    'product-portable-bladeless-neck-fan.html',
+    'product-3-in-1-portable-air-cooler.html',
+    'product-mini-usb-rechargeable-fan.html',
+    'product-portable-bladeless-neck-fan-5-speeds.html',
+    'product-3d-silicone-facial-brush.html',
+    'product-5-in-1-ems-facial-massager.html',
+    'product-deep-pore-blackhead-remover.html',
+    'product-portable-scalp-massage-comb.html',
+    'product-ultrasonic-skin-scrubber.html',
+    'product-bionic-finger-neck-massager.html',
+    'product-smart-fascia-massage-gun.html',
+    'product-usb-coffee-mug-warmer.html',
+    'product-wireless-weather-station-alarm.html',
+    'product-foldable-car-sun-shade.html',
+    'product-portable-6-blade-juicer.html',
+    'product-portable-double-cup-juicer.html',
+    'product-portable-usb-citrus-juicer.html',
+    'product-cordless-handheld-car-vacuum.html',
+    'product-portable-wireless-car-vacuum.html'
 ]
 
 FORBIDDEN_PAGE_PATTERNS = [
