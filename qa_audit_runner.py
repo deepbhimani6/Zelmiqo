@@ -25,27 +25,27 @@ REQUIRED_PAGES = [
     'header.html',
     'footer.html',
     'index.html',
-    'product-3-in-1-fast-charging-dock.html',
-    'product-portable-bladeless-neck-fan.html',
-    'product-3-in-1-portable-air-cooler.html',
-    'product-mini-usb-rechargeable-fan.html',
-    'product-portable-bladeless-neck-fan-5-speeds.html',
-    'product-3d-silicone-facial-brush.html',
-    'product-5-in-1-ems-facial-massager.html',
-    'product-deep-pore-blackhead-remover.html',
-    'product-portable-scalp-massage-comb.html',
-    'product-ultrasonic-skin-scrubber.html',
-    'product-bionic-finger-neck-massager.html',
-    'product-smart-fascia-massage-gun.html',
-    'product-usb-coffee-mug-warmer.html',
-    'product-wireless-weather-station-alarm.html',
-    'product-foldable-car-sun-shade.html',
-    'product-portable-6-blade-juicer.html',
-    'product-portable-double-cup-juicer.html',
-    'product-portable-usb-citrus-juicer.html',
-    'product-cordless-handheld-car-vacuum.html',
-    'product-portable-wireless-car-vacuum.html',
-    'product-r36s-retro-handheld-game-console.html'
+    os.path.join('products-html-pages', '3-in-1-fast-charging-dock.html'),
+    os.path.join('products-html-pages', 'portable-bladeless-neck-fan.html'),
+    os.path.join('products-html-pages', '3-in-1-portable-air-cooler.html'),
+    os.path.join('products-html-pages', 'mini-usb-rechargeable-fan.html'),
+    os.path.join('products-html-pages', 'portable-bladeless-neck-fan-5-speeds.html'),
+    os.path.join('products-html-pages', '3d-silicone-facial-brush.html'),
+    os.path.join('products-html-pages', '5-in-1-ems-facial-massager.html'),
+    os.path.join('products-html-pages', 'deep-pore-blackhead-remover.html'),
+    os.path.join('products-html-pages', 'portable-scalp-massage-comb.html'),
+    os.path.join('products-html-pages', 'ultrasonic-skin-scrubber.html'),
+    os.path.join('products-html-pages', 'bionic-finger-neck-massager.html'),
+    os.path.join('products-html-pages', 'smart-fascia-massage-gun.html'),
+    os.path.join('products-html-pages', 'usb-coffee-mug-warmer.html'),
+    os.path.join('products-html-pages', 'wireless-weather-station-alarm.html'),
+    os.path.join('products-html-pages', 'foldable-car-sun-shade.html'),
+    os.path.join('products-html-pages', 'portable-6-blade-juicer.html'),
+    os.path.join('products-html-pages', 'portable-double-cup-juicer.html'),
+    os.path.join('products-html-pages', 'portable-usb-citrus-juicer.html'),
+    os.path.join('products-html-pages', 'cordless-handheld-car-vacuum.html'),
+    os.path.join('products-html-pages', 'portable-wireless-car-vacuum.html'),
+    os.path.join('products-html-pages', 'r36s-retro-handheld-game-console.html')
 ]
 
 FORBIDDEN_PAGE_PATTERNS = [
@@ -338,8 +338,9 @@ def test_7_hub_and_inter_page_navigation():
             wp_path = os.path.join(PAGES_DIR, p)
             with open(wp_path, 'r', encoding='utf-8') as f:
                 wp_html = f.read()
-            if 'href="index.html"' not in wp_html and "href='index.html'" not in wp_html:
-                res.fail(f"{p} missing back link to index.html")
+            expected_back_link = '../index.html' if ('/' in p or '\\' in p) else 'index.html'
+            if f'href="{expected_back_link}"' not in wp_html and f"href='{expected_back_link}'" not in wp_html:
+                res.fail(f"{p} missing back link to {expected_back_link}")
             else:
                 res.pass_msg(f"Bidirectional link verified: index.html <---> {p}")
 
