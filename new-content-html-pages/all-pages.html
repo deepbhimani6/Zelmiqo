@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Pages &amp; URLs Directory | Zelmiqo® Content Workstation</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #d4af37;
+      --bg-dark: #09131d;
+      --bg-card: #ffffff;
+      --bg-light: #f1f5f9;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --border-dark: #334155;
+      --red-accent: #e61919;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding-bottom: 64px;
+    }
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand-title h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.4px;
+    }
+    .brand-title .badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+    .hub-link-btn:hover,
+    .hub-link-btn.active-btn {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .page-container {
+      max-width: 1360px;
+      margin: 28px auto 0 auto;
+      padding: 0 24px;
+    }
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .stat-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .stat-value {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .stat-sub {
+      font-size: 12px;
+      color: var(--green);
+      font-weight: 600;
+    }
+    .controls-bar {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+    }
+    .search-wrap {
+      flex: 1 1 300px;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
+      font-size: 13.5px;
+      color: var(--text-main);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--gold);
+    }
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .filter-btn {
+      background: #f8fafc;
+      color: var(--text-main);
+      border: 1px solid #cbd5e1;
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn:hover {
+      border-color: var(--gold);
+    }
+    .filter-btn.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .batch-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .batch-btn {
+      background: #fff;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .batch-btn:hover {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: var(--primary);
+    }
+    .batch-btn.copied {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+    .section-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+      margin-bottom: 28px;
+    }
+    .section-card.hidden-section {
+      display: none;
+    }
+    .section-card-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid var(--gold);
+    }
+    .section-card-header h2 {
+      font-size: 16px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .folder-pill {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid rgba(212,175,55,0.45);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .table-scroll {
+      overflow-x: auto;
+    }
+    table.url-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    table.url-table thead th {
+      background: #f8fafc;
+      color: #475569;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    table.url-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+    table.url-table tbody tr:last-child {
+      border-bottom: none;
+    }
+    table.url-table tbody tr:hover {
+      background: #fcfbf7;
+    }
+    table.url-table tbody tr.hidden-row {
+      display: none;
+    }
+    table.url-table td {
+      padding: 12px 16px;
+      vertical-align: middle;
+    }
+    .col-num {
+      width: 56px;
+      text-align: center;
+    }
+    .num-pill {
+      display: inline-block;
+      background: #f1f5f9;
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 11.5px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+    }
+    .row-title-en {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 13.5px;
+    }
+    .row-title-ar {
+      direction: rtl;
+      text-align: right;
+      font-size: 12.5px;
+      font-weight: 600;
+      color: #9a7b1c;
+      margin-top: 2px;
+    }
+    .cat-badge {
+      display: inline-block;
+      margin-top: 4px;
+      background: #eef2ff;
+      color: #334155;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+    .url-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+    .url-line:last-child {
+      margin-bottom: 0;
+    }
+    .local-url-link {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: #0369a1;
+      text-decoration: none;
+      word-break: break-all;
+      font-weight: 600;
+    }
+    .local-url-link:hover {
+      text-decoration: underline;
+    }
+    .ext-url-link {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      color: #0f766e;
+      text-decoration: none;
+      word-break: break-all;
+      font-weight: 600;
+    }
+    .ext-url-link:hover {
+      text-decoration: underline;
+    }
+    .rel-slug-tag {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+    .rel-slug-tag code {
+      background: #f1f5f9;
+      padding: 1px 5px;
+      border-radius: 4px;
+      color: var(--primary);
+    }
+    .scope-pill {
+      display: inline-block;
+      background: #f1f5f9;
+      color: #475569;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+    }
+    .mini-copy-btn {
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-size: 11px;
+      cursor: pointer;
+      flex-shrink: 0;
+      transition: all 0.15s;
+    }
+    .mini-copy-btn:hover {
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+    .mini-copy-btn.copied {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+    .col-actions {
+      width: 130px;
+      text-align: right;
+    }
+    .row-open-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 7px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .row-open-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .empty-state {
+      display: none;
+      text-align: center;
+      padding: 40px 20px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0f172a;
+      color: #fff;
+      border-left: 4px solid var(--gold);
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+      z-index: 99999;
+      display: none;
+    }
+    @media (max-width: 900px) {
+      .stats-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 600px) {
+      .stats-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® All Pages &amp; URLs Directory</h1>
+      <span class="badge">new-content-html-pages</span>
+    </div>
+    <div class="header-actions">
+      <a href="all-pages.html" class="hub-link-btn active-btn">🔗 All Pages</a>
+      <a href="main-html-pages/index.html" class="hub-link-btn">← Back to Master Hub</a>
+    </div>
+  </header>
+
+  <div class="page-container">
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <span class="stat-label">Total Pages &amp; URLs Listed</span>
+        <span class="stat-value">40 URLs</span>
+        <span class="stat-sub">✓ Complete new-content-html-pages Map</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Main HTML Pages</span>
+        <span class="stat-value">11 Pages</span>
+        <span class="stat-sub">✓ Folder: main-html-pages/</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Product HTML Pages</span>
+        <span class="stat-value">21 Products</span>
+        <span class="stat-sub">✓ Folder: products-html-pages/</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Category URLs Set</span>
+        <span class="stat-value">8 Categories</span>
+        <span class="stat-sub">✓ Referenced in main-html-pages/home.html</span>
+      </div>
+    </div>
+
+    <div class="controls-bar">
+      <div class="search-wrap">
+        <input type="text" id="urlSearch" class="search-input" placeholder="Search page name, Arabic title, HTML file path, or zelmiqo.com URL..." oninput="applyFilters()">
+      </div>
+      <div class="filter-pills">
+        <button type="button" class="filter-btn active" onclick="setGroupFilter('all', this)">All (40)</button>
+        <button type="button" class="filter-btn" onclick="setGroupFilter('main', this)">Main Pages (11)</button>
+        <button type="button" class="filter-btn" onclick="setGroupFilter('product', this)">Product Pages (21)</button>
+        <button type="button" class="filter-btn" onclick="setGroupFilter('category', this)">Category URLs (8)</button>
+      </div>
+      <div class="batch-actions">
+        <button type="button" class="batch-btn" onclick="copyAllLocalUrls(this)">📋 Copy All Page URLs</button>
+        <button type="button" class="batch-btn" onclick="copyAllStoreUrls(this)">📋 Copy All Store URLs</button>
+      </div>
+    </div>
+
+    <!-- SECTION 1: MAIN HTML PAGES -->
+    <div class="section-card" id="section-main">
+      <div class="section-card-header">
+        <h2>🏠 Main Store &amp; Component HTML Pages (11)</h2>
+        <span class="folder-pill">main-html-pages/</span>
+      </div>
+      <div class="table-scroll">
+        <table class="url-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Page Title</th>
+              <th>Content HTML Page URL</th>
+              <th>Store Target URL Set in Content</th>
+              <th style="text-align:right;">Open</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          <tr class="url-row" data-group="main" data-search="master content workstation hub لوحة التحكم الرئيسية لجميع الصفحات hub index • 31 cards main-html-pages/index.html internal master hub ">
+            <td class="col-num"><span class="num-pill">00</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Master Content Workstation Hub</div>
+              <div class="row-title-ar">لوحة التحكم الرئيسية لجميع الصفحات</div>
+              <span class="cat-badge">Hub Index • 31 Cards</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/index.html" class="local-url-link" data-rel="main-html-pages/index.html">main-html-pages/index.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/index.html" onclick="copyResolvedUrl('main-html-pages/index.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="Internal Master Hub" target="_blank" rel="noopener noreferrer" class="ext-url-link">Internal Master Hub</a><button type="button" class="mini-copy-btn" onclick="copyText('Internal Master Hub', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/index.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="home page الرئيسية 9 sections main-html-pages/home.html https://zelmiqo.com/ ">
+            <td class="col-num"><span class="num-pill">01</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Home Page</div>
+              <div class="row-title-ar">الرئيسية</div>
+              <span class="cat-badge">9 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html" class="local-url-link" data-rel="main-html-pages/home.html">main-html-pages/home.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html" onclick="copyResolvedUrl('main-html-pages/home.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="catalog page الكتالوج 5 sections main-html-pages/catalog.html https://zelmiqo.com/catalog ">
+            <td class="col-num"><span class="num-pill">02</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Catalog Page</div>
+              <div class="row-title-ar">الكتالوج</div>
+              <span class="cat-badge">5 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/catalog.html" class="local-url-link" data-rel="main-html-pages/catalog.html">main-html-pages/catalog.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/catalog.html" onclick="copyResolvedUrl('main-html-pages/catalog.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/catalog" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/catalog</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/catalog', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/catalog.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="about us من نحن 6 sections main-html-pages/about-us.html https://zelmiqo.com/page/about-us ">
+            <td class="col-num"><span class="num-pill">03</span></td>
+            <td class="col-name">
+              <div class="row-title-en">About Us</div>
+              <div class="row-title-ar">من نحن</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/about-us.html" class="local-url-link" data-rel="main-html-pages/about-us.html">main-html-pages/about-us.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/about-us.html" onclick="copyResolvedUrl('main-html-pages/about-us.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/page/about-us" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/page/about-us</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/page/about-us', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/about-us.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="delivery &amp; shipping الشحن والتوصيل 6 sections main-html-pages/delivery-and-shipping.html https://zelmiqo.com/page/delivery ">
+            <td class="col-num"><span class="num-pill">04</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Delivery &amp; Shipping</div>
+              <div class="row-title-ar">الشحن والتوصيل</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/delivery-and-shipping.html" class="local-url-link" data-rel="main-html-pages/delivery-and-shipping.html">main-html-pages/delivery-and-shipping.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/delivery-and-shipping.html" onclick="copyResolvedUrl('main-html-pages/delivery-and-shipping.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/page/delivery" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/page/delivery</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/page/delivery', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/delivery-and-shipping.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="warranty &amp; returns الضمان والاسترجاع 6 sections main-html-pages/warranty-and-returns.html https://zelmiqo.com/page/warranty ">
+            <td class="col-num"><span class="num-pill">05</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Warranty &amp; Returns</div>
+              <div class="row-title-ar">الضمان والاسترجاع</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/warranty-and-returns.html" class="local-url-link" data-rel="main-html-pages/warranty-and-returns.html">main-html-pages/warranty-and-returns.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/warranty-and-returns.html" onclick="copyResolvedUrl('main-html-pages/warranty-and-returns.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/page/warranty" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/page/warranty</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/page/warranty', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/warranty-and-returns.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="contact us اتصل بنا 6 sections main-html-pages/contact-us.html https://zelmiqo.com/page/contact ">
+            <td class="col-num"><span class="num-pill">06</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Contact Us</div>
+              <div class="row-title-ar">اتصل بنا</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/contact-us.html" class="local-url-link" data-rel="main-html-pages/contact-us.html">main-html-pages/contact-us.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/contact-us.html" onclick="copyResolvedUrl('main-html-pages/contact-us.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/page/contact" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/page/contact</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/page/contact', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/contact-us.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="privacy &amp; terms الخصوصية والشروط 6 sections main-html-pages/privacy-and-terms.html https://zelmiqo.com/page/privacy https://zelmiqo.com/page/terms ">
+            <td class="col-num"><span class="num-pill">07</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Privacy &amp; Terms</div>
+              <div class="row-title-ar">الخصوصية والشروط</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/privacy-and-terms.html" class="local-url-link" data-rel="main-html-pages/privacy-and-terms.html">main-html-pages/privacy-and-terms.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/privacy-and-terms.html" onclick="copyResolvedUrl('main-html-pages/privacy-and-terms.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/page/privacy" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/page/privacy</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/page/privacy', this)" title="Copy Store URL">📋</button></div>
+<div class="url-line"><a href="https://zelmiqo.com/page/terms" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/page/terms</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/page/terms', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/privacy-and-terms.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="blogs &amp; articles المدونة والمقالات 5 sections main-html-pages/blogs-and-articles.html https://zelmiqo.com/blog ">
+            <td class="col-num"><span class="num-pill">08</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Blogs &amp; Articles</div>
+              <div class="row-title-ar">المدونة والمقالات</div>
+              <span class="cat-badge">5 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/blogs-and-articles.html" class="local-url-link" data-rel="main-html-pages/blogs-and-articles.html">main-html-pages/blogs-and-articles.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/blogs-and-articles.html" onclick="copyResolvedUrl('main-html-pages/blogs-and-articles.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/blog" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/blog</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/blog', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/blogs-and-articles.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="store header رأس الصفحة 6 sections main-html-pages/header.html  ">
+            <td class="col-num"><span class="num-pill">09</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Store Header</div>
+              <div class="row-title-ar">رأس الصفحة</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/header.html" class="local-url-link" data-rel="main-html-pages/header.html">main-html-pages/header.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/header.html" onclick="copyResolvedUrl('main-html-pages/header.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <span class="scope-pill">Global Component</span>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/header.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="main" data-search="store footer تذييل الصفحة 6 sections main-html-pages/footer.html  ">
+            <td class="col-num"><span class="num-pill">10</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Store Footer</div>
+              <div class="row-title-ar">تذييل الصفحة</div>
+              <span class="cat-badge">6 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/footer.html" class="local-url-link" data-rel="main-html-pages/footer.html">main-html-pages/footer.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/footer.html" onclick="copyResolvedUrl('main-html-pages/footer.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <span class="scope-pill">Global Component</span>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/footer.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SECTION 2: PRODUCT DETAIL HTML PAGES -->
+    <div class="section-card" id="section-product">
+      <div class="section-card-header">
+        <h2>📦 Product Detail HTML Pages (21)</h2>
+        <span class="folder-pill">products-html-pages/</span>
+      </div>
+      <div class="table-scroll">
+        <table class="url-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Product Title</th>
+              <th>Content HTML Page URL</th>
+              <th>Store Target URL Set in Content</th>
+              <th style="text-align:right;">Open</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          <tr class="url-row" data-group="product" data-search="3-in-1 fast charging dock for phone, airpods &amp; apple watch منصة شحن لاسلكي 3 في 1 11 sections &amp; 58 copy hooks products-html-pages/3-in-1-fast-charging-dock.html https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand ">
+            <td class="col-num"><span class="num-pill">01</span></td>
+            <td class="col-name">
+              <div class="row-title-en">3-in-1 Fast Charging Dock for Phone, AirPods &amp; Apple Watch</div>
+              <div class="row-title-ar">منصة شحن لاسلكي 3 في 1</div>
+              <span class="cat-badge">11 Sections &amp; 58 Copy Hooks</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/3-in-1-fast-charging-dock.html" class="local-url-link" data-rel="products-html-pages/3-in-1-fast-charging-dock.html">products-html-pages/3-in-1-fast-charging-dock.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/3-in-1-fast-charging-dock.html" onclick="copyResolvedUrl('products-html-pages/3-in-1-fast-charging-dock.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/3-in-1-fast-charging-dock.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="portable bladeless neck fan with smart digital led display مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية 11 sections &amp; 58 copy hooks products-html-pages/portable-bladeless-neck-fan.html https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display ">
+            <td class="col-num"><span class="num-pill">02</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Portable Bladeless Neck Fan with Smart Digital LED Display</div>
+              <div class="row-title-ar">مروحة الرقبة التوربينية بدون شفرات مع شاشة رقمية ذكية</div>
+              <span class="cat-badge">11 Sections &amp; 58 Copy Hooks</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-bladeless-neck-fan.html" class="local-url-link" data-rel="products-html-pages/portable-bladeless-neck-fan.html">products-html-pages/portable-bladeless-neck-fan.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-bladeless-neck-fan.html" onclick="copyResolvedUrl('products-html-pages/portable-bladeless-neck-fan.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/portable-bladeless-neck-fan-digital-display', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-bladeless-neck-fan.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="3-in-1 portable air cooler fan with humidifier &amp; led light مكيف ومبرد هواء صيفي متنقل 3 في 1 مع مرطب رذاذ وإضاءة ليلية climate &amp; cooling • 11 sections products-html-pages/3-in-1-portable-air-cooler.html https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan ">
+            <td class="col-num"><span class="num-pill">03</span></td>
+            <td class="col-name">
+              <div class="row-title-en">3-in-1 Portable Air Cooler Fan with Humidifier &amp; LED Light</div>
+              <div class="row-title-ar">مكيف ومبرد هواء صيفي متنقل 3 في 1 مع مرطب رذاذ وإضاءة ليلية</div>
+              <span class="cat-badge">Climate &amp; Cooling • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/3-in-1-portable-air-cooler.html" class="local-url-link" data-rel="products-html-pages/3-in-1-portable-air-cooler.html">products-html-pages/3-in-1-portable-air-cooler.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/3-in-1-portable-air-cooler.html" onclick="copyResolvedUrl('products-html-pages/3-in-1-portable-air-cooler.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/3-in-1-portable-air-cooler-fan', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/3-in-1-portable-air-cooler.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="mini usb rechargeable handheld &amp; desktop fan with 3 speeds مروحة الجيب اليدوية والمكتبية القابلة للشحن مع قاعدة وحامل جوال climate &amp; cooling • 11 sections products-html-pages/mini-usb-rechargeable-fan.html https://zelmiqo.com/products/mini-usb-rechargeable-handheld-desktop-fan ">
+            <td class="col-num"><span class="num-pill">04</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Mini USB Rechargeable Handheld &amp; Desktop Fan with 3 Speeds</div>
+              <div class="row-title-ar">مروحة الجيب اليدوية والمكتبية القابلة للشحن مع قاعدة وحامل جوال</div>
+              <span class="cat-badge">Climate &amp; Cooling • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/mini-usb-rechargeable-fan.html" class="local-url-link" data-rel="products-html-pages/mini-usb-rechargeable-fan.html">products-html-pages/mini-usb-rechargeable-fan.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/mini-usb-rechargeable-fan.html" onclick="copyResolvedUrl('products-html-pages/mini-usb-rechargeable-fan.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/mini-usb-rechargeable-handheld-desktop-fan" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/mini-usb-rechargeable-handheld-desktop-fan</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/mini-usb-rechargeable-handheld-desktop-fan', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/mini-usb-rechargeable-fan.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="portable bladeless neck fan with 5 turbo speeds &amp; led display مروحة الرقبة التوربينية بدون شفرات بـ 5 سرعات وشاشة ذكية climate &amp; cooling • 11 sections products-html-pages/portable-bladeless-neck-fan-5-speeds.html https://zelmiqo.com/products/portable-bladeless-neck-fan-5-speeds ">
+            <td class="col-num"><span class="num-pill">05</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Portable Bladeless Neck Fan with 5 Turbo Speeds &amp; LED Display</div>
+              <div class="row-title-ar">مروحة الرقبة التوربينية بدون شفرات بـ 5 سرعات وشاشة ذكية</div>
+              <span class="cat-badge">Climate &amp; Cooling • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-bladeless-neck-fan-5-speeds.html" class="local-url-link" data-rel="products-html-pages/portable-bladeless-neck-fan-5-speeds.html">products-html-pages/portable-bladeless-neck-fan-5-speeds.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-bladeless-neck-fan-5-speeds.html" onclick="copyResolvedUrl('products-html-pages/portable-bladeless-neck-fan-5-speeds.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/portable-bladeless-neck-fan-5-speeds" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/portable-bladeless-neck-fan-5-speeds</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/portable-bladeless-neck-fan-5-speeds', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-bladeless-neck-fan-5-speeds.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="3d double-sided silicone facial cleansing brush فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3d للمسام والمساج beauty tech • 11 sections products-html-pages/3d-silicone-facial-brush.html https://zelmiqo.com/products/3d-silicone-facial-brush ">
+            <td class="col-num"><span class="num-pill">06</span></td>
+            <td class="col-name">
+              <div class="row-title-en">3D Double-Sided Silicone Facial Cleansing Brush</div>
+              <div class="row-title-ar">فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D للمسام والمساج</div>
+              <span class="cat-badge">Beauty Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/3d-silicone-facial-brush.html" class="local-url-link" data-rel="products-html-pages/3d-silicone-facial-brush.html">products-html-pages/3d-silicone-facial-brush.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/3d-silicone-facial-brush.html" onclick="copyResolvedUrl('products-html-pages/3d-silicone-facial-brush.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/3d-silicone-facial-brush" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/3d-silicone-facial-brush</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/3d-silicone-facial-brush', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/3d-silicone-facial-brush.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="5-in-1 ems skin tightening massager with led light therapy جهاز شد ونحت الوجه 5 في 1 مع نبضات ems وعلاج ضوئي led beauty tech • 11 sections products-html-pages/5-in-1-ems-facial-massager.html https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy ">
+            <td class="col-num"><span class="num-pill">07</span></td>
+            <td class="col-name">
+              <div class="row-title-en">5-in-1 EMS Skin Tightening Massager with LED Light Therapy</div>
+              <div class="row-title-ar">جهاز شد ونحت الوجه 5 في 1 مع نبضات EMS وعلاج ضوئي LED</div>
+              <span class="cat-badge">Beauty Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/5-in-1-ems-facial-massager.html" class="local-url-link" data-rel="products-html-pages/5-in-1-ems-facial-massager.html">products-html-pages/5-in-1-ems-facial-massager.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/5-in-1-ems-facial-massager.html" onclick="copyResolvedUrl('products-html-pages/5-in-1-ems-facial-massager.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/5-in-1-ems-facial-massager.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="porepure vacuum blackhead remover with led screen &amp; 5 levels جهاز شفط وتنظيف الرؤوس السوداء والمسام مع شاشة led ذكية beauty tech • 11 sections products-html-pages/deep-pore-blackhead-remover.html https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum ">
+            <td class="col-num"><span class="num-pill">08</span></td>
+            <td class="col-name">
+              <div class="row-title-en">PorePure Vacuum Blackhead Remover with LED Screen &amp; 5 Levels</div>
+              <div class="row-title-ar">جهاز شفط وتنظيف الرؤوس السوداء والمسام مع شاشة LED ذكية</div>
+              <span class="cat-badge">Beauty Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/deep-pore-blackhead-remover.html" class="local-url-link" data-rel="products-html-pages/deep-pore-blackhead-remover.html">products-html-pages/deep-pore-blackhead-remover.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/deep-pore-blackhead-remover.html" onclick="copyResolvedUrl('products-html-pages/deep-pore-blackhead-remover.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/deep-pore-blackhead-remover.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="portable scalp massage comb with liquid hair oil applicator مشط مساج فروة الرأس المتنقل مع موزع زيوت وسيروم الشعر الدقيق hair wellness • 11 sections products-html-pages/portable-scalp-massage-comb.html https://zelmiqo.com/products/portable-scalp-massage-liquid-comb ">
+            <td class="col-num"><span class="num-pill">09</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Portable Scalp Massage Comb with Liquid Hair Oil Applicator</div>
+              <div class="row-title-ar">مشط مساج فروة الرأس المتنقل مع موزع زيوت وسيروم الشعر الدقيق</div>
+              <span class="cat-badge">Hair Wellness • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-scalp-massage-comb.html" class="local-url-link" data-rel="products-html-pages/portable-scalp-massage-comb.html">products-html-pages/portable-scalp-massage-comb.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-scalp-massage-comb.html" onclick="copyResolvedUrl('products-html-pages/portable-scalp-massage-comb.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/portable-scalp-massage-liquid-comb" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/portable-scalp-massage-liquid-comb</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/portable-scalp-massage-liquid-comb', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-scalp-massage-comb.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="dermasonic ultrasonic skin scrubber &amp; deep pore spatula جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات والنبضات beauty tech • 11 sections products-html-pages/ultrasonic-skin-scrubber.html https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care ">
+            <td class="col-num"><span class="num-pill">10</span></td>
+            <td class="col-name">
+              <div class="row-title-en">DermaSonic Ultrasonic Skin Scrubber &amp; Deep Pore Spatula</div>
+              <div class="row-title-ar">جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات والنبضات</div>
+              <span class="cat-badge">Beauty Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/ultrasonic-skin-scrubber.html" class="local-url-link" data-rel="products-html-pages/ultrasonic-skin-scrubber.html">products-html-pages/ultrasonic-skin-scrubber.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/ultrasonic-skin-scrubber.html" onclick="copyResolvedUrl('products-html-pages/ultrasonic-skin-scrubber.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/ultrasonic-skin-scrubber.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="bionic finger shiatsu neck &amp; shoulder kneading massager with heat جهاز مساج وتدليك الرقبة والأكتاف الحيوي 4d مع تدفئة حرارية wellness tech • 11 sections products-html-pages/bionic-finger-neck-massager.html https://zelmiqo.com/products/bionic-finger-neck-shoulder-massager ">
+            <td class="col-num"><span class="num-pill">11</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Bionic Finger Shiatsu Neck &amp; Shoulder Kneading Massager with Heat</div>
+              <div class="row-title-ar">جهاز مساج وتدليك الرقبة والأكتاف الحيوي 4D مع تدفئة حرارية</div>
+              <span class="cat-badge">Wellness Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/bionic-finger-neck-massager.html" class="local-url-link" data-rel="products-html-pages/bionic-finger-neck-massager.html">products-html-pages/bionic-finger-neck-massager.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/bionic-finger-neck-massager.html" onclick="copyResolvedUrl('products-html-pages/bionic-finger-neck-massager.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/bionic-finger-neck-shoulder-massager" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/bionic-finger-neck-shoulder-massager</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/bionic-finger-neck-shoulder-massager', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/bionic-finger-neck-massager.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="propercuss 9-speed deep tissue fascia massage gun with lcd touch مسدس تدليك العضلات العميق الاحترافي بـ 9 سرعات وشاشة لمس ذكية recovery tech • 11 sections products-html-pages/smart-fascia-massage-gun.html https://zelmiqo.com/products/smart-fascia-deep-tissue-massage-gun ">
+            <td class="col-num"><span class="num-pill">12</span></td>
+            <td class="col-name">
+              <div class="row-title-en">ProPercuss 9-Speed Deep Tissue Fascia Massage Gun with LCD Touch</div>
+              <div class="row-title-ar">مسدس تدليك العضلات العميق الاحترافي بـ 9 سرعات وشاشة لمس ذكية</div>
+              <span class="cat-badge">Recovery Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/smart-fascia-massage-gun.html" class="local-url-link" data-rel="products-html-pages/smart-fascia-massage-gun.html">products-html-pages/smart-fascia-massage-gun.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/smart-fascia-massage-gun.html" onclick="copyResolvedUrl('products-html-pages/smart-fascia-massage-gun.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/smart-fascia-deep-tissue-massage-gun" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/smart-fascia-deep-tissue-massage-gun</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/smart-fascia-deep-tissue-massage-gun', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/smart-fascia-massage-gun.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="thermodesk smart heated beverage coaster &amp; mug warmer قاعدة تسخين الأكواب والمشروبات الذكية للمكتب مع 3 درجات حرارة smart living • 11 sections products-html-pages/usb-coffee-mug-warmer.html https://zelmiqo.com/products/thermodesk-smart-heated-beverage-coaster ">
+            <td class="col-num"><span class="num-pill">13</span></td>
+            <td class="col-name">
+              <div class="row-title-en">ThermoDesk Smart Heated Beverage Coaster &amp; Mug Warmer</div>
+              <div class="row-title-ar">قاعدة تسخين الأكواب والمشروبات الذكية للمكتب مع 3 درجات حرارة</div>
+              <span class="cat-badge">Smart Living • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/usb-coffee-mug-warmer.html" class="local-url-link" data-rel="products-html-pages/usb-coffee-mug-warmer.html">products-html-pages/usb-coffee-mug-warmer.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/usb-coffee-mug-warmer.html" onclick="copyResolvedUrl('products-html-pages/usb-coffee-mug-warmer.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/thermodesk-smart-heated-beverage-coaster" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/thermodesk-smart-heated-beverage-coaster</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/thermodesk-smart-heated-beverage-coaster', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/usb-coffee-mug-warmer.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="meteotouch wireless color touchscreen weather station &amp; dual alarm محطة الأرصاد الجوية المنزلية الذكية اللاسلكية بشاشة لمس ملونة ومنبه smart living • 11 sections products-html-pages/wireless-weather-station-alarm.html https://zelmiqo.com/products/wireless-touchscreen-weather-station-clock ">
+            <td class="col-num"><span class="num-pill">14</span></td>
+            <td class="col-name">
+              <div class="row-title-en">MeteoTouch Wireless Color Touchscreen Weather Station &amp; Dual Alarm</div>
+              <div class="row-title-ar">محطة الأرصاد الجوية المنزلية الذكية اللاسلكية بشاشة لمس ملونة ومنبه</div>
+              <span class="cat-badge">Smart Living • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/wireless-weather-station-alarm.html" class="local-url-link" data-rel="products-html-pages/wireless-weather-station-alarm.html">products-html-pages/wireless-weather-station-alarm.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/wireless-weather-station-alarm.html" onclick="copyResolvedUrl('products-html-pages/wireless-weather-station-alarm.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/wireless-touchscreen-weather-station-clock" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/wireless-touchscreen-weather-station-clock</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/wireless-touchscreen-weather-station-clock', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/wireless-weather-station-alarm.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="titaniumshield foldable car windshield sun shade umbrella (upf 50+) مظلة الزجاج الأمامي العازلة للحرارة وأشعة الشمس للسيارات automotive tech • 11 sections products-html-pages/foldable-car-sun-shade.html https://zelmiqo.com/products/foldable-car-windshield-sun-shade-umbrella ">
+            <td class="col-num"><span class="num-pill">15</span></td>
+            <td class="col-name">
+              <div class="row-title-en">TitaniumShield Foldable Car Windshield Sun Shade Umbrella (UPF 50+)</div>
+              <div class="row-title-ar">مظلة الزجاج الأمامي العازلة للحرارة وأشعة الشمس للسيارات</div>
+              <span class="cat-badge">Automotive Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/foldable-car-sun-shade.html" class="local-url-link" data-rel="products-html-pages/foldable-car-sun-shade.html">products-html-pages/foldable-car-sun-shade.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/foldable-car-sun-shade.html" onclick="copyResolvedUrl('products-html-pages/foldable-car-sun-shade.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/foldable-car-windshield-sun-shade-umbrella" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/foldable-car-windshield-sun-shade-umbrella</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/foldable-car-windshield-sun-shade-umbrella', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/foldable-car-sun-shade.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="nutriblend 6-blade portable usb smoothie maker &amp; fruit juicer خلاط العصائر والسموذي المحمول بـ 6 شفرات فولاذية وشحن usb kitchen tech • 11 sections products-html-pages/portable-6-blade-juicer.html https://zelmiqo.com/products/nutriblend-portable-6-blade-juicer ">
+            <td class="col-num"><span class="num-pill">16</span></td>
+            <td class="col-name">
+              <div class="row-title-en">NutriBlend 6-Blade Portable USB Smoothie Maker &amp; Fruit Juicer</div>
+              <div class="row-title-ar">خلاط العصائر والسموذي المحمول بـ 6 شفرات فولاذية وشحن USB</div>
+              <span class="cat-badge">Kitchen Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-6-blade-juicer.html" class="local-url-link" data-rel="products-html-pages/portable-6-blade-juicer.html">products-html-pages/portable-6-blade-juicer.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-6-blade-juicer.html" onclick="copyResolvedUrl('products-html-pages/portable-6-blade-juicer.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/nutriblend-portable-6-blade-juicer" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/nutriblend-portable-6-blade-juicer</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/nutriblend-portable-6-blade-juicer', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-6-blade-juicer.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="duocup portable double-cup blender &amp; travel smoothie maker خلاط العصائر المحمول بنظام الكوبين المزدوجين duocup والشحن السريع kitchen tech • 11 sections products-html-pages/portable-double-cup-juicer.html https://zelmiqo.com/products/portable-double-cup-juicer-blender ">
+            <td class="col-num"><span class="num-pill">17</span></td>
+            <td class="col-name">
+              <div class="row-title-en">DuoCup Portable Double-Cup Blender &amp; Travel Smoothie Maker</div>
+              <div class="row-title-ar">خلاط العصائر المحمول بنظام الكوبين المزدوجين DuoCup والشحن السريع</div>
+              <span class="cat-badge">Kitchen Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-double-cup-juicer.html" class="local-url-link" data-rel="products-html-pages/portable-double-cup-juicer.html">products-html-pages/portable-double-cup-juicer.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-double-cup-juicer.html" onclick="copyResolvedUrl('products-html-pages/portable-double-cup-juicer.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/portable-double-cup-juicer-blender" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/portable-double-cup-juicer-blender</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/portable-double-cup-juicer-blender', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-double-cup-juicer.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="freshpress wireless automatic citrus juicer &amp; orange extractor عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية بضغطة زر kitchen tech • 11 sections products-html-pages/portable-usb-citrus-juicer.html https://zelmiqo.com/products/wireless-automatic-citrus-juicer-press ">
+            <td class="col-num"><span class="num-pill">18</span></td>
+            <td class="col-name">
+              <div class="row-title-en">FreshPress Wireless Automatic Citrus Juicer &amp; Orange Extractor</div>
+              <div class="row-title-ar">عصارة الحمضيات والبرتقال الكهربائية اللاسلكية الأوتوماتيكية بضغطة زر</div>
+              <span class="cat-badge">Kitchen Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-usb-citrus-juicer.html" class="local-url-link" data-rel="products-html-pages/portable-usb-citrus-juicer.html">products-html-pages/portable-usb-citrus-juicer.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-usb-citrus-juicer.html" onclick="copyResolvedUrl('products-html-pages/portable-usb-citrus-juicer.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/wireless-automatic-citrus-juicer-press" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/wireless-automatic-citrus-juicer-press</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/wireless-automatic-citrus-juicer-press', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-usb-citrus-juicer.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="turboclean pro cordless handheld car vacuum cleaner (9,000pa) مكنسة السيارة اللاسلكية المحمولة بقوة شفط 9000 باسكال وفلتر hepa automotive care • 11 sections products-html-pages/cordless-handheld-car-vacuum.html https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner ">
+            <td class="col-num"><span class="num-pill">19</span></td>
+            <td class="col-name">
+              <div class="row-title-en">TurboClean Pro Cordless Handheld Car Vacuum Cleaner (9,000Pa)</div>
+              <div class="row-title-ar">مكنسة السيارة اللاسلكية المحمولة بقوة شفط 9000 باسكال وفلتر HEPA</div>
+              <span class="cat-badge">Automotive Care • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/cordless-handheld-car-vacuum.html" class="local-url-link" data-rel="products-html-pages/cordless-handheld-car-vacuum.html">products-html-pages/cordless-handheld-car-vacuum.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/cordless-handheld-car-vacuum.html" onclick="copyResolvedUrl('products-html-pages/cordless-handheld-car-vacuum.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/cordless-handheld-car-vacuum.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="provac 2-in-1 wireless car vacuum cleaner &amp; air duster blower مكنسة ومنفاخ هواء السيارة اللاسلكي 2 في 1 بمحرك براشلس توربيني automotive care • 11 sections products-html-pages/portable-wireless-car-vacuum.html https://zelmiqo.com/products/portable-wireless-car-vacuum-air-duster ">
+            <td class="col-num"><span class="num-pill">20</span></td>
+            <td class="col-name">
+              <div class="row-title-en">ProVac 2-in-1 Wireless Car Vacuum Cleaner &amp; Air Duster Blower</div>
+              <div class="row-title-ar">مكنسة ومنفاخ هواء السيارة اللاسلكي 2 في 1 بمحرك براشلس توربيني</div>
+              <span class="cat-badge">Automotive Care • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/portable-wireless-car-vacuum.html" class="local-url-link" data-rel="products-html-pages/portable-wireless-car-vacuum.html">products-html-pages/portable-wireless-car-vacuum.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/portable-wireless-car-vacuum.html" onclick="copyResolvedUrl('products-html-pages/portable-wireless-car-vacuum.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/portable-wireless-car-vacuum-air-duster" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/portable-wireless-car-vacuum-air-duster</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/portable-wireless-car-vacuum-air-duster', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/portable-wireless-car-vacuum.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="product" data-search="r36s retro handheld game console (جهاز ألعاب الفيديو المحمول r36s) جهاز ألعاب الفيديو المحمول الكلاسيكي r36s بشاشة 3.5 بوصة ips و15,000 لعبة gaming tech • 11 sections products-html-pages/r36s-retro-handheld-game-console.html https://zelmiqo.com/products/r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket ">
+            <td class="col-num"><span class="num-pill">21</span></td>
+            <td class="col-name">
+              <div class="row-title-en">R36S Retro Handheld Game Console (جهاز ألعاب الفيديو المحمول R36S)</div>
+              <div class="row-title-ar">جهاز ألعاب الفيديو المحمول الكلاسيكي R36S بشاشة 3.5 بوصة IPS و15,000 لعبة</div>
+              <span class="cat-badge">Gaming Tech • 11 Sections</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="products-html-pages/r36s-retro-handheld-game-console.html" class="local-url-link" data-rel="products-html-pages/r36s-retro-handheld-game-console.html">products-html-pages/r36s-retro-handheld-game-console.html</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="products-html-pages/r36s-retro-handheld-game-console.html" onclick="copyResolvedUrl('products-html-pages/r36s-retro-handheld-game-console.html', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/products/r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/products/r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/products/r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="products-html-pages/r36s-retro-handheld-game-console.html" class="row-open-btn">Open Page →</a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- SECTION 3: CATEGORY URLS REFERENCED IN CONTENT -->
+    <div class="section-card" id="section-category">
+      <div class="section-card-header">
+        <h2>🏷️ Category URLs Set in Content Pages (8)</h2>
+        <span class="folder-pill">main-html-pages/home.html</span>
+      </div>
+      <div class="table-scroll">
+        <table class="url-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Category Name</th>
+              <th>Source Content HTML Page</th>
+              <th>Category URL Set in Content</th>
+              <th style="text-align:right;">Open</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          <tr class="url-row" data-group="category" data-search="beauty &amp; personal care الجمال والعناية الشخصية category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/beauty-and-personal-care /category/beauty-and-personal-care">
+            <td class="col-num"><span class="num-pill">01</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Beauty &amp; Personal Care</div>
+              <div class="row-title-ar">الجمال والعناية الشخصية</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/beauty-and-personal-care</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/beauty-and-personal-care" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/beauty-and-personal-care</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/beauty-and-personal-care', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="car accessories مستلزمات السيارات category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/car-accessories /category/car-accessories">
+            <td class="col-num"><span class="num-pill">02</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Car Accessories</div>
+              <div class="row-title-ar">مستلزمات السيارات</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/car-accessories</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/car-accessories" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/car-accessories</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/car-accessories', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="electronics &amp; gadgets الإلكترونيات والأجهزة الذكية category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/electronics-and-gadgets /category/electronics-and-gadgets">
+            <td class="col-num"><span class="num-pill">03</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Electronics &amp; Gadgets</div>
+              <div class="row-title-ar">الإلكترونيات والأجهزة الذكية</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/electronics-and-gadgets</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/electronics-and-gadgets" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/electronics-and-gadgets</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/electronics-and-gadgets', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="health &amp; fitness الصحة واللياقة category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/health-and-fitness /category/health-and-fitness">
+            <td class="col-num"><span class="num-pill">04</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Health &amp; Fitness</div>
+              <div class="row-title-ar">الصحة واللياقة</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/health-and-fitness</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/health-and-fitness" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/health-and-fitness</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/health-and-fitness', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="home &amp; kitchen المنزل والمطبخ category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/home-and-kitchen /category/home-and-kitchen">
+            <td class="col-num"><span class="num-pill">05</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Home &amp; Kitchen</div>
+              <div class="row-title-ar">المنزل والمطبخ</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/home-and-kitchen</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/home-and-kitchen" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/home-and-kitchen</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/home-and-kitchen', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="islamic &amp; gift products منتجات إسلامية وهدايا category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/islamic-and-gift-products /category/islamic-and-gift-products">
+            <td class="col-num"><span class="num-pill">06</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Islamic &amp; Gift Products</div>
+              <div class="row-title-ar">منتجات إسلامية وهدايا</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/islamic-and-gift-products</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/islamic-and-gift-products" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/islamic-and-gift-products</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/islamic-and-gift-products', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="mobile accessories إكسسوارات الجوال category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/mobile-accessories /category/mobile-accessories">
+            <td class="col-num"><span class="num-pill">07</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Mobile Accessories</div>
+              <div class="row-title-ar">إكسسوارات الجوال</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/mobile-accessories</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/mobile-accessories" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/mobile-accessories</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/mobile-accessories', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+
+          <tr class="url-row" data-group="category" data-search="summer products منتجات الصيف والتبريد category url (home.html) main-html-pages/home.html#card-categories-slider https://zelmiqo.com/category/summer-products /category/summer-products">
+            <td class="col-num"><span class="num-pill">08</span></td>
+            <td class="col-name">
+              <div class="row-title-en">Summer Products</div>
+              <div class="row-title-ar">منتجات الصيف والتبريد</div>
+              <span class="cat-badge">Category URL (home.html)</span>
+            </td>
+            <td class="col-local">
+              <div class="url-line">
+                <a href="main-html-pages/home.html#card-categories-slider" class="local-url-link" data-rel="main-html-pages/home.html#card-categories-slider">main-html-pages/home.html#card-categories-slider</a>
+                <button type="button" class="mini-copy-btn copy-resolved-btn" data-rel="main-html-pages/home.html#card-categories-slider" onclick="copyResolvedUrl('main-html-pages/home.html#card-categories-slider', this)" title="Copy Full Page URL">📋</button>
+              </div>
+              <div class="rel-slug-tag">Path in content: <code>/category/summer-products</code></div>
+            </td>
+            <td class="col-store">
+              <div class="url-line"><a href="https://zelmiqo.com/category/summer-products" target="_blank" rel="noopener noreferrer" class="ext-url-link">https://zelmiqo.com/category/summer-products</a><button type="button" class="mini-copy-btn" onclick="copyText('https://zelmiqo.com/category/summer-products', this)" title="Copy Store URL">📋</button></div>
+            </td>
+            <td class="col-actions">
+              <a href="main-html-pages/home.html#card-categories-slider" class="row-open-btn">Open Section ↗</a>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="empty-state" id="emptyState">No matching pages or URLs found. Try clearing your search filter.</div>
+
+  </div>
+
+  <div class="toast" id="toastMsg">✓ Copied to clipboard!</div>
+
+  <script>
+    let activeGroup = 'all';
+
+    function resolveUrl(relPath) {
+      try {
+        return new URL(relPath, window.location.href).href;
+      } catch (e) {
+        return relPath;
+      }
+    }
+
+    // Populate live resolved browser URLs on load (HTTP/Live Server/DevTunnels or File)
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.local-url-link').forEach(link => {
+        const rel = link.getAttribute('data-rel');
+        if (rel) {
+          link.textContent = resolveUrl(rel);
+        }
+      });
+    });
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastMsg');
+      if (!toast) return;
+      toast.textContent = msg || '✓ Copied to clipboard!';
+      toast.style.display = 'block';
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => {
+        toast.style.display = 'none';
+      }, 2200);
+    }
+
+    function copyText(text, btn, customToastMsg) {
+      const done = () => {
+        if (btn) {
+          const orig = btn.innerHTML;
+          btn.innerHTML = btn.classList.contains('batch-btn') ? '✓ Copied!' : '✓';
+          btn.classList.add('copied');
+          setTimeout(() => {
+            btn.innerHTML = orig;
+            btn.classList.remove('copied');
+          }, 1800);
+        }
+        showToast(customToastMsg || ('✓ Copied: ' + (text.length > 60 ? text.slice(0, 57) + '...' : text)));
+      };
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+      } else {
+        fallbackCopy(text, done);
+      }
+    }
+
+    function fallbackCopy(text, cb) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+      if (cb) cb();
+    }
+
+    function copyResolvedUrl(relPath, btn) {
+      copyText(resolveUrl(relPath), btn);
+    }
+
+    function copyAllLocalUrls(btn) {
+      const urls = [];
+      document.querySelectorAll('.url-row').forEach(row => {
+        if (row.getAttribute('data-group') === 'category') return;
+        const link = row.querySelector('.local-url-link');
+        if (link) {
+          urls.push(resolveUrl(link.getAttribute('data-rel')));
+        }
+      });
+      copyText(urls.join('\n'), btn, '✓ Copied all ' + urls.length + ' HTML page URLs!');
+    }
+
+    function copyAllStoreUrls(btn) {
+      const seen = new Set();
+      const urls = [];
+      document.querySelectorAll('.ext-url-link').forEach(a => {
+        const href = a.getAttribute('href');
+        if (href && !seen.has(href)) {
+          seen.add(href);
+          urls.push(href);
+        }
+      });
+      copyText(urls.join('\n'), btn, '✓ Copied all ' + urls.length + ' Zelmiqo store URLs!');
+    }
+
+    function setGroupFilter(group, btn) {
+      activeGroup = group;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const query = (document.getElementById('urlSearch').value || '').trim().toLowerCase();
+      let totalVisible = 0;
+
+      ['main', 'product', 'category'].forEach(grp => {
+        const section = document.getElementById('section-' + grp);
+        const rows = section.querySelectorAll('.url-row');
+        let groupVisible = 0;
+
+        rows.forEach(row => {
+          const matchesGroup = (activeGroup === 'all' || activeGroup === grp);
+          const blob = row.getAttribute('data-search') || '';
+          const matchesSearch = (!query || blob.includes(query));
+          if (matchesGroup && matchesSearch) {
+            row.classList.remove('hidden-row');
+            groupVisible++;
+            totalVisible++;
+          } else {
+            row.classList.add('hidden-row');
+          }
+        });
+
+        if (groupVisible === 0) {
+          section.classList.add('hidden-section');
+        } else {
+          section.classList.remove('hidden-section');
+        }
+      });
+
+      document.getElementById('emptyState').style.display = totalVisible === 0 ? 'block' : 'none';
+    }
+  </script>
+</body>
+</html>

@@ -14,17 +14,18 @@ PAGES_DIR = os.path.join(BASE_DIR, 'new-content-html-pages')
 ASSETS_DIR = os.path.join(PAGES_DIR, 'assets')
 
 REQUIRED_PAGES = [
-    'home.html',
-    'catalog.html',
-    'about-us.html',
-    'delivery-and-shipping.html',
-    'warranty-and-returns.html',
-    'contact-us.html',
-    'privacy-and-terms.html',
-    'blogs-and-articles.html',
-    'header.html',
-    'footer.html',
-    'index.html',
+    os.path.join('main-html-pages', 'home.html'),
+    os.path.join('main-html-pages', 'catalog.html'),
+    os.path.join('main-html-pages', 'about-us.html'),
+    os.path.join('main-html-pages', 'delivery-and-shipping.html'),
+    os.path.join('main-html-pages', 'warranty-and-returns.html'),
+    os.path.join('main-html-pages', 'contact-us.html'),
+    os.path.join('main-html-pages', 'privacy-and-terms.html'),
+    os.path.join('main-html-pages', 'blogs-and-articles.html'),
+    os.path.join('main-html-pages', 'header.html'),
+    os.path.join('main-html-pages', 'footer.html'),
+    os.path.join('main-html-pages', 'index.html'),
+    'all-pages.html',
     os.path.join('products-html-pages', '3-in-1-fast-charging-dock.html'),
     os.path.join('products-html-pages', 'portable-bladeless-neck-fan.html'),
     os.path.join('products-html-pages', '3-in-1-portable-air-cooler.html'),
@@ -207,16 +208,16 @@ def test_4_number_alignment_and_callout_matching():
     res = TestResult("4. Red Box Numbers vs HTML Workstation Cards 1:1 Matching")
     
     pages_to_check = [
-        ('home.html', 9, ['Hero 1', 'Hero 2', 'Trust Pillars', 'Categories', 'New Arrivals', 'Mid Banners', 'Trending', 'Testimonials', 'SEO']),
-        ('catalog.html', 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[SEO]']),
-        ('about-us.html', 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        ('delivery-and-shipping.html', 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        ('warranty-and-returns.html', 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        ('contact-us.html', 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        ('privacy-and-terms.html', 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        ('blogs-and-articles.html', 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[SEO]']),
-        ('header.html', 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']),
-        ('footer.html', 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]'])
+        (os.path.join('main-html-pages', 'home.html'), 9, ['Hero 1', 'Hero 2', 'Trust Pillars', 'Categories', 'New Arrivals', 'Mid Banners', 'Trending', 'Testimonials', 'SEO']),
+        (os.path.join('main-html-pages', 'catalog.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[SEO]']),
+        (os.path.join('main-html-pages', 'about-us.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
+        (os.path.join('main-html-pages', 'delivery-and-shipping.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
+        (os.path.join('main-html-pages', 'warranty-and-returns.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
+        (os.path.join('main-html-pages', 'contact-us.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
+        (os.path.join('main-html-pages', 'privacy-and-terms.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
+        (os.path.join('main-html-pages', 'blogs-and-articles.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[SEO]']),
+        (os.path.join('main-html-pages', 'header.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']),
+        (os.path.join('main-html-pages', 'footer.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]'])
     ]
 
     for filename, expected_cards_count, expected_badges in pages_to_check:
@@ -237,9 +238,13 @@ def test_4_number_alignment_and_callout_matching():
             res.pass_msg(f"{filename:30}: {len(cards)} Cards, {len(badges)} Badges ({', '.join(badges)}), {len(pill_links)} Nav Pills matched 1:1")
     return res
 
+def get_workstation_pages():
+    index_rel = os.path.join('main-html-pages', 'index.html')
+    return [p for p in REQUIRED_PAGES if p not in (index_rel, 'all-pages.html')]
+
 def test_5_interactive_elements_and_copy_functions():
     res = TestResult("5. Interactive Workstation Functionality & Copy Buttons")
-    workstation_pages = [p for p in REQUIRED_PAGES if p != 'index.html']
+    workstation_pages = get_workstation_pages()
     
     total_copy_buttons = 0
     for p in workstation_pages:
@@ -292,7 +297,7 @@ def test_5_interactive_elements_and_copy_functions():
 
 def test_6_copywriting_and_saudi_value_props():
     res = TestResult("6. Copywriting Quality & Saudi Localized Value Propositions")
-    workstation_pages = [p for p in REQUIRED_PAGES if p != 'index.html']
+    workstation_pages = get_workstation_pages()
 
     for p in workstation_pages:
         path = os.path.join(PAGES_DIR, p)
@@ -320,29 +325,56 @@ def test_6_copywriting_and_saudi_value_props():
     return res
 
 def test_7_hub_and_inter_page_navigation():
-    res = TestResult("7. Hub & Inter-Page Navigation Symmetry")
-    index_path = os.path.join(PAGES_DIR, 'index.html')
+    res = TestResult("7. Hub & Inter-Page Navigation Symmetry + All Pages Links")
+    index_rel = os.path.join('main-html-pages', 'index.html')
+    index_path = os.path.join(PAGES_DIR, index_rel)
+    all_pages_path = os.path.join(PAGES_DIR, 'all-pages.html')
     if not os.path.isfile(index_path):
-        res.fail("index.html not found")
+        res.fail("main-html-pages/index.html not found")
+        return res
+    if not os.path.isfile(all_pages_path):
+        res.fail("all-pages.html not found")
         return res
 
     with open(index_path, 'r', encoding='utf-8') as f:
         index_html = f.read()
+    with open(all_pages_path, 'r', encoding='utf-8') as f:
+        all_pages_html = f.read()
 
-    workstation_pages = [p for p in REQUIRED_PAGES if p != 'index.html']
+    if 'href="../all-pages.html"' not in index_html:
+        res.fail("main-html-pages/index.html missing All Pages button (href=\"../all-pages.html\")")
+    else:
+        res.pass_msg("main-html-pages/index.html has All Pages button (../all-pages.html)")
+
+    if 'href="main-html-pages/index.html"' not in all_pages_html:
+        res.fail("all-pages.html missing link back to main-html-pages/index.html")
+    else:
+        res.pass_msg("all-pages.html has link to main-html-pages/index.html")
+
+    workstation_pages = get_workstation_pages()
     for p in workstation_pages:
-        if f'href="{p}"' not in index_html and f"href='{p}'" not in index_html:
-            res.fail(f"index.html does not link to {p}")
+        p_posix = p.replace(os.sep, '/')
+        if p_posix.startswith('main-html-pages/'):
+            expected_href_in_index = p_posix.replace('main-html-pages/', '', 1)
+            expected_back_link = 'index.html'
         else:
-            # Check reverse link in workstation page back to index.html
-            wp_path = os.path.join(PAGES_DIR, p)
-            with open(wp_path, 'r', encoding='utf-8') as f:
-                wp_html = f.read()
-            expected_back_link = '../index.html' if ('/' in p or '\\' in p) else 'index.html'
-            if f'href="{expected_back_link}"' not in wp_html and f"href='{expected_back_link}'" not in wp_html:
-                res.fail(f"{p} missing back link to {expected_back_link}")
-            else:
-                res.pass_msg(f"Bidirectional link verified: index.html <---> {p}")
+            expected_href_in_index = '../' + p_posix
+            expected_back_link = '../main-html-pages/index.html'
+
+        wp_path = os.path.join(PAGES_DIR, p)
+        with open(wp_path, 'r', encoding='utf-8') as f:
+            wp_html = f.read()
+
+        if f'href="{expected_href_in_index}"' not in index_html:
+            res.fail(f"main-html-pages/index.html does not link to {expected_href_in_index}")
+        elif f'href="{expected_back_link}"' not in wp_html:
+            res.fail(f"{p_posix} missing back link to {expected_back_link}")
+        elif 'href="../all-pages.html"' not in wp_html:
+            res.fail(f"{p_posix} missing All Pages button (href=\"../all-pages.html\")")
+        elif f'href="{p_posix}"' not in all_pages_html:
+            res.fail(f"all-pages.html missing link to {p_posix}")
+        else:
+            res.pass_msg(f"Bidirectional Hub + All Pages links verified: {p_posix}")
 
     return res
 
