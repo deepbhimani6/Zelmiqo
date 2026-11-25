@@ -193,13 +193,25 @@
       display: none;
     }
     .section-card-header {
+      width: 100%;
       background: var(--primary);
       color: #fff;
       padding: 14px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      border: none;
       border-bottom: 2px solid var(--gold);
+      cursor: pointer;
+      text-align: left;
+      font-family: inherit;
+      transition: background 0.2s;
+    }
+    .section-card-header:hover {
+      background: var(--primary-light);
+    }
+    .section-card.collapsed .section-card-header {
+      border-bottom-color: transparent;
     }
     .section-card-header h2 {
       font-size: 16px;
@@ -207,6 +219,41 @@
       display: flex;
       align-items: center;
       gap: 10px;
+    }
+    .header-right-meta {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .accordion-chevron {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+      background: rgba(212, 175, 55, 0.14);
+      color: var(--gold);
+      font-size: 12px;
+      transition: transform 0.25s ease, background 0.2s;
+    }
+    .section-card-header:hover .accordion-chevron {
+      background: rgba(212, 175, 55, 0.28);
+    }
+    .section-card.collapsed .accordion-chevron {
+      transform: rotate(-90deg);
+    }
+    .accordion-body {
+      display: grid;
+      grid-template-rows: 1fr;
+      transition: grid-template-rows 0.25s ease;
+    }
+    .section-card.collapsed .accordion-body {
+      grid-template-rows: 0fr;
+    }
+    .accordion-inner {
+      overflow: hidden;
+      min-height: 0;
     }
     .folder-pill {
       background: #1e293b;
@@ -392,15 +439,20 @@
 
     <!-- SECTION 1: MAIN HTML PAGES -->
     <div class="section-card" id="section-main">
-      <div class="section-card-header">
+      <button type="button" class="section-card-header" aria-expanded="true" aria-controls="body-main" onclick="toggleSection('main')">
         <h2>🏠 Main Store &amp; Component HTML Pages (10)</h2>
-        <span class="folder-pill">main-html-pages/</span>
-      </div>
+        <span class="header-right-meta">
+          <span class="folder-pill">main-html-pages/</span>
+          <span class="accordion-chevron" aria-hidden="true">▼</span>
+        </span>
+      </button>
+      <div class="accordion-body" id="body-main">
+      <div class="accordion-inner">
       <div class="table-scroll">
         <table class="url-table">
           <thead>
             <tr>
-              <th style="text-align:center;">#</th>
+              <th></th>
               <th>Page Title</th>
               <th style="text-align:right;">Open</th>
             </tr>
@@ -539,19 +591,26 @@
           </tbody>
         </table>
       </div>
+      </div>
+      </div>
     </div>
 
     <!-- SECTION 2: PRODUCT DETAIL HTML PAGES -->
     <div class="section-card" id="section-product">
-      <div class="section-card-header">
+      <button type="button" class="section-card-header" aria-expanded="true" aria-controls="body-product" onclick="toggleSection('product')">
         <h2>📦 Product Detail HTML Pages (21)</h2>
-        <span class="folder-pill">products-html-pages/</span>
-      </div>
+        <span class="header-right-meta">
+          <span class="folder-pill">products-html-pages/</span>
+          <span class="accordion-chevron" aria-hidden="true">▼</span>
+        </span>
+      </button>
+      <div class="accordion-body" id="body-product">
+      <div class="accordion-inner">
       <div class="table-scroll">
         <table class="url-table">
           <thead>
             <tr>
-              <th style="text-align:center;">#</th>
+              <th></th>
               <th>Page Title</th>
               <th style="text-align:right;">Open</th>
             </tr>
@@ -833,6 +892,8 @@
           </tbody>
         </table>
       </div>
+      </div>
+      </div>
     </div>
 
     <div class="empty-state" id="emptyState">No matching pages found. Try clearing your search filter.</div>
@@ -842,10 +903,30 @@
   <script>
     let activeGroup = 'all';
 
+    function setSectionOpen(grp, isOpen) {
+      const section = document.getElementById('section-' + grp);
+      if (!section) return;
+      const header = section.querySelector('.section-card-header');
+      section.classList.toggle('collapsed', !isOpen);
+      if (header) {
+        header.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      }
+    }
+
+    function toggleSection(grp) {
+      const section = document.getElementById('section-' + grp);
+      if (!section) return;
+      const isCurrentlyCollapsed = section.classList.contains('collapsed');
+      setSectionOpen(grp, isCurrentlyCollapsed);
+    }
+
     function setGroupFilter(group, btn) {
       activeGroup = group;
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       if (btn) btn.classList.add('active');
+      if (group !== 'all') {
+        setSectionOpen(group, true);
+      }
       applyFilters();
     }
 
@@ -875,6 +956,9 @@
           section.classList.add('hidden-section');
         } else {
           section.classList.remove('hidden-section');
+          if (query) {
+            setSectionOpen(grp, true);
+          }
         }
       });
 
