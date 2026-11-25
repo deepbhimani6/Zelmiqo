@@ -230,6 +230,10 @@ html:not(.route-product-product) .block-content {
   border-radius: 10px;
 }
 
+.block-content table {
+  border-radius: 16px;
+}
+
 .swiper {
   padding-bottom: 0 !important;
 }

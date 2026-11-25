@@ -25,7 +25,7 @@ html.route-product-product .zm-viewer {
 
 .route-product-product .scroll-top {
   bottom: 10px !important;
-  transform: none !important;
+  translate: none !important;
 }
 
 @media (max-width: 760px) {
