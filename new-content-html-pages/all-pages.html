@@ -323,13 +323,6 @@
       background: var(--gold);
       color: var(--primary);
     }
-    .live-site-btn.disabled {
-      background: #f8fafc;
-      color: #94a3b8;
-      border-color: #cbd5e1;
-      cursor: default;
-      pointer-events: none;
-    }
     .empty-state {
       display: none;
       text-align: center;
@@ -371,12 +364,12 @@
     <div class="stats-row">
       <div class="stat-card">
         <span class="stat-label">Total HTML Pages</span>
-        <span class="stat-value">32 Pages</span>
+        <span class="stat-value">31 Pages</span>
         <span class="stat-sub">✓ Complete new-content-html-pages Map</span>
       </div>
       <div class="stat-card">
         <span class="stat-label">Main HTML Pages</span>
-        <span class="stat-value">11 Pages</span>
+        <span class="stat-value">10 Pages</span>
         <span class="stat-sub">✓ Folder: main-html-pages/</span>
       </div>
       <div class="stat-card">
@@ -391,8 +384,8 @@
         <input type="text" id="urlSearch" class="search-input" placeholder="Search page title..." oninput="applyFilters()">
       </div>
       <div class="filter-pills">
-        <button type="button" class="filter-btn active" onclick="setGroupFilter('all', this)">All (32)</button>
-        <button type="button" class="filter-btn" onclick="setGroupFilter('main', this)">Main Pages (11)</button>
+        <button type="button" class="filter-btn active" onclick="setGroupFilter('all', this)">All (31)</button>
+        <button type="button" class="filter-btn" onclick="setGroupFilter('main', this)">Main Pages (10)</button>
         <button type="button" class="filter-btn" onclick="setGroupFilter('product', this)">Product Pages (21)</button>
       </div>
     </div>
@@ -400,7 +393,7 @@
     <!-- SECTION 1: MAIN HTML PAGES -->
     <div class="section-card" id="section-main">
       <div class="section-card-header">
-        <h2>🏠 Main Store &amp; Component HTML Pages (11)</h2>
+        <h2>🏠 Main Store &amp; Component HTML Pages (10)</h2>
         <span class="folder-pill">main-html-pages/</span>
       </div>
       <div class="table-scroll">
@@ -413,19 +406,6 @@
             </tr>
           </thead>
           <tbody>
-
-          <tr class="url-row" data-group="main" data-search="master content workstation hub main-html-pages/index.html ">
-            <td class="col-num"><span class="num-pill">00</span></td>
-            <td class="col-name">
-              <div class="row-title-en">Master Content Workstation Hub</div>
-            </td>
-            <td class="col-actions">
-              <div class="action-btns-wrap">
-                <a href="main-html-pages/index.html" class="row-open-btn">Content Edit Page →</a>
-                <span class="live-site-btn disabled">Internal Hub Only</span>
-              </div>
-            </td>
-          </tr>
 
           <tr class="url-row" data-group="main" data-search="home page main-html-pages/home.html https://zelmiqo.com/">
             <td class="col-num"><span class="num-pill">01</span></td>
