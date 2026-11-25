@@ -25,46 +25,46 @@
       line-height: 1.5;
       padding-bottom: 60px;
     }
-    header.hub-header {
+    header.top-header {
       background: var(--primary);
       color: #fff;
-      padding: 30px 40px;
-      border-bottom: 3px solid var(--gold);
-      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
-    }
-    .hub-header-top {
+      padding: 14px 24px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      gap: 16px;
+      flex-wrap: wrap;
     }
-    .hub-title-group h1 {
-      font-size: 26px;
-      font-weight: 800;
-      letter-spacing: 0.5px;
+    .brand-title {
       display: flex;
       align-items: center;
       gap: 12px;
+      flex-wrap: wrap;
     }
-    .hub-badge {
+    .brand-title h1 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.4px;
+    }
+    .brand-title .badge {
       background: var(--gold);
       color: var(--primary);
       font-size: 11px;
       font-weight: 800;
-      padding: 4px 12px;
-      border-radius: 20px;
+      padding: 3px 10px;
+      border-radius: 12px;
       text-transform: uppercase;
       letter-spacing: 0.5px;
     }
-    .hub-desc {
-      color: #94a3b8;
-      font-size: 14px;
-      max-width: 900px;
-      line-height: 1.6;
-    }
     .hub-container {
       max-width: 1300px;
-      margin: 40px auto 0 auto;
+      margin: 28px auto 0 auto;
       padding: 0 24px;
     }
     .stats-row {
@@ -198,22 +198,25 @@
       display: flex;
       align-items: center;
       gap: 12px;
+      flex-wrap: wrap;
     }
     .hub-link-btn {
       background: #1e293b;
       color: var(--gold);
       border: 1px solid var(--gold);
-      padding: 8px 16px;
+      padding: 6px 14px;
       border-radius: 6px;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 700;
       text-decoration: none;
       display: inline-flex;
       align-items: center;
       gap: 6px;
       transition: all 0.2s;
+      cursor: pointer;
     }
-    .hub-link-btn:hover {
+    .hub-link-btn:hover,
+    .hub-link-btn.active-btn {
       background: var(--gold);
       color: var(--primary);
     }
@@ -221,18 +224,14 @@
 </head>
 <body>
 
-  <header class="hub-header">
-    <div class="hub-header-top">
-      <div class="hub-title-group">
-        <h1>Zelmiqo® Content Workstation Hub</h1>
-        <span class="hub-badge">Saudi Arabia & Global Launch</span>
-      </div>
-      <div class="header-actions">
-        <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
-      </div>
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® Content Workstation Hub</h1>
+      <span class="badge">Saudi Arabia &amp; Global Launch</span>
     </div>
-    <div class="hub-desc">
-      Interactive visual content workstation for FatherShops e-commerce deployment. Every page includes pixel-perfect live store screenshot callouts in red bounding boxes with numbered badges, accompanied by verbatim old-to-new bilingual high-converting copy cards with one-click copy functionality.
+    <div class="header-actions">
+      <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
+      <a href="index.html" class="hub-link-btn active-btn">← Back to Master Hub</a>
     </div>
   </header>
 
