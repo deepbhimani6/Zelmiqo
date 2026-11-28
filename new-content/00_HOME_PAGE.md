@@ -6,12 +6,12 @@
 - **Meta Title** (HTML `<title>` tag):
   `Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 7–8 days delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
+  `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 7–8 days delivery across Saudi Arabia. Safe checkout via Mada, Apple Pay & COD.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
-  `zelmiqo, smart lifestyle gadgets, wearable cooling fan, wireless charger stand, car interior care, saudi arabia online shopping, tabby tamara ksa`
+  `zelmiqo, smart lifestyle gadgets, wearable cooling fan, wireless charger stand, car interior care, saudi arabia online shopping, mada apple pay ksa`
 - **Open Graph / Social Media Tags**:
   - `og:title`: `Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia`
-  - `og:description`: `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 7–8 days delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
+  - `og:description`: `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 7–8 days delivery across Saudi Arabia. Safe checkout via Mada, Apple Pay & COD.`
   - `og:type`: `website`
   - `og:locale`: `en_US` (Alternate: `ar_SA`)
 
@@ -19,12 +19,12 @@
 - **عنوان الصفحة (Meta Title)**:
   `زيلميكو® | ابتكارات ذكية عالمية لرفاهية استثنائية • متوفرة في السعودية`
 - **وصف الصفحة (Meta Description)**:
-  `اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، وقسّط مشترياتك مع تابي وتمارا.`
+  `اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، ودفع آمن عبر مدى وأبل باي والدفع عند الاستلام.`
 - **الكلمات المفتاحية (Meta Keywords)**:
-  `زيلميكو, متجر إلكتروني سعودي, أجهزة ذكية منزلية, مراوح تبريد صيفية, شواحن لاسلكية, مستلزمات سيارات فاخرة, تقسيط تابي, دفع عند الاستلام الرياض جدة`
+  `زيلميكو, متجر إلكتروني سعودي, أجهزة ذكية منزلية, مراوح تبريد صيفية, شواحن لاسلكية, مستلزمات سيارات فاخرة, دفع عند الاستلام الرياض جدة`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `زيلميكو® | ابتكارات ذكية عالمية لرفاهية استثنائية • متوفرة في السعودية`
-  - `og:description`: `اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، وقسّط مشترياتك مع تابي وتمارا.`
+  - `og:description`: `اكتشف أحدث الأجهزة الذكية، حلول التبريد الصيفي، ومنتجات العناية بالمنزل والسيارة من زيلميكو. شحن محلي سريع لكافة مدن المملكة، ودفع آمن عبر مدى وأبل باي والدفع عند الاستلام.`
   - `og:type`: `website`
   - `og:locale`: `ar_SA` (Alternate: `en_US`)
 ---
@@ -67,9 +67,9 @@ Call to Action (Primary): Explore Flagship Collection
 new english content: Explore Flagship Collection
 new arabic content: استكشف المجموعة المتكاملة
 
-Call to Action (Secondary): Split in 4 with Tabby & Tamara
-new english content: Split in 4 with Tabby & Tamara
-new arabic content: قسّم فاتورتك مع تابي وتمارا
+Call to Action (Secondary): Express Buy with Apple Pay / Mada
+new english content: Express Buy with Apple Pay / Mada
+new arabic content: شراء سريع عبر أبل باي ومدى
 ```
 
 ---
@@ -98,9 +98,9 @@ Pillar 2: 100% Golden Guarantee & Easy Returns:
 new english content: 🛡️ Golden 7-Day Replacement Guarantee: Complete peace of mind with 7-day direct replacements and a 1-year product warranty.
 new arabic content: 🛡️ الضمان الذهبي والاستبدال السهل: تسوق بثقة تامة مع ضمان الاستبدال الفوري خلال 7 أيام وضمان شامل لمدة عام كامل.
 
-Pillar 3: Safe Checkout & Flexible Installments:
-new english content: 💳 Certified Secure Payments: Pay securely via Mada, Apple Pay, Cash on Delivery, or split your purchase into 4 monthly interest-free payments with Tabby and Tamara.
-new arabic content: 💳 دفع آمن وتقسيط ميسر: ادفع بأمان تام عبر مدى، أبل باي، الدفع عند الاستلام، أو قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا.
+Pillar 3: Safe & Certified Checkout:
+new english content: 💳 Certified Secure Payments: Pay securely via Mada, Apple Pay, Cash on Delivery, and Visa/Mastercard with bank-grade encryption.
+new arabic content: 💳 دفع إلكتروني آمن ومعتمد: ادفع بأمان تام عبر مدى، أبل باي، الدفع عند الاستلام، فيزا، أو ماستركارد.
 ```
 
 ---
@@ -209,8 +209,8 @@ new english content: "Arrived securely packaged within 36 hours in Riyadh! The q
 new arabic content: "وصل الطلب بتغليف فاخر ومحكم خلال 36 ساعة فقط في الرياض! جودة التصنيع والخامات ممتازة جداً وتفوق التوقعات. أداء تبريد رائع للمشاوير اليومية. بالتأكيد سأطلب قطعاً أخرى للعائلة." — زويا أ.، الرياض (مشترٍ موثق)
 
 Review 2 (Verified Saudi Shopper):
-new english content: "Delivered remarkably fast to Jeddah. The cordless vacuum suction is surprisingly powerful for sandy car carpets, and paying with Tabby made it so convenient. Highly recommended store!" — Maryam S., Jeddah, KSA (Verified Buyer)
-new arabic content: "توصيل سريع بشكل مذهل إلى جدة. قوة شفط المكنسة اللاسلكية قوية جداً وتنظف مقاعد وسجاد السيارة من الأتربة بسهولة، وخيار التقسيط عبر تابي جعل الشراء مريحاً جداً. متجر يستحق الثقة!" — مريم س.، جدة (مشترٍ موثق)
+new english content: "Delivered remarkably fast to Jeddah. The cordless vacuum suction is surprisingly powerful for sandy car carpets, and paying with Apple Pay made checkout effortless. Highly recommended store!" — Maryam S., Jeddah, KSA (Verified Buyer)
+new arabic content: "توصيل سريع بشكل مذهل إلى جدة. قوة شفط المكنسة اللاسلكية قوية جداً وتنظف مقاعد وسجاد السيارة من الأتربة بسهولة، والدفع عبر أبل باي جعل الشراء سريعاً ومريحاً جداً. متجر يستحق الثقة!" — مريم س.، جدة (مشترٍ موثق)
 
 Review 3 (Verified Saudi Shopper):
 new english content: "The bionic neck massager relieved severe desk tension on my shoulders after just 15 minutes of use. Premium packaging, fast SMS tracking updates, and genuine quality." — Malak K., Riyadh, KSA (Verified Buyer)
@@ -241,9 +241,9 @@ Item 2: Golden Guarantee:
 new english content: 🛡️ Golden 7-Day Replacement Guarantee
 new arabic content: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام
 
-Item 3: Installments:
-new english content: 💳 Split in 4 Interest-Free Payments with Tabby & Tamara
-new arabic content: 💳 قسّم مشترياتك على 4 دفعات بدون فوائد مع تابي وتمارا
+Item 3: Certified Payments:
+new english content: 💳 Safe Checkout with Mada, Apple Pay & Cash on Delivery
+new arabic content: 💳 دفع آمن عبر مدى، أبل باي، والدفع عند الاستلام
 
 Item 4: Certified Checkout:
 new english content: 🔒 100% Certified Safe Checkout with Mada & Apple Pay

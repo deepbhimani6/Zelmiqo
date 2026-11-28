@@ -121,8 +121,6 @@ KSA_VALUE_PROPS = {
     'Fast 7-8 Days Delivery / 7-8 أيام': [r'7-8', r'7\s*-\s*8', r'7–8', r'7\s*إلى\s*8'],
     'Mada Payment / مدى': [r'Mada', r'مدى'],
     'Apple Pay / أبل باي': [r'Apple Pay', r'أبل باي'],
-    'Tabby Installments / تابي': [r'Tabby', r'تابي'],
-    'Tamara Installments / تمارا': [r'Tamara', r'تمارا'],
     '7-Day Golden Guarantee / الضمان الذهبي': [r'Golden Guarantee', r'الضمان الذهبي', r'7-Day', r'7\s*أيام'],
     'Cash on Delivery / الدفع عند الاستلام': [r'Cash on Delivery', r'COD', r'الدفع عند الاستلام'],
     'SAR Currency / ر.س': [r'SAR', r'ر\.س']

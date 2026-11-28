@@ -6,12 +6,12 @@
 - **Meta Title** (HTML `<title>` tag):
   `Privacy Policy & Terms of Service | Saudi E-Commerce Law Compliant`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Your privacy is protected. 256-bit bank-grade encryption, secure payments via Mada, Apple Pay & Tabby. Compliant with Saudi E-Commerce & Personal Data Protection Laws.`
+  `Your privacy is protected. 256-bit bank-grade encryption, secure payments via Mada, Apple Pay, Visa & Mastercard. Compliant with Saudi E-Commerce & Personal Data Protection Laws.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
   `zelmiqo privacy policy, saudi ecommerce law compliance, personal data protection pdpl ksa, secure payment processing`
 - **Open Graph / Social Media Tags**:
   - `og:title`: `Privacy Policy & Terms of Service | Saudi E-Commerce Law Compliant`
-  - `og:description`: `Your privacy is protected. 256-bit bank-grade encryption, secure payments via Mada, Apple Pay & Tabby. Compliant with Saudi E-Commerce & Personal Data Protection Laws.`
+  - `og:description`: `Your privacy is protected. 256-bit bank-grade encryption, secure payments via Mada, Apple Pay, Visa & Mastercard. Compliant with Saudi E-Commerce & Personal Data Protection Laws.`
   - `og:type`: `website`
   - `og:locale`: `en_US` (Alternate: `ar_SA`)
 
@@ -63,8 +63,8 @@ new english content: Zelmiqo International Terms of Service & Digital Agreement
 new arabic content: الشروط والأحكام الرسمية لمتجر زيلميكو العالمي
 
 Agreement Framework:
-new english content: Welcome to Zelmiqo (زيلميكو). By accessing our official store, browsing products, or completing an order via card, Apple Pay, Cash on Delivery, Tabby, or Tamara, you enter into a binding consumer agreement governed by the Saudi E-Commerce Law and international digital commercial standards.
-new arabic content: أهلاً بكم في متجر زيلميكو (Zelmiqo). يمثل استخدامكم للموقع أو إتمام أي عملية شراء عبر البطاقات البنكية، أبل باي، الدفع عند الاستلام، أو التقسيط عبر تابي وتمارا، موافقة قانونية ملزمة وفقاً لأحكام نظام التجارة الإلكترونية ولائحته التنفيذية المعمول بها في المملكة العربية السعودية والأنظمة الدولية ذات العلاقة.
+new english content: Welcome to Zelmiqo (زيلميكو). By accessing our official store, browsing products, or completing an order via card, Apple Pay, or Cash on Delivery, you enter into a binding consumer agreement governed by the Saudi E-Commerce Law and international digital commercial standards.
+new arabic content: أهلاً بكم في متجر زيلميكو (Zelmiqo). يمثل استخدامكم للموقع أو إتمام أي عملية شراء عبر البطاقات البنكية، أبل باي، أو الدفع عند الاستلام، موافقة قانونية ملزمة وفقاً لأحكام نظام التجارة الإلكترونية ولائحته التنفيذية المعمول بها في المملكة العربية السعودية والأنظمة الدولية ذات العلاقة.
 ```
 
 ---
@@ -94,10 +94,10 @@ All payment transactions are processed securely through trusted third-party paym
 Pricing & Transparent Currency:
 new english content: • Authentic Saudi Riyal (SAR) Pricing: All prices displayed on our Saudi portal are clearly denoted in Saudi Riyals (SAR / ر.س) inclusive of all applicable Value Added Tax (VAT 15%).
 • Zero Hidden Charges: Free shipping is fully honored at checkout without sudden surcharges.
-• Split Payment Compliance: Transactions through Tabby and Tamara adhere to Sharia-compliant interest-free 4-month installments.
+• Encrypted Payment Compliance: All electronic card, Mada, and Apple Pay transactions comply with SAMA security standards.
 new arabic content: • أسعار شفافة بالريال السعودي: جميع الأسعار المعروضة لعملائنا في المملكة واضحة وبالريال السعودي (ر.س)، وشاملة لضريبة القيمة المضافة (15% VAT).
 • انعدام الرسوم الخفية: الشحن المجاني معتمد بالكامل في صفحة الدفع دون أي مصاريف مفاجئة.
-• تقسيط شرعي آمن: تخضع عمليات التقسيط عبر تابي وتمارا لأحكام الشريعة الإسلامية بدون أي فوائد أو رسوم تأخير خفية.
+• أمان المدفوعات الإلكترونية: تخضع جميع عمليات الدفع بالبطاقات ومدى وأبل باي لأعلى معايير الأمان والتشفير البنكي المعتمدة.
 ```
 
 ---

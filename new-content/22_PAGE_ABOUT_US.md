@@ -63,8 +63,8 @@ new english content: World-class engineering meets authentic regional hospitalit
 new arabic content: هندسة عالمية فائقة تلتقي بالضيافة السعودية الأصيلة. اكتشف أجهزة ذكية صُممت لترتقي بتفاصيل حياتك اليومية.
 
 Brand Narrative:
-new english content: Welcome to Zelmiqo (زيلميكو) — an international lifestyle tech house founded on the principle that modern living should be seamless, inspiring, and exceptionally comfortable. From quiet, high-velocity wearable cooling engineered for 48°C desert summers to executive multi-device wireless charging stations and restorative percussive massagers, our innovations bring global luxury into Saudi homes. Operating with dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with fast 7–8 days domestic delivery and flexible 4-month installments with Tabby and Tamara.
-new arabic content: أهلاً بكم في زيلميكو (Zelmiqo) — دار الابتكارات التقنية العالمية لأسلوب حياة استثنائي، والتي تأسست على يقين بأن الحياة العصرية ينبغي أن تكون مفعمة بالراحة، الإلهام، والأناقة العملية. من مراوح التبريد الشخصية التوربينية المصممة للتغلب على حرارة الصيف البالغة 48 درجة مئوية في المملكة، إلى منصات الشحن اللاسلكي الذكية ومسدسات المساج الاحترافية للاسترخاء، نقدم لكم الفخامة العالمية في منازلكم. ومن خلال مركز عملياتنا وتوزيعنا الإقليمي في الرياض، نضمن لعملائنا في السعودية معايير الجودة الدولية مع توصيل محلي سريع خلال 7–8 أيام، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.
+new english content: Welcome to Zelmiqo (زيلميكو) — an international lifestyle tech house founded on the principle that modern living should be seamless, inspiring, and exceptionally comfortable. From quiet, high-velocity wearable cooling engineered for 48°C desert summers to executive multi-device wireless charging stations and restorative percussive massagers, our innovations bring global luxury into Saudi homes. Operating with dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with fast 7–8 days domestic delivery and secure checkout with Mada, Apple Pay & COD.
+new arabic content: أهلاً بكم في زيلميكو (Zelmiqo) — دار الابتكارات التقنية العالمية لأسلوب حياة استثنائي، والتي تأسست على يقين بأن الحياة العصرية ينبغي أن تكون مفعمة بالراحة، الإلهام، والأناقة العملية. من مراوح التبريد الشخصية التوربينية المصممة للتغلب على حرارة الصيف البالغة 48 درجة مئوية في المملكة، إلى منصات الشحن اللاسلكي الذكية ومسدسات المساج الاحترافية للاسترخاء، نقدم لكم الفخامة العالمية في منازلكم. ومن خلال مركز عملياتنا وتوزيعنا الإقليمي في الرياض، نضمن لعملائنا في السعودية معايير الجودة الدولية مع توصيل محلي سريع خلال 7–8 أيام، وخيارات دفع آمنة عبر مدى وأبل باي والدفع عند الاستلام.
 ```
 
 ---
@@ -159,8 +159,8 @@ new english content: ✔ Dedicated Local Saudi Fulfillment: No long customs dela
 new arabic content: ✔ مستودعات وتوصيل محلي مباشر في السعودية: لا انتظار للشحن الدولي أو إجراءات الجمارك المعقدة. تُشحن طلباتكم مباشرة من مستودعاتنا الإقليمية في الرياض عبر أرامكس وسمسا بتوصيل سريع خلال 7–8 أيام.
 
 Pillar 3 - Transparent Flexible Financing:
-new english content: ✔ Transparent Flexible Financing: Enjoy financial ease by splitting payments into 4 interest-free installments with Tabby and Tamara, or choose Cash on Delivery (COD) and Mada upon receipt.
-new arabic content: ✔ خيارات دفع وتقسيط ميسرة: تسوق براحة تامة وقسّم فاتورتك على 4 دفعات بدون فوائد أو رسوم خفية عبر تابي وتمارا، أو اختر الدفع عند الاستلام وبطاقات مدى وأبل باي.
+new english content: ✔ Trusted Secure Payment Methods: Shop seamlessly with Mada, Apple Pay, Visa, Mastercard, or Cash on Delivery (COD) upon receipt.
+new arabic content: ✔ خيارات دفع آمنة ومتنوعة: تسوق براحة تامة عبر بطاقات مدى وأبل باي وفيزا وماستركارد أو الدفع عند الاستلام.
 
 Pillar 4 - Golden 7-Day Warranty & Protection:
 new english content: ✔ Golden 7-Day Warranty & Protection: Shop with absolute peace of mind backed by our Golden 7-Day direct replacement guarantee and 1-year product warranty compliant with Saudi consumer standards.

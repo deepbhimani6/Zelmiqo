@@ -36,7 +36,7 @@
 > **Catalog ID**: `PRD-20`  
 > **Live Site URL**: `https://zelmiqo.com/products/wireless-touch-screen-weather-station-alarm-clock-outdoor-sensor`  
 > **Category**: 🏡 Smart Living & Home Environment  
-> **Price**: **SAR 149.00** *(Or 4 monthly interest-free payments of **SAR 37.25** with Tabby / Tamara)*  
+> **Price**: **SAR 149.00**  
 > **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-wireless-weather-station-alarm/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-wireless-weather-station-alarm)
 
@@ -64,9 +64,9 @@ Call to Action (Primary): Explore Flagship Collection & Buy
 new english content: Add to Bag • Express Dispatch in KSA
 new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-Call to Action (Secondary - Installments):
-new english content: Split in 4 with Tabby & Tamara (Zero Interest)
-new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
+Call to Action (Secondary - Express Checkout):
+new english content: Express Buy with Apple Pay / Mada
+new arabic content: شراء سريع عبر أبل باي ومدى
 ```
 
 ---

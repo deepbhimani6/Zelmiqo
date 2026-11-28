@@ -93,11 +93,11 @@ new english content: Fast-Track Fulfillment: Fast 7–8 Days Delivery
 new arabic content: معالجة فورية وتجهيز فائق: توصيل خلال 7–8 أيام
 
 Processing Standards:
-new english content: 1. Electronic Verification: Immediate order validation and automated payment confirmation via Mada, Apple Pay, Tabby, or Tamara.
+new english content: 1. Electronic Verification: Immediate order validation and automated payment confirmation via Mada, Apple Pay, Visa, Mastercard, or COD.
 2. Premium White-Glove Quality Inspection: Verification of device seals, battery safety standards, and factory serial numbers.
 3. Reinforced Thermal Packaging: Custom padded packaging designed to safeguard sensitive electronics against summer ambient temperatures.
 4. Express Courier Handover: Daily scheduled pickups from our Riyadh warehouse ensuring fast 7–8 days nationwide delivery.
-new arabic content: 1. توثيق إلكتروني فوري: تأكيد الطلب فوراً واعتماد عمليات الدفع عبر مدى، أبل باي، أو أقساط تابي وتمارا.
+new arabic content: 1. توثيق إلكتروني فوري: تأكيد الطلب فوراً واعتماد عمليات الدفع عبر مدى، أبل باي، فيزا، ماستركارد، أو الدفع عند الاستلام.
 2. فحص الجودة الشامل: مراجعة سلامة الأختام الأصلية، معايير أمان البطاريات، ومطابقة الأرقام التسلسلية.
 3. تغليف حراري معزز: عبوات شحن فاخرة ومبطنة تحمي الأجهزة الإلكترونية الحساسة من درجات الحرارة المرتفعة أثناء النقل.
 4. تسليم سريع لشركات الشحن: تسليم منتظم للشحنات من مستودعات الرياض لتصلك خلال 7–8 أيام.
@@ -135,10 +135,10 @@ new arabic content: • الرياض، جدة، الدمام، والخبر: ت�
 Shipping Rates & Promotions:
 new english content: • 🚚 Free Express Domestic Delivery: Free shipping on all orders over SAR 199 (Standard delivery SAR 19 for orders below SAR 199). Fast 7–8 days delivery from Riyadh.
 • 💵 Cash on Delivery (COD): Available across all major Saudi cities with a nominal courier handling fee of SAR 15.
-• 💳 Electronic & Installment Payments (Mada, Apple Pay, Visa, Tabby, Tamara): 100% Free processing with zero additional fees.
+• 💳 Electronic Payments (Mada, Apple Pay, Visa, Mastercard): 100% Free processing with zero additional fees.
 new arabic content: • 🚚 شحن محلي سريع ومجاني: شحن مجاني لكافة الطلبات بقيمة 199 ر.س أو أكثر (رسوم شحن رمزية 19 ر.س للطلبات الأقل من ذلك). توصيل سريع خلال 7–8 أيام من مستودعات الرياض.
 • 💵 خدمة الدفع عند الاستلام (COD): متاحة في كافة المدن الرئيسية بالمملكة برسم خدمة رمزي لشركة الشحن بقيمة 15 ر.س فقط.
-• 💳 الدفع الإلكتروني والتقسيط (مدى، أبل باي، فيزا، تابي، تمارا): مجاني 100% وبدون أي رسوم إضافية.
+• 💳 الدفع الإلكتروني (مدى، أبل باي، فيزا، ماستركارد): مجاني 100% وبدون أي رسوم إضافية.
 ```
 
 ---

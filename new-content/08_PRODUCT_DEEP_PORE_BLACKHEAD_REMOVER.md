@@ -36,7 +36,7 @@
 > **Catalog ID**: `PRD-07`  
 > **Live Site URL**: `https://zelmiqo.com/products/deep-pore-blackhead-remover-vacuum-led-display`  
 > **Category**: 💆‍♀️ Skincare Tech & Pore Extraction  
-> **Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
+> **Price**: **SAR 129.00**  
 > **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-deep-pore-blackhead-remover/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-deep-pore-blackhead-remover)
 
@@ -64,9 +64,9 @@ Call to Action (Primary): Explore Flagship Collection & Buy
 new english content: Add to Bag • Express Dispatch in KSA
 new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-Call to Action (Secondary - Installments):
-new english content: Split in 4 with Tabby & Tamara (Zero Interest)
-new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
+Call to Action (Secondary - Express Checkout):
+new english content: Express Buy with Apple Pay / Mada
+new arabic content: شراء سريع عبر أبل باي ومدى
 ```
 
 ---

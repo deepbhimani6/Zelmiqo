@@ -34,7 +34,7 @@
 
 > **Live Page URL**: `https://zelmiqo.com/catalog`  
 > **Brand Identity**: Zelmiqo (زيلميكو) — International Lifestyle Innovation Series  
-> **Pricing**: In Saudi Riyals (SAR / ر.س) with 4-Month Tabby / Tamara Installments  
+> **Pricing**: In Saudi Riyals (SAR / ر.س) with 15% VAT Included  
 > **Delivery**: Express Doorstep Fulfillment Across All Saudi Provinces
 
 ---
@@ -123,7 +123,7 @@ new english content:
 • Product Title: Precision naming emphasizing core utility and engineering tier.
 • Rating & Social Proof: "★★★★★ 4.9 (120+ Verified Saudi Reviews)"
 • Price Display: Bold SAR pricing (e.g. "SAR 149.00 (Includes 15% VAT)")
-• 4x Split Payment Badge: "Or 4 interest-free payments of SAR 37.25 with Tabby / Tamara"
+• Payment Trust Badge: "✓ Safe Checkout with Mada, Apple Pay & COD"
 • Fast Shipping Micro-Badge: "⚡️ In Stock in Riyadh • Fast Courier Dispatch"
 • Guarantee Micro-Badge: "🛡️ Golden 7-Day Replacement Guarantee"
 • Primary Action: "Add to Bag"
@@ -134,7 +134,7 @@ new arabic content:
 • عنوان المنتج: صياغة احترافية تركز على الفائدة المباشرة والهندسة المتقنة.
 • التقييم وإثبات الثقة: "★★★★★ 4.9 (أكثر من 120 تقييماً موثقاً في السعودية)"
 • عرض السعر: السعر الإجمالي بالريال السعودي بخط عريض (مثال: "149.00 ر.س شامل ضريبة القيمة المضافة 15%")
-• شارة التقسيط على 4 دفعات: "أو قسّمها على 4 دفعات ميسرة بقيمة 37.25 ر.س/شهرياً بدون فوائد مع تابي أو تمارا"
+• شارة الدفع الآمن: "✓ دفع آمن عبر مدى وأبل باي والدفع عند الاستلام"
 • شارة الشحن السريع: "⚡️ متوفر بمستودعات الرياض • شحن محلي فوري"
 • شارة الضمان: "🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام"
 • زر الشراء الأساسي: "أضف إلى السلة"
@@ -153,6 +153,6 @@ Fast Shipping • Quality Checked • Secure Checkout Protection
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Catalog Trust Banner:
-new english content: 🚚 100% Free Express Delivery Across KSA | 🛡️ Golden 7-Day Replacement Warranty | 💳 Split in 4 with Tabby & Tamara | 💵 Cash on Delivery Available
-new arabic content: 🚚 شحن وتوصيل مجاني 100% لكافة مناطق المملكة | 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام | 💳 تقسيط ميسر على 4 دفعات مع تابي وتمارا | 💵 خيار الدفع عند الاستلام متاح
+new english content: 🚚 100% Free Express Delivery Across KSA | 🛡️ Golden 7-Day Replacement Warranty | 💳 Safe Checkout: Mada, Apple Pay & COD | 💵 Cash on Delivery Available
+new arabic content: 🚚 شحن وتوصيل مجاني 100% لكافة مناطق المملكة | 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام | 💳 دفع آمن عبر مدى وأبل باي | 💵 خيار الدفع عند الاستلام متاح
 ```

@@ -19,12 +19,12 @@
 - **عنوان الصفحة (Meta Title)**:
   `فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D للمسام والمساج | زيلميكو®`
 - **وصف الصفحة (Meta Description)**:
-  `تنظيف عميق للمسام ونضارة فورية. فرشاة سيليكون طبية مزدوجة تنظف 99.5% من الدهون والشوائب بلطف بدون تهيج للبشرة الحساسة. توصيل سريع وتقسيط تابي.`
+  `تنظيف عميق للمسام ونضارة فورية. فرشاة سيليكون طبية مزدوجة تنظف 99.5% من الدهون والشوائب بلطف بدون تهيج للبشرة الحساسة. توصيل سريع خلال 7–8 أيام ودفع آمن عبر مدى وأبل باي.`
 - **الكلمات المفتاحية (Meta Keywords)**:
   `فرشاة تنظيف الوجه سيليكون, جهاز غسيل الوجه, تنظيف مسام البشرة, إزالة الرؤوس السوداء, مساج للوجه, فرشاة ديرما كير السعودية`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `فرشاة تنظيف الوجه السيليكونية ثلاثية الأبعاد 3D للمسام والمساج | زيلميكو®`
-  - `og:description`: `تنظيف عميق للمسام ونضارة فورية. فرشاة سيليكون طبية مزدوجة تنظف 99.5% من الدهون والشوائب بلطف بدون تهيج للبشرة الحساسة. توصيل سريع وتقسيط تابي.`
+  - `og:description`: `تنظيف عميق للمسام ونضارة فورية. فرشاة سيليكون طبية مزدوجة تنظف 99.5% من الدهون والشوائب بلطف بدون تهيج للبشرة الحساسة. توصيل سريع خلال 7–8 أيام ودفع آمن عبر مدى وأبل باي.`
   - `og:type`: `product`
   - `og:locale`: `ar_SA` (Alternate: `en_US`)
 ---
@@ -36,7 +36,7 @@
 > **Catalog ID**: `PRD-03`  
 > **Live Site URL**: `https://zelmiqo.com/products/3d-double-sided-silicone-facial-cleansing-brush`  
 > **Category**: 💆‍♀️ Skincare & Personal Care  
-> **Price**: **SAR 121.00** *(Or 4 monthly interest-free payments of **SAR 30.25** with Tabby / Tamara)*  
+> **Price**: **SAR 121.00**  
 > **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-3d-silicone-cleansing-brush/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush)
 
@@ -64,9 +64,9 @@ Call to Action (Primary): Explore Flagship Collection & Buy
 new english content: Add to Bag • Express Dispatch in KSA
 new arabic content: أضف للسلة • شحن سريع لكافة مدن المملكة
 
-Call to Action (Secondary - Installments):
-new english content: Split in 4 with Tabby & Tamara (Zero Interest)
-new arabic content: قسّم فاتورتك على 4 دفعات بدون فوائد عبر تابي وتمارا
+Call to Action (Secondary - Express Checkout):
+new english content: Express Buy with Apple Pay / Mada
+new arabic content: شراء سريع عبر أبل باي ومدى
 ```
 
 ---

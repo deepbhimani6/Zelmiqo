@@ -21,7 +21,7 @@
 - **وصف الصفحة (Meta Description)**:
   `شريط الإعلانات، القوائم العلوية، بيانات السجل التجاري والتوثيق الضريبي المعتمد لدى المركز السعودي للأعمال وشارات الدفع الآمنة لمتجر زيلميكو.`
 - **الكلمات المفتاحية (Meta Keywords)**:
-  `توثيق متجر زيلميكو, السجل التجاري, الرقم الضريبي, بوابات الدفع مدى ابل باي تابي تمارا`
+  `توثيق متجر زيلميكو, السجل التجاري, الرقم الضريبي, بوابات الدفع مدى ابل باي فيزا ماستركارد`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `الهيدر، القوائم، بيانات السجل التجاري وشارات الثقة | زيلميكو®`
   - `og:description`: `شريط الإعلانات، القوائم العلوية، بيانات السجل التجاري والتوثيق الضريبي المعتمد لدى المركز السعودي للأعمال وشارات الدفع الآمنة لمتجر زيلميكو.`
@@ -52,8 +52,8 @@ new english content: 🚚 Free Express Delivery Across Saudi Arabia on Orders Ov
 new arabic content: 🚚 شحن سريع ومجاني لكافة مدن المملكة للطلبات فوق 199 ر.س • توصيل سريع خلال 7–8 أيام • تسوق الآن
 
 Rotating Marquee Option (Multi-Value Proposition):
-new english content: 🌍 Global Lifestyle Innovations | ⚡️ Fast 7–8 Days Delivery in KSA | 💳 Split in 4 with Tabby & Tamara | 🚚 Free Shipping Over SAR 199
-new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 7–8 أيام لمدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني للطلبات فوق 199 ر.س
+new english content: 🌍 Global Lifestyle Innovations | ⚡️ Fast 7–8 Days Delivery in KSA | 💳 Safe Checkout: Mada, Apple Pay & COD | 🚚 Free Shipping Over SAR 199
+new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 7–8 أيام لمدن المملكة | 💳 دفع آمن عبر مدى وأبل باي | 🚚 شحن مجاني للطلبات فوق 199 ر.س
 ```
 
 ---
@@ -124,17 +124,17 @@ Copyright:
 ```text
 Footer Brand Bio:
 new english content: Zelmiqo (زيلميكو) is an international lifestyle innovation house engineering smart living gadgets, ergonomic cooling tech, and restorative wellness solutions for refined homes worldwide. With dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express domestic delivery, the Golden 7-Day Guarantee, and flexible payment plans across Saudi Arabia.
-new arabic content: زيلميكو (Zelmiqo) دار عالمية لابتكارات أسلوب الحياة العصري، تصمم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي، وحلول العناية والاسترخاء لحياة أكثر راحة وتميزاً. ومن خلال مركز عملياتنا اللوجستي المباشر في الرياض، نضمن لعملائنا في كافة مدن المملكة العربية السعودية أعلى معايير الجودة العالمية، توصيلاً محلياً سريعاً، الضمان الذهبي للاستبدال، وحلول دفع وتقسيط ميسرة.
+new arabic content: زيلميكو (Zelmiqo) دار عالمية لابتكارات أسلوب الحياة العصري، تصمم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي، وحلول العناية والاسترخاء لحياة أكثر راحة وتميزاً. ومن خلال مركز عملياتنا اللوجستي المباشر في الرياض، نضمن لعملائنا في كافة مدن المملكة العربية السعودية أعلى معايير الجودة العالمية، توصيلاً محلياً سريعاً، الضمان الذهبي للاستبدال، وخيارات دفع آمنة ومعتمدة.
 
 Trust & Compliance Footer Ribbon:
 new english content: • Commercial Certification: Registered & Certified Saudi E-Commerce Entity (CR No. 1010XXXXXX • Saudi Business Center / Maroof Verified).
 • Tax Compliance: 100% Registered & VAT-Compliant (VAT Reg. 310XXXXXXXX0003 • 15% KSA VAT Included).
 • Golden Guarantee: 7-Day Direct Replacement & 1-Year Official Hardware Warranty.
-• Accepted Payment Gateways: Mada, Apple Pay, Visa, Mastercard, Tabby (Split in 4), Tamara (Split in 4), and Cash on Delivery (COD).
+• Accepted Payment Gateways: Mada, Apple Pay, Visa, Mastercard, and Cash on Delivery (COD).
 new arabic content: • التوثيق التجاري: كيان تجارة إلكترونية مسجل ومعتمد بالمملكة (سجل تجاري رقم: 1010XXXXXX • موثق لدى المركز السعودي للأعمال ومنصة معروف).
 • الامتثال الضريبي: مسجل رسمياً وخاضع لضريبة القيمة المضافة (الرقم الضريبي: 310XXXXXXXX0003 • الأسعار شاملة 15% ضريبة القيمة المضافة).
 • الضمان الذهبي: استبدال فوري خلال 7 أيام وضمان صيانة معتمد لمدة عام كامل.
-• بوابات الدفع المعتمدة: بطاقات مدى البنكية، أبل باي، فيزا، ماستركارد، تقسيط تابي على 4 دفعات بدون فوائد، تقسيط تمارا، والدفع نقداً عند الاستلام.
+• بوابات الدفع المعتمدة: بطاقات مدى البنكية، أبل باي، فيزا، ماستركارد، والدفع نقداً عند الاستلام.
 
 Footer Columns Navigation (أقسام وروابط الفوتر):
 Column 1: Customer Care (خدمة العملاء والمساعدة):

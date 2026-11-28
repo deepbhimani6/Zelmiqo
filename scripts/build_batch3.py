@@ -83,8 +83,8 @@ p_neck_massager = {
     "table-rows-en": "Row 1: 🖐️ 4D Bionic Kneading | Zelmiqo (✓ Real thumb-like gripping & kneading) | Vibration Belts (✕ Weak buzzing surface vibrations)\nRow 2: 🌡️ 42°C Infrared Heat | Zelmiqo (✓ Built-in thermal deep-tissue therapy) | Vibration Belts (✕ No heating or dangerously hot coils)\nRow 3: 🔋 Cordless Rechargeable | Zelmiqo (✓ Long-life lithium battery, 8 sessions) | Vibration Belts (✕ Must remain tied to wall socket)\nRow 4: 🤫 Quiet Motor Power | Zelmiqo (✓ High-torque brushless copper motor) | Vibration Belts (✕ Annoying loud buzzing noise)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Weeks of unverified slow shipping)",
     "table-rows-ar": "الصف 1: 🖐️ مساج 4D حيوي حقيقي | جهاز زيلميكو (✓ ضغط وفرك عميق يحاكي حركة الأصابع) | أحزمة الاهتزاز (✕ طنين واهتزاز سطحي عديم الفائدة)\nالصف 2: 🌡️ تدفئة حرارية 42° | جهاز زيلميكو (✓ حرارة علاجية آمنة تريح العضلات) | أحزمة الاهتزاز (✕ بدون تدفئة أو أسلاك حرارية خطيرة)\nالصف 3: 🔋 بطارية لاسلكية قوية | جهاز زيلميكو (✓ ليثيوم تدوم 8 جلسات متتالية بالشحنة) | أحزمة الاهتزاز (✕ مقيدة بسلك جداري قصير يمنع الحركة)\nالصف 4: 🤫 هدوء تام أثناء الاستخدام | جهاز زيلميكو (✓ محرك نحاسي قوي بدون أي صوت مزعج) | أحزمة الاهتزاز (✕ صوت طنين واهتزاز عالي يسبب الصداع)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة العادية (✕ انتظار أسابيع طويلة دون ضمان محلي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Neck & Shoulder Relief Stories Across Saudi Arabia<br>Read verified reviews from office professionals and drivers who eliminated tension.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص راحة حقيقية لموظفين وسائقين في مدن المملكة<br>تقييمات موثقة لعملاء تخلصوا من آلام الرقبة وتصلب الأكتاف واستعادوا نشاطهم اليومي.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 156 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -95,8 +95,8 @@ p_neck_massager = {
     "seo-title-ar": "جهاز مساج وتدليك الرقبة والأكتاف الحيوي 4D مع تدفئة حرارية | زيلميكو السعودية",
     "seo-desc-en": "Human-touch 4D bionic finger neck and shoulder kneading massager with 42°C infrared heat. Relieves desk strain and tension. Fast 7–8 days delivery across Saudi Arabia.",
     "seo-desc-ar": "جهاز تدليك الرقبة والأكتاف 4D يحاكي أصابع اليدين مع تدفئة حرارية علاجية 42°. يزيل آلام وتشنجات الرقبة مع توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.",
-    "seo-keywords-en": "bionic neck massager saudi arabia, shiatsu shoulder kneading massager ksa, heated neck pillow, cordless cervical massager 7-8 days delivery, tabby tamara wellness devices",
-    "seo-keywords-ar": "جهاز مساج الرقبة والكتف السعودية, جهاز تدليك شياتسو, مخدة مساج حرارية, علاج تشنج الرقبة, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-keywords-en": "bionic neck massager saudi arabia, shiatsu shoulder kneading massager ksa, heated neck pillow, cordless cervical massager 7-8 days delivery, wellness devices",
+    "seo-keywords-ar": "جهاز مساج الرقبة والكتف السعودية, جهاز تدليك شياتسو, مخدة مساج حرارية, علاج تشنج الرقبة, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -155,8 +155,8 @@ p_massage_gun = {
     "table-rows-en": "Row 1: ⚡️ 12mm Percussive Amplitude | Zelmiqo (✓ Deep tissue fascia penetration) | Cheap Guns (✕ Shallow 4-6mm surface buzzing)\nRow 2: 🎚️ 9 Speed Touch Screen | Zelmiqo (✓ LCD touch panel with fine control) | Cheap Guns (✕ 1-3 clunky physical buttons)\nRow 3: 🔇 Whisper Brushless Motor | Zelmiqo (✓ Under 45dB quiet glide system) | Cheap Guns (✕ Loud rattling plastic vibration noise)\nRow 4: 🔋 6h Lithium Runtime | Zelmiqo (✓ 2,500mAh high-density battery) | Cheap Guns (✕ Dies after 20 minutes under pressure)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified overseas shipping without warranty)",
     "table-rows-ar": "الصف 1: ⚡️ عمق ضربات 12 ملم | مسدس زيلميكو (✓ اختراق حقيقي للأنسجة العضلية العميقة) | الأجهزة الرخيصة (✕ اهتزاز سطحي ضعيف بعمق 4 ملم فقط)\nالصف 2: 🎚️ 9 سرعات بشاشة لمس | مسدس زيلميكو (✓ لوحة تحكم ذكية وشاشة LCD واضحة) | الأجهزة الرخيصة (✕ أزرار ميكانيكية بدائية بـ 3 سرعات فقط)\nالصف 3: 🔇 محرك هادئ فائق التطور | مسدس زيلميكو (✓ صوت هادئ أقل من 45 ديسيبل) | الأجهزة الرخيصة (✕ صوت مزعج واهتزاز يرج اليدين)\nالصف 4: 🔋 بطارية تدوم 6 ساعات | مسدس زيلميكو (✓ سعة 2,500 مللي أمبير تدوم لأسابيع) | الأجهزة الرخيصة (✕ تفرغ بطاريتها بعد 20 دقيقة عند الضغط)\nالصف 5: 🚚 شحن سريع لكافة المدن | مسدس زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ انتظار أسابيع طويلة دون أي ضمان محلي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Muscle Recovery Experiences Across Saudi Arabia<br>Read verified reviews from fitness enthusiasts and athletes who upgraded their routine.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>نتائج استشفاء حقيقية لرياضيين في مختلف مدن المملكة<br>تقييمات موثقة لعملاء استعادوا نشاط عضلاتهم وتخلصوا من الإجهاد مع مسدس مساج زيلميكو.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 168 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -167,8 +167,8 @@ p_massage_gun = {
     "seo-title-ar": "مسدس تدليك العضلات العميق الاحترافي بـ 9 سرعات وشاشة لمس ذكية | زيلميكو السعودية",
     "seo-desc-en": "High-torque 3,200 RPM deep tissue percussive massage gun with 9 speed tiers, LCD touchscreen, and 4 therapy heads. Fast 7–8 days delivery across Saudi Arabia.",
     "seo-desc-ar": "مسدس مساج احترافي لتدليك العضلات 3,200 ضربة بالدقيقة مع 9 سرعات وشاشة لمس LCD. استشفاء عضلي سريع مع توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.",
-    "seo-keywords-en": "massage gun saudi arabia, deep tissue fascia gun ksa, muscle recovery percussive tool, 9 speed massage gun 7-8 days delivery, tabby tamara gym recovery devices",
-    "seo-keywords-ar": "مسدس مساج العضلات السعودية, جهاز تدليك العضلات الاحترافي, مسدس فاشيا رياضي, علاج ألم العضلات, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-keywords-en": "massage gun saudi arabia, deep tissue fascia gun ksa, muscle recovery percussive tool, 9 speed massage gun 7-8 days delivery, gym recovery devices",
+    "seo-keywords-ar": "مسدس مساج العضلات السعودية, جهاز تدليك العضلات الاحترافي, مسدس فاشيا رياضي, علاج ألم العضلات, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -227,8 +227,8 @@ p_mug_warmer = {
     "table-rows-en": "Row 1: ☕️ 3 Custom Temps (55/65/75°C) | Zelmiqo (✓ Exact digital warmth for every drink) | Cheap Warmers (✕ Barely warm 40°C plate)\nRow 2: ⏱️ 8-Hour Auto-Shutoff | Zelmiqo (✓ Built-in safety microchip) | Cheap Warmers (✕ No timer, major fire hazard)\nRow 3: 🛡️ Tempered Glass Surface | Zelmiqo (✓ Waterproof & shatter-resistant) | Cheap Warmers (✕ Unsealed metal that shorts on spill)\nRow 4: 🔌 Energy-Efficient 20W | Zelmiqo (✓ Eco-friendly low power draw) | Cheap Warmers (✕ Inefficient high-wattage power suck)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified slow transit without warranty)",
     "table-rows-ar": "الصف 1: ☕️ 3 درجات حرارة (55/65/75°) | قاعدة زيلميكو (✓ حرارة كافية ومضبوطة لكل نوع مشروب) | القواعد الرخيصة (✕ حرارة ضعيفة لا تتجاوز 40°)\nالصف 2: ⏱️ إغلاق أمان تلقائي 8 ساعات | قاعدة زيلميكو (✓ شريحة أمان إلكترونية تمنع الحرائق) | القواعد الرخيصة (✕ تظل مشتعلة دائماً وتشكل خطراً)\nالصف 3: 🛡️ سطح زجاجي حراري معزول | قاعدة زيلميكو (✓ مقاوم للماء والتسرب والخدوش) | القواعد الرخيصة (✕ صفائح معدنية تتعطل فور سكب السوائل)\nالصف 4: 🔌 موفرة للطاقة 20 واط | قاعدة زيلميكو (✓ استهلاك كهربائي ذكي وآمن) | القواعد الرخيصة (✕ استهلاك عشوائي يرفع حرارة السلك)\nالصف 5: 🚚 شحن سريع لكافة المدن | قاعدة زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة العادية (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Desk & Coffee Upgrade Stories Across Saudi Arabia<br>Read verified reviews from executives, developers, and tea lovers who love warm sips.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص نجاح وترقية لمكاتب العمل في مختلف مدن المملكة<br>تقييمات موثقة لموظفين وعشاق القهوة استمتعوا بمشروبات دافئة ولذيذة طوال اليوم.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.8 out of 5 Stars (Based on 145 Verified Purchases across Saudi Arabia)<br>96% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -239,8 +239,8 @@ p_mug_warmer = {
     "seo-title-ar": "قاعدة تسخين الأكواب والمشروبات الذكية للمكتب مع 3 درجات حرارة | زيلميكو السعودية",
     "seo-desc-en": "Smart desktop heated mug warmer with 3 temperature settings (55/65/75°C), tempered glass, and 8-hour auto-shutoff. Fast 7–8 days delivery across Saudi Arabia.",
     "seo-desc-ar": "قاعدة تسخين الأكواب والمشروبات الذكية للمكتب مع 3 درجات حرارة ومؤقت أمان 8 ساعات. تحافظ على حرارة القهوة والشاي مع توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.",
-    "seo-keywords-en": "coffee mug warmer saudi arabia, smart cup heating coaster ksa, desktop beverage warmer, tea warmer plate 7-8 days delivery, tabby tamara office accessories",
-    "seo-keywords-ar": "قاعدة تسخين الاكواب السعودية, سخان اكواب مكتبي, سخان فنجان القهوة, قاعدة تسخين الشاي, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-keywords-en": "coffee mug warmer saudi arabia, smart cup heating coaster ksa, desktop beverage warmer, tea warmer plate 7-8 days delivery, office accessories",
+    "seo-keywords-ar": "قاعدة تسخين الاكواب السعودية, سخان اكواب مكتبي, سخان فنجان القهوة, قاعدة تسخين الشاي, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -299,8 +299,8 @@ p_weather = {
     "table-rows-en": "Row 1: 🌡️ Dual In/Out Sensors | Zelmiqo (✓ Wireless 60m remote outdoor transmitter) | Monotone Clocks (✕ Indoor only, zero outdoor data)\nRow 2: 🌈 HD Color Touchscreen | Zelmiqo (✓ High-contrast vivid segmented panel) | Monotone Clocks (✕ Dull grey LCD hard to read at night)\nRow 3: ☁️ Barometric Forecast | Zelmiqo (✓ Real 12h atmospheric trend forecast) | Monotone Clocks (✕ Fixed clock with zero weather metrics)\nRow 4: ⏰ Dual Alarms + Snooze | Zelmiqo (✓ Workday & weekend alarms with touch snooze) | Monotone Clocks (✕ Single shrill alarm with no snooze)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified slow shipping with no guarantee)",
     "table-rows-ar": "الصف 1: 🌡️ حساسان للداخل والخارج | محطة زيلميكو (✓ حساس خارجي لاسلكي يغطي 60 متراً) | الساعات العادية (✕ تقيس حرارة الغرفة فقط بدون حساس خارجي)\nالصف 2: 🌈 شاشة لمس ملونة زاهية | محطة زيلميكو (✓ وضوح فائق وزوايا رؤية مريحة ليلاً ونهاراً) | الساعات العادية (✕ شاشة رمادية باهتة لا تُقرأ في الظلام)\nالصف 3: ☁️ توقعات بارومترية ذكية | محطة زيلميكو (✓ رصد حقيقي لتغيرات الضغط والطقس القادم) | الساعات العادية (✕ ساعة عادية بدون أي بيانات للأرصاد)\nالصف 4: ⏰ منبه مزدوج وتقويم | محطة زيلميكو (✓ منبهان منفصلان للدوام والعطلة وغفوة لمس) | الساعات العادية (✕ منبه واحد بصوت حاد وبدون غفوة)\nالصف 5: 🚚 شحن سريع لكافة المدن | محطة زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة العادية (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Weather & Smart Home Experiences Across Saudi Arabia<br>Read verified reviews from homeowners in Riyadh, Jeddah, and the Eastern Province.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص موثقة من أصحاب المنازل في مختلف مدن المملكة<br>تقييمات موثوقة لعملاء راقبوا مناخ منازلهم بدقة واستمتعوا بتوقعات طقس حية كل صباح.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.8 out of 5 Stars (Based on 118 Verified Purchases across Saudi Arabia)<br>95% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -311,8 +311,8 @@ p_weather = {
     "seo-title-ar": "محطة الأرصاد الجوية المنزلية الذكية اللاسلكية بشاشة لمس ملونة ومنبه | زيلميكو السعودية",
     "seo-desc-en": "Smart wireless color touchscreen weather station with remote sensor, barometer forecast, indoor/outdoor temp & humidity, and dual alarms. Fast 7–8 days delivery across Saudi Arabia.",
     "seo-desc-ar": "محطة أرصاد جوية منزلية لاسلكية ملونة مع حساس خارجي لقياس درجات الحرارة والرطوبة وتوقعات الطقس ومنبه. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.",
-    "seo-keywords-en": "wireless weather station saudi arabia, color touchscreen thermometer hygrometer ksa, outdoor remote climate sensor, home barometer clock 7-8 days delivery, tabby tamara smart living",
-    "seo-keywords-ar": "محطة ارصاد جوية منزلية السعودية, مقياس حرارة ورطوبة لاسلكي, ساعة منبه ذكية مع طقس, رصد درجات الحرارة, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-keywords-en": "wireless weather station saudi arabia, color touchscreen thermometer hygrometer ksa, outdoor remote climate sensor, home barometer clock 7-8 days delivery, smart living",
+    "seo-keywords-ar": "محطة ارصاد جوية منزلية السعودية, مقياس حرارة ورطوبة لاسلكي, ساعة منبه ذكية مع طقس, رصد درجات الحرارة, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -371,8 +371,8 @@ p_sun_shade = {
     "table-rows-en": "Row 1: 🛡️ Titanium UPF 50+ Coating | Zelmiqo (✓ Real 99% UV & infrared heat reflection) | Generic Shades (✕ Thin reflective layer tears easily)\nRow 2: ☂️ 3-Second Umbrella Action | Zelmiqo (✓ Quick pop-open & collapse mechanism) | Generic Shades (✕ Annoying folding coils that snap)\nRow 3: 🚗 360° Flexible Shaft | Zelmiqo (✓ Soft bendable rod protects touchscreen) | Generic Shades (✕ Rigid metal pole scratches dashboard)\nRow 4: 🪶 10 High-Tensile Ribs | Zelmiqo (✓ Aviation alloy ribs hold shape firmly) | Generic Shades (✕ Weak 6-8 ribs that collapse under heat)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified slow transit with no return guarantee)",
     "table-rows-ar": "الصف 1: 🛡️ طبقة تيتانيوم UPF 50+ | مظلة زيلميكو (✓ عزل حقيقي يعكس 99% من حرارة الشمس) | الستائر العادية (✕ طبقة رقيقة تتمزق وتتفتت بالحرارة)\nالصف 2: ☂️ فتح وإغلاق في 3 ثوانٍ | مظلة زيلميكو (✓ آلية مظلة سريعة وعملية للغاية) | الستائر العادية (✕ طي معقد ومزعج يسقط من الزجاج)\nالصف 3: 🚗 مقبض مرن ينثني 360° | مظلة زيلميكو (✓ قضيب سيليكوني يحمي الشاشات من الخدش) | الستائر العادية (✕ قضيب معدني صلب قد يجرح الطبلون)\nالصف 4: 🪶 10 أضلاع فولاذية صلبة | مظلة زيلميكو (✓ هيكل ألمنيوم قوي يثبت المظلة بدقة) | الستائر العادية (✕ أضلاع ضعيفة تتشوه بعد أيام قليلة)\nالصف 5: 🚚 شحن سريع لكافة المدن | مظلة زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | المنتجات المقلدة (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Car Heat Protection Experiences Across Saudi Arabia<br>Read verified reviews from car owners in Riyadh, Qassim, Makkah, and Dammam.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص حماية حقيقية لسيارات العملاء في مختلف مناطق المملكة<br>تقييمات موثقة لسائقين تخلصوا من حرارة الصيف الحارقة وحافظوا على برودة مقصورة سياراتهم.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 194 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -382,9 +382,9 @@ p_sun_shade = {
     "seo-title-en": "TitaniumShield Foldable Car Windshield Sun Shade Umbrella | Zelmiqo® KSA",
     "seo-title-ar": "مظلة الزجاج الأمامي العازلة للحرارة وأشعة الشمس للسيارات | زيلميكو السعودية",
     "seo-desc-en": "Foldable titanium silver car windshield sun shade umbrella with UPF 50+ heat block, 10 steel ribs, and 360° bendable handle. Fast 7–8 days delivery across Saudi Arabia.",
-    "seo-desc-ar": "مظلة زجاج السيارة الأمامي العازلة للحرارة وأشعة الشمس بطبقة تيتانيوم UPF 50+ وهيكل 10 أضلاع فولاذية. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا.",
-    "seo-keywords-en": "car sun shade umbrella saudi arabia, titanium windshield sunshade ksa, car heat blocker umbrella, foldable car umbrella 7-8 days delivery, tabby tamara car accessories",
-    "seo-keywords-ar": "مظلة سيارة للزجاج الامامي السعودية, شمسية سيارة تيتانيوم, عازل حراري لسيارات, حماية طبلون السيارة من الشمس, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-desc-ar": "مظلة زجاج السيارة الأمامي العازلة للحرارة وأشعة الشمس بطبقة تيتانيوم UPF 50+ وهيكل 10 أضلاع فولاذية. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع دفع آمن عبر مدى وأبل باي.",
+    "seo-keywords-en": "car sun shade umbrella saudi arabia, titanium windshield sunshade ksa, car heat blocker umbrella, foldable car umbrella 7-8 days delivery, car accessories",
+    "seo-keywords-ar": "مظلة سيارة للزجاج الامامي السعودية, شمسية سيارة تيتانيوم, عازل حراري لسيارات, حماية طبلون السيارة من الشمس, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # Generate Batch 3 Pages

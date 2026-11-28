@@ -85,8 +85,8 @@ p_ems = {
     "table-rows-en": "Row 1: ⚡️ 5-in-1 Multi-Technology | Zelmiqo (✓ EMS, 3x LED, Heat & Vibration) | Generic Wands (✕ Single vibration only)\nRow 2: 🌡️ Safe 42°C Thermal Control | Zelmiqo (✓ Built-in temperature sensor) | Generic Wands (✕ Overheats or no warming)\nRow 3: 🔴 Triple Phototherapy | Zelmiqo (✓ Pure 630nm/470nm/590nm LEDs) | Generic Wands (✕ Weak aesthetic colored bulbs)\nRow 4: 🔋 Rechargeable Battery Life | Zelmiqo (✓ Up to 15 sessions per charge) | Generic Wands (✕ Needs disposable batteries)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Wands (✕ Weeks of unverified transit)",
     "table-rows-ar": "الصف 1: ⚡️ 5 تقنيات في جهاز واحد | جهاز زيلميكو (✓ نبضات EMS، 3 ألوان LED، تدفئة واهتزاز) | الأجهزة العادية (✕ اهتزاز سطحي بسيط فقط)\nالصف 2: 🌡️ تحكم حراري آمن 42° | جهاز زيلميكو (✓ حساس ذكي يمنع ارتفاع الحرارة) | الأجهزة العادية (✕ حرارة غير مستقرة أو بدون تدفئة)\nالصف 3: 🔴 علاج ضوئي ثلاثي نقي | جهاز زيلميكو (✓ أطوال موجية علاجية دقيقة للبشرة) | الأجهزة العادية (✕ لمبات ملونة بدون أي تأثير علاجي)\nالصف 4: 🔋 بطارية تدوم طويلاً | جهاز زيلميكو (✓ حتى 15 جلسة متتالية بالشحنة الواحدة) | الأجهزة العادية (✕ بطاريات عادية تفرغ بسرعة)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة العادية (✕ شحن بطيء لأسابيع دون ضمان)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Skincare Transformations Across Saudi Arabia<br>Read verified reviews from clients who rejuvenated their daily self-care rituals.",
     "cust-head-ar": "تجارب عميلاتنا المعتمدة<br>نتائج حقيقية وتألق يومي لسيدات في مختلف مدن المملكة<br>آراء موثقة لعميلات استعدن نضارة وشد بشرتهن مع جهاز زيلميكو المتطور.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 142 Verified Purchases across Saudi Arabia)<br>96% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -95,10 +95,10 @@ p_ems = {
     "rel-head-ar": "أكملي روتين جمالك المتألق<br>منتجات مختارة قد تنال إعجابك<br>أجهزة وتقنيات ذكية للعناية بالبشرة صُممت لتمنحك إشراقة دائمة — مع توصيل خلال 7–8 أيام لكافة مدن المملكة.",
     "seo-title-en": "5-in-1 EMS Skin Tightening Massager with LED Light Therapy | Zelmiqo® KSA",
     "seo-title-ar": "جهاز شد ونحت الوجه 5 في 1 مع مساج EMS وعلاج ضوئي LED | زيلميكو السعودية",
-    "seo-desc-en": "Clinic-grade facelift at home with 5-in-1 EMS microcurrent, 42°C heat, and tri-color LED phototherapy. Fast 7–8 days delivery across Saudi Arabia with Tabby and Tamara.",
-    "seo-desc-ar": "شد ونحت فوري للوجه بتقنيات العيادات المتطورة مع نبضات EMS وعلاج ضوئي ثلاثي. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا وضمان 7 أيام.",
-    "seo-keywords-en": "5 in 1 ems facial massager saudi arabia, microcurrent face lift device ksa, led light therapy wand, skin rejuvenation tool 7-8 days delivery, tabby tamara beauty devices",
-    "seo-keywords-ar": "جهاز شد الوجه ems السعودية, جهاز مساج الوجه الضوئي, علاج ضوئي ليد للبشرة, جهاز تحديد الفك, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-desc-en": "Clinic-grade facelift at home with 5-in-1 EMS microcurrent, 42°C heat, and tri-color LED phototherapy. Fast 7–8 days delivery across Saudi Arabia with 7-day Golden Guarantee.",
+    "seo-desc-ar": "شد ونحت فوري للوجه بتقنيات العيادات المتطورة مع نبضات EMS وعلاج ضوئي ثلاثي. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع ضمان ذهبي 7 أيام ودفع آمن عبر مدى وأبل باي.",
+    "seo-keywords-en": "5 in 1 ems facial massager saudi arabia, microcurrent face lift device ksa, led light therapy wand, skin rejuvenation tool 7-8 days delivery, beauty devices",
+    "seo-keywords-ar": "جهاز شد الوجه ems السعودية, جهاز مساج الوجه الضوئي, علاج ضوئي ليد للبشرة, جهاز تحديد الفك, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -157,8 +157,8 @@ p_blackhead = {
     "table-rows-en": "Row 1: 🌪️ Safe Calibrated Suction | Zelmiqo (✓ Stable 65kPa max pressure) | Generic Vacuums (✕ Erratic suction bruises skin)\nRow 2: 💡 Smart HD Display | Zelmiqo (✓ Exact suction tier & battery indicator) | Generic Vacuums (✕ Blind buttons, no feedback)\nRow 3: 💎 Medical-Grade Probes | Zelmiqo (✓ 4 smooth skin-friendly nozzles) | Generic Vacuums (✕ Rough, scratchy plastic heads)\nRow 4: 🔋 USB Quick Charge | Zelmiqo (✓ Modern Type-C rechargeable) | Generic Vacuums (✕ Outdated ports, weak battery)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Vacuums (✕ Slow overseas transit with no guarantee)",
     "table-rows-ar": "الصف 1: 🌪️ شفط آمن ومتوازن | جهاز زيلميكو (✓ ضغط ثابت 65 كيلو باسكال يحمي البشرة) | الأجهزة المقلدة (✕ شفط عشوائي يسبب كدمات واحمرار)\nالصف 2: 💡 شاشة رقمية تفاعلية | جهاز زيلميكو (✓ توضح مستوى القوة وحالة البطارية بدقة) | الأجهزة المقلدة (✕ أزرار عمياء بدون أي شاشة عرض)\nالصف 3: 💎 رؤوس طبية آمنة | جهاز زيلميكو (✓ 4 رؤوس ناعمة مصممة بعناية فائقة) | الأجهزة المقلدة (✕ بلاستيك خشن قد يخدش سطح الجلد)\nالصف 4: 🔋 شحن USB سريع | جهاز زيلميكو (✓ منفذ تايب سي حديث وبطارية تدوم طويلاً) | الأجهزة المقلدة (✕ منافذ قديمة وبطارية تفرغ فوراً)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ انتظار أسابيع طويلة دون أي ضمان)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Pore Cleansing Results Across Saudi Arabia<br>Read verified reviews from clients who transformed their T-Zone clarity.",
     "cust-head-ar": "تجارب عميلاتنا المعتمدة<br>نتائج حقيقية ونقاء ملحوظ للمسام في مدن المملكة<br>قصص موثقة لعملاء تخلصوا من الرؤوس السوداء المزعجة وحصلوا على بشرة نقية.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.8 out of 5 Stars (Based on 116 Verified Purchases across Saudi Arabia)<br>95% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -168,9 +168,9 @@ p_blackhead = {
     "seo-title-en": "PorePure Vacuum Blackhead Remover with LED Screen & 5 Levels | Zelmiqo® KSA",
     "seo-title-ar": "جهاز شفط وتنظيف الرؤوس السوداء والمسام مع شاشة LED ذكية | زيلميكو السعودية",
     "seo-desc-en": "Dermatologist-safe vacuum blackhead remover with 5 power levels and 4 beauty probes. Painlessly extracts deep sebum and dead skin. Fast 7–8 days delivery across Saudi Arabia.",
-    "seo-desc-ar": "جهاز شفط وتنظيف الرؤوس السوداء والدهون المتراكمة مع 5 مستويات شفط وشاشة LED تفاعلية. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا.",
-    "seo-keywords-en": "pore vacuum blackhead remover saudi arabia, facial pore cleaner ksa, electric blackhead suction tool, pore purifier 7-8 days delivery, tabby tamara skincare devices",
-    "seo-keywords-ar": "جهاز شفط الرؤوس السوداء السعودية, تنظيف مسام الوجه, جهاز ازالة دهون الانف, شفط الدهون بالفاكيوم, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-desc-ar": "جهاز شفط وتنظيف الرؤوس السوداء والدهون المتراكمة مع 5 مستويات شفط وشاشة LED تفاعلية. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع دفع آمن عبر مدى وأبل باي.",
+    "seo-keywords-en": "pore vacuum blackhead remover saudi arabia, facial pore cleaner ksa, electric blackhead suction tool, pore purifier 7-8 days delivery, skincare devices",
+    "seo-keywords-ar": "جهاز شفط الرؤوس السوداء السعودية, تنظيف مسام الوجه, جهاز ازالة دهون الانف, شفط الدهون بالفاكيوم, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -229,8 +229,8 @@ p_comb = {
     "table-rows-en": "Row 1: 💧 Direct Root Delivery | Zelmiqo (✓ Steel rolling ball teeth directly on scalp) | Traditional Dropper (✕ Drips all over hair lengths & face)\nRow 2: 💆‍♀️ Vibrating Stimulation | Zelmiqo (✓ Calibrated micro-vibrations for follicles) | Traditional Dropper (✕ Zero massage stimulation)\nRow 3: 🧴 Clean & Waste-Free | Zelmiqo (✓ Sealed reservoir, zero messy hands) | Traditional Dropper (✕ Sticky fingers, greasy pillows)\nRow 4: 🧼 Easy to Sanitize | Zelmiqo (✓ Washable medical-grade materials) | Traditional Dropper (✕ Hard to clean glass pipettes)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Traditional Dropper (✕ Unverified transit with no local support)",
     "table-rows-ar": "الصف 1: 💧 وصول مباشر لجذور الشعر | مشط زيلميكو (✓ كرات ستانلس ستيل توزع الزيت على الفروة) | القطارة التقليدية (✕ تسيل الزيوت على الوجه والشعر)\nالصف 2: 💆‍♀️ مساج اهتزازي منشط | مشط زيلميكو (✓ ذبذبات خفيفة تنشط تدفق الدم للبصيلات) | القطارة التقليدية (✕ لا يوجد أي تدليك أو تحفيز)\nالصف 3: 🧴 عناية نظيفة وبدون إهدار | مشط زيلميكو (✓ خزان محكم ويدين نظيفتين تماماً) | القطارة التقليدية (✕ يدين لزجة وزيوت على المفارش)\nالصف 4: 🧼 سهل التنظيف والغسيل | مشط زيلميكو (✓ مواد طبية قابلة للشطف بالماء) | القطارة التقليدية (✕ أنابيب زجاجية صعبة التنظيف)\nالصف 5: 🚚 شحن سريع لكافة المدن | مشط زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | القطارة التقليدية (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Scalp & Hair Density Journeys Across Saudi Arabia<br>Read verified reviews from clients who transformed their hair wellness rituals.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>نتائج حقيقية وكثافة شعر ملحوظة في مختلف مدن المملكة<br>قصص موثقة لعملاء وعميلات استمتعوا بروتين تزييت نظيف وسريع ونمو شعر صحي.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 134 Verified Purchases across Saudi Arabia)<br>97% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -239,10 +239,10 @@ p_comb = {
     "rel-head-ar": "أكملي مجموعة العناية المتكاملة بشعرك<br>منتجات مختارة قد تنال إعجابك<br>أجهزة ومنتجات عناية شخصية ذكية صُممت لراحتك اليومية — مع توصيل خلال 7–8 أيام لكافة مدن المملكة.",
     "seo-title-en": "Portable Scalp Massage Comb with Liquid Hair Oil Applicator | Zelmiqo® KSA",
     "seo-title-ar": "مشط مساج فروة الرأس المتنقل مع موزع زيوت وسيروم الشعر | زيلميكو السعودية",
-    "seo-desc-en": "Distribute hair oils and growth serums directly to follicles with precision rolling teeth and gentle micro-vibrations. Fast 7–8 days delivery across Saudi Arabia with Tabby & Tamara.",
+    "seo-desc-en": "Distribute hair oils and growth serums directly to follicles with precision rolling teeth and gentle micro-vibrations. Fast 7–8 days delivery across Saudi Arabia with 7-day Golden Guarantee.",
     "seo-desc-ar": "مشط مساج فروة الرأس الذكي مع أسنان كروية لتوزيع زيت الروزماري وسيروم الشعر على الجذور دون تلطيخ اليدين. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.",
-    "seo-keywords-en": "scalp massage comb saudi arabia, liquid oil applicator comb ksa, rosemary oil scalp massager, hair growth oil dispenser, tabby tamara hair care devices",
-    "seo-keywords-ar": "مشط مساج فروة الرأس السعودية, موزع زيت الشعر, مشط زيت الروزماري, مساج الشعر بالاهتزاز, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
+    "seo-keywords-en": "scalp massage comb saudi arabia, liquid oil applicator comb ksa, rosemary oil scalp massager, hair growth oil dispenser, hair care devices",
+    "seo-keywords-ar": "مشط مساج فروة الرأس السعودية, موزع زيت الشعر, مشط زيت الروزماري, مساج الشعر بالاهتزاز, متجر زيلميكو توصيل 7-8 ايام"
 }
 
 # -------------------------------------------------------------
@@ -301,8 +301,8 @@ p_scrubber = {
     "table-rows-en": "Row 1: 🌊 Real 24kHz Ultrasonic Output | Zelmiqo (✓ Genuine sonic water atomization) | Generic Scrapers (✕ Fake vibration motor with zero peeling)\nRow 2: ➕ Dual Ionic Technology | Zelmiqo (✓ Dedicated Ion+ and Ion- circuits) | Generic Scrapers (✕ Passive metal strip with no ions)\nRow 3: 💎 Medical 304 Stainless Steel | Zelmiqo (✓ Hypoallergenic, smooth curved blade) | Generic Scrapers (✕ Cheap metal that rusts or scratches)\nRow 4: 🔋 USB Quick Charge Battery | Zelmiqo (✓ Long-lasting lithium battery) | Generic Scrapers (✕ Weak battery dies mid-session)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Scrapers (✕ Weeks of slow unverified shipping)",
     "table-rows-ar": "الصف 1: 🌊 تردد صوتي حقيقي 24,000 هرتز | جهاز زيلميكو (✓ تفتيت رذاذ ماء حقيقي وتقشير فعال) | المكاشط المقلدة (✕ محرك اهتزاز عادي بدون أي تقشير صوتي)\nالصف 2: ➕ تقنية أيونات مزدوجة | جهاز زيلميكو (✓ دارة أيونية متطورة Ion+ و Ion-) | المكاشط المقلدة (✕ قطعة معدن عادية بدون أي شحنات أيونية)\nالصف 3: 💎 ستانلس ستيل طبي 304 | جهاز زيلميكو (✓ شفرة مصقولة ناعمة ومضادة للحساسية) | المكاشط المقلدة (✕ معدن رديء قد يصدأ أو يخدش البشرة)\nالصف 4: 🔋 شحن USB سريع وموثوق | جهاز زيلميكو (✓ بطارية ليثيوم تدوم لعدة جلسات متتالية) | المكاشط المقلدة (✕ بطارية ضعيفة تفرغ في منتصف الجلسة)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | المكاشط المقلدة (✕ شحن بطيء لأسابيع دون أي ضمان محلي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Ultrasonic Skin Peeling Results Across Saudi Arabia<br>Read verified reviews from clients who achieved radiant glass skin at home.",
     "cust-head-ar": "تجارب عميلاتنا المعتمدة<br>نتائج حقيقية وبشرة زجاجية نضرة لسيدات في مدن المملكة<br>قصص موثقة لعميلات تخلصن من بهتان البشرة والقشور واستمتعن بنعومة فائقة.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 129 Verified Purchases across Saudi Arabia)<br>96% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -313,8 +313,8 @@ p_scrubber = {
     "seo-title-ar": "جهاز تقشير وتنظيف البشرة بالموجات فوق الصوتية والأيونات | زيلميكو السعودية",
     "seo-desc-en": "24,000Hz ultrasonic skin scrubber and pore spatula with Ion+ extraction, Ion- infusion, and EMS microcurrent lifting. Fast 7–8 days delivery across Saudi Arabia.",
     "seo-desc-ar": "جهاز تقشير البشرة بالموجات فوق الصوتية 24,000 هرتز مع تقنية الأيونات وشد نبضات EMS. تنظيف عميق ونضارة زجاجية مع توصيل سريع خلال 7–8 أيام لكافة مدن المملكة.",
-    "seo-keywords-en": "ultrasonic skin scrubber saudi arabia, facial pore spatula ksa, ultrasonic blackhead extractor, ion skin peeling machine, tabby tamara skincare devices 7-8 days delivery",
-    "seo-keywords-ar": "جهاز تقشير البشرة بالموجات فوق الصوتية السعودية, ملعقة تنظيف المسام, ازالة الرؤوس السوداء سونيك, تقشير البشرة المنزلي, تقسيط تابي وتمارا, متجر زيلميكو"
+    "seo-keywords-en": "ultrasonic skin scrubber saudi arabia, facial pore spatula ksa, ultrasonic blackhead extractor, ion skin peeling machine, skincare devices 7-8 days delivery",
+    "seo-keywords-ar": "جهاز تقشير البشرة بالموجات فوق الصوتية السعودية, ملعقة تنظيف المسام, ازالة الرؤوس السوداء سونيك, تقشير البشرة المنزلي, متجر زيلميكو"
 }
 
 # Generate Batch 2 Pages

@@ -6,12 +6,12 @@
 - **Meta Title** (HTML `<title>` tag):
   `3-in-1 Fast Charging Dock for Phone, AirPods & Apple Watch | Zelmiqo® KSA`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Eliminate cable clutter with the 3-in-1 Fast Charging Dock. Simultaneously powers your iPhone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia with Mada, Apple Pay, Tabby & Tamara installments.`
+  `Eliminate cable clutter with the 3-in-1 Fast Charging Dock. Simultaneously powers your iPhone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia with Mada, Apple Pay & Cash on Delivery.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
-  `3 in 1 wireless charging dock saudi arabia, fast charging station riyadh, iphone apple watch airpods stand, wireless charger ksa 7-8 days delivery, tabby tamara charger`
+  `3 in 1 wireless charging dock saudi arabia, fast charging station riyadh, iphone apple watch airpods stand, wireless charger ksa 7-8 days delivery, mada apple pay charger`
 - **Open Graph / Social Media Tags**:
   - `og:title`: `3-in-1 Fast Charging Dock for Phone, AirPods & Apple Watch | Zelmiqo® KSA`
-  - `og:description`: `Eliminate cable clutter with the 3-in-1 Fast Charging Dock. Simultaneously powers your iPhone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia with Mada, Apple Pay, Tabby & Tamara installments.`
+  - `og:description`: `Eliminate cable clutter with the 3-in-1 Fast Charging Dock. Simultaneously powers your iPhone, Apple Watch, and AirPods on one sleek dock. Fast 7–8 days delivery across Saudi Arabia with Mada, Apple Pay & Cash on Delivery.`
   - `og:type`: `product`
   - `og:price:amount`: `129.00`
   - `og:price:currency`: `SAR`
@@ -21,12 +21,12 @@
 - **عنوان الصفحة (Meta Title)**:
   `منصة شاحن 3 في 1 السريع للجوال، السماعات، وساعة أبل | زيلميكو السعودية`
 - **وصف الصفحة (Meta Description)**:
-  `تخلص من فوضى وتشابك الأسلاك مع منصة شاحن 3 في 1 السريع. اشحن الجوال، ساعة أبل، وسماعات الإيربودز معاً على منصة واحدة مدمجة. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا ودفع عبر مدى وأبل باي.`
+  `تخلص من فوضى وتشابك الأسلاك مع منصة شاحن 3 في 1 السريع. اشحن الجوال، ساعة أبل، وسماعات الإيربودز معاً على منصة واحدة مدمجة. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع دفع آمن عبر مدى وأبل باي.`
 - **الكلمات المفتاحية (Meta Keywords)**:
-  `شاحن 3 في 1 سريع السعودية, منصة شحن ايفون وساعة ابل, شاحن ايربودز مكتبي, شاحن لاسلكي توصيل 7-8 ايام, تقسيط تابي وتمارا, متجر زيلميكو`
+  `شاحن 3 في 1 سريع السعودية, منصة شحن ايفون وساعة ابل, شاحن ايربودز مكتبي, شاحن لاسلكي توصيل 7-8 ايام, متجر زيلميكو`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `منصة شاحن 3 في 1 السريع للجوال، السماعات، وساعة أبل | زيلميكو السعودية`
-  - `og:description`: `تخلص من فوضى وتشابك الأسلاك مع منصة شاحن 3 في 1 السريع. اشحن الجوال، ساعة أبل، وسماعات الإيربودز معاً على منصة واحدة مدمجة. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا ودفع عبر مدى وأبل باي.`
+  - `og:description`: `تخلص من فوضى وتشابك الأسلاك مع منصة شاحن 3 في 1 السريع. اشحن الجوال، ساعة أبل، وسماعات الإيربودز معاً على منصة واحدة مدمجة. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع دفع آمن عبر مدى وأبل باي.`
   - `og:type`: `product`
   - `og:price:amount`: `129.00`
   - `og:price:currency`: `SAR`
@@ -46,7 +46,7 @@
 > **Model Code**: `ZEL-CHG-3IN1`  
 > **Live Site URL**: `https://zelmiqo.com/products/3-in-1-fast-charging-dock-phone-airpods-apple-watch-stand`  
 > **Category**: ⚡️ Smart Living & Mobile Accessories  
-> **Price**: **SAR 129.00** *(Or 4 monthly interest-free payments of **SAR 32.25** with Tabby / Tamara)*  
+> **Price**: **SAR 129.00**  
 > **Regional Fulfillment**: Kingdom of Saudi Arabia with Fast 7–8 Days Nationwide Delivery  
 > **Primary Image Directory**: [`images/product-3-in-1-fast-charging-dock/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3-in-1-fast-charging-dock)  
 
@@ -81,7 +81,7 @@ Social Proof & Trust Badges:
 
 Pricing & Flexible Payment Display:
 • Retail Price: SAR 129.00 (Inclusive of 15% VAT)
-• Installment Badge: Or 4 interest-free payments of SAR 32.25/mo with Tabby or Tamara (Zero hidden fees)
+• Payment Badge: Secure checkout via Mada, Apple Pay, Visa, Mastercard & COD
 
 Buy Box CTAs:
 • Primary CTA: Add to Bag — Fast 7–8 Days Delivery
@@ -123,9 +123,9 @@ Consolidate your Apple & Qi-compatible ecosystem into one architecturally refine
 • الشارة 2: 🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة
 • الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام
 
-عرض السعر والتقسيط الميسر:
+عرض السعر وخيارات الدفع:
 • السعر الإجمالي: 129.00 ر.س (شامل ضريبة القيمة المضافة 15%)
-• شارة التقسيط: أو قسّمها على 4 دفعات ميسرة بقيمة 32.25 ر.س/شهرياً بدون فوائد أو رسوم خفية عبر تابي أو تمارا
+• شارة الدفع الآمن: دفع إلكتروني آمن عبر مدى، أبل باي، فيزا، ماستركارد، أو الدفع عند الاستلام
 
 أزرار صندوق الشراء (CTAs):
 • الزر الأساسي: أضف إلى السلة — توصيل سريع خلال 7–8 أيام
@@ -153,7 +153,7 @@ Consolidate your Apple & Qi-compatible ecosystem into one architecturally refine
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
 - **Location**: `Catalog > Products > Edit Product > Tabs: General & Data`, and `Design > Layouts > Product Details > Buy Box Module`.
-- **Advice**: Set price at `129.00` SAR with tax class `VAT 15%`. Ensure Tabby and Tamara script snippets are integrated to calculate the `32.25 SAR` quarterly installment dynamically. Enable the low-stock inventory badge under `Data > Quantity` (set threshold to `< 15`).
+- **Advice**: Set price at `129.00` SAR with tax class `VAT 15%`. Enable the low-stock inventory badge under `Data > Quantity` (set threshold to `< 15`).
 
 ---
 
@@ -387,14 +387,14 @@ Section Header:
 ENGINEERED QUALITY BENCHMARK<br>Why Zelmiqo Outperforms Generic Chargers<br>Featuring dual 15W fast coils, active heat management, and reliable 7–8 days delivery across Saudi Arabia.
 
 Secure Payments Ribbon:
-🔒 100% Certified Safe Saudi Payments: Mada • Apple Pay • Tabby (Split in 4) • Tamara (Split in 4) • Visa • Mastercard • Cash on Delivery
+🔒 100% Certified Safe Saudi Payments: Mada • Apple Pay • Visa • Mastercard • Cash on Delivery
 
 Comparison Table Matrix:
 • Row 1: ⚡️ 15W Qi Fast Charging | Zelmiqo (✓ Dual Orientation) | Generic Chargers (✕ Slow 7.5W single coil)
 • Row 2: 🛡️ Smart Heat Management | Zelmiqo (✓ Safe in Saudi Heat) | Generic Chargers (✕ Overheats phone battery)
 • Row 3: 📱 5mm Case Penetration | Zelmiqo (✓ Charges through cases) | Generic Chargers (✕ Fails on thick cases)
 • Row 4: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 Days + 1-Year Warranty) | Generic Chargers (✕ 3–4 weeks untracked, no warranty)
-• Row 5: 💳 Certified Local Payment | Zelmiqo (✓ Mada, Apple Pay, Tabby, Tamara) | Generic Chargers (✕ Credit card only)
+• Row 5: 💳 Certified Local Payment | Zelmiqo (✓ Mada, Apple Pay & COD) | Generic Chargers (✕ Credit card only)
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
@@ -403,14 +403,14 @@ Comparison Table Matrix:
 معيار الجودة والأمان المتطور<br>لماذا تتفوق منصة زيلميكو على الشواحن العادية؟<br>ملفات شحن مزدوجة 15 واط، نظام حماية حرارية ذكي، وتوصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.
 
 شريط الدفع الآمن بالمملكة:
-🔒 بوابات دفع آمنة ومعتمدة في المملكة: مدى • أبل باي • تابي (4 دفعات) • تمارا (4 دفعات) • فيزا • ماستركارد • الدفع عند الاستلام
+🔒 بوابات دفع آمنة ومعتمدة في المملكة: مدى • أبل باي • فيزا • ماستركارد • الدفع عند الاستلام
 
 جدول المقارنة الذكي:
 • الصف 1: ⚡️ شحن لاسلكي سريع 15 واط | منصة زيلميكو (✓ ملفات شحن مزدوجة) | الشواحن التجارية (✕ شحن بطيء 7.5 واط)
 • الصف 2: 🛡️ حماية حرارية ذكية | منصة زيلميكو (✓ آمنة في صيف المملكة) | الشواحن التجارية (✕ تحبس الحرارة وتتلف البطارية)
 • الصف 3: 📱 شحن عبر كفرات الحماية | منصة زيلميكو (✓ يدعم الكفرات حتى 5 ملم) | الشواحن التجارية (✕ يفشل مع الكفرات العادية)
 • الصف 4: 🚚 توصيل سريع بالمملكة | منصة زيلميكو (✓ توصيل سريع 7-8 أيام وضمان عام) | الشواحن التجارية (✕ انتظار أسابيع بلا تتبع أو ضمان)
-• الصف 5: 💳 طرق دفع سعودية معتمدة | منصة زيلميكو (✓ مدى، أبل باي، تابي، تمارا) | الشواحن التجارية (✕ بطاقة ائتمان فقط)
+• الصف 5: 💳 طرق دفع سعودية معتمدة | منصة زيلميكو (✓ مدى، أبل باي، الدفع عند الاستلام) | الشواحن التجارية (✕ بطاقة ائتمان فقط)
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -432,13 +432,13 @@ Comparison Table Matrix:
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
 Continuous Trust Ribbon:
-🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada Checkout
+🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Safe Checkout: Mada, Apple Pay & COD • 🔒 100% Secure Mada Checkout
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
 شريط الثقة المستمر:
-🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى
+🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 دفع آمن عبر مدى وأبل باي • 🔒 دفع آمن 100% عبر مدى
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:
@@ -469,7 +469,7 @@ REAL BUYER EXPERIENCES<br>Loved by Saudi Shoppers Nationwide<br>Verified stories
 • Card 1: Zainab I. — Riyadh, KSA (Verified Buyer)
   Quote: "Been using the dock for over three months on my executive desk in Riyadh. The matte build feels exceptionally solid, and phone FaceID unlocks seamlessly at the 60-degree angle. Received in 7 days exactly!"
 • Card 2: Aisha R. — Jeddah, KSA (Verified Buyer)
-  Quote: "Finally eliminated the messy nest of cables on my nightstand. My iPhone 15 Pro, Apple Watch Series 9, and AirPods Pro all charge in one designated spot. Splitting the price with Tabby into 4 installments made it an absolute no-brainer."
+  Quote: "Finally eliminated the messy nest of cables on my nightstand. My iPhone 15 Pro, Apple Watch Series 9, and AirPods Pro all charge in one designated spot. Paying smoothly with Apple Pay made checkout effortless."
 • Card 3: Hina M. — Dammam, KSA (Verified Buyer)
   Quote: "I love that my phone stays perfectly upright while charging so I can monitor my work notifications without reaching over. Does not get hot at all even in warm weather. Delivered swiftly in 7 days."
 • Card 4: Fahad O. — Khobar, KSA (Verified Buyer)
@@ -485,7 +485,7 @@ REAL BUYER EXPERIENCES<br>Loved by Saudi Shoppers Nationwide<br>Verified stories
 • البطاقة 1: زينب إ. — الرياض (مشترٍ موثق)
   الرأي: "أستخدم منصة الشحن منذ أكثر من ثلاثة أشهر على مكتبي بالرياض. جودة الخامات المطفية ممتازة وثابتة جداً، وزاوية الحامل تسمح بفتح قفل الجوال بالوجه فوراً. وصل الطلب خلال 7 أيام تماماً!"
 • البطاقة 2: عائشة ر. — جدة (مشترٍ موثق)
-  الرأي: "تخلصت أخيراً من تشابك الأسلاك المزعج على طاولة السرير. الآيفون وساعة أبل وسماعاتي تشحن معاً في مكان واحد أنيق. وخيار التقسيط عبر تابي على 4 دفعات بدون فوائد جعل الشراء في غاية السهولة."
+  الرأي: "تخلصت أخيراً من تشابك الأسلاك المزعج على طاولة السرير. الآيفون وساعة أبل وسماعاتي تشحن معاً في مكان واحد أنيق. والدفع عبر أبل باي جعل إتمام الطلب في غاية السهولة والسرعة."
 • البطاقة 3: هناء م. — الدمام (مشترٍ موثق)
   الرأي: "أكثر ما يعجبني هو بقاء شاشة الجوال بوضع رأسي يسمح لي بمتابعة إشعارات العمل دون رفعه. الجهاز لا يسخن إطلاقاً حتى في الأجواء الحارة. وصلني في الدمام خلال أسبوع بحالة ممتازة."
 • البطاقة 4: فهد ع. — الخبر (مشترٍ موثق)
