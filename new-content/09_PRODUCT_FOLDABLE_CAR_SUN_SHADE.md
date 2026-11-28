@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/foldable-car-windshield-sun-shade-umbrella`  
 > **Category**: 🚗 Automotive Care & Thermal Protection  
 > **Price**: **SAR 115.00** *(Or 4 monthly interest-free payments of **SAR 28.75** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-foldable-car-windshield-sun-shade/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-foldable-car-windshield-sun-shade)
 
 ---

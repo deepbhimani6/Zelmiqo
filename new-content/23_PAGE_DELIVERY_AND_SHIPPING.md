@@ -6,12 +6,12 @@
 - **Meta Title** (HTML `<title>` tag):
   `Shipping & Delivery Across Saudi Arabia | Zelmiqo® Domestic Logistics`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Fast domestic delivery across Riyadh, Jeddah (24-48h) and all Saudi provinces (2-4d) via SMSA, Aramex & Redbox. Free shipping on orders over SAR 199. Cash on Delivery available.`
+  `Fast domestic delivery in 7–8 days across Riyadh, Jeddah, and all Saudi provinces via SMSA, Aramex & Redbox. Free shipping on orders over SAR 199. Cash on Delivery available.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
   `zelmiqo shipping policy, fast delivery riyadh jeddah, smsa aramex ksa tracking, free shipping saudi arabia, cash on delivery electronics`
 - **Open Graph / Social Media Tags**:
   - `og:title`: `Shipping & Delivery Across Saudi Arabia | Zelmiqo® Domestic Logistics`
-  - `og:description`: `Fast domestic delivery across Riyadh, Jeddah (24-48h) and all Saudi provinces (2-4d) via SMSA, Aramex & Redbox. Free shipping on orders over SAR 199. Cash on Delivery available.`
+  - `og:description`: `Fast domestic delivery in 7–8 days across Riyadh, Jeddah, and all Saudi provinces via SMSA, Aramex & Redbox. Free shipping on orders over SAR 199. Cash on Delivery available.`
   - `og:type`: `website`
   - `og:locale`: `en_US` (Alternate: `ar_SA`)
 
@@ -19,12 +19,12 @@
 - **عنوان الصفحة (Meta Title)**:
   `الشحن والتوصيل لكافة مدن المملكة | التوصيل المحلي السريع من زيلميكو®`
 - **وصف الصفحة (Meta Description)**:
-  `شحن وتوصيل محلي سريع خلال 24-48 ساعة بالرياض وجدة و2-4 أيام لكافة مدن ومحافظات المملكة عبر سمسا وأرامكس وريدبوكس. شحن مجاني للطلبات فوق 199 ر.س والدفع عند الاستلام متاح.`
+  `شحن وتوصيل محلي سريع خلال 7–8 أيام في الرياض وجدة وكافة مدن ومحافظات المملكة عبر سمسا وأرامكس وريدبوكس. شحن مجاني للطلبات فوق 199 ر.س والدفع عند الاستلام متاح.`
 - **الكلمات المفتاحية (Meta Keywords)**:
   `شحن وتوصيل السعودية, مدة توصيل زيلميكو, شحن سمسا أرامكس الرياض, شحن مجاني للمشتريات, الدفع عند الاستلام متاح`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
   - `og:title`: `الشحن والتوصيل لكافة مدن المملكة | التوصيل المحلي السريع من زيلميكو®`
-  - `og:description`: `شحن وتوصيل محلي سريع خلال 24-48 ساعة بالرياض وجدة و2-4 أيام لكافة مدن ومحافظات المملكة عبر سمسا وأرامكس وريدبوكس. شحن مجاني للطلبات فوق 199 ر.س والدفع عند الاستلام متاح.`
+  - `og:description`: `شحن وتوصيل محلي سريع خلال 7–8 أيام في الرياض وجدة وكافة مدن ومحافظات المملكة عبر سمسا وأرامكس وريدبوكس. شحن مجاني للطلبات فوق 199 ر.س والدفع عند الاستلام متاح.`
   - `og:type`: `website`
   - `og:locale`: `ar_SA` (Alternate: `en_US`)
 ---
@@ -57,8 +57,8 @@ new english content: Express Domestic Delivery Across Saudi Arabia & Worldwide F
 new arabic content: توصيل محلي سريع لكافة مدن المملكة العربية السعودية وشحن دولي موثوق
 
 Subheadline:
-new english content: From our dedicated regional fulfillment center in Riyadh straight to your doorstep in 24 to 48 hours.
-new arabic content: من مستودعاتنا الإقليمية المباشرة في الرياض إلى باب منزلك في غضون 24 إلى 48 ساعة فقط.
+new english content: From our dedicated regional fulfillment center in Riyadh straight to your doorstep in 7–8 days.
+new arabic content: من مستودعاتنا الإقليمية المباشرة في الرياض إلى باب منزلك خلال 7–8 أيام.
 
 Commitment Statement:
 new english content: At Zelmiqo (زيلميكو), we combine world-class international logistics with localized precision. Every package is thermally inspected, shock-padded, and dispatched with trusted couriers (SMSA, Aramex, Redbox) ensuring your luxury smart gadgets arrive in pristine condition with complete live SMS and WhatsApp tracking.
@@ -89,18 +89,18 @@ You will receive a confirmation email once your order has been shipped.
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Section Title:
-new english content: Fast-Track Fulfillment: Dispatched Within 24 Hours
-new arabic content: معالجة فورية وتجهيز فائق: شحن خلال 24 ساعة فقط
+new english content: Fast-Track Fulfillment: Fast 7–8 Days Delivery
+new arabic content: معالجة فورية وتجهيز فائق: توصيل خلال 7–8 أيام
 
 Processing Standards:
 new english content: 1. Electronic Verification: Immediate order validation and automated payment confirmation via Mada, Apple Pay, Tabby, or Tamara.
 2. Premium White-Glove Quality Inspection: Verification of device seals, battery safety standards, and factory serial numbers.
 3. Reinforced Thermal Packaging: Custom padded packaging designed to safeguard sensitive electronics against summer ambient temperatures.
-4. Express Courier Handover: Daily scheduled pickups at 10:00 AM and 5:00 PM ensuring same-day dispatch from our Riyadh warehouse.
+4. Express Courier Handover: Daily scheduled pickups from our Riyadh warehouse ensuring fast 7–8 days nationwide delivery.
 new arabic content: 1. توثيق إلكتروني فوري: تأكيد الطلب فوراً واعتماد عمليات الدفع عبر مدى، أبل باي، أو أقساط تابي وتمارا.
 2. فحص الجودة الشامل: مراجعة سلامة الأختام الأصلية، معايير أمان البطاريات، ومطابقة الأرقام التسلسلية.
 3. تغليف حراري معزز: عبوات شحن فاخرة ومبطنة تحمي الأجهزة الإلكترونية الحساسة من درجات الحرارة المرتفعة أثناء النقل.
-4. تسليم سريع لشركات الشحن: تسليم يومي منتظم للشحنات لضمان خروج طلبك في نفس اليوم من مستودعات الرياض.
+4. تسليم سريع لشركات الشحن: تسليم منتظم للشحنات من مستودعات الرياض لتصلك خلال 7–8 أيام.
 ```
 
 ---
@@ -123,20 +123,20 @@ Please note that these estimates are approximate and are not guaranteed, as unex
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Domestic Saudi Delivery Timelines:
-new english content: • Riyadh, Jeddah, Dammam & Khobar: Express delivery in 24 - 48 hours.
-• Mecca, Medina, Taif, Qassim & Eastern Province: Delivered in 2 - 3 business days.
-• Southern & Northern Regions (Abha, Tabuk, Hail, Jizan, Najran): Delivered in 3 - 4 business days.
-• Remote Towns & Villages: Comprehensive door-to-door or nearest courier branch delivery in 3 - 5 business days.
-new arabic content: • الرياض، جدة، الدمام، والخبر: توصيل سريع ومباشر خلال 24 إلى 48 ساعة.
-• مكة المكرمة، المدينة المنورة، الطائف، والقصيم: توصيل خلال 2 إلى 3 أيام عمل.
-• المناطق الجنوبية والشمالية (أبها، تبوك، حائل، جازان، نجران): توصيل خلال 3 إلى 4 أيام عمل.
-• المحافظات والقرى والمناطق النائية: توصيل شامل حتى باب المنزل أو أقرب نقطة استلام خلال 3 إلى 5 أيام عمل.
+new english content: • Riyadh, Jeddah, Dammam & Khobar: Fast 7–8 days delivery.
+• Mecca, Medina, Taif, Qassim & Eastern Province: Delivered in 7–8 days.
+• Southern & Northern Regions (Abha, Tabuk, Hail, Jizan, Najran): Delivered in 7–8 days.
+• Remote Towns & Villages: Comprehensive door-to-door or nearest courier branch delivery in 7–8 days.
+new arabic content: • الرياض، جدة، الدمام، والخبر: توصيل سريع ومباشر خلال 7–8 أيام.
+• مكة المكرمة، المدينة المنورة، الطائف، والقصيم: توصيل خلال 7–8 أيام.
+• المناطق الجنوبية والشمالية (أبها، تبوك، حائل، جازان، نجران): توصيل خلال 7–8 أيام.
+• المحافظات والقرى والمناطق النائية: توصيل شامل حتى باب المنزل أو أقرب نقطة استلام خلال 7–8 أيام.
 
 Shipping Rates & Promotions:
-new english content: • 🚚 Free Express Domestic Delivery: Free shipping on all orders over SAR 199 (Standard delivery SAR 19 for orders below SAR 199). Dispatched from Riyadh within 24-48 hours.
+new english content: • 🚚 Free Express Domestic Delivery: Free shipping on all orders over SAR 199 (Standard delivery SAR 19 for orders below SAR 199). Fast 7–8 days delivery from Riyadh.
 • 💵 Cash on Delivery (COD): Available across all major Saudi cities with a nominal courier handling fee of SAR 15.
 • 💳 Electronic & Installment Payments (Mada, Apple Pay, Visa, Tabby, Tamara): 100% Free processing with zero additional fees.
-new arabic content: • 🚚 شحن محلي سريع ومجاني: شحن مجاني لكافة الطلبات بقيمة 199 ر.س أو أكثر (رسوم شحن رمزية 19 ر.س للطلبات الأقل من ذلك). الشحن ينطلق مباشرة من الرياض خلال 24-48 ساعة.
+new arabic content: • 🚚 شحن محلي سريع ومجاني: شحن مجاني لكافة الطلبات بقيمة 199 ر.س أو أكثر (رسوم شحن رمزية 19 ر.س للطلبات الأقل من ذلك). توصيل سريع خلال 7–8 أيام من مستودعات الرياض.
 • 💵 خدمة الدفع عند الاستلام (COD): متاحة في كافة المدن الرئيسية بالمملكة برسم خدمة رمزي لشركة الشحن بقيمة 15 ر.س فقط.
 • 💳 الدفع الإلكتروني والتقسيط (مدى، أبل باي، فيزا، تابي، تمارا): مجاني 100% وبدون أي رسوم إضافية.
 ```

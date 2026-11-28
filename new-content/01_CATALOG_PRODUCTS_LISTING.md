@@ -119,7 +119,7 @@ Product Card Layout:
 ```text
 Card Layout & Badge Elements:
 new english content: 
-• Badge 1 (Scarcity / Popularity): "🔥 Most Wanted in KSA • Dispatched from Riyadh in 24-48h"
+• Badge 1 (Scarcity / Popularity): "🔥 Most Wanted in KSA • Fast 7–8 Days Delivery"
 • Product Title: Precision naming emphasizing core utility and engineering tier.
 • Rating & Social Proof: "★★★★★ 4.9 (120+ Verified Saudi Reviews)"
 • Price Display: Bold SAR pricing (e.g. "SAR 149.00 (Includes 15% VAT)")
@@ -130,7 +130,7 @@ new english content:
 • Express Action: "Express Buy with Apple Pay"
 
 new arabic content: 
-• شارة التميز (رواج وشعبية): "🔥 الأكثر طلباً في المملكة • ينطلق من مستودعات الرياض خلال 24-48 ساعة"
+• شارة التميز (رواج وشعبية): "🔥 الأكثر طلباً في المملكة • توصيل سريع خلال 7–8 أيام"
 • عنوان المنتج: صياغة احترافية تركز على الفائدة المباشرة والهندسة المتقنة.
 • التقييم وإثبات الثقة: "★★★★★ 4.9 (أكثر من 120 تقييماً موثقاً في السعودية)"
 • عرض السعر: السعر الإجمالي بالريال السعودي بخط عريض (مثال: "149.00 ر.س شامل ضريبة القيمة المضافة 15%")

@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/mini-usb-rechargeable-3-speed-handheld-desktop-fan`  
 > **Category**: ❄️ Summer Cooling & Portable Gadgets  
 > **Price**: **SAR 122.00** *(Or 4 monthly interest-free payments of **SAR 30.50** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-mini-usb-rechargeable-fan/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-mini-usb-rechargeable-fan)
 
 ---

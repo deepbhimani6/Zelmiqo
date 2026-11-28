@@ -63,8 +63,8 @@ new english content: World-class engineering meets authentic regional hospitalit
 new arabic content: هندسة عالمية فائقة تلتقي بالضيافة السعودية الأصيلة. اكتشف أجهزة ذكية صُممت لترتقي بتفاصيل حياتك اليومية.
 
 Brand Narrative:
-new english content: Welcome to Zelmiqo (زيلميكو) — an international lifestyle tech house founded on the principle that modern living should be seamless, inspiring, and exceptionally comfortable. From quiet, high-velocity wearable cooling engineered for 48°C desert summers to executive multi-device wireless charging stations and restorative percussive massagers, our innovations bring global luxury into Saudi homes. Operating with dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express 24-48h domestic delivery and flexible 4-month installments with Tabby and Tamara.
-new arabic content: أهلاً بكم في زيلميكو (Zelmiqo) — دار الابتكارات التقنية العالمية لأسلوب حياة استثنائي، والتي تأسست على يقين بأن الحياة العصرية ينبغي أن تكون مفعمة بالراحة، الإلهام، والأناقة العملية. من مراوح التبريد الشخصية التوربينية المصممة للتغلب على حرارة الصيف البالغة 48 درجة مئوية في المملكة، إلى منصات الشحن اللاسلكي الذكية ومسدسات المساج الاحترافية للاسترخاء، نقدم لكم الفخامة العالمية في منازلكم. ومن خلال مركز عملياتنا وتوزيعنا الإقليمي في الرياض، نضمن لعملائنا في السعودية معايير الجودة الدولية مع توصيل محلي سريع خلال 24-48 ساعة، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.
+new english content: Welcome to Zelmiqo (زيلميكو) — an international lifestyle tech house founded on the principle that modern living should be seamless, inspiring, and exceptionally comfortable. From quiet, high-velocity wearable cooling engineered for 48°C desert summers to executive multi-device wireless charging stations and restorative percussive massagers, our innovations bring global luxury into Saudi homes. Operating with dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with fast 7–8 days domestic delivery and flexible 4-month installments with Tabby and Tamara.
+new arabic content: أهلاً بكم في زيلميكو (Zelmiqo) — دار الابتكارات التقنية العالمية لأسلوب حياة استثنائي، والتي تأسست على يقين بأن الحياة العصرية ينبغي أن تكون مفعمة بالراحة، الإلهام، والأناقة العملية. من مراوح التبريد الشخصية التوربينية المصممة للتغلب على حرارة الصيف البالغة 48 درجة مئوية في المملكة، إلى منصات الشحن اللاسلكي الذكية ومسدسات المساج الاحترافية للاسترخاء، نقدم لكم الفخامة العالمية في منازلكم. ومن خلال مركز عملياتنا وتوزيعنا الإقليمي في الرياض، نضمن لعملائنا في السعودية معايير الجودة الدولية مع توصيل محلي سريع خلال 7–8 أيام، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.
 ```
 
 ---
@@ -155,8 +155,8 @@ new english content: ✔ Precision International Engineering: Every device under
 new arabic content: ✔ هندسة دولية فائقة الدقة: يخضع كل جهاز لاختبارات صارمة للتحمل الحراري، كفاءة البطارية، ومقاومة الصدمات ليعمل بكفاءة مطلقة في مختلف الظروف، وخاصة صيف المملكة الحار.
 
 Pillar 2 - Dedicated Local Saudi Fulfillment:
-new english content: ✔ Dedicated Local Saudi Fulfillment: No long customs delays or drop-shipping. Orders are dispatched from domestic fulfillment hubs in Riyadh via SMSA, Aramex, and local couriers within 24 to 48 hours.
-new arabic content: ✔ مستودعات وتوصيل محلي مباشر في السعودية: لا انتظار للشحن الدولي أو إجراءات الجمارك المعقدة. تُشحن طلباتكم مباشرة من مستودعاتنا الإقليمية في الرياض عبر أرامكس وسمسا خلال 24 إلى 48 ساعة فقط.
+new english content: ✔ Dedicated Local Saudi Fulfillment: No long customs delays or drop-shipping. Orders are dispatched from domestic fulfillment hubs in Riyadh via SMSA, Aramex, and local couriers with fast 7–8 days delivery.
+new arabic content: ✔ مستودعات وتوصيل محلي مباشر في السعودية: لا انتظار للشحن الدولي أو إجراءات الجمارك المعقدة. تُشحن طلباتكم مباشرة من مستودعاتنا الإقليمية في الرياض عبر أرامكس وسمسا بتوصيل سريع خلال 7–8 أيام.
 
 Pillar 3 - Transparent Flexible Financing:
 new english content: ✔ Transparent Flexible Financing: Enjoy financial ease by splitting payments into 4 interest-free installments with Tabby and Tamara, or choose Cash on Delivery (COD) and Mada upon receipt.

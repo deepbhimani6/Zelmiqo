@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/5-in-1-ems-facial-massager-led-light-therapy`  
 > **Category**: 💆‍♀️ Beauty Tech & Anti-Aging  
 > **Price**: **SAR 135.00** *(Or 4 monthly interest-free payments of **SAR 33.75** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-5-in-1-ems-facial-massager/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-5-in-1-ems-facial-massager)
 
 ---

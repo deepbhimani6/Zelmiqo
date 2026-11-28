@@ -14,7 +14,7 @@
 
 This content architecture strikes the ultimate sweet spot requested for Zelmiqo:
 1. **Global Brand Authority**: Positioned as an international direct-to-consumer technology & lifestyle house (comparable in tone to Dyson, Apple, and Anker), emphasizing world-class engineering, precision craftsmanship, and minimalist luxury.
-2. **Dedicated Saudi Regional Fulfillment**: Caters directly to Saudi shoppers by providing local regional warehouses in KSA, 24–48 hour delivery to Riyadh and Jeddah, 0%-interest split payments via Tabby and Tamara, and Cash on Delivery.
+2. **Dedicated Saudi Regional Fulfillment**: Caters directly to Saudi shoppers by providing local regional warehouses in KSA, fast 7–8 days delivery across all Saudi provinces, 0%-interest split payments via Tabby and Tamara, and Cash on Delivery.
 3. **Saudi Cultural & Practical Fit**: Solves specific regional challenges with elegance:
    - Surviving 45°C–50°C summer heat in Riyadh, Mecca, Medina, and the Eastern Province.
    - High-end vehicle cabin and leather seat UV thermal protection.

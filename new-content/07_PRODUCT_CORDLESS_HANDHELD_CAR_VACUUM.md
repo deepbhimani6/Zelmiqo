@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/cordless-handheld-car-vacuum-cleaner-usb-charging`  
 > **Category**: 🚗 Automotive Prestige & Interior Detailing  
 > **Price**: **SAR 159.00** *(Or 4 monthly interest-free payments of **SAR 39.75** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-cordless-handheld-car-vacuum/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-cordless-handheld-car-vacuum)
 
 ---

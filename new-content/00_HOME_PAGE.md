@@ -6,12 +6,12 @@
 - **Meta Title** (HTML `<title>` tag):
   `Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 24-48h delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
+  `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 7–8 days delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
   `zelmiqo, smart lifestyle gadgets, wearable cooling fan, wireless charger stand, car interior care, saudi arabia online shopping, tabby tamara ksa`
 - **Open Graph / Social Media Tags**:
   - `og:title`: `Zelmiqo® | Global Smart Living & Innovation • Now in Saudi Arabia`
-  - `og:description`: `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 24-48h delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
+  - `og:description`: `Shop world-class smart living gadgets, personal cooling tech, and luxury wellness. Fast 7–8 days delivery across Saudi Arabia. Split in 4 with Tabby & Tamara.`
   - `og:type`: `website`
   - `og:locale`: `en_US` (Alternate: `ar_SA`)
 
@@ -60,7 +60,7 @@ new english content: Elevating Everyday Living Worldwide. Engineered for Saudi A
 new arabic content: ابتكارات عالمية لرفاهية استثنائية. صُممت خصيصاً للمملكة العربية السعودية.
 
 Subheadline:
-new english content: Discover world-class smart lifestyle tech, arctic wearable cooling, and luxury wellness gadgets. Dispatched directly from Riyadh with 24-48h express delivery.
+new english content: Discover world-class smart lifestyle tech, arctic wearable cooling, and luxury wellness gadgets. Dispatched directly from Riyadh with fast 7–8 days delivery.
 new arabic content: اكتشف أحدث التقنيات الذكية لأسلوب حياة راقٍ، حلول التبريد الصيفي القطبية، وأجهزة المساج والاسترخاء الفاخرة. شحن محلي سريع من الرياض لكافة مدن المملكة.
 
 Call to Action (Primary): Explore Flagship Collection
@@ -91,8 +91,8 @@ Your payment and personal details stay protected from cart to confirmation.
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Pillar 1: Fast & Free KSA Delivery:
-new english content: 🚚 Express Domestic Delivery: 100% Free shipping across all Saudi regions. Dispatched from Riyadh within 24-48 hours via SMSA and Aramex.
-new arabic content: 🚚 توصيل محلي سريع ومجاني: شحن مجاني 100% لكافة مدن ومناطق المملكة، ينطلق مباشرة من الرياض خلال 24-48 ساعة عبر سمسا وأرامكس.
+new english content: 🚚 Express Domestic Delivery: 100% Free shipping across all Saudi regions. Fast 7–8 days delivery from Riyadh via SMSA and Aramex.
+new arabic content: 🚚 توصيل محلي سريع ومجاني: شحن مجاني 100% لكافة مدن ومناطق المملكة، ينطلق من الرياض بتوصيل سريع خلال 7–8 أيام عبر سمسا وأرامكس.
 
 Pillar 2: 100% Golden Guarantee & Easy Returns:
 new english content: 🛡️ Golden 7-Day Replacement Guarantee: Complete peace of mind with 7-day direct replacements and a 1-year product warranty.
@@ -234,8 +234,8 @@ new arabic content: "جهاز مساج الرقبة أراح عضلات الكت
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Item 1: Express Dispatch:
-new english content: ⚡️ Express 24-48h Domestic Dispatch from Riyadh
-new arabic content: ⚡️ شحن محلي سريع خلال 24-48 ساعة من مستودعات الرياض
+new english content: ⚡️ Fast 7–8 Days Domestic Delivery from Riyadh
+new arabic content: ⚡️ توصيل محلي سريع خلال 7–8 أيام من مستودعات الرياض
 
 Item 2: Golden Guarantee:
 new english content: 🛡️ Golden 7-Day Replacement Guarantee

@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/bionic-finger-neck-shoulder-kneading-massager`  
 > **Category**: 💆‍♀️ Wellness & Deep Tissue Therapy  
 > **Price**: **SAR 149.00** *(Or 4 monthly interest-free payments of **SAR 37.25** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-bionic-finger-neck-massager/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-bionic-finger-neck-massager)
 
 ---

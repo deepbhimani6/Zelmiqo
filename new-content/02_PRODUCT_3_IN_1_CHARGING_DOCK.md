@@ -101,7 +101,7 @@ Value Proposition Ribbon (Directly Below Buy Box):
 
 Color & Inventory Selection:
 • Color Finishes: Matte Obsidian Black (Most Popular) | Arctic Pearl White
-• Live Stock Notice: Only 14 units left in warehouse — Ships Today with fast 7–8 days delivery.
+• Live Stock Notice: Only 14 units left in warehouse — Ready to ship with fast 7–8 days delivery.
 
 Sidebar Overview Description:
 Consolidate your Apple & Qi-compatible ecosystem into one architecturally refined docking station. Powers iPhone (up to 15W), Apple Watch, and AirPods simultaneously with zero tangled wires and advanced thermal protection. Fast 7–8 days delivery across Saudi Arabia.

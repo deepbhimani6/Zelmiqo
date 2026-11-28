@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/ultrasonic-skin-scrubber-deep-pore-care`  
 > **Category**: 💆‍♀️ Skincare Innovation & Peeling  
 > **Price**: **SAR 169.00** *(Or 4 monthly interest-free payments of **SAR 42.25** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-ultrasonic-skin-scrubber/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-ultrasonic-skin-scrubber)
 
 ---

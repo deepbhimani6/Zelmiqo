@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/portable-usb-citrus-juicer-orange-lemon`  
 > **Category**: 🥤 Kitchen Innovation & Healthy Living  
 > **Price**: **SAR 109.00** *(Or 4 monthly interest-free payments of **SAR 27.25** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-portable-usb-citrus-juicer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-portable-usb-citrus-juicer)
 
 ---

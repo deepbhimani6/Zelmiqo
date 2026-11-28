@@ -48,12 +48,12 @@
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Headline:
-new english content: 🚚 Free Express Delivery Across Saudi Arabia on Orders Over SAR 199 • Dispatched in 24-48h • Shop Now
-new arabic content: 🚚 شحن سريع ومجاني لكافة مدن المملكة للطلبات فوق 199 ر.س • انطلاق الشحنات خلال 24-48 ساعة • تسوق الآن
+new english content: 🚚 Free Express Delivery Across Saudi Arabia on Orders Over SAR 199 • Fast 7–8 Days Delivery • Shop Now
+new arabic content: 🚚 شحن سريع ومجاني لكافة مدن المملكة للطلبات فوق 199 ر.س • توصيل سريع خلال 7–8 أيام • تسوق الآن
 
 Rotating Marquee Option (Multi-Value Proposition):
-new english content: 🌍 Global Lifestyle Innovations | ⚡️ Express 24-48h Delivery in KSA | 💳 Split in 4 with Tabby & Tamara | 🚚 Free Shipping Over SAR 199
-new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 24-48 ساعة لمدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني للطلبات فوق 199 ر.س
+new english content: 🌍 Global Lifestyle Innovations | ⚡️ Fast 7–8 Days Delivery in KSA | 💳 Split in 4 with Tabby & Tamara | 🚚 Free Shipping Over SAR 199
+new arabic content: 🌍 ابتكارات ذكية عالمية | ⚡️ توصيل سريع خلال 7–8 أيام لمدن المملكة | 💳 قسّم مشترياتك مع تابي وتمارا | 🚚 شحن مجاني للطلبات فوق 199 ر.س
 ```
 
 ---

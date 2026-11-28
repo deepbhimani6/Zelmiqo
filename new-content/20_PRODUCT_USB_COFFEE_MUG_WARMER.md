@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/usb-coffee-mug-warmer-heating-coaster-home-office`  
 > **Category**: ☕️ Smart Living & Office Comfort  
 > **Price**: **SAR 184.00** *(Or 4 monthly interest-free payments of **SAR 46.00** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-usb-coffee-mug-warmer/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-usb-coffee-mug-warmer)
 
 ---

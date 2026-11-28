@@ -90,7 +90,7 @@ Value Proposition Ribbon (Directly Below Buy Box):
 
 Color & Inventory Selection:
 • Color Finishes: Polar White (Most Popular for Sun Reflection) | Midnight Obsidian Navy | Sage Mint Green
-• Live Stock Notice: Only 19 units left in Riyadh warehouse — Ships Today if ordered within 2 hours.
+• Live Stock Notice: Only 19 units left in Riyadh warehouse — Fast 7–8 days nationwide delivery.
 
 Sidebar Overview Description:
 Beat the extreme 48°C Gulf summer heat with hands-free, whisper-quiet personal air conditioning. Features 360° omnidirectional air outlets, twin high-velocity centrifugal turbines, 100% hair-safe bladeless architecture, and an intelligent digital LED percentage display that ensures you never run out of battery during outdoor errands, commutes, or sacred Hajj & Umrah pilgrimages.

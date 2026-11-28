@@ -37,7 +37,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/3d-double-sided-silicone-facial-cleansing-brush`  
 > **Category**: 💆‍♀️ Skincare & Personal Care  
 > **Price**: **SAR 121.00** *(Or 4 monthly interest-free payments of **SAR 30.25** with Tabby / Tamara)*  
-> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with 24-48h Express Domestic Delivery  
+> **Regional Fulfillment**: Kingdom of Saudi Arabia (Riyadh Hub) with Fast 7–8 Days Domestic Delivery  
 > **Primary Image Directory**: [`images/product-3d-silicone-cleansing-brush/`](file:///Users/shunyavkashminim2/Downloads/Test/images/product-3d-silicone-cleansing-brush)
 
 ---

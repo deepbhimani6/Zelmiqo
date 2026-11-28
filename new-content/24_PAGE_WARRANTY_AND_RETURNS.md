@@ -113,10 +113,10 @@ A depreciation rate of 5% per month is applied from the date of purchase, and th
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Service & Resolution Timelines:
-new english content: • Domestic Doorstep Pickup: We send a courier to collect the item directly from your address within 24 to 48 hours of your warranty request anywhere in Saudi Arabia.
+new english content: • Domestic Doorstep Pickup: We send a courier to collect the item directly from your address upon confirmation of your warranty request anywhere in Saudi Arabia.
 • 7-Day Resolution: Devices are inspected by certified technicians within 7 days of warehouse arrival, followed by immediate shipment of a replacement unit.
 • Fair Value Assurance: Full 100% refund or replacement within the Golden Guarantee window, in strict accordance with the Saudi Ministry of Commerce consumer protection charters.
-new arabic content: • استلام فوري من باب منزلك: نرسل مندوب شركة الشحن لاستلام الجهاز من عنوانك خلال 24 إلى 48 ساعة في أي مدينة داخل المملكة.
+new arabic content: • استلام فوري من باب منزلك: نرسل مندوب شركة الشحن لاستلام الجهاز من عنوانك فور اعتماد طلب الضمان في أي مدينة داخل المملكة.
 • معالجة سريعة خلال 7 أيام: يتم فحص الجهاز فور وصوله والتأكد من العيب الفني، وإصدار أمر الاستبدال أو الاسترجاع المباشر دون تأخير.
 • ضمان حقوق المستهلك: استرجاع كامل 100% أو استبدال فوري دون أي خصومات ضمن فترة الضمان الذهبي، التزاماً بلائحة حماية المستهلك المعتمدة في المملكة.
 ```
