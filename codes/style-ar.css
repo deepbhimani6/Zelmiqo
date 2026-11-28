@@ -1,14 +1,18 @@
 /* Start Only For Arabic */
 header .desktop-search-wrapper {
-  margin: 0 14px 0 0;
+  margin: 0 14px 0 0 !important;
 }
 
-:is(.language-currency.top-menu .dropdown.drop-menu, .language-currency.top-menu .currency .dropdown.drop-menu, .secondary-menu .menu-item.drop-menu, .main-menu > ul > .drop-menu) > .j-dropdown {
-  transform: translate3d(50%, 10px, 0);
+:is(.language-currency.top-menu .dropdown.drop-menu, .language-currency.top-menu .currency .dropdown.drop-menu, .secondary-menu .menu-item.drop-menu, .classic-cart-wrapper .top-menu.secondary-menu, .main-menu > ul > .drop-menu) > .j-dropdown {
+  transform: translate3d(50%, 0px, 0) !important;
+}
+
+:is(.language-currency.top-menu .dropdown.drop-menu, .language-currency.top-menu .currency .dropdown.drop-menu, .secondary-menu .menu-item.drop-menu, .classic-cart-wrapper .top-menu.secondary-menu) > .j-dropdown {
+  padding-top: 10px;
 }
 
 .swiper-buttons > *.swiper-button-prev {
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
 /* End Only For Arabic */
 
@@ -580,6 +584,11 @@ div.cart-content .cart-products tbody .td-name small::before {
 #information-information .content #response > * {
   padding: 0;
   text-align: center;
+}
+
+.form-group + .text-danger {
+  font-size: 12px;
+  margin-top: -8px;
 }
 
 /* --------------------------------------------------------------------------------------------- */
