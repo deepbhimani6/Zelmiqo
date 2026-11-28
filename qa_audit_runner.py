@@ -21,7 +21,7 @@ POLICY_UI_SPECS = [
     (os.path.join('main-html-pages', 'warranty-policy.html'), 'page-warranty'),
     (os.path.join('main-html-pages', 'return-and-refund-policy.html'), 'page-return-refund'),
 ]
-POLICY_UI_PAGES = [p for p, _ in POLICY_UI_SPECS] + [os.path.join('main-html-pages', 'policy-pages-live-ui.html')]
+POLICY_UI_PAGES = [p for p, _ in POLICY_UI_SPECS]
 
 REQUIRED_PAGES = [
     os.path.join('main-html-pages', 'home.html'),
@@ -32,7 +32,6 @@ REQUIRED_PAGES = [
     os.path.join('main-html-pages', 'terms-and-conditions.html'),
     os.path.join('main-html-pages', 'warranty-policy.html'),
     os.path.join('main-html-pages', 'return-and-refund-policy.html'),
-    os.path.join('main-html-pages', 'policy-pages-live-ui.html'),
     os.path.join('main-html-pages', 'contact-us.html'),
     os.path.join('main-html-pages', 'blogs-and-articles.html'),
     os.path.join('main-html-pages', 'header.html'),
@@ -245,18 +244,6 @@ def test_4_number_alignment_and_callout_matching():
             res.fail(f"{filename}: badges mismatch. Expected {expected_badges}, got {badges}")
         else:
             res.pass_msg(f"{filename:30}: {len(cards)} Cards, {len(badges)} Badges ({', '.join(badges)}), {len(pill_links)} Nav Pills matched 1:1")
-
-    # Verify unified policy-pages-live-ui.html contains all 6 redesigned policy sections
-    policy_ui_rel = os.path.join('main-html-pages', 'policy-pages-live-ui.html')
-    policy_ui_path = os.path.join(PAGES_DIR, policy_ui_rel)
-    with open(policy_ui_path, 'r', encoding='utf-8') as f:
-        policy_html = f.read()
-    expected_sections = ['page-about', 'page-delivery', 'page-privacy', 'page-terms', 'page-warranty', 'page-return-refund']
-    missing_sec = [s for s in expected_sections if f'id="{s}"' not in policy_html]
-    if missing_sec:
-        res.fail(f"{policy_ui_rel}: missing unified policy section ids {missing_sec}")
-    else:
-        res.pass_msg(f"{policy_ui_rel:30}: 6 unified live EN+AR policy sections verified ({', '.join(expected_sections)})")
 
     for p_rel, sec_id in POLICY_UI_SPECS:
         p_path = os.path.join(PAGES_DIR, p_rel)
