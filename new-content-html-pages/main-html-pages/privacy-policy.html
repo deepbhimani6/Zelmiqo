@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy (سياسة الخصوصية) | Zelmiqo® Live Policy UI</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #c9a24b;
+      --cream: #fcfaf7;
+      --bg-light: #f1f5f9;
+      --border: #e2e8f0;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--primary);
+      line-height: 1.55;
+      padding-bottom: 72px;
+    }
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand-title h1 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all .2s;
+    }
+    .hub-link-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .page-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      position: sticky;
+      top: 58px;
+      z-index: 90;
+    }
+    .nav-pill {
+      white-space: nowrap;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--primary);
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all .15s;
+    }
+    .nav-pill:hover,
+    .nav-pill.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .container {
+      max-width: 1120px;
+      margin: 26px auto;
+      padding: 0 20px;
+    }
+    .intro-banner {
+      background: #fff;
+      border: 1px solid rgba(201,162,75,0.45);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .intro-stat-lbl {
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 3px;
+    }
+    .intro-stat-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .intro-stat-sub {
+      font-size: 12.5px;
+      color: #475569;
+    }
+    .policy-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 16px rgba(13,28,42,0.06);
+      scroll-margin-top: 120px;
+    }
+    .policy-card-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 20px;
+      border-bottom: 2px solid var(--gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .policy-title-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .num-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--gold);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      flex: none;
+    }
+    .policy-card-header h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .title-ar {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .live-urls {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+    .live-urls a {
+      color: #eedfc0;
+      text-decoration: none;
+    }
+    .live-urls a:hover {
+      text-decoration: underline;
+    }
+    .card-copy-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .copy-btn {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 7px;
+      padding: 8px 14px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .1s, opacity .2s;
+    }
+    .copy-btn.copy-ar {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+    }
+    .copy-btn:hover {
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+    .audit-strip {
+      background: rgba(201,162,75,0.09);
+      border-bottom: 1px solid rgba(201,162,75,0.28);
+      padding: 12px 20px;
+      font-size: 13px;
+      color: var(--primary);
+    }
+    .audit-strip-label {
+      font-weight: 800;
+      color: #8a691e;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 6px;
+    }
+    .audit-strip ul {
+      padding-left: 18px;
+      display: grid;
+      gap: 4px;
+    }
+    .view-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 20px;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .vtab {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .vtab.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+    .zelmiqo-live-stage {
+      background: var(--cream);
+      padding: 28px 26px;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    .code-view {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      max-height: 460px;
+    }
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: var(--gold);
+      border: 1.5px solid var(--gold);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all .2s;
+      z-index: 999;
+    }
+    .toast-msg.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® Privacy Policy (سياسة الخصوصية)</h1>
+      <span class="brand-badge">EN + AR • Class-Free Inline Theme</span>
+    </div>
+    <div class="header-actions">
+      <a href="policy-pages-live-ui.html" class="hub-link-btn">✨ All 6 Policies UI</a>
+      <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
+      <a href="index.html" class="hub-link-btn">← Back to Master Hub</a>
+    </div>
+  </header>
+
+  <nav class="page-nav-bar">
+    <a href="about-us.html" class="nav-pill">1. About Us</a><a href="delivery-information.html" class="nav-pill">2. Delivery Information</a><a href="privacy-policy.html" class="nav-pill active">3. Privacy Policy</a><a href="terms-and-conditions.html" class="nav-pill">4. Terms & Conditions</a><a href="warranty-policy.html" class="nav-pill">5. Warranty Policy</a><a href="return-and-refund-policy.html" class="nav-pill">6. Return & Refund Policy</a>
+  </nav>
+
+  <main class="container">
+    <div class="intro-banner">
+      <div>
+        <div class="intro-stat-lbl">Theme System</div>
+        <div class="intro-stat-val">#c9a24b Gold &amp; #0d1c2a Navy</div>
+        <div class="intro-stat-sub">Pure inline styles, 0 CSS classes — paste cleanly into FatherShops</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Delivery Standard</div>
+        <div class="intro-stat-val">Strictly 7–8 Days</div>
+        <div class="intro-stat-sub">Removed live 8–10 business days contradiction &amp; sub-7-day hours</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Catalog &amp; Tone Overhaul</div>
+        <div class="intro-stat-val">Electronics-First Copy</div>
+        <div class="intro-stat-sub">Removed apparel leaks ("size/colour", "tags") &amp; punitive warranty penalties</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Unified Support Card</div>
+        <div class="intro-stat-val">zelmiqo@gmail.com</div>
+        <div class="intro-stat-sub">+916359268709 standardized across EN &amp; AR</div>
+      </div>
+    </div>
+
+    <section class="policy-card" id="page-privacy">
+        <div class="policy-card-header">
+          <div class="policy-title-group">
+            <span class="num-badge">3</span>
+            <div>
+              <h2>Privacy Policy <span class="title-ar">(سياسة الخصوصية)</span></h2>
+              <div class="live-urls">
+                <span>EN: <a href="https://zelmiqo.com/privacy" target="_blank" rel="noopener noreferrer">https://zelmiqo.com/privacy ↗</a></span>
+                <span>AR: <a href="https://zelmiqo.com/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9" target="_blank" rel="noopener noreferrer">/%D8%A7%D9%84%D8%AE%D8%B5%D9%88%D8%B5%D9%8A%D8%A9 ↗</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-copy-actions">
+            <button type="button" class="copy-btn copy-en" onclick="copySnippet('privacy', 'en', this)">📋 Copy English HTML</button>
+            <button type="button" class="copy-btn copy-ar" onclick="copySnippet('privacy', 'ar', this)">📋 Copy Arabic HTML</button>
+          </div>
+        </div>
+
+        <div class="audit-strip">
+          <div class="audit-strip-label">Senior E-Commerce Copywriter Audit Fixes Applied:</div>
+          <ul><li>Added clear, actionable instructions showing customers how to submit access/correction/deletion requests via zelmiqo@gmail.com.</li><li>Refined Zero-Sale Pledge and Zero Card Storage highlights with Saudi PDPL + international clarity.</li><li>Consolidated cookie controls and retention clauses into scannable gold/navy UI cards.</li></ul>
+        </div>
+
+        <div class="view-tabs">
+          <button type="button" class="vtab active" onclick="switchTab('privacy', 'preview-en', this)">👁️ Preview English (LTR)</button>
+          <button type="button" class="vtab" onclick="switchTab('privacy', 'preview-ar', this)">👁️ Preview Arabic (RTL)</button>
+          <button type="button" class="vtab" onclick="switchTab('privacy', 'code-en', this)">&lt;/&gt; Raw English HTML</button>
+          <button type="button" class="vtab" onclick="switchTab('privacy', 'code-ar', this)">&lt;/&gt; Raw Arabic HTML</button>
+        </div>
+
+        <div class="tab-panel active" id="privacy-preview-en">
+          <div class="zelmiqo-live-stage">
+            <h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">Your Privacy. Protected Always.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">At <strong style="color: #0d1c2a;">Zelmiqo</strong>, protecting your personal data is central to everything we do. We are committed to handling your personal information securely, responsibly, and transparently across every visit and order.</p>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">This Privacy Policy explains what information we collect, why we collect it, how we safeguard it in line with Saudi Personal Data Protection Law (PDPL) principles and international standards, and how you can exercise full control over your data.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>Our Zero-Sale Pledge:</strong> Zelmiqo never sells, rents, or trades your personal details to data brokers or third-party telemarketers. By using our website, you agree to the transparent practices outlined here.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;">Privacy at a glance</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Data Security</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Encrypted &amp; Minimized</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Card Details</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Never Stored on Servers</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Third-Party Sales</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Never Sold or Rented</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Your Control</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Access or Delete via Email</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Information We Collect</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">We collect only the information needed to fulfill your purchases, coordinate courier delivery, and maintain a reliable storefront:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Personal &amp; Order Details</h2>
+<ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Full Name</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Email Address</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Phone Number (for courier delivery alerts)</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Billing &amp; Shipping Addresses</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Payment Tokens (processed securely by payment providers)</span></li><li style="display: flex; gap: 8px; margin: 0;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Order History &amp; Support Correspondence</span></li></ul>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Automated Technical Data</h2>
+<ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>IP Address &amp; Approximate Region</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Browser Type &amp; Version</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Device &amp; Operating System Info</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Website Browsing &amp; Cart Activity</span></li><li style="display: flex; gap: 8px; margin: 0;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>Essential Cookies &amp; Similar Technologies</span></li></ul>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">How We Use Your Information</h2>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">Your information is used strictly to deliver a safe and tailored shopping experience:</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;">
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Process and fulfill your orders within our 7&ndash;8 days delivery window</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Verify legitimate transactions and prevent fraud</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Send order confirmations, tracking links, and delivery updates</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Provide responsive customer, warranty, and return support</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Improve website speed, checkout usability, and security</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Comply with applicable tax, e-commerce, and legal obligations</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Send promotional updates only where permitted or with your consent</span></li>
+</ul>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Payment Security &amp; Cookies</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">All transactions are processed via encrypted, trusted third-party payment gateways using industry-standard security protocols.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.25em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>Zero Card Storage:</strong> Zelmiqo does not store your full credit card, debit card, or CVV details on our servers.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">Cookies help keep your store session smooth by:</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 8px 16px; color: #0d1c2a;"><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>Remembering language &amp; currency preferences</span></li><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>Keeping items saved in your cart</span></li><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>Optimizing page loading &amp; performance</span></li><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>Preventing unauthorized account sessions</span></li></ul>
+<p style="margin: 12px 0 0; font-size: .92em; color: #0d1c2a; opacity: .82;">You may disable cookies in your browser settings at any time, though certain storefront or cart features may be affected.</p>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Data Protection &amp; Trusted Service Partners</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">We apply technical, administrative, and organizational safeguards to guard your information against unauthorized access or misuse. We share only the necessary details with vetted operational partners solely to complete services on our behalf:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Certified Payment Processors</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">To authorize and protect your online checkout payments.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Shipping &amp; Courier Partners</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">To generate waybills, send tracking alerts, and deliver orders to your address.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Customer Support &amp; Hosting Systems</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">To store order records reliably and assist you rapidly.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Fraud Screening &amp; Legal Compliance</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">To block suspicious activity and satisfy mandatory legal requests when required by law.</span></div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">International Data Processing</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">Because we serve regional and global customers, data may be processed in jurisdictions where our trusted logistics and hosting providers operate.</p><p style="margin: 0; color: #0d1c2a;">Wherever processed, we require strict protective safeguards matching this Privacy Policy.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Marketing Communications</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">If you opt in to promotional updates or newsletters, we may share new product releases and seasonal offers.</p><p style="margin: 0; color: #0d1c2a;">You may opt out anytime using the unsubscribe link in any promotional email or by emailing <strong>zelmiqo@gmail.com</strong>.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Your Privacy Rights &amp; How to Exercise Them</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">Subject to applicable laws in your jurisdiction, you have the right to request:</p>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;">Access to the personal information we hold about you.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;">Correction of inaccurate or outdated contact details.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;">Deletion of eligible personal data no longer required for legal retention.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;">Restriction or objection to specific non-essential processing activities.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">5</span><span style="padding-top: .15em;">Withdrawal of optional marketing consent at any time.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">6</span><span style="padding-top: .15em;">A portable copy of your core account and order information.</span></li>
+</ol>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>How to Submit a Request:</strong> Email <strong>zelmiqo@gmail.com</strong> with the subject <em>Privacy Request</em> and your order or account email. We verify identity to protect your account and respond promptly in accordance with applicable law.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Data Retention</h2>
+<p style="margin: 0; color: #0d1c2a;">We retain personal records only as long as needed to fulfill orders, support warranty claims, meet tax/legal obligations, and resolve disputes.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Third-Party Links</h2>
+<p style="margin: 0; color: #0d1c2a;">Our store may link to external courier tracking portals or social platforms. Please review their independent privacy policies, as we do not control external sites.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Children&rsquo;s Privacy</h2>
+<p style="margin: 0; color: #0d1c2a;">Zelmiqo is not directed toward children below the legal age in their jurisdiction, and we do not knowingly collect data from minors.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Policy Updates</h2>
+<p style="margin: 0; color: #0d1c2a;">We may revise this Privacy Policy periodically to reflect legal or operational updates. All changes take effect once published on this page.</p>
+</div>
+</div>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">Thank you for trusting <strong>Zelmiqo</strong>. Your privacy and confidence remain our priority.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">Questions or requests about your personal data?</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">Email:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">Phone:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="privacy-preview-ar">
+          <div class="zelmiqo-live-stage">
+            <div dir="rtl">
+<h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">خصوصيتك.. محمية دائماً.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">في <strong style="color: #0d1c2a;">زيلميكو (Zelmiqo)</strong>، تحظى حماية بياناتك الشخصية بأولوية قصوى. نلتزم بالتعامل مع معلوماتك بأعلى معايير الأمان والمسؤولية والشفافية في كل زيارة وكل طلب.</p>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">توضح سياسة الخصوصية هذه نوعية البيانات التي نجمعها، وسبب جمعها، وكيفية حمايتها بما ينسجم مع مبادئ نظام حماية البيانات الشخصية في المملكة العربية السعودية والمعايير الدولية، إضافةً إلى طرق ممارسة حقوقك كاملة.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>تعهد عدم بيع البيانات:</strong> لا تقوم زيلميكو مطلقاً ببيع أو تأجير أو مشاركة معلوماتك الشخصية مع وسطاء البيانات أو شركات التسويق. وباستخدامك للموقع، فإنك توافق على هذه السياسة الواضحة.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;">الخصوصية باختصار</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">حماية البيانات</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">تشفير وتقنين البيانات</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">بيانات البطاقات</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">لا تُخزّن على خوادمنا</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">البيع لطرف ثالث</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">لا تُباع ولا تُؤجّر أبداً</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">تحكمك بالبيانات</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">الاطلاع أو الحذف عبر البريد</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">المعلومات التي نجمعها</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">نجمع فقط الحد الأدنى اللازم من البيانات لتنفيذ طلباتك، وتنسيق التوصيل، وتشغيل المتجر بأمان:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">البيانات الشخصية وبيانات الطلب</h2>
+<ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>الاسم الكامل</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>البريد الإلكتروني</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>رقم الهاتف (لتنسيق التوصيل وإشعارات الشحن)</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>عنوان الفوترة وعنوان الشحن</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>معرّفات الدفع (تُعالج بأمان عبر بوابات الدفع المعتمدة)</span></li><li style="display: flex; gap: 8px; margin: 0;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>سجل الطلبات ومراسلات الدعم والضمان</span></li></ul>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">البيانات التقنية المجمعة تلقائياً</h2>
+<ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>عنوان بروتوكول الإنترنت (IP) والنطاق التقريبي</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>نوع المتصفح وإصداره</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>معلومات الجهاز ونظام التشغيل</span></li><li style="display: flex; gap: 8px; margin: 0 0 8px;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>نشاط التصفح وحفظ سلة التسوق</span></li><li style="display: flex; gap: 8px; margin: 0;"><span style="color: #c9a24b; font-weight: bold;">◆</span><span>ملفات تعريف الارتباط الأساسية (Cookies)</span></li></ul>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">كيف نستخدم معلوماتك</h2>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">تُستخدم معلوماتك حصراً لتقديم تجربة تسوق آمنة وموثوقة:</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;">
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>معالجة طلباتك وتنفيذ الشحن خلال 7&ndash;8 أيام</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>التحقق من صحة المعاملات ومنع الأنشطة الاحتيالية</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>إرسال تأكيدات الطلب وروابط التتبع وتحديثات التوصيل</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>تقديم خدمة دعم العملاء وإجراءات الضمان والاستبدال</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>تحسين سرعة الموقع وسلاسة خطوات الدفع</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>الامتثال للالتزامات النظامية والضريبية المعمول بها</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>إرسال العروض الترويجية فقط بموافقتك أو وفق ما يسمح به النظام</span></li>
+</ul>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">أمان المدفوعات وملفات تعريف الارتباط</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">تُعالج جميع المدفوعات عبر مزودي خدمات دفع موثوقين باستخدام أحدث تقنيات التشفير المعتمدة.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.25em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>عدم تخزين بيانات البطاقات:</strong> لا تحتفظ زيلميكو بأرقام بطاقاتك الائتمانية أو بطاقات مدى الكاملة أو رموز الأمان السرية على خوادمنا مطلقاً.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">تساعد ملفات تعريف الارتباط على تحسين تجربتك من خلال:</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 8px 16px; color: #0d1c2a;"><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>حفظ تفضيلات اللغة والعملة</span></li><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>الإبقاء على المنتجات داخل سلة التسوق</span></li><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>رفع سرعة الأداء واستقرار الصفحات</span></li><li style="display: flex; gap: 8px;"><span style="color: #c9a24b; font-weight: bold;">✓</span><span>حماية الجلسات ومنع الدخول غير المصرح به</span></li></ul>
+<p style="margin: 12px 0 0; font-size: .92em; color: #0d1c2a; opacity: .82;">يمكنك تعطيل ملفات تعريف الارتباط من إعدادات المتصفح في أي وقت، مع ملاحظة أن ذلك قد يؤثر على بعض وظائف السلة.</p>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">حماية البيانات ومشاركتها عند الضرورة</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">نطبق تدابير أمنية وتقنية وإدارية صارمة لحماية بياناتك. ولا نشارك المعلومات إلا بالقدر اللازم مع شركاء تشغيل موثوقين لتنفيذ طلبك فقط:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">مزودو معالجة المدفوعات</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">لتوثيق وتأمين عمليات السداد الإلكتروني.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">شركاء الشحن والخدمات اللوجستية</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">لإصدار بوليصة الشحن وإرسال تحديثات التتبع وتوصيل الطرد.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">أنظمة خدمة العملاء والاستضافة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">لحفظ سجل الطلبات والرد السريع على استفساراتك.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">مكافحة الاحتيال والجهات المختصة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">لرصد المحاولات المشبوهة أو الامتثال للمتطلبات النظامية عند اللزوم.</span></div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">المعالجة الدولية للبيانات</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">نظراً لخدمتنا للعملاء إقليمياً ودولياً، قد تُعالج بعض البيانات عبر خوادم أو شركاء لوجستيين خارج بلدك.</p><p style="margin: 0; color: #0d1c2a;">نحرص في جميع الأحوال على تطبيق معايير حماية تتوافق مع سياسة الخصوصية هذه.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الرسائل التسويقية</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">إذا اخترت الاشتراك في النشرات الترويجية، فقد نرسل لك تحديثات عن أحدث الأجهزة والعروض الموسمية.</p><p style="margin: 0; color: #0d1c2a;">يمكنك إلغاء الاشتراك في أي وقت عبر رابط الإلغاء في الرسالة أو بمراسلتنا على <strong>zelmiqo@gmail.com</strong>.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">حقوق الخصوصية وكيفية ممارستها</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">وفقاً للأنظمة المعمول بها، يحق لك التقدم بطلب لـ:</p>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;">الاطلاع على معلوماتك الشخصية المحفوظة لدينا.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;">تصحيح أو تحديث أي بيانات غير دقيقة.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;">طلب حذف البيانات الشخصية التي لم تعد لازمة نظامياً.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;">الاعتراض على أوجه معالجة غير أساسية أو تقييدها.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">5</span><span style="padding-top: .15em;">سحب موافقتك على الرسائل الترويجية في أي وقت.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">6</span><span style="padding-top: .15em;">طلب نسخة من بيانات حسابك وطلباتك الأساسية.</span></li>
+</ol>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>كيفية تقديم الطلب:</strong> أرسل بريداً إلكترونياً إلى <strong>zelmiqo@gmail.com</strong> بعنوان <em>طلب خصوصية</em> مع توضيح رقم الطلب أو بريد الحساب، وسيتولى فريقنا التحقق من الهوية ومعالجة طلبك بسرعة وفق النظام.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الاحتفاظ بالبيانات</h2>
+<p style="margin: 0; color: #0d1c2a;">نحتفظ بالبيانات فقط للمدة اللازمة لإتمام الطلبات، ومتابعة الضمان، والالتزام بالمتطلبات الضريبية والنظامية، وتسوية النزاعات.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">روابط الأطراف الثالثة</h2>
+<p style="margin: 0; color: #0d1c2a;">قد يتضمن المتجر روابط لصفحات تتبع شركات الشحن أو منصات التواصل، ويُرجى مراجعة سياسات الخصوصية الخاصة بتلك الجهات عند زيارتها.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">خصوصية الأطفال</h2>
+<p style="margin: 0; color: #0d1c2a;">المتجر غير مخصص لمن هم دون السن القانوني المعمول به، ولا نجمع معلومات شخصية من الأطفال عن علم.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">التحديثات على السياسة</h2>
+<p style="margin: 0; color: #0d1c2a;">قد نحدّث هذه السياسة دورياً لتواكب التطورات التقنية أو النظامية، وتصبح النسخة المحدثة سارية فور نشرها هنا.</p>
+</div>
+</div>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">شكراً لثقتك في <strong>زيلميكو (Zelmiqo)</strong>. خصوصيتك وأمان بياناتك محل اهتمامنا الدائم.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">هل لديك استفسار أو طلب بشأن بياناتك الشخصية؟</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">البريد الإلكتروني:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">الهاتف:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="privacy-code-en">
+          <pre class="code-view"><code>&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;Your Privacy. Protected Always.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;At &lt;strong style="color: #0d1c2a;"&gt;Zelmiqo&lt;/strong&gt;, protecting your personal data is central to everything we do. We are committed to handling your personal information securely, responsibly, and transparently across every visit and order.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;This Privacy Policy explains what information we collect, why we collect it, how we safeguard it in line with Saudi Personal Data Protection Law (PDPL) principles and international standards, and how you can exercise full control over your data.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;Our Zero-Sale Pledge:&lt;/strong&gt; Zelmiqo never sells, rents, or trades your personal details to data brokers or third-party telemarketers. By using our website, you agree to the transparent practices outlined here.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;"&gt;Privacy at a glance&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Data Security&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Encrypted &amp;amp; Minimized&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Card Details&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Never Stored on Servers&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Third-Party Sales&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Never Sold or Rented&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Your Control&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Access or Delete via Email&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Information We Collect&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;We collect only the information needed to fulfill your purchases, coordinate courier delivery, and maintain a reliable storefront:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Personal &amp;amp; Order Details&lt;/h2&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Full Name&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Email Address&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Phone Number (for courier delivery alerts)&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Billing &amp;amp; Shipping Addresses&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Payment Tokens (processed securely by payment providers)&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Order History &amp;amp; Support Correspondence&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Automated Technical Data&lt;/h2&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;IP Address &amp;amp; Approximate Region&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Browser Type &amp;amp; Version&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Device &amp;amp; Operating System Info&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Website Browsing &amp;amp; Cart Activity&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;Essential Cookies &amp;amp; Similar Technologies&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;How We Use Your Information&lt;/h2&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;Your information is used strictly to deliver a safe and tailored shopping experience:&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Process and fulfill your orders within our 7&amp;ndash;8 days delivery window&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Verify legitimate transactions and prevent fraud&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Send order confirmations, tracking links, and delivery updates&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Provide responsive customer, warranty, and return support&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Improve website speed, checkout usability, and security&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Comply with applicable tax, e-commerce, and legal obligations&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Send promotional updates only where permitted or with your consent&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Payment Security &amp;amp; Cookies&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;All transactions are processed via encrypted, trusted third-party payment gateways using industry-standard security protocols.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.25em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;Zero Card Storage:&lt;/strong&gt; Zelmiqo does not store your full credit card, debit card, or CVV details on our servers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;Cookies help keep your store session smooth by:&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 8px 16px; color: #0d1c2a;"&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;Remembering language &amp;amp; currency preferences&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;Keeping items saved in your cart&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;Optimizing page loading &amp;amp; performance&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;Preventing unauthorized account sessions&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style="margin: 12px 0 0; font-size: .92em; color: #0d1c2a; opacity: .82;"&gt;You may disable cookies in your browser settings at any time, though certain storefront or cart features may be affected.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Data Protection &amp;amp; Trusted Service Partners&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;We apply technical, administrative, and organizational safeguards to guard your information against unauthorized access or misuse. We share only the necessary details with vetted operational partners solely to complete services on our behalf:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Certified Payment Processors&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;To authorize and protect your online checkout payments.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Shipping &amp;amp; Courier Partners&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;To generate waybills, send tracking alerts, and deliver orders to your address.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Customer Support &amp;amp; Hosting Systems&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;To store order records reliably and assist you rapidly.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Fraud Screening &amp;amp; Legal Compliance&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;To block suspicious activity and satisfy mandatory legal requests when required by law.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;International Data Processing&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;Because we serve regional and global customers, data may be processed in jurisdictions where our trusted logistics and hosting providers operate.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;Wherever processed, we require strict protective safeguards matching this Privacy Policy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Marketing Communications&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;If you opt in to promotional updates or newsletters, we may share new product releases and seasonal offers.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;You may opt out anytime using the unsubscribe link in any promotional email or by emailing &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Your Privacy Rights &amp;amp; How to Exercise Them&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;Subject to applicable laws in your jurisdiction, you have the right to request:&lt;/p&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Access to the personal information we hold about you.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Correction of inaccurate or outdated contact details.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Deletion of eligible personal data no longer required for legal retention.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Restriction or objection to specific non-essential processing activities.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;5&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Withdrawal of optional marketing consent at any time.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;6&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;A portable copy of your core account and order information.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;How to Submit a Request:&lt;/strong&gt; Email &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt; with the subject &lt;em&gt;Privacy Request&lt;/em&gt; and your order or account email. We verify identity to protect your account and respond promptly in accordance with applicable law.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Data Retention&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;We retain personal records only as long as needed to fulfill orders, support warranty claims, meet tax/legal obligations, and resolve disputes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Third-Party Links&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Our store may link to external courier tracking portals or social platforms. Please review their independent privacy policies, as we do not control external sites.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Children&amp;rsquo;s Privacy&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Zelmiqo is not directed toward children below the legal age in their jurisdiction, and we do not knowingly collect data from minors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Policy Updates&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;We may revise this Privacy Policy periodically to reflect legal or operational updates. All changes take effect once published on this page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Thank you for trusting &lt;strong&gt;Zelmiqo&lt;/strong&gt;. Your privacy and confidence remain our priority.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;Questions or requests about your personal data?&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Email:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Phone:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+
+        <div class="tab-panel" id="privacy-code-ar">
+          <pre class="code-view"><code>&lt;div dir="rtl"&gt;
+&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;خصوصيتك.. محمية دائماً.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;في &lt;strong style="color: #0d1c2a;"&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;، تحظى حماية بياناتك الشخصية بأولوية قصوى. نلتزم بالتعامل مع معلوماتك بأعلى معايير الأمان والمسؤولية والشفافية في كل زيارة وكل طلب.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;توضح سياسة الخصوصية هذه نوعية البيانات التي نجمعها، وسبب جمعها، وكيفية حمايتها بما ينسجم مع مبادئ نظام حماية البيانات الشخصية في المملكة العربية السعودية والمعايير الدولية، إضافةً إلى طرق ممارسة حقوقك كاملة.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;تعهد عدم بيع البيانات:&lt;/strong&gt; لا تقوم زيلميكو مطلقاً ببيع أو تأجير أو مشاركة معلوماتك الشخصية مع وسطاء البيانات أو شركات التسويق. وباستخدامك للموقع، فإنك توافق على هذه السياسة الواضحة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;"&gt;الخصوصية باختصار&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;حماية البيانات&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;تشفير وتقنين البيانات&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;بيانات البطاقات&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;لا تُخزّن على خوادمنا&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;البيع لطرف ثالث&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;لا تُباع ولا تُؤجّر أبداً&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;تحكمك بالبيانات&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;الاطلاع أو الحذف عبر البريد&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;المعلومات التي نجمعها&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;نجمع فقط الحد الأدنى اللازم من البيانات لتنفيذ طلباتك، وتنسيق التوصيل، وتشغيل المتجر بأمان:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;البيانات الشخصية وبيانات الطلب&lt;/h2&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;الاسم الكامل&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;البريد الإلكتروني&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;رقم الهاتف (لتنسيق التوصيل وإشعارات الشحن)&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;عنوان الفوترة وعنوان الشحن&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;معرّفات الدفع (تُعالج بأمان عبر بوابات الدفع المعتمدة)&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;سجل الطلبات ومراسلات الدعم والضمان&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;البيانات التقنية المجمعة تلقائياً&lt;/h2&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; color: #0d1c2a;"&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;عنوان بروتوكول الإنترنت (IP) والنطاق التقريبي&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;نوع المتصفح وإصداره&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;معلومات الجهاز ونظام التشغيل&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0 0 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;نشاط التصفح وحفظ سلة التسوق&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px; margin: 0;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;◆&lt;/span&gt;&lt;span&gt;ملفات تعريف الارتباط الأساسية (Cookies)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;كيف نستخدم معلوماتك&lt;/h2&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;تُستخدم معلوماتك حصراً لتقديم تجربة تسوق آمنة وموثوقة:&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;معالجة طلباتك وتنفيذ الشحن خلال 7&amp;ndash;8 أيام&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;التحقق من صحة المعاملات ومنع الأنشطة الاحتيالية&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;إرسال تأكيدات الطلب وروابط التتبع وتحديثات التوصيل&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;تقديم خدمة دعم العملاء وإجراءات الضمان والاستبدال&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;تحسين سرعة الموقع وسلاسة خطوات الدفع&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;الامتثال للالتزامات النظامية والضريبية المعمول بها&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;إرسال العروض الترويجية فقط بموافقتك أو وفق ما يسمح به النظام&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;أمان المدفوعات وملفات تعريف الارتباط&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;تُعالج جميع المدفوعات عبر مزودي خدمات دفع موثوقين باستخدام أحدث تقنيات التشفير المعتمدة.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.25em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;عدم تخزين بيانات البطاقات:&lt;/strong&gt; لا تحتفظ زيلميكو بأرقام بطاقاتك الائتمانية أو بطاقات مدى الكاملة أو رموز الأمان السرية على خوادمنا مطلقاً.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;تساعد ملفات تعريف الارتباط على تحسين تجربتك من خلال:&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 8px 16px; color: #0d1c2a;"&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;حفظ تفضيلات اللغة والعملة&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;الإبقاء على المنتجات داخل سلة التسوق&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;رفع سرعة الأداء واستقرار الصفحات&lt;/span&gt;&lt;/li&gt;&lt;li style="display: flex; gap: 8px;"&gt;&lt;span style="color: #c9a24b; font-weight: bold;"&gt;✓&lt;/span&gt;&lt;span&gt;حماية الجلسات ومنع الدخول غير المصرح به&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style="margin: 12px 0 0; font-size: .92em; color: #0d1c2a; opacity: .82;"&gt;يمكنك تعطيل ملفات تعريف الارتباط من إعدادات المتصفح في أي وقت، مع ملاحظة أن ذلك قد يؤثر على بعض وظائف السلة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;حماية البيانات ومشاركتها عند الضرورة&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;نطبق تدابير أمنية وتقنية وإدارية صارمة لحماية بياناتك. ولا نشارك المعلومات إلا بالقدر اللازم مع شركاء تشغيل موثوقين لتنفيذ طلبك فقط:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;مزودو معالجة المدفوعات&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;لتوثيق وتأمين عمليات السداد الإلكتروني.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;شركاء الشحن والخدمات اللوجستية&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;لإصدار بوليصة الشحن وإرسال تحديثات التتبع وتوصيل الطرد.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;أنظمة خدمة العملاء والاستضافة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;لحفظ سجل الطلبات والرد السريع على استفساراتك.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;مكافحة الاحتيال والجهات المختصة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;لرصد المحاولات المشبوهة أو الامتثال للمتطلبات النظامية عند اللزوم.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;المعالجة الدولية للبيانات&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;نظراً لخدمتنا للعملاء إقليمياً ودولياً، قد تُعالج بعض البيانات عبر خوادم أو شركاء لوجستيين خارج بلدك.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;نحرص في جميع الأحوال على تطبيق معايير حماية تتوافق مع سياسة الخصوصية هذه.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الرسائل التسويقية&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;إذا اخترت الاشتراك في النشرات الترويجية، فقد نرسل لك تحديثات عن أحدث الأجهزة والعروض الموسمية.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;يمكنك إلغاء الاشتراك في أي وقت عبر رابط الإلغاء في الرسالة أو بمراسلتنا على &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;حقوق الخصوصية وكيفية ممارستها&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;وفقاً للأنظمة المعمول بها، يحق لك التقدم بطلب لـ:&lt;/p&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;الاطلاع على معلوماتك الشخصية المحفوظة لدينا.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;تصحيح أو تحديث أي بيانات غير دقيقة.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;طلب حذف البيانات الشخصية التي لم تعد لازمة نظامياً.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;الاعتراض على أوجه معالجة غير أساسية أو تقييدها.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;5&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;سحب موافقتك على الرسائل الترويجية في أي وقت.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;6&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;طلب نسخة من بيانات حسابك وطلباتك الأساسية.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;كيفية تقديم الطلب:&lt;/strong&gt; أرسل بريداً إلكترونياً إلى &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt; بعنوان &lt;em&gt;طلب خصوصية&lt;/em&gt; مع توضيح رقم الطلب أو بريد الحساب، وسيتولى فريقنا التحقق من الهوية ومعالجة طلبك بسرعة وفق النظام.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الاحتفاظ بالبيانات&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;نحتفظ بالبيانات فقط للمدة اللازمة لإتمام الطلبات، ومتابعة الضمان، والالتزام بالمتطلبات الضريبية والنظامية، وتسوية النزاعات.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;روابط الأطراف الثالثة&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;قد يتضمن المتجر روابط لصفحات تتبع شركات الشحن أو منصات التواصل، ويُرجى مراجعة سياسات الخصوصية الخاصة بتلك الجهات عند زيارتها.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;خصوصية الأطفال&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;المتجر غير مخصص لمن هم دون السن القانوني المعمول به، ولا نجمع معلومات شخصية من الأطفال عن علم.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;التحديثات على السياسة&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;قد نحدّث هذه السياسة دورياً لتواكب التطورات التقنية أو النظامية، وتصبح النسخة المحدثة سارية فور نشرها هنا.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;شكراً لثقتك في &lt;strong&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;. خصوصيتك وأمان بياناتك محل اهتمامنا الدائم.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;هل لديك استفسار أو طلب بشأن بياناتك الشخصية؟&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;البريد الإلكتروني:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;الهاتف:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+  </main>
+
+  <div id="toastMsg" class="toast-msg">Copied HTML to clipboard!</div>
+
+  <script>
+    const SNIPPETS = {"privacy": {"en": "<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">Your Privacy. Protected Always.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">At <strong style=\"color: #0d1c2a;\">Zelmiqo<\/strong>, protecting your personal data is central to everything we do. We are committed to handling your personal information securely, responsibly, and transparently across every visit and order.<\/p>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">This Privacy Policy explains what information we collect, why we collect it, how we safeguard it in line with Saudi Personal Data Protection Law (PDPL) principles and international standards, and how you can exercise full control over your data.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>Our Zero-Sale Pledge:<\/strong> Zelmiqo never sells, rents, or trades your personal details to data brokers or third-party telemarketers. By using our website, you agree to the transparent practices outlined here.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;\">Privacy at a glance<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Data Security<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Encrypted &amp; Minimized<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Card Details<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Never Stored on Servers<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Third-Party Sales<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Never Sold or Rented<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Your Control<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Access or Delete via Email<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Information We Collect<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">We collect only the information needed to fulfill your purchases, coordinate courier delivery, and maintain a reliable storefront:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Personal &amp; Order Details<\/h2>\n<ul style=\"list-style: none; padding: 0; margin: 0; color: #0d1c2a;\"><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Full Name<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Email Address<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Phone Number (for courier delivery alerts)<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Billing &amp; Shipping Addresses<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Payment Tokens (processed securely by payment providers)<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Order History &amp; Support Correspondence<\/span><\/li><\/ul>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Automated Technical Data<\/h2>\n<ul style=\"list-style: none; padding: 0; margin: 0; color: #0d1c2a;\"><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>IP Address &amp; Approximate Region<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Browser Type &amp; Version<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Device &amp; Operating System Info<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Website Browsing &amp; Cart Activity<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>Essential Cookies &amp; Similar Technologies<\/span><\/li><\/ul>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">How We Use Your Information<\/h2>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">Your information is used strictly to deliver a safe and tailored shopping experience:<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;\">\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Process and fulfill your orders within our 7&ndash;8 days delivery window<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Verify legitimate transactions and prevent fraud<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Send order confirmations, tracking links, and delivery updates<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Provide responsive customer, warranty, and return support<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Improve website speed, checkout usability, and security<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Comply with applicable tax, e-commerce, and legal obligations<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Send promotional updates only where permitted or with your consent<\/span><\/li>\n<\/ul>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Payment Security &amp; Cookies<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">All transactions are processed via encrypted, trusted third-party payment gateways using industry-standard security protocols.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.25em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>Zero Card Storage:<\/strong> Zelmiqo does not store your full credit card, debit card, or CVV details on our servers.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">Cookies help keep your store session smooth by:<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 8px 16px; color: #0d1c2a;\"><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>Remembering language &amp; currency preferences<\/span><\/li><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>Keeping items saved in your cart<\/span><\/li><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>Optimizing page loading &amp; performance<\/span><\/li><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>Preventing unauthorized account sessions<\/span><\/li><\/ul>\n<p style=\"margin: 12px 0 0; font-size: .92em; color: #0d1c2a; opacity: .82;\">You may disable cookies in your browser settings at any time, though certain storefront or cart features may be affected.<\/p>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Data Protection &amp; Trusted Service Partners<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">We apply technical, administrative, and organizational safeguards to guard your information against unauthorized access or misuse. We share only the necessary details with vetted operational partners solely to complete services on our behalf:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Certified Payment Processors<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">To authorize and protect your online checkout payments.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Shipping &amp; Courier Partners<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">To generate waybills, send tracking alerts, and deliver orders to your address.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Customer Support &amp; Hosting Systems<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">To store order records reliably and assist you rapidly.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Fraud Screening &amp; Legal Compliance<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">To block suspicious activity and satisfy mandatory legal requests when required by law.<\/span><\/div>\n<\/div>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">International Data Processing<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">Because we serve regional and global customers, data may be processed in jurisdictions where our trusted logistics and hosting providers operate.<\/p><p style=\"margin: 0; color: #0d1c2a;\">Wherever processed, we require strict protective safeguards matching this Privacy Policy.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Marketing Communications<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">If you opt in to promotional updates or newsletters, we may share new product releases and seasonal offers.<\/p><p style=\"margin: 0; color: #0d1c2a;\">You may opt out anytime using the unsubscribe link in any promotional email or by emailing <strong>zelmiqo@gmail.com<\/strong>.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Your Privacy Rights &amp; How to Exercise Them<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">Subject to applicable laws in your jurisdiction, you have the right to request:<\/p>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\">Access to the personal information we hold about you.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\">Correction of inaccurate or outdated contact details.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\">Deletion of eligible personal data no longer required for legal retention.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\">Restriction or objection to specific non-essential processing activities.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">5<\/span><span style=\"padding-top: .15em;\">Withdrawal of optional marketing consent at any time.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">6<\/span><span style=\"padding-top: .15em;\">A portable copy of your core account and order information.<\/span><\/li>\n<\/ol>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>How to Submit a Request:<\/strong> Email <strong>zelmiqo@gmail.com<\/strong> with the subject <em>Privacy Request<\/em> and your order or account email. We verify identity to protect your account and respond promptly in accordance with applicable law.<\/p>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Data Retention<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">We retain personal records only as long as needed to fulfill orders, support warranty claims, meet tax\/legal obligations, and resolve disputes.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Third-Party Links<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">Our store may link to external courier tracking portals or social platforms. Please review their independent privacy policies, as we do not control external sites.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Children&rsquo;s Privacy<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">Zelmiqo is not directed toward children below the legal age in their jurisdiction, and we do not knowingly collect data from minors.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Policy Updates<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">We may revise this Privacy Policy periodically to reflect legal or operational updates. All changes take effect once published on this page.<\/p>\n<\/div>\n<\/div>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">Thank you for trusting <strong>Zelmiqo<\/strong>. Your privacy and confidence remain our priority.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">Questions or requests about your personal data?<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">Email:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">Phone:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>", "ar": "<div dir=\"rtl\">\n<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">خصوصيتك.. محمية دائماً.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">في <strong style=\"color: #0d1c2a;\">زيلميكو (Zelmiqo)<\/strong>، تحظى حماية بياناتك الشخصية بأولوية قصوى. نلتزم بالتعامل مع معلوماتك بأعلى معايير الأمان والمسؤولية والشفافية في كل زيارة وكل طلب.<\/p>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">توضح سياسة الخصوصية هذه نوعية البيانات التي نجمعها، وسبب جمعها، وكيفية حمايتها بما ينسجم مع مبادئ نظام حماية البيانات الشخصية في المملكة العربية السعودية والمعايير الدولية، إضافةً إلى طرق ممارسة حقوقك كاملة.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>تعهد عدم بيع البيانات:<\/strong> لا تقوم زيلميكو مطلقاً ببيع أو تأجير أو مشاركة معلوماتك الشخصية مع وسطاء البيانات أو شركات التسويق. وباستخدامك للموقع، فإنك توافق على هذه السياسة الواضحة.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b;\">الخصوصية باختصار<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">حماية البيانات<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">تشفير وتقنين البيانات<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">بيانات البطاقات<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">لا تُخزّن على خوادمنا<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">البيع لطرف ثالث<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">لا تُباع ولا تُؤجّر أبداً<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">تحكمك بالبيانات<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">الاطلاع أو الحذف عبر البريد<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">المعلومات التي نجمعها<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">نجمع فقط الحد الأدنى اللازم من البيانات لتنفيذ طلباتك، وتنسيق التوصيل، وتشغيل المتجر بأمان:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">البيانات الشخصية وبيانات الطلب<\/h2>\n<ul style=\"list-style: none; padding: 0; margin: 0; color: #0d1c2a;\"><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>الاسم الكامل<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>البريد الإلكتروني<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>رقم الهاتف (لتنسيق التوصيل وإشعارات الشحن)<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>عنوان الفوترة وعنوان الشحن<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>معرّفات الدفع (تُعالج بأمان عبر بوابات الدفع المعتمدة)<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>سجل الطلبات ومراسلات الدعم والضمان<\/span><\/li><\/ul>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">البيانات التقنية المجمعة تلقائياً<\/h2>\n<ul style=\"list-style: none; padding: 0; margin: 0; color: #0d1c2a;\"><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>عنوان بروتوكول الإنترنت (IP) والنطاق التقريبي<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>نوع المتصفح وإصداره<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>معلومات الجهاز ونظام التشغيل<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0 0 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>نشاط التصفح وحفظ سلة التسوق<\/span><\/li><li style=\"display: flex; gap: 8px; margin: 0;\"><span style=\"color: #c9a24b; font-weight: bold;\">◆<\/span><span>ملفات تعريف الارتباط الأساسية (Cookies)<\/span><\/li><\/ul>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">كيف نستخدم معلوماتك<\/h2>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">تُستخدم معلوماتك حصراً لتقديم تجربة تسوق آمنة وموثوقة:<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;\">\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>معالجة طلباتك وتنفيذ الشحن خلال 7&ndash;8 أيام<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>التحقق من صحة المعاملات ومنع الأنشطة الاحتيالية<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>إرسال تأكيدات الطلب وروابط التتبع وتحديثات التوصيل<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>تقديم خدمة دعم العملاء وإجراءات الضمان والاستبدال<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>تحسين سرعة الموقع وسلاسة خطوات الدفع<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>الامتثال للالتزامات النظامية والضريبية المعمول بها<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>إرسال العروض الترويجية فقط بموافقتك أو وفق ما يسمح به النظام<\/span><\/li>\n<\/ul>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">أمان المدفوعات وملفات تعريف الارتباط<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">تُعالج جميع المدفوعات عبر مزودي خدمات دفع موثوقين باستخدام أحدث تقنيات التشفير المعتمدة.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.25em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>عدم تخزين بيانات البطاقات:<\/strong> لا تحتفظ زيلميكو بأرقام بطاقاتك الائتمانية أو بطاقات مدى الكاملة أو رموز الأمان السرية على خوادمنا مطلقاً.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">تساعد ملفات تعريف الارتباط على تحسين تجربتك من خلال:<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 8px 16px; color: #0d1c2a;\"><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>حفظ تفضيلات اللغة والعملة<\/span><\/li><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>الإبقاء على المنتجات داخل سلة التسوق<\/span><\/li><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>رفع سرعة الأداء واستقرار الصفحات<\/span><\/li><li style=\"display: flex; gap: 8px;\"><span style=\"color: #c9a24b; font-weight: bold;\">✓<\/span><span>حماية الجلسات ومنع الدخول غير المصرح به<\/span><\/li><\/ul>\n<p style=\"margin: 12px 0 0; font-size: .92em; color: #0d1c2a; opacity: .82;\">يمكنك تعطيل ملفات تعريف الارتباط من إعدادات المتصفح في أي وقت، مع ملاحظة أن ذلك قد يؤثر على بعض وظائف السلة.<\/p>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">حماية البيانات ومشاركتها عند الضرورة<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">نطبق تدابير أمنية وتقنية وإدارية صارمة لحماية بياناتك. ولا نشارك المعلومات إلا بالقدر اللازم مع شركاء تشغيل موثوقين لتنفيذ طلبك فقط:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">مزودو معالجة المدفوعات<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">لتوثيق وتأمين عمليات السداد الإلكتروني.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">شركاء الشحن والخدمات اللوجستية<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">لإصدار بوليصة الشحن وإرسال تحديثات التتبع وتوصيل الطرد.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">أنظمة خدمة العملاء والاستضافة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">لحفظ سجل الطلبات والرد السريع على استفساراتك.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">مكافحة الاحتيال والجهات المختصة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">لرصد المحاولات المشبوهة أو الامتثال للمتطلبات النظامية عند اللزوم.<\/span><\/div>\n<\/div>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">المعالجة الدولية للبيانات<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">نظراً لخدمتنا للعملاء إقليمياً ودولياً، قد تُعالج بعض البيانات عبر خوادم أو شركاء لوجستيين خارج بلدك.<\/p><p style=\"margin: 0; color: #0d1c2a;\">نحرص في جميع الأحوال على تطبيق معايير حماية تتوافق مع سياسة الخصوصية هذه.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الرسائل التسويقية<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">إذا اخترت الاشتراك في النشرات الترويجية، فقد نرسل لك تحديثات عن أحدث الأجهزة والعروض الموسمية.<\/p><p style=\"margin: 0; color: #0d1c2a;\">يمكنك إلغاء الاشتراك في أي وقت عبر رابط الإلغاء في الرسالة أو بمراسلتنا على <strong>zelmiqo@gmail.com<\/strong>.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">حقوق الخصوصية وكيفية ممارستها<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">وفقاً للأنظمة المعمول بها، يحق لك التقدم بطلب لـ:<\/p>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\">الاطلاع على معلوماتك الشخصية المحفوظة لدينا.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\">تصحيح أو تحديث أي بيانات غير دقيقة.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\">طلب حذف البيانات الشخصية التي لم تعد لازمة نظامياً.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\">الاعتراض على أوجه معالجة غير أساسية أو تقييدها.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">5<\/span><span style=\"padding-top: .15em;\">سحب موافقتك على الرسائل الترويجية في أي وقت.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">6<\/span><span style=\"padding-top: .15em;\">طلب نسخة من بيانات حسابك وطلباتك الأساسية.<\/span><\/li>\n<\/ol>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>كيفية تقديم الطلب:<\/strong> أرسل بريداً إلكترونياً إلى <strong>zelmiqo@gmail.com<\/strong> بعنوان <em>طلب خصوصية<\/em> مع توضيح رقم الطلب أو بريد الحساب، وسيتولى فريقنا التحقق من الهوية ومعالجة طلبك بسرعة وفق النظام.<\/p>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الاحتفاظ بالبيانات<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">نحتفظ بالبيانات فقط للمدة اللازمة لإتمام الطلبات، ومتابعة الضمان، والالتزام بالمتطلبات الضريبية والنظامية، وتسوية النزاعات.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">روابط الأطراف الثالثة<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">قد يتضمن المتجر روابط لصفحات تتبع شركات الشحن أو منصات التواصل، ويُرجى مراجعة سياسات الخصوصية الخاصة بتلك الجهات عند زيارتها.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">خصوصية الأطفال<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">المتجر غير مخصص لمن هم دون السن القانوني المعمول به، ولا نجمع معلومات شخصية من الأطفال عن علم.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">التحديثات على السياسة<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">قد نحدّث هذه السياسة دورياً لتواكب التطورات التقنية أو النظامية، وتصبح النسخة المحدثة سارية فور نشرها هنا.<\/p>\n<\/div>\n<\/div>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">شكراً لثقتك في <strong>زيلميكو (Zelmiqo)<\/strong>. خصوصيتك وأمان بياناتك محل اهتمامنا الدائم.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">هل لديك استفسار أو طلب بشأن بياناتك الشخصية؟<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">البريد الإلكتروني:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">الهاتف:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>\n<\/div>"}};
+
+    function switchTab(pageId, target, btn) {
+      const card = document.getElementById("page-" + pageId);
+      card.querySelectorAll(".vtab").forEach(b => b.classList.remove("active"));
+      card.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      const panel = document.getElementById(pageId + "-" + target);
+      if (panel) panel.classList.add("active");
+    }
+
+    function copySnippet(pageId, lang, btn) {
+      const text = SNIPPETS[pageId][lang];
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = lang === "en" ? "✓ Copied English HTML" : "✓ Copied Arabic HTML";
+        showToast((lang === "en" ? "English" : "Arabic") + " HTML copied for FatherShops!");
+        setTimeout(() => { btn.textContent = orig; }, 2200);
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toastMsg");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 2200);
+    }
+  </script>
+</body>
+</html>

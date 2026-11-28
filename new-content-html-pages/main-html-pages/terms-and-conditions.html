@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms & Conditions (الشروط والأحكام) | Zelmiqo® Live Policy UI</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #c9a24b;
+      --cream: #fcfaf7;
+      --bg-light: #f1f5f9;
+      --border: #e2e8f0;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--primary);
+      line-height: 1.55;
+      padding-bottom: 72px;
+    }
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand-title h1 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all .2s;
+    }
+    .hub-link-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .page-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      position: sticky;
+      top: 58px;
+      z-index: 90;
+    }
+    .nav-pill {
+      white-space: nowrap;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--primary);
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all .15s;
+    }
+    .nav-pill:hover,
+    .nav-pill.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .container {
+      max-width: 1120px;
+      margin: 26px auto;
+      padding: 0 20px;
+    }
+    .intro-banner {
+      background: #fff;
+      border: 1px solid rgba(201,162,75,0.45);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .intro-stat-lbl {
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 3px;
+    }
+    .intro-stat-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .intro-stat-sub {
+      font-size: 12.5px;
+      color: #475569;
+    }
+    .policy-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 16px rgba(13,28,42,0.06);
+      scroll-margin-top: 120px;
+    }
+    .policy-card-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 20px;
+      border-bottom: 2px solid var(--gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .policy-title-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .num-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--gold);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      flex: none;
+    }
+    .policy-card-header h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .title-ar {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .live-urls {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+    .live-urls a {
+      color: #eedfc0;
+      text-decoration: none;
+    }
+    .live-urls a:hover {
+      text-decoration: underline;
+    }
+    .card-copy-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .copy-btn {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 7px;
+      padding: 8px 14px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .1s, opacity .2s;
+    }
+    .copy-btn.copy-ar {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+    }
+    .copy-btn:hover {
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+    .audit-strip {
+      background: rgba(201,162,75,0.09);
+      border-bottom: 1px solid rgba(201,162,75,0.28);
+      padding: 12px 20px;
+      font-size: 13px;
+      color: var(--primary);
+    }
+    .audit-strip-label {
+      font-weight: 800;
+      color: #8a691e;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 6px;
+    }
+    .audit-strip ul {
+      padding-left: 18px;
+      display: grid;
+      gap: 4px;
+    }
+    .view-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 20px;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .vtab {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .vtab.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+    .zelmiqo-live-stage {
+      background: var(--cream);
+      padding: 28px 26px;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    .code-view {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      max-height: 460px;
+    }
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: var(--gold);
+      border: 1.5px solid var(--gold);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all .2s;
+      z-index: 999;
+    }
+    .toast-msg.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® Terms & Conditions (الشروط والأحكام)</h1>
+      <span class="brand-badge">EN + AR • Class-Free Inline Theme</span>
+    </div>
+    <div class="header-actions">
+      <a href="policy-pages-live-ui.html" class="hub-link-btn">✨ All 6 Policies UI</a>
+      <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
+      <a href="index.html" class="hub-link-btn">← Back to Master Hub</a>
+    </div>
+  </header>
+
+  <nav class="page-nav-bar">
+    <a href="about-us.html" class="nav-pill">1. About Us</a><a href="delivery-information.html" class="nav-pill">2. Delivery Information</a><a href="privacy-policy.html" class="nav-pill">3. Privacy Policy</a><a href="terms-and-conditions.html" class="nav-pill active">4. Terms & Conditions</a><a href="warranty-policy.html" class="nav-pill">5. Warranty Policy</a><a href="return-and-refund-policy.html" class="nav-pill">6. Return & Refund Policy</a>
+  </nav>
+
+  <main class="container">
+    <div class="intro-banner">
+      <div>
+        <div class="intro-stat-lbl">Theme System</div>
+        <div class="intro-stat-val">#c9a24b Gold &amp; #0d1c2a Navy</div>
+        <div class="intro-stat-sub">Pure inline styles, 0 CSS classes — paste cleanly into FatherShops</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Delivery Standard</div>
+        <div class="intro-stat-val">Strictly 7–8 Days</div>
+        <div class="intro-stat-sub">Removed live 8–10 business days contradiction &amp; sub-7-day hours</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Catalog &amp; Tone Overhaul</div>
+        <div class="intro-stat-val">Electronics-First Copy</div>
+        <div class="intro-stat-sub">Removed apparel leaks ("size/colour", "tags") &amp; punitive warranty penalties</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Unified Support Card</div>
+        <div class="intro-stat-val">zelmiqo@gmail.com</div>
+        <div class="intro-stat-sub">+916359268709 standardized across EN &amp; AR</div>
+      </div>
+    </div>
+
+    <section class="policy-card" id="page-terms">
+        <div class="policy-card-header">
+          <div class="policy-title-group">
+            <span class="num-badge">4</span>
+            <div>
+              <h2>Terms & Conditions <span class="title-ar">(الشروط والأحكام)</span></h2>
+              <div class="live-urls">
+                <span>EN: <a href="https://zelmiqo.com/terms" target="_blank" rel="noopener noreferrer">https://zelmiqo.com/terms ↗</a></span>
+                <span>AR: <a href="https://zelmiqo.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7" target="_blank" rel="noopener noreferrer">/%D8%A7%D9%84%D8%B4%D8%B1%D9%88%D8%B7 ↗</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-copy-actions">
+            <button type="button" class="copy-btn copy-en" onclick="copySnippet('terms', 'en', this)">📋 Copy English HTML</button>
+            <button type="button" class="copy-btn copy-ar" onclick="copySnippet('terms', 'ar', this)">📋 Copy Arabic HTML</button>
+          </div>
+        </div>
+
+        <div class="audit-strip">
+          <div class="audit-strip-label">Senior E-Commerce Copywriter Audit Fixes Applied:</div>
+          <ul><li>Added working clickable cross-links directly to live store routes (/delivery, /return-refund, /warranty and Arabic equivalents).</li><li>Clarified 7–8 days delivery expectation, transparent SAR pricing with 15% VAT where applicable, and accepted payment options.</li><li>Preserved all essential legal protections (IP, limitation of liability, force majeure, pricing error protection) in warm, scannable cards.</li></ul>
+        </div>
+
+        <div class="view-tabs">
+          <button type="button" class="vtab active" onclick="switchTab('terms', 'preview-en', this)">👁️ Preview English (LTR)</button>
+          <button type="button" class="vtab" onclick="switchTab('terms', 'preview-ar', this)">👁️ Preview Arabic (RTL)</button>
+          <button type="button" class="vtab" onclick="switchTab('terms', 'code-en', this)">&lt;/&gt; Raw English HTML</button>
+          <button type="button" class="vtab" onclick="switchTab('terms', 'code-ar', this)">&lt;/&gt; Raw Arabic HTML</button>
+        </div>
+
+        <div class="tab-panel active" id="terms-preview-en">
+          <div class="zelmiqo-live-stage">
+            <h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">Clear Terms. Transparent Shopping.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">Welcome to <strong style="color: #0d1c2a;">Zelmiqo</strong>. These Terms &amp; Conditions govern your access to and use of our online store, smart devices, and customer services.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;">By browsing our store, creating an account, or placing an order, you confirm that you accept these Terms &amp; Conditions, along with our published Privacy, Delivery, Warranty, and Return policies.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;">Terms at a glance</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Eligibility</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Age 18+ or Guardian Consent</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Pricing Clarity</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Displayed Before Checkout</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Delivery Time</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7&ndash;8 Days Delivery</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Returns &amp; Warranty</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7-Day Return &amp; 1-Yr Warranty</strong></div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Acceptance of Terms</h2>
+<p style="margin: 0; color: #0d1c2a;">By using Zelmiqo, you confirm legal capacity to enter into a binding agreement and agree to comply with these Terms &amp; Conditions and related store policies.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Customer Eligibility</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">Orders may be placed by individuals meeting the legal age in their jurisdiction or acting with parental/guardian authorization.</p><p style="margin: 0; color: #0d1c2a;">You agree to provide current, accurate contact and delivery information.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Products, Availability &amp; Pricing</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">We work carefully to display accurate photographs, dimensions, technical specifications, and pricing (in Saudi Riyals SAR or your selected store currency, inclusive of applicable 15% VAT in Saudi Arabia). Slight color variations may occur depending on screen settings, and all items remain subject to real-time stock availability.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>Pricing Error Protection:</strong> Prices and promotional offers may change without prior notice. If an unintentional technical pricing mistake occurs, Zelmiqo reserves the right to cancel the affected order and issue an immediate full refund if payment was collected.</p>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Orders &amp; Payment Authorization</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">Placing an order generates an acknowledgment email confirming receipt. Payment must be completed through our secure checkout methods (Mada, Apple Pay, Visa, Mastercard, Tabby &amp; Tamara, or Cash on Delivery where available).</p>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">We reserve the right to review, limit, or cancel any order when required due to:</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;">
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Item unavailability or unexpected inventory depletion</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Obvious technical pricing or catalog display errors</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Payment gateway authorization failure</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Suspected fraudulent activity or unverified transactions</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Violation of these Terms &amp; Conditions</span></li>
+</ul>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Delivery, Returns &amp; Warranty Links</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Shipping &amp; Delivery</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">Standard orders are delivered within <strong>7&ndash;8 days</strong>, subject to destination access, courier operations, and customs clearance where applicable.</p><p style="margin: 0;"><a href="/delivery" style="color: #c9a24b; font-weight: 600; text-decoration: none;">Review full Delivery Information &rarr;</a></p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Returns, Refunds &amp; Warranty</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">Eligible unused or defective items may be returned within 7 days of delivery, and electronics include 1-year defect coverage under our warranty rules.</p><p style="margin: 0;"><a href="/return-refund" style="color: #c9a24b; font-weight: 600; text-decoration: none;">Return &amp; Refund Policy &rarr;</a> &nbsp;|&nbsp; <a href="/warranty" style="color: #c9a24b; font-weight: 600; text-decoration: none;">Warranty Policy &rarr;</a></p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Customer Responsibilities</h2>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;">Provide truthful, accurate personal contact and shipping address details.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;">Keep your account login credentials confidential and secure.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;">Use the storefront strictly for lawful personal shopping purposes.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;">Refrain from disrupting website security, code, or checkout integrity.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">5</span><span style="padding-top: .15em;">Avoid fraudulent chargebacks, abusive conduct, or unlawful activity.</span></li>
+</ol>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Intellectual Property &amp; Liability</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">All website copy, photography, branding, logos, icons, and software belong to <strong>Zelmiqo</strong> or its licensors and are protected under applicable intellectual property laws. Unauthorized copying or commercial redistribution is prohibited.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>Limitation of Liability:</strong> To the maximum extent permitted by applicable law, Zelmiqo is not liable for indirect, incidental, or consequential damages, and our total liability for any order shall not exceed the purchase price paid for that product.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Third-Party Links &amp; Services</h2>
+<p style="margin: 0; color: #0d1c2a;">External courier or payment portals linked from our site operate independently. Zelmiqo does not control or assume responsibility for third-party content or terms.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Account Integrity</h2>
+<p style="margin: 0; color: #0d1c2a;">We may suspend or close accounts without prior notice if we detect fraudulent transactions, abusive behavior, or violations of these Terms.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Force Majeure</h2>
+<p style="margin: 0; color: #0d1c2a;">Zelmiqo is not liable for delays caused by events outside reasonable control, including natural disasters, severe weather, carrier disruptions, or government actions.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Updates &amp; Governing Laws</h2>
+<p style="margin: 0; color: #0d1c2a;">Updated Terms take effect upon posting on this page and are governed by applicable consumer and e-commerce regulations relevant to your transaction.</p>
+</div>
+</div>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">Thank you for shopping with <strong>Zelmiqo</strong>. We value your trust and stand behind every order.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">Questions regarding these Terms &amp; Conditions?</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">Email:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">Phone:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="terms-preview-ar">
+          <div class="zelmiqo-live-stage">
+            <div dir="rtl">
+<h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">شروط واضحة. تجربة تسوق موثوقة.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">أهلاً بك في <strong style="color: #0d1c2a;">زيلميكو (Zelmiqo)</strong>. تنظم هذه الشروط والأحكام استخدامك لمتجرنا الإلكتروني ومنتجاتنا وخدمات ما بعد البيع.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;">بتصفحك المتجر أو إنشاء حساب أو إتمام أي طلب، فإنك تقر بموافقتك على هذه الشروط والأحكام، إلى جانب سياسات الخصوصية والتوصيل والضمان والاسترجاع المنشورة.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;">الشروط باختصار</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">الأهلية</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">18 عاماً فأكثر أو موافقة ولي الأمر</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">شفافية الأسعار</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">شاملة التفاصيل قبل السداد</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">مدة التوصيل</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7&ndash;8 أيام للتسليم</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">حماية الطلب</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">استرجاع 7 أيام وضمان سنة</strong></div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">قبول الشروط</h2>
+<p style="margin: 0; color: #0d1c2a;">باستخدامك لمتجر زيلميكو، فإنك تقر بتمتعك بالأهلية القانونية الكاملة لإبرام العقود وتوافق على الالتزام بهذه الشروط وسياسات المتجر المعمول بها.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">أهلية العميل</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">يُشترط للطلب استيفاء السن القانوني المعتمد في بلدك أو وجود موافقة من ولي الأمر أو الوصي القانوني.</p><p style="margin: 0; color: #0d1c2a;">كما تلتزم بتقديم بيانات اتصال وتوصيل صحيحة ومحدثة.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">المنتجات، التوفر، والأسعار</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">نحرص على عرض صور ومواصفات فنية دقيقة وأسعار واضحة (بالريال السعودي شامل ضريبة القيمة المضافة 15% في السعودية أو حسب العملة المختارة). وقد تختلف درجة الألوان بشكل طفيف تبعاً لإعدادات شاشتك، وتخضع جميع المنتجات لتوفر المخزون الفعلي.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>حماية أخطاء التسعير:</strong> يحق لنا تحديث الأسعار والعروض الترويجية في أي وقت، وفي حال ظهور خطأ تقني غير مقصود في السعر، يحق لزيلميكو إلغاء الطلب المتأثر وإعادة كامل المبلغ المدفوع فوراً.</p>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الطلبات وتوثيق المدفوعات</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">يصلك بريد إلكتروني لتأكيد استلام الطلب عند إتمامه، ويجب سداد القيمة عبر بوابات الدفع المعتمدة في صفحة الدفع (مدى، أبل باي، فيزا، ماستركارد، تابي وتمارا، أو الدفع عند الاستلام عند توفره).</p>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">يحتفظ المتجر بحق مراجعة أو تقييد أو إلغاء أي طلب في الحالات التالية:</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;">
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>نفاد المخزون أو عدم توفر المنتج فعلياً</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>أخطاء تقنية أو مطبعية واضحة في السعر أو الوصف</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>تعذر تفويض عملية الدفع من البنك أو مزود الخدمة</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>الاشتباه في نشاط احتيالي أو طلب غير موثق</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>مخالفة هذه الشروط والأحكام</span></li>
+</ul>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">روابط التوصيل والإرجاع والضمان</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الشحن والتوصيل</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">يستغرق التوصيل القياسي <strong>7&ndash;8 أيام</strong>، تبعاً للوجهة وإجراءات شركات الشحن والتخليص الجمركي عند الاقتضاء.</p><p style="margin: 0;"><a href="/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84" style="color: #c9a24b; font-weight: 600; text-decoration: none;">الاطلاع على معلومات الشحن والتوصيل &larr;</a></p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الإرجاع والضمان</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">تخضع طلبات الإرجاع خلال 7 أيام من الاستلام وضمان الأجهزة لمدة عام للأحكام المفصلة في صفحات السياسات.</p><p style="margin: 0;"><a href="/return-refund-ar" style="color: #c9a24b; font-weight: 600; text-decoration: none;">سياسة الإرجاع والاسترداد &larr;</a> &nbsp;|&nbsp; <a href="/warranty-ar" style="color: #c9a24b; font-weight: 600; text-decoration: none;">سياسة الضمان &larr;</a></p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">مسؤوليات العميل</h2>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;">تقديم بيانات شخصية وعنوان توصيل صحيحين ومكتملين.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;">الحفاظ على سرية بيانات الدخول الخاصة بحسابك.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;">استخدام المتجر للأغراض الشخصية المشروعة فقط.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;">عدم محاولة تعطيل أمن الموقع أو التلاعب بآليات الطلب.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">5</span><span style="padding-top: .15em;">الامتناع عن أي ممارسات احتيالية أو غير قانونية.</span></li>
+</ol>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الملكية الفكرية وحدود المسؤولية</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">كافة النصوص والصور والشعارات والتصاميم والبرمجيات مملوكة حصرياً لـ <strong style="color: #0d1c2a;">زيلميكو (Zelmiqo)</strong> أو الجهات المرخصة لها، ومحمية بموجب أنظمة الملكية الفكرية، ويُحظر نسخها أو إعادة استخدامها دون إذن كتابي مسبق.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>حدود المسؤولية:</strong> إلى أقصى حد يسمح به النظام، لا تتحمل زيلميكو المسؤولية عن أي أضرار غير مباشرة أو تبعية، ولا يتجاوز سقف مسؤوليتنا الكلي قيمة المنتج المدفوعة في الطلب.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">روابط الجهات الخارجية</h2>
+<p style="margin: 0; color: #0d1c2a;">قد يحتوي الموقع على روابط لبوابات الدفع أو شركات الشحن الخارجية، وهي تخضع لسياسات تلك الجهات ولا نتحمل مسؤولية محتواها.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">سلامة الحسابات</h2>
+<p style="margin: 0; color: #0d1c2a;">نحتفظ بحق تعليق أو إنهاء الحسابات المخالفة لهذه الشروط أو عند رصد محاولات احتيال أو إساءة استخدام.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">القوة القاهرة</h2>
+<p style="margin: 0; color: #0d1c2a;">لا نتحمل مسؤولية أي تأخير ناتج عن ظروف قاهرة خارجة عن السيطرة كالكوارث الطبيعية أو توقف المواصلات أو القرارات التنظيمية.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">التعديلات والقانون الواجب التطبيق</h2>
+<p style="margin: 0; color: #0d1c2a;">تسري أي تعديلات فور نشرها على هذه الصفحة، وتُفسر الشروط وفق الأنظمة التجارية المعمول بها ونطاق المعاملة.</p>
+</div>
+</div>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">شكراً لاختيارك <strong>زيلميكو (Zelmiqo)</strong>. نعتز بثقتك ونتطلع لخدمتك بأفضل جودة.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">هل لديك استفسار حول الشروط والأحكام؟</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">البريد الإلكتروني:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">الهاتف:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="terms-code-en">
+          <pre class="code-view"><code>&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;Clear Terms. Transparent Shopping.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;Welcome to &lt;strong style="color: #0d1c2a;"&gt;Zelmiqo&lt;/strong&gt;. These Terms &amp;amp; Conditions govern your access to and use of our online store, smart devices, and customer services.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;By browsing our store, creating an account, or placing an order, you confirm that you accept these Terms &amp;amp; Conditions, along with our published Privacy, Delivery, Warranty, and Return policies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;"&gt;Terms at a glance&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Eligibility&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Age 18+ or Guardian Consent&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Pricing Clarity&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Displayed Before Checkout&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Delivery Time&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7&amp;ndash;8 Days Delivery&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Returns &amp;amp; Warranty&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7-Day Return &amp;amp; 1-Yr Warranty&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Acceptance of Terms&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;By using Zelmiqo, you confirm legal capacity to enter into a binding agreement and agree to comply with these Terms &amp;amp; Conditions and related store policies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Customer Eligibility&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;Orders may be placed by individuals meeting the legal age in their jurisdiction or acting with parental/guardian authorization.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;You agree to provide current, accurate contact and delivery information.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Products, Availability &amp;amp; Pricing&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;We work carefully to display accurate photographs, dimensions, technical specifications, and pricing (in Saudi Riyals SAR or your selected store currency, inclusive of applicable 15% VAT in Saudi Arabia). Slight color variations may occur depending on screen settings, and all items remain subject to real-time stock availability.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;Pricing Error Protection:&lt;/strong&gt; Prices and promotional offers may change without prior notice. If an unintentional technical pricing mistake occurs, Zelmiqo reserves the right to cancel the affected order and issue an immediate full refund if payment was collected.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Orders &amp;amp; Payment Authorization&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;Placing an order generates an acknowledgment email confirming receipt. Payment must be completed through our secure checkout methods (Mada, Apple Pay, Visa, Mastercard, Tabby &amp;amp; Tamara, or Cash on Delivery where available).&lt;/p&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;We reserve the right to review, limit, or cancel any order when required due to:&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Item unavailability or unexpected inventory depletion&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Obvious technical pricing or catalog display errors&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Payment gateway authorization failure&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Suspected fraudulent activity or unverified transactions&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Violation of these Terms &amp;amp; Conditions&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Delivery, Returns &amp;amp; Warranty Links&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Shipping &amp;amp; Delivery&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;Standard orders are delivered within &lt;strong&gt;7&amp;ndash;8 days&lt;/strong&gt;, subject to destination access, courier operations, and customs clearance where applicable.&lt;/p&gt;&lt;p style="margin: 0;"&gt;&lt;a href="/delivery" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;Review full Delivery Information &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Returns, Refunds &amp;amp; Warranty&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;Eligible unused or defective items may be returned within 7 days of delivery, and electronics include 1-year defect coverage under our warranty rules.&lt;/p&gt;&lt;p style="margin: 0;"&gt;&lt;a href="/return-refund" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;Return &amp;amp; Refund Policy &amp;rarr;&lt;/a&gt; &amp;nbsp;|&amp;nbsp; &lt;a href="/warranty" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;Warranty Policy &amp;rarr;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Customer Responsibilities&lt;/h2&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Provide truthful, accurate personal contact and shipping address details.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Keep your account login credentials confidential and secure.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Use the storefront strictly for lawful personal shopping purposes.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Refrain from disrupting website security, code, or checkout integrity.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;5&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;Avoid fraudulent chargebacks, abusive conduct, or unlawful activity.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Intellectual Property &amp;amp; Liability&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;All website copy, photography, branding, logos, icons, and software belong to &lt;strong&gt;Zelmiqo&lt;/strong&gt; or its licensors and are protected under applicable intellectual property laws. Unauthorized copying or commercial redistribution is prohibited.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;Limitation of Liability:&lt;/strong&gt; To the maximum extent permitted by applicable law, Zelmiqo is not liable for indirect, incidental, or consequential damages, and our total liability for any order shall not exceed the purchase price paid for that product.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Third-Party Links &amp;amp; Services&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;External courier or payment portals linked from our site operate independently. Zelmiqo does not control or assume responsibility for third-party content or terms.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Account Integrity&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;We may suspend or close accounts without prior notice if we detect fraudulent transactions, abusive behavior, or violations of these Terms.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Force Majeure&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Zelmiqo is not liable for delays caused by events outside reasonable control, including natural disasters, severe weather, carrier disruptions, or government actions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Updates &amp;amp; Governing Laws&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Updated Terms take effect upon posting on this page and are governed by applicable consumer and e-commerce regulations relevant to your transaction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Thank you for shopping with &lt;strong&gt;Zelmiqo&lt;/strong&gt;. We value your trust and stand behind every order.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;Questions regarding these Terms &amp;amp; Conditions?&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Email:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Phone:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+
+        <div class="tab-panel" id="terms-code-ar">
+          <pre class="code-view"><code>&lt;div dir="rtl"&gt;
+&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;شروط واضحة. تجربة تسوق موثوقة.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;أهلاً بك في &lt;strong style="color: #0d1c2a;"&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;. تنظم هذه الشروط والأحكام استخدامك لمتجرنا الإلكتروني ومنتجاتنا وخدمات ما بعد البيع.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;بتصفحك المتجر أو إنشاء حساب أو إتمام أي طلب، فإنك تقر بموافقتك على هذه الشروط والأحكام، إلى جانب سياسات الخصوصية والتوصيل والضمان والاسترجاع المنشورة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;"&gt;الشروط باختصار&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;الأهلية&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;18 عاماً فأكثر أو موافقة ولي الأمر&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;شفافية الأسعار&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;شاملة التفاصيل قبل السداد&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;مدة التوصيل&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7&amp;ndash;8 أيام للتسليم&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;حماية الطلب&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;استرجاع 7 أيام وضمان سنة&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;قبول الشروط&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;باستخدامك لمتجر زيلميكو، فإنك تقر بتمتعك بالأهلية القانونية الكاملة لإبرام العقود وتوافق على الالتزام بهذه الشروط وسياسات المتجر المعمول بها.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;أهلية العميل&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;يُشترط للطلب استيفاء السن القانوني المعتمد في بلدك أو وجود موافقة من ولي الأمر أو الوصي القانوني.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;كما تلتزم بتقديم بيانات اتصال وتوصيل صحيحة ومحدثة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;المنتجات، التوفر، والأسعار&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;نحرص على عرض صور ومواصفات فنية دقيقة وأسعار واضحة (بالريال السعودي شامل ضريبة القيمة المضافة 15% في السعودية أو حسب العملة المختارة). وقد تختلف درجة الألوان بشكل طفيف تبعاً لإعدادات شاشتك، وتخضع جميع المنتجات لتوفر المخزون الفعلي.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;حماية أخطاء التسعير:&lt;/strong&gt; يحق لنا تحديث الأسعار والعروض الترويجية في أي وقت، وفي حال ظهور خطأ تقني غير مقصود في السعر، يحق لزيلميكو إلغاء الطلب المتأثر وإعادة كامل المبلغ المدفوع فوراً.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الطلبات وتوثيق المدفوعات&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;يصلك بريد إلكتروني لتأكيد استلام الطلب عند إتمامه، ويجب سداد القيمة عبر بوابات الدفع المعتمدة في صفحة الدفع (مدى، أبل باي، فيزا، ماستركارد، تابي وتمارا، أو الدفع عند الاستلام عند توفره).&lt;/p&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;يحتفظ المتجر بحق مراجعة أو تقييد أو إلغاء أي طلب في الحالات التالية:&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;نفاد المخزون أو عدم توفر المنتج فعلياً&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;أخطاء تقنية أو مطبعية واضحة في السعر أو الوصف&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;تعذر تفويض عملية الدفع من البنك أو مزود الخدمة&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;الاشتباه في نشاط احتيالي أو طلب غير موثق&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;مخالفة هذه الشروط والأحكام&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;روابط التوصيل والإرجاع والضمان&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الشحن والتوصيل&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;يستغرق التوصيل القياسي &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;، تبعاً للوجهة وإجراءات شركات الشحن والتخليص الجمركي عند الاقتضاء.&lt;/p&gt;&lt;p style="margin: 0;"&gt;&lt;a href="/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;الاطلاع على معلومات الشحن والتوصيل &amp;larr;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الإرجاع والضمان&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;تخضع طلبات الإرجاع خلال 7 أيام من الاستلام وضمان الأجهزة لمدة عام للأحكام المفصلة في صفحات السياسات.&lt;/p&gt;&lt;p style="margin: 0;"&gt;&lt;a href="/return-refund-ar" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;سياسة الإرجاع والاسترداد &amp;larr;&lt;/a&gt; &amp;nbsp;|&amp;nbsp; &lt;a href="/warranty-ar" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;سياسة الضمان &amp;larr;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;مسؤوليات العميل&lt;/h2&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;تقديم بيانات شخصية وعنوان توصيل صحيحين ومكتملين.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;الحفاظ على سرية بيانات الدخول الخاصة بحسابك.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;استخدام المتجر للأغراض الشخصية المشروعة فقط.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;عدم محاولة تعطيل أمن الموقع أو التلاعب بآليات الطلب.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;5&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;الامتناع عن أي ممارسات احتيالية أو غير قانونية.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الملكية الفكرية وحدود المسؤولية&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;كافة النصوص والصور والشعارات والتصاميم والبرمجيات مملوكة حصرياً لـ &lt;strong style="color: #0d1c2a;"&gt;زيلميكو (Zelmiqo)&lt;/strong&gt; أو الجهات المرخصة لها، ومحمية بموجب أنظمة الملكية الفكرية، ويُحظر نسخها أو إعادة استخدامها دون إذن كتابي مسبق.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;حدود المسؤولية:&lt;/strong&gt; إلى أقصى حد يسمح به النظام، لا تتحمل زيلميكو المسؤولية عن أي أضرار غير مباشرة أو تبعية، ولا يتجاوز سقف مسؤوليتنا الكلي قيمة المنتج المدفوعة في الطلب.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;روابط الجهات الخارجية&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;قد يحتوي الموقع على روابط لبوابات الدفع أو شركات الشحن الخارجية، وهي تخضع لسياسات تلك الجهات ولا نتحمل مسؤولية محتواها.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;سلامة الحسابات&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;نحتفظ بحق تعليق أو إنهاء الحسابات المخالفة لهذه الشروط أو عند رصد محاولات احتيال أو إساءة استخدام.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;القوة القاهرة&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;لا نتحمل مسؤولية أي تأخير ناتج عن ظروف قاهرة خارجة عن السيطرة كالكوارث الطبيعية أو توقف المواصلات أو القرارات التنظيمية.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;التعديلات والقانون الواجب التطبيق&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;تسري أي تعديلات فور نشرها على هذه الصفحة، وتُفسر الشروط وفق الأنظمة التجارية المعمول بها ونطاق المعاملة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;شكراً لاختيارك &lt;strong&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;. نعتز بثقتك ونتطلع لخدمتك بأفضل جودة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;هل لديك استفسار حول الشروط والأحكام؟&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;البريد الإلكتروني:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;الهاتف:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+  </main>
+
+  <div id="toastMsg" class="toast-msg">Copied HTML to clipboard!</div>
+
+  <script>
+    const SNIPPETS = {"terms": {"en": "<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">Clear Terms. Transparent Shopping.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">Welcome to <strong style=\"color: #0d1c2a;\">Zelmiqo<\/strong>. These Terms &amp; Conditions govern your access to and use of our online store, smart devices, and customer services.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">By browsing our store, creating an account, or placing an order, you confirm that you accept these Terms &amp; Conditions, along with our published Privacy, Delivery, Warranty, and Return policies.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;\">Terms at a glance<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Eligibility<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Age 18+ or Guardian Consent<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Pricing Clarity<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Displayed Before Checkout<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Delivery Time<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7&ndash;8 Days Delivery<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Returns &amp; Warranty<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7-Day Return &amp; 1-Yr Warranty<\/strong><\/div>\n<\/div>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Acceptance of Terms<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">By using Zelmiqo, you confirm legal capacity to enter into a binding agreement and agree to comply with these Terms &amp; Conditions and related store policies.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Customer Eligibility<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">Orders may be placed by individuals meeting the legal age in their jurisdiction or acting with parental\/guardian authorization.<\/p><p style=\"margin: 0; color: #0d1c2a;\">You agree to provide current, accurate contact and delivery information.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Products, Availability &amp; Pricing<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">We work carefully to display accurate photographs, dimensions, technical specifications, and pricing (in Saudi Riyals SAR or your selected store currency, inclusive of applicable 15% VAT in Saudi Arabia). Slight color variations may occur depending on screen settings, and all items remain subject to real-time stock availability.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>Pricing Error Protection:<\/strong> Prices and promotional offers may change without prior notice. If an unintentional technical pricing mistake occurs, Zelmiqo reserves the right to cancel the affected order and issue an immediate full refund if payment was collected.<\/p>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Orders &amp; Payment Authorization<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">Placing an order generates an acknowledgment email confirming receipt. Payment must be completed through our secure checkout methods (Mada, Apple Pay, Visa, Mastercard, Tabby &amp; Tamara, or Cash on Delivery where available).<\/p>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">We reserve the right to review, limit, or cancel any order when required due to:<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;\">\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Item unavailability or unexpected inventory depletion<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Obvious technical pricing or catalog display errors<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Payment gateway authorization failure<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Suspected fraudulent activity or unverified transactions<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Violation of these Terms &amp; Conditions<\/span><\/li>\n<\/ul>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Delivery, Returns &amp; Warranty Links<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Shipping &amp; Delivery<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">Standard orders are delivered within <strong>7&ndash;8 days<\/strong>, subject to destination access, courier operations, and customs clearance where applicable.<\/p><p style=\"margin: 0;\"><a href=\"\/delivery\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">Review full Delivery Information &rarr;<\/a><\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Returns, Refunds &amp; Warranty<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">Eligible unused or defective items may be returned within 7 days of delivery, and electronics include 1-year defect coverage under our warranty rules.<\/p><p style=\"margin: 0;\"><a href=\"\/return-refund\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">Return &amp; Refund Policy &rarr;<\/a> &nbsp;|&nbsp; <a href=\"\/warranty\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">Warranty Policy &rarr;<\/a><\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Customer Responsibilities<\/h2>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\">Provide truthful, accurate personal contact and shipping address details.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\">Keep your account login credentials confidential and secure.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\">Use the storefront strictly for lawful personal shopping purposes.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\">Refrain from disrupting website security, code, or checkout integrity.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">5<\/span><span style=\"padding-top: .15em;\">Avoid fraudulent chargebacks, abusive conduct, or unlawful activity.<\/span><\/li>\n<\/ol>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Intellectual Property &amp; Liability<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">All website copy, photography, branding, logos, icons, and software belong to <strong>Zelmiqo<\/strong> or its licensors and are protected under applicable intellectual property laws. Unauthorized copying or commercial redistribution is prohibited.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>Limitation of Liability:<\/strong> To the maximum extent permitted by applicable law, Zelmiqo is not liable for indirect, incidental, or consequential damages, and our total liability for any order shall not exceed the purchase price paid for that product.<\/p>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Third-Party Links &amp; Services<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">External courier or payment portals linked from our site operate independently. Zelmiqo does not control or assume responsibility for third-party content or terms.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Account Integrity<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">We may suspend or close accounts without prior notice if we detect fraudulent transactions, abusive behavior, or violations of these Terms.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Force Majeure<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">Zelmiqo is not liable for delays caused by events outside reasonable control, including natural disasters, severe weather, carrier disruptions, or government actions.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Updates &amp; Governing Laws<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">Updated Terms take effect upon posting on this page and are governed by applicable consumer and e-commerce regulations relevant to your transaction.<\/p>\n<\/div>\n<\/div>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">Thank you for shopping with <strong>Zelmiqo<\/strong>. We value your trust and stand behind every order.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">Questions regarding these Terms &amp; Conditions?<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">Email:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">Phone:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>", "ar": "<div dir=\"rtl\">\n<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">شروط واضحة. تجربة تسوق موثوقة.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">أهلاً بك في <strong style=\"color: #0d1c2a;\">زيلميكو (Zelmiqo)<\/strong>. تنظم هذه الشروط والأحكام استخدامك لمتجرنا الإلكتروني ومنتجاتنا وخدمات ما بعد البيع.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">بتصفحك المتجر أو إنشاء حساب أو إتمام أي طلب، فإنك تقر بموافقتك على هذه الشروط والأحكام، إلى جانب سياسات الخصوصية والتوصيل والضمان والاسترجاع المنشورة.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b;\">الشروط باختصار<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">الأهلية<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">18 عاماً فأكثر أو موافقة ولي الأمر<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">شفافية الأسعار<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">شاملة التفاصيل قبل السداد<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">مدة التوصيل<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7&ndash;8 أيام للتسليم<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">حماية الطلب<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">استرجاع 7 أيام وضمان سنة<\/strong><\/div>\n<\/div>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">قبول الشروط<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">باستخدامك لمتجر زيلميكو، فإنك تقر بتمتعك بالأهلية القانونية الكاملة لإبرام العقود وتوافق على الالتزام بهذه الشروط وسياسات المتجر المعمول بها.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">أهلية العميل<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">يُشترط للطلب استيفاء السن القانوني المعتمد في بلدك أو وجود موافقة من ولي الأمر أو الوصي القانوني.<\/p><p style=\"margin: 0; color: #0d1c2a;\">كما تلتزم بتقديم بيانات اتصال وتوصيل صحيحة ومحدثة.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">المنتجات، التوفر، والأسعار<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">نحرص على عرض صور ومواصفات فنية دقيقة وأسعار واضحة (بالريال السعودي شامل ضريبة القيمة المضافة 15% في السعودية أو حسب العملة المختارة). وقد تختلف درجة الألوان بشكل طفيف تبعاً لإعدادات شاشتك، وتخضع جميع المنتجات لتوفر المخزون الفعلي.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>حماية أخطاء التسعير:<\/strong> يحق لنا تحديث الأسعار والعروض الترويجية في أي وقت، وفي حال ظهور خطأ تقني غير مقصود في السعر، يحق لزيلميكو إلغاء الطلب المتأثر وإعادة كامل المبلغ المدفوع فوراً.<\/p>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الطلبات وتوثيق المدفوعات<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">يصلك بريد إلكتروني لتأكيد استلام الطلب عند إتمامه، ويجب سداد القيمة عبر بوابات الدفع المعتمدة في صفحة الدفع (مدى، أبل باي، فيزا، ماستركارد، تابي وتمارا، أو الدفع عند الاستلام عند توفره).<\/p>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">يحتفظ المتجر بحق مراجعة أو تقييد أو إلغاء أي طلب في الحالات التالية:<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;\">\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>نفاد المخزون أو عدم توفر المنتج فعلياً<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>أخطاء تقنية أو مطبعية واضحة في السعر أو الوصف<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>تعذر تفويض عملية الدفع من البنك أو مزود الخدمة<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>الاشتباه في نشاط احتيالي أو طلب غير موثق<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>مخالفة هذه الشروط والأحكام<\/span><\/li>\n<\/ul>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">روابط التوصيل والإرجاع والضمان<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الشحن والتوصيل<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">يستغرق التوصيل القياسي <strong>7&ndash;8 أيام<\/strong>، تبعاً للوجهة وإجراءات شركات الشحن والتخليص الجمركي عند الاقتضاء.<\/p><p style=\"margin: 0;\"><a href=\"\/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">الاطلاع على معلومات الشحن والتوصيل &larr;<\/a><\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الإرجاع والضمان<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">تخضع طلبات الإرجاع خلال 7 أيام من الاستلام وضمان الأجهزة لمدة عام للأحكام المفصلة في صفحات السياسات.<\/p><p style=\"margin: 0;\"><a href=\"\/return-refund-ar\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">سياسة الإرجاع والاسترداد &larr;<\/a> &nbsp;|&nbsp; <a href=\"\/warranty-ar\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">سياسة الضمان &larr;<\/a><\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">مسؤوليات العميل<\/h2>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\">تقديم بيانات شخصية وعنوان توصيل صحيحين ومكتملين.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\">الحفاظ على سرية بيانات الدخول الخاصة بحسابك.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\">استخدام المتجر للأغراض الشخصية المشروعة فقط.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\">عدم محاولة تعطيل أمن الموقع أو التلاعب بآليات الطلب.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">5<\/span><span style=\"padding-top: .15em;\">الامتناع عن أي ممارسات احتيالية أو غير قانونية.<\/span><\/li>\n<\/ol>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الملكية الفكرية وحدود المسؤولية<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">كافة النصوص والصور والشعارات والتصاميم والبرمجيات مملوكة حصرياً لـ <strong style=\"color: #0d1c2a;\">زيلميكو (Zelmiqo)<\/strong> أو الجهات المرخصة لها، ومحمية بموجب أنظمة الملكية الفكرية، ويُحظر نسخها أو إعادة استخدامها دون إذن كتابي مسبق.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>حدود المسؤولية:<\/strong> إلى أقصى حد يسمح به النظام، لا تتحمل زيلميكو المسؤولية عن أي أضرار غير مباشرة أو تبعية، ولا يتجاوز سقف مسؤوليتنا الكلي قيمة المنتج المدفوعة في الطلب.<\/p>\n<\/div>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">روابط الجهات الخارجية<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">قد يحتوي الموقع على روابط لبوابات الدفع أو شركات الشحن الخارجية، وهي تخضع لسياسات تلك الجهات ولا نتحمل مسؤولية محتواها.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">سلامة الحسابات<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">نحتفظ بحق تعليق أو إنهاء الحسابات المخالفة لهذه الشروط أو عند رصد محاولات احتيال أو إساءة استخدام.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">القوة القاهرة<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">لا نتحمل مسؤولية أي تأخير ناتج عن ظروف قاهرة خارجة عن السيطرة كالكوارث الطبيعية أو توقف المواصلات أو القرارات التنظيمية.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">التعديلات والقانون الواجب التطبيق<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">تسري أي تعديلات فور نشرها على هذه الصفحة، وتُفسر الشروط وفق الأنظمة التجارية المعمول بها ونطاق المعاملة.<\/p>\n<\/div>\n<\/div>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">شكراً لاختيارك <strong>زيلميكو (Zelmiqo)<\/strong>. نعتز بثقتك ونتطلع لخدمتك بأفضل جودة.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">هل لديك استفسار حول الشروط والأحكام؟<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">البريد الإلكتروني:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">الهاتف:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>\n<\/div>"}};
+
+    function switchTab(pageId, target, btn) {
+      const card = document.getElementById("page-" + pageId);
+      card.querySelectorAll(".vtab").forEach(b => b.classList.remove("active"));
+      card.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      const panel = document.getElementById(pageId + "-" + target);
+      if (panel) panel.classList.add("active");
+    }
+
+    function copySnippet(pageId, lang, btn) {
+      const text = SNIPPETS[pageId][lang];
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = lang === "en" ? "✓ Copied English HTML" : "✓ Copied Arabic HTML";
+        showToast((lang === "en" ? "English" : "Arabic") + " HTML copied for FatherShops!");
+        setTimeout(() => { btn.textContent = orig; }, 2200);
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toastMsg");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 2200);
+    }
+  </script>
+</body>
+</html>

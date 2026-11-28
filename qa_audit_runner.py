@@ -13,9 +13,25 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PAGES_DIR = os.path.join(BASE_DIR, 'new-content-html-pages')
 ASSETS_DIR = os.path.join(PAGES_DIR, 'assets')
 
+POLICY_UI_SPECS = [
+    (os.path.join('main-html-pages', 'about-us.html'), 'page-about'),
+    (os.path.join('main-html-pages', 'delivery-information.html'), 'page-delivery'),
+    (os.path.join('main-html-pages', 'privacy-policy.html'), 'page-privacy'),
+    (os.path.join('main-html-pages', 'terms-and-conditions.html'), 'page-terms'),
+    (os.path.join('main-html-pages', 'warranty-policy.html'), 'page-warranty'),
+    (os.path.join('main-html-pages', 'return-and-refund-policy.html'), 'page-return-refund'),
+]
+POLICY_UI_PAGES = [p for p, _ in POLICY_UI_SPECS] + [os.path.join('main-html-pages', 'policy-pages-live-ui.html')]
+
 REQUIRED_PAGES = [
     os.path.join('main-html-pages', 'home.html'),
     os.path.join('main-html-pages', 'catalog.html'),
+    os.path.join('main-html-pages', 'about-us.html'),
+    os.path.join('main-html-pages', 'delivery-information.html'),
+    os.path.join('main-html-pages', 'privacy-policy.html'),
+    os.path.join('main-html-pages', 'terms-and-conditions.html'),
+    os.path.join('main-html-pages', 'warranty-policy.html'),
+    os.path.join('main-html-pages', 'return-and-refund-policy.html'),
     os.path.join('main-html-pages', 'policy-pages-live-ui.html'),
     os.path.join('main-html-pages', 'contact-us.html'),
     os.path.join('main-html-pages', 'blogs-and-articles.html'),
@@ -241,12 +257,24 @@ def test_4_number_alignment_and_callout_matching():
         res.fail(f"{policy_ui_rel}: missing unified policy section ids {missing_sec}")
     else:
         res.pass_msg(f"{policy_ui_rel:30}: 6 unified live EN+AR policy sections verified ({', '.join(expected_sections)})")
+
+    for p_rel, sec_id in POLICY_UI_SPECS:
+        p_path = os.path.join(PAGES_DIR, p_rel)
+        with open(p_path, 'r', encoding='utf-8') as f:
+            p_html = f.read()
+        has_sec = f'id="{sec_id}"' in p_html
+        has_fns = all(fn in p_html for fn in ('function switchTab(', 'function copySnippet(', 'const SNIPPETS ='))
+        vtabs = len(re.findall(r'class="vtab', p_html))
+        if not has_sec or not has_fns or vtabs != 4:
+            res.fail(f"{p_rel}: invalid policy UI structure (sec={has_sec}, fns={has_fns}, vtabs={vtabs})")
+        else:
+            res.pass_msg(f"{p_rel:38}: standalone EN+AR Policy UI verified (#{sec_id}, {vtabs} tabs)")
     return res
 
 def get_workstation_pages():
     index_rel = os.path.join('main-html-pages', 'index.html')
-    policy_rel = os.path.join('main-html-pages', 'policy-pages-live-ui.html')
-    return [p for p in REQUIRED_PAGES if p not in (index_rel, 'all-pages.html', policy_rel)]
+    excluded = {index_rel, 'all-pages.html'} | set(POLICY_UI_PAGES)
+    return [p for p in REQUIRED_PAGES if p not in excluded]
 
 def test_5_interactive_elements_and_copy_functions():
     res = TestResult("5. Interactive Workstation Functionality & Copy Buttons")
@@ -357,8 +385,7 @@ def test_7_hub_and_inter_page_navigation():
     else:
         res.pass_msg("all-pages.html has link to main-html-pages/index.html")
 
-    workstation_pages = get_workstation_pages()
-    for p in workstation_pages:
+    for p in get_workstation_pages() + POLICY_UI_PAGES:
         p_posix = p.replace(os.sep, '/')
         if p_posix.startswith('main-html-pages/'):
             expected_href_in_index = p_posix.replace('main-html-pages/', '', 1)

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warranty Policy (سياسة الضمان) | Zelmiqo® Live Policy UI</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #c9a24b;
+      --cream: #fcfaf7;
+      --bg-light: #f1f5f9;
+      --border: #e2e8f0;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--primary);
+      line-height: 1.55;
+      padding-bottom: 72px;
+    }
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand-title h1 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all .2s;
+    }
+    .hub-link-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .page-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      position: sticky;
+      top: 58px;
+      z-index: 90;
+    }
+    .nav-pill {
+      white-space: nowrap;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--primary);
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all .15s;
+    }
+    .nav-pill:hover,
+    .nav-pill.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .container {
+      max-width: 1120px;
+      margin: 26px auto;
+      padding: 0 20px;
+    }
+    .intro-banner {
+      background: #fff;
+      border: 1px solid rgba(201,162,75,0.45);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .intro-stat-lbl {
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 3px;
+    }
+    .intro-stat-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .intro-stat-sub {
+      font-size: 12.5px;
+      color: #475569;
+    }
+    .policy-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 16px rgba(13,28,42,0.06);
+      scroll-margin-top: 120px;
+    }
+    .policy-card-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 20px;
+      border-bottom: 2px solid var(--gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .policy-title-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .num-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--gold);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      flex: none;
+    }
+    .policy-card-header h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .title-ar {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .live-urls {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+    .live-urls a {
+      color: #eedfc0;
+      text-decoration: none;
+    }
+    .live-urls a:hover {
+      text-decoration: underline;
+    }
+    .card-copy-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .copy-btn {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 7px;
+      padding: 8px 14px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .1s, opacity .2s;
+    }
+    .copy-btn.copy-ar {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+    }
+    .copy-btn:hover {
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+    .audit-strip {
+      background: rgba(201,162,75,0.09);
+      border-bottom: 1px solid rgba(201,162,75,0.28);
+      padding: 12px 20px;
+      font-size: 13px;
+      color: var(--primary);
+    }
+    .audit-strip-label {
+      font-weight: 800;
+      color: #8a691e;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 6px;
+    }
+    .audit-strip ul {
+      padding-left: 18px;
+      display: grid;
+      gap: 4px;
+    }
+    .view-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 20px;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .vtab {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .vtab.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+    .zelmiqo-live-stage {
+      background: var(--cream);
+      padding: 28px 26px;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    .code-view {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      max-height: 460px;
+    }
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: var(--gold);
+      border: 1.5px solid var(--gold);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all .2s;
+      z-index: 999;
+    }
+    .toast-msg.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® Warranty Policy (سياسة الضمان)</h1>
+      <span class="brand-badge">EN + AR • Class-Free Inline Theme</span>
+    </div>
+    <div class="header-actions">
+      <a href="policy-pages-live-ui.html" class="hub-link-btn">✨ All 6 Policies UI</a>
+      <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
+      <a href="index.html" class="hub-link-btn">← Back to Master Hub</a>
+    </div>
+  </header>
+
+  <nav class="page-nav-bar">
+    <a href="about-us.html" class="nav-pill">1. About Us</a><a href="delivery-information.html" class="nav-pill">2. Delivery Information</a><a href="privacy-policy.html" class="nav-pill">3. Privacy Policy</a><a href="terms-and-conditions.html" class="nav-pill">4. Terms & Conditions</a><a href="warranty-policy.html" class="nav-pill active">5. Warranty Policy</a><a href="return-and-refund-policy.html" class="nav-pill">6. Return & Refund Policy</a>
+  </nav>
+
+  <main class="container">
+    <div class="intro-banner">
+      <div>
+        <div class="intro-stat-lbl">Theme System</div>
+        <div class="intro-stat-val">#c9a24b Gold &amp; #0d1c2a Navy</div>
+        <div class="intro-stat-sub">Pure inline styles, 0 CSS classes — paste cleanly into FatherShops</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Delivery Standard</div>
+        <div class="intro-stat-val">Strictly 7–8 Days</div>
+        <div class="intro-stat-sub">Removed live 8–10 business days contradiction &amp; sub-7-day hours</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Catalog &amp; Tone Overhaul</div>
+        <div class="intro-stat-val">Electronics-First Copy</div>
+        <div class="intro-stat-sub">Removed apparel leaks ("size/colour", "tags") &amp; punitive warranty penalties</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Unified Support Card</div>
+        <div class="intro-stat-val">zelmiqo@gmail.com</div>
+        <div class="intro-stat-sub">+916359268709 standardized across EN &amp; AR</div>
+      </div>
+    </div>
+
+    <section class="policy-card" id="page-warranty">
+        <div class="policy-card-header">
+          <div class="policy-title-group">
+            <span class="num-badge">5</span>
+            <div>
+              <h2>Warranty Policy <span class="title-ar">(سياسة الضمان)</span></h2>
+              <div class="live-urls">
+                <span>EN: <a href="https://zelmiqo.com/warranty" target="_blank" rel="noopener noreferrer">https://zelmiqo.com/warranty ↗</a></span>
+                <span>AR: <a href="https://zelmiqo.com/warranty-ar" target="_blank" rel="noopener noreferrer">/warranty-ar ↗</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-copy-actions">
+            <button type="button" class="copy-btn copy-en" onclick="copySnippet('warranty', 'en', this)">📋 Copy English HTML</button>
+            <button type="button" class="copy-btn copy-ar" onclick="copySnippet('warranty', 'ar', this)">📋 Copy Arabic HTML</button>
+          </div>
+        </div>
+
+        <div class="audit-strip">
+          <div class="audit-strip-label">Senior E-Commerce Copywriter Audit Fixes Applied:</div>
+          <ul><li>FIXED TIMELINE CONTRADICTIONS: Reconciled '4 to 7 business days' vs '15 working days' vs 'does not include repair timelines' into a consistent Within 7 Business Days technical inspection.</li><li>REMOVED HOSTILE CLAUSES: Eliminated the 5%/month (up to 80%) depreciation deduction and 'lose all rights after 7 days storage' forfeiture threats.</li><li>Consolidated 3x repeated packaging disclaimers into one clear guideline, updated exclusions to dark-navy badges, and flagged lowercase live H1 'Warranty policy'.</li></ul>
+        </div>
+
+        <div class="view-tabs">
+          <button type="button" class="vtab active" onclick="switchTab('warranty', 'preview-en', this)">👁️ Preview English (LTR)</button>
+          <button type="button" class="vtab" onclick="switchTab('warranty', 'preview-ar', this)">👁️ Preview Arabic (RTL)</button>
+          <button type="button" class="vtab" onclick="switchTab('warranty', 'code-en', this)">&lt;/&gt; Raw English HTML</button>
+          <button type="button" class="vtab" onclick="switchTab('warranty', 'code-ar', this)">&lt;/&gt; Raw Arabic HTML</button>
+        </div>
+
+        <div class="tab-panel active" id="warranty-preview-en">
+          <div class="zelmiqo-live-stage">
+            <h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">Comprehensive Warranty Protection. Zero Hassle.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">At <strong style="color: #0d1c2a;">Zelmiqo</strong>, our commitment continues long after checkout. Every electronic gadget, wearable cooler, percussion massager, charger, and car appliance we sell is built for durable everyday performance.</p>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">This Warranty Policy applies across Saudi Arabia, the UAE, and supported Gulf regions, giving you straightforward technical inspection, honest timelines, and fair repair or replacement support without punitive depreciation penalties.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>The Zelmiqo Warranty Promise:</strong> Eligible electronic products carry our <strong>1-Year Official Hardware Warranty</strong> against manufacturing defects, alongside our <strong>7-Day Replacement Guarantee</strong> for out-of-the-box issues.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;">Warranty at a glance</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Warranty Coverage</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">1-Year Hardware Warranty</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Early Defects</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7-Day Replacement Guarantee</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Technical Inspection</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Within 7 Business Days</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Approved Return Freight</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Free on Verified Defects</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">What Our Warranty Covers</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">Our warranty protects verified hardware and workmanship issues under normal household or personal use:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Internal Electronics &amp; Charging Coils</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Verified malfunction in Qi wireless coils (such as 3-in-1 charging docks), USB-C power controllers, and motherboards.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Motors, Fans &amp; Compression Pumps</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Abnormal motor stoppage or mechanical failure in bladeless neck fans, fascia massage guns, mini coolers, and cordless car vacuums.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Batteries &amp; Power Holding</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Rechargeable batteries that fail to accept charge or lose normal operating stability shortly after purchase under standard charging.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Digital Displays &amp; Touch Sensors</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Faulty LED battery indicators, non-responsive touch controls, or temperature sensor malfunctions.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">What Is Not Covered</h2>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 12px; font-weight: bold; color: #0d1c2a;">Warranty coverage excludes damages caused by external accidents, misuse, or improper handling:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 12px;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Physical Drops &amp; Impact</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Cracked casings, broken blades, crushed housings, or shattered screens from drops or heavy pressure.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Water or Liquid Damage</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Submersion in liquid or moisture entering motors, ports, or vents on non-waterproof electronics.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Unauthorized Repair or Modification</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Devices opened, dismantled, or altered by unauthorized third parties or fitted with non-original parts.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Incorrect Chargers &amp; Power Surges</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Damage resulting from incompatible industrial high-voltage adapters exceeding manufacturer specifications.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Normal Cosmetic Wear</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Routine surface scratches, silicone softening, or minor aging that does not affect core performance.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Consumables &amp; Lost Accessories</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Detachable sponge heads, filters, or cables damaged through routine wear.</span></div>
+</div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Simple 4-Step Warranty Claim Process</h2>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;"><strong>Submit Proof &amp; Order Number:</strong> Email <strong>zelmiqo@gmail.com</strong> with your order number, serial details (if applicable), and a brief photo or short video demonstrating the issue.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;"><strong>Pack Safely in Protective Boxing:</strong> Place the device with original accessories and cables in its box or sturdy padded packaging so it travels safely during transit.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;"><strong>Technical Evaluation Within 7 Business Days:</strong> Once received at our service center, technicians inspect the unit within <strong>7 business days</strong> to verify eligibility.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;"><strong>Repair, Replacement &amp; 7&ndash;8 Days Return Delivery:</strong> Approved claims receive a repair or replacement unit dispatched back via tracked delivery arriving in <strong>7&ndash;8 days</strong>.</span></li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Packaging &amp; Inspection Eligibility</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">Please ensure products sent for warranty inspection are properly cushioned to prevent transit breakage. Items found ineligible after testing will be returned cleanly without repair fees, and we inform you beforehand if any paid non-warranty service option is available.</p><p style="margin: 0; color: #0d1c2a;">Valid claims require proof of purchase within the active warranty period.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Service Delivery &amp; Coordination</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">Technical inspection typically finishes within <strong>7 business days</strong> of receipt (transit time in each direction follows our standard <strong>7&ndash;8 days</strong> shipping window).</p><p style="margin: 0; color: #0d1c2a;">If a serviced or replacement item cannot be delivered on the first courier visit, our support desk contacts you promptly via phone or email to arrange convenient redelivery.</p>
+</div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">Helpful Warranty Reminders</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;">
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Warranty applies strictly to genuine products purchased directly through Zelmiqo within supported countries.</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Serviced or replacement units are delivered within the same supported country or region of original purchase.</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>Always review the included manual and use standard certified 5V/2A or rated charging adapters for longevity.</span></li>
+</ul>
+</div>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">Thank you for choosing <strong>Zelmiqo</strong>. Every device is backed by fair, transparent after-sales protection.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">Need help starting a warranty claim or checking inspection status?</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">Email:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">Phone:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="warranty-preview-ar">
+          <div class="zelmiqo-live-stage">
+            <div dir="rtl">
+<h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">حماية شاملة للضمان. راحة بال حقيقية.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">في <strong style="color: #0d1c2a;">زيلميكو (Zelmiqo)</strong>، لا ينتهي اهتمامنا عند تسليم الطلب. جميع أجهزتنا الإلكترونية ومراوح التبريد وأجهزة المساج والشواحن ومستلزمات السيارة صُممت لتمنحك أداءً موثوقاً يدوم طويلاً.</p>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">تسري سياسة الضمان هذه في المملكة العربية السعودية والإمارات ودول الخليج المدعومة، وتوفر لك فحصاً فنياً واضحاً ومواعيد عادلة للإصلاح أو الاستبدال دون خصومات استهلاك مجحفة.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>التزام الضمان من زيلميكو:</strong> تشمل الأجهزة الإلكترونية المؤهلة <strong>ضماناً رسمياً لمدة عام كامل (12 شهراً)</strong> ضد العيوب المصنعية، إلى جانب <strong>الضمان الذهبي للاستبدال خلال 7 أيام</strong> للأعطال المبكرة.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;">الضمان باختصار</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">مدة الضمان</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">عام كامل على الأجهزة</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">الأعطال عند الاستلام</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">ضمان استبدال 7 أيام</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">مدة الفحص الفني</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">خلال 7 أيام عمل</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">شحن الضمان المعتمد</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">مجاني للعيوب المصنعية</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">ما يغطيه الضمان</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">يغطي ضماننا العيوب المصنعية المؤكدة في المكونات الأساسية ضمن الاستخدام المنزلي والشخصي الطبيعي:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الدوائر الداخلية وملفات الشحن</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">الأعطال المصنعية في ملفات الشحن اللاسلكي Qi (مثل منصات 3 في 1) ومنظمات الطاقة واللوحات الداخلية.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">المحركات والمراوح ومضخات الشفط</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">توقف المحركات أو ضعف العزم غير الطبيعي في مراوح الرقبة، مسدسات المساج، المبردات المصغرة، ومكانس السيارة.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">البطاريات ونظام الشحن</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">البطاريات القابلة للشحن التي تتوقف عن قبول الشحن أو تفقد استقرارها في ظروف الشحن القياسية.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الشاشات الرقمية وحساسات اللمس</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">أعطال شاشات LED الرقمية، توقف أزرار اللمس، أو خلل قراءات الحساسات الداخلية.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">الحالات المستثناة من الضمان</h2>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 12px; font-weight: bold; color: #0d1c2a;">لا يشمل الضمان الأعطال الناتجة عن الحوادث الخارجية أو سوء الاستخدام:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 12px;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">السقوط والكسر والصدمات</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">كسر الهيكل الخارجي أو الشاشات أو تلف الأجزاء الداخلية بسبب الصدمات القوية.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">التلف الناتج عن السوائل</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">غمر الأجهزة غير المقاومة للماء في السوائل أو تسرب الرطوبة إلى المنافذ والمحرك.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الصيانة الخارجية أو التعديل</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">فتح الجهاز أو تعديله خارج القنوات المعتمدة أو تركيب قطع غير أصلية.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الشواحن غير المطابقة وارتفاع الجهد</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">التلف الناتج عن استخدام شواحن صناعية بجهد كهربائي يتجاوز المواصفات المعتمدة للجهاز.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الاستهلاك المظهري الطبيعي</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">الخدوش السطحية البسيطة أو تغير اللون التدريجي مع الاستخدام اليومي.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;">✕</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">القطع الاستهلاكية والملحقات</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">الفلاتر أو الوسادات الإسفنجية أو الكابلات التالفة نتيجة الاستخدام المتكرر.</span></div>
+</div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">خطوات تقديم طلب الضمان (4 خطوات بسيطة)</h2>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;"><strong>إرسال إثبات الشراء وتفاصيل المشكلة:</strong> راسلنا على <strong>zelmiqo@gmail.com</strong> مع رقم الطلب وصورة أو فيديو قصير يوضح الخلل.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;"><strong>التغليف الآمن للشحن:</strong> ضع الجهاز مع كابلاته وملحقاته في علبته الأصلية أو تغليف مبطن محكم لحمايته أثناء النقل.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;"><strong>الفحص الفني خلال 7 أيام عمل:</strong> فور وصول الجهاز لمركز الفحص، يقوم الفنيون بالتحقق من العيب خلال <strong>7 أيام عمل</strong>.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;"><strong>الإصلاح أو الاستبدال والشحن خلال 7&ndash;8 أيام:</strong> تُعتمد الطلبات المؤهلة لإرسال جهاز سليم أو بديل يصلك عبر شحن متتبع خلال <strong>7&ndash;8 أيام</strong>.</span></li>
+</ol>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">سلامة التغليف وأهلية الفحص</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">يُرجى تغليف المنتج جيداً قبل تسليمه للناقل لتفادي أي تلف أثناء النقل. وفي حال تبين بعد الفحص أن العطل خارج تغطية الضمان، نعيد لك الجهاز دون أي رسوم فحص مخفية مع توضيح خيارات الإصلاح إن وجدت.</p><p style="margin: 0; color: #0d1c2a;">يُشترط تقديم ما يثبت الشراء ساري المفعول ضمن فترة الضمان.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">مواعيد الخدمة والتنسيق</h2>
+<p style="margin: 0 0 .75em; color: #0d1c2a;">يُنجز الفحص الفني عادة خلال <strong>7 أيام عمل</strong> من الاستلام (بينما يتبع شحن الذهاب والعودة معيار التوصيل <strong>7&ndash;8 أيام</strong>).</p><p style="margin: 0; color: #0d1c2a;">وفي حال تعذر تسليم الجهاز بعد الصيانة أو الاستبدال، يتواصل فريق الدعم معك هاتفياً أو عبر البريد لتنسيق موعد تسليم بديل مريح.</p>
+</div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;">ملاحظات هامة للعناية بالضمان</p>
+<ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;">
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>يسري الضمان حصرياً على المنتجات الأصلية المشتراة من متجر زيلميكو ضمن الدول المدعومة.</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>تُشحن الأجهزة المستبدلة أو المصلحة داخل نفس الدولة أو المنطقة التي تم فيها الشراء الأساسي.</span></li>
+<li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"><span style="color: #c9a24b; flex: none;">◆</span><span>يُنصح بقراءة كتيب الإرشادات واستخدام شواحن قياسية مطابقة للجهد المحدد (مثل 5V/2A) للحفاظ على عمر البطارية.</span></li>
+</ul>
+</div>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">شكراً لاختيارك <strong>زيلميكو (Zelmiqo)</strong>. نضمن لك خدمة ما بعد بيع عادلة وواضحة بكل ثقة.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">هل تحتاج للمساعدة في طلب ضمان أو متابعة حالة الفحص؟</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">البريد الإلكتروني:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">الهاتف:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="warranty-code-en">
+          <pre class="code-view"><code>&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;Comprehensive Warranty Protection. Zero Hassle.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;At &lt;strong style="color: #0d1c2a;"&gt;Zelmiqo&lt;/strong&gt;, our commitment continues long after checkout. Every electronic gadget, wearable cooler, percussion massager, charger, and car appliance we sell is built for durable everyday performance.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;This Warranty Policy applies across Saudi Arabia, the UAE, and supported Gulf regions, giving you straightforward technical inspection, honest timelines, and fair repair or replacement support without punitive depreciation penalties.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;The Zelmiqo Warranty Promise:&lt;/strong&gt; Eligible electronic products carry our &lt;strong&gt;1-Year Official Hardware Warranty&lt;/strong&gt; against manufacturing defects, alongside our &lt;strong&gt;7-Day Replacement Guarantee&lt;/strong&gt; for out-of-the-box issues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;"&gt;Warranty at a glance&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Warranty Coverage&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;1-Year Hardware Warranty&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Early Defects&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7-Day Replacement Guarantee&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Technical Inspection&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Within 7 Business Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Approved Return Freight&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Free on Verified Defects&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;What Our Warranty Covers&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;Our warranty protects verified hardware and workmanship issues under normal household or personal use:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Internal Electronics &amp;amp; Charging Coils&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Verified malfunction in Qi wireless coils (such as 3-in-1 charging docks), USB-C power controllers, and motherboards.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Motors, Fans &amp;amp; Compression Pumps&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Abnormal motor stoppage or mechanical failure in bladeless neck fans, fascia massage guns, mini coolers, and cordless car vacuums.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Batteries &amp;amp; Power Holding&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Rechargeable batteries that fail to accept charge or lose normal operating stability shortly after purchase under standard charging.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Digital Displays &amp;amp; Touch Sensors&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Faulty LED battery indicators, non-responsive touch controls, or temperature sensor malfunctions.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;What Is Not Covered&lt;/h2&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 12px; font-weight: bold; color: #0d1c2a;"&gt;Warranty coverage excludes damages caused by external accidents, misuse, or improper handling:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 12px;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Physical Drops &amp;amp; Impact&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Cracked casings, broken blades, crushed housings, or shattered screens from drops or heavy pressure.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Water or Liquid Damage&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Submersion in liquid or moisture entering motors, ports, or vents on non-waterproof electronics.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Unauthorized Repair or Modification&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Devices opened, dismantled, or altered by unauthorized third parties or fitted with non-original parts.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Incorrect Chargers &amp;amp; Power Surges&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Damage resulting from incompatible industrial high-voltage adapters exceeding manufacturer specifications.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Normal Cosmetic Wear&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Routine surface scratches, silicone softening, or minor aging that does not affect core performance.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Consumables &amp;amp; Lost Accessories&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Detachable sponge heads, filters, or cables damaged through routine wear.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Simple 4-Step Warranty Claim Process&lt;/h2&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Submit Proof &amp;amp; Order Number:&lt;/strong&gt; Email &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt; with your order number, serial details (if applicable), and a brief photo or short video demonstrating the issue.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Pack Safely in Protective Boxing:&lt;/strong&gt; Place the device with original accessories and cables in its box or sturdy padded packaging so it travels safely during transit.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Technical Evaluation Within 7 Business Days:&lt;/strong&gt; Once received at our service center, technicians inspect the unit within &lt;strong&gt;7 business days&lt;/strong&gt; to verify eligibility.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Repair, Replacement &amp;amp; 7&amp;ndash;8 Days Return Delivery:&lt;/strong&gt; Approved claims receive a repair or replacement unit dispatched back via tracked delivery arriving in &lt;strong&gt;7&amp;ndash;8 days&lt;/strong&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Packaging &amp;amp; Inspection Eligibility&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;Please ensure products sent for warranty inspection are properly cushioned to prevent transit breakage. Items found ineligible after testing will be returned cleanly without repair fees, and we inform you beforehand if any paid non-warranty service option is available.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;Valid claims require proof of purchase within the active warranty period.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Service Delivery &amp;amp; Coordination&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;Technical inspection typically finishes within &lt;strong&gt;7 business days&lt;/strong&gt; of receipt (transit time in each direction follows our standard &lt;strong&gt;7&amp;ndash;8 days&lt;/strong&gt; shipping window).&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;If a serviced or replacement item cannot be delivered on the first courier visit, our support desk contacts you promptly via phone or email to arrange convenient redelivery.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;Helpful Warranty Reminders&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Warranty applies strictly to genuine products purchased directly through Zelmiqo within supported countries.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Serviced or replacement units are delivered within the same supported country or region of original purchase.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;Always review the included manual and use standard certified 5V/2A or rated charging adapters for longevity.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Thank you for choosing &lt;strong&gt;Zelmiqo&lt;/strong&gt;. Every device is backed by fair, transparent after-sales protection.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;Need help starting a warranty claim or checking inspection status?&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Email:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Phone:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+
+        <div class="tab-panel" id="warranty-code-ar">
+          <pre class="code-view"><code>&lt;div dir="rtl"&gt;
+&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;حماية شاملة للضمان. راحة بال حقيقية.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;في &lt;strong style="color: #0d1c2a;"&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;، لا ينتهي اهتمامنا عند تسليم الطلب. جميع أجهزتنا الإلكترونية ومراوح التبريد وأجهزة المساج والشواحن ومستلزمات السيارة صُممت لتمنحك أداءً موثوقاً يدوم طويلاً.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;تسري سياسة الضمان هذه في المملكة العربية السعودية والإمارات ودول الخليج المدعومة، وتوفر لك فحصاً فنياً واضحاً ومواعيد عادلة للإصلاح أو الاستبدال دون خصومات استهلاك مجحفة.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;التزام الضمان من زيلميكو:&lt;/strong&gt; تشمل الأجهزة الإلكترونية المؤهلة &lt;strong&gt;ضماناً رسمياً لمدة عام كامل (12 شهراً)&lt;/strong&gt; ضد العيوب المصنعية، إلى جانب &lt;strong&gt;الضمان الذهبي للاستبدال خلال 7 أيام&lt;/strong&gt; للأعطال المبكرة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;"&gt;الضمان باختصار&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;مدة الضمان&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;عام كامل على الأجهزة&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;الأعطال عند الاستلام&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;ضمان استبدال 7 أيام&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;مدة الفحص الفني&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;خلال 7 أيام عمل&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;شحن الضمان المعتمد&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;مجاني للعيوب المصنعية&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;ما يغطيه الضمان&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;يغطي ضماننا العيوب المصنعية المؤكدة في المكونات الأساسية ضمن الاستخدام المنزلي والشخصي الطبيعي:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الدوائر الداخلية وملفات الشحن&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;الأعطال المصنعية في ملفات الشحن اللاسلكي Qi (مثل منصات 3 في 1) ومنظمات الطاقة واللوحات الداخلية.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;المحركات والمراوح ومضخات الشفط&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;توقف المحركات أو ضعف العزم غير الطبيعي في مراوح الرقبة، مسدسات المساج، المبردات المصغرة، ومكانس السيارة.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;البطاريات ونظام الشحن&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;البطاريات القابلة للشحن التي تتوقف عن قبول الشحن أو تفقد استقرارها في ظروف الشحن القياسية.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الشاشات الرقمية وحساسات اللمس&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;أعطال شاشات LED الرقمية، توقف أزرار اللمس، أو خلل قراءات الحساسات الداخلية.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;الحالات المستثناة من الضمان&lt;/h2&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 12px; font-weight: bold; color: #0d1c2a;"&gt;لا يشمل الضمان الأعطال الناتجة عن الحوادث الخارجية أو سوء الاستخدام:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 12px;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;السقوط والكسر والصدمات&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;كسر الهيكل الخارجي أو الشاشات أو تلف الأجزاء الداخلية بسبب الصدمات القوية.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;التلف الناتج عن السوائل&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;غمر الأجهزة غير المقاومة للماء في السوائل أو تسرب الرطوبة إلى المنافذ والمحرك.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الصيانة الخارجية أو التعديل&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;فتح الجهاز أو تعديله خارج القنوات المعتمدة أو تركيب قطع غير أصلية.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الشواحن غير المطابقة وارتفاع الجهد&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;التلف الناتج عن استخدام شواحن صناعية بجهد كهربائي يتجاوز المواصفات المعتمدة للجهاز.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الاستهلاك المظهري الطبيعي&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;الخدوش السطحية البسيطة أو تغير اللون التدريجي مع الاستخدام اليومي.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;"&gt;✕&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;القطع الاستهلاكية والملحقات&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;الفلاتر أو الوسادات الإسفنجية أو الكابلات التالفة نتيجة الاستخدام المتكرر.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;خطوات تقديم طلب الضمان (4 خطوات بسيطة)&lt;/h2&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;إرسال إثبات الشراء وتفاصيل المشكلة:&lt;/strong&gt; راسلنا على &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt; مع رقم الطلب وصورة أو فيديو قصير يوضح الخلل.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;التغليف الآمن للشحن:&lt;/strong&gt; ضع الجهاز مع كابلاته وملحقاته في علبته الأصلية أو تغليف مبطن محكم لحمايته أثناء النقل.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;الفحص الفني خلال 7 أيام عمل:&lt;/strong&gt; فور وصول الجهاز لمركز الفحص، يقوم الفنيون بالتحقق من العيب خلال &lt;strong&gt;7 أيام عمل&lt;/strong&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;الإصلاح أو الاستبدال والشحن خلال 7&amp;ndash;8 أيام:&lt;/strong&gt; تُعتمد الطلبات المؤهلة لإرسال جهاز سليم أو بديل يصلك عبر شحن متتبع خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;سلامة التغليف وأهلية الفحص&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;يُرجى تغليف المنتج جيداً قبل تسليمه للناقل لتفادي أي تلف أثناء النقل. وفي حال تبين بعد الفحص أن العطل خارج تغطية الضمان، نعيد لك الجهاز دون أي رسوم فحص مخفية مع توضيح خيارات الإصلاح إن وجدت.&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;يُشترط تقديم ما يثبت الشراء ساري المفعول ضمن فترة الضمان.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;مواعيد الخدمة والتنسيق&lt;/h2&gt;
+&lt;p style="margin: 0 0 .75em; color: #0d1c2a;"&gt;يُنجز الفحص الفني عادة خلال &lt;strong&gt;7 أيام عمل&lt;/strong&gt; من الاستلام (بينما يتبع شحن الذهاب والعودة معيار التوصيل &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;).&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;وفي حال تعذر تسليم الجهاز بعد الصيانة أو الاستبدال، يتواصل فريق الدعم معك هاتفياً أو عبر البريد لتنسيق موعد تسليم بديل مريح.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #0d1c2a;"&gt;ملاحظات هامة للعناية بالضمان&lt;/p&gt;
+&lt;ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;يسري الضمان حصرياً على المنتجات الأصلية المشتراة من متجر زيلميكو ضمن الدول المدعومة.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;تُشحن الأجهزة المستبدلة أو المصلحة داخل نفس الدولة أو المنطقة التي تم فيها الشراء الأساسي.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; align-items: flex-start; gap: 8px; font-weight: 600;"&gt;&lt;span style="color: #c9a24b; flex: none;"&gt;◆&lt;/span&gt;&lt;span&gt;يُنصح بقراءة كتيب الإرشادات واستخدام شواحن قياسية مطابقة للجهد المحدد (مثل 5V/2A) للحفاظ على عمر البطارية.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;شكراً لاختيارك &lt;strong&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;. نضمن لك خدمة ما بعد بيع عادلة وواضحة بكل ثقة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;هل تحتاج للمساعدة في طلب ضمان أو متابعة حالة الفحص؟&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;البريد الإلكتروني:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;الهاتف:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+  </main>
+
+  <div id="toastMsg" class="toast-msg">Copied HTML to clipboard!</div>
+
+  <script>
+    const SNIPPETS = {"warranty": {"en": "<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">Comprehensive Warranty Protection. Zero Hassle.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">At <strong style=\"color: #0d1c2a;\">Zelmiqo<\/strong>, our commitment continues long after checkout. Every electronic gadget, wearable cooler, percussion massager, charger, and car appliance we sell is built for durable everyday performance.<\/p>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">This Warranty Policy applies across Saudi Arabia, the UAE, and supported Gulf regions, giving you straightforward technical inspection, honest timelines, and fair repair or replacement support without punitive depreciation penalties.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>The Zelmiqo Warranty Promise:<\/strong> Eligible electronic products carry our <strong>1-Year Official Hardware Warranty<\/strong> against manufacturing defects, alongside our <strong>7-Day Replacement Guarantee<\/strong> for out-of-the-box issues.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;\">Warranty at a glance<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Warranty Coverage<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">1-Year Hardware Warranty<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Early Defects<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7-Day Replacement Guarantee<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Technical Inspection<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Within 7 Business Days<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Approved Return Freight<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Free on Verified Defects<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">What Our Warranty Covers<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">Our warranty protects verified hardware and workmanship issues under normal household or personal use:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Internal Electronics &amp; Charging Coils<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Verified malfunction in Qi wireless coils (such as 3-in-1 charging docks), USB-C power controllers, and motherboards.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Motors, Fans &amp; Compression Pumps<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Abnormal motor stoppage or mechanical failure in bladeless neck fans, fascia massage guns, mini coolers, and cordless car vacuums.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Batteries &amp; Power Holding<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Rechargeable batteries that fail to accept charge or lose normal operating stability shortly after purchase under standard charging.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Digital Displays &amp; Touch Sensors<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Faulty LED battery indicators, non-responsive touch controls, or temperature sensor malfunctions.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">What Is Not Covered<\/h2>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 12px; font-weight: bold; color: #0d1c2a;\">Warranty coverage excludes damages caused by external accidents, misuse, or improper handling:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 12px;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Physical Drops &amp; Impact<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Cracked casings, broken blades, crushed housings, or shattered screens from drops or heavy pressure.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Water or Liquid Damage<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Submersion in liquid or moisture entering motors, ports, or vents on non-waterproof electronics.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Unauthorized Repair or Modification<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Devices opened, dismantled, or altered by unauthorized third parties or fitted with non-original parts.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Incorrect Chargers &amp; Power Surges<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Damage resulting from incompatible industrial high-voltage adapters exceeding manufacturer specifications.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Normal Cosmetic Wear<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Routine surface scratches, silicone softening, or minor aging that does not affect core performance.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Consumables &amp; Lost Accessories<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Detachable sponge heads, filters, or cables damaged through routine wear.<\/span><\/div>\n<\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Simple 4-Step Warranty Claim Process<\/h2>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\"><strong>Submit Proof &amp; Order Number:<\/strong> Email <strong>zelmiqo@gmail.com<\/strong> with your order number, serial details (if applicable), and a brief photo or short video demonstrating the issue.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\"><strong>Pack Safely in Protective Boxing:<\/strong> Place the device with original accessories and cables in its box or sturdy padded packaging so it travels safely during transit.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\"><strong>Technical Evaluation Within 7 Business Days:<\/strong> Once received at our service center, technicians inspect the unit within <strong>7 business days<\/strong> to verify eligibility.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\"><strong>Repair, Replacement &amp; 7&ndash;8 Days Return Delivery:<\/strong> Approved claims receive a repair or replacement unit dispatched back via tracked delivery arriving in <strong>7&ndash;8 days<\/strong>.<\/span><\/li>\n<\/ol>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Packaging &amp; Inspection Eligibility<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">Please ensure products sent for warranty inspection are properly cushioned to prevent transit breakage. Items found ineligible after testing will be returned cleanly without repair fees, and we inform you beforehand if any paid non-warranty service option is available.<\/p><p style=\"margin: 0; color: #0d1c2a;\">Valid claims require proof of purchase within the active warranty period.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Service Delivery &amp; Coordination<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">Technical inspection typically finishes within <strong>7 business days<\/strong> of receipt (transit time in each direction follows our standard <strong>7&ndash;8 days<\/strong> shipping window).<\/p><p style=\"margin: 0; color: #0d1c2a;\">If a serviced or replacement item cannot be delivered on the first courier visit, our support desk contacts you promptly via phone or email to arrange convenient redelivery.<\/p>\n<\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">Helpful Warranty Reminders<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;\">\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Warranty applies strictly to genuine products purchased directly through Zelmiqo within supported countries.<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Serviced or replacement units are delivered within the same supported country or region of original purchase.<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>Always review the included manual and use standard certified 5V\/2A or rated charging adapters for longevity.<\/span><\/li>\n<\/ul>\n<\/div>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">Thank you for choosing <strong>Zelmiqo<\/strong>. Every device is backed by fair, transparent after-sales protection.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">Need help starting a warranty claim or checking inspection status?<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">Email:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">Phone:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>", "ar": "<div dir=\"rtl\">\n<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">حماية شاملة للضمان. راحة بال حقيقية.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">في <strong style=\"color: #0d1c2a;\">زيلميكو (Zelmiqo)<\/strong>، لا ينتهي اهتمامنا عند تسليم الطلب. جميع أجهزتنا الإلكترونية ومراوح التبريد وأجهزة المساج والشواحن ومستلزمات السيارة صُممت لتمنحك أداءً موثوقاً يدوم طويلاً.<\/p>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">تسري سياسة الضمان هذه في المملكة العربية السعودية والإمارات ودول الخليج المدعومة، وتوفر لك فحصاً فنياً واضحاً ومواعيد عادلة للإصلاح أو الاستبدال دون خصومات استهلاك مجحفة.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>التزام الضمان من زيلميكو:<\/strong> تشمل الأجهزة الإلكترونية المؤهلة <strong>ضماناً رسمياً لمدة عام كامل (12 شهراً)<\/strong> ضد العيوب المصنعية، إلى جانب <strong>الضمان الذهبي للاستبدال خلال 7 أيام<\/strong> للأعطال المبكرة.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b;\">الضمان باختصار<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">مدة الضمان<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">عام كامل على الأجهزة<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">الأعطال عند الاستلام<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">ضمان استبدال 7 أيام<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">مدة الفحص الفني<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">خلال 7 أيام عمل<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">شحن الضمان المعتمد<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">مجاني للعيوب المصنعية<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">ما يغطيه الضمان<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">يغطي ضماننا العيوب المصنعية المؤكدة في المكونات الأساسية ضمن الاستخدام المنزلي والشخصي الطبيعي:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الدوائر الداخلية وملفات الشحن<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">الأعطال المصنعية في ملفات الشحن اللاسلكي Qi (مثل منصات 3 في 1) ومنظمات الطاقة واللوحات الداخلية.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">المحركات والمراوح ومضخات الشفط<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">توقف المحركات أو ضعف العزم غير الطبيعي في مراوح الرقبة، مسدسات المساج، المبردات المصغرة، ومكانس السيارة.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">البطاريات ونظام الشحن<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">البطاريات القابلة للشحن التي تتوقف عن قبول الشحن أو تفقد استقرارها في ظروف الشحن القياسية.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الشاشات الرقمية وحساسات اللمس<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">أعطال شاشات LED الرقمية، توقف أزرار اللمس، أو خلل قراءات الحساسات الداخلية.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">الحالات المستثناة من الضمان<\/h2>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 12px; font-weight: bold; color: #0d1c2a;\">لا يشمل الضمان الأعطال الناتجة عن الحوادث الخارجية أو سوء الاستخدام:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 12px;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">السقوط والكسر والصدمات<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">كسر الهيكل الخارجي أو الشاشات أو تلف الأجزاء الداخلية بسبب الصدمات القوية.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">التلف الناتج عن السوائل<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">غمر الأجهزة غير المقاومة للماء في السوائل أو تسرب الرطوبة إلى المنافذ والمحرك.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الصيانة الخارجية أو التعديل<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">فتح الجهاز أو تعديله خارج القنوات المعتمدة أو تركيب قطع غير أصلية.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الشواحن غير المطابقة وارتفاع الجهد<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">التلف الناتج عن استخدام شواحن صناعية بجهد كهربائي يتجاوز المواصفات المعتمدة للجهاز.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الاستهلاك المظهري الطبيعي<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">الخدوش السطحية البسيطة أو تغير اللون التدريجي مع الاستخدام اليومي.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.55em; height: 1.55em; border-radius: 50%; background: #0d1c2a; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .8em; line-height: 1;\">✕<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">القطع الاستهلاكية والملحقات<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">الفلاتر أو الوسادات الإسفنجية أو الكابلات التالفة نتيجة الاستخدام المتكرر.<\/span><\/div>\n<\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">خطوات تقديم طلب الضمان (4 خطوات بسيطة)<\/h2>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\"><strong>إرسال إثبات الشراء وتفاصيل المشكلة:<\/strong> راسلنا على <strong>zelmiqo@gmail.com<\/strong> مع رقم الطلب وصورة أو فيديو قصير يوضح الخلل.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\"><strong>التغليف الآمن للشحن:<\/strong> ضع الجهاز مع كابلاته وملحقاته في علبته الأصلية أو تغليف مبطن محكم لحمايته أثناء النقل.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\"><strong>الفحص الفني خلال 7 أيام عمل:<\/strong> فور وصول الجهاز لمركز الفحص، يقوم الفنيون بالتحقق من العيب خلال <strong>7 أيام عمل<\/strong>.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\"><strong>الإصلاح أو الاستبدال والشحن خلال 7&ndash;8 أيام:<\/strong> تُعتمد الطلبات المؤهلة لإرسال جهاز سليم أو بديل يصلك عبر شحن متتبع خلال <strong>7&ndash;8 أيام<\/strong>.<\/span><\/li>\n<\/ol>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">سلامة التغليف وأهلية الفحص<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">يُرجى تغليف المنتج جيداً قبل تسليمه للناقل لتفادي أي تلف أثناء النقل. وفي حال تبين بعد الفحص أن العطل خارج تغطية الضمان، نعيد لك الجهاز دون أي رسوم فحص مخفية مع توضيح خيارات الإصلاح إن وجدت.<\/p><p style=\"margin: 0; color: #0d1c2a;\">يُشترط تقديم ما يثبت الشراء ساري المفعول ضمن فترة الضمان.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">مواعيد الخدمة والتنسيق<\/h2>\n<p style=\"margin: 0 0 .75em; color: #0d1c2a;\">يُنجز الفحص الفني عادة خلال <strong>7 أيام عمل<\/strong> من الاستلام (بينما يتبع شحن الذهاب والعودة معيار التوصيل <strong>7&ndash;8 أيام<\/strong>).<\/p><p style=\"margin: 0; color: #0d1c2a;\">وفي حال تعذر تسليم الجهاز بعد الصيانة أو الاستبدال، يتواصل فريق الدعم معك هاتفياً أو عبر البريد لتنسيق موعد تسليم بديل مريح.<\/p>\n<\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #0d1c2a;\">ملاحظات هامة للعناية بالضمان<\/p>\n<ul style=\"list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 10px 16px; color: #0d1c2a;\">\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>يسري الضمان حصرياً على المنتجات الأصلية المشتراة من متجر زيلميكو ضمن الدول المدعومة.<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>تُشحن الأجهزة المستبدلة أو المصلحة داخل نفس الدولة أو المنطقة التي تم فيها الشراء الأساسي.<\/span><\/li>\n<li style=\"display: flex; align-items: flex-start; gap: 8px; font-weight: 600;\"><span style=\"color: #c9a24b; flex: none;\">◆<\/span><span>يُنصح بقراءة كتيب الإرشادات واستخدام شواحن قياسية مطابقة للجهد المحدد (مثل 5V\/2A) للحفاظ على عمر البطارية.<\/span><\/li>\n<\/ul>\n<\/div>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">شكراً لاختيارك <strong>زيلميكو (Zelmiqo)<\/strong>. نضمن لك خدمة ما بعد بيع عادلة وواضحة بكل ثقة.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">هل تحتاج للمساعدة في طلب ضمان أو متابعة حالة الفحص؟<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">البريد الإلكتروني:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">الهاتف:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>\n<\/div>"}};
+
+    function switchTab(pageId, target, btn) {
+      const card = document.getElementById("page-" + pageId);
+      card.querySelectorAll(".vtab").forEach(b => b.classList.remove("active"));
+      card.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      const panel = document.getElementById(pageId + "-" + target);
+      if (panel) panel.classList.add("active");
+    }
+
+    function copySnippet(pageId, lang, btn) {
+      const text = SNIPPETS[pageId][lang];
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = lang === "en" ? "✓ Copied English HTML" : "✓ Copied Arabic HTML";
+        showToast((lang === "en" ? "English" : "Arabic") + " HTML copied for FatherShops!");
+        setTimeout(() => { btn.textContent = orig; }, 2200);
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toastMsg");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 2200);
+    }
+  </script>
+</body>
+</html>

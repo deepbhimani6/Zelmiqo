@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us (من نحن) | Zelmiqo® Live Policy UI</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #c9a24b;
+      --cream: #fcfaf7;
+      --bg-light: #f1f5f9;
+      --border: #e2e8f0;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--primary);
+      line-height: 1.55;
+      padding-bottom: 72px;
+    }
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand-title h1 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all .2s;
+    }
+    .hub-link-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .page-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      position: sticky;
+      top: 58px;
+      z-index: 90;
+    }
+    .nav-pill {
+      white-space: nowrap;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--primary);
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all .15s;
+    }
+    .nav-pill:hover,
+    .nav-pill.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .container {
+      max-width: 1120px;
+      margin: 26px auto;
+      padding: 0 20px;
+    }
+    .intro-banner {
+      background: #fff;
+      border: 1px solid rgba(201,162,75,0.45);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .intro-stat-lbl {
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 3px;
+    }
+    .intro-stat-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .intro-stat-sub {
+      font-size: 12.5px;
+      color: #475569;
+    }
+    .policy-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 16px rgba(13,28,42,0.06);
+      scroll-margin-top: 120px;
+    }
+    .policy-card-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 20px;
+      border-bottom: 2px solid var(--gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .policy-title-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .num-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--gold);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      flex: none;
+    }
+    .policy-card-header h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .title-ar {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .live-urls {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+    .live-urls a {
+      color: #eedfc0;
+      text-decoration: none;
+    }
+    .live-urls a:hover {
+      text-decoration: underline;
+    }
+    .card-copy-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .copy-btn {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 7px;
+      padding: 8px 14px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .1s, opacity .2s;
+    }
+    .copy-btn.copy-ar {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+    }
+    .copy-btn:hover {
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+    .audit-strip {
+      background: rgba(201,162,75,0.09);
+      border-bottom: 1px solid rgba(201,162,75,0.28);
+      padding: 12px 20px;
+      font-size: 13px;
+      color: var(--primary);
+    }
+    .audit-strip-label {
+      font-weight: 800;
+      color: #8a691e;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 6px;
+    }
+    .audit-strip ul {
+      padding-left: 18px;
+      display: grid;
+      gap: 4px;
+    }
+    .view-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 20px;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .vtab {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .vtab.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+    .zelmiqo-live-stage {
+      background: var(--cream);
+      padding: 28px 26px;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    .code-view {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      max-height: 460px;
+    }
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: var(--gold);
+      border: 1.5px solid var(--gold);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all .2s;
+      z-index: 999;
+    }
+    .toast-msg.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® About Us (من نحن)</h1>
+      <span class="brand-badge">EN + AR • Class-Free Inline Theme</span>
+    </div>
+    <div class="header-actions">
+      <a href="policy-pages-live-ui.html" class="hub-link-btn">✨ All 6 Policies UI</a>
+      <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
+      <a href="index.html" class="hub-link-btn">← Back to Master Hub</a>
+    </div>
+  </header>
+
+  <nav class="page-nav-bar">
+    <a href="about-us.html" class="nav-pill active">1. About Us</a><a href="delivery-information.html" class="nav-pill">2. Delivery Information</a><a href="privacy-policy.html" class="nav-pill">3. Privacy Policy</a><a href="terms-and-conditions.html" class="nav-pill">4. Terms & Conditions</a><a href="warranty-policy.html" class="nav-pill">5. Warranty Policy</a><a href="return-and-refund-policy.html" class="nav-pill">6. Return & Refund Policy</a>
+  </nav>
+
+  <main class="container">
+    <div class="intro-banner">
+      <div>
+        <div class="intro-stat-lbl">Theme System</div>
+        <div class="intro-stat-val">#c9a24b Gold &amp; #0d1c2a Navy</div>
+        <div class="intro-stat-sub">Pure inline styles, 0 CSS classes — paste cleanly into FatherShops</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Delivery Standard</div>
+        <div class="intro-stat-val">Strictly 7–8 Days</div>
+        <div class="intro-stat-sub">Removed live 8–10 business days contradiction &amp; sub-7-day hours</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Catalog &amp; Tone Overhaul</div>
+        <div class="intro-stat-val">Electronics-First Copy</div>
+        <div class="intro-stat-sub">Removed apparel leaks ("size/colour", "tags") &amp; punitive warranty penalties</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Unified Support Card</div>
+        <div class="intro-stat-val">zelmiqo@gmail.com</div>
+        <div class="intro-stat-sub">+916359268709 standardized across EN &amp; AR</div>
+      </div>
+    </div>
+
+    <section class="policy-card" id="page-about">
+        <div class="policy-card-header">
+          <div class="policy-title-group">
+            <span class="num-badge">1</span>
+            <div>
+              <h2>About Us <span class="title-ar">(من نحن)</span></h2>
+              <div class="live-urls">
+                <span>EN: <a href="https://zelmiqo.com/about-us" target="_blank" rel="noopener noreferrer">https://zelmiqo.com/about-us ↗</a></span>
+                <span>AR: <a href="https://zelmiqo.com/%D9%85%D9%86-%D9%86%D8%AD%D9%86" target="_blank" rel="noopener noreferrer">/%D9%85%D9%86-%D9%86%D8%AD%D9%86 ↗</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-copy-actions">
+            <button type="button" class="copy-btn copy-en" onclick="copySnippet('about', 'en', this)">📋 Copy English HTML</button>
+            <button type="button" class="copy-btn copy-ar" onclick="copySnippet('about', 'ar', this)">📋 Copy Arabic HTML</button>
+          </div>
+        </div>
+
+        <div class="audit-strip">
+          <div class="audit-strip-label">Senior E-Commerce Copywriter Audit Fixes Applied:</div>
+          <ul><li>Replaced generic dropshipper text ('Kitchen & Dining', 'Instead of random products') with Zelmiqo's actual 7 smart-tech categories verified in the catalog.</li><li>Eliminated repetitive 'Why Choose Zelmiqo?' cards and unified value pillars with 7–8 days delivery, 7-day return window, and 1-year hardware warranty.</li><li>Restored exact #c9a24b gold + #0d1c2a navy card system with clean geometric icons and standardized contact details.</li></ul>
+        </div>
+
+        <div class="view-tabs">
+          <button type="button" class="vtab active" onclick="switchTab('about', 'preview-en', this)">👁️ Preview English (LTR)</button>
+          <button type="button" class="vtab" onclick="switchTab('about', 'preview-ar', this)">👁️ Preview Arabic (RTL)</button>
+          <button type="button" class="vtab" onclick="switchTab('about', 'code-en', this)">&lt;/&gt; Raw English HTML</button>
+          <button type="button" class="vtab" onclick="switchTab('about', 'code-ar', this)">&lt;/&gt; Raw Arabic HTML</button>
+        </div>
+
+        <div class="tab-panel active" id="about-preview-en">
+          <div class="zelmiqo-live-stage">
+            <h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">Smart Living Technology. Engineered for Everyday Comfort.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">Welcome to <strong style="color: #0d1c2a;">Zelmiqo</strong> &mdash; your trusted destination for purposefully engineered smart lifestyle gadgets, personal cooling innovation, wellness recovery devices, and modern automotive care.</p>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">We believe technology should solve real daily challenges effortlessly&mdash;keeping you cool in peak summer heat, clearing cable clutter from your nightstand, relieving muscle fatigue after long workdays, and keeping your vehicle spotless on every drive.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>The Zelmiqo Standard:</strong> Every device is selected for real utility, tested for thermal and battery reliability, and backed by transparent <strong>7&ndash;8 days delivery</strong>, a <strong>7-day return &amp; replacement guarantee</strong>, and our <strong>1-year hardware warranty</strong>.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;">Zelmiqo at a glance</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Brand Focus</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Curated Smart Tech</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Product Lineup</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7 Signature Series</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Delivery Time</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7&ndash;8 Days Delivery</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Buyer Protection</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7-Day Guarantee &amp; 1-Yr Warranty</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Our Story</h2>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1em;">
+<p style="margin: 0; color: #0d1c2a;"><strong style="display: block; margin: 0 0 4px;">Zelmiqo was founded with one clear purpose:</strong>To bring thoughtfully engineered, high-utility lifestyle devices directly to customers at honest, direct-to-consumer value.</p>
+</div>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">We saw too many shoppers forced to choose between overpriced flagship gadgets and unreliable low-grade alternatives lacking after-sales support. Our goal became simple: partner directly with specialist manufacturers, curate only proven innovations, and back every order with responsive service.</p>
+<p style="margin: 0 0 1.5em; color: #0d1c2a;">Today, Zelmiqo serves households across Saudi Arabia, the Gulf, and international markets with reliable logistics and continuous product refinement.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Our Mission</h2>
+<p style="margin: 0; color: #0d1c2a;">To elevate everyday comfort and convenience through dependable smart devices, fair pricing, fast <strong>7&ndash;8 days delivery</strong>, and transparent customer support.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Our Vision</h2>
+<p style="margin: 0; color: #0d1c2a;">To stand as a premier destination for practical lifestyle technology, recognized for product reliability, clear policies, and long-term customer trust.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">What You&rsquo;ll Find at Zelmiqo</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">Explore our seven dedicated lifestyle technology categories curated across our store:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Personal Arctic Cooling &amp; Sun Protection</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Whisper-quiet bladeless neck fans, 3-in-1 misting air coolers, handheld mini fans, and UPF thermal foldable car sunshades built for intense heat.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Restorative Wellness &amp; Muscle Recovery</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Smart deep-tissue fascia massage guns, 4D bionic neck and shoulder massagers, and liquid-dispensing scalp therapy combs.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Smart Beauty &amp; Deep Skincare Tech</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">5-in-1 EMS microcurrent facial massagers, ultrasonic skin scrubbers, sonic silicone cleansing brushes, and visible blackhead extractors.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">3-in-1 Wireless Power &amp; Workspace</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">15W fast charging docks for phone, watch, and earbuds, constant-temperature mug warmers, and digital wireless weather stations.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Cordless Auto Care &amp; Dual Blowers</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">High-suction cordless handheld car vacuums and 2-in-1 brushless vacuum &amp; air-duster blowers for spotless cabin interiors.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Portable Blending &amp; Fresh Nutrition</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">6-blade portable juicer bottles, dual-cup smoothie makers, and rechargeable electric citrus presses for fresh drinks anywhere.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Handheld Gaming &amp; Gifts</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">The popular R36S Retro Handheld Game Console featuring a crisp 3.5-inch IPS screen and classic multi-platform entertainment.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Why Choose Zelmiqo?</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Tested Before Dispatch</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Each batch undergoes inspection for motor smoothness, charging stability, seals, and complete accessories before shipping.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Reliable 7&ndash;8 Days Delivery</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Tracked nationwide and international fulfillment with protective shock-resistant packaging to keep electronics safe in transit.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Flexible, Encrypted Checkout</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Pay securely via encrypted payment gateways with Mada, Apple Pay, Visa, Mastercard, Tabby &amp; Tamara, or Cash on Delivery where available.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">7-Day Golden Guarantee</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Every order includes a full 7-day return window from delivery for defective, damaged, or mismatched items with free return shipping.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">1-Year Hardware Warranty</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Comprehensive coverage on internal circuitry, motors, displays, and rechargeable batteries against manufacturing defects.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Direct Bilingual Support</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Reach real specialists quickly via WhatsApp, email, or phone for order tracking, setup help, or warranty care.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Our Core Values</h2>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;"><strong>Customer-First Accountability:</strong> Fair, human support before checkout and long after delivery.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;"><strong>Real Utility Over Clutter:</strong> Every item earns its place by solving an everyday problem reliably.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;"><strong>Honest Policies &amp; Clarity:</strong> Clear pricing, consistent <strong>7&ndash;8 days delivery</strong> expectations, and straightforward returns.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;"><strong>Continuous Improvement:</strong> We listen closely to customer feedback to refine every device generation.</span></li>
+</ol>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">Thank you for choosing <strong>Zelmiqo</strong>. Whether you are upgrading your summer comfort, workspace, skincare routine, or car care, we are proud to serve you.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">Have questions about our products or your order?</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">Email:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">Phone:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="about-preview-ar">
+          <div class="zelmiqo-live-stage">
+            <div dir="rtl">
+<h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">تقنيات ذكية لحياة أسهل. مصممة لراحتك كل يوم.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">أهلاً بك في <strong style="color: #0d1c2a;">زيلميكو (Zelmiqo)</strong> &mdash; وجهتك الموثوقة للأجهزة الذكية العملية، وحلول التبريد الشخصي، وأجهزة العناية والاسترخاء، وإكسسوارات العناية بالسيارة.</p>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">نؤمن بأن التقنية الحديثة يجب أن تحل تحديات يومك بسهولة وأناقة: تمنحك انتعاشاً في حرارة الصيف القاسية، وتنظّم مكتبك من فوضى الأسلاك، وتريح عضلاتك بعد عناء العمل، وتحافظ على نظافة سيارتك في كل مشوار.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>معيار زيلميكو للجودة:</strong> ننتقي كل جهاز بعناية لفائدته الحقيقية، ونفحص كفاءة بطاريته وجودته قبل الشحن، مع التزامنا الواضح بتوصيل موثوق خلال <strong>7&ndash;8 أيام</strong>، وضمان إرجاع واستبدال خلال <strong>7 أيام</strong>، وضمان للأجهزة لمدة <strong>عام كامل</strong>.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;">زيلميكو باختصار</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">هوية المتجر</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">تقنيات ذكية منتقاة</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">التشكيلة المعتمدة</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7 مجموعات متخصصة</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">مدة التوصيل</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7&ndash;8 أيام لكافة المناطق</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">حماية المشتري</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">ضمان 7 أيام وضمان سنة</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">قصتنا</h2>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1em;">
+<p style="margin: 0; color: #0d1c2a;"><strong style="display: block; margin: 0 0 4px;">انطلقت زيلميكو برؤية واضحة وبسيطة:</strong>توفير أجهزة حياتية مبتكرة وعالية الاعتمادية لعملائنا بأسعار عادلة وقيمة حقيقية مباشرة من المصنّعين المعتمدين.</p>
+</div>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">لاحظنا أن كثيراً من المتسوقين يضطرون للاختيار بين أجهزة مرتفعة الثمن بشكل مبالغ فيه، أو بدائل غير موثوقة تفتقر للضمان وخدمة ما بعد البيع. لذلك بنينا متجراً يجمع بين التصميم العملي المتقن، والأسعار العادلة، وخدمة العملاء المباشرة.</p>
+<p style="margin: 0 0 1.5em; color: #0d1c2a;">واليوم نخدم عملاءنا في المملكة العربية السعودية ودول الخليج والعالم بخدمات شحن موثوقة وتطوير مستمر لتشكيلتنا.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">رسالتنا</h2>
+<p style="margin: 0; color: #0d1c2a;">تسهيل الحياة اليومية وتقديم أقصى درجات الراحة عبر أجهزة ذكية عملية، وأسعار عادلة، وتوصيل خلال <strong>7&ndash;8 أيام</strong>، وتجربة خدمة عملاء واضحة ومريحة.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">رؤيتنا</h2>
+<p style="margin: 0; color: #0d1c2a;">أن نكون الوجهة المفضلة والأكثر ثقة في مجال التقنيات اليومية والرفاهية العملية، بفضل جودة المنتجات ووضوح السياسات وعلاقات الثقة المستدامة.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">ماذا ستجد في زيلميكو؟</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">استكشف مجموعاتنا السبع المتخصصة المصممة بعناية لاحتياجاتك اليومية:</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">حلول التبريد الصيفي والحماية من الشمس</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">مراوح الرقبة التوربينية بدون شفرات، ومكيفات المكتب المحمولة 3 في 1، والمراوح اليدوية، ومظلات الزجاج الأمامي العازلة للحرارة.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">أجهزة الاسترخاء وتدليك العضلات</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">مسدسات المساج العميق، وأجهزة تدليك الرقبة والأكتاف بتقنية المحاكاة، وأمشاط التدليك وتوزيع سيروم فروة الرأس.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">تقنيات التجميل والعناية بالبشرة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">أجهزة المساج للوجه 5 في 1 بتقنية EMS، وأجهزة تقشير المسام بالموجات فوق الصوتية، وفرش التنظيف السيليكونية، وأجهزة تنظيف الرؤوس السوداء.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">منصات الشحن اللاسلكي وأدوات المكتب</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">منصات شحن لاسلكي 3 في 1 بقوة 15 واط للجوال والساعة والسماعة، وقواعد تسخين المشروبات الذكية، ومحطات الطقس الرقمية.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">العناية اللاسلكية بالسيارة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">مكانس سيارة لاسلكية عالية الشفط وأجهزة تنظيف ونفخ هواء 2 في 1 للحفاظ على نظافة مقصورة سيارتك في دقائق.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">العصارات والخلاطات المحمولة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">خلاطات عصير محمولة بـ 6 شفرات، وخلاطات الكوب المزدوج، وعصارات الحمضيات الكهربائية القابلة للشحن.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">أجهزة الألعاب الكلاسيكية والهدايا</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">منصة الألعاب المحمولة R36S بشاشة IPS مقاس 3.5 بوصة وآلاف الألعاب الكلاسيكية الجاهزة.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">لماذا تختار زيلميكو؟</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">فحص الجودة قبل الإرسال</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">تُفحص الشحنات للتحقق من سلامة المحركات والشحن والملحقات والتغليف المحكم قبل مغادرتها.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">توصيل ثابت خلال 7&ndash;8 أيام</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">توصيل موثوق بتغليف مقاوم للصدمات والحرارة مع تتبع إلكتروني واضح حتى استلام طلبك.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">دفع آمن وخيارات مرنة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">بوابات دفع مشفرة تدعم مدى، أبل باي، فيزا، ماستركارد، وخيارات التقسيط أو الدفع عند الاستلام حسب المتاح.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الضمان الذهبي لمدة 7 أيام</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">إمكانية الإرجاع أو الاستبدال خلال 7 أيام من الاستلام مع شحن مجاني للمنتجات المعيبة أو غير المطابقة.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">ضمان شامل لمدة عام كامل</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">تغطية مصنعية لمدة 12 شهراً ضد عيوب التصنيع في الدوائر الإلكترونية والمحركات والشاشات والبطاريات.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">دعم سريع ومباشر</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">تواصل سهل ومباشر مع فريق خدمة العملاء عبر الواتساب أو البريد الإلكتروني أو الهاتف.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">قيمنا الأساسية</h2>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;"><strong>العميل أولاً دائماً:</strong> كل قرار نتخذه يهدف لتجربة شراء سهلة، آمنة، وموثوقة.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;"><strong>العملية والجودة قبل الكثرة:</strong> نختار فقط الأجهزة التي تقدم فائدة ملموسة وتدوم طويلاً.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;"><strong>الشفافية الكاملة:</strong> مواعيد توصيل دقيقة خلال <strong>7&ndash;8 أيام</strong> وسياسات ضمان واسترجاع واضحة بلا تعقيد.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;"><strong>التطوير المستمر:</strong> نستمع باستمرار لملاحظات عملائنا لتحسين المنتجات وتجربة التسوق.</span></li>
+</ol>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">شكراً لاختيارك <strong>زيلميكو (Zelmiqo)</strong>. يسعدنا دائماً أن نكون جزءاً من راحتك اليومية في المنزل والمكتب والسيارة.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">هل لديك استفسار عن منتجاتنا أو طلبك؟</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">البريد الإلكتروني:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">الهاتف:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="about-code-en">
+          <pre class="code-view"><code>&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;Smart Living Technology. Engineered for Everyday Comfort.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;Welcome to &lt;strong style="color: #0d1c2a;"&gt;Zelmiqo&lt;/strong&gt; &amp;mdash; your trusted destination for purposefully engineered smart lifestyle gadgets, personal cooling innovation, wellness recovery devices, and modern automotive care.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;We believe technology should solve real daily challenges effortlessly&amp;mdash;keeping you cool in peak summer heat, clearing cable clutter from your nightstand, relieving muscle fatigue after long workdays, and keeping your vehicle spotless on every drive.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;The Zelmiqo Standard:&lt;/strong&gt; Every device is selected for real utility, tested for thermal and battery reliability, and backed by transparent &lt;strong&gt;7&amp;ndash;8 days delivery&lt;/strong&gt;, a &lt;strong&gt;7-day return &amp;amp; replacement guarantee&lt;/strong&gt;, and our &lt;strong&gt;1-year hardware warranty&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;"&gt;Zelmiqo at a glance&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Brand Focus&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Curated Smart Tech&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Product Lineup&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7 Signature Series&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Delivery Time&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7&amp;ndash;8 Days Delivery&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Buyer Protection&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7-Day Guarantee &amp;amp; 1-Yr Warranty&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Our Story&lt;/h2&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong style="display: block; margin: 0 0 4px;"&gt;Zelmiqo was founded with one clear purpose:&lt;/strong&gt;To bring thoughtfully engineered, high-utility lifestyle devices directly to customers at honest, direct-to-consumer value.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;We saw too many shoppers forced to choose between overpriced flagship gadgets and unreliable low-grade alternatives lacking after-sales support. Our goal became simple: partner directly with specialist manufacturers, curate only proven innovations, and back every order with responsive service.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.5em; color: #0d1c2a;"&gt;Today, Zelmiqo serves households across Saudi Arabia, the Gulf, and international markets with reliable logistics and continuous product refinement.&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Our Mission&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;To elevate everyday comfort and convenience through dependable smart devices, fair pricing, fast &lt;strong&gt;7&amp;ndash;8 days delivery&lt;/strong&gt;, and transparent customer support.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Our Vision&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;To stand as a premier destination for practical lifestyle technology, recognized for product reliability, clear policies, and long-term customer trust.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;What You&amp;rsquo;ll Find at Zelmiqo&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;Explore our seven dedicated lifestyle technology categories curated across our store:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Personal Arctic Cooling &amp;amp; Sun Protection&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Whisper-quiet bladeless neck fans, 3-in-1 misting air coolers, handheld mini fans, and UPF thermal foldable car sunshades built for intense heat.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Restorative Wellness &amp;amp; Muscle Recovery&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Smart deep-tissue fascia massage guns, 4D bionic neck and shoulder massagers, and liquid-dispensing scalp therapy combs.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Smart Beauty &amp;amp; Deep Skincare Tech&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;5-in-1 EMS microcurrent facial massagers, ultrasonic skin scrubbers, sonic silicone cleansing brushes, and visible blackhead extractors.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;3-in-1 Wireless Power &amp;amp; Workspace&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;15W fast charging docks for phone, watch, and earbuds, constant-temperature mug warmers, and digital wireless weather stations.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Cordless Auto Care &amp;amp; Dual Blowers&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;High-suction cordless handheld car vacuums and 2-in-1 brushless vacuum &amp;amp; air-duster blowers for spotless cabin interiors.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Portable Blending &amp;amp; Fresh Nutrition&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;6-blade portable juicer bottles, dual-cup smoothie makers, and rechargeable electric citrus presses for fresh drinks anywhere.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Handheld Gaming &amp;amp; Gifts&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;The popular R36S Retro Handheld Game Console featuring a crisp 3.5-inch IPS screen and classic multi-platform entertainment.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Why Choose Zelmiqo?&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Tested Before Dispatch&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Each batch undergoes inspection for motor smoothness, charging stability, seals, and complete accessories before shipping.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Reliable 7&amp;ndash;8 Days Delivery&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Tracked nationwide and international fulfillment with protective shock-resistant packaging to keep electronics safe in transit.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Flexible, Encrypted Checkout&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Pay securely via encrypted payment gateways with Mada, Apple Pay, Visa, Mastercard, Tabby &amp;amp; Tamara, or Cash on Delivery where available.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;7-Day Golden Guarantee&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Every order includes a full 7-day return window from delivery for defective, damaged, or mismatched items with free return shipping.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;1-Year Hardware Warranty&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Comprehensive coverage on internal circuitry, motors, displays, and rechargeable batteries against manufacturing defects.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Direct Bilingual Support&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Reach real specialists quickly via WhatsApp, email, or phone for order tracking, setup help, or warranty care.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Our Core Values&lt;/h2&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Customer-First Accountability:&lt;/strong&gt; Fair, human support before checkout and long after delivery.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Real Utility Over Clutter:&lt;/strong&gt; Every item earns its place by solving an everyday problem reliably.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Honest Policies &amp;amp; Clarity:&lt;/strong&gt; Clear pricing, consistent &lt;strong&gt;7&amp;ndash;8 days delivery&lt;/strong&gt; expectations, and straightforward returns.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Continuous Improvement:&lt;/strong&gt; We listen closely to customer feedback to refine every device generation.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Thank you for choosing &lt;strong&gt;Zelmiqo&lt;/strong&gt;. Whether you are upgrading your summer comfort, workspace, skincare routine, or car care, we are proud to serve you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;Have questions about our products or your order?&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Email:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Phone:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+
+        <div class="tab-panel" id="about-code-ar">
+          <pre class="code-view"><code>&lt;div dir="rtl"&gt;
+&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;تقنيات ذكية لحياة أسهل. مصممة لراحتك كل يوم.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;أهلاً بك في &lt;strong style="color: #0d1c2a;"&gt;زيلميكو (Zelmiqo)&lt;/strong&gt; &amp;mdash; وجهتك الموثوقة للأجهزة الذكية العملية، وحلول التبريد الشخصي، وأجهزة العناية والاسترخاء، وإكسسوارات العناية بالسيارة.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;نؤمن بأن التقنية الحديثة يجب أن تحل تحديات يومك بسهولة وأناقة: تمنحك انتعاشاً في حرارة الصيف القاسية، وتنظّم مكتبك من فوضى الأسلاك، وتريح عضلاتك بعد عناء العمل، وتحافظ على نظافة سيارتك في كل مشوار.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;معيار زيلميكو للجودة:&lt;/strong&gt; ننتقي كل جهاز بعناية لفائدته الحقيقية، ونفحص كفاءة بطاريته وجودته قبل الشحن، مع التزامنا الواضح بتوصيل موثوق خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;، وضمان إرجاع واستبدال خلال &lt;strong&gt;7 أيام&lt;/strong&gt;، وضمان للأجهزة لمدة &lt;strong&gt;عام كامل&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;"&gt;زيلميكو باختصار&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;هوية المتجر&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;تقنيات ذكية منتقاة&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;التشكيلة المعتمدة&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7 مجموعات متخصصة&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;مدة التوصيل&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7&amp;ndash;8 أيام لكافة المناطق&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;حماية المشتري&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;ضمان 7 أيام وضمان سنة&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;قصتنا&lt;/h2&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong style="display: block; margin: 0 0 4px;"&gt;انطلقت زيلميكو برؤية واضحة وبسيطة:&lt;/strong&gt;توفير أجهزة حياتية مبتكرة وعالية الاعتمادية لعملائنا بأسعار عادلة وقيمة حقيقية مباشرة من المصنّعين المعتمدين.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;لاحظنا أن كثيراً من المتسوقين يضطرون للاختيار بين أجهزة مرتفعة الثمن بشكل مبالغ فيه، أو بدائل غير موثوقة تفتقر للضمان وخدمة ما بعد البيع. لذلك بنينا متجراً يجمع بين التصميم العملي المتقن، والأسعار العادلة، وخدمة العملاء المباشرة.&lt;/p&gt;
+&lt;p style="margin: 0 0 1.5em; color: #0d1c2a;"&gt;واليوم نخدم عملاءنا في المملكة العربية السعودية ودول الخليج والعالم بخدمات شحن موثوقة وتطوير مستمر لتشكيلتنا.&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;رسالتنا&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;تسهيل الحياة اليومية وتقديم أقصى درجات الراحة عبر أجهزة ذكية عملية، وأسعار عادلة، وتوصيل خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;، وتجربة خدمة عملاء واضحة ومريحة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;رؤيتنا&lt;/h2&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;أن نكون الوجهة المفضلة والأكثر ثقة في مجال التقنيات اليومية والرفاهية العملية، بفضل جودة المنتجات ووضوح السياسات وعلاقات الثقة المستدامة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;ماذا ستجد في زيلميكو؟&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;استكشف مجموعاتنا السبع المتخصصة المصممة بعناية لاحتياجاتك اليومية:&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;حلول التبريد الصيفي والحماية من الشمس&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;مراوح الرقبة التوربينية بدون شفرات، ومكيفات المكتب المحمولة 3 في 1، والمراوح اليدوية، ومظلات الزجاج الأمامي العازلة للحرارة.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;أجهزة الاسترخاء وتدليك العضلات&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;مسدسات المساج العميق، وأجهزة تدليك الرقبة والأكتاف بتقنية المحاكاة، وأمشاط التدليك وتوزيع سيروم فروة الرأس.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;تقنيات التجميل والعناية بالبشرة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;أجهزة المساج للوجه 5 في 1 بتقنية EMS، وأجهزة تقشير المسام بالموجات فوق الصوتية، وفرش التنظيف السيليكونية، وأجهزة تنظيف الرؤوس السوداء.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;منصات الشحن اللاسلكي وأدوات المكتب&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;منصات شحن لاسلكي 3 في 1 بقوة 15 واط للجوال والساعة والسماعة، وقواعد تسخين المشروبات الذكية، ومحطات الطقس الرقمية.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;العناية اللاسلكية بالسيارة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;مكانس سيارة لاسلكية عالية الشفط وأجهزة تنظيف ونفخ هواء 2 في 1 للحفاظ على نظافة مقصورة سيارتك في دقائق.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;العصارات والخلاطات المحمولة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;خلاطات عصير محمولة بـ 6 شفرات، وخلاطات الكوب المزدوج، وعصارات الحمضيات الكهربائية القابلة للشحن.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;أجهزة الألعاب الكلاسيكية والهدايا&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;منصة الألعاب المحمولة R36S بشاشة IPS مقاس 3.5 بوصة وآلاف الألعاب الكلاسيكية الجاهزة.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;لماذا تختار زيلميكو؟&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;فحص الجودة قبل الإرسال&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;تُفحص الشحنات للتحقق من سلامة المحركات والشحن والملحقات والتغليف المحكم قبل مغادرتها.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;توصيل ثابت خلال 7&amp;ndash;8 أيام&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;توصيل موثوق بتغليف مقاوم للصدمات والحرارة مع تتبع إلكتروني واضح حتى استلام طلبك.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;دفع آمن وخيارات مرنة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;بوابات دفع مشفرة تدعم مدى، أبل باي، فيزا، ماستركارد، وخيارات التقسيط أو الدفع عند الاستلام حسب المتاح.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الضمان الذهبي لمدة 7 أيام&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;إمكانية الإرجاع أو الاستبدال خلال 7 أيام من الاستلام مع شحن مجاني للمنتجات المعيبة أو غير المطابقة.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;ضمان شامل لمدة عام كامل&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;تغطية مصنعية لمدة 12 شهراً ضد عيوب التصنيع في الدوائر الإلكترونية والمحركات والشاشات والبطاريات.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;دعم سريع ومباشر&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;تواصل سهل ومباشر مع فريق خدمة العملاء عبر الواتساب أو البريد الإلكتروني أو الهاتف.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;قيمنا الأساسية&lt;/h2&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;العميل أولاً دائماً:&lt;/strong&gt; كل قرار نتخذه يهدف لتجربة شراء سهلة، آمنة، وموثوقة.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;العملية والجودة قبل الكثرة:&lt;/strong&gt; نختار فقط الأجهزة التي تقدم فائدة ملموسة وتدوم طويلاً.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;الشفافية الكاملة:&lt;/strong&gt; مواعيد توصيل دقيقة خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt; وسياسات ضمان واسترجاع واضحة بلا تعقيد.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;التطوير المستمر:&lt;/strong&gt; نستمع باستمرار لملاحظات عملائنا لتحسين المنتجات وتجربة التسوق.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;شكراً لاختيارك &lt;strong&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;. يسعدنا دائماً أن نكون جزءاً من راحتك اليومية في المنزل والمكتب والسيارة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;هل لديك استفسار عن منتجاتنا أو طلبك؟&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;البريد الإلكتروني:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;الهاتف:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+  </main>
+
+  <div id="toastMsg" class="toast-msg">Copied HTML to clipboard!</div>
+
+  <script>
+    const SNIPPETS = {"about": {"en": "<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">Smart Living Technology. Engineered for Everyday Comfort.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">Welcome to <strong style=\"color: #0d1c2a;\">Zelmiqo<\/strong> &mdash; your trusted destination for purposefully engineered smart lifestyle gadgets, personal cooling innovation, wellness recovery devices, and modern automotive care.<\/p>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">We believe technology should solve real daily challenges effortlessly&mdash;keeping you cool in peak summer heat, clearing cable clutter from your nightstand, relieving muscle fatigue after long workdays, and keeping your vehicle spotless on every drive.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>The Zelmiqo Standard:<\/strong> Every device is selected for real utility, tested for thermal and battery reliability, and backed by transparent <strong>7&ndash;8 days delivery<\/strong>, a <strong>7-day return &amp; replacement guarantee<\/strong>, and our <strong>1-year hardware warranty<\/strong>.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;\">Zelmiqo at a glance<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Brand Focus<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Curated Smart Tech<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Product Lineup<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7 Signature Series<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Delivery Time<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7&ndash;8 Days Delivery<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Buyer Protection<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7-Day Guarantee &amp; 1-Yr Warranty<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Our Story<\/h2>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong style=\"display: block; margin: 0 0 4px;\">Zelmiqo was founded with one clear purpose:<\/strong>To bring thoughtfully engineered, high-utility lifestyle devices directly to customers at honest, direct-to-consumer value.<\/p>\n<\/div>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">We saw too many shoppers forced to choose between overpriced flagship gadgets and unreliable low-grade alternatives lacking after-sales support. Our goal became simple: partner directly with specialist manufacturers, curate only proven innovations, and back every order with responsive service.<\/p>\n<p style=\"margin: 0 0 1.5em; color: #0d1c2a;\">Today, Zelmiqo serves households across Saudi Arabia, the Gulf, and international markets with reliable logistics and continuous product refinement.<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Our Mission<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">To elevate everyday comfort and convenience through dependable smart devices, fair pricing, fast <strong>7&ndash;8 days delivery<\/strong>, and transparent customer support.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Our Vision<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">To stand as a premier destination for practical lifestyle technology, recognized for product reliability, clear policies, and long-term customer trust.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">What You&rsquo;ll Find at Zelmiqo<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">Explore our seven dedicated lifestyle technology categories curated across our store:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Personal Arctic Cooling &amp; Sun Protection<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Whisper-quiet bladeless neck fans, 3-in-1 misting air coolers, handheld mini fans, and UPF thermal foldable car sunshades built for intense heat.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Restorative Wellness &amp; Muscle Recovery<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Smart deep-tissue fascia massage guns, 4D bionic neck and shoulder massagers, and liquid-dispensing scalp therapy combs.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Smart Beauty &amp; Deep Skincare Tech<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">5-in-1 EMS microcurrent facial massagers, ultrasonic skin scrubbers, sonic silicone cleansing brushes, and visible blackhead extractors.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">3-in-1 Wireless Power &amp; Workspace<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">15W fast charging docks for phone, watch, and earbuds, constant-temperature mug warmers, and digital wireless weather stations.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Cordless Auto Care &amp; Dual Blowers<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">High-suction cordless handheld car vacuums and 2-in-1 brushless vacuum &amp; air-duster blowers for spotless cabin interiors.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Portable Blending &amp; Fresh Nutrition<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">6-blade portable juicer bottles, dual-cup smoothie makers, and rechargeable electric citrus presses for fresh drinks anywhere.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Handheld Gaming &amp; Gifts<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">The popular R36S Retro Handheld Game Console featuring a crisp 3.5-inch IPS screen and classic multi-platform entertainment.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Why Choose Zelmiqo?<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Tested Before Dispatch<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Each batch undergoes inspection for motor smoothness, charging stability, seals, and complete accessories before shipping.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Reliable 7&ndash;8 Days Delivery<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Tracked nationwide and international fulfillment with protective shock-resistant packaging to keep electronics safe in transit.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Flexible, Encrypted Checkout<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Pay securely via encrypted payment gateways with Mada, Apple Pay, Visa, Mastercard, Tabby &amp; Tamara, or Cash on Delivery where available.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">7-Day Golden Guarantee<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Every order includes a full 7-day return window from delivery for defective, damaged, or mismatched items with free return shipping.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">1-Year Hardware Warranty<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Comprehensive coverage on internal circuitry, motors, displays, and rechargeable batteries against manufacturing defects.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Direct Bilingual Support<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Reach real specialists quickly via WhatsApp, email, or phone for order tracking, setup help, or warranty care.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Our Core Values<\/h2>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\"><strong>Customer-First Accountability:<\/strong> Fair, human support before checkout and long after delivery.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\"><strong>Real Utility Over Clutter:<\/strong> Every item earns its place by solving an everyday problem reliably.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\"><strong>Honest Policies &amp; Clarity:<\/strong> Clear pricing, consistent <strong>7&ndash;8 days delivery<\/strong> expectations, and straightforward returns.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\"><strong>Continuous Improvement:<\/strong> We listen closely to customer feedback to refine every device generation.<\/span><\/li>\n<\/ol>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">Thank you for choosing <strong>Zelmiqo<\/strong>. Whether you are upgrading your summer comfort, workspace, skincare routine, or car care, we are proud to serve you.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">Have questions about our products or your order?<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">Email:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">Phone:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>", "ar": "<div dir=\"rtl\">\n<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">تقنيات ذكية لحياة أسهل. مصممة لراحتك كل يوم.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">أهلاً بك في <strong style=\"color: #0d1c2a;\">زيلميكو (Zelmiqo)<\/strong> &mdash; وجهتك الموثوقة للأجهزة الذكية العملية، وحلول التبريد الشخصي، وأجهزة العناية والاسترخاء، وإكسسوارات العناية بالسيارة.<\/p>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">نؤمن بأن التقنية الحديثة يجب أن تحل تحديات يومك بسهولة وأناقة: تمنحك انتعاشاً في حرارة الصيف القاسية، وتنظّم مكتبك من فوضى الأسلاك، وتريح عضلاتك بعد عناء العمل، وتحافظ على نظافة سيارتك في كل مشوار.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>معيار زيلميكو للجودة:<\/strong> ننتقي كل جهاز بعناية لفائدته الحقيقية، ونفحص كفاءة بطاريته وجودته قبل الشحن، مع التزامنا الواضح بتوصيل موثوق خلال <strong>7&ndash;8 أيام<\/strong>، وضمان إرجاع واستبدال خلال <strong>7 أيام<\/strong>، وضمان للأجهزة لمدة <strong>عام كامل<\/strong>.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b;\">زيلميكو باختصار<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">هوية المتجر<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">تقنيات ذكية منتقاة<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">التشكيلة المعتمدة<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7 مجموعات متخصصة<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">مدة التوصيل<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7&ndash;8 أيام لكافة المناطق<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">حماية المشتري<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">ضمان 7 أيام وضمان سنة<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">قصتنا<\/h2>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong style=\"display: block; margin: 0 0 4px;\">انطلقت زيلميكو برؤية واضحة وبسيطة:<\/strong>توفير أجهزة حياتية مبتكرة وعالية الاعتمادية لعملائنا بأسعار عادلة وقيمة حقيقية مباشرة من المصنّعين المعتمدين.<\/p>\n<\/div>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">لاحظنا أن كثيراً من المتسوقين يضطرون للاختيار بين أجهزة مرتفعة الثمن بشكل مبالغ فيه، أو بدائل غير موثوقة تفتقر للضمان وخدمة ما بعد البيع. لذلك بنينا متجراً يجمع بين التصميم العملي المتقن، والأسعار العادلة، وخدمة العملاء المباشرة.<\/p>\n<p style=\"margin: 0 0 1.5em; color: #0d1c2a;\">واليوم نخدم عملاءنا في المملكة العربية السعودية ودول الخليج والعالم بخدمات شحن موثوقة وتطوير مستمر لتشكيلتنا.<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">رسالتنا<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">تسهيل الحياة اليومية وتقديم أقصى درجات الراحة عبر أجهزة ذكية عملية، وأسعار عادلة، وتوصيل خلال <strong>7&ndash;8 أيام<\/strong>، وتجربة خدمة عملاء واضحة ومريحة.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">رؤيتنا<\/h2>\n<p style=\"margin: 0; color: #0d1c2a;\">أن نكون الوجهة المفضلة والأكثر ثقة في مجال التقنيات اليومية والرفاهية العملية، بفضل جودة المنتجات ووضوح السياسات وعلاقات الثقة المستدامة.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">ماذا ستجد في زيلميكو؟<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">استكشف مجموعاتنا السبع المتخصصة المصممة بعناية لاحتياجاتك اليومية:<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">حلول التبريد الصيفي والحماية من الشمس<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">مراوح الرقبة التوربينية بدون شفرات، ومكيفات المكتب المحمولة 3 في 1، والمراوح اليدوية، ومظلات الزجاج الأمامي العازلة للحرارة.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">أجهزة الاسترخاء وتدليك العضلات<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">مسدسات المساج العميق، وأجهزة تدليك الرقبة والأكتاف بتقنية المحاكاة، وأمشاط التدليك وتوزيع سيروم فروة الرأس.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">تقنيات التجميل والعناية بالبشرة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">أجهزة المساج للوجه 5 في 1 بتقنية EMS، وأجهزة تقشير المسام بالموجات فوق الصوتية، وفرش التنظيف السيليكونية، وأجهزة تنظيف الرؤوس السوداء.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">منصات الشحن اللاسلكي وأدوات المكتب<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">منصات شحن لاسلكي 3 في 1 بقوة 15 واط للجوال والساعة والسماعة، وقواعد تسخين المشروبات الذكية، ومحطات الطقس الرقمية.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">العناية اللاسلكية بالسيارة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">مكانس سيارة لاسلكية عالية الشفط وأجهزة تنظيف ونفخ هواء 2 في 1 للحفاظ على نظافة مقصورة سيارتك في دقائق.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">العصارات والخلاطات المحمولة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">خلاطات عصير محمولة بـ 6 شفرات، وخلاطات الكوب المزدوج، وعصارات الحمضيات الكهربائية القابلة للشحن.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">أجهزة الألعاب الكلاسيكية والهدايا<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">منصة الألعاب المحمولة R36S بشاشة IPS مقاس 3.5 بوصة وآلاف الألعاب الكلاسيكية الجاهزة.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">لماذا تختار زيلميكو؟<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">فحص الجودة قبل الإرسال<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">تُفحص الشحنات للتحقق من سلامة المحركات والشحن والملحقات والتغليف المحكم قبل مغادرتها.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">توصيل ثابت خلال 7&ndash;8 أيام<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">توصيل موثوق بتغليف مقاوم للصدمات والحرارة مع تتبع إلكتروني واضح حتى استلام طلبك.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">دفع آمن وخيارات مرنة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">بوابات دفع مشفرة تدعم مدى، أبل باي، فيزا، ماستركارد، وخيارات التقسيط أو الدفع عند الاستلام حسب المتاح.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الضمان الذهبي لمدة 7 أيام<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">إمكانية الإرجاع أو الاستبدال خلال 7 أيام من الاستلام مع شحن مجاني للمنتجات المعيبة أو غير المطابقة.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">ضمان شامل لمدة عام كامل<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">تغطية مصنعية لمدة 12 شهراً ضد عيوب التصنيع في الدوائر الإلكترونية والمحركات والشاشات والبطاريات.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">دعم سريع ومباشر<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">تواصل سهل ومباشر مع فريق خدمة العملاء عبر الواتساب أو البريد الإلكتروني أو الهاتف.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">قيمنا الأساسية<\/h2>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\"><strong>العميل أولاً دائماً:<\/strong> كل قرار نتخذه يهدف لتجربة شراء سهلة، آمنة، وموثوقة.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\"><strong>العملية والجودة قبل الكثرة:<\/strong> نختار فقط الأجهزة التي تقدم فائدة ملموسة وتدوم طويلاً.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\"><strong>الشفافية الكاملة:<\/strong> مواعيد توصيل دقيقة خلال <strong>7&ndash;8 أيام<\/strong> وسياسات ضمان واسترجاع واضحة بلا تعقيد.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\"><strong>التطوير المستمر:<\/strong> نستمع باستمرار لملاحظات عملائنا لتحسين المنتجات وتجربة التسوق.<\/span><\/li>\n<\/ol>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">شكراً لاختيارك <strong>زيلميكو (Zelmiqo)<\/strong>. يسعدنا دائماً أن نكون جزءاً من راحتك اليومية في المنزل والمكتب والسيارة.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">هل لديك استفسار عن منتجاتنا أو طلبك؟<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">البريد الإلكتروني:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">الهاتف:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>\n<\/div>"}};
+
+    function switchTab(pageId, target, btn) {
+      const card = document.getElementById("page-" + pageId);
+      card.querySelectorAll(".vtab").forEach(b => b.classList.remove("active"));
+      card.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      const panel = document.getElementById(pageId + "-" + target);
+      if (panel) panel.classList.add("active");
+    }
+
+    function copySnippet(pageId, lang, btn) {
+      const text = SNIPPETS[pageId][lang];
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = lang === "en" ? "✓ Copied English HTML" : "✓ Copied Arabic HTML";
+        showToast((lang === "en" ? "English" : "Arabic") + " HTML copied for FatherShops!");
+        setTimeout(() => { btn.textContent = orig; }, 2200);
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toastMsg");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 2200);
+    }
+  </script>
+</body>
+</html>

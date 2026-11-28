@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery Information (معلومات التوصيل) | Zelmiqo® Live Policy UI</title>
+  <style>
+    :root {
+      --primary: #0d1c2a;
+      --primary-light: #162a3d;
+      --gold: #c9a24b;
+      --cream: #fcfaf7;
+      --bg-light: #f1f5f9;
+      --border: #e2e8f0;
+      --green: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-light);
+      color: var(--primary);
+      line-height: 1.55;
+      padding-bottom: 72px;
+    }
+    header.top-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 14px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--gold);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.16);
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .brand-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .brand-title h1 {
+      font-size: 19px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .brand-badge {
+      background: var(--gold);
+      color: var(--primary);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .hub-link-btn {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all .2s;
+    }
+    .hub-link-btn:hover {
+      background: var(--gold);
+      color: var(--primary);
+    }
+    .page-nav-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      position: sticky;
+      top: 58px;
+      z-index: 90;
+    }
+    .nav-pill {
+      white-space: nowrap;
+      text-decoration: none;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--primary);
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all .15s;
+    }
+    .nav-pill:hover,
+    .nav-pill.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .container {
+      max-width: 1120px;
+      margin: 26px auto;
+      padding: 0 20px;
+    }
+    .intro-banner {
+      background: #fff;
+      border: 1px solid rgba(201,162,75,0.45);
+      border-radius: 12px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .intro-stat-lbl {
+      font-size: 11px;
+      font-weight: 800;
+      color: #64748b;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 3px;
+    }
+    .intro-stat-val {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .intro-stat-sub {
+      font-size: 12.5px;
+      color: #475569;
+    }
+    .policy-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      margin-bottom: 32px;
+      box-shadow: 0 4px 16px rgba(13,28,42,0.06);
+      scroll-margin-top: 120px;
+    }
+    .policy-card-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 16px 20px;
+      border-bottom: 2px solid var(--gold);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    .policy-title-group {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .num-badge {
+      width: 34px;
+      height: 34px;
+      border-radius: 8px;
+      background: var(--gold);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      flex: none;
+    }
+    .policy-card-header h2 {
+      font-size: 17px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .title-ar {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .live-urls {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: #cbd5e1;
+      margin-top: 2px;
+    }
+    .live-urls a {
+      color: #eedfc0;
+      text-decoration: none;
+    }
+    .live-urls a:hover {
+      text-decoration: underline;
+    }
+    .card-copy-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .copy-btn {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 7px;
+      padding: 8px 14px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform .1s, opacity .2s;
+    }
+    .copy-btn.copy-ar {
+      background: #1e293b;
+      color: var(--gold);
+      border: 1px solid var(--gold);
+    }
+    .copy-btn:hover {
+      opacity: .92;
+      transform: translateY(-1px);
+    }
+    .audit-strip {
+      background: rgba(201,162,75,0.09);
+      border-bottom: 1px solid rgba(201,162,75,0.28);
+      padding: 12px 20px;
+      font-size: 13px;
+      color: var(--primary);
+    }
+    .audit-strip-label {
+      font-weight: 800;
+      color: #8a691e;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+      margin-bottom: 6px;
+    }
+    .audit-strip ul {
+      padding-left: 18px;
+      display: grid;
+      gap: 4px;
+    }
+    .view-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 10px 20px;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    .vtab {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .vtab.active {
+      background: var(--primary);
+      color: var(--gold);
+      border-color: var(--primary);
+    }
+    .tab-panel {
+      display: none;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+    .zelmiqo-live-stage {
+      background: var(--cream);
+      padding: 28px 26px;
+      font-size: 15px;
+      line-height: 1.65;
+    }
+    .code-view {
+      background: #0f172a;
+      color: #e2e8f0;
+      padding: 18px 20px;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      line-height: 1.55;
+      max-height: 460px;
+    }
+    .toast-msg {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--primary);
+      color: var(--gold);
+      border: 1.5px solid var(--gold);
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.22);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: all .2s;
+      z-index: 999;
+    }
+    .toast-msg.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="brand-title">
+      <h1>Zelmiqo® Delivery Information (معلومات التوصيل)</h1>
+      <span class="brand-badge">EN + AR • Class-Free Inline Theme</span>
+    </div>
+    <div class="header-actions">
+      <a href="policy-pages-live-ui.html" class="hub-link-btn">✨ All 6 Policies UI</a>
+      <a href="../all-pages.html" class="hub-link-btn">🔗 All Pages</a>
+      <a href="index.html" class="hub-link-btn">← Back to Master Hub</a>
+    </div>
+  </header>
+
+  <nav class="page-nav-bar">
+    <a href="about-us.html" class="nav-pill">1. About Us</a><a href="delivery-information.html" class="nav-pill active">2. Delivery Information</a><a href="privacy-policy.html" class="nav-pill">3. Privacy Policy</a><a href="terms-and-conditions.html" class="nav-pill">4. Terms & Conditions</a><a href="warranty-policy.html" class="nav-pill">5. Warranty Policy</a><a href="return-and-refund-policy.html" class="nav-pill">6. Return & Refund Policy</a>
+  </nav>
+
+  <main class="container">
+    <div class="intro-banner">
+      <div>
+        <div class="intro-stat-lbl">Theme System</div>
+        <div class="intro-stat-val">#c9a24b Gold &amp; #0d1c2a Navy</div>
+        <div class="intro-stat-sub">Pure inline styles, 0 CSS classes — paste cleanly into FatherShops</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Delivery Standard</div>
+        <div class="intro-stat-val">Strictly 7–8 Days</div>
+        <div class="intro-stat-sub">Removed live 8–10 business days contradiction &amp; sub-7-day hours</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Catalog &amp; Tone Overhaul</div>
+        <div class="intro-stat-val">Electronics-First Copy</div>
+        <div class="intro-stat-sub">Removed apparel leaks ("size/colour", "tags") &amp; punitive warranty penalties</div>
+      </div>
+      <div>
+        <div class="intro-stat-lbl">Unified Support Card</div>
+        <div class="intro-stat-val">zelmiqo@gmail.com</div>
+        <div class="intro-stat-sub">+916359268709 standardized across EN &amp; AR</div>
+      </div>
+    </div>
+
+    <section class="policy-card" id="page-delivery">
+        <div class="policy-card-header">
+          <div class="policy-title-group">
+            <span class="num-badge">2</span>
+            <div>
+              <h2>Delivery Information <span class="title-ar">(معلومات التوصيل)</span></h2>
+              <div class="live-urls">
+                <span>EN: <a href="https://zelmiqo.com/delivery" target="_blank" rel="noopener noreferrer">https://zelmiqo.com/delivery ↗</a></span>
+                <span>AR: <a href="https://zelmiqo.com/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84" target="_blank" rel="noopener noreferrer">/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84 ↗</a></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-copy-actions">
+            <button type="button" class="copy-btn copy-en" onclick="copySnippet('delivery', 'en', this)">📋 Copy English HTML</button>
+            <button type="button" class="copy-btn copy-ar" onclick="copySnippet('delivery', 'ar', this)">📋 Copy Arabic HTML</button>
+          </div>
+        </div>
+
+        <div class="audit-strip">
+          <div class="audit-strip-label">Senior E-Commerce Copywriter Audit Fixes Applied:</div>
+          <ul><li>FIXED CRITICAL TIMELINE BUG: Live 'Delivery at a glance' said '7–8 Business Days' while body copy claimed '8-10 business days'. Standardized 100% to 7–8 days.</li><li>Reconciled top bar 'Free shipping on all orders' cleanly with transparent checkout rates & international customs terms.</li><li>Removed harsh 'disposed of by carrier' language and eliminated sub-7-day hours (12h/48h) so all timelines stay clean and consistent.</li></ul>
+        </div>
+
+        <div class="view-tabs">
+          <button type="button" class="vtab active" onclick="switchTab('delivery', 'preview-en', this)">👁️ Preview English (LTR)</button>
+          <button type="button" class="vtab" onclick="switchTab('delivery', 'preview-ar', this)">👁️ Preview Arabic (RTL)</button>
+          <button type="button" class="vtab" onclick="switchTab('delivery', 'code-en', this)">&lt;/&gt; Raw English HTML</button>
+          <button type="button" class="vtab" onclick="switchTab('delivery', 'code-ar', this)">&lt;/&gt; Raw Arabic HTML</button>
+        </div>
+
+        <div class="tab-panel active" id="delivery-preview-en">
+          <div class="zelmiqo-live-stage">
+            <h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">Fast, Transparent Delivery in 7&ndash;8 Days.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">At <strong style="color: #0d1c2a;">Zelmiqo</strong>, we treat every shipment with care from the moment your order is placed until it arrives at your doorstep. Because many of our products feature lithium batteries, precision motors, and smart electronics, every package is verified and securely padded before dispatch.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>Our Delivery Standard:</strong> Orders across Saudi Arabia and our supported regions are delivered within <strong>7&ndash;8 days</strong>, supported by trusted courier partners and digital tracking updates.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;">Delivery at a glance</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Delivery Time</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7&ndash;8 Days</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Shipping Partners</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">SMSA, Aramex, Redbox &amp; Global</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Order Tracking</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Email &amp; SMS Tracking</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">Packaging Care</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">Inspected &amp; Padded Transit</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">How Order Fulfillment Works</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">Every order follows a structured quality and dispatch workflow so your delivery arrives on schedule within <strong>7&ndash;8 days</strong>:</p>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;"><strong>Order &amp; Payment Verification:</strong> We confirm your order details and shipping address immediately via email confirmation.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;"><strong>Device &amp; Accessory Check:</strong> Our fulfillment team inspects seals, charging cables, manuals, and overall item condition.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;"><strong>Protective Thermal Packaging:</strong> Electronics are cushioned in shock-resistant boxing built to protect delicate components in transit.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;"><strong>Courier Handover &amp; Live Tracking:</strong> Your parcel is dispatched via trusted carriers and your tracking link is emailed once activated.</span></li>
+</ol>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Shipping Coverage &amp; Delivery Time</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Saudi Arabia &amp; GCC Cities</h2>
+<p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;">Delivery Time: 7&ndash;8 Days</p><p style="margin: 0; color: #0d1c2a;">We deliver to Riyadh, Jeddah, Mecca, Medina, Dammam, Khobar, Abha, Tabuk, and surrounding cities and provinces across Saudi Arabia and Gulf destinations.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">International Shipping Coverage</h2>
+<p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;">Tracked Worldwide Delivery: 7&ndash;8 Days</p><p style="margin: 0; color: #0d1c2a;">International destinations are fulfilled via vetted cross-border express partners. Regional availability and carrier selection are displayed automatically at checkout.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Shipping Charges, Promotions &amp; Customs</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Transparent Checkout Shipping Costs</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">All active promotional Free Shipping offers apply automatically in your cart. Where standard fees apply by destination or order size, the exact cost is shown clearly before payment.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Saudi Pricing &amp; VAT Clarity</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Eligible Saudi orders display total prices transparently with no surprise courier surcharges added at delivery.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">International Customs, Duties &amp; Taxes</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Cross-border orders shipped outside domestic fulfillment zones may be subject to local import duties, customs inspections, or taxes determined by local authorities and covered by the recipient.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Multiple Shipments</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">When an order contains multiple products, items may occasionally ship in separate parcels for faster arrival, with individual tracking details when available.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Tracking Your Order &amp; Address Assistance</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Real-Time Order Tracking</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Once dispatched, use the tracking number in your shipping email or visit our <a href="/shipping-tracking" style="color: #c9a24b; font-weight: 600; text-decoration: none;">Shipping Tracking</a> page to follow delivery progress.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Incorrect or Incomplete Address</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Please verify your street, district, building number, and active phone before confirming checkout. If you notice an error, email <strong>zelmiqo@gmail.com</strong> immediately so we can update it before dispatch.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Missed Delivery &amp; Redelivery</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Please ensure your phone is reachable when the courier calls. If an attempt is missed due to unavailability or unreachable details, contact support so we can help coordinate redelivery with the carrier.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">Damaged or Missing Parcels</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">Inspect your parcel upon receipt. If anything arrives damaged or missing items, email photos of the box, shipping label, and product within the <strong>7-day window</strong> so we can arrange a prompt replacement or resolution.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">Delivery Responsibility &amp; Support</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">Once a shipment is successfully delivered to the verified address provided at checkout, responsibility for the parcel passes to the recipient. Should severe weather, public holidays, or customs clearance create an unexpected transit hold, our team stays ready to assist you directly with the courier.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">Thank you for trusting <strong>Zelmiqo</strong>. We work closely with every shipping partner to ensure your order reaches you safely within <strong>7&ndash;8 days</strong>.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">Questions about your shipment or delivery status?</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">Email:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">Phone:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="delivery-preview-ar">
+          <div class="zelmiqo-live-stage">
+            <div dir="rtl">
+<h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;">توصيل سريع، شفاف، وموثوق خلال 7&ndash;8 أيام.</h3>
+<p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;">في <strong style="color: #0d1c2a;">زيلميكو (Zelmiqo)</strong>، نهتم بكل شحنة منذ لحظة تأكيد الطلب وحتى وصولها إلى باب منزلك. ونظراً لأن منتجاتنا تضم أجهزة إلكترونية وبطاريات ومحركات دقيقة، يخضع كل طلب للفحص والتغليف المحكم قبل الانطلاق.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;">
+<p style="margin: 0; color: #0d1c2a;"><strong>معيار التوصيل لدينا:</strong> تصل الطلبات في المملكة العربية السعودية والمناطق المدعومة خلال <strong>7&ndash;8 أيام</strong> عبر شركات شحن موثوقة مع إشعارات تتبع واضحة.</p>
+</div>
+<div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;">
+<p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;">التوصيل باختصار</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;">
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">مدة التوصيل</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">7&ndash;8 أيام</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">شركاء الشحن</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">سمسا، أرامكس، ريدبوكس والشحن الدولي</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">تتبع الشحنة</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">عبر البريد الإلكتروني والرسائل</strong></div>
+<div style="min-width: 0;"><span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;">معيار التغليف</span><strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;">فحص وحماية ضد الصدمات</strong></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">كيف يتم تجهيز وشحن طلبك؟</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">يمر كل طلب بأربع خطوات دقيقة لضمان الجودة ووصول الشحنة في موعدها خلال <strong>7&ndash;8 أيام</strong>:</p>
+<ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;">
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">1</span><span style="padding-top: .15em;"><strong>التحقق من الطلب والدفع:</strong> يتم تأكيد تفاصيل طلبك وعنوان التوصيل فوراً عبر رسالة التأكيد.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">2</span><span style="padding-top: .15em;"><strong>فحص الجهاز والملحقات:</strong> يتحقق فريق التجهيز من سلامة المنتج، كابلات الشحن، الكتيبات، والأختام الأصلية.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">3</span><span style="padding-top: .15em;"><strong>التغليف الآمن المقاوم للحرارة:</strong> تُغلف الإلكترونيات بمواد عازلة ومبطنة تحميها من الصدمات وظروف النقل.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"><span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;">4</span><span style="padding-top: .15em;"><strong>التسليم لشركة الشحن والتتبع:</strong> تُسلم الشحنة للناقل المعتمد ويُرسل لك رابط ورقم التتبع فور تفعيله.</span></li>
+</ol>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">نطاق التغطية ومواعيد التوصيل</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">مدن المملكة العربية السعودية والخليج</h2>
+<p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;">مدة التوصيل: 7&ndash;8 أيام</p><p style="margin: 0; color: #0d1c2a;">نغطي الرياض، جدة، مكة المكرمة، المدينة المنورة، الدمام، الخبر، أبها، تبوك، وكافة مناطق المملكة ودول الخليج عبر شركاء الشحن المعتمدين.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;">
+<h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">التغطية الدولية للشحن</h2>
+<p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;">توصيل دولي متتبع: 7&ndash;8 أيام</p><p style="margin: 0; color: #0d1c2a;">تُشحن الطلبات الدولية عبر شركاء شحن جوي معتمدين، وتظهر خيارات التوصيل المتاحة لمدينتك تلقائياً أثناء إتمام الطلب.</p>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">رسوم الشحن، العروض، والجمارك</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">وضوح تكلفة الشحن</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">تُطبق عروض الشحن المجاني تلقائياً في سلة الشراء عند الترويج لها، وفي حال انطباق أي رسوم شحن فتظهر قيمتها النهائية بوضوح تام قبل الدفع.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">شفافية الأسعار في السعودية</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">تعرض الأسعار بوضوح دون فرض أي رسوم توصيل مفاجئة عند الباب بخلاف الموضح في فاتورة الطلب.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">الجمارك والرسوم الدولية</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">قد تخضع الشحنات الدولية خارج نطاق التخليص المحلي لإجراءات جمركية أو ضرائب استيراد تحددها الجهات المختصة في بلد الاستلام ويتحملها العميل.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;">◆</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">تعدد الشحنات للطلب الواحد</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">إذا شمل طلبك عدة أجهزة، فقد تُرسل أحياناً في طرود منفصلة لضمان سرعة الوصول مع تزويدك بتتبع مستقل لكل شحنة.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">تتبع الشحنة وتحديث العنوان</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;">
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">تتبع الشحنة لحظة بلحظة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">يمكنك استخدام رقم التتبع المرسل إلى بريدك أو زيارة صفحة <a href="/shipping-tracking" style="color: #c9a24b; font-weight: 600; text-decoration: none;">تتبع الشحنات</a> لمتابعة مسار الطلب.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">تعديل العنوان غير المكتمل</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">تأكد من دقة الحي والشارع ورقم الجوال قبل إتمام الطلب. وإذا لاحظت خطأً بعد الشراء، راسلنا فوراً على <strong>zelmiqo@gmail.com</strong> لتعديله قبل خروج الشحنة.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">محاولات التسليم وإعادة الجدولة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">يُرجى الرد على مكالمات ورسائل مندوب الشحن. وفي حال تعذر التسليم، تواصل معنا لننسق مع شركة الشحن إعادة التوصيل في الوقت المناسب.</span></div>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"><span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;">✓</span>
+<div style="min-width: 0;"><strong style="display: block; color: #0d1c2a; margin: 0 0 4px;">وصول شحنة متضررة أو ناقصة</strong><span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;">افحص الطرد عند الاستلام، وفي حال وجود تلف أو نقص يُرجى مراسلتنا بصور الكرتون وبوليصة الشحن والمنتج خلال <strong>مهلة الـ 7 أيام</strong> لإرسال بديل أو معالجة الطلب فوراً.</span></div>
+</div>
+</div>
+<h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);">مسؤولية الاستلام والدعم المستمر</h2>
+<p style="margin: 0 0 1.1em; color: #0d1c2a;">تنتقل مسؤولية الطرد إلى العميل بمجرد تسليمه إلى العنوان الموثق في الطلب. وإذا طرأت ظروف استثنائية خارجة عن الإرادة كالأحوال الجوية أو الإجازات الرسمية أو التأخير الجمركي، يبقى فريق خدمة العملاء على تواصل مستمر معك ومع شركة الشحن حتى تستلم طلبك بأمان.</p>
+<div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;">
+<p style="margin: 0; color: #0d1c2a;">شكراً لثقتك في <strong>زيلميكو (Zelmiqo)</strong>. نحرص على وصول طلبك بأمان وجودة عالية خلال <strong>7&ndash;8 أيام</strong>.</p>
+</div>
+<div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;">
+<p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;">هل لديك استفسار عن شحنتك أو حالة التوصيل؟</p>
+<p style="margin: 0 0 4px;"><span style="color: #0d1c2a; opacity: .72;">البريد الإلكتروني:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com">zelmiqo@gmail.com</a></p>
+<p style="margin: 0;"><span style="color: #0d1c2a; opacity: .72;">الهاتف:</span> <a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709">+916359268709</a></p>
+</div>
+</div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="delivery-code-en">
+          <pre class="code-view"><code>&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;Fast, Transparent Delivery in 7&amp;ndash;8 Days.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;At &lt;strong style="color: #0d1c2a;"&gt;Zelmiqo&lt;/strong&gt;, we treat every shipment with care from the moment your order is placed until it arrives at your doorstep. Because many of our products feature lithium batteries, precision motors, and smart electronics, every package is verified and securely padded before dispatch.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;Our Delivery Standard:&lt;/strong&gt; Orders across Saudi Arabia and our supported regions are delivered within &lt;strong&gt;7&amp;ndash;8 days&lt;/strong&gt;, supported by trusted courier partners and digital tracking updates.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;"&gt;Delivery at a glance&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Delivery Time&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7&amp;ndash;8 Days&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Shipping Partners&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;SMSA, Aramex, Redbox &amp;amp; Global&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Order Tracking&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Email &amp;amp; SMS Tracking&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;Packaging Care&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;Inspected &amp;amp; Padded Transit&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;How Order Fulfillment Works&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;Every order follows a structured quality and dispatch workflow so your delivery arrives on schedule within &lt;strong&gt;7&amp;ndash;8 days&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Order &amp;amp; Payment Verification:&lt;/strong&gt; We confirm your order details and shipping address immediately via email confirmation.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Device &amp;amp; Accessory Check:&lt;/strong&gt; Our fulfillment team inspects seals, charging cables, manuals, and overall item condition.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Protective Thermal Packaging:&lt;/strong&gt; Electronics are cushioned in shock-resistant boxing built to protect delicate components in transit.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;Courier Handover &amp;amp; Live Tracking:&lt;/strong&gt; Your parcel is dispatched via trusted carriers and your tracking link is emailed once activated.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Shipping Coverage &amp;amp; Delivery Time&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Saudi Arabia &amp;amp; GCC Cities&lt;/h2&gt;
+&lt;p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;"&gt;Delivery Time: 7&amp;ndash;8 Days&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;We deliver to Riyadh, Jeddah, Mecca, Medina, Dammam, Khobar, Abha, Tabuk, and surrounding cities and provinces across Saudi Arabia and Gulf destinations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;International Shipping Coverage&lt;/h2&gt;
+&lt;p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;"&gt;Tracked Worldwide Delivery: 7&amp;ndash;8 Days&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;International destinations are fulfilled via vetted cross-border express partners. Regional availability and carrier selection are displayed automatically at checkout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Shipping Charges, Promotions &amp;amp; Customs&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Transparent Checkout Shipping Costs&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;All active promotional Free Shipping offers apply automatically in your cart. Where standard fees apply by destination or order size, the exact cost is shown clearly before payment.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Saudi Pricing &amp;amp; VAT Clarity&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Eligible Saudi orders display total prices transparently with no surprise courier surcharges added at delivery.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;International Customs, Duties &amp;amp; Taxes&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Cross-border orders shipped outside domestic fulfillment zones may be subject to local import duties, customs inspections, or taxes determined by local authorities and covered by the recipient.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Multiple Shipments&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;When an order contains multiple products, items may occasionally ship in separate parcels for faster arrival, with individual tracking details when available.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Tracking Your Order &amp;amp; Address Assistance&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Real-Time Order Tracking&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Once dispatched, use the tracking number in your shipping email or visit our &lt;a href="/shipping-tracking" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;Shipping Tracking&lt;/a&gt; page to follow delivery progress.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Incorrect or Incomplete Address&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Please verify your street, district, building number, and active phone before confirming checkout. If you notice an error, email &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt; immediately so we can update it before dispatch.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Missed Delivery &amp;amp; Redelivery&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Please ensure your phone is reachable when the courier calls. If an attempt is missed due to unavailability or unreachable details, contact support so we can help coordinate redelivery with the carrier.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;Damaged or Missing Parcels&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;Inspect your parcel upon receipt. If anything arrives damaged or missing items, email photos of the box, shipping label, and product within the &lt;strong&gt;7-day window&lt;/strong&gt; so we can arrange a prompt replacement or resolution.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;Delivery Responsibility &amp;amp; Support&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;Once a shipment is successfully delivered to the verified address provided at checkout, responsibility for the parcel passes to the recipient. Should severe weather, public holidays, or customs clearance create an unexpected transit hold, our team stays ready to assist you directly with the courier.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;Thank you for trusting &lt;strong&gt;Zelmiqo&lt;/strong&gt;. We work closely with every shipping partner to ensure your order reaches you safely within &lt;strong&gt;7&amp;ndash;8 days&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;Questions about your shipment or delivery status?&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Email:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;Phone:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+
+        <div class="tab-panel" id="delivery-code-ar">
+          <pre class="code-view"><code>&lt;div dir="rtl"&gt;
+&lt;h3 style="font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;"&gt;توصيل سريع، شفاف، وموثوق خلال 7&amp;ndash;8 أيام.&lt;/h3&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;"&gt;في &lt;strong style="color: #0d1c2a;"&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;، نهتم بكل شحنة منذ لحظة تأكيد الطلب وحتى وصولها إلى باب منزلك. ونظراً لأن منتجاتنا تضم أجهزة إلكترونية وبطاريات ومحركات دقيقة، يخضع كل طلب للفحص والتغليف المحكم قبل الانطلاق.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;&lt;strong&gt;معيار التوصيل لدينا:&lt;/strong&gt; تصل الطلبات في المملكة العربية السعودية والمناطق المدعومة خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt; عبر شركات شحن موثوقة مع إشعارات تتبع واضحة.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;"&gt;
+&lt;p style="margin: 0 0 10px; font-weight: bold; color: #c9a24b;"&gt;التوصيل باختصار&lt;/p&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;"&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;مدة التوصيل&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;7&amp;ndash;8 أيام&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;شركاء الشحن&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;سمسا، أرامكس، ريدبوكس والشحن الدولي&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;تتبع الشحنة&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;عبر البريد الإلكتروني والرسائل&lt;/strong&gt;&lt;/div&gt;
+&lt;div style="min-width: 0;"&gt;&lt;span style="display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;"&gt;معيار التغليف&lt;/span&gt;&lt;strong style="display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;"&gt;فحص وحماية ضد الصدمات&lt;/strong&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;كيف يتم تجهيز وشحن طلبك؟&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;يمر كل طلب بأربع خطوات دقيقة لضمان الجودة ووصول الشحنة في موعدها خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol style="list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;"&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;1&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;التحقق من الطلب والدفع:&lt;/strong&gt; يتم تأكيد تفاصيل طلبك وعنوان التوصيل فوراً عبر رسالة التأكيد.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;2&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;فحص الجهاز والملحقات:&lt;/strong&gt; يتحقق فريق التجهيز من سلامة المنتج، كابلات الشحن، الكتيبات، والأختام الأصلية.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;3&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;التغليف الآمن المقاوم للحرارة:&lt;/strong&gt; تُغلف الإلكترونيات بمواد عازلة ومبطنة تحميها من الصدمات وظروف النقل.&lt;/span&gt;&lt;/li&gt;
+&lt;li style="display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;"&gt;&lt;span style="flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;"&gt;4&lt;/span&gt;&lt;span style="padding-top: .15em;"&gt;&lt;strong&gt;التسليم لشركة الشحن والتتبع:&lt;/strong&gt; تُسلم الشحنة للناقل المعتمد ويُرسل لك رابط ورقم التتبع فور تفعيله.&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;نطاق التغطية ومواعيد التوصيل&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;مدن المملكة العربية السعودية والخليج&lt;/h2&gt;
+&lt;p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;"&gt;مدة التوصيل: 7&amp;ndash;8 أيام&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;نغطي الرياض، جدة، مكة المكرمة، المدينة المنورة، الدمام، الخبر، أبها، تبوك، وكافة مناطق المملكة ودول الخليج عبر شركاء الشحن المعتمدين.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;"&gt;
+&lt;h2 style="font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;التغطية الدولية للشحن&lt;/h2&gt;
+&lt;p style="margin: 0 0 .5em; font-weight: 600; color: #c9a24b;"&gt;توصيل دولي متتبع: 7&amp;ndash;8 أيام&lt;/p&gt;&lt;p style="margin: 0; color: #0d1c2a;"&gt;تُشحن الطلبات الدولية عبر شركاء شحن جوي معتمدين، وتظهر خيارات التوصيل المتاحة لمدينتك تلقائياً أثناء إتمام الطلب.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;رسوم الشحن، العروض، والجمارك&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;وضوح تكلفة الشحن&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;تُطبق عروض الشحن المجاني تلقائياً في سلة الشراء عند الترويج لها، وفي حال انطباق أي رسوم شحن فتظهر قيمتها النهائية بوضوح تام قبل الدفع.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;شفافية الأسعار في السعودية&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;تعرض الأسعار بوضوح دون فرض أي رسوم توصيل مفاجئة عند الباب بخلاف الموضح في فاتورة الطلب.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;الجمارك والرسوم الدولية&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;قد تخضع الشحنات الدولية خارج نطاق التخليص المحلي لإجراءات جمركية أو ضرائب استيراد تحددها الجهات المختصة في بلد الاستلام ويتحملها العميل.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;"&gt;◆&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;تعدد الشحنات للطلب الواحد&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;إذا شمل طلبك عدة أجهزة، فقد تُرسل أحياناً في طرود منفصلة لضمان سرعة الوصول مع تزويدك بتتبع مستقل لكل شحنة.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;تتبع الشحنة وتحديث العنوان&lt;/h2&gt;
+&lt;div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;"&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;تتبع الشحنة لحظة بلحظة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;يمكنك استخدام رقم التتبع المرسل إلى بريدك أو زيارة صفحة &lt;a href="/shipping-tracking" style="color: #c9a24b; font-weight: 600; text-decoration: none;"&gt;تتبع الشحنات&lt;/a&gt; لمتابعة مسار الطلب.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;تعديل العنوان غير المكتمل&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;تأكد من دقة الحي والشارع ورقم الجوال قبل إتمام الطلب. وإذا لاحظت خطأً بعد الشراء، راسلنا فوراً على &lt;strong&gt;zelmiqo@gmail.com&lt;/strong&gt; لتعديله قبل خروج الشحنة.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;محاولات التسليم وإعادة الجدولة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;يُرجى الرد على مكالمات ورسائل مندوب الشحن. وفي حال تعذر التسليم، تواصل معنا لننسق مع شركة الشحن إعادة التوصيل في الوقت المناسب.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;"&gt;&lt;span style="flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;"&gt;✓&lt;/span&gt;
+&lt;div style="min-width: 0;"&gt;&lt;strong style="display: block; color: #0d1c2a; margin: 0 0 4px;"&gt;وصول شحنة متضررة أو ناقصة&lt;/strong&gt;&lt;span style="display: block; color: #0d1c2a; opacity: .88; font-size: .95em;"&gt;افحص الطرد عند الاستلام، وفي حال وجود تلف أو نقص يُرجى مراسلتنا بصور الكرتون وبوليصة الشحن والمنتج خلال &lt;strong&gt;مهلة الـ 7 أيام&lt;/strong&gt; لإرسال بديل أو معالجة الطلب فوراً.&lt;/span&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 style="font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);"&gt;مسؤولية الاستلام والدعم المستمر&lt;/h2&gt;
+&lt;p style="margin: 0 0 1.1em; color: #0d1c2a;"&gt;تنتقل مسؤولية الطرد إلى العميل بمجرد تسليمه إلى العنوان الموثق في الطلب. وإذا طرأت ظروف استثنائية خارجة عن الإرادة كالأحوال الجوية أو الإجازات الرسمية أو التأخير الجمركي، يبقى فريق خدمة العملاء على تواصل مستمر معك ومع شركة الشحن حتى تستلم طلبك بأمان.&lt;/p&gt;
+&lt;div style="border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;"&gt;
+&lt;p style="margin: 0; color: #0d1c2a;"&gt;شكراً لثقتك في &lt;strong&gt;زيلميكو (Zelmiqo)&lt;/strong&gt;. نحرص على وصول طلبك بأمان وجودة عالية خلال &lt;strong&gt;7&amp;ndash;8 أيام&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style="background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;"&gt;
+&lt;p style="margin: 0 0 8px; font-weight: 600; color: #0d1c2a;"&gt;هل لديك استفسار عن شحنتك أو حالة التوصيل؟&lt;/p&gt;
+&lt;p style="margin: 0 0 4px;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;البريد الإلكتروني:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="mailto:zelmiqo@gmail.com"&gt;zelmiqo@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p style="margin: 0;"&gt;&lt;span style="color: #0d1c2a; opacity: .72;"&gt;الهاتف:&lt;/span&gt; &lt;a dir="ltr" style="color: #c9a24b; font-weight: 600; white-space: nowrap;" href="tel:+916359268709"&gt;+916359268709&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        </div>
+      </section>
+  </main>
+
+  <div id="toastMsg" class="toast-msg">Copied HTML to clipboard!</div>
+
+  <script>
+    const SNIPPETS = {"delivery": {"en": "<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">Fast, Transparent Delivery in 7&ndash;8 Days.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">At <strong style=\"color: #0d1c2a;\">Zelmiqo<\/strong>, we treat every shipment with care from the moment your order is placed until it arrives at your doorstep. Because many of our products feature lithium batteries, precision motors, and smart electronics, every package is verified and securely padded before dispatch.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>Our Delivery Standard:<\/strong> Orders across Saudi Arabia and our supported regions are delivered within <strong>7&ndash;8 days<\/strong>, supported by trusted courier partners and digital tracking updates.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b; letter-spacing: .08em; text-transform: uppercase;\">Delivery at a glance<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Delivery Time<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7&ndash;8 Days<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Shipping Partners<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">SMSA, Aramex, Redbox &amp; Global<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Order Tracking<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Email &amp; SMS Tracking<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">Packaging Care<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">Inspected &amp; Padded Transit<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">How Order Fulfillment Works<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">Every order follows a structured quality and dispatch workflow so your delivery arrives on schedule within <strong>7&ndash;8 days<\/strong>:<\/p>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\"><strong>Order &amp; Payment Verification:<\/strong> We confirm your order details and shipping address immediately via email confirmation.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\"><strong>Device &amp; Accessory Check:<\/strong> Our fulfillment team inspects seals, charging cables, manuals, and overall item condition.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\"><strong>Protective Thermal Packaging:<\/strong> Electronics are cushioned in shock-resistant boxing built to protect delicate components in transit.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\"><strong>Courier Handover &amp; Live Tracking:<\/strong> Your parcel is dispatched via trusted carriers and your tracking link is emailed once activated.<\/span><\/li>\n<\/ol>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Shipping Coverage &amp; Delivery Time<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Saudi Arabia &amp; GCC Cities<\/h2>\n<p style=\"margin: 0 0 .5em; font-weight: 600; color: #c9a24b;\">Delivery Time: 7&ndash;8 Days<\/p><p style=\"margin: 0; color: #0d1c2a;\">We deliver to Riyadh, Jeddah, Mecca, Medina, Dammam, Khobar, Abha, Tabuk, and surrounding cities and provinces across Saudi Arabia and Gulf destinations.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">International Shipping Coverage<\/h2>\n<p style=\"margin: 0 0 .5em; font-weight: 600; color: #c9a24b;\">Tracked Worldwide Delivery: 7&ndash;8 Days<\/p><p style=\"margin: 0; color: #0d1c2a;\">International destinations are fulfilled via vetted cross-border express partners. Regional availability and carrier selection are displayed automatically at checkout.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Shipping Charges, Promotions &amp; Customs<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Transparent Checkout Shipping Costs<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">All active promotional Free Shipping offers apply automatically in your cart. Where standard fees apply by destination or order size, the exact cost is shown clearly before payment.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Saudi Pricing &amp; VAT Clarity<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Eligible Saudi orders display total prices transparently with no surprise courier surcharges added at delivery.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">International Customs, Duties &amp; Taxes<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Cross-border orders shipped outside domestic fulfillment zones may be subject to local import duties, customs inspections, or taxes determined by local authorities and covered by the recipient.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Multiple Shipments<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">When an order contains multiple products, items may occasionally ship in separate parcels for faster arrival, with individual tracking details when available.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Tracking Your Order &amp; Address Assistance<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Real-Time Order Tracking<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Once dispatched, use the tracking number in your shipping email or visit our <a href=\"\/shipping-tracking\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">Shipping Tracking<\/a> page to follow delivery progress.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Incorrect or Incomplete Address<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Please verify your street, district, building number, and active phone before confirming checkout. If you notice an error, email <strong>zelmiqo@gmail.com<\/strong> immediately so we can update it before dispatch.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Missed Delivery &amp; Redelivery<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Please ensure your phone is reachable when the courier calls. If an attempt is missed due to unavailability or unreachable details, contact support so we can help coordinate redelivery with the carrier.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">Damaged or Missing Parcels<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">Inspect your parcel upon receipt. If anything arrives damaged or missing items, email photos of the box, shipping label, and product within the <strong>7-day window<\/strong> so we can arrange a prompt replacement or resolution.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">Delivery Responsibility &amp; Support<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">Once a shipment is successfully delivered to the verified address provided at checkout, responsibility for the parcel passes to the recipient. Should severe weather, public holidays, or customs clearance create an unexpected transit hold, our team stays ready to assist you directly with the courier.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">Thank you for trusting <strong>Zelmiqo<\/strong>. We work closely with every shipping partner to ensure your order reaches you safely within <strong>7&ndash;8 days<\/strong>.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">Questions about your shipment or delivery status?<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">Email:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">Phone:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>", "ar": "<div dir=\"rtl\">\n<h3 style=\"font-size: 1.4em; line-height: 1.3; margin: 0 0 .5em; color: #c9a24b; font-weight: bold;\">توصيل سريع، شفاف، وموثوق خلال 7&ndash;8 أيام.<\/h3>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a; opacity: .92;\">في <strong style=\"color: #0d1c2a;\">زيلميكو (Zelmiqo)<\/strong>، نهتم بكل شحنة منذ لحظة تأكيد الطلب وحتى وصولها إلى باب منزلك. ونظراً لأن منتجاتنا تضم أجهزة إلكترونية وبطاريات ومحركات دقيقة، يخضع كل طلب للفحص والتغليف المحكم قبل الانطلاق.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0; color: #0d1c2a;\"><strong>معيار التوصيل لدينا:<\/strong> تصل الطلبات في المملكة العربية السعودية والمناطق المدعومة خلال <strong>7&ndash;8 أيام<\/strong> عبر شركات شحن موثوقة مع إشعارات تتبع واضحة.<\/p>\n<\/div>\n<div style=\"background: rgba(201, 162, 75, 0.08); border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 0 0 1.75em;\">\n<p style=\"margin: 0 0 10px; font-weight: bold; color: #c9a24b;\">التوصيل باختصار<\/p>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); gap: 14px 22px;\">\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">مدة التوصيل<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">7&ndash;8 أيام<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">شركاء الشحن<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">سمسا، أرامكس، ريدبوكس والشحن الدولي<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">تتبع الشحنة<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">عبر البريد الإلكتروني والرسائل<\/strong><\/div>\n<div style=\"min-width: 0;\"><span style=\"display: block; font-size: .85em; color: #0d1c2a; opacity: .72; margin: 0 0 2px;\">معيار التغليف<\/span><strong style=\"display: block; font-size: 1.05em; font-weight: 600; line-height: 1.35; color: #0d1c2a;\">فحص وحماية ضد الصدمات<\/strong><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">كيف يتم تجهيز وشحن طلبك؟<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">يمر كل طلب بأربع خطوات دقيقة لضمان الجودة ووصول الشحنة في موعدها خلال <strong>7&ndash;8 أيام<\/strong>:<\/p>\n<ol style=\"list-style: none; padding: 0; margin: 0 0 1.5em; color: #0d1c2a;\">\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">1<\/span><span style=\"padding-top: .15em;\"><strong>التحقق من الطلب والدفع:<\/strong> يتم تأكيد تفاصيل طلبك وعنوان التوصيل فوراً عبر رسالة التأكيد.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">2<\/span><span style=\"padding-top: .15em;\"><strong>فحص الجهاز والملحقات:<\/strong> يتحقق فريق التجهيز من سلامة المنتج، كابلات الشحن، الكتيبات، والأختام الأصلية.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">3<\/span><span style=\"padding-top: .15em;\"><strong>التغليف الآمن المقاوم للحرارة:<\/strong> تُغلف الإلكترونيات بمواد عازلة ومبطنة تحميها من الصدمات وظروف النقل.<\/span><\/li>\n<li style=\"display: flex; gap: 12px; align-items: flex-start; margin: 0 0 12px;\"><span style=\"flex: none; width: 1.75em; height: 1.75em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: 600; font-size: .9em; line-height: 1;\">4<\/span><span style=\"padding-top: .15em;\"><strong>التسليم لشركة الشحن والتتبع:<\/strong> تُسلم الشحنة للناقل المعتمد ويُرسل لك رابط ورقم التتبع فور تفعيله.<\/span><\/li>\n<\/ol>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">نطاق التغطية ومواعيد التوصيل<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 14px; margin: 1.5em 0;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">مدن المملكة العربية السعودية والخليج<\/h2>\n<p style=\"margin: 0 0 .5em; font-weight: 600; color: #c9a24b;\">مدة التوصيل: 7&ndash;8 أيام<\/p><p style=\"margin: 0; color: #0d1c2a;\">نغطي الرياض، جدة، مكة المكرمة، المدينة المنورة، الدمام، الخبر، أبها، تبوك، وكافة مناطق المملكة ودول الخليج عبر شركاء الشحن المعتمدين.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px;\">\n<h2 style=\"font-size: 1.2em; line-height: 1.3; margin: 0 0 .5em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">التغطية الدولية للشحن<\/h2>\n<p style=\"margin: 0 0 .5em; font-weight: 600; color: #c9a24b;\">توصيل دولي متتبع: 7&ndash;8 أيام<\/p><p style=\"margin: 0; color: #0d1c2a;\">تُشحن الطلبات الدولية عبر شركاء شحن جوي معتمدين، وتظهر خيارات التوصيل المتاحة لمدينتك تلقائياً أثناء إتمام الطلب.<\/p>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">رسوم الشحن، العروض، والجمارك<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">وضوح تكلفة الشحن<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">تُطبق عروض الشحن المجاني تلقائياً في سلة الشراء عند الترويج لها، وفي حال انطباق أي رسوم شحن فتظهر قيمتها النهائية بوضوح تام قبل الدفع.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">شفافية الأسعار في السعودية<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">تعرض الأسعار بوضوح دون فرض أي رسوم توصيل مفاجئة عند الباب بخلاف الموضح في فاتورة الطلب.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">الجمارك والرسوم الدولية<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">قد تخضع الشحنات الدولية خارج نطاق التخليص المحلي لإجراءات جمركية أو ضرائب استيراد تحددها الجهات المختصة في بلد الاستلام ويتحملها العميل.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; color: #c9a24b; font-weight: bold; font-size: 1.05em; line-height: 1.3;\">◆<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">تعدد الشحنات للطلب الواحد<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">إذا شمل طلبك عدة أجهزة، فقد تُرسل أحياناً في طرود منفصلة لضمان سرعة الوصول مع تزويدك بتتبع مستقل لكل شحنة.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">تتبع الشحنة وتحديث العنوان<\/h2>\n<div style=\"display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 14px; margin: 0 0 1.5em;\">\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">تتبع الشحنة لحظة بلحظة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">يمكنك استخدام رقم التتبع المرسل إلى بريدك أو زيارة صفحة <a href=\"\/shipping-tracking\" style=\"color: #c9a24b; font-weight: 600; text-decoration: none;\">تتبع الشحنات<\/a> لمتابعة مسار الطلب.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">تعديل العنوان غير المكتمل<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">تأكد من دقة الحي والشارع ورقم الجوال قبل إتمام الطلب. وإذا لاحظت خطأً بعد الشراء، راسلنا فوراً على <strong>zelmiqo@gmail.com<\/strong> لتعديله قبل خروج الشحنة.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">محاولات التسليم وإعادة الجدولة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">يُرجى الرد على مكالمات ورسائل مندوب الشحن. وفي حال تعذر التسليم، تواصل معنا لننسق مع شركة الشحن إعادة التوصيل في الوقت المناسب.<\/span><\/div>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 10px; padding: 14px 16px; display: flex; gap: 12px; align-items: flex-start;\"><span style=\"flex: none; width: 1.65em; height: 1.65em; border-radius: 50%; background: #c9a24b; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; font-weight: bold; font-size: .85em; line-height: 1;\">✓<\/span>\n<div style=\"min-width: 0;\"><strong style=\"display: block; color: #0d1c2a; margin: 0 0 4px;\">وصول شحنة متضررة أو ناقصة<\/strong><span style=\"display: block; color: #0d1c2a; opacity: .88; font-size: .95em;\">افحص الطرد عند الاستلام، وفي حال وجود تلف أو نقص يُرجى مراسلتنا بصور الكرتون وبوليصة الشحن والمنتج خلال <strong>مهلة الـ 7 أيام<\/strong> لإرسال بديل أو معالجة الطلب فوراً.<\/span><\/div>\n<\/div>\n<\/div>\n<h2 style=\"font-size: 1.3em; line-height: 1.3; margin: 1.75em 0 .6em; padding-bottom: .35em; color: #0d1c2a; border-bottom: 1px solid rgba(201, 162, 75, 0.35);\">مسؤولية الاستلام والدعم المستمر<\/h2>\n<p style=\"margin: 0 0 1.1em; color: #0d1c2a;\">تنتقل مسؤولية الطرد إلى العميل بمجرد تسليمه إلى العنوان الموثق في الطلب. وإذا طرأت ظروف استثنائية خارجة عن الإرادة كالأحوال الجوية أو الإجازات الرسمية أو التأخير الجمركي، يبقى فريق خدمة العملاء على تواصل مستمر معك ومع شركة الشحن حتى تستلم طلبك بأمان.<\/p>\n<div style=\"border-inline-start: 4px solid #c9a24b; background: rgba(201, 162, 75, 0.08); border-radius: 8px; padding: 12px 16px; margin: 0 0 1.5em;\">\n<p style=\"margin: 0; color: #0d1c2a;\">شكراً لثقتك في <strong>زيلميكو (Zelmiqo)<\/strong>. نحرص على وصول طلبك بأمان وجودة عالية خلال <strong>7&ndash;8 أيام<\/strong>.<\/p>\n<\/div>\n<div style=\"background: #ffffff; border: 1px solid rgba(201, 162, 75, 0.35); border-radius: 12px; padding: 16px 18px; margin: 1.75em 0 0;\">\n<p style=\"margin: 0 0 8px; font-weight: 600; color: #0d1c2a;\">هل لديك استفسار عن شحنتك أو حالة التوصيل؟<\/p>\n<p style=\"margin: 0 0 4px;\"><span style=\"color: #0d1c2a; opacity: .72;\">البريد الإلكتروني:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"mailto:zelmiqo@gmail.com\">zelmiqo@gmail.com<\/a><\/p>\n<p style=\"margin: 0;\"><span style=\"color: #0d1c2a; opacity: .72;\">الهاتف:<\/span> <a dir=\"ltr\" style=\"color: #c9a24b; font-weight: 600; white-space: nowrap;\" href=\"tel:+916359268709\">+916359268709<\/a><\/p>\n<\/div>\n<\/div>"}};
+
+    function switchTab(pageId, target, btn) {
+      const card = document.getElementById("page-" + pageId);
+      card.querySelectorAll(".vtab").forEach(b => b.classList.remove("active"));
+      card.querySelectorAll(".tab-panel").forEach(p => p.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      const panel = document.getElementById(pageId + "-" + target);
+      if (panel) panel.classList.add("active");
+    }
+
+    function copySnippet(pageId, lang, btn) {
+      const text = SNIPPETS[pageId][lang];
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = lang === "en" ? "✓ Copied English HTML" : "✓ Copied Arabic HTML";
+        showToast((lang === "en" ? "English" : "Arabic") + " HTML copied for FatherShops!");
+        setTimeout(() => { btn.textContent = orig; }, 2200);
+      });
+    }
+
+    function showToast(msg) {
+      const t = document.getElementById("toastMsg");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), 2200);
+    }
+  </script>
+</body>
+</html>
