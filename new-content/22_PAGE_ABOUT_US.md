@@ -162,9 +162,9 @@ Pillar 3 - Transparent Flexible Financing:
 new english content: ✔ Transparent Flexible Financing: Enjoy financial ease by splitting payments into 4 interest-free installments with Tabby and Tamara, or choose Cash on Delivery (COD) and Mada upon receipt.
 new arabic content: ✔ خيارات دفع وتقسيط ميسرة: تسوق براحة تامة وقسّم فاتورتك على 4 دفعات بدون فوائد أو رسوم خفية عبر تابي وتمارا، أو اختر الدفع عند الاستلام وبطاقات مدى وأبل باي.
 
-Pillar 4 - Golden 14-Day Warranty & Protection:
-new english content: ✔ Golden 14-Day Warranty & Protection: Shop with absolute peace of mind backed by our Golden 14-Day direct replacement guarantee and 1-year product warranty compliant with Saudi consumer standards.
-new arabic content: ✔ الضمان الذهبي والاستبدال السريع: تسوق بثقة تامة مع الضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام وفق اشتراطات وزارة التجارة السعودية.
+Pillar 4 - Golden 7-Day Warranty & Protection:
+new english content: ✔ Golden 7-Day Warranty & Protection: Shop with absolute peace of mind backed by our Golden 7-Day direct replacement guarantee and 1-year product warranty compliant with Saudi consumer standards.
+new arabic content: ✔ الضمان الذهبي والاستبدال السريع: تسوق بثقة تامة مع الضمان الذهبي للاستبدال الفوري خلال 7 أيام وضمان شامل لمدة عام وفق اشتراطات وزارة التجارة السعودية.
 
 Pillar 5 - Bilingual VIP Concierge Support:
 new english content: ✔ Bilingual VIP Concierge Support: Dedicated Arabic and English support specialists available 7 days a week via direct WhatsApp to answer inquiries and assist with tracking.

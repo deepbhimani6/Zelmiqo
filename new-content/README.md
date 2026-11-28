@@ -33,7 +33,7 @@ This content architecture strikes the ultimate sweet spot requested for Zelmiqo:
 - [`01_CATALOG_PRODUCTS_LISTING.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/01_CATALOG_PRODUCTS_LISTING.md) — Catalog header, collection filters, international quality badges, and Tabby/Tamara price tags.
 - [`22_PAGE_ABOUT_US.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/22_PAGE_ABOUT_US.md) — Global brand manifesto, testing standards, and dedicated Saudi regional vision.
 - [`23_PAGE_DELIVERY_AND_SHIPPING.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/23_PAGE_DELIVERY_AND_SHIPPING.md) — Local KSA dispatch timelines, Aramex/SMSA/Redbox networks, and COD terms.
-- [`24_PAGE_WARRANTY_AND_RETURNS.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/24_PAGE_WARRANTY_AND_RETURNS.md) — 14-day Golden Guarantee, free return shipping for defects, and 1-year electronics warranty.
+- [`24_PAGE_WARRANTY_AND_RETURNS.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/24_PAGE_WARRANTY_AND_RETURNS.md) — 7-day Golden Guarantee, free return shipping for defects, and 1-year electronics warranty.
 - [`25_PAGE_CONTACT_US.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/25_PAGE_CONTACT_US.md) — VIP WhatsApp concierge (+966), bilingual support, and Riyadh operations center.
 - [`26_PAGE_PRIVACY_AND_TERMS.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/26_PAGE_PRIVACY_AND_TERMS.md) — Saudi E-Commerce Law & Personal Data Protection Law (PDPL) compliance.
 - [`27_BLOGS_AND_ARTICLES.md`](file:///Users/shunyavkashminim2/Downloads/Test/new-content/27_BLOGS_AND_ARTICLES.md) — Wearable cooling tech guides, desk ergonomics, and car interior thermal defense.

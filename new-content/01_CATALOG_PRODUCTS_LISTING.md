@@ -125,7 +125,7 @@ new english content:
 • Price Display: Bold SAR pricing (e.g. "SAR 149.00 (Includes 15% VAT)")
 • 4x Split Payment Badge: "Or 4 interest-free payments of SAR 37.25 with Tabby / Tamara"
 • Fast Shipping Micro-Badge: "⚡️ In Stock in Riyadh • Fast Courier Dispatch"
-• Guarantee Micro-Badge: "🛡️ Golden 14-Day Replacement Guarantee"
+• Guarantee Micro-Badge: "🛡️ Golden 7-Day Replacement Guarantee"
 • Primary Action: "Add to Bag"
 • Express Action: "Express Buy with Apple Pay"
 
@@ -136,7 +136,7 @@ new arabic content:
 • عرض السعر: السعر الإجمالي بالريال السعودي بخط عريض (مثال: "149.00 ر.س شامل ضريبة القيمة المضافة 15%")
 • شارة التقسيط على 4 دفعات: "أو قسّمها على 4 دفعات ميسرة بقيمة 37.25 ر.س/شهرياً بدون فوائد مع تابي أو تمارا"
 • شارة الشحن السريع: "⚡️ متوفر بمستودعات الرياض • شحن محلي فوري"
-• شارة الضمان: "🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً"
+• شارة الضمان: "🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام"
 • زر الشراء الأساسي: "أضف إلى السلة"
 • زر الشراء السريع: "شراء فوري عبر أبل باي"
 ```
@@ -153,6 +153,6 @@ Fast Shipping • Quality Checked • Secure Checkout Protection
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Catalog Trust Banner:
-new english content: 🚚 100% Free Express Delivery Across KSA | 🛡️ Golden 14-Day Replacement Warranty | 💳 Split in 4 with Tabby & Tamara | 💵 Cash on Delivery Available
-new arabic content: 🚚 شحن وتوصيل مجاني 100% لكافة مناطق المملكة | 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً | 💳 تقسيط ميسر على 4 دفعات مع تابي وتمارا | 💵 خيار الدفع عند الاستلام متاح
+new english content: 🚚 100% Free Express Delivery Across KSA | 🛡️ Golden 7-Day Replacement Warranty | 💳 Split in 4 with Tabby & Tamara | 💵 Cash on Delivery Available
+new arabic content: 🚚 شحن وتوصيل مجاني 100% لكافة مناطق المملكة | 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام | 💳 تقسيط ميسر على 4 دفعات مع تابي وتمارا | 💵 خيار الدفع عند الاستلام متاح
 ```

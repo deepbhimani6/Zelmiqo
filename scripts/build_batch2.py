@@ -55,8 +55,8 @@ p_ems = {
 
     "twocol-head-en": "DAILY BEAUTY ESSENTIAL • SALON RESULTS AT HOME<br>Effortless 10-Minute Daily Face Sculpting Routine<br>Achieve a contoured jawline, refined skin texture, and long-lasting radiance from the comfort of home. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "روتين الجمال اليومي • نتائج العيادات براحة منزلك<br>10 دقائق يومياً لنحت الوجه وتجديد شباب البشرة<br>احصلي على خط فك محدد وبشرة مشدودة وأكثر نضارة دون الحاجة لجلسات باهظة، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "5 ADVANCED CLINICAL TECHNOLOGIES IN ONE DEVICE<br>Lift, Tighten & Infuse with Precision Care<br>Ergonomic curved treatment head adapts seamlessly to cheeks, jawline, forehead, and neck contours.",
     "center-head-ar": "5 تقنيات تجميلية متطورة في جهاز واحد مدمج<br>شد، ونحت، وتغلغل عميق للسيروم بعناية فائقة<br>رأس تدليك منحني بانسيابية ليتطابق بدقة مع زوايا الخدين، خط الفك، الجبين، ومنطقة الرقبة.",
@@ -85,8 +85,8 @@ p_ems = {
     "table-rows-en": "Row 1: ⚡️ 5-in-1 Multi-Technology | Zelmiqo (✓ EMS, 3x LED, Heat & Vibration) | Generic Wands (✕ Single vibration only)\nRow 2: 🌡️ Safe 42°C Thermal Control | Zelmiqo (✓ Built-in temperature sensor) | Generic Wands (✕ Overheats or no warming)\nRow 3: 🔴 Triple Phototherapy | Zelmiqo (✓ Pure 630nm/470nm/590nm LEDs) | Generic Wands (✕ Weak aesthetic colored bulbs)\nRow 4: 🔋 Rechargeable Battery Life | Zelmiqo (✓ Up to 15 sessions per charge) | Generic Wands (✕ Needs disposable batteries)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Wands (✕ Weeks of unverified transit)",
     "table-rows-ar": "الصف 1: ⚡️ 5 تقنيات في جهاز واحد | جهاز زيلميكو (✓ نبضات EMS، 3 ألوان LED، تدفئة واهتزاز) | الأجهزة العادية (✕ اهتزاز سطحي بسيط فقط)\nالصف 2: 🌡️ تحكم حراري آمن 42° | جهاز زيلميكو (✓ حساس ذكي يمنع ارتفاع الحرارة) | الأجهزة العادية (✕ حرارة غير مستقرة أو بدون تدفئة)\nالصف 3: 🔴 علاج ضوئي ثلاثي نقي | جهاز زيلميكو (✓ أطوال موجية علاجية دقيقة للبشرة) | الأجهزة العادية (✕ لمبات ملونة بدون أي تأثير علاجي)\nالصف 4: 🔋 بطارية تدوم طويلاً | جهاز زيلميكو (✓ حتى 15 جلسة متتالية بالشحنة الواحدة) | الأجهزة العادية (✕ بطاريات عادية تفرغ بسرعة)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة العادية (✕ شحن بطيء لأسابيع دون ضمان)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Skincare Transformations Across Saudi Arabia<br>Read verified reviews from clients who rejuvenated their daily self-care rituals.",
     "cust-head-ar": "تجارب عميلاتنا المعتمدة<br>نتائج حقيقية وتألق يومي لسيدات في مختلف مدن المملكة<br>آراء موثقة لعميلات استعدن نضارة وشد بشرتهن مع جهاز زيلميكو المتطور.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 142 Verified Purchases across Saudi Arabia)<br>96% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -96,7 +96,7 @@ p_ems = {
     "seo-title-en": "5-in-1 EMS Skin Tightening Massager with LED Light Therapy | Zelmiqo® KSA",
     "seo-title-ar": "جهاز شد ونحت الوجه 5 في 1 مع مساج EMS وعلاج ضوئي LED | زيلميكو السعودية",
     "seo-desc-en": "Clinic-grade facelift at home with 5-in-1 EMS microcurrent, 42°C heat, and tri-color LED phototherapy. Fast 7–8 days delivery across Saudi Arabia with Tabby and Tamara.",
-    "seo-desc-ar": "شد ونحت فوري للوجه بتقنيات العيادات المتطورة مع نبضات EMS وعلاج ضوئي ثلاثي. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا وضمان 14 يوماً.",
+    "seo-desc-ar": "شد ونحت فوري للوجه بتقنيات العيادات المتطورة مع نبضات EMS وعلاج ضوئي ثلاثي. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة مع تقسيط تابي وتمارا وضمان 7 أيام.",
     "seo-keywords-en": "5 in 1 ems facial massager saudi arabia, microcurrent face lift device ksa, led light therapy wand, skin rejuvenation tool 7-8 days delivery, tabby tamara beauty devices",
     "seo-keywords-ar": "جهاز شد الوجه ems السعودية, جهاز مساج الوجه الضوئي, علاج ضوئي ليد للبشرة, جهاز تحديد الفك, تقسيط تابي وتمارا, متجر زيلميكو توصيل 7-8 ايام"
 }
@@ -127,8 +127,8 @@ p_blackhead = {
 
     "twocol-head-en": "EFFORTLESS PORE EXTRACTION • NO PAIN, NO BLEMISHES<br>Restore Smooth, Silky Facial Texture in Minutes<br>Target clogged pores, excess oil, and impurities without irritation. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "تنظيف مسام احترافي • بدون ألم وبدون علامات<br>استعيدي ملمس بشرتك المخملي والناعم في دقائق<br>تخلصي من انسداد المسام والدهون الزائدة المزعجة بنعومة تامة، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "PRECISION VACUUM PURIFICATION<br>Cleanse Pores Gently Without Squeezing<br>Engineered with constant air pressure technology to protect delicate skin capillaries while extracting deep debris.",
     "center-head-ar": "تقنية شفط دقيقة لتنقية المسام<br>تنظيف آمن يحمي البشرة من الضغط المزعج<br>صُمم بنظام ضغط هواء مستقر يحافظ على الشعيرات الدموية الرقيقة ويزيل الأوساخ العميقة بكفاءة.",
@@ -157,8 +157,8 @@ p_blackhead = {
     "table-rows-en": "Row 1: 🌪️ Safe Calibrated Suction | Zelmiqo (✓ Stable 65kPa max pressure) | Generic Vacuums (✕ Erratic suction bruises skin)\nRow 2: 💡 Smart HD Display | Zelmiqo (✓ Exact suction tier & battery indicator) | Generic Vacuums (✕ Blind buttons, no feedback)\nRow 3: 💎 Medical-Grade Probes | Zelmiqo (✓ 4 smooth skin-friendly nozzles) | Generic Vacuums (✕ Rough, scratchy plastic heads)\nRow 4: 🔋 USB Quick Charge | Zelmiqo (✓ Modern Type-C rechargeable) | Generic Vacuums (✕ Outdated ports, weak battery)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Vacuums (✕ Slow overseas transit with no guarantee)",
     "table-rows-ar": "الصف 1: 🌪️ شفط آمن ومتوازن | جهاز زيلميكو (✓ ضغط ثابت 65 كيلو باسكال يحمي البشرة) | الأجهزة المقلدة (✕ شفط عشوائي يسبب كدمات واحمرار)\nالصف 2: 💡 شاشة رقمية تفاعلية | جهاز زيلميكو (✓ توضح مستوى القوة وحالة البطارية بدقة) | الأجهزة المقلدة (✕ أزرار عمياء بدون أي شاشة عرض)\nالصف 3: 💎 رؤوس طبية آمنة | جهاز زيلميكو (✓ 4 رؤوس ناعمة مصممة بعناية فائقة) | الأجهزة المقلدة (✕ بلاستيك خشن قد يخدش سطح الجلد)\nالصف 4: 🔋 شحن USB سريع | جهاز زيلميكو (✓ منفذ تايب سي حديث وبطارية تدوم طويلاً) | الأجهزة المقلدة (✕ منافذ قديمة وبطارية تفرغ فوراً)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ انتظار أسابيع طويلة دون أي ضمان)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Pore Cleansing Results Across Saudi Arabia<br>Read verified reviews from clients who transformed their T-Zone clarity.",
     "cust-head-ar": "تجارب عميلاتنا المعتمدة<br>نتائج حقيقية ونقاء ملحوظ للمسام في مدن المملكة<br>قصص موثقة لعملاء تخلصوا من الرؤوس السوداء المزعجة وحصلوا على بشرة نقية.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.8 out of 5 Stars (Based on 116 Verified Purchases across Saudi Arabia)<br>95% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -199,8 +199,8 @@ p_comb = {
 
     "twocol-head-en": "ROOT-FOCUSED HAIR WELLNESS • ZERO WASTE, ZERO GREASE<br>A Relaxing 5-Minute Daily Scalp Rejuvenation Therapy<br>Transform your daily hair oiling routine into a luxurious, mess-free scalp massage. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "عناية موجهة لجذور الشعر • بدون هدر وبدون دهون باليدين<br>جلسة مساج يومية مريحة لمدة 5 دقائق لتنشيط الفروة<br>حولي روتين تزييت الشعر التقليدي إلى جلسة استرخاء فاخرة ونظيفة تماماً، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "INNOVATIVE ROLL-ON SCALP DELIVERY SYSTEM<br>Massage, Stimulate, and Nourish in One Step<br>Designed to glide effortlessly through all hair types—curly, straight, fine, or thick—without snagging or pulling.",
     "center-head-ar": "نظام توزيع متطور مع مساج كروي متدحرج<br>تدليك، وتنشيط، وتغذية عميقة في خطوة واحدة<br>ينساب بسلاسة فائقة عبر كافة أنواع الشعر؛ الناعم، الكيرلي، والكثيف دون أي تشابك أو شد للشعر.",
@@ -229,8 +229,8 @@ p_comb = {
     "table-rows-en": "Row 1: 💧 Direct Root Delivery | Zelmiqo (✓ Steel rolling ball teeth directly on scalp) | Traditional Dropper (✕ Drips all over hair lengths & face)\nRow 2: 💆‍♀️ Vibrating Stimulation | Zelmiqo (✓ Calibrated micro-vibrations for follicles) | Traditional Dropper (✕ Zero massage stimulation)\nRow 3: 🧴 Clean & Waste-Free | Zelmiqo (✓ Sealed reservoir, zero messy hands) | Traditional Dropper (✕ Sticky fingers, greasy pillows)\nRow 4: 🧼 Easy to Sanitize | Zelmiqo (✓ Washable medical-grade materials) | Traditional Dropper (✕ Hard to clean glass pipettes)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Traditional Dropper (✕ Unverified transit with no local support)",
     "table-rows-ar": "الصف 1: 💧 وصول مباشر لجذور الشعر | مشط زيلميكو (✓ كرات ستانلس ستيل توزع الزيت على الفروة) | القطارة التقليدية (✕ تسيل الزيوت على الوجه والشعر)\nالصف 2: 💆‍♀️ مساج اهتزازي منشط | مشط زيلميكو (✓ ذبذبات خفيفة تنشط تدفق الدم للبصيلات) | القطارة التقليدية (✕ لا يوجد أي تدليك أو تحفيز)\nالصف 3: 🧴 عناية نظيفة وبدون إهدار | مشط زيلميكو (✓ خزان محكم ويدين نظيفتين تماماً) | القطارة التقليدية (✕ يدين لزجة وزيوت على المفارش)\nالصف 4: 🧼 سهل التنظيف والغسيل | مشط زيلميكو (✓ مواد طبية قابلة للشطف بالماء) | القطارة التقليدية (✕ أنابيب زجاجية صعبة التنظيف)\nالصف 5: 🚚 شحن سريع لكافة المدن | مشط زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | القطارة التقليدية (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Scalp & Hair Density Journeys Across Saudi Arabia<br>Read verified reviews from clients who transformed their hair wellness rituals.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>نتائج حقيقية وكثافة شعر ملحوظة في مختلف مدن المملكة<br>قصص موثقة لعملاء وعميلات استمتعوا بروتين تزييت نظيف وسريع ونمو شعر صحي.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 134 Verified Purchases across Saudi Arabia)<br>97% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -271,8 +271,8 @@ p_scrubber = {
 
     "twocol-head-en": "SPA-GRADE FACIAL AT HOME • WATER-POWERED CLEANSING<br>Reveal Fresh, Glowing Skin in a Simple 10-Minute Ritual<br>Cleanse, infuse nutrients, and tone your facial contours with three versatile modes. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "جلسة سبا منزلية متكاملة • تنظيف بقوة رذاذ الماء<br>اكشفي عن نضارة بشرتك الطبيعية بروتين سهل في 10 دقائق<br>تنظيف مسام، وتغذية سيروم عميقة، وشد لمحيط الوجه بثلاثة أوضاع ذكية، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "3 MULTI-FUNCTIONAL BEAUTY MODES<br>Deep Ultrasonic Cleanse, Nutrient Infusion & EMS Lift<br>Ergonomic stainless steel spatula curves naturally along nose bridges, forehead, and cheekbones.",
     "center-head-ar": "3 أوضاع تجميلية ذكية في جهاز واحد<br>تنظيف فائق، امتصاص مضاعف، وشد نبضات EMS<br>رأس شفرة ستانلس ستيل منحني بعناية ليتطابق مع انحناءات جسر الأنف والجبين والوجنتين.",
@@ -301,8 +301,8 @@ p_scrubber = {
     "table-rows-en": "Row 1: 🌊 Real 24kHz Ultrasonic Output | Zelmiqo (✓ Genuine sonic water atomization) | Generic Scrapers (✕ Fake vibration motor with zero peeling)\nRow 2: ➕ Dual Ionic Technology | Zelmiqo (✓ Dedicated Ion+ and Ion- circuits) | Generic Scrapers (✕ Passive metal strip with no ions)\nRow 3: 💎 Medical 304 Stainless Steel | Zelmiqo (✓ Hypoallergenic, smooth curved blade) | Generic Scrapers (✕ Cheap metal that rusts or scratches)\nRow 4: 🔋 USB Quick Charge Battery | Zelmiqo (✓ Long-lasting lithium battery) | Generic Scrapers (✕ Weak battery dies mid-session)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Scrapers (✕ Weeks of slow unverified shipping)",
     "table-rows-ar": "الصف 1: 🌊 تردد صوتي حقيقي 24,000 هرتز | جهاز زيلميكو (✓ تفتيت رذاذ ماء حقيقي وتقشير فعال) | المكاشط المقلدة (✕ محرك اهتزاز عادي بدون أي تقشير صوتي)\nالصف 2: ➕ تقنية أيونات مزدوجة | جهاز زيلميكو (✓ دارة أيونية متطورة Ion+ و Ion-) | المكاشط المقلدة (✕ قطعة معدن عادية بدون أي شحنات أيونية)\nالصف 3: 💎 ستانلس ستيل طبي 304 | جهاز زيلميكو (✓ شفرة مصقولة ناعمة ومضادة للحساسية) | المكاشط المقلدة (✕ معدن رديء قد يصدأ أو يخدش البشرة)\nالصف 4: 🔋 شحن USB سريع وموثوق | جهاز زيلميكو (✓ بطارية ليثيوم تدوم لعدة جلسات متتالية) | المكاشط المقلدة (✕ بطارية ضعيفة تفرغ في منتصف الجلسة)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | المكاشط المقلدة (✕ شحن بطيء لأسابيع دون أي ضمان محلي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Ultrasonic Skin Peeling Results Across Saudi Arabia<br>Read verified reviews from clients who achieved radiant glass skin at home.",
     "cust-head-ar": "تجارب عميلاتنا المعتمدة<br>نتائج حقيقية وبشرة زجاجية نضرة لسيدات في مدن المملكة<br>قصص موثقة لعميلات تخلصن من بهتان البشرة والقشور واستمتعن بنعومة فائقة.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 129 Verified Purchases across Saudi Arabia)<br>96% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",

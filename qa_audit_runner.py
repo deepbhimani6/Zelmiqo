@@ -111,7 +111,7 @@ KSA_VALUE_PROPS = {
     'Apple Pay / أبل باي': [r'Apple Pay', r'أبل باي'],
     'Tabby Installments / تابي': [r'Tabby', r'تابي'],
     'Tamara Installments / تمارا': [r'Tamara', r'تمارا'],
-    '14-Day Golden Guarantee / الضمان الذهبي': [r'Golden Guarantee', r'الضمان الذهبي', r'14-Day', r'14\s*يوم'],
+    '7-Day Golden Guarantee / الضمان الذهبي': [r'Golden Guarantee', r'الضمان الذهبي', r'7-Day', r'7\s*أيام'],
     'Cash on Delivery / الدفع عند الاستلام': [r'Cash on Delivery', r'COD', r'الدفع عند الاستلام'],
     'SAR Currency / ر.س': [r'SAR', r'ر\.س']
 }

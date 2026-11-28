@@ -95,8 +95,8 @@ new english content: 🚚 Express Domestic Delivery: 100% Free shipping across a
 new arabic content: 🚚 توصيل محلي سريع ومجاني: شحن مجاني 100% لكافة مدن ومناطق المملكة، ينطلق مباشرة من الرياض خلال 24-48 ساعة عبر سمسا وأرامكس.
 
 Pillar 2: 100% Golden Guarantee & Easy Returns:
-new english content: 🛡️ Golden 14-Day Replacement Guarantee: Complete peace of mind with 14-day direct replacements and a 1-year product warranty.
-new arabic content: 🛡️ الضمان الذهبي والاستبدال السهل: تسوق بثقة تامة مع ضمان الاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل.
+new english content: 🛡️ Golden 7-Day Replacement Guarantee: Complete peace of mind with 7-day direct replacements and a 1-year product warranty.
+new arabic content: 🛡️ الضمان الذهبي والاستبدال السهل: تسوق بثقة تامة مع ضمان الاستبدال الفوري خلال 7 أيام وضمان شامل لمدة عام كامل.
 
 Pillar 3: Safe Checkout & Flexible Installments:
 new english content: 💳 Certified Secure Payments: Pay securely via Mada, Apple Pay, Cash on Delivery, or split your purchase into 4 monthly interest-free payments with Tabby and Tamara.
@@ -238,8 +238,8 @@ new english content: ⚡️ Express 24-48h Domestic Dispatch from Riyadh
 new arabic content: ⚡️ شحن محلي سريع خلال 24-48 ساعة من مستودعات الرياض
 
 Item 2: Golden Guarantee:
-new english content: 🛡️ Golden 14-Day Replacement Guarantee
-new arabic content: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً
+new english content: 🛡️ Golden 7-Day Replacement Guarantee
+new arabic content: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام
 
 Item 3: Installments:
 new english content: 💳 Split in 4 Interest-Free Payments with Tabby & Tamara

@@ -71,7 +71,7 @@ Zelmiqo® AeroBreeze Pro Bladeless Neck Fan with Smart Digital LED Display
 Social Proof & Scarcity Badges:
 • Badge 1: 🔥 #1 Summer Essential in Saudi Arabia (Over 3,400 Units Shipped)
 • Badge 2: ⚡️ Express 7-8 days Domestic Dispatch from Riyadh
-• Badge 3: 🛡️ Golden 14-Day Direct Replacement Guarantee
+• Badge 3: 🛡️ Golden 7-Day Direct Replacement Guarantee
 
 Pricing & Flexible Payment Display:
 • Special Promotional Price: SAR 89.00 (Includes 15% VAT)
@@ -84,7 +84,7 @@ Buy Box CTAs:
 
 Value Proposition Ribbon (Directly Below Buy Box):
 • 🚚 Fast Domestic Shipping: Free delivery over SAR 199 across all Saudi provinces (Riyadh & Jeddah in 7-8 days).
-• 🛡️ Golden 14-Day Guarantee: 100% Free Doorstep Replacement for any manufacturing defects.
+• 🛡️ Golden 7-Day Guarantee: 100% Free Doorstep Replacement for any manufacturing defects.
 • ⚡️ 1-Year Comprehensive Warranty: Full internal turbine and lithium battery protection.
 • 💵 Cash on Delivery Available: Pay upon arrival with zero prepayment pressure.
 
@@ -104,7 +104,7 @@ Beat the extreme 48°C Gulf summer heat with hands-free, whisper-quiet personal 
 شارات التميز وإثبات الثقة:
 • الشارة 1: 🔥 الجهاز الأكثر طلباً لصيف المملكة (أكثر من 3,400 طلب تم تسليمه)
 • الشارة 2: ⚡️ شحن محلي سريع خلال 7-8 أيام من مستودعات الرياض
-• الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً
+• الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام
 
 عرض السعر والتقسيط الميسر:
 • سعر العرض الصيفي الخاص: 89.00 ر.س (شامل ضريبة القيمة المضافة 15%)
@@ -117,7 +117,7 @@ Beat the extreme 48°C Gulf summer heat with hands-free, whisper-quiet personal 
 
 شريط مزايا الثقة الفورية (أسفل زر الشراء):
 • 🚚 توصيل محلي سريع وموثوق: شحن مجاني للطلبات فوق 199 ر.س لكافة مدن المملكة (الرياض وجدة 7-8 أيام).
-• 🛡️ الضمان الذهبي 14 يوماً: استبدال فوري مجاني من باب منزلك عند وجود أي عيب مصنعي.
+• 🛡️ الضمان الذهبي 7 أيام: استبدال فوري مجاني من باب منزلك عند وجود أي عيب مصنعي.
 • ⚡️ ضمان صيانة معتمد لمدة عام: حماية شاملة للمحركات التوربينية وخلايا بطارية الليثيوم.
 • 💵 الدفع عند الاستلام متاح: تسوق باطمئنان وادفع نقداً عند استلام شحنتك.
 
@@ -428,7 +428,7 @@ Comparison Table Matrix:
   - Zelmiqo AeroBreeze Pro: Brushless mag-lev motor (<31dB whisper quiet in offices) [GOLD CHECK]
   - Ordinary Handheld Fans: Loud whining motor distracting in mosques, meetings & cafes [GRAY X]
 • Metric 5: Regional Warranty & Support
-  - Zelmiqo AeroBreeze Pro: Golden 14-Day Replacement + 1-Year KSA Warranty (Riyadh Hub) [GOLD CHECK]
+  - Zelmiqo AeroBreeze Pro: Golden 7-Day Replacement + 1-Year KSA Warranty (Riyadh Hub) [GOLD CHECK]
   - Ordinary Handheld Fans: Disposable novelty item; zero local warranty or return policy [GRAY X]
 ```
 
@@ -457,7 +457,7 @@ Comparison Table Matrix:
   - مروحة زيلميكو إيروبريز برو: محرك كهرومغناطيسي بدون فرش هادئ تماماً بأقل من 31 ديسيبل [صح ذهبي]
   - المراوح اليدوية العادية: صوت أزيز مرتفع ومزعج يلفت الأنظار في الاجتماعات والأماكن العامة [خطأ رمادي]
 • المعيار 5: الضمان والدعم المحلي داخل المملكة
-  - مروحة زيلميكو إيروبريز برو: الضمان الذهبي للاستبدال 14 يوماً + ضمان عام كامل من مستودعات الرياض [صح ذهبي]
+  - مروحة زيلميكو إيروبريز برو: الضمان الذهبي للاستبدال 7 أيام + ضمان عام كامل من مستودعات الرياض [صح ذهبي]
   - المراوح اليدوية العادية: منتج تجاري بدون أي وكيل أو ضمان أو خدمات ما بعد البيع [خطأ رمادي]
 ```
 
@@ -480,7 +480,7 @@ Hook 1: ❄️ 360° Arctic Airflow Engineered for 48°C Saudi Heat
 Hook 2: 💇‍♀️ 100% Enclosed Hair-Safe Bladeless Turbines
 Hook 3: 💡 Real-Time Smart Digital LED Battery % Display
 Hook 4: ⚡️ Express 7-8 days Domestic Dispatch from Riyadh Hub
-Hook 5: 🛡️ Golden 14-Day Hassle-Free Direct Replacement Guarantee
+Hook 5: 🛡️ Golden 7-Day Hassle-Free Direct Replacement Guarantee
 Hook 6: 💳 Split into 4 Zero-Interest Installments with Tabby & Tamara
 ```
 
@@ -490,7 +490,7 @@ Hook 6: 💳 Split into 4 Zero-Interest Installments with Tabby & Tamara
 الركيزة 2: 💇‍♀️ محركات توربينية مغلقة خالية من الشفرات وآمنة على الشعر 100%
 الركيزة 3: 💡 شاشة رقمية LED ذكية تعرض النسبة المئوية الدقيقة لطاقة البطارية
 الركيزة 4: ⚡️ شحن محلي سريع من مستودعات الرياض خلال 7-8 أيام لكافة المناطق
-الركيزة 5: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً من باب منزلك مجاناً
+الركيزة 5: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام من باب منزلك مجاناً
 الركيزة 6: 💳 قسّم مشترياتك على 4 دفعات بدون أي فوائد مع تابي وتمارا
 ```
 

@@ -4,27 +4,27 @@
 
 ### 🇬🇧 English SEO Metadata (Search Engine Optimization)
 - **Meta Title** (HTML `<title>` tag):
-  `Golden 14-Day Guarantee & 1-Year Official Warranty | Zelmiqo®`
+  `Golden 7-Day Guarantee & 1-Year Official Warranty | Zelmiqo®`
 - **Meta Description** (HTML `<meta name="description">`):
-  `Shop with peace of mind. 14-day hassle-free replacement/return guarantee and 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.`
+  `Shop with peace of mind. 7-day hassle-free replacement/return guarantee and 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.`
 - **Meta Keywords** (HTML `<meta name="keywords">`):
-  `zelmiqo warranty, golden guarantee 14 days, return policy saudi arabia, 1 year electronics warranty ksa, consumer rights ministry of commerce`
+  `zelmiqo warranty, golden guarantee 7 days, return policy saudi arabia, 1 year electronics warranty ksa, consumer rights ministry of commerce`
 - **Open Graph / Social Media Tags**:
-  - `og:title`: `Golden 14-Day Guarantee & 1-Year Official Warranty | Zelmiqo®`
-  - `og:description`: `Shop with peace of mind. 14-day hassle-free replacement/return guarantee and 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.`
+  - `og:title`: `Golden 7-Day Guarantee & 1-Year Official Warranty | Zelmiqo®`
+  - `og:description`: `Shop with peace of mind. 7-day hassle-free replacement/return guarantee and 1-year electrical device warranty compliant with Saudi Ministry of Commerce standards.`
   - `og:type`: `website`
   - `og:locale`: `en_US` (Alternate: `ar_SA`)
 
 ### 🇸🇦 Arabic SEO Metadata (بيانات الميتا وتحسين محركات البحث بالعربية لمتصفحي السعودية)
 - **عنوان الصفحة (Meta Title)**:
-  `الضمان الذهبي وسياسة الاسترجاع والاستبدال خلال 14 يوماً | زيلميكو®`
+  `الضمان الذهبي وسياسة الاسترجاع والاستبدال خلال 7 أيام | زيلميكو®`
 - **وصف الصفحة (Meta Description)**:
-  `تسوق باطمئنان تام. نوفر لك الضمان الذهبي للاستبدال والاسترجاع خلال 14 يوماً بكل سهولة، مع ضمان شامل لمدة عام كامل على كافة الأجهزة وفق أنظمة وزارة التجارة السعودية.`
+  `تسوق باطمئنان تام. نوفر لك الضمان الذهبي للاستبدال والاسترجاع خلال 7 أيام بكل سهولة، مع ضمان شامل لمدة عام كامل على كافة الأجهزة وفق أنظمة وزارة التجارة السعودية.`
 - **الكلمات المفتاحية (Meta Keywords)**:
   `الضمان الذهبي زيلميكو, سياسة الاسترجاع والاستبدال, ضمان الأجهزة الإلكترونية, حماية المستهلك وزارة التجارة, استرجاع مجاني`
 - **وسوم التواصل الاجتماعي (Open Graph Tags)**:
-  - `og:title`: `الضمان الذهبي وسياسة الاسترجاع والاستبدال خلال 14 يوماً | زيلميكو®`
-  - `og:description`: `تسوق باطمئنان تام. نوفر لك الضمان الذهبي للاستبدال والاسترجاع خلال 14 يوماً بكل سهولة، مع ضمان شامل لمدة عام كامل على كافة الأجهزة وفق أنظمة وزارة التجارة السعودية.`
+  - `og:title`: `الضمان الذهبي وسياسة الاسترجاع والاستبدال خلال 7 أيام | زيلميكو®`
+  - `og:description`: `تسوق باطمئنان تام. نوفر لك الضمان الذهبي للاستبدال والاسترجاع خلال 7 أيام بكل سهولة، مع ضمان شامل لمدة عام كامل على كافة الأجهزة وفق أنظمة وزارة التجارة السعودية.`
   - `og:type`: `website`
   - `og:locale`: `ar_SA` (Alternate: `en_US`)
 ---
@@ -35,7 +35,7 @@
 > **Live Page URL**: `https://zelmiqo.com/page/warranty`  
 > **Brand Identity**: Zelmiqo (زيلميكو) — International Smart Living Series  
 > **Compliance**: Ministry of Commerce Regulations (وزارة التجارة بالمملكة العربية السعودية)  
-> **Coverage**: 1-Year Comprehensive Warranty & 14-Day Golden Replacement Guarantee
+> **Coverage**: 1-Year Comprehensive Warranty & 7-Day Golden Replacement Guarantee
 
 ---
 
@@ -57,8 +57,8 @@ new english content: The Zelmiqo® Golden Guarantee: Uncompromising Quality & Fu
 new arabic content: الضمان الذهبي من زيلميكو®: جودة عالمية موثوقة وحماية شاملة داخل المملكة
 
 Subheadline:
-new english content: Certified compliance with Saudi consumer standards. 14-day instant replacement and 1-year warranty on all flagship smart living electronics.
-new arabic content: متوافق مع معايير وزارة التجارة السعودية. استبدال فوري خلال 14 يوماً وضمان شامل لمدة عام كامل على جميع الأجهزة الذكية.
+new english content: Certified compliance with Saudi consumer standards. 7-day instant replacement and 1-year warranty on all flagship smart living electronics.
+new arabic content: متوافق مع معايير وزارة التجارة السعودية. استبدال فوري خلال 7 أيام وضمان شامل لمدة عام كامل على جميع الأجهزة الذكية.
 
 Policy Statement:
 new english content: Every authentic Zelmiqo device is engineered to international durability benchmarks. We proudly stand behind our products with our customer-centric Golden Guarantee across the Kingdom of Saudi Arabia, UAE, and Gulf countries, ensuring effortless after-sales support, rapid local inspection, and immediate replacements for manufacturing defects.
@@ -67,7 +67,7 @@ new arabic content: صُممت جميع أجهزة زيلميكو الأصلية
 
 ---
 
-## 2. General Warranty Provisions & 14-Day Golden Guarantee (أحكام الضمان والاستبدال)
+## 2. General Warranty Provisions & 7-Day Golden Guarantee (أحكام الضمان والاستبدال)
 
 ### Old English Content
 ```text
@@ -86,11 +86,11 @@ General Warranty Provisions
 
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
-The 14-Day Golden Replacement Guarantee:
-new english content: • 14-Day Direct Replacement: If your Zelmiqo device experiences any factory defect, charging malfunction, or performance anomaly within 14 days of receipt, we arrange free courier pickup and issue a brand-new replacement immediately without repair delays.
+The 7-Day Golden Replacement Guarantee:
+new english content: • 7-Day Direct Replacement: If your Zelmiqo device experiences any factory defect, charging malfunction, or performance anomaly within 7 days of receipt, we arrange free courier pickup and issue a brand-new replacement immediately without repair delays.
 • 1-Year Comprehensive Warranty: All electronics, motors, cooling turbines, and heating elements are protected against internal component failure for a full 12 months.
 • Zero Complications: Simply provide your order number or registered Saudi mobile number via WhatsApp to initiate service.
-new arabic content: • الضمان الذهبي للاستبدال الفوري (14 يوماً): في حال واجهت أي خلل مصنعي أو عيب في الأداء خلال 14 يوماً من استلام المنتج، نقوم باستلام الجهاز من باب منزلك مجاناً واستبداله بمنتج جديد فوراً دون انتظار إجراءات الصيانة الطويلة.
+new arabic content: • الضمان الذهبي للاستبدال الفوري (7 أيام): في حال واجهت أي خلل مصنعي أو عيب في الأداء خلال 7 أيام من استلام المنتج، نقوم باستلام الجهاز من باب منزلك مجاناً واستبداله بمنتج جديد فوراً دون انتظار إجراءات الصيانة الطويلة.
 • ضمان صيانة واستبدال لمدة عام كامل: نضمن المحركات، التوربينات، الدوائر الكهربائية، وعناصر التسخين ضد العيوب المصنعية لمدة 12 شهراً.
 • إجراءات ميسرة بدون تعقيد: يكفيك تزويدنا برقم الطلب أو رقم الجوال المسجل عبر الواتساب لبدء طلب الضمان مباشرة.
 ```
@@ -114,10 +114,10 @@ A depreciation rate of 5% per month is applied from the date of purchase, and th
 ```text
 Service & Resolution Timelines:
 new english content: • Domestic Doorstep Pickup: We send a courier to collect the item directly from your address within 24 to 48 hours of your warranty request anywhere in Saudi Arabia.
-• 3-Business-Day Resolution: Devices are inspected by certified technicians within 3 business days of warehouse arrival, followed by immediate shipment of a replacement unit.
+• 7-Day Resolution: Devices are inspected by certified technicians within 7 days of warehouse arrival, followed by immediate shipment of a replacement unit.
 • Fair Value Assurance: Full 100% refund or replacement within the Golden Guarantee window, in strict accordance with the Saudi Ministry of Commerce consumer protection charters.
 new arabic content: • استلام فوري من باب منزلك: نرسل مندوب شركة الشحن لاستلام الجهاز من عنوانك خلال 24 إلى 48 ساعة في أي مدينة داخل المملكة.
-• معالجة سريعة خلال 3 أيام عمل: يتم فحص الجهاز فور وصوله والتأكد من العيب الفني، وإصدار أمر الاستبدال أو الاسترجاع المباشر دون تأخير.
+• معالجة سريعة خلال 7 أيام: يتم فحص الجهاز فور وصوله والتأكد من العيب الفني، وإصدار أمر الاستبدال أو الاسترجاع المباشر دون تأخير.
 • ضمان حقوق المستهلك: استرجاع كامل 100% أو استبدال فوري دون أي خصومات ضمن فترة الضمان الذهبي، التزاماً بلائحة حماية المستهلك المعتمدة في المملكة.
 ```
 

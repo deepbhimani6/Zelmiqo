@@ -52,8 +52,8 @@ p_6blade = {
 
     "twocol-head-en": "FRESH BLENDING ON DEMAND • COMPACT & POWERFUL<br>Enjoy Fresh, Silky Smoothies Wherever Life Takes You<br>Upgrade your daily breakfast and post-workout nutrition with one-button effortless blending. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "عصائر طازجة بضغطة زر • قوة وسهولة تنقل فائقة<br>استمتع بقوام سموذي مخملي ومنعش أينما كنت<br>طور روتين فطورك الصباحي ومشروبات النادي الرياضي بكل راحة ودون الحاجة لخلاطات المطبخ الكبيرة، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "PRECISION 6-BLADE VORTEX EXTRACTION<br>22,000 RPM Speed with Magnetic Safety Interlock<br>Smart safety sensors prevent blades from spinning unless the cup is locked tightly into position.",
     "center-head-ar": "خلط توربيني فائق بـ 6 شفرات مسننة<br>سرعة 22,000 دورة بالدقيقة مع قفل أمان مغناطيسي<br>حساسات أمان ذكية تمنع دوران الشفرات نهائياً ما لم يكن الكوب مغلقاً ومثبتاً بإحكام على القاعدة.",
@@ -82,8 +82,8 @@ p_6blade = {
     "table-rows-en": "Row 1: 🌪️ 6 Serrated Steel Blades | Zelmiqo (✓ 304 stainless blades crush ice & berries) | Generic Blenders (✕ 2 dull flat blades that jam on ice)\nRow 2: ⚡️ 22,000 RPM High Torque | Zelmiqo (✓ Pure copper motor blends in 30 sec) | Generic Blenders (✕ Weak motor stalls under thick ingredients)\nRow 3: 🍼 Food-Grade Tritan Cup | Zelmiqo (✓ Shatterproof & 100% BPA-free) | Generic Blenders (✕ Toxic cheap plastic that cracks and smells)\nRow 4: 🔋 4,000mAh Battery Capacity | Zelmiqo (✓ 15 blending cycles on single charge) | Generic Blenders (✕ Dies after 2-3 weak blends)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Weeks of unverified slow shipping)",
     "table-rows-ar": "الصف 1: 🌪️ 6 شفرات مسننة فولاذية | خلاط زيلميكو (✓ ستانلس ستيل 304 يسحق الثلج والفواكه) | الخلاطات العادية (✕ شفرتان مسطحتان تتعطلان مع الثلج)\nالصف 2: ⚡️ سرعة 22,000 دورة بالدقيقة | خلاط زيلميكو (✓ محرك نحاسي يخلط بكفاءة في 30 ثانية) | الخلاطات العادية (✕ محرك ضعيف يتوقف عند خلط الفواكه)\nالصف 3: 🍼 كأس تريتان غذائي آمن | خلاط زيلميكو (✓ مقاوم للكسر وخالٍ من BPA بنسبة 100%) | الخلاطات العادية (✕ بلاستيك رديء يتشقق وتظهر له روائح)\nالصف 4: 🔋 بطارية ضخمة 4000 مللي أمبير | خلاط زيلميكو (✓ تكفي لتحضير 15 كوباً بالشحنة الواحدة) | الخلاطات العادية (✕ تفرغ بطاريتها بعد كوبين أو ثلاثة فقط)\nالصف 5: 🚚 شحن سريع لكافة المدن | خلاط زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ شحن بطيء لأسابيع دون ضمان محلي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Smoothie & Fresh Juice Stories Across Saudi Arabia<br>Read verified reviews from gym-goers, parents, and busy commuters.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص انتعاش حقيقية لعشاق العصائر والرياضيين في مدن المملكة<br>تقييمات موثقة لعملاء استمتعوا بعصائر طازجة وسموذي بروتين يومي في النادي والدوام.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 176 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -124,8 +124,8 @@ p_doublecup = {
 
     "twocol-head-en": "2-IN-1 PORTABLE BLENDER • DUAL BOTTLE FREEDOM<br>Blend Delicious Fresh Drinks for Two in Under a Minute<br>Enjoy complete versatility with dual Tritan bottles engineered for modern active lifestyles. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "خلاط 2 في 1 متنقل • حرية الكوب المزدوج<br>اصنع مشروبات طازجة ولذيذة لشخصين في أقل من دقيقة<br>تمتع بأقصى درجات المرونة مع كوبين من التريتان الصحي صُمما ليناسبا نمط حياتك اليومي النشط، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "DUAL CUP MODULAR EXTRACTION SYSTEM<br>One Motor Base Powers Two Travel Bottles<br>Equipped with leak-proof silicone gaskets and micro-switch safety interlocks for effortless on-the-go blending.",
     "center-head-ar": "نظام خلط تركيبي مزدوج الكؤوس<br>قاعدة محرك واحدة تشغل كوبين متنقلين بكفاءة<br>مزود بحلقات سيليكونية مانعة للتسرب وقفل أمان ذكي لخلط آمن وسلس في أي وقت ومكان.",
@@ -154,8 +154,8 @@ p_doublecup = {
     "table-rows-en": "Row 1: 🥤 2 Travel Bottles Included | Zelmiqo (✓ Two complete Tritan cups & sports lids) | Standard Blenders (✕ Single cup only, must wash constantly)\nRow 2: 🌪️ 6 Serrated 3D Blades | Zelmiqo (✓ Crushes ice & frozen fruits smoothly) | Standard Blenders (✕ 2-4 dull blades that jam on ice)\nRow 3: 🔋 4,000mAh Battery Capacity | Zelmiqo (✓ 18 blending cycles per charge) | Standard Blenders (✕ Weak 1,200mAh battery dies fast)\nRow 4: 🍼 100% BPA-Free Tritan | Zelmiqo (✓ Food-grade baby-safe material) | Standard Blenders (✕ Cheap cloudy plastic that stains)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified overseas slow transit without warranty)",
     "table-rows-ar": "الصف 1: 🥤 كوبان متنقلان مشمولان | خلاط زيلميكو (✓ كأسان كاملان من التريتان مع أغطية شرب) | الخلاطات العادية (✕ كأس واحد يتطلب الغسيل المستمر)\nالصف 2: 🌪️ 6 شفرات مسننة 3D | خلاط زيلميكو (✓ سحق متقن للثلج والفواكه المجمدة) | الخلاطات العادية (✕ شفرات ضعيفة تعلق مع التمر والثلج)\nالصف 3: 🔋 بطارية ضخمة 4000 مللي أمبير | خلاط زيلميكو (✓ تكفي لتحضير 18 كوباً بالشحنة الواحدة) | الخلاطات العادية (✕ بطارية 1200 مللي أمبير تفرغ بسرعة)\nالصف 4: 🍼 تريتان صحي 100% خالٍ من BPA | خلاط زيلميكو (✓ خامات غذائية نقية وآمنة للأطفال) | الخلاطات العادية (✕ بلاستيك رديء يتصبغ بالروائح)\nالصف 5: 🚚 شحن سريع لكافة المدن | خلاط زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Dual-Cup Experiences Across Saudi Arabia<br>Read verified reviews from couples, roommates, and busy fitness enthusiasts.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص نجاح حقيقية لأزواج ورياضيين في مختلف مدن المملكة<br>تقييمات موثقة لعملاء وفروا وقتهم واستمتعوا بكوبين من العصير الطازج معاً كل صباح.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.8 out of 5 Stars (Based on 138 Verified Purchases across Saudi Arabia)<br>97% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -196,8 +196,8 @@ p_citrus = {
 
     "twocol-head-en": "ONE-TOUCH AUTOMATIC SQUEEZING • PURE VITAMIN C<br>Fresh Citrus Juice Extracted to the Last Drop<br>Enjoy pure nutrition with zero effort and zero sticky hands. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "عصر أوتوماتيكي بلمسة واحدة • فيتامين C نقي وطبيعي<br>استخلاص كامل لكل قطرة عصير بدون أي إهدار<br>تمتع بعصير حمضيات طبيعي وصحي لك ولأطفالك بدون أي مجهود وبدون تلويث يديك، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "360° ROTATING SLOW-MASTICATING EXTRACTOR<br>High-Torque Motor Presses Pure Juice Without Pulp Waste<br>Features a flip-up anti-drip juice spout so you can fill glasses directly or store juice in the chamber.",
     "center-head-ar": "عصر بطيء 360° يحافظ على كامل الفيتامينات<br>محرك عزم قوي يستخلص العصير النقي دون إهدار اللب<br>مزودة بصنبور مانع للتنقيط قابل للإغلاق لتعبئة الكؤوس مباشرة أو حبس العصير داخل الوعاء.",
@@ -226,8 +226,8 @@ p_citrus = {
     "table-rows-en": "Row 1: ⚡️ One-Touch Electric Press | Zelmiqo (✓ Fully automated motorized hands-free squeezing) | Manual Squeezers (✕ Exhausting arm strain, slips on counter)\nRow 2: 🍊 95% Juice Extraction Rate | Zelmiqo (✓ Presses pulp completely dry with zero waste) | Manual Squeezers (✕ Leaves half the juice trapped in rind)\nRow 3: 🔋 Wireless Rechargeable | Zelmiqo (✓ Cordless freedom for kitchen, patio, or camping) | Corded Juicers (✕ Bound to wall outlets, bulky and heavy)\nRow 4: 🧼 Quick Detachable Rinse | Zelmiqo (✓ 3 parts disassemble and rinse in 10 seconds) | Heavy Juicers (✕ Dozens of sharp parts hard to scrub)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified slow transit with no local warranty)",
     "table-rows-ar": "الصف 1: ⚡️ عصر أوتوماتيكي بلمسة زر | عصارة زيلميكو (✓ محرك كهربائي يعصر الفاكهة بالكامل دون تعب) | العصارة اليدوية (✕ إجهاد شديد لليد والمعصم وتنزلق من الطاولة)\nالصف 2: 🍊 استخلاص 95% من العصير | عصارة زيلميكو (✓ تفرغ فصوص الفاكهة تماماً وتترك القشر جافاً) | العصارة اليدوية (✕ تترك نصف كمية العصير عالقاً بالقشرة)\nالصف 3: 🔋 لاسلكية قابلة للشحن | عصارة زيلميكو (✓ حرية تنقل كاملة للمطبخ، الحديقة، أو الكشتة) | العصارات السلكية (✕ مقيدة بمقبس الجدار وثقيلة الوزن)\nالصف 4: 🧼 فك وغسيل في 10 ثوانٍ | عصارة زيلميكو (✓ 3 أجزاء تنفك وتُشطف بالماء الجاري سريعاً) | العصارات الضخمة (✕ قطع حادة ومعقدة يصعب تنظيفها)\nالصف 5: 🚚 شحن سريع لكافة المدن | عصارة زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة العادية (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Fresh Citrus Squeezing Stories Across Saudi Arabia<br>Read verified reviews from families, juice lovers, and desert campers.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص انتعاش حقيقية لعائلات في مختلف مدن المملكة<br>تقييمات موثقة لعملاء استمتعوا بعصير برتقال ورمان طبيعي وصحي كل صباح وبكل سهولة.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 152 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -268,8 +268,8 @@ p_carvac9k = {
 
     "twocol-head-en": "SPOTLESS CABIN COMFORT • CORDLESS FREEDOM<br>Restore Showroom Cleanliness to Your Vehicle in Minutes<br>Tackle desert sand, crumbs, and dust without hunting for power outlets. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "نظافة وأناقة لمقصورة سيارتك • حرية لاسلكية مطلقة<br>استعد لمعان ونظافة وكالة سيارتك في دقائق معدودة<br>تخلص من رمال الرحلات وغبار الجو والفتات اليومي دون الحاجة لتوصيل أسلاك بالولاعة، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "CYCLONIC AIRFLOW & HEPA PURIFICATION<br>High-Torque 120W Motor with Multiple Nozzle Attachments<br>Compact ergonomic grip balances weight effortlessly for reaching under pedals and seats.",
     "center-head-ar": "تدفق هواء إعصاري مع فلترة HEPA دقيقة<br>محرك قوي بقدرة 120 واط مع مجموعة فوهات مخصصة<br>قبضة مريحة وتوزيع وزن متوازن يتيح لك الوصول لأسفل المقاعد ودواسات البنزين بسلاسة.",
@@ -298,8 +298,8 @@ p_carvac9k = {
     "table-rows-en": "Row 1: 🌪️ 9,000Pa Real Suction | Zelmiqo (✓ Easily picks up heavy sand & gravel) | Generic 12V Vacs (✕ Weak 2,000Pa suction barely moves dust)\nRow 2: 🔋 Cordless Lithium Power | Zelmiqo (✓ 30 mins runtime anywhere with zero wires) | Generic 12V Vacs (✕ Tied to cigarette lighter, cord tangles)\nRow 3: 🛡️ Washable HEPA Filter | Zelmiqo (✓ Reusable filtration traps 99.9% dust) | Generic 12V Vacs (✕ Cheap paper filter clogs and blows dust out)\nRow 4: 🎯 Multi-Nozzle System | Zelmiqo (✓ Crevice tool, brush & wide head included) | Generic 12V Vacs (✕ Single flimsy nozzle that snaps)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified slow transit with no local warranty)",
     "table-rows-ar": "الصف 1: 🌪️ شفط حقيقي 9000 باسكال | مكنسة زيلميكو (✓ تسحب الرمال الثقيلة والحصى والفتات) | المكانس العادية (✕ شفط ضعيف 2000 باسكال لا يحرك الغبار)\nالصف 2: 🔋 بطارية لاسلكية قوية | مكنسة زيلميكو (✓ 30 دقيقة تشغيل بدون أي أسلاك مقيدة) | المكانس العادية (✕ مقيدة بسلك ولاعة السيارة المزعج والمعقد)\nالصف 3: 🛡️ فلتر HEPA قابل للغسيل | مكنسة زيلميكو (✓ فلترة دقيقة 99.9% ويُعاد غسيله بالماء) | المكانس العادية (✕ فلتر ورقي رديء يسرب الأتربة لخارج المكنسة)\nالصف 4: 🎯 ملحقات تنظيف متكاملة | مكنسة زيلميكو (✓ فوهة طويلة وفرشاة للمكيف والمقاعد) | المكانس العادية (✕ قطعة بلاستيكية واحدة ضعيفة وسهلة الكسر)\nالصف 5: 🚚 شحن سريع لكافة المدن | مكنسة زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Car Cleaning Stories Across Saudi Arabia<br>Read verified reviews from car owners in Riyadh, Jeddah, and across the Kingdom.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص نظافة حقيقية لسيارات العملاء في مختلف مدن المملكة<br>تقييمات موثقة لسائقين تخلصوا من رمال الرحلات وفتات الأطعمة وحافظوا على نظافة سياراتهم.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 182 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",
@@ -340,8 +340,8 @@ p_provac = {
 
     "twocol-head-en": "PRO DETAILING TECH • VACUUM & BLOW IN ONE<br>Deep Clean Crevices That Normal Vacuums Can't Reach<br>Blast dust out of tight air vents, window tracks, and seams, then suction it clean. Fast 7–8 days delivery across Saudi Arabia.",
     "twocol-head-ar": "تقنية تنظيف احترافية • شفط ونفخ في جهاز واحد<br>نظف أدق الزوايا والمسارات التي تعجز عنها المكانس التقليدية<br>انفخ الأتربة من فتحات المكيف ومسارات الأبواب ثم اشفطها بنقاء فوري، مع توصيل سريع وموثوق خلال 7–8 أيام لكافة مدن المملكة.",
-    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 14-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
-    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 14 يوماً\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
+    "twocol-cards-en": "Card 1: 🚚 Fast 7–8 Days Delivery\nCard 2: 🛡️ 7-Day Golden Guarantee\nCard 3: 💳 Secure Mada & Apple Pay",
+    "twocol-cards-ar": "البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام\nالبطاقة 2: 🛡️ الضمان الذهبي 7 أيام\nالبطاقة 3: 💳 دفع آمن بمدى وأبل باي",
 
     "center-head-en": "DUAL-PORT TURBINE AERODYNAMICS<br>High-Velocity Brushless Core with 6 Pro Detailing Attachments<br>Precision aerospace-grade aluminum turbine fan generates intense suction and blowing velocity.",
     "center-head-ar": "ديناميكية هوائية مزدوجة المنافذ بمحرك توربيني<br>قلب محرك براشلس فائق السرعة مع 6 ملحقات تنظيف احترافية<br>مروحة توربينية من سبائك الألمنيوم تولد قوة شفط ونفخ هوائي جبار بسرعة استثنائية.",
@@ -370,8 +370,8 @@ p_provac = {
     "table-rows-en": "Row 1: 🌪️ 2-in-1 Vacuum + Air Duster | Zelmiqo (✓ Dual-port vacuum suction & 45m/s air blower) | Basic Car Vacs (✕ Weak vacuum only, cannot blow dust)\nRow 2: ⚡️ 75,000 RPM Brushless Motor | Zelmiqo (✓ Aerospace turbine power, zero motor wear) | Basic Car Vacs (✕ Brushed motor that overheats and burns out)\nRow 3: 🛡️ Dual HEPA & Steel Filter | Zelmiqo (✓ Double filtration protects motor from sand) | Basic Car Vacs (✕ Single paper filter that tears easily)\nRow 4: 🎯 6 Detailing Nozzles Included | Zelmiqo (✓ Vacuum heads, air dusters & inflator tips) | Basic Car Vacs (✕ 1-2 cheap plastic tips)\nRow 5: 🚚 Fast KSA Delivery | Zelmiqo (✓ Fast 7–8 days across Saudi Arabia) | Generic Brands (✕ Unverified slow transit with zero return guarantee)",
     "table-rows-ar": "الصف 1: 🌪️ 2 في 1 مكنسة ومنفاخ هواء | جهاز زيلميكو (✓ شفط قوي ونفخ هوائي سريع 45 م/ث) | المكانس العادية (✕ شفط ضعيف فقط ولا يمكنها نفخ الغبار)\nالصف 2: ⚡️ محرك براشلس 75,000 دورة | جهاز زيلميكو (✓ توربين ألمنيوم فائق القوة ولا يسخن) | المكانس العادية (✕ محرك فحمات قديم يسخن وتضعف قوته سريعاً)\nالصف 3: 🛡️ فلترة مزدوجة HEPA وفولاذ | جهاز زيلميكو (✓ حماية ثنائية للمحرك من رمال الصحراء) | المكانس العادية (✕ فلتر ورقي رديء يسد مجرى الهواء)\nالصف 4: 🎯 6 فوهات احترافية متنوعة | جهاز زيلميكو (✓ فوهات للشفط، فوهات للنفخ ومحولات للمسابح) | المكانس العادية (✕ فوهة أو فوهتان من البلاستيك الرديء)\nالصف 5: 🚚 شحن سريع لكافة المدن | جهاز زيلميكو (✓ توصيل خلال 7–8 أيام لكافة مدن المملكة) | الأجهزة المقلدة (✕ شحن بطيء لأسابيع دون ضمان ذهبي)",
 
-    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
-    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
+    "marquee-text-en": "🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada & Apple Pay Checkout",
+    "marquee-text-ar": "🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى وأبل باي",
     "cust-head-en": "OUR HAPPY CUSTOMERS<br>Real Car & Tech Detailing Stories Across Saudi Arabia<br>Read verified reviews from car enthusiasts, developers, and campers.",
     "cust-head-ar": "تجارب عملائنا المعتمدة<br>قصص موثقة من عشاق العناية بالسيارات والتقنية في مدن المملكة<br>تقييمات موثقة لعملاء استمتعوا بتنظيف فتحات المكيف ونفخ الغبار وشفط الفرش بكل سهولة واحترافية.",
     "rev-stats-en": "⭐️⭐️⭐️⭐️⭐️ 4.9 out of 5 Stars (Based on 164 Verified Purchases across Saudi Arabia)<br>98% would recommend to a friend • Fast 7–8 days delivery to Riyadh, Jeddah, Dammam & all Saudi cities.",

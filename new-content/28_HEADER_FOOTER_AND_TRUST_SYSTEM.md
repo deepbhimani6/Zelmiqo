@@ -123,22 +123,22 @@ Copyright:
 ### New Content (Global Luxury Brand • Attractive for Saudi Arabia)
 ```text
 Footer Brand Bio:
-new english content: Zelmiqo (زيلميكو) is an international lifestyle innovation house engineering smart living gadgets, ergonomic cooling tech, and restorative wellness solutions for refined homes worldwide. With dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express domestic delivery, the Golden 14-Day Guarantee, and flexible payment plans across Saudi Arabia.
+new english content: Zelmiqo (زيلميكو) is an international lifestyle innovation house engineering smart living gadgets, ergonomic cooling tech, and restorative wellness solutions for refined homes worldwide. With dedicated regional fulfillment in Riyadh, we ensure world-class standards paired with express domestic delivery, the Golden 7-Day Guarantee, and flexible payment plans across Saudi Arabia.
 new arabic content: زيلميكو (Zelmiqo) دار عالمية لابتكارات أسلوب الحياة العصري، تصمم أحدث الأجهزة الذكية، تقنيات التبريد الشخصي، وحلول العناية والاسترخاء لحياة أكثر راحة وتميزاً. ومن خلال مركز عملياتنا اللوجستي المباشر في الرياض، نضمن لعملائنا في كافة مدن المملكة العربية السعودية أعلى معايير الجودة العالمية، توصيلاً محلياً سريعاً، الضمان الذهبي للاستبدال، وحلول دفع وتقسيط ميسرة.
 
 Trust & Compliance Footer Ribbon:
 new english content: • Commercial Certification: Registered & Certified Saudi E-Commerce Entity (CR No. 1010XXXXXX • Saudi Business Center / Maroof Verified).
 • Tax Compliance: 100% Registered & VAT-Compliant (VAT Reg. 310XXXXXXXX0003 • 15% KSA VAT Included).
-• Golden Guarantee: 14-Day Direct Replacement & 1-Year Official Hardware Warranty.
+• Golden Guarantee: 7-Day Direct Replacement & 1-Year Official Hardware Warranty.
 • Accepted Payment Gateways: Mada, Apple Pay, Visa, Mastercard, Tabby (Split in 4), Tamara (Split in 4), and Cash on Delivery (COD).
 new arabic content: • التوثيق التجاري: كيان تجارة إلكترونية مسجل ومعتمد بالمملكة (سجل تجاري رقم: 1010XXXXXX • موثق لدى المركز السعودي للأعمال ومنصة معروف).
 • الامتثال الضريبي: مسجل رسمياً وخاضع لضريبة القيمة المضافة (الرقم الضريبي: 310XXXXXXXX0003 • الأسعار شاملة 15% ضريبة القيمة المضافة).
-• الضمان الذهبي: استبدال فوري خلال 14 يوماً وضمان صيانة معتمد لمدة عام كامل.
+• الضمان الذهبي: استبدال فوري خلال 7 أيام وضمان صيانة معتمد لمدة عام كامل.
 • بوابات الدفع المعتمدة: بطاقات مدى البنكية، أبل باي، فيزا، ماستركارد، تقسيط تابي على 4 دفعات بدون فوائد، تقسيط تمارا، والدفع نقداً عند الاستلام.
 
 Footer Columns Navigation (أقسام وروابط الفوتر):
 Column 1: Customer Care (خدمة العملاء والمساعدة):
-new english content: • Track Your Order • VIP WhatsApp Concierge (+966) • Delivery Timelines & Fees • Golden 14-Day Replacement Policy
+new english content: • Track Your Order • VIP WhatsApp Concierge (+966) • Delivery Timelines & Fees • Golden 7-Day Replacement Policy
 new arabic content: • تتبع شحنتك • خدمة عملاء VIP عبر الواتساب • مواعيد ورسوم التوصيل • سياسة الضمان الذهبي والاستبدال
 
 Column 2: Policies & Compliance (السياسات والاشتراطات الرسمية):

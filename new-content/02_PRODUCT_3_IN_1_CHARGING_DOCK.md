@@ -77,7 +77,7 @@ Fast Charging Essential (Does Not Include Watch Cable)
 Social Proof & Trust Badges:
 • Badge 1: 🔥 #1 Bestselling Charging Station in Saudi Arabia
 • Badge 2: 🚚 Fast 7–8 Days Delivery Across Saudi Arabia
-• Badge 3: 🛡️ Golden 14-Day Replacement Guarantee
+• Badge 3: 🛡️ Golden 7-Day Replacement Guarantee
 
 Pricing & Flexible Payment Display:
 • Retail Price: SAR 129.00 (Inclusive of 15% VAT)
@@ -95,7 +95,7 @@ Buy Box CTAs:
 
 Value Proposition Ribbon (Directly Below Buy Box):
 • 🚚 Fast Domestic Shipping: Fast 7–8 days delivery across all Saudi provinces.
-• 🛡️ Golden 14-Day Guarantee: 100% Free Doorstep Replacement for any manufacturing defects.
+• 🛡️ Golden 7-Day Guarantee: 100% Free Doorstep Replacement for any manufacturing defects.
 • ⚡️ 1-Year Comprehensive Warranty: Full internal coil and electrical surge protection.
 • 💵 Cash on Delivery Available: Pay upon arrival with zero prepayment pressure.
 
@@ -121,7 +121,7 @@ Consolidate your Apple & Qi-compatible ecosystem into one architecturally refine
 شارات التميز وإثبات الثقة:
 • الشارة 1: 🔥 منصة الشحن الأكثر مبيعاً وطلباً في المملكة
 • الشارة 2: 🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة
-• الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 14 يوماً
+• الشارة 3: 🛡️ الضمان الذهبي للاستبدال الفوري خلال 7 أيام
 
 عرض السعر والتقسيط الميسر:
 • السعر الإجمالي: 129.00 ر.س (شامل ضريبة القيمة المضافة 15%)
@@ -139,7 +139,7 @@ Consolidate your Apple & Qi-compatible ecosystem into one architecturally refine
 
 شريط مزايا الثقة الفورية (أسفل زر الشراء):
 • 🚚 توصيل سريع وموثوق: توصيل خلال 7–8 أيام لكافة مناطق ومدن المملكة.
-• 🛡️ الضمان الذهبي 14 يوماً: استبدال فوري مجاني من باب منزلك عند وجود أي عيب مصنعي.
+• 🛡️ الضمان الذهبي 7 أيام: استبدال فوري مجاني من باب منزلك عند وجود أي عيب مصنعي.
 • ⚡️ ضمان صيانة معتمد لمدة عام: حماية شاملة للدوائر الكهربائية وملفات الشحن اللاسلكي.
 • 💵 الدفع عند الاستلام متاح: تسوق باطمئنان وادفع نقداً عند استلام شحنتك.
 
@@ -248,7 +248,7 @@ ALL-IN-ONE POWER HUB<br>Streamline Your Daily Charging Routine<br>Keep your phon
 
 3 Concise Trust Cards:
 • Card 1: 🚚 Fast 7–8 Days KSA Delivery
-• Card 2: 🛡️ 14-Day Golden Guarantee
+• Card 2: 🛡️ 7-Day Golden Guarantee
 • Card 3: 💳 100% Secure Mada Checkout
 ```
 
@@ -259,7 +259,7 @@ ALL-IN-ONE POWER HUB<br>Streamline Your Daily Charging Routine<br>Keep your phon
 
 3 بطاقات ثقة وضمان موجزة:
 • البطاقة 1: 🚚 توصيل سريع خلال 7–8 أيام
-• البطاقة 2: 🛡️ الضمان الذهبي 14 يوماً
+• البطاقة 2: 🛡️ الضمان الذهبي 7 أيام
 • البطاقة 3: 💳 دفع آمن 100% عبر مدى
 ```
 
@@ -432,13 +432,13 @@ Comparison Table Matrix:
 ### New International English Copy (Luxury D2C • High-Converting)
 ```text
 Continuous Trust Ribbon:
-🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 14-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada Checkout
+🚚 Fast 7–8 Days Delivery Across Saudi Arabia • 🛡️ 7-Day Golden Guarantee • 💳 Split in 4 with Tabby & Tamara • 🔒 100% Secure Mada Checkout
 ```
 
 ### New Authentic Gulf Arabic Copy (فصحى تسويقية سعودية راقية)
 ```text
 شريط الثقة المستمر:
-🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 14 يوماً • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى
+🚚 توصيل سريع خلال 7–8 أيام لكافة مدن المملكة • 🛡️ الضمان الذهبي 7 أيام • 💳 قسّم فاتورتك مع تابي وتمارا • 🔒 دفع آمن 100% عبر مدى
 ```
 
 ### 🛠️ FatherShops CMS Admin Location & Advice:

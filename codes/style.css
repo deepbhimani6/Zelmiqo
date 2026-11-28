@@ -238,6 +238,10 @@ html:not(.route-product-product) .block-content {
   padding-bottom: 0 !important;
 }
 
+.swiper-container {
+  padding-bottom: 5px;
+}
+
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
   pointer-events: none !important;

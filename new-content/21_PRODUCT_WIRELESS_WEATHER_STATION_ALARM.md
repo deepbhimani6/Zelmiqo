@@ -210,8 +210,8 @@ new english content: 1x Authentic Zelmiqo® Device, 1x Certified USB Charging Ca
 new arabic content: 1x جهاز زيلميكو® الأصلي، 1x كابل شحن معتمد، 1x دليل الاستخدام المعتمد، 1x بطاقة الضمان الذهبي للاستبدال الفوري.
 
 Regional Warranty & Assurance:
-new english content: Covered by the Zelmiqo® 14-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
-new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 14 يوماً وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
+new english content: Covered by the Zelmiqo® 7-Day Golden Replacement Guarantee & 1-Year Comprehensive Warranty. Fulfilled domestically across Saudi Arabia.
+new arabic content: مشمول بالضمان الذهبي للاستبدال الفوري خلال 7 أيام وضمان شامل لمدة عام كامل. شحن سريع ومباشر من مستودعات الرياض.
 ```
 
 ---

@@ -4,14 +4,14 @@
 
 ### 🇬🇧 English SEO Metadata
 - **Meta Title**: `R36S Retro Game Console 64GB 15000+ Games | Zelmiqo KSA`
-- **Meta Description**: `Relive 15,000+ retro games with the R36S Handheld Console. Fast 7-8 days delivery across Saudi Arabia. Split in 4 with Tabby or Tamara. 14-day Golden Guarantee!`
+- **Meta Description**: `Relive 15,000+ retro games with the R36S Handheld Console. Fast 7-8 days delivery across Saudi Arabia. Split in 4 with Tabby or Tamara. 7-day Golden Guarantee!`
 - **Meta Keywords**: `r36s handheld game console, r36s retro console saudi arabia, portable retro gaming ksa, 15000 games handheld riyadh, arkos game console, retro pocket game player tabby tamara, zelmiqo r36s console`
 - **Product Tags**: `Retro Gaming, Handheld Console, R36S, 64GB Games, 15000 Games, IPS Screen, Dual Joysticks, Pocket Game Player, Classic Arcade, Portable Gaming, Zelmiqo`
 - **Product URL Slug**: `r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket`
 
 ### 🇸🇦 Arabic SEO Metadata
 - **عنوان الصفحة (Meta Title)**: `جهاز ألعاب الطيبين R36S مع 15,000 لعبة | زيلميكو السعودية`
-- **وصف الصفحة (Meta Description)**: `استعد ذكريات 15,000+ لعبة كلاسيكية مع جهاز R36S المحمول. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة. تقسيط تابي وتمارا مع الضمان الذهبي 14 يوماً من زيلميكو.`
+- **وصف الصفحة (Meta Description)**: `استعد ذكريات 15,000+ لعبة كلاسيكية مع جهاز R36S المحمول. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة. تقسيط تابي وتمارا مع الضمان الذهبي 7 أيام من زيلميكو.`
 - **الكلمات المفتاحية (Meta Keywords)**: `جهاز العاب الطيبين, جهاز r36s المحمول, كمبيوتر العاب الطيبين المتنقل, جهاز العاب كلاسيكية 15000 لعبة, جهاز العاب الطيبين شاشة ips, العاب الطيبين السعودية, جهاز بلايستيشن ون محمول تابي, متجر زيلميكو`
 - **وسوم المنتج (Product Tags)**: `ألعاب الطيبين, جهاز ألعاب محمول, كونسول كلاسيكي, جهاز R36S, ألعاب كلاسيكية, شاشة IPS, ذراع تحكم مزدوج, ألعاب بلايستيشن 1, هدايا شباب, أجهزة ذكية, زيلميكو`
 - **الرابط الدائم (URL Slug)**: `r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket`
@@ -26,7 +26,7 @@
 > **Live Site URL**: `https://zelmiqo.com/products/r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket`  
 > **Target Market**: Kingdom of Saudi Arabia (Riyadh, Jeddah, Dammam, Mecca, Medina, Khobar)  
 > **Fulfillment**: Fast 7–8 Days Delivery Across Saudi Arabia  
-> **Warranty**: 14-Day Golden Guarantee & 1-Year Local Warranty  
+> **Warranty**: 7-Day Golden Guarantee & 1-Year Local Warranty  
 
 ---
 
@@ -53,10 +53,10 @@ R36S Retro Game Console 64GB 15000+ Games | Zelmiqo KSA
 ## 3. Meta Description (Strictly 150–160 Chars)
 
 ### 🇬🇧 English
-Relive 15,000+ retro games with the R36S Handheld Console. Fast 7-8 days delivery across Saudi Arabia. Split in 4 with Tabby or Tamara. 14-day Golden Guarantee!
+Relive 15,000+ retro games with the R36S Handheld Console. Fast 7-8 days delivery across Saudi Arabia. Split in 4 with Tabby or Tamara. 7-day Golden Guarantee!
 
 ### 🇸🇦 Arabic
-استعد ذكريات 15,000+ لعبة كلاسيكية مع جهاز R36S المحمول. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة. تقسيط تابي وتمارا مع الضمان الذهبي 14 يوماً من زيلميكو.
+استعد ذكريات 15,000+ لعبة كلاسيكية مع جهاز R36S المحمول. توصيل سريع خلال 7–8 أيام لكافة مدن المملكة. تقسيط تابي وتمارا مع الضمان الذهبي 7 أيام من زيلميكو.
 
 ---
 
@@ -194,7 +194,7 @@ r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket
 <h2>✨ Timeless Nostalgia. Pure Entertainment.</h2>
 <p><strong>Play &bull; Save &bull; Relive &bull; Travel &bull; Enjoy</strong></p>
 <p>Bring the timeless excitement of arcade classics and childhood memories into your pocket with the <strong>Zelmiqo R36S Retro Handheld Game Console</strong>.</p>
-<p><strong>Fast 7–8 days delivery across Saudi Arabia, 14-day Golden Guarantee, and flexible 4-payment installments with Tabby and Tamara.</strong></p>
+<p><strong>Fast 7–8 days delivery across Saudi Arabia, 7-day Golden Guarantee, and flexible 4-payment installments with Tabby and Tamara.</strong></p>
 ```
 
 ---
@@ -289,4 +289,4 @@ r36s-retro-handheld-game-console-3-5-ipsscreen-64g-15000-games-pocket
 <h2>✨ ذكريات لا تُنسى. ترفيه لا ينتهي.</h2>
 <p><strong>العب &bull; احفظ &bull; استرجع ذكرياتك &bull; سافر &bull; استمتع</strong></p>
 <p>اجعل أوقات فراغك وسفرك عامرة بالحماس مع <strong>جهاز ألعاب الطيبين المحمول R36S من زيلميكو</strong>.</p>
-<p><strong>توصيل سريع خلال 7–8 أيام لكافة مدن المملكة، الضمان الذهبي لمدة 14 يوماً، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.</strong></p>
+<p><strong>توصيل سريع خلال 7–8 أيام لكافة مدن المملكة، الضمان الذهبي لمدة 7 أيام، وتقسيط ميسر على 4 دفعات بدون فوائد عبر تابي وتمارا.</strong></p>
