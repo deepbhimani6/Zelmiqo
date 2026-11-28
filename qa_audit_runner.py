@@ -16,11 +16,8 @@ ASSETS_DIR = os.path.join(PAGES_DIR, 'assets')
 REQUIRED_PAGES = [
     os.path.join('main-html-pages', 'home.html'),
     os.path.join('main-html-pages', 'catalog.html'),
-    os.path.join('main-html-pages', 'about-us.html'),
-    os.path.join('main-html-pages', 'delivery-and-shipping.html'),
-    os.path.join('main-html-pages', 'warranty-and-returns.html'),
+    os.path.join('main-html-pages', 'policy-pages-live-ui.html'),
     os.path.join('main-html-pages', 'contact-us.html'),
-    os.path.join('main-html-pages', 'privacy-and-terms.html'),
     os.path.join('main-html-pages', 'blogs-and-articles.html'),
     os.path.join('main-html-pages', 'header.html'),
     os.path.join('main-html-pages', 'footer.html'),
@@ -210,11 +207,7 @@ def test_4_number_alignment_and_callout_matching():
     pages_to_check = [
         (os.path.join('main-html-pages', 'home.html'), 9, ['Hero 1', 'Hero 2', 'Trust Pillars', 'Categories', 'New Arrivals', 'Mid Banners', 'Trending', 'Testimonials', 'SEO']),
         (os.path.join('main-html-pages', 'catalog.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[SEO]']),
-        (os.path.join('main-html-pages', 'about-us.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        (os.path.join('main-html-pages', 'delivery-and-shipping.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        (os.path.join('main-html-pages', 'warranty-and-returns.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
         (os.path.join('main-html-pages', 'contact-us.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
-        (os.path.join('main-html-pages', 'privacy-and-terms.html'), 7, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]', '[SEO]']),
         (os.path.join('main-html-pages', 'blogs-and-articles.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[SEO]']),
         (os.path.join('main-html-pages', 'header.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]']),
         (os.path.join('main-html-pages', 'footer.html'), 6, ['[1]', '[2]', '[3]', '[4]', '[5]', '[6]'])
@@ -236,11 +229,24 @@ def test_4_number_alignment_and_callout_matching():
             res.fail(f"{filename}: badges mismatch. Expected {expected_badges}, got {badges}")
         else:
             res.pass_msg(f"{filename:30}: {len(cards)} Cards, {len(badges)} Badges ({', '.join(badges)}), {len(pill_links)} Nav Pills matched 1:1")
+
+    # Verify unified policy-pages-live-ui.html contains all 6 redesigned policy sections
+    policy_ui_rel = os.path.join('main-html-pages', 'policy-pages-live-ui.html')
+    policy_ui_path = os.path.join(PAGES_DIR, policy_ui_rel)
+    with open(policy_ui_path, 'r', encoding='utf-8') as f:
+        policy_html = f.read()
+    expected_sections = ['page-about', 'page-delivery', 'page-privacy', 'page-terms', 'page-warranty', 'page-return-refund']
+    missing_sec = [s for s in expected_sections if f'id="{s}"' not in policy_html]
+    if missing_sec:
+        res.fail(f"{policy_ui_rel}: missing unified policy section ids {missing_sec}")
+    else:
+        res.pass_msg(f"{policy_ui_rel:30}: 6 unified live EN+AR policy sections verified ({', '.join(expected_sections)})")
     return res
 
 def get_workstation_pages():
     index_rel = os.path.join('main-html-pages', 'index.html')
-    return [p for p in REQUIRED_PAGES if p not in (index_rel, 'all-pages.html')]
+    policy_rel = os.path.join('main-html-pages', 'policy-pages-live-ui.html')
+    return [p for p in REQUIRED_PAGES if p not in (index_rel, 'all-pages.html', policy_rel)]
 
 def test_5_interactive_elements_and_copy_functions():
     res = TestResult("5. Interactive Workstation Functionality & Copy Buttons")
